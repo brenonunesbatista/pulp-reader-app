@@ -35,6 +35,7 @@ class ReaderBController {
   private textTimer = 0
   highlights: Highlight[] = []
   debugText = false
+  onPage?: (leaf: number, zoom: number) => void
   private els: Els
   private ident: string
   private onError: (m: string) => void
@@ -57,7 +58,8 @@ class ReaderBController {
       const t = performance.now()
       this.pages = await loadManifest(this.ident)
       metrics.set('manifest', `${Math.round(performance.now() - t)} ms, ${this.pages.length} pages`)
-      this.go(startLeaf)
+      // guide leaves can point past the end of a scan (see docs/archive-findings.md §5)
+      this.go(Math.max(0, Math.min(startLeaf, this.pages.length - 1)))
       this.ocr = await loadOcr(this.ident)
       this.scheduleText()
     } catch (e) {
@@ -95,6 +97,7 @@ class ReaderBController {
     this.renderHighlights()
     this.ensureWindow()
     this.scheduleText()
+    this.onPage?.(leaf, this.pz.scale)
   }
 
   private urlFor(leaf: number, kind: Kind) {
@@ -230,7 +233,11 @@ class ReaderBController {
   }
 }
 
-export function ReaderB({ issue, onBack, startLeaf = 0 }: { issue: SpikeIssue; onBack: () => void; startLeaf?: number }) {
+export function ReaderB({ issue, onBack, startLeaf = 0, onPage }: {
+  issue: SpikeIssue; onBack: () => void; startLeaf?: number; onPage?: (leaf: number, zoom: number) => void
+}) {
+  const onPageRef = useRef(onPage)
+  useEffect(() => { onPageRef.current = onPage }, [onPage])
   const viewport = useRef<HTMLDivElement>(null)
   const content = useRef<HTMLDivElement>(null)
   const imgLayer = useRef<HTMLDivElement>(null)
@@ -249,6 +256,7 @@ export function ReaderB({ issue, onBack, startLeaf = 0 }: { issue: SpikeIssue; o
         textLayer: textLayer.current!, label: label.current! },
       issue.id, () => setChrome((v) => !v), setError)
     ctl.current = c
+    c.onPage = (leaf, zoom) => onPageRef.current?.(leaf, zoom)
     c.init(startLeaf)
     const onSel = () => {
       const sel = document.getSelection()
