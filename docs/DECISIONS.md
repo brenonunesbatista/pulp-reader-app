@@ -31,3 +31,25 @@ Known risks / follow-ups:
 - Worn/faint type on old scans (user report) → planned **"Enhance text" toggle** in the reader (Phase 3): per-page
   pre-processing of the decoded image off the main thread (levels/contrast + gamma to darken ink + mild unsharp mask),
   cached per page, so zoom/pan stay at full fps. CSS `filter: contrast()` as a zero-cost fallback.
+
+## 2026-09-30 — Catalog extraction (Phase 1, Part B)
+- **Parser:** PyMuPDF only (spans with color/size/position + link annotations + embedded images); pdfplumber not
+  needed. Pages are rebuilt as position-sorted rows because the PDF content stream is out of order; links are matched
+  to text by rectangle. Adapter: `tools/adapters/amazing_stories.py`; shared model/DB/report in `tools/catalog/`.
+- **Type codes** are FictionMags Index item types (verified at philsp.com); table in `tools/catalog/item_types.py`.
+- **Leaves:** `story.ia_leaf` stores the guide's link leaf as a *hint* (off by 2 in some issues, negative in bound
+  volumes → NULL). Correction via OCR page numbers happens lazily in the app when an issue is opened (Phase 3), not at
+  build time — that would mean downloading ~229 OCR files (~1 GB), i.e. crawling the collection.
+- **Guide errors handled explicitly** (all listed in `docs/catalog-report.md`): May 1931 issue link points to the
+  April item while its stories link to the May scan → story links win; a second "1953 Jan" heading (out of
+  chronological order, probably Dec 1953/Jan 1954) shared the Jan 1953 item → kept with `availability='none'` and no
+  leaves until the real date/item is confirmed.
+- **Availability:** 229 `ia`, 80 `none`, 0 `hathitrust` — the guide has no HathiTrust links in issue entries (only in
+  its legend). The value stays in the schema for other magazines.
+- **Names:** merge only obvious variants (spacing/punctuation/case/accents, titles, degrees); never Jr./Sr.
+  Pseudonym notes ("Eando Binder = Earl Binder & Otto O. Binder") are indexed in `story_fts.authors`, so searching the
+  real name finds the story. Placeholders ("The Readers", "[uncredited]") are notes, not people.
+- **Schema additions** beyond SPEC §3: `issue.slug`, `story_person.raw_name`, `issue_person.raw_name`, `catalog_meta`.
+- **Generated catalog is not committed** (`app/public/catalog/` git-ignored): it is reproducible (byte-identical
+  rebuilds, verified by a test) and derived from a guide marked "not for distribution", while the repo is public.
+  Build it before `npm run build` / `cap sync`. Size: `catalog.db` 2.3 MB, covers 10.7 MB (309 × ~35 kB WebP).

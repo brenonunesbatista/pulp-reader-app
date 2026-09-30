@@ -18,8 +18,10 @@ Capacitor (Android) · Vite · React · TypeScript (strict) · SQLite (`@capacit
 - Android build/run on device: `cd app && npm run build && npx cap sync android && npx cap run android`
   (if `cap run` finds no device: `cd app/android && gradlew assembleDebug` then `adb install -r app/build/outputs/apk/debug/app-debug.apk`)
 - Spike IA probes: `python tools/spike/ia_metadata.py <id>` (then `ia_pages.py`, `ia_ocr.py`, `ia_pagemap.py`, `ia_cors.py`); deps in `tools/spike/requirements.txt`
+- Python setup (once): `python -m venv .venv && .venv\Scripts\pip install -r tools/requirements.txt`
 - Catalog build: `python tools/build_catalog.py --source data/source/Amazing_Stories_Reference_Guide.pdf --out app/public/catalog`
-- Tests: `npm test` (app), `pytest` (tools)
+  (writes `catalog.db` + `covers/*.webp`, both git-ignored, and `docs/catalog-report.md`)
+- Tests: `npm test` (app), `pytest` (tools; run from the repo root — synthetic fixture PDF, real-guide smoke test skipped if the PDF is absent)
 
 ## Working rules
 - Work in the phase requested; don't build later phases early. If something is ambiguous, ask instead of guessing.

@@ -14,6 +14,9 @@ __pycache__/
 # Spike raw downloads (large; summaries live in docs/)
 tools/spike/out/
 
+# Generated catalog (reproducible with tools/build_catalog.py; derived from the "not for distribution" guide)
+app/public/catalog/
+
 # OS / editors
 .DS_Store
 Thumbs.db
