@@ -5,6 +5,8 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [react()],
   server: {
+    // Android build outputs (copies of dist/) must not trigger dev reloads
+    watch: { ignored: ['**/android/**'] },
     proxy: {
       // IA /download/* has no CORS headers; on Android the app uses CapacitorHttp instead (src/spike/http.ts)
       '/ia-download': {
