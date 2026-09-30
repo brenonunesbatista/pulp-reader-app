@@ -13,8 +13,11 @@ Capacitor (Android) · Vite · React · TypeScript (strict) · SQLite (`@capacit
 - `SPEC.md`, `PHASE*_PROMPT.md`
 
 ## Commands (keep this section up to date)
-- App dev in browser: `cd app && npm run dev`
-- Android build/run on device: `cd app && npx cap sync android && npx cap run android`
+- App dev in browser: `cd app && npm run dev` (Vite proxies `/ia-download` → archive.org/download, which has no CORS)
+- Typecheck / lint: `cd app && npm run typecheck && npm run lint`
+- Android build/run on device: `cd app && npm run build && npx cap sync android && npx cap run android`
+  (if `cap run` finds no device: `cd app/android && gradlew assembleDebug` then `adb install -r app/build/outputs/apk/debug/app-debug.apk`)
+- Spike IA probes: `python tools/spike/ia_metadata.py <id>` (then `ia_pages.py`, `ia_ocr.py`, `ia_pagemap.py`, `ia_cors.py`); deps in `tools/spike/requirements.txt`
 - Catalog build: `python tools/build_catalog.py --source data/source/Amazing_Stories_Reference_Guide.pdf --out app/public/catalog`
 - Tests: `npm test` (app), `pytest` (tools)
 
