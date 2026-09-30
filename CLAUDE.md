@@ -40,3 +40,5 @@ Capacitor (Android) · Vite · React · TypeScript (strict) · SQLite (`@capacit
 - Internet Archive access: always send a descriptive `User-Agent`, throttle requests, cache aggressively, never crawl whole collections.
 - Never write secrets or personal data into the repo. Personal use only.
 - Log measurements (timings, sizes, fps) in `docs/`, not just conclusions.
+- Keep `README.md` current: update it in the same commit whenever features, setup/commands, layout or the roadmap
+  status change (at least at the end of every phase).
