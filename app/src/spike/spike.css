@@ -1,0 +1,45 @@
+html, body, #root { margin: 0; height: 100%; }
+body { background: #111; color: #eee; font-family: system-ui, sans-serif; overscroll-behavior: none; }
+#root { width: auto; max-width: none; border: 0; text-align: left; }
+
+.spike-home { padding: 24px; }
+.spike-home table { border-collapse: collapse; }
+.spike-home td { padding: 8px 12px; border-bottom: 1px solid #333; }
+button { font: inherit; padding: 8px 14px; border-radius: 6px; border: 1px solid #555; background: #222; color: #eee; }
+
+.reader { position: fixed; inset: 0; overflow: hidden; background: #111; }
+.viewport { position: absolute; inset: 0; overflow: hidden; }
+.page { position: absolute; left: 0; top: 0; background: #2a2a2a; contain: layout paint; }
+.img-layer, .hl-layer, .ocr-layer { position: absolute; inset: 0; }
+.img-layer > img, .img-layer > canvas { display: block; width: 100%; height: 100%; user-select: none; -webkit-user-drag: none; }
+
+/* highlights */
+.hl-layer { pointer-events: none; }
+.hl-layer > div { position: absolute; background: rgb(255 214 0 / 0.42); mix-blend-mode: multiply; border-radius: 2px; }
+
+/* reader B OCR text layer: transparent but selectable */
+.ocr-layer { font-size: 1px; line-height: 1; color: transparent; white-space: pre; user-select: text; -webkit-user-select: text; }
+.ocr-layer > span { position: absolute; transform-origin: 0 0; white-space: pre; font-family: serif; line-height: 1; cursor: text; }
+.ocr-layer ::selection { background: rgb(0 90 255 / 0.3); color: transparent; }
+.ocr-layer.debug > span { outline: 1px solid rgb(255 0 0 / 0.55); color: rgb(200 0 0 / 0.55); }
+
+/* reader A: minimal pdf.js text layer rules (from pdfjs-dist/web/pdf_viewer.css) */
+.textLayer { position: absolute; inset: 0; overflow: clip; line-height: 1; text-align: initial; transform-origin: 0 0;
+  --min-font-size: 1; --text-scale-factor: calc(var(--total-scale-factor) * var(--min-font-size));
+  --min-font-size-inv: calc(1 / var(--min-font-size)); }
+.textLayer :is(span, br) { color: transparent; position: absolute; white-space: pre; cursor: text; transform-origin: 0% 0%; user-select: text; }
+.textLayer > :not(.markedContent), .textLayer .markedContent span:not(.markedContent) {
+  --font-height: 0; font-size: calc(var(--text-scale-factor) * var(--font-height));
+  --scale-x: 1; --rotate: 0deg; transform: rotate(var(--rotate)) scaleX(var(--scale-x)) scale(var(--min-font-size-inv)); }
+.textLayer .markedContent { display: contents; }
+.textLayer ::selection { background: rgb(0 90 255 / 0.3); color: transparent; }
+
+/* chrome */
+.topbar { position: absolute; left: 0; right: 0; top: 0; display: flex; gap: 10px; align-items: center; flex-wrap: wrap;
+  padding: 8px 12px; background: rgb(20 20 20 / 0.88); transition: transform 150ms ease-out; font-size: 14px; }
+.topbar.hidden { transform: translateY(-110%); }
+.seltoolbar { position: absolute; left: 50%; bottom: 24px; transform: translateX(-50%); display: flex; gap: 8px;
+  padding: 8px; background: #222; border-radius: 10px; box-shadow: 0 4px 16px #0008; }
+.error { position: absolute; left: 12px; bottom: 12px; right: 12px; padding: 12px; background: #600; border-radius: 6px; }
+.metrics { position: absolute; right: 8px; bottom: 8px; margin: 0; padding: 6px 8px; font: 12px/1.35 ui-monospace, monospace;
+  background: rgb(0 0 0 / 0.72); color: #7f7; border-radius: 6px; pointer-events: auto; max-width: 46vw; white-space: pre-wrap; }
