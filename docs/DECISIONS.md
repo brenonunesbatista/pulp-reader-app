@@ -75,3 +75,22 @@ dragging a zoomed page past its left/right edge (rubber band, > 90 px) turns the
   Guide leaves past the end of a scan are clamped to the last page (real fix: OCR page map, Phase 3).
 - **Tests:** `vitest` (Vite-native) for repositories, FTS queries and the navigator; a smoke test runs against the real
   `catalog.db` when it has been built.
+
+## 2026-09-30 — Distribution: stays personal (Play Store blockers noted)
+Not legal advice; a checklist of what would have to be cleared before any public release.
+1. **Magazine copyright (US):** issues published before 1930 are public domain in the US (as of 2026: 1926–1930 is
+   public domain). 1931–1956 issues were protected only if their copyright was *renewed*; many pulp issues were not, but
+   individual stories and cover art may have been renewed separately by their authors/artists (e.g. famous authors).
+   The Internet Archive hosting a scan is not a license. Offline downloads (Phase 4) make the app a copy distributor.
+2. **Catalog source:** the reference guide is marked "WIP not for distribution". Bare facts (titles, authors, dates)
+   are not copyrightable, but the compilation and the cover thumbnails extracted from it are the author's work →
+   needs permission or a rebuild from other sources (e.g. ISFDB / FictionMags data, checking their licences).
+3. **Trademark:** "Amazing Stories" is a live brand again (revived as a magazine in the 2010s); using the name/logo in
+   the store listing or icon could draw a complaint. A neutral app name is safer.
+4. **Internet Archive terms:** access is intended for research/personal use; an app streaming to many users should
+   respect rate limits, send an identifying User-Agent and not be monetized.
+5. **Google Play process:** developer account (one-time fee, identity verification), privacy policy + Data safety form
+   (even with no data collection), current target API level, and for new personal accounts a closed test with a
+   minimum number of testers for 14 days before production.
+Options if publishing is ever wanted: restrict to verified public-domain issues (pre-1930 + confirmed non-renewals),
+own catalog data, neutral branding; or keep distributing privately (sideload / GitHub release APK).
