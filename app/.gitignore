@@ -25,3 +25,6 @@ dist-ssr
 
 # pdf.js runtime assets copied from node_modules (scripts/copy-pdfjs-assets.mjs)
 public/pdfjs/
+
+# copy of public/catalog/catalog.db for @capacitor-community/sqlite (scripts/copy-catalog-db.mjs)
+public/assets/databases/

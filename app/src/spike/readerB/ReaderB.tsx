@@ -228,7 +228,7 @@ class ReaderBController {
   }
 }
 
-export function ReaderB({ issue, onBack }: { issue: SpikeIssue; onBack: () => void }) {
+export function ReaderB({ issue, onBack, startLeaf = 0 }: { issue: SpikeIssue; onBack: () => void; startLeaf?: number }) {
   const viewport = useRef<HTMLDivElement>(null)
   const content = useRef<HTMLDivElement>(null)
   const imgLayer = useRef<HTMLDivElement>(null)
@@ -247,7 +247,7 @@ export function ReaderB({ issue, onBack }: { issue: SpikeIssue; onBack: () => vo
         textLayer: textLayer.current!, label: label.current! },
       issue.id, () => setChrome((v) => !v), setError)
     ctl.current = c
-    c.init(0)
+    c.init(startLeaf)
     const onSel = () => {
       const sel = document.getSelection()
       setHasSel(!!sel && !sel.isCollapsed && !!textLayer.current?.contains(sel.anchorNode))
@@ -263,7 +263,7 @@ export function ReaderB({ issue, onBack }: { issue: SpikeIssue; onBack: () => vo
       window.removeEventListener('keydown', onKey)
       c.destroy()
     }
-  }, [issue.id])
+  }, [issue.id, startLeaf])
 
   return (
     <div className="reader">

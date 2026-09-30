@@ -8,11 +8,12 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "predev": "node scripts/copy-pdfjs-assets.mjs",
-    "prebuild": "node scripts/copy-pdfjs-assets.mjs",
+    "predev": "node scripts/copy-pdfjs-assets.mjs && node scripts/copy-catalog-db.mjs",
+    "prebuild": "node scripts/copy-pdfjs-assets.mjs && node scripts/copy-catalog-db.mjs",
     "typecheck": "tsc -b"
   },
   "dependencies": {
+    "@capacitor-community/sqlite": "^8.1.1",
     "@capacitor/android": "^8.5.2",
     "@capacitor/core": "^8.5.2",
     "pdfjs-dist": "^6.3.289",
