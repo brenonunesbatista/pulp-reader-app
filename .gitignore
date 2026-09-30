@@ -1,0 +1,21 @@
+# Source reference files are "not for distribution" — never commit
+data/source/
+
+# Node / app
+node_modules/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Spike raw downloads (large; summaries live in docs/)
+tools/spike/out/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

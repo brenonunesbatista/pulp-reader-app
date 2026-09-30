@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Pulp Reader</string>
+    <string name="title_activity_main">Pulp Reader</string>
+    <string name="package_name">local.pulpreader</string>
+    <string name="custom_url_scheme">local.pulpreader</string>
+</resources>
