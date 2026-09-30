@@ -99,6 +99,9 @@ pytest                                                      # catalog tools, fro
 4. **Downloads**: Kindle-style offline issues, resumable, Wi-Fi only, storage management.
 5. **Highlights and export**: 4 colors, notes, web search, Markdown export; icon and splash screen.
 
+Next sources (content categories **pulp** and **rpg**: F&SF, Galaxy, Fantastic, Asimov's, Twilight Zone, Dragon,
+Dungeon, The Space Gamer, …) are tracked in [docs/BACKLOG.md](docs/BACKLOG.md).
+
 ## Distribution
 
 This is a personal, non-commercial project that runs from a locally installed build. It does not host any magazine

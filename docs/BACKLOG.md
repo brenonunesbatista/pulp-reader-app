@@ -1,0 +1,60 @@
+# Backlog
+
+Ideas and sources to add later. Items move into a phase brief when they are scheduled.
+
+## Categories (content types)
+
+The catalog currently has only magazines of one kind. New sources come in **categories**, and the app must keep them
+apart (separate shelves, filters and search facets), with room for more categories later:
+
+| Category | What | Sources below |
+|---|---|---|
+| `pulp` | pulp / genre fiction magazines and dime novels | Amazing Stories (done), F&SF, Fantastic, Galaxy, Asimov's, Twilight Zone, Fame and Fortune Weekly, Bolsilibros |
+| `rpg` | tabletop RPG magazines, read for campaign inspiration | Dungeon, Dragon, The Space Gamer |
+
+Planned model change (when the first new source is added): `category` table (`id, slug, name, sort`) plus
+`magazine.category_id`. Library groups magazines by category, and search can filter by category. Adapters stay
+category-agnostic.
+
+## Candidate sources (surveyed 2026-09-30)
+
+Measured with `tools/spike/ia_survey.py` (Internet Archive metadata only, throttled). "Reader-ready" means each issue
+has a `_jp2.zip` page set and `_djvu.xml` OCR, which is what reader B uses.
+
+| Source | Link type | Items | Years | Reader-ready | Notes |
+|---|---|---|---|---|---|
+| The Magazine of Fantasy & Science Fiction | collection `fantasyandsciencefiction` | 621 | 1949–1984 | yes | open, not lending |
+| Bolsilibros: Selección Terror | collection `bolsilibros_seleccion_terror` | 649 | 1973–1985 | yes | **Spanish** pocket novels (books, not magazines): one item per novel |
+| Fame and Fortune Weekly | collection `fameandfortuneweekly` | 512 | 1905–1928 | yes | dime novel weekly; `date` metadata missing → parse from identifier (`..._1907-12-27`) |
+| Fantastic | collection `fantasticsfstories` | 365 | 1952–… | yes | several scans of the same issue (e.g. v01n01 ×4) → pick the best one |
+| Rod Serling's The Twilight Zone Magazine | collection `twilightzonemagazine` | 66 | 1981–1989 | yes | some items are "noads" or cover-upgrade variants |
+| Asimov's Science Fiction | collection `asimovmagazine` | 440 | 1978–2014 | yes (samples) | also holds non-magazine items (e.g. anthologies) → filter by title pattern |
+| Galaxy | collection `galaxymagazine` | 446 | 1950–… | yes | duplicates (World Editions reprints vs originals) |
+| Dungeon (magazine) | item **pack** `dungeon-magazine` | 1 item, 221 issues | 1986–2007 | yes | one item bundling 221 JP2 sets + OCR (see "Packs") |
+| Dungeon (by subject) | search `subject:"Dungeon magazine"` | 180 | — | mostly | includes unrelated items (podcasts) → filter `mediatype:texts`; overlaps with the pack |
+| Dragon | item **pack** `DragonMagazine260_201801` | 1 item, 443 issues | 1976–2013 | yes | same pack structure as Dungeon |
+| The Space Gamer | collection `space-gamer` | 88 | 1975–… | yes | |
+| D&D (by subject) | search `subject:"Dungeons and Dragons (Game)"` | 157 | — | **mixed** | many are **lending-only** books (`access-restricted-item`, `inlibrary`) → cannot be read; keep only open items |
+
+### Can the app reach every volume from these links? Yes, with source-specific work:
+- **Collections and searches:** the advanced search API returns all items (paged). One request per page of 100
+  results is metadata, not crawling.
+- **Packs** (Dungeon, Dragon): one IA item with hundreds of issues. The item's IIIF manifest covers **only the first
+  book** (72 pages = Dungeon #1), but every issue's pages can still be reached. The item's file list names each
+  `<issue>_jp2.zip` + `<issue>_djvu.xml`, and IIIF image ids are built from the zip path (the same scheme reader B
+  already uses). The adapter lists the sub-books from `/metadata/<id>` and gets page counts from each sub-book's OCR.
+  The app needs an optional `sub_book` on the issue.
+- **Duplicates:** choose one scan per issue (prefer complete, no "Missing", higher `imagecount`) and keep the others as
+  alternates.
+- **Contents (ToC):** unlike Amazing Stories, these have no reference guide. Options: IA metadata (title/date/volume
+  only), FictionMags/ISFDB data for the fiction magazines, or issue-level only at first (cover + date, no story list).
+
+## Not planned
+- `Livro-de-Regras-DnD-5e` (Guia do Mestre, Livro do Jogador, Manual dos Monstros; one item with 3 books, technically
+  readable the same way as the packs). These are current commercial books (D&D 5e, 2014, Portuguese edition still sold),
+  so this upload is most likely unauthorized. The free, official alternative is the D&D **SRD 5.1 / 5.2**, published
+  by Wizards of the Coast under CC-BY-4.0, which could be added legitimately as reference text.
+
+## Other ideas
+- "Enhance text" image filter for worn type (see DECISIONS 2026-09-30, reader).
+- OCR-based page-number map to correct guide leaves (Phase 3).
