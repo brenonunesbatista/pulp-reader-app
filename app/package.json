@@ -10,12 +10,15 @@
     "preview": "vite preview",
     "predev": "node scripts/copy-pdfjs-assets.mjs && node scripts/copy-catalog-db.mjs",
     "prebuild": "node scripts/copy-pdfjs-assets.mjs && node scripts/copy-catalog-db.mjs",
-    "typecheck": "tsc -b"
+    "typecheck": "tsc -b",
+    "test": "vitest run"
   },
   "dependencies": {
     "@capacitor-community/sqlite": "^8.1.1",
     "@capacitor/android": "^8.5.2",
+    "@capacitor/app": "^8.1.1",
     "@capacitor/core": "^8.5.2",
+    "@sqlite.org/sqlite-wasm": "^3.53.4-build1",
     "pdfjs-dist": "^6.3.289",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
@@ -28,6 +31,7 @@
     "@vitejs/plugin-react": "^6.1.1",
     "oxlint": "^1.81.0",
     "typescript": "~6.0.2",
-    "vite": "^8.3.0"
+    "vite": "^8.3.0",
+    "vitest": "^5.0.3"
   }
 }
