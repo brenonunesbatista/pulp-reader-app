@@ -13,8 +13,9 @@ Capacitor (Android) · Vite · React · TypeScript (strict) · SQLite (`@capacit
 - `SPEC.md`, `PHASE*_PROMPT.md`
 
 ## Commands (keep this section up to date)
-- App dev in browser: `cd app && npm run dev` (Vite proxies `/ia-download` → archive.org/download, which has no CORS)
-- Typecheck / lint: `cd app && npm run typecheck && npm run lint`
+- App dev in browser: `cd app && npm run dev` (needs the built catalog; SQLite runs via sqlite-wasm in the browser;
+  Vite proxies `/ia-download` → archive.org/download, which has no CORS)
+- Typecheck / lint / tests: `cd app && npm run typecheck && npm run lint && npm test`
 - Android build/run on device: `cd app && npm run build && npx cap sync android && npx cap run android`
   (if `cap run` finds no device: `cd app/android && gradlew assembleDebug` then `adb install -r app/build/outputs/apk/debug/app-debug.apk`)
 - Spike IA probes: `python tools/spike/ia_metadata.py <id>` (then `ia_pages.py`, `ia_ocr.py`, `ia_pagemap.py`, `ia_cors.py`); deps in `tools/spike/requirements.txt`
@@ -22,6 +23,13 @@ Capacitor (Android) · Vite · React · TypeScript (strict) · SQLite (`@capacit
 - Catalog build: `python tools/build_catalog.py --source data/source/Amazing_Stories_Reference_Guide.pdf --out app/public/catalog`
   (writes `catalog.db` + `covers/*.webp`, both git-ignored, and `docs/catalog-report.md`)
 - Tests: `npm test` (app), `pytest` (tools; run from the repo root — synthetic fixture PDF, real-guide smoke test skipped if the PDF is absent)
+
+## App structure (app/src)
+- `db/` — `Db` interface; `nativeDb.ts` (@capacitor-community/sqlite, Android) and `wasmDb.ts` (sqlite-wasm: browser dev + tests); `userSchema.ts` migrations for `user.db`
+- `data/` — repositories (only place with SQL): `catalogRepo.ts`, `progressRepo.ts`, `fts.ts`
+- `nav/` — stack navigator (`stack.ts` pure, `Nav.tsx` provider; history + Android back), screens stay mounted underneath
+- `screens/`, `ui/` — screens and shared components; `app.css` theme tokens
+- `spike/` — Phase 1 code; reader B is still used by `screens/ReaderScreen.tsx` until Phase 3; dev tools behind a long-press on the Library title
 
 ## Working rules
 - Work in the phase requested; don't build later phases early. If something is ambiguous, ask instead of guessing.

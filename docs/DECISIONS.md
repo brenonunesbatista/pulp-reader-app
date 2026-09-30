@@ -59,3 +59,19 @@ User feedback: having to zoom out to change page is annoying. Spike gestures (to
 dragging a zoomed page past its left/right edge (rubber band, > 90 px) turns the page; edge taps also work when zoomed
 (12 % strips instead of 25 %). A gesture turn keeps the zoom level and lands at the top-left of the next page
 (bottom-right of the previous one); jumps (ToC, slider) reset to fit.
+
+## 2026-09-30 — Phase 2 app shell
+- **Navigation:** in-house stack navigator (`app/src/nav/`), no router dependency. Covered screens stay mounted with
+  `content-visibility: hidden`, so Back is instant and keeps scroll/filter state. Browser history is the single source
+  of Back: UI back, browser back and the Android hardware button (`@capacitor/app`) all go through `history.back()`.
+- **Databases:** `catalog` (read-only, shipped in the APK, reinstalled only when `catalog.sha256` changes) and `user`
+  (progress/highlights/downloads/settings, versioned migrations) are separate files, so catalog updates never touch
+  user data. Android uses `@capacitor-community/sqlite`; browser dev and unit tests use `@sqlite.org/sqlite-wasm`
+  (official build with FTS5 — the plugin's own web mode relies on sql.js without FTS5). The catalog DDL lives in
+  `tools/catalog/schema.sql`, shared by the Python builder and the TS tests.
+- **Search roles:** a role filter restricts matching to that role's FTS column (`authors`, `translators`, issue
+  `editor`, issue `cover_artist`); editor/cover-artist searches return issues and people, not stories.
+- **Progress:** saved (page + zoom) 800 ms after a page change, on leaving the reader and on Android `pause`.
+  Guide leaves past the end of a scan are clamped to the last page (real fix: OCR page map, Phase 3).
+- **Tests:** `vitest` (Vite-native) for repositories, FTS queries and the navigator; a smoke test runs against the real
+  `catalog.db` when it has been built.
