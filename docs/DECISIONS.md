@@ -53,3 +53,9 @@ Known risks / follow-ups:
 - **Generated catalog is not committed** (`app/public/catalog/` git-ignored): it is reproducible (byte-identical
   rebuilds, verified by a test) and derived from a guide marked "not for distribution", while the repo is public.
   Build it before `npm run build` / `cap sync`. Size: `catalog.db` 2.3 MB, covers 10.7 MB (309 × ~35 kB WebP).
+
+## 2026-09-30 — Reader: turning pages while zoomed
+User feedback: having to zoom out to change page is annoying. Spike gestures (to carry into the Phase 3 reader):
+dragging a zoomed page past its left/right edge (rubber band, > 90 px) turns the page; edge taps also work when zoomed
+(12 % strips instead of 25 %). A gesture turn keeps the zoom level and lands at the top-left of the next page
+(bottom-right of the previous one); jumps (ToC, slider) reset to fit.

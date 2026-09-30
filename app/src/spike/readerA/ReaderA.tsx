@@ -100,6 +100,7 @@ class ReaderAController {
       requestAnimationFrame(() => metrics.set('first page', `${Math.round(performance.now() - this.openedAt)} ms`))
     }
     window.setTimeout(() => void this.renderText(leaf), 50)
+    if (this.pz.scale >= 1.4) void this.onZoom(this.pz.scale) // zoom kept across a turn: re-render sharp
   }
 
   private render(leaf: number, scale = 1): Promise<HTMLCanvasElement | null> {

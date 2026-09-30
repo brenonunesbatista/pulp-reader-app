@@ -163,6 +163,8 @@ class ReaderBController {
         }
         this.decoded.set(leaf, s)
         this.attach(leaf)
+        // page reached through a zoomed turn: fetch full resolution once the sharp image is in
+        if (leaf === this.current && kind === 'high') this.onZoom(this.pz.scale)
         if (leaf === this.current && kind !== 'low' && s.low) {
           const low = s.low
           delete s.low

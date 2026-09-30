@@ -1,9 +1,9 @@
 // Gesture controller shared by both spike readers.
 // All per-frame work is a single CSS transform written in requestAnimationFrame — no React state.
 //   1 finger, not zoomed : page follows finger, swipe → turn
-//   1 finger, zoomed     : pan with inertia
+//   1 finger, zoomed     : pan with inertia; dragging past the left/right page edge → turn (zoom kept)
 //   2 fingers            : pinch-zoom around the midpoint
-//   tap left/right 25%   : turn;  tap center: toggle chrome;  double-tap center: zoom in/out
+//   tap left/right 25%   : turn (12% when zoomed);  tap center: toggle chrome;  double-tap center: zoom in/out
 
 export interface PanZoomOptions {
   onTurn: (dir: -1 | 1) => void
@@ -19,6 +19,10 @@ const MAX_SCALE = 5
 const DOUBLE_TAP_MS = 280
 const TAP_SLOP = 10
 const SWIPE_MIN = 60
+const EDGE = 0.25 // tap zone width (fraction of the screen) at fit
+const EDGE_ZOOMED = 0.12
+const OVERSCROLL_TURN = 90 // px dragged past the page edge (finger distance) to turn while zoomed
+const RUBBER_MAX = 140
 
 export class PanZoom {
   private vw = 0
@@ -45,6 +49,9 @@ export class PanZoom {
   private ro: ResizeObserver
   private pageW = 1
   private pageH = 1
+  private rubber = 0 // visual-only horizontal offset while over-dragging a zoomed page
+  private overscroll = 0
+  private carry: { scale: number; dir: -1 | 1 } | null = null
 
   constructor(viewport: HTMLElement, content: HTMLElement, opts: PanZoomOptions) {
     this.viewport = viewport
@@ -77,11 +84,17 @@ export class PanZoom {
     return { w: this.fitW, h: this.fitH }
   }
 
-  /** Set the page aspect (native px) and reset to fit. */
+  /** Set the page aspect (native px). After a gesture turn while zoomed, keep the zoom and start at the
+   *  top-left (next page) or bottom-right (previous page); otherwise (jumps, first open) fit the page. */
   setPage(pageW: number, pageH: number) {
     this.pageW = pageW
     this.pageH = pageH
-    this.scale = 1
+    const carry = this.carry
+    this.carry = null
+    this.rubber = 0
+    this.overscroll = 0
+    this.scale = carry ? carry.scale : 1
+    if (carry) this.x = this.y = carry.dir > 0 ? 0 : -1e9 // clamp() snaps to the page edge
     this.layout()
   }
 
@@ -106,7 +119,7 @@ export class PanZoom {
   }
 
   private apply() {
-    this.content.style.transform = `translate3d(${this.x}px, ${this.y}px, 0) scale(${this.scale})`
+    this.content.style.transform = `translate3d(${this.x + this.rubber}px, ${this.y}px, 0) scale(${this.scale})`
   }
 
   private schedule() {
@@ -174,9 +187,13 @@ export class PanZoom {
     }
     this.lastMove = { p, t: now }
     if (this.scale > 1.01) {
-      this.x = this.start.x + dx
+      const wantX = this.start.x + dx
+      this.x = wantX
       this.y = this.start.y + dy
       this.clamp()
+      // dragging past the left/right edge of the zoomed page: rubber band, turn on release
+      this.overscroll = wantX - this.x
+      this.rubber = Math.sign(this.overscroll) * Math.min(Math.abs(this.overscroll) * 0.4, RUBBER_MAX)
     } else {
       this.clamp()
       this.x += dx // page follows the finger horizontally
@@ -212,14 +229,32 @@ export class PanZoom {
       return
     }
     if (this.scale > 1.01) {
-      this.inertia()
+      const over = this.overscroll
+      this.releaseRubber()
+      if (Math.abs(over) > OVERSCROLL_TURN) this.turn(over < 0 ? 1 : -1)
+      else this.inertia()
       return
     }
     // swipe
     const fast = Math.abs(this.vel.x) > 0.5
     this.clamp()
     this.schedule()
-    if (Math.abs(dx) > SWIPE_MIN || (fast && Math.abs(dx) > TAP_SLOP)) this.opts.onTurn(dx < 0 ? 1 : -1)
+    if (Math.abs(dx) > SWIPE_MIN || (fast && Math.abs(dx) > TAP_SLOP)) this.turn(dx < 0 ? 1 : -1)
+  }
+
+  private releaseRubber() {
+    this.overscroll = 0
+    if (!this.rubber) return
+    this.rubber = 0
+    this.content.style.transition = 'transform 150ms ease-out'
+    this.apply()
+    window.setTimeout(() => { this.content.style.transition = '' }, 160)
+  }
+
+  /** Turn from a gesture; when zoomed, the next page keeps the zoom (see setPage). */
+  private turn(dir: -1 | 1) {
+    this.carry = this.scale > 1.01 ? { scale: this.scale, dir } : null
+    this.opts.onTurn(dir)
   }
 
   private onCancel = (e: PointerEvent) => {
@@ -227,15 +262,18 @@ export class PanZoom {
     if (this.pointers.size === 0) {
       this.start = null
       this.pinch = null
+      this.releaseRubber()
       this.clamp()
       this.schedule()
     }
   }
 
   private tap(p: Pt) {
-    const zone = p.x < this.vw * 0.25 ? 'left' : p.x > this.vw * 0.75 ? 'right' : 'center'
-    if (zone !== 'center' && this.scale <= 1.01) {
-      this.opts.onTurn(zone === 'left' ? -1 : 1)
+    // edge taps turn pages; zoomed, the edge strips are narrower to avoid accidental turns
+    const edge = this.scale > 1.01 ? EDGE_ZOOMED : EDGE
+    const zone = p.x < this.vw * edge ? 'left' : p.x > this.vw * (1 - edge) ? 'right' : 'center'
+    if (zone !== 'center') {
+      this.turn(zone === 'left' ? -1 : 1)
       return
     }
     const now = performance.now()
