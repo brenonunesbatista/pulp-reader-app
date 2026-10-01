@@ -31,3 +31,12 @@ export async function recentProgress(db: Db, limit = 12): Promise<Progress[]> {
   const r = await db.query<ProgressRow>(`SELECT * FROM progress ORDER BY updated_at DESC LIMIT ?`, [limit])
   return r.map(toProgress)
 }
+
+/** forget where an issue was being read (it leaves "Continue reading"); highlights and bookmarks are kept */
+export async function deleteProgress(db: Db, issueId: number): Promise<void> {
+  await db.run(`DELETE FROM progress WHERE issue_id = ?`, [issueId])
+}
+
+export async function deleteAllProgress(db: Db): Promise<void> {
+  await db.run(`DELETE FROM progress`)
+}

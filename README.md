@@ -15,7 +15,8 @@ Built for a Samsung Galaxy Tab A9+ (11", 1920×1200), with phone layouts for the
 - **Banca "Newsprint" design**: Paper and Night themes, bundled fonts (Big Shoulders Display + Source Serif 4), tablet
   masthead with Pulp / RPG / Atlas tabs and a phone bottom navigation. RPG and Atlas are marked *coming soon*.
 - **Library**: magazines with a cover mosaic (upcoming magazines marked *coming soon*), plus a *Continue reading* shelf
-  with each issue's progress.
+  with each issue's progress. Progress can be cleared per issue (× on the shelf, *Clear progress* on the issue page)
+  or all at once (Settings → Reading); highlights, bookmarks and downloads are kept.
 - **Magazine**: cover grid of every issue, with filters by decade and year and a *readable only* toggle.
 - **Issue**: large cover, credits, and the table of contents. Tap a story to open the reader at its page. Tap a name
   to see everything that person wrote, edited or illustrated.

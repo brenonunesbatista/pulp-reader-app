@@ -3,6 +3,7 @@ import { useDb } from '../db/useDb'
 import { Screen, SubMasthead } from '../ui/components'
 import { useSettings } from '../ui/settingsContext'
 import { useAsync } from '../ui/useAsync'
+import { ReadingSettings } from './ReadingSettings'
 import { StorageSettings } from './StorageSettings'
 
 export function SettingsScreen() {
@@ -31,6 +32,8 @@ export function SettingsScreen() {
           </div>
           <p className="muted small">The reader has its own Paper / Sepia / Night setting in its Display panel.</p>
         </section>
+
+        <ReadingSettings />
 
         <StorageSettings />
 

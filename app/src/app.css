@@ -141,10 +141,16 @@ select.chip { appearance: none; padding-right: 30px; background-image: linear-gr
 /* ---- shelf ("Continue reading") ---------------------------------------------------------------------------- */
 .shelf { position: relative; display: flex; gap: 42px; padding: 16px 10px 4px; overflow-x: auto; scroll-snap-type: x proximity; }
 .shelf::before { content: ''; position: absolute; left: 0; min-width: 100%; width: var(--shelf-w, 100%); top: 0; height: 4px; background: var(--ink); }
+.shelf-slot { position: relative; flex: 0 0 120px; scroll-snap-align: start; }
+.shelf-slot .shelf-item { width: 100%; }
+.shelf-x { position: absolute; z-index: 2; right: -10px; top: -10px; min-width: 30px; height: 30px; padding: 0 8px; border-radius: 15px;
+  border: 2px solid #2A2118; background: #F7EEDA; color: #2A2118; display: inline-flex; align-items: center; justify-content: center;
+  font: 700 12px/1 var(--f-text); box-shadow: 2px 2px 0 rgb(42 33 24 / .85); }
+.shelf-x.confirm { background: #C8321F; color: #FFF4DC; }
 .shelf-item { flex: 0 0 120px; scroll-snap-align: start; border: 0; background: none; padding: 0; text-align: left; color: var(--ink); }
 .shelf-item .t { font-size: 14px; font-weight: 700; margin-top: 7px; }
 .shelf-item .w { font-size: 13px; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-@media (max-width: 599px) { .shelf { gap: 24px; } .shelf-item { flex-basis: 104px; } }
+@media (max-width: 599px) { .shelf { gap: 24px; } .shelf-item, .shelf-slot { flex-basis: 104px; } }
 
 /* ---- magazine cards ---------------------------------------------------------------------------------------- */
 .mag-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 26px; }

@@ -1,6 +1,6 @@
 import { getContents, getIssue, issuePeople } from '../data/catalogRepo'
 import type { StoryInIssue } from '../data/models'
-import { getProgress } from '../data/progressRepo'
+import { deleteProgress, getProgress } from '../data/progressRepo'
 import { useDb } from '../db/useDb'
 import { useIsActive, useNav } from '../nav/context'
 import { Cover, ErrorBox, Loading, Screen, SectionHeader, StoryRow, SubMasthead } from '../ui/components'
@@ -8,6 +8,7 @@ import { monthYear, coverTag } from '../ui/format'
 import { DownloadButtons } from '../ui/DownloadButtons'
 import { Icon } from '../ui/icons'
 import { useAsync } from '../ui/useAsync'
+import { useState } from 'react'
 
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October',
   'November', 'December']
@@ -21,7 +22,9 @@ export function IssueScreen({ id }: { id: number }) {
     if (!issue) throw new Error(`Issue ${id} not found`)
     return { issue, contents: await getContents(catalog, id), people: await issuePeople(catalog, id) }
   }, [catalog, id])
-  const progress = useAsync(() => getProgress(user, id), [user, id, active])
+  const [cleared, setCleared] = useState(0)
+  const [confirmClear, setConfirmClear] = useState(false)
+  const progress = useAsync(() => getProgress(user, id), [user, id, active, cleared])
 
   if (data.status !== 'ok') {
     return (
@@ -73,6 +76,16 @@ export function IssueScreen({ id }: { id: number }) {
             {readable && (
               <button className={`btn ${resume ? '' : 'primary'}`} onClick={() => nav.push({ name: 'reader', issueId: issue.id, leaf: 0 })}>
                 {resume ? 'Start over' : <><Icon name="read" size={22} />Read now</>}
+              </button>
+            )}
+            {resume && (
+              <button className={`btn danger ${confirmClear ? 'confirm' : ''}`} onBlur={() => setConfirmClear(false)}
+                      onClick={() => {
+                        if (!confirmClear) return setConfirmClear(true)
+                        setConfirmClear(false)
+                        void deleteProgress(user, issue.id).then(() => setCleared((n) => n + 1))
+                      }}>
+                {confirmClear ? 'Tap to confirm' : 'Clear progress'}
               </button>
             )}
             {!readable && <button className="btn" disabled>No scan available</button>}

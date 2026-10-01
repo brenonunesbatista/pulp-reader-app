@@ -5,7 +5,7 @@ import { migrateUserDb, USER_MIGRATIONS } from '../db/userSchema'
 import { getContents, getIssue, getPersonWorks, listIssues, listMagazines, search } from './catalogRepo'
 import { ftsQuery } from './fts'
 import { addHighlight, deleteHighlight, getPageMap, listBookmarks, listHighlights, savePageMap, setBookmark } from './annotationRepo'
-import { getProgress, recentProgress, saveProgress } from './progressRepo'
+import { deleteAllProgress, deleteProgress, getProgress, recentProgress, saveProgress } from './progressRepo'
 import { testCatalog } from './testCatalog'
 
 let db: Db
@@ -94,6 +94,12 @@ describe('user db', () => {
     await saveProgress(u, { issueId: 1, page: 42, offsetX: 10, offsetY: 20, zoom: 1.5 }, 3000)
     expect((await getProgress(u, 1))).toMatchObject({ page: 42, offsetX: 10, zoom: 1.5, updatedAt: 3000 })
     expect((await recentProgress(u)).map((p) => p.issueId)).toEqual([1, 3])
+    await addHighlight(u, { issueId: 1, page: 2, rects: [[0, 0, 1, 1]], text: 'kept' })
+    await deleteProgress(u, 1)
+    expect((await recentProgress(u)).map((p) => p.issueId)).toEqual([3])
+    expect(await listHighlights(u, 1)).toHaveLength(1) // clearing progress keeps highlights
+    await deleteAllProgress(u)
+    expect(await recentProgress(u)).toEqual([])
   })
 
   it('stores highlights, bookmarks and page maps', async () => {
