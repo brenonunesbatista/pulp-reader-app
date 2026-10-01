@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Page index — tablet</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#1F4E8C}a:hover{color:#C8321F}
+input::placeholder{color:#7A6A52}
+</style>
+</helmet>
+<div style="width: 1280px; height: 800px; overflow: hidden; display: flex; flex-direction: column; background: #EEE2C6; color: #2A2118; font-family: 'Source Serif 4', Georgia, serif">
+
+<div style="height: 64px; flex-shrink: 0; display: flex; align-items: center; gap: 16px; padding: 0 24px 0 12px; background: #2A2118; color: #EFE0C2">
+<a href="TabReader.dc.html" aria-label="Close page index" style="width: 48px; height: 48px; display: flex; align-items: center; justify-content: center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#EFE0C2" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"></path></svg></a>
+<div style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 30px; line-height: 1; color: #F2B705">PAGES</div>
+<div style="font-size: 15px; color: #B5A385">Amazing Stories · April 1926 · 100 pages</div>
+<div style="flex-grow: 1"></div>
+<label style="display: flex; align-items: center; gap: 10px; height: 44px; padding: 0 12px; border-radius: 4px; background: #3A2F24; font-size: 15px">Go to page
+<input type="number" aria-label="Page number" placeholder="42" style="width: 56px; height: 32px; border: 0; border-radius: 3px; background: #EFE0C2; color: #2A2118; font: 700 16px 'Source Serif 4', serif; text-align: center">
+</label>
+</div>
+
+<div style="flex-grow: 1; display: grid; grid-template-columns: 300px minmax(0, 1fr); min-height: 0">
+
+<nav aria-label="Stories in this issue" style="border-right: 2px solid #2A2118; background: #F7EEDA; padding: 18px 14px; display: flex; flex-direction: column; gap: 2px">
+<div style="font-size: 12px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #5E4E3A; padding: 0 8px 8px">Jump to a story</div>
+<sc-for list="{{toc}}" as="s" hint-placeholder-count="7">
+<a href="#" style="display: grid; grid-template-columns: 36px minmax(0, 1fr); gap: 8px; align-items: baseline; min-height: 52px; padding: 8px; border-radius: 4px; color: #2A2118; text-decoration: none; background: {{s.bg}}; box-sizing: border-box">
+<span style="font-weight: 700; font-variant-numeric: tabular-nums; color: #C8321F">{{s.page}}</span>
+<span style="font-size: 15px; font-weight: 600; line-height: 1.25">{{s.title}}</span>
+</a>
+</sc-for>
+</nav>
+
+<div style="padding: 18px 28px 0; display: flex; flex-direction: column; gap: 14px; min-width: 0">
+<div style="display: flex; align-items: center; gap: 18px; font-size: 14px; color: #5E4E3A">
+<span style="font-variant-numeric: tabular-nums">Pages 31–80</span>
+<span style="display: flex; align-items: center; gap: 6px"><span style="width: 14px; height: 14px; border: 3px solid #C8321F; box-sizing: border-box"></span>Story starts</span>
+<span style="display: flex; align-items: center; gap: 6px"><span style="width: 14px; height: 14px; border: 3px solid #F2B705; box-sizing: border-box; background: #2A2118"></span>You are here</span>
+</div>
+<div style="display: grid; grid-template-columns: repeat(10, minmax(0, 1fr)); gap: 14px 14px">
+<sc-for list="{{pages}}" as="p" hint-placeholder-count="50">
+<a href="TabReader.dc.html" style="position: relative; display: flex; flex-direction: column; gap: 4px; color: #2A2118; text-decoration: none; min-width: 0">
+<div style="position: relative; height: 106px; box-sizing: border-box; border: {{p.border}}; box-shadow: {{p.shadow}}; background: {{p.art}} repeating-linear-gradient(to bottom, rgba(42,33,24,0.38) 0 1.5px, transparent 1.5px 4px) 7px {{p.textTop}} / calc(100% - 14px) {{p.textH}} no-repeat, #F3E8CF">
+<sc-if value="{{p.start}}" hint-placeholder-val="{{ false }}"><div style="position: absolute; right: -3px; top: -3px; width: 0; height: 0; border-top: 22px solid #C8321F; border-left: 22px solid transparent"></div></sc-if>
+</div>
+<div style="font-size: 12px; font-weight: {{p.weight}}; color: {{p.ink}}; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-variant-numeric: tabular-nums">{{p.label}}</div>
+</a>
+</sc-for>
+</div>
+</div>
+
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":800}}'>
+class Component extends DCLogic {
+renderVals() {
+const starts = { 52: 'The New Accelerator', 62: 'The Man from the Atom', 68: 'The Thing from “Outside”', 80: 'M. Valdemar' };
+const art = { 43: 1, 53: 1, 63: 1, 69: 1 };
+const pages = [];
+for (let n = 31; n <= 80; n++) {
+const start = !!starts[n];
+const cur = n === 42 || n === 43;
+const hasArt = !!art[n] || start;
+pages.push({
+start,
+label: start ? n + ' · ' + starts[n] : String(n),
+weight: start || cur ? '700' : '400',
+ink: start ? '#C8321F' : '#5E4E3A',
+border: cur ? '3px solid #F2B705' : (start ? '3px solid #C8321F' : '1px solid #B9A884'),
+shadow: cur ? '0 0 0 2px #2A2118' : 'none',
+art: hasArt ? 'linear-gradient(#5E4E3A, #5E4E3A) 7px 8px / calc(100% - 14px) 38px no-repeat,' : '',
+textTop: hasArt ? '52px' : '8px',
+textH: hasArt ? '46px' : '90px'
+});
+}
+return {
+pages,
+toc: [
+{ page: '1', title: 'Cover', bg: 'transparent' },
+{ page: '3', title: 'A New Sort of Magazine', bg: 'transparent' },
+{ page: '4', title: 'Off on a Comet (Part 1)', bg: '#F2B705' },
+{ page: '52', title: 'The New Accelerator', bg: 'transparent' },
+{ page: '62', title: 'The Man from the Atom', bg: 'transparent' },
+{ page: '68', title: 'The Thing from — “Outside”', bg: 'transparent' },
+{ page: '80', title: 'The Facts in the Case of M. Valdemar', bg: 'transparent' }
+]
+};
+}
+}
+</script>
+</body>
+</html>

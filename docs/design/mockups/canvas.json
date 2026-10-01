@@ -1,0 +1,40 @@
+{
+  "v": 3,
+  "attachments": {},
+  "boards": {
+    "Enamel.dc.html": { "h": 1740, "title": "C · Enamel Sign", "w": 1440, "x": 3040, "y": 0, "page": "directions" },
+    "Main.dc.html": { "h": 1740, "title": "A · Night Stand", "w": 1440, "x": 0, "y": 0, "page": "directions" },
+    "Newsprint.dc.html": { "h": 1740, "title": "B · Newsprint", "w": 1440, "x": 1520, "y": 0, "page": "directions" },
+    "DS.dc.html": { "x": 0, "y": 0, "w": 2000, "h": 1560, "title": "Design system", "page": "system" },
+    "Cover.dc.html": { "x": 2080, "y": 0, "w": 200, "h": 278, "title": "Cover (component)", "page": "system" },
+    "TabLibrary.dc.html": { "x": 0, "y": 1960, "w": 1280, "h": 800, "title": "Tablet · Library", "page": "system", "is_interactive": true },
+    "TabMagazine.dc.html": { "x": 1360, "y": 1960, "w": 1280, "h": 800, "title": "Tablet · Magazine", "page": "system", "is_interactive": true },
+    "TabIssue.dc.html": { "x": 2720, "y": 1960, "w": 1280, "h": 800, "title": "Tablet · Issue", "page": "system", "is_interactive": true },
+    "TabReader.dc.html": { "x": 4080, "y": 1960, "w": 1280, "h": 800, "title": "Tablet · Reader (chrome visible)", "page": "system", "is_interactive": true },
+    "TabPages.dc.html": { "x": 5440, "y": 1960, "w": 1280, "h": 800, "title": "Tablet · Page index", "page": "system", "is_interactive": true },
+    "TabAtlas.dc.html": { "x": 6800, "y": 1960, "w": 1280, "h": 800, "title": "Tablet · Atlas (sketch)", "page": "system", "is_interactive": true },
+    "PhLibrary.dc.html": { "x": 0, "y": 3160, "w": 412, "h": 892, "title": "Phone · Library", "page": "system", "is_interactive": true },
+    "PhMagazine.dc.html": { "x": 492, "y": 3160, "w": 412, "h": 892, "title": "Phone · Magazine", "page": "system", "is_interactive": true },
+    "PhIssue.dc.html": { "x": 984, "y": 3160, "w": 412, "h": 892, "title": "Phone · Issue", "page": "system", "is_interactive": true },
+    "PhReader.dc.html": { "x": 1476, "y": 3160, "w": 412, "h": 892, "title": "Phone · Reader (Night)", "page": "system", "is_interactive": true },
+    "PhPages.dc.html": { "x": 1968, "y": 3160, "w": 412, "h": 892, "title": "Phone · Page index", "page": "system", "is_interactive": true },
+    "PhAtlas.dc.html": { "x": 2460, "y": 3160, "w": 412, "h": 892, "title": "Phone · Atlas (sketch)", "page": "system", "is_interactive": true }
+  },
+  "createdOnFiles": { "at": "2026-10-01T12:00:00Z", "v": 1 },
+  "designSystems": [],
+  "launch": { "view": "canvas", "page": "system" },
+  "notes": {
+    "heading": { "kind": "title1", "maxW": 4480, "text": "Banca — three identity directions", "w": 240, "x": 0, "y": -300, "page": "directions" },
+    "dsTitle": { "kind": "title1", "maxW": 2280, "text": "Banca · Newsprint — design system", "x": 0, "y": -300, "page": "system" },
+    "tabTitle": { "kind": "title1", "maxW": 8080, "text": "Tablet · landscape 1280×800 dp (1920×1200 px)", "x": 0, "y": 1700, "page": "system" },
+    "phTitle": { "kind": "title1", "maxW": 2872, "text": "Phone · S25 portrait 412×892 dp", "x": 0, "y": 2900, "page": "system" }
+  },
+  "order": [
+    "Main.dc.html", "Newsprint.dc.html", "Enamel.dc.html",
+    "DS.dc.html", "Cover.dc.html",
+    "TabLibrary.dc.html", "TabMagazine.dc.html", "TabIssue.dc.html", "TabReader.dc.html", "TabPages.dc.html", "TabAtlas.dc.html",
+    "PhLibrary.dc.html", "PhMagazine.dc.html", "PhIssue.dc.html", "PhReader.dc.html", "PhPages.dc.html", "PhAtlas.dc.html"
+  ],
+  "pages": [ { "id": "system", "name": "Newsprint system" }, { "id": "directions", "name": "Directions" } ],
+  "title": "Banca Identity"
+}

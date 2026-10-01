@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Cover card</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}</style>
+</helmet>
+<div style="position: relative; width: {{w}}px; height: {{h}}px; font-family: 'Source Serif 4', Georgia, serif; color: #2A2118">
+<div style="position: absolute; inset: 0; box-sizing: border-box; border: {{bw}}px solid {{edge}}; overflow: hidden; background: radial-gradient(rgba(0,0,0,0.16) 1px, transparent 1.5px) 0 0 / 6px 6px, radial-gradient(circle at 66% 58%, rgba(255,250,230,0.45) 0 17%, transparent 18%), {{bg}}; box-shadow: {{shadow}}; filter: {{filter}}">
+<div style="position: absolute; left: 8%; top: 9%; right: 6%; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: {{mf}}px; line-height: 0.85; color: #FFF4DC; text-shadow: 2px 2px 0 #2A2118; white-space: pre-line">{{mast}}</div>
+</div>
+<sc-if value="{{showTag}}" hint-placeholder-val="{{ true }}">
+<div style="position: absolute; left: -6px; top: -8px; transform: rotate(-5deg); background: #F2B705; color: #2A2118; border: 2px solid #2A2118; padding: 2px 6px; font-size: {{tf}}px; font-weight: 700; letter-spacing: 0.05em; white-space: nowrap; font-variant-numeric: tabular-nums">{{date}} · {{price}}</div>
+</sc-if>
+<sc-if value="{{dim}}" hint-placeholder-val="{{ false }}">
+<div style="position: absolute; left: 0; right: 0; bottom: 18%; background: #2A2118; color: #EFE0C2; text-align: center; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: {{tf}}px; letter-spacing: 0.14em; padding: 3px 0">NO SCAN</div>
+</sc-if>
+<sc-if value="{{stamp}}" hint-placeholder-val="{{ false }}">
+<div style="position: absolute; right: 6%; bottom: 7%; width: {{sd}}px; height: {{sd}}px; border-radius: 50%; border: 2px solid #C8321F; background: rgba(247,238,218,0.88); color: #C8321F; display: flex; align-items: center; justify-content: center; transform: rotate(-12deg); font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: {{tf}}px; letter-spacing: 0.06em">READABLE</div>
+</sc-if>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"bg":{"editor":"text","default":"linear-gradient(160deg,#F2B705 0%,#E4572E 52%,#1F4E8C 100%)"},"w":{"editor":"int","default":200,"min":40,"max":600},"date":{"editor":"text","default":"APR 1926"},"price":{"editor":"text","default":"25¢"},"mast":{"editor":"text","default":"AMAZING\nSTORIES"},"tag":{"editor":"boolean","default":true},"dim":{"editor":"boolean","default":false},"stamp":{"editor":"boolean","default":false},"night":{"editor":"boolean","default":false},"$preview":{"width":200,"height":278}}'>
+class Component extends DCLogic {
+renderVals() {
+const p = this.props;
+const w = Number(p.w ?? 200);
+const night = p.night === true || p.night === 'true';
+const dim = p.dim === true || p.dim === 'true';
+const tag = !(p.tag === false || p.tag === 'false');
+const stamp = p.stamp === true || p.stamp === 'true';
+return {
+w,
+h: Math.round(w * 1.387),
+bg: p.bg ?? 'linear-gradient(160deg,#F2B705 0%,#E4572E 52%,#1F4E8C 100%)',
+mast: p.mast ?? 'AMAZING\nSTORIES',
+mf: Math.round(w * 0.17),
+tf: Math.max(9, Math.round(w * 0.075)),
+sd: Math.round(w * 0.5),
+bw: w < 90 ? 1 : 2,
+edge: night ? 'rgba(241,228,198,0.15)' : '#2A2118',
+shadow: night ? '0 10px 24px rgba(0,0,0,0.6), 0 0 30px rgba(255,201,60,0.18)' : (w < 90 ? '2px 2px 0 rgba(42,33,24,0.85)' : '4px 4px 0 rgba(42,33,24,0.85)'),
+filter: dim ? 'saturate(0.2) brightness(0.92) contrast(0.8)' : 'none',
+date: p.date ?? 'APR 1926',
+price: p.price ?? '25¢',
+showTag: tag && !dim,
+dim,
+stamp
+};
+}
+}
+</script>
+</body>
+</html>

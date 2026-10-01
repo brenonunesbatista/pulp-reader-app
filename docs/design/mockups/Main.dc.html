@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Banca — A · Night Stand</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Literata:opsz,wght@7..72,400;7..72,600;7..72,700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#FFD23F}a:hover{color:#FFF1C2}
+input::placeholder{color:#8F8A78}
+</style>
+</helmet>
+<div style="width: 1440px; height: 1740px; box-sizing: border-box; padding: 48px; display: flex; flex-direction: column; gap: 36px; background: #080B16; color: #F3EAD3; font-family: Literata, Georgia, serif">
+
+<header style="display: flex; align-items: flex-end; justify-content: space-between; gap: 24px">
+<div style="display: flex; align-items: baseline; gap: 20px">
+<div style="font-family: Anton, sans-serif; font-size: 64px; line-height: 1; color: #FFD23F">A</div>
+<div>
+<h1 style="margin: 0; font-family: Anton, sans-serif; font-weight: 400; font-size: 44px; line-height: 1.05; letter-spacing: 0.01em">NIGHT STAND</h1>
+<p style="margin: 6px 0 0; font-size: 17px; color: #A9A38F">The newsstand after dark: deep ink ground, covers glowing as if under a neon sign.</p>
+</div>
+</div>
+<div style="font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: #A9A38F">Default theme · Dark</div>
+</header>
+
+<section style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; height: 580px">
+
+<div style="background: #11162A; border: 1px solid #232A45; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 28px">
+<div style="font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: #A9A38F">Wordmark &amp; icon</div>
+<div style="display: flex; flex-direction: column; align-items: flex-start; gap: 6px; padding: 18px 0 8px">
+<div style="font-family: Anton, sans-serif; font-size: 132px; line-height: 0.9; color: #FFD23F; letter-spacing: 0.02em; text-shadow: 0 0 18px rgba(255,210,63,0.55), 0 0 60px rgba(255,140,40,0.35)">BANCA</div>
+<div style="width: 100%; height: 6px; background: #FF4A3D; box-shadow: 0 0 16px rgba(255,74,61,0.6)"></div>
+<div style="font-size: 15px; letter-spacing: 0.18em; text-transform: uppercase; color: #F3EAD3; margin-top: 8px">Pulp magazines · every era</div>
+</div>
+<div style="display: flex; gap: 20px; align-items: center; margin-top: auto">
+<div style="width: 104px; height: 104px; border-radius: 24px; background: #161B30; border: 1px solid #2A3150; display: flex; align-items: center; justify-content: center; position: relative; box-shadow: 0 0 30px rgba(255,210,63,0.15)">
+<div style="font-family: Anton, sans-serif; font-size: 70px; line-height: 1; color: #FFD23F; text-shadow: 0 0 14px rgba(255,210,63,0.6)">B</div>
+<div style="position: absolute; right: 18px; bottom: 18px; width: 12px; height: 12px; border-radius: 50%; background: #FF4A3D; box-shadow: 0 0 10px #FF4A3D"></div>
+</div>
+<div style="width: 104px; height: 104px; border-radius: 24px; background: #FFD23F; display: flex; align-items: center; justify-content: center">
+<div style="font-family: Anton, sans-serif; font-size: 70px; line-height: 1; color: #0B0E1A">B</div>
+</div>
+<div style="flex-grow: 1; height: 104px; border-radius: 16px; background: #F4EFE4; display: flex; align-items: center; justify-content: center">
+<div style="font-family: Anton, sans-serif; font-size: 44px; color: #15182A; letter-spacing: 0.02em">BANCA</div>
+</div>
+</div>
+</div>
+
+<div style="background: #11162A; border: 1px solid #232A45; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: grid; grid-template-columns: 150px repeat(2, minmax(0, 1fr)); gap: 12px; font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: #A9A38F">
+<div>Token</div><div>Dark · default</div><div>Light</div>
+</div>
+<sc-for list="{{tokens}}" as="t" hint-placeholder-count="8">
+<div style="display: grid; grid-template-columns: 150px repeat(2, minmax(0, 1fr)); gap: 12px; align-items: center">
+<div style="font-family: ui-monospace, Consolas, monospace; font-size: 14px; color: #F3EAD3">{{t.name}}</div>
+<div style="display: flex; align-items: center; gap: 10px">
+<div style="width: 44px; height: 44px; border-radius: 10px; background: {{t.dark}}; border: 1px solid rgba(255,255,255,0.14); box-shadow: {{t.glow}}"></div>
+<div style="font-size: 13px; color: #A9A38F; font-variant-numeric: tabular-nums">{{t.dark}}</div>
+</div>
+<div style="display: flex; align-items: center; gap: 10px">
+<div style="width: 44px; height: 44px; border-radius: 10px; background: {{t.light}}; border: 1px solid rgba(255,255,255,0.14)"></div>
+<div style="font-size: 13px; color: #A9A38F; font-variant-numeric: tabular-nums">{{t.light}}</div>
+</div>
+</div>
+</sc-for>
+</div>
+
+<div style="background: #11162A; border: 1px solid #232A45; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 22px">
+<div style="font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: #A9A38F">Typography</div>
+<div>
+<div style="font-size: 13px; color: #A9A38F; margin-bottom: 6px">Anton · display, all caps</div>
+<div style="font-family: Anton, sans-serif; font-size: 58px; line-height: 1; color: #F3EAD3">OFF ON A COMET</div>
+</div>
+<div>
+<div style="font-size: 13px; color: #A9A38F; margin-bottom: 6px">Literata 600 · titles</div>
+<div style="font-size: 28px; font-weight: 600; line-height: 1.2">The Man from the Atom</div>
+<div style="font-size: 17px; color: #A9A38F; margin-top: 4px">G. Peyton Wertenbaker · short story</div>
+</div>
+<div>
+<div style="font-size: 13px; color: #A9A38F; margin-bottom: 6px">Literata 400 · body</div>
+<div style="font-size: 17px; line-height: 1.55">Amazing Stories, April 1926. The first magazine devoted entirely to scientifiction, edited by Hugo Gernsback.</div>
+</div>
+<div style="margin-top: auto; padding-top: 18px; border-top: 1px solid #232A45">
+<div style="font-size: 13px; color: #A9A38F; margin-bottom: 6px">Tabular figures</div>
+<div style="font-size: 22px; font-weight: 600; font-variant-numeric: tabular-nums lining-nums; letter-spacing: 0.02em">p. 042 / 100 · APR 1926 · 25¢</div>
+</div>
+</div>
+
+</section>
+
+<div style="display: flex; align-items: center; justify-content: space-between">
+<div style="font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: #A9A38F">Library · tablet landscape at 70% (1920×1200)</div>
+</div>
+
+<div style="width: 1344px; height: 840px; border-radius: 20px; overflow: hidden; background: #0B0E1A; border: 1px solid #2A3150; display: flex; flex-direction: column; box-shadow: 0 30px 80px rgba(0,0,0,0.6)">
+
+<div style="height: 76px; flex-shrink: 0; display: flex; align-items: center; gap: 28px; padding: 0 32px; border-bottom: 1px solid #1E2440">
+<div style="font-family: Anton, sans-serif; font-size: 36px; line-height: 1; color: #FFD23F; letter-spacing: 0.02em; text-shadow: 0 0 12px rgba(255,210,63,0.5)">BANCA</div>
+<nav style="display: flex; gap: 8px">
+<a href="#" style="height: 44px; padding: 0 20px; border-radius: 22px; background: #FFD23F; color: #0B0E1A; display: flex; align-items: center; font-weight: 700; font-size: 15px; text-decoration: none">Pulp</a>
+<a href="#" style="height: 44px; padding: 0 20px; border-radius: 22px; border: 1px solid #2A3150; color: #F3EAD3; display: flex; align-items: center; font-size: 15px; text-decoration: none">RPG</a>
+<a href="#" style="height: 44px; padding: 0 20px; border-radius: 22px; border: 1px solid #2A3150; color: #F3EAD3; display: flex; align-items: center; font-size: 15px; text-decoration: none">Atlas</a>
+</nav>
+<label style="flex-grow: 1; height: 48px; border-radius: 24px; background: #161B30; border: 1px solid #2A3150; display: flex; align-items: center; gap: 12px; padding: 0 20px">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A9A38F" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+<input type="search" aria-label="Search the newsstand" placeholder="Search titles, authors, editors, cover artists…" style="flex-grow: 1; background: transparent; border: 0; outline: none; color: #F3EAD3; font: 16px Literata, serif">
+</label>
+<button aria-label="Settings" style="width: 48px; height: 48px; border-radius: 24px; background: transparent; border: 1px solid #2A3150; display: flex; align-items: center; justify-content: center; cursor: pointer">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F3EAD3" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"></path><circle cx="16" cy="7" r="2"></circle><circle cx="10" cy="17" r="2"></circle></svg>
+</button>
+</div>
+
+<div style="flex-grow: 1; padding: 26px 32px 28px; display: flex; flex-direction: column; gap: 30px">
+
+<div>
+<div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 16px">
+<h2 style="margin: 0; font-family: Anton, sans-serif; font-weight: 400; font-size: 24px; letter-spacing: 0.04em">CONTINUE READING</h2>
+<a href="#" style="font-size: 15px; text-decoration: none">See all</a>
+</div>
+<div style="display: flex; gap: 34px; padding: 0 8px; border-bottom: 10px solid #1A2038; box-shadow: 0 1px 0 rgba(255,210,63,0.35), 0 16px 30px rgba(255,210,63,0.06)">
+<sc-for list="{{shelf}}" as="c" hint-placeholder-count="7">
+<div style="position: relative; width: 140px; height: 198px; flex-shrink: 0; border-radius: 3px; overflow: hidden; background: radial-gradient(circle at 66% 58%, rgba(255,255,255,0.32) 0 17%, transparent 18%), {{c.bg}}; box-shadow: 0 14px 28px rgba(0,0,0,0.6), 0 0 38px rgba(255,210,63,0.16)">
+<div style="position: absolute; left: 9px; top: 9px; font-family: Anton, sans-serif; font-size: 19px; line-height: 0.95; color: #FFF6D8; text-shadow: 0 2px 0 rgba(0,0,0,0.35)">AMAZING<br>STORIES</div>
+<div style="position: absolute; right: 0; bottom: 12px; background: #FFD23F; color: #14110A; font-size: 10px; font-weight: 700; padding: 3px 7px; letter-spacing: 0.06em; font-variant-numeric: tabular-nums">{{c.d}} · {{c.price}}</div>
+</div>
+</sc-for>
+</div>
+<div style="display: flex; gap: 34px; padding: 12px 8px 0">
+<sc-for list="{{shelf}}" as="c" hint-placeholder-count="7">
+<div style="width: 140px; flex-shrink: 0">
+<div style="height: 3px; background: #232A45; border-radius: 2px"><div style="height: 3px; width: {{c.pct}}; background: #FFD23F; border-radius: 2px"></div></div>
+<div style="font-size: 14px; font-weight: 600; margin-top: 8px">{{c.label}}</div>
+<div style="font-size: 13px; color: #A9A38F; font-variant-numeric: tabular-nums">{{c.where}}</div>
+</div>
+</sc-for>
+</div>
+</div>
+
+<div style="flex-grow: 1; display: flex; flex-direction: column">
+<h2 style="margin: 0 0 16px; font-family: Anton, sans-serif; font-weight: 400; font-size: 24px; letter-spacing: 0.04em">MAGAZINES</h2>
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; flex-grow: 1">
+<sc-for list="{{mags}}" as="m" hint-placeholder-count="3">
+<a href="#" style="display: flex; gap: 20px; padding: 20px; border-radius: 16px; background: #11162A; border: 1px solid #232A45; text-decoration: none; color: #F3EAD3; opacity: {{m.opacity}}">
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; width: 186px; align-content: start; flex-shrink: 0">
+<sc-for list="{{m.covers}}" as="k" hint-placeholder-count="6">
+<div style="height: 82px; border-radius: 2px; background: radial-gradient(circle at 64% 60%, rgba(255,255,255,0.3) 0 16%, transparent 17%), {{k}}; box-shadow: 0 6px 12px rgba(0,0,0,0.5)"></div>
+</sc-for>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px; min-width: 0">
+<div style="font-family: Anton, sans-serif; font-size: 26px; line-height: 1.02">{{m.title}}</div>
+<div style="font-size: 14px; color: #A9A38F; font-variant-numeric: tabular-nums">{{m.years}}</div>
+<div style="font-size: 14px; color: #A9A38F; font-variant-numeric: tabular-nums">{{m.count}}</div>
+<div style="margin-top: auto; align-self: flex-start; font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; padding: 6px 10px; border-radius: 6px; color: {{m.tagInk}}; background: {{m.tagBg}}">{{m.tag}}</div>
+</div>
+</a>
+</sc-for>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1740}}'>
+class Component extends DCLogic {
+renderVals() {
+const G = [
+'linear-gradient(160deg,#F5C431 0%,#E4572E 52%,#1D2C78 100%)',
+'linear-gradient(175deg,#2FB5C9 0%,#1B2A6B 62%,#F5C431 100%)',
+'linear-gradient(150deg,#E4572E 0%,#8E1F2F 45%,#1A1446 100%)',
+'linear-gradient(165deg,#9BD15A 0%,#2A7A5B 50%,#14203F 100%)',
+'linear-gradient(170deg,#F7E3A1 0%,#E09A2C 45%,#5A1E3A 100%)',
+'linear-gradient(155deg,#7A5CF0 0%,#2B2A8F 55%,#F06A3A 100%)',
+'linear-gradient(165deg,#F06A3A 0%,#F5C431 40%,#1A6F8F 100%)'
+];
+const shelf = [
+{ d: 'APR 1926', price: '25¢', label: 'April 1926', where: 'Off on a Comet · p. 42', pct: '42%' },
+{ d: 'AUG 1927', price: '25¢', label: 'August 1927', where: 'p. 12', pct: '12%' },
+{ d: 'JUN 1928', price: '25¢', label: 'June 1928', where: 'p. 88', pct: '86%' },
+{ d: 'OCT 1929', price: '25¢', label: 'October 1929', where: 'p. 31', pct: '30%' },
+{ d: 'JAN 1933', price: '25¢', label: 'January 1933', where: 'p. 64', pct: '62%' },
+{ d: 'MAR 1940', price: '20¢', label: 'March 1940', where: 'p. 7', pct: '6%' },
+{ d: 'SEP 1947', price: '25¢', label: 'September 1947', where: 'p. 120', pct: '70%' }
+].map((c, i) => ({ ...c, bg: G[i % G.length] }));
+const rot = (n) => [0, 1, 2, 3, 4, 5].map((i) => G[(i + n) % G.length]);
+return {
+shelf,
+mags: [
+{ title: 'AMAZING STORIES', years: '1926–1956', count: '309 issues · 4,000+ stories', tag: 'Open', tagBg: '#FFD23F', tagInk: '#0B0E1A', opacity: '1', covers: rot(0) },
+{ title: 'FANTASY & SCIENCE FICTION', years: '1949–', count: 'Not yet indexed', tag: 'Coming soon', tagBg: '#232A45', tagInk: '#F3EAD3', opacity: '0.5', covers: rot(2) },
+{ title: 'GALAXY', years: '1950–1980', count: 'Not yet indexed', tag: 'Coming soon', tagBg: '#232A45', tagInk: '#F3EAD3', opacity: '0.5', covers: rot(4) }
+],
+tokens: [
+{ name: '--bg', dark: '#0B0E1A', light: '#F4EFE4', glow: 'none' },
+{ name: '--surface', dark: '#161B30', light: '#FFFFFF', glow: 'none' },
+{ name: '--line', dark: '#2A3150', light: '#D9D0BC', glow: 'none' },
+{ name: '--text', dark: '#F3EAD3', light: '#15182A', glow: 'none' },
+{ name: '--text-muted', dark: '#A9A38F', light: '#5C5747', glow: 'none' },
+{ name: '--neon', dark: '#FFD23F', light: '#FFD23F', glow: '0 0 16px rgba(255,210,63,0.7)' },
+{ name: '--signal', dark: '#FF4A3D', light: '#C62A22', glow: '0 0 16px rgba(255,74,61,0.7)' },
+{ name: '--atom', dark: '#7FA4FF', light: '#1E3A9E', glow: 'none' }
+]
+};
+}
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Atlas — tablet sketch</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#1F4E8C}a:hover{color:#C8321F}
+</style>
+</helmet>
+<div style="width: 1280px; height: 800px; overflow: hidden; display: flex; flex-direction: column; background: #EEE2C6; color: #2A2118; font-family: 'Source Serif 4', Georgia, serif">
+
+<div style="height: 72px; flex-shrink: 0; display: flex; align-items: center; gap: 24px; padding: 0 24px; background: radial-gradient(rgba(255,240,200,0.16) 1.3px, transparent 1.8px) 0 0 / 7px 7px, #C8321F; border-bottom: 3px solid #2A2118">
+<a href="TabLibrary.dc.html" style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 46px; line-height: 1; color: #F2B705; text-shadow: 3px 3px 0 #1F4E8C; text-decoration: none">BANCA</a>
+<nav style="display: flex; gap: 8px">
+<a href="TabLibrary.dc.html" style="height: 44px; padding: 0 16px; border-radius: 4px; border: 2px solid #F5EBD3; color: #F5EBD3; display: flex; align-items: center; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 19px; letter-spacing: 0.06em; text-decoration: none">PULP</a>
+<a href="#" style="height: 44px; padding: 0 16px; border-radius: 4px; border: 2px solid #F5EBD3; color: #F5EBD3; display: flex; align-items: center; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 19px; letter-spacing: 0.06em; text-decoration: none">RPG</a>
+<a href="TabAtlas.dc.html" style="height: 44px; padding: 0 16px; border-radius: 4px; background: #F2B705; color: #2A2118; border: 2px solid #2A2118; display: flex; align-items: center; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 19px; letter-spacing: 0.06em; text-decoration: none">ATLAS</a>
+</nav>
+<div style="flex-grow: 1"></div>
+<div style="font-size: 13px; font-weight: 700; letter-spacing: 0.14em; color: #FFF4DC; padding: 6px 10px; border: 2px dashed #FFF4DC">SKETCH · FUTURE</div>
+</div>
+
+<div style="flex-grow: 1; display: grid; grid-template-columns: minmax(0, 1fr) 380px; min-height: 0">
+
+<div style="padding: 18px 24px 0 24px; display: flex; flex-direction: column; gap: 10px; min-width: 0">
+<div style="display: flex; align-items: center; gap: 10px">
+<h1 style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 30px; line-height: 1">TIMELINE</h1>
+<span style="font-size: 14px; color: #5E4E3A; font-variant-numeric: tabular-nums">1920 – 1960 · pinch to zoom decades</span>
+<div style="flex-grow: 1"></div>
+<button style="height: 40px; padding: 0 12px; border-radius: 4px; border: 2px solid #2A2118; background: #F7EEDA; font: 600 14px 'Source Serif 4', serif; cursor: pointer">Lanes · 8</button>
+<button style="height: 40px; padding: 0 12px; border-radius: 4px; border: 2px solid #2A2118; background: #F2B705; font: 700 14px 'Source Serif 4', serif; cursor: pointer">Linked to: Off on a Comet</button>
+</div>
+
+<div style="position: relative; display: grid; grid-template-columns: 104px minmax(0, 1fr); flex-grow: 1">
+<div></div>
+<div style="position: relative; height: 26px; border-bottom: 2px solid #2A2118">
+<sc-for list="{{years}}" as="y" hint-placeholder-count="9">
+<div style="position: absolute; left: {{y.left}}; bottom: 4px; transform: translateX(-50%); font-size: 13px; font-weight: 700; font-variant-numeric: tabular-nums">{{y.label}}</div>
+</sc-for>
+</div>
+<sc-for list="{{lanes}}" as="l" hint-placeholder-count="8">
+<div style="height: 70px; display: flex; align-items: center; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 17px; letter-spacing: 0.06em; border-bottom: 1px solid #D6C6A2">{{l.name}}</div>
+<div style="position: relative; height: 70px; border-bottom: 1px solid #D6C6A2; background: repeating-linear-gradient(90deg, transparent 0 calc(12.5% - 1px), rgba(42,33,24,0.08) calc(12.5% - 1px) 12.5%)">
+<sc-for list="{{l.items}}" as="e" hint-placeholder-count="3">
+<div style="position: absolute; left: {{e.left}}; width: {{e.width}}; top: {{e.top}}; height: 26px; box-sizing: border-box; padding: 0 6px; display: flex; align-items: center; border: 2px solid #2A2118; border-radius: {{e.radius}}; background: {{e.bg}}; color: {{e.ink}}; font-size: 12px; font-weight: 600; white-space: nowrap; overflow: hidden; box-shadow: {{e.shadow}}">{{e.label}}</div>
+</sc-for>
+</div>
+</sc-for>
+<div style="position: absolute; left: calc(104px + (100% - 104px) * 0.15); top: 0; bottom: 0; width: 3px; background: #C8321F"></div>
+<div style="position: absolute; left: calc(104px + (100% - 104px) * 0.15 + 6px); top: 30px; font-size: 11px; font-weight: 700; letter-spacing: 0.1em; color: #C8321F">APR 1926</div>
+</div>
+</div>
+
+<aside style="border-left: 2px solid #2A2118; background: #F7EEDA; padding: 20px 22px; display: flex; flex-direction: column; gap: 14px; overflow: hidden">
+<div style="font-size: 12px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #5E4E3A">Story · novel</div>
+<h2 style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 40px; line-height: 0.9">OFF ON A COMET</h2>
+<div style="font-size: 15px; line-height: 1.45"><a href="#">Jules Verne</a>, 1877 (<i>Hector Servadac</i>). Reprinted in <a href="TabIssue.dc.html">Amazing Stories, April–May 1926</a>.</div>
+<div style="display: flex; gap: 8px">
+<button style="height: 44px; padding: 0 14px; display: flex; align-items: center; gap: 6px; border-radius: 4px; border: 2px solid #2A2118; background: #C8321F; color: #FFF4DC; box-shadow: 3px 3px 0 #2A2118; font: 700 14px 'Source Serif 4', serif; cursor: pointer">Read in Banca</button>
+<button style="height: 44px; padding: 0 14px; border-radius: 4px; border: 2px solid #2A2118; background: #F7EEDA; box-shadow: 3px 3px 0 #2A2118; font: 700 14px 'Source Serif 4', serif; cursor: pointer">+ Want to read</button>
+</div>
+<sc-for list="{{links}}" as="g" hint-placeholder-count="3">
+<div style="border-top: 2px solid #D6C6A2; padding-top: 10px">
+<div style="font-size: 12px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #C8321F; margin-bottom: 6px">{{g.rel}}</div>
+<sc-for list="{{g.items}}" as="i" hint-placeholder-count="2">
+<a href="#" style="display: flex; justify-content: space-between; gap: 10px; min-height: 36px; align-items: center; font-size: 15px; color: #2A2118; text-decoration: none"><span style="font-weight: 600">{{i.t}}</span><span style="font-size: 13px; color: #5E4E3A; white-space: nowrap; font-variant-numeric: tabular-nums">{{i.m}}</span></a>
+</sc-for>
+</div>
+</sc-for>
+<div style="margin-top: auto; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; border-top: 2px solid #2A2118; padding-top: 12px">
+<sc-for list="{{lists}}" as="w" hint-placeholder-count="4">
+<a href="#" style="display: flex; flex-direction: column; align-items: center; padding: 6px 0; border-radius: 4px; color: #2A2118; text-decoration: none; background: #EEE2C6"><span style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 24px; font-variant-numeric: tabular-nums">{{w.n}}</span><span style="font-size: 12px; color: #5E4E3A">{{w.l}}</span></a>
+</sc-for>
+</div>
+</aside>
+
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":800}}'>
+class Component extends DCLogic {
+renderVals() {
+const x = (y) => ((y - 1920) / 40 * 100) + '%';
+const w = (a, b) => ((b - a) / 40 * 100) + '%';
+const KIND = {
+mag: { bg: '#F2B705', ink: '#2A2118', radius: '3px' },
+hot: { bg: '#C8321F', ink: '#FFF4DC', radius: '3px' },
+plain: { bg: '#F7EEDA', ink: '#2A2118', radius: '13px' },
+blue: { bg: '#1F4E8C', ink: '#F7EEDA', radius: '13px' },
+range: { bg: '#2A2118', ink: '#EFE0C2', radius: '3px' }
+};
+const it = (label, a, b, top, k, minW) => ({
+label, left: x(a), width: b ? w(a, b) : (minW || '130px'), top: top + 'px', ...KIND[k],
+shadow: k === 'hot' ? '3px 3px 0 #2A2118' : 'none'
+});
+return {
+years: [1920, 1925, 1930, 1935, 1940, 1945, 1950, 1955, 1960].map((y) => ({ label: String(y), left: x(y) })),
+lanes: [
+{ name: 'MAGAZINES', items: [it('Weird Tales', 1923, 1954, 6, 'mag'), it('Amazing Stories', 1926, 1956, 38, 'hot'), it('Astounding', 1930, 1960, 6, 'mag')] },
+{ name: 'STORIES', items: [it('Off on a Comet (repr.)', 1926, 0, 6, 'hot', '150px'), it('A Martian Odyssey', 1934, 0, 38, 'plain'), it('Nightfall', 1941, 0, 6, 'plain', '90px')] },
+{ name: 'AUTHORS', items: [it('Asimov debuts in Amazing', 1939, 0, 22, 'blue', '190px')] },
+{ name: 'FILM', items: [it('Metropolis', 1927, 0, 6, 'plain', '100px'), it('Things to Come', 1936, 0, 38, 'plain', '120px'), it('Forbidden Planet', 1956, 0, 6, 'plain', '130px')] },
+{ name: 'MUSIC', items: [it('Theremin patented', 1928, 0, 22, 'plain', '140px'), it('Herrmann · Day the Earth Stood Still', 1951, 0, 6, 'plain', '230px')] },
+{ name: 'PAINTING', items: [it('Surrealist Manifesto', 1924, 0, 6, 'plain', '150px'), it('Persistence of Memory', 1931, 0, 38, 'plain', '160px'), it('Bonestell · Saturn from Titan', 1944, 0, 22, 'plain', '200px')] },
+{ name: 'MANGA', items: [it('Shin Takarajima', 1947, 0, 6, 'plain', '120px'), it('Astro Boy', 1952, 0, 38, 'plain', '90px')] },
+{ name: 'WORLD', items: [it('Crash', 1929, 0, 6, 'plain', '64px'), it('World War II', 1939, 1945, 38, 'range'), it('Sputnik', 1957, 0, 6, 'plain', '74px')] }
+],
+links: [
+{ rel: 'Adapted as', items: [{ t: 'Valley of the Dragons', m: 'film · 1961' }, { t: 'On the Comet (Karel Zeman)', m: 'film · 1970' }] },
+{ rel: 'Same theme', items: [{ t: 'When Worlds Collide', m: 'novel · 1933' }] },
+{ rel: 'Explore next', items: [{ t: 'The Man from the Atom', m: 'same issue' }, { t: 'Hugo Gernsback', m: 'editor' }] }
+],
+lists: [{ n: '12', l: 'Read' }, { n: '4', l: 'Watch' }, { n: '3', l: 'Listen' }, { n: '2', l: 'See' }]
+};
+}
+}
+</script>
+</body>
+</html>

@@ -87,13 +87,16 @@ pytest                                                      # catalog tools, fro
 | `app/src/screens/`, `app/src/ui/` | screens and shared components |
 | `app/src/spike/` | Phase 1 reader prototype (still used by the reader screen until Phase 3) |
 | `tools/` | catalog builder, magazine adapters, tests, and Internet Archive investigation scripts |
-| `docs/` | decisions log, Internet Archive findings, catalog report, benchmark checklist |
+| `docs/` | decisions log, Internet Archive findings, catalog report, benchmark checklist, backlog |
+| `docs/design/` | Banca visual identity: design system spec (`banca-newsprint.md`) and mockup sources (`mockups/`) |
 | `SPEC.md`, `PHASE*_PROMPT.md`, `CLAUDE.md` | product spec, phase briefs, contributor/agent notes |
 
 ## Roadmap
 
 1. ✅ **Spike and catalog**: reader approach chosen (IIIF images + OCR layer, not PDF.js) and catalog extraction.
 2. ✅ **App shell**: Library / Magazine / Issue / Person / Search screens and progress (testing on the device).
+   ✅ **Design sprint**: name **Banca** and the "Newsprint" identity, tokens and tablet/phone mockups
+   ([docs/design/banca-newsprint.md](docs/design/banca-newsprint.md)); applied to the app from Phase 3 on.
 3. **Reader**: production reader with two-page spreads in landscape, themes, in-app brightness and a warm filter, a
    "enhance text" filter for worn type, a contents drawer, page slider, and page numbers corrected from OCR.
 4. **Downloads**: Kindle-style offline issues, resumable, Wi-Fi only, storage management.

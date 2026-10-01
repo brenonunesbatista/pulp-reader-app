@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Banca — C · Enamel Sign</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bungee&amp;family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#17307A}a:hover{color:#D7261E}
+input::placeholder{color:#4F5878}
+</style>
+</helmet>
+<div style="width: 1440px; height: 1740px; box-sizing: border-box; padding: 48px; display: flex; flex-direction: column; gap: 36px; background: #EFE8D6; color: #0F1A3D; font-family: Newsreader, Georgia, serif">
+
+<header style="display: flex; align-items: flex-end; justify-content: space-between; gap: 24px">
+<div style="display: flex; align-items: center; gap: 20px">
+<div style="width: 72px; height: 72px; border-radius: 50%; background: #D7261E; color: #F6F0E1; display: flex; align-items: center; justify-content: center; font-family: Bungee, sans-serif; font-size: 36px">C</div>
+<div>
+<h1 style="margin: 0; font-family: Bungee, sans-serif; font-weight: 400; font-size: 40px; line-height: 1.05; color: #17307A">ENAMEL SIGN</h1>
+<p style="margin: 6px 0 0; font-size: 18px; color: #4F5878">The kiosk itself: cobalt enamel plaques, signal red, cream paint and covers pinned on a wire.</p>
+</div>
+</div>
+<div style="font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: #4F5878">Default theme · Cream (with night)</div>
+</header>
+
+<section style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; height: 580px">
+
+<div style="background: #FFFFFF; border: 2px solid #17307A; border-radius: 18px; padding: 32px; display: flex; flex-direction: column; gap: 26px">
+<div style="font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: #4F5878">Wordmark &amp; icon</div>
+<div style="position: relative; border-radius: 20px; background: #17307A; padding: 34px 30px; outline: 3px solid #F6F0E1; outline-offset: -11px; box-shadow: 0 10px 24px rgba(15,26,61,0.25), inset 0 2px 0 rgba(255,255,255,0.18)">
+<div style="display: flex; align-items: center; gap: 14px">
+<div style="font-family: Bungee, sans-serif; font-size: 82px; line-height: 1; color: #F6F0E1">BANCA</div>
+<div style="width: 26px; height: 26px; border-radius: 50%; background: #D7261E; border: 3px solid #F6F0E1"></div>
+</div>
+<div style="position: absolute; left: 18px; top: 18px; width: 8px; height: 8px; border-radius: 50%; background: #C9CCD3"></div>
+<div style="position: absolute; right: 18px; top: 18px; width: 8px; height: 8px; border-radius: 50%; background: #C9CCD3"></div>
+<div style="position: absolute; left: 18px; bottom: 18px; width: 8px; height: 8px; border-radius: 50%; background: #C9CCD3"></div>
+<div style="position: absolute; right: 18px; bottom: 18px; width: 8px; height: 8px; border-radius: 50%; background: #C9CCD3"></div>
+</div>
+<div style="font-size: 16px; letter-spacing: 0.18em; text-transform: uppercase">Pulp magazines · every era</div>
+<div style="display: flex; gap: 20px; align-items: center; margin-top: auto">
+<div style="width: 104px; height: 104px; border-radius: 24px; background: #17307A; outline: 3px solid #F6F0E1; outline-offset: -9px; display: flex; align-items: center; justify-content: center; position: relative">
+<div style="font-family: Bungee, sans-serif; font-size: 56px; line-height: 1; color: #F6F0E1">B</div>
+<div style="position: absolute; right: 20px; bottom: 20px; width: 12px; height: 12px; border-radius: 50%; background: #D7261E"></div>
+</div>
+<div style="width: 104px; height: 104px; border-radius: 24px; background: #D7261E; display: flex; align-items: center; justify-content: center">
+<div style="font-family: Bungee, sans-serif; font-size: 56px; line-height: 1; color: #F6F0E1">B</div>
+</div>
+<div style="flex-grow: 1; height: 104px; border-radius: 16px; background: #0C1530; display: flex; align-items: center; justify-content: center; gap: 10px">
+<div style="font-family: Bungee, sans-serif; font-size: 34px; color: #F6F0E1">BANCA</div>
+<div style="width: 12px; height: 12px; border-radius: 50%; background: #FF5A4E"></div>
+</div>
+</div>
+</div>
+
+<div style="background: #FFFFFF; border: 2px solid #17307A; border-radius: 18px; padding: 32px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: grid; grid-template-columns: 150px repeat(2, minmax(0, 1fr)); gap: 12px; font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: #4F5878">
+<div>Token</div><div>Cream · default</div><div>Night</div>
+</div>
+<sc-for list="{{tokens}}" as="t" hint-placeholder-count="8">
+<div style="display: grid; grid-template-columns: 150px repeat(2, minmax(0, 1fr)); gap: 12px; align-items: center">
+<div style="font-family: ui-monospace, Consolas, monospace; font-size: 14px">{{t.name}}</div>
+<div style="display: flex; align-items: center; gap: 10px">
+<div style="width: 44px; height: 44px; border-radius: 50%; background: {{t.light}}; border: 2px solid #C9CCD3"></div>
+<div style="font-size: 14px; color: #4F5878; font-variant-numeric: tabular-nums">{{t.light}}</div>
+</div>
+<div style="display: flex; align-items: center; gap: 10px">
+<div style="width: 44px; height: 44px; border-radius: 50%; background: {{t.dark}}; border: 2px solid #C9CCD3"></div>
+<div style="font-size: 14px; color: #4F5878; font-variant-numeric: tabular-nums">{{t.dark}}</div>
+</div>
+</div>
+</sc-for>
+</div>
+
+<div style="background: #FFFFFF; border: 2px solid #17307A; border-radius: 18px; padding: 32px; display: flex; flex-direction: column; gap: 22px">
+<div style="font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: #4F5878">Typography</div>
+<div>
+<div style="font-size: 14px; color: #4F5878; margin-bottom: 6px">Bungee · signage, short labels only</div>
+<div style="font-family: Bungee, sans-serif; font-size: 44px; line-height: 1.05; color: #17307A">OFF ON A COMET</div>
+</div>
+<div>
+<div style="font-size: 14px; color: #4F5878; margin-bottom: 6px">Newsreader 600 · titles</div>
+<div style="font-size: 30px; font-weight: 600; line-height: 1.15">The Man from the Atom</div>
+<div style="font-size: 18px; color: #4F5878; margin-top: 4px">G. Peyton Wertenbaker · short story</div>
+</div>
+<div>
+<div style="font-size: 14px; color: #4F5878; margin-bottom: 6px">Newsreader 400 · body</div>
+<div style="font-size: 18px; line-height: 1.5">Amazing Stories, April 1926. The first magazine devoted entirely to scientifiction, edited by Hugo Gernsback.</div>
+</div>
+<div style="margin-top: auto; padding-top: 18px; border-top: 2px solid #E3DCC8">
+<div style="font-size: 14px; color: #4F5878; margin-bottom: 6px">Tabular figures</div>
+<div style="font-size: 23px; font-weight: 600; font-variant-numeric: tabular-nums lining-nums; letter-spacing: 0.02em">p. 042 / 100 · APR 1926 · 25¢</div>
+</div>
+</div>
+
+</section>
+
+<div style="font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: #4F5878">Library · tablet landscape at 70% (1920×1200)</div>
+
+<div style="width: 1344px; height: 840px; border-radius: 20px; overflow: hidden; background: #F6F0E1; border: 1px solid #C9CCD3; display: flex; flex-direction: column; box-shadow: 0 24px 60px rgba(15,26,61,0.22)">
+
+<div style="margin: 16px 16px 0; height: 80px; flex-shrink: 0; display: flex; align-items: center; gap: 24px; padding: 0 28px; border-radius: 16px; background: #17307A; outline: 2px solid #F6F0E1; outline-offset: -7px; box-shadow: 0 6px 14px rgba(15,26,61,0.2)">
+<div style="display: flex; align-items: center; gap: 8px">
+<div style="font-family: Bungee, sans-serif; font-size: 32px; line-height: 1; color: #F6F0E1">BANCA</div>
+<div style="width: 11px; height: 11px; border-radius: 50%; background: #D7261E; border: 2px solid #F6F0E1"></div>
+</div>
+<nav style="display: flex; gap: 6px">
+<a href="#" style="height: 44px; padding: 0 18px; border-radius: 22px; background: #F6F0E1; color: #17307A; display: flex; align-items: center; font-family: Bungee, sans-serif; font-size: 14px; text-decoration: none">PULP</a>
+<a href="#" style="height: 44px; padding: 0 18px; border-radius: 22px; color: #F6F0E1; display: flex; align-items: center; font-family: Bungee, sans-serif; font-size: 14px; text-decoration: none">RPG</a>
+<a href="#" style="height: 44px; padding: 0 18px; border-radius: 22px; color: #F6F0E1; display: flex; align-items: center; font-family: Bungee, sans-serif; font-size: 14px; text-decoration: none">ATLAS</a>
+</nav>
+<label style="flex-grow: 1; height: 48px; border-radius: 24px; background: #F6F0E1; display: flex; align-items: center; gap: 12px; padding: 0 18px">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#17307A" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+<input type="search" aria-label="Search the newsstand" placeholder="Search titles, authors, editors, cover artists…" style="flex-grow: 1; background: transparent; border: 0; outline: none; color: #0F1A3D; font: 17px Newsreader, serif">
+</label>
+<button aria-label="Settings" style="width: 48px; height: 48px; border-radius: 24px; background: transparent; border: 2px solid #F6F0E1; display: flex; align-items: center; justify-content: center; cursor: pointer">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F6F0E1" stroke-width="2" stroke-linecap="round"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"></path><circle cx="16" cy="7" r="2"></circle><circle cx="10" cy="17" r="2"></circle></svg>
+</button>
+</div>
+
+<div style="flex-grow: 1; padding: 22px 32px 28px; display: flex; flex-direction: column; gap: 24px">
+
+<div>
+<div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 8px">
+<h2 style="margin: 0; font-family: Bungee, sans-serif; font-weight: 400; font-size: 20px; color: #17307A">CONTINUE READING</h2>
+<a href="#" style="font-size: 16px; font-weight: 600">See all</a>
+</div>
+<div style="position: relative; display: flex; gap: 34px; padding: 18px 8px 0">
+<div style="position: absolute; left: -32px; right: -32px; top: 10px; height: 2px; background: #0F1A3D; opacity: 0.6"></div>
+<sc-for list="{{shelf}}" as="c" hint-placeholder-count="7">
+<div style="position: relative; width: 140px; flex-shrink: 0">
+<div style="position: relative; transform: rotate({{c.rot}}); transform-origin: 50% 0">
+<div style="position: absolute; left: 61px; top: -14px; width: 18px; height: 26px; border-radius: 3px; background: #C9CCD3; border: 1px solid #8A90A0; z-index: 1"></div>
+<div style="position: relative; width: 140px; height: 194px; border-radius: 2px; overflow: hidden; background: radial-gradient(circle at 66% 58%, rgba(255,255,255,0.32) 0 17%, transparent 18%), {{c.bg}}; box-shadow: 0 12px 20px rgba(15,26,61,0.3)">
+<div style="position: absolute; left: 8px; top: 18px; font-family: Bungee, sans-serif; font-size: 15px; line-height: 1.05; color: #FFF6D8; text-shadow: 0 2px 0 rgba(0,0,0,0.3)">AMAZING<br>STORIES</div>
+<div style="position: absolute; left: 0; bottom: 10px; background: #F6F0E1; color: #17307A; font-size: 11px; font-weight: 700; padding: 3px 7px; letter-spacing: 0.05em; font-variant-numeric: tabular-nums">{{c.d}} · {{c.price}}</div>
+</div>
+</div>
+<div style="margin-top: 14px; height: 4px; border-radius: 2px; background: #E3DCC8"><div style="height: 4px; border-radius: 2px; width: {{c.pct}}; background: #D7261E"></div></div>
+<div style="font-size: 15px; font-weight: 700; margin-top: 7px">{{c.label}}</div>
+<div style="font-size: 14px; color: #4F5878; font-variant-numeric: tabular-nums">{{c.where}}</div>
+</div>
+</sc-for>
+</div>
+</div>
+
+<div style="flex-grow: 1; display: flex; flex-direction: column">
+<h2 style="margin: 0 0 14px; font-family: Bungee, sans-serif; font-weight: 400; font-size: 20px; color: #17307A">MAGAZINES</h2>
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; flex-grow: 1">
+<sc-for list="{{mags}}" as="m" hint-placeholder-count="3">
+<a href="#" style="display: flex; gap: 18px; padding: 18px; border-radius: 16px; background: #FFFFFF; border: 2px solid {{m.border}}; text-decoration: none; color: #0F1A3D; opacity: {{m.opacity}}">
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; width: 180px; align-content: start; flex-shrink: 0">
+<sc-for list="{{m.covers}}" as="k" hint-placeholder-count="6">
+<div style="height: 80px; border-radius: 2px; background: radial-gradient(circle at 64% 60%, rgba(255,255,255,0.3) 0 16%, transparent 17%), {{k}}; box-shadow: 0 4px 8px rgba(15,26,61,0.2)"></div>
+</sc-for>
+</div>
+<div style="display: flex; flex-direction: column; gap: 5px; min-width: 0">
+<div style="font-family: Bungee, sans-serif; font-size: 18px; line-height: 1.15; color: #17307A">{{m.title}}</div>
+<div style="font-size: 15px; color: #4F5878; font-variant-numeric: tabular-nums">{{m.years}}</div>
+<div style="font-size: 15px; color: #4F5878; font-variant-numeric: tabular-nums">{{m.count}}</div>
+<div style="margin-top: auto; align-self: flex-start; font-family: Bungee, sans-serif; font-size: 12px; padding: 7px 12px; border-radius: 16px; color: {{m.tagInk}}; background: {{m.tagBg}}">{{m.tag}}</div>
+</div>
+</a>
+</sc-for>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1740}}'>
+class Component extends DCLogic {
+renderVals() {
+const G = [
+'linear-gradient(160deg,#F5C431 0%,#E4572E 52%,#17307A 100%)',
+'linear-gradient(175deg,#3FB2C4 0%,#17307A 62%,#F5C431 100%)',
+'linear-gradient(150deg,#E4572E 0%,#9A1F25 45%,#0F1A3D 100%)',
+'linear-gradient(165deg,#9BD15A 0%,#2A7A5B 50%,#0F1A3D 100%)',
+'linear-gradient(170deg,#F7E3A1 0%,#E09A2C 45%,#5A1E3A 100%)',
+'linear-gradient(155deg,#7A6CE0 0%,#2B3A9A 55%,#F06A3A 100%)',
+'linear-gradient(165deg,#F06A3A 0%,#F5C431 40%,#1A6F8F 100%)'
+];
+const R = ['-1.5deg', '1deg', '-0.5deg', '1.8deg', '-1deg', '0.6deg', '-1.8deg'];
+const shelf = [
+{ d: 'APR 1926', price: '25¢', label: 'April 1926', where: 'Off on a Comet · p. 42', pct: '42%' },
+{ d: 'AUG 1927', price: '25¢', label: 'August 1927', where: 'p. 12', pct: '12%' },
+{ d: 'JUN 1928', price: '25¢', label: 'June 1928', where: 'p. 88', pct: '86%' },
+{ d: 'OCT 1929', price: '25¢', label: 'October 1929', where: 'p. 31', pct: '30%' },
+{ d: 'JAN 1933', price: '25¢', label: 'January 1933', where: 'p. 64', pct: '62%' },
+{ d: 'MAR 1940', price: '20¢', label: 'March 1940', where: 'p. 7', pct: '6%' },
+{ d: 'SEP 1947', price: '25¢', label: 'September 1947', where: 'p. 120', pct: '70%' }
+].map((c, i) => ({ ...c, bg: G[i % G.length], rot: R[i] }));
+const rot = (n) => [0, 1, 2, 3, 4, 5].map((i) => G[(i + n) % G.length]);
+return {
+shelf,
+mags: [
+{ title: 'AMAZING STORIES', years: '1926–1956', count: '309 issues · 4,000+ stories', tag: 'OPEN', tagBg: '#D7261E', tagInk: '#FFFFFF', border: '#17307A', opacity: '1', covers: rot(0) },
+{ title: 'FANTASY & SCIENCE FICTION', years: '1949–', count: 'Not yet indexed', tag: 'COMING SOON', tagBg: '#E3DCC8', tagInk: '#0F1A3D', border: '#C9CCD3', opacity: '0.55', covers: rot(2) },
+{ title: 'GALAXY', years: '1950–1980', count: 'Not yet indexed', tag: 'COMING SOON', tagBg: '#E3DCC8', tagInk: '#0F1A3D', border: '#C9CCD3', opacity: '0.55', covers: rot(4) }
+],
+tokens: [
+{ name: '--bg', light: '#F6F0E1', dark: '#0C1530' },
+{ name: '--surface', light: '#FFFFFF', dark: '#14204A' },
+{ name: '--enamel', light: '#17307A', dark: '#2C4BB0' },
+{ name: '--text', light: '#0F1A3D', dark: '#F6F0E1' },
+{ name: '--text-muted', light: '#4F5878', dark: '#A6B0CF' },
+{ name: '--signal', light: '#D7261E', dark: '#FF5A4E' },
+{ name: '--chrome', light: '#C9CCD3', dark: '#3A4466' },
+{ name: '--cream', light: '#F6F0E1', dark: '#F6F0E1' }
+]
+};
+}
+}
+</script>
+</body>
+</html>

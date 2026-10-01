@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Reader — tablet</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#1F4E8C}a:hover{color:#C8321F}
+</style>
+</helmet>
+<div style="position: relative; width: 1280px; height: 800px; overflow: hidden; background: {{surround}}; color: #2A2118; font-family: 'Source Serif 4', Georgia, serif">
+
+<div style="position: absolute; left: 85px; top: 6px; width: 1110px; height: 788px; display: flex; box-shadow: 0 10px 40px rgba(0,0,0,0.35); filter: {{pageFilter}}">
+
+<div style="position: relative; width: 555px; height: 788px; box-sizing: border-box; padding: 40px 38px 44px; background: {{page}}; color: {{ink}}; display: flex; flex-direction: column; gap: 14px; border-right: 1px solid rgba(0,0,0,0.18)">
+<div style="display: flex; justify-content: space-between; font-size: 11px; letter-spacing: 0.16em; padding-bottom: 6px; border-bottom: 1px solid {{ink}}; font-variant-numeric: tabular-nums"><span>42</span><span>AMAZING STORIES</span></div>
+<div style="flex-grow: 1; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px">
+<div style="background: repeating-linear-gradient(to bottom, {{ink}} 0 3px, transparent 3px 9px); opacity: {{lineOp}}"></div>
+<div style="display: flex; flex-direction: column; gap: 14px">
+<div style="height: 260px; background: repeating-linear-gradient(to bottom, {{ink}} 0 3px, transparent 3px 9px); opacity: {{lineOp}}"></div>
+<div style="text-align: center; font-size: 14px; font-weight: 700; letter-spacing: 0.2em">CHAPTER XIV</div>
+<div style="flex-grow: 1; background: repeating-linear-gradient(to bottom, {{ink}} 0 3px, transparent 3px 9px); opacity: {{lineOp}}"></div>
+</div>
+</div>
+<div style="position: absolute; left: 34px; top: 222px; width: 244px; height: 28px; background: rgba(242,183,5,0.5); mix-blend-mode: multiply; border-radius: 2px"></div>
+<div style="position: absolute; left: 70px; top: 166px; display: flex; background: #2A2118; border-radius: 6px; box-shadow: 0 6px 16px rgba(0,0,0,0.35); overflow: hidden">
+<button style="height: 44px; padding: 0 14px; border: 0; background: transparent; color: #EFE0C2; font: 600 14px 'Source Serif 4', serif; cursor: pointer">Copy</button>
+<button style="height: 44px; padding: 0 14px; border: 0; background: #F2B705; color: #2A2118; font: 700 14px 'Source Serif 4', serif; cursor: pointer">Highlight</button>
+<button style="height: 44px; padding: 0 14px; border: 0; background: transparent; color: #EFE0C2; font: 600 14px 'Source Serif 4', serif; cursor: pointer">Look up</button>
+</div>
+</div>
+
+<div style="width: 555px; height: 788px; box-sizing: border-box; padding: 40px 38px 44px; background: {{page}}; color: {{ink}}; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; justify-content: space-between; font-size: 11px; letter-spacing: 0.16em; padding-bottom: 6px; border-bottom: 1px solid {{ink}}; font-variant-numeric: tabular-nums"><span>OFF ON A COMET</span><span>43</span></div>
+<div style="height: 300px; border: 2px solid {{ink}}; display: flex; align-items: center; justify-content: center; background: radial-gradient(circle at 62% 44%, transparent 0 58px, {{ink}} 59px 61px, transparent 62px), radial-gradient(circle at 30% 70%, transparent 0 22px, {{ink}} 23px 24px, transparent 25px), repeating-linear-gradient(135deg, transparent 0 7px, rgba(0,0,0,0.12) 7px 8px); opacity: {{artOp}}">
+<span style="font-size: 13px; font-style: italic">[Illustration · Frank R. Paul]</span>
+</div>
+<div style="flex-grow: 1; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px">
+<div style="background: repeating-linear-gradient(to bottom, {{ink}} 0 3px, transparent 3px 9px); opacity: {{lineOp}}"></div>
+<div style="background: repeating-linear-gradient(to bottom, {{ink}} 0 3px, transparent 3px 9px); opacity: {{lineOp}}"></div>
+</div>
+</div>
+
+</div>
+
+<button aria-label="Show or hide controls" onClick="{{toggleChrome}}" style="position: absolute; left: 33%; width: 34%; top: 0; bottom: 0; border: 0; background: transparent; cursor: pointer"></button>
+
+<sc-if value="{{chrome}}" hint-placeholder-val="{{ true }}">
+
+<button aria-label="Previous page" style="position: absolute; left: 16px; top: 376px; width: 48px; height: 48px; border-radius: 24px; border: 0; background: rgba(42,33,24,0.7); display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#EFE0C2" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"></path></svg></button>
+<button aria-label="Next page" style="position: absolute; right: 16px; top: 376px; width: 48px; height: 48px; border-radius: 24px; border: 0; background: rgba(42,33,24,0.7); display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#EFE0C2" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"></path></svg></button>
+
+<div style="position: absolute; left: 0; right: 0; top: 0; height: 64px; display: flex; align-items: center; gap: 4px; padding: 0 12px; background: rgba(42,33,24,0.94); color: #EFE0C2">
+<a href="TabIssue.dc.html" aria-label="Back to the issue" style="width: 48px; height: 48px; display: flex; align-items: center; justify-content: center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#EFE0C2" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"></path></svg></a>
+<div style="flex-grow: 1; min-width: 0; padding-left: 4px">
+<div style="font-size: 17px; font-weight: 600">Off on a Comet <span style="font-weight: 400; color: #B5A385">— Jules Verne</span></div>
+<div style="font-size: 13px; color: #B5A385">Amazing Stories · April 1926 · Part 1 of 2</div>
+</div>
+<button aria-label="Contents" onClick="{{toggleDrawer}}" style="width: 52px; height: 48px; border: 0; border-radius: 6px; background: {{drawerBg}}; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="{{drawerInk}}" stroke-width="2" stroke-linecap="round"><path d="M9 6h11M9 12h11M9 18h11M4 6h1M4 12h1M4 18h1"></path></svg></button>
+<a href="TabPages.dc.html" aria-label="Page index" style="width: 52px; height: 48px; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#EFE0C2" stroke-width="2" stroke-linejoin="round"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"></path></svg></a>
+<button aria-label="Display: brightness, warmth and theme" onClick="{{togglePanel}}" style="width: 52px; height: 48px; border: 0; border-radius: 6px; background: {{panelBg}}; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="{{panelInk}}" stroke-width="2" stroke-linecap="round"><path d="M12 8a4 4 0 1 0 0 8a4 4 0 1 0 0-8M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M5 19l1.5-1.5M17.5 6.5L19 5"></path></svg></button>
+<button aria-label="Enhance text" onClick="{{toggleEnhance}}" style="width: 52px; height: 48px; border: 0; border-radius: 6px; background: {{enhBg}}; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="{{enhInk}}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19l5-14 5 14M6 14h6M18 3v6M15 6h6"></path></svg></button>
+<button aria-label="Highlights" style="width: 52px; height: 48px; border: 0; background: transparent; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#EFE0C2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4l6 6-9 9H5v-6zM4 21h16"></path></svg></button>
+<button aria-label="Bookmark this page" style="width: 52px; height: 48px; border: 0; background: transparent; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="24" height="24" viewBox="0 0 24 24" fill="#F2B705" stroke="#F2B705" stroke-width="2" stroke-linejoin="round"><path d="M7 4h10v16l-5-4-5 4z"></path></svg></button>
+</div>
+
+<div style="position: absolute; left: 0; right: 0; bottom: 0; padding: 12px 32px 14px; background: rgba(42,33,24,0.94); color: #EFE0C2; display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; justify-content: center; align-items: flex-end; gap: 8px; height: 62px">
+<sc-for list="{{thumbs}}" as="t" hint-placeholder-count="16">
+<div style="width: {{t.w}}px; height: {{t.h}}px; box-sizing: border-box; background: repeating-linear-gradient(to bottom, rgba(42,33,24,0.35) 0 1px, transparent 1px 3px) 4px 6px / calc(100% - 8px) calc(100% - 12px) no-repeat, {{t.bg}}; border: {{t.border}}; flex-shrink: 0"></div>
+</sc-for>
+</div>
+<div style="position: relative; height: 28px; display: flex; align-items: center">
+<div style="position: absolute; left: 0; right: 0; height: 4px; border-radius: 2px; background: #5E4E3A"></div>
+<div style="position: absolute; left: 0; width: 42%; height: 4px; border-radius: 2px; background: #F2B705"></div>
+<sc-for list="{{ticks}}" as="k" hint-placeholder-count="6">
+<div style="position: absolute; left: {{k}}; top: 4px; width: 3px; height: 20px; background: #E5533C"></div>
+</sc-for>
+<div style="position: absolute; left: calc(42% - 14px); width: 28px; height: 28px; border-radius: 50%; background: #F2B705; border: 3px solid #2A2118; box-sizing: border-box"></div>
+</div>
+<div style="display: flex; justify-content: space-between; font-size: 14px; font-variant-numeric: tabular-nums; color: #B5A385">
+<span><b style="color: #EFE0C2">p. 42–43</b> / 100</span>
+<span>Off on a Comet · 6 pages to the end of Part 1</span>
+</div>
+</div>
+
+</sc-if>
+
+<sc-if value="{{showPanel}}" hint-placeholder-val="{{ true }}">
+<div style="position: absolute; right: 16px; top: 76px; width: 344px; box-sizing: border-box; padding: 20px; background: #F7EEDA; color: #2A2118; border: 2px solid #2A2118; border-radius: 6px; box-shadow: 6px 6px 0 rgba(42,33,24,0.85); display: flex; flex-direction: column; gap: 16px">
+<div style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 24px; line-height: 1">DISPLAY</div>
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border: 2px solid #2A2118; border-radius: 4px; overflow: hidden">
+<sc-for list="{{themes}}" as="t" hint-placeholder-count="3">
+<button onClick="{{t.pick}}" style="height: 48px; border: 0; border-right: {{t.sep}}; background: {{t.bg}}; color: {{t.ink}}; font: 700 15px 'Source Serif 4', serif; display: flex; align-items: center; justify-content: center; gap: 8px; cursor: pointer"><span style="width: 14px; height: 14px; border-radius: 50%; background: {{t.swatch}}; border: 1.5px solid #2A2118"></span>{{t.label}}</button>
+</sc-for>
+</div>
+<div>
+<div style="display: flex; justify-content: space-between; font-size: 14px; font-weight: 600; margin-bottom: 8px"><span>Brightness</span><span style="font-variant-numeric: tabular-nums; color: #5E4E3A">70%</span></div>
+<div style="position: relative; height: 28px; display: flex; align-items: center"><div style="position: absolute; left: 0; right: 0; height: 6px; border-radius: 3px; background: #D6C6A2"></div><div style="position: absolute; left: 0; width: 70%; height: 6px; border-radius: 3px; background: #2A2118"></div><div style="position: absolute; left: calc(70% - 13px); width: 26px; height: 26px; border-radius: 50%; background: #F7EEDA; border: 3px solid #2A2118; box-sizing: border-box"></div></div>
+</div>
+<div>
+<div style="display: flex; justify-content: space-between; font-size: 14px; font-weight: 600; margin-bottom: 8px"><span>Warm filter</span><span style="font-variant-numeric: tabular-nums; color: #5E4E3A">30%</span></div>
+<div style="position: relative; height: 28px; display: flex; align-items: center"><div style="position: absolute; left: 0; right: 0; height: 6px; border-radius: 3px; background: linear-gradient(90deg, #D6E2EE, #F2B705, #E4572E)"></div><div style="position: absolute; left: calc(30% - 13px); width: 26px; height: 26px; border-radius: 50%; background: #F7EEDA; border: 3px solid #2A2118; box-sizing: border-box"></div></div>
+</div>
+<button onClick="{{toggleEnhance}}" style="display: flex; align-items: center; gap: 12px; padding: 10px 0 0; border: 0; border-top: 2px solid #D6C6A2; background: transparent; text-align: left; cursor: pointer; color: #2A2118">
+<span style="flex-grow: 1"><span style="display: block; font: 700 15px 'Source Serif 4', serif">Enhance text</span><span style="display: block; font: 13px 'Source Serif 4', serif; color: #5E4E3A">Darkens worn letters on old scans</span></span>
+<span style="position: relative; width: 52px; height: 30px; border-radius: 15px; border: 2px solid #2A2118; background: {{switchBg}}; box-sizing: border-box; flex-shrink: 0"><span style="position: absolute; left: {{knobLeft}}; top: 3px; width: 20px; height: 20px; border-radius: 50%; background: #2A2118"></span></span>
+</button>
+</div>
+</sc-if>
+
+<sc-if value="{{showDrawer}}" hint-placeholder-val="{{ false }}">
+<div style="position: absolute; left: 0; top: 64px; bottom: 0; width: 400px; box-sizing: border-box; padding: 22px 20px; background: #F7EEDA; color: #2A2118; border-right: 2px solid #2A2118; box-shadow: 8px 0 24px rgba(0,0,0,0.3); display: flex; flex-direction: column; gap: 4px">
+<div style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 26px; line-height: 1; margin-bottom: 10px">CONTENTS</div>
+<sc-for list="{{toc}}" as="s" hint-placeholder-count="6">
+<button onClick="{{toggleDrawer}}" style="display: grid; grid-template-columns: 40px minmax(0, 1fr); gap: 10px; align-items: baseline; min-height: 56px; padding: 8px 10px; border: 0; border-bottom: 2px solid #D6C6A2; background: {{s.bg}}; text-align: left; color: #2A2118; cursor: pointer">
+<span style="font: 700 16px 'Source Serif 4', serif; font-variant-numeric: tabular-nums; color: #5E4E3A">{{s.page}}</span>
+<span><span style="display: block; font: 600 16px 'Source Serif 4', serif">{{s.title}}</span><span style="display: block; font: 13px 'Source Serif 4', serif; color: #1F4E8C">{{s.author}}</span></span>
+</button>
+</sc-for>
+</div>
+</sc-if>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":800}}'>
+class Component extends DCLogic {
+constructor(props) {
+super(props);
+this.state = { chrome: true, panel: true, drawer: false, theme: 'sepia', enhance: false };
+}
+renderVals() {
+const s = this.state;
+const TH = {
+paper: { surround: '#CFC2A4', page: '#F3E8CF', ink: '#2A2118', swatch: '#F3E8CF' },
+sepia: { surround: '#B79B6C', page: '#E6D2A6', ink: '#3B2A18', swatch: '#E6D2A6' },
+night: { surround: '#0B0E1A', page: '#1C1A16', ink: '#D9CBB0', swatch: '#1C1A16' }
+};
+const th = TH[s.theme];
+const on = (b) => (b ? '#F2B705' : 'transparent');
+const onInk = (b) => (b ? '#2A2118' : '#EFE0C2');
+const thumbs = [];
+for (let p = 35; p <= 50; p++) {
+const cur = p === 42 || p === 43;
+thumbs.push({ w: cur ? 40 : 30, h: cur ? 56 : 42, bg: th.page, border: cur ? '3px solid #F2B705' : '1px solid rgba(239,224,194,0.25)' });
+}
+return {
+surround: th.surround,
+page: th.page,
+ink: th.ink,
+lineOp: s.enhance ? '0.88' : '0.42',
+artOp: s.enhance ? '0.95' : '0.7',
+pageFilter: s.enhance ? 'contrast(1.15)' : 'none',
+chrome: s.chrome,
+showPanel: s.chrome && s.panel,
+showDrawer: s.chrome && s.drawer,
+panelBg: on(s.panel), panelInk: onInk(s.panel),
+drawerBg: on(s.drawer), drawerInk: onInk(s.drawer),
+enhBg: on(s.enhance), enhInk: onInk(s.enhance),
+switchBg: s.enhance ? '#F2B705' : '#E4D4AF',
+knobLeft: s.enhance ? '25px' : '3px',
+toggleChrome: () => this.setState({ chrome: !s.chrome }),
+togglePanel: () => this.setState({ panel: !s.panel, drawer: false }),
+toggleDrawer: () => this.setState({ drawer: !s.drawer, panel: false }),
+toggleEnhance: () => this.setState({ enhance: !s.enhance }),
+themes: ['paper', 'sepia', 'night'].map((k, i) => ({
+label: k.charAt(0).toUpperCase() + k.slice(1),
+swatch: TH[k].swatch,
+bg: s.theme === k ? '#2A2118' : '#F7EEDA',
+ink: s.theme === k ? '#F2B705' : '#2A2118',
+sep: i < 2 ? '2px solid #2A2118' : '0',
+pick: () => this.setState({ theme: k })
+})),
+thumbs,
+ticks: ['3%', '4%', '52%', '62%', '68%', '80%'],
+toc: [
+{ page: '3', title: 'A New Sort of Magazine', author: 'Hugo Gernsback', bg: 'transparent' },
+{ page: '4', title: 'Off on a Comet (Part 1)', author: 'Jules Verne', bg: 'rgba(242,183,5,0.3)' },
+{ page: '52', title: 'The New Accelerator', author: 'H. G. Wells', bg: 'transparent' },
+{ page: '62', title: 'The Man from the Atom', author: 'G. Peyton Wertenbaker', bg: 'transparent' },
+{ page: '68', title: 'The Thing from — “Outside”', author: 'George Allan England', bg: 'transparent' },
+{ page: '80', title: 'The Facts in the Case of M. Valdemar', author: 'Edgar Allan Poe', bg: 'transparent' }
+]
+};
+}
+}
+</script>
+</body>
+</html>

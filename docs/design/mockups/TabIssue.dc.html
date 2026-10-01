@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Issue — tablet</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#1F4E8C}a:hover{color:#C8321F}
+</style>
+</helmet>
+<div style="width: 1280px; height: 800px; overflow: hidden; display: flex; flex-direction: column; background: #EEE2C6; color: #2A2118; font-family: 'Source Serif 4', Georgia, serif">
+
+<div style="height: 64px; flex-shrink: 0; display: flex; align-items: center; gap: 16px; padding: 0 24px 0 16px; background: radial-gradient(rgba(255,240,200,0.16) 1.3px, transparent 1.8px) 0 0 / 7px 7px, #C8321F; border-bottom: 3px solid #2A2118">
+<a href="TabMagazine.dc.html" aria-label="Back to Amazing Stories" style="width: 48px; height: 48px; border-radius: 4px; background: #F5EBD3; border: 2px solid #2A2118; box-sizing: border-box; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2A2118" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"></path></svg></a>
+<div style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 30px; line-height: 1; color: #F2B705; text-shadow: 2px 2px 0 #1F4E8C">AMAZING STORIES</div>
+<div style="font-size: 17px; color: #FFF4DC">April 1926</div>
+</div>
+
+<div style="flex-grow: 1; display: grid; grid-template-columns: 400px minmax(0, 1fr); gap: 48px; padding: 32px 40px 0 48px">
+
+<div style="display: flex; flex-direction: column; align-items: center; gap: 18px">
+<dc-import name="Cover" w="340" stamp="true" date="APR 1926" price="25¢" hint-size="340px,472px"></dc-import>
+<div style="font-size: 14px; color: #5E4E3A; font-variant-numeric: tabular-nums">Scan: 100 pages · archive.org</div>
+</div>
+
+<div style="display: flex; flex-direction: column; min-width: 0">
+<div style="font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #C8321F; font-variant-numeric: tabular-nums">Vol. 1 · No. 1 · April 1926 · 25¢</div>
+<h1 style="margin: 6px 0 12px; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 60px; line-height: 0.9">AMAZING STORIES</h1>
+<div style="display: flex; gap: 32px; font-size: 16px">
+<div><span style="color: #5E4E3A">Cover </span><a href="#" style="font-weight: 600">Frank R. Paul</a></div>
+<div><span style="color: #5E4E3A">Editor </span><a href="#" style="font-weight: 600">Hugo Gernsback</a></div>
+</div>
+<div style="display: flex; gap: 16px; margin-top: 22px">
+<a href="TabReader.dc.html" style="height: 52px; padding: 0 22px; display: flex; align-items: center; gap: 10px; background: #C8321F; color: #FFF4DC; border: 2px solid #2A2118; border-radius: 4px; box-shadow: 4px 4px 0 #2A2118; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 21px; letter-spacing: 0.06em; text-decoration: none; font-variant-numeric: tabular-nums">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5h6a3 3 0 0 1 3 3v12a2 2 0 0 0-2-2H3zM21 5h-6a3 3 0 0 0-3 3v12a2 2 0 0 1 2-2h7z"></path></svg>CONTINUE · PAGE 42</a>
+<a href="TabReader.dc.html" style="height: 52px; padding: 0 20px; display: flex; align-items: center; background: #F7EEDA; color: #2A2118; border: 2px solid #2A2118; border-radius: 4px; box-shadow: 4px 4px 0 #2A2118; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 21px; letter-spacing: 0.06em; text-decoration: none">START OVER</a>
+<button style="height: 52px; padding: 0 20px; display: flex; align-items: center; gap: 8px; background: #F7EEDA; color: #2A2118; border: 2px solid #2A2118; border-radius: 4px; box-shadow: 4px 4px 0 #2A2118; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 21px; letter-spacing: 0.06em; cursor: pointer">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path></svg>DOWNLOAD</button>
+</div>
+
+<div style="display: flex; align-items: center; gap: 16px; margin: 30px 0 4px">
+<h2 style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 28px; line-height: 1">CONTENTS</h2>
+<div style="flex-grow: 1; height: 4px; background: #C8321F"></div>
+</div>
+<sc-for list="{{toc}}" as="s" hint-placeholder-count="6">
+<a href="TabReader.dc.html" style="display: grid; grid-template-columns: 56px minmax(0, 1fr) auto; gap: 16px; align-items: center; min-height: 56px; padding: 6px 12px; margin: 0 -12px; border-bottom: 2px solid #D6C6A2; color: #2A2118; text-decoration: none; background: {{s.bg}}">
+<div style="font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums; color: #5E4E3A">{{s.page}}</div>
+<div style="min-width: 0">
+<div style="font-size: 19px; font-weight: 600; line-height: 1.2">{{s.title}}</div>
+<div style="font-size: 14px; color: #1F4E8C">{{s.author}}<span style="color: #C8321F; font-weight: 700">{{s.note}}</span></div>
+</div>
+<span style="font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; padding: 4px 8px; border-radius: 3px; border: 2px solid {{s.tagBorder}}; background: {{s.tagBg}}; color: {{s.tagInk}}">{{s.type}}</span>
+</a>
+</sc-for>
+</div>
+
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":800}}'>
+class Component extends DCLogic {
+renderVals() {
+const T = {
+editorial: { tagBg: 'transparent', tagInk: '#5E4E3A', tagBorder: '#8A7A62' },
+serial: { tagBg: '#1F4E8C', tagInk: '#F7EEDA', tagBorder: '#1F4E8C' },
+novelette: { tagBg: '#F2B705', tagInk: '#2A2118', tagBorder: '#F2B705' },
+short: { tagBg: 'transparent', tagInk: '#2A2118', tagBorder: '#2A2118' }
+};
+const row = (page, title, author, type, k, extra) => ({ page, title, author, type, note: '', bg: 'transparent', ...T[k], ...(extra || {}) });
+return {
+toc: [
+row('3', 'A New Sort of Magazine', 'Hugo Gernsback', 'Editorial', 'editorial'),
+row('4', 'Off on a Comet (Part 1 of 2)', 'Jules Verne', 'Serial', 'serial', { note: '  · reading, p. 42', bg: 'rgba(242,183,5,0.22)' }),
+row('52', 'The New Accelerator', 'H. G. Wells', 'Short story', 'short'),
+row('62', 'The Man from the Atom', 'G. Peyton Wertenbaker', 'Short story', 'short'),
+row('68', 'The Thing from — “Outside”', 'George Allan England', 'Novelette', 'novelette'),
+row('80', 'The Facts in the Case of M. Valdemar', 'Edgar Allan Poe', 'Short story', 'short')
+]
+};
+}
+}
+</script>
+</body>
+</html>

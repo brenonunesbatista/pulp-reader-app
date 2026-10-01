@@ -99,3 +99,13 @@ own catalog data, neutral branding; or keep distributing privately (sideload / G
 The app will be called **Banca** (Portuguese for "newsstand": a stand where magazines of every era hang). "Pulp
 Reader" stays as the repo/working name until the design sprint renames the app (Capacitor `appName`, icon, splash,
 README title). Design sprint prompt: `docs/design/artifact-prompt.md`.
+
+## 2026-10-01 — Visual identity: "Newsprint" (design sprint)
+Three directions were mocked up (A · Night Stand: dark ink-blue + neon yellow, Anton/Literata; B · Newsprint: aged
+paper, Ben-Day dots, offset ink shadows, Big Shoulders Display/Source Serif 4; C · Enamel Sign: cobalt kiosk plaque,
+Bungee/Newsreader). **B was chosen** as closest to the app's subject; the dark theme ("Night") takes A's ink-blue
+ground and yellow glow. Fonts: Big Shoulders Display (condensed signage, fits long magazine names) for titles and
+labels, Source Serif 4 (screen serif with tabular figures) for text; both OFL, to be bundled. Mockups are drawn in dp
+(tablet 1280×800, assuming the A9+ runs at 1.5×; phone 412×892). Tokens, components and screen notes:
+`docs/design/banca-newsprint.md`; canvas sources in `docs/design/mockups/`. Applying them to `app.css` is
+implementation work for the next phase (plan first).

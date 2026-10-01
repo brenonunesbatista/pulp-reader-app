@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Reader — phone, Night</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#FFC93C}
+</style>
+</helmet>
+<div style="position: relative; width: 412px; height: 892px; overflow: hidden; background: #0B0E1A; color: #F1E4C6; font-family: 'Source Serif 4', Georgia, serif">
+
+<div style="position: absolute; left: 0; top: 153px; width: 412px; height: 585px; box-sizing: border-box; padding: 26px 22px 30px; background: #1C1A16; color: #D9CBB0; display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; justify-content: space-between; font-size: 9px; letter-spacing: 0.16em; padding-bottom: 4px; border-bottom: 1px solid #D9CBB0; font-variant-numeric: tabular-nums"><span>42</span><span>AMAZING STORIES</span></div>
+<div style="flex-grow: 1; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px">
+<div style="background: repeating-linear-gradient(to bottom, #D9CBB0 0 2px, transparent 2px 6px); opacity: 0.5"></div>
+<div style="display: flex; flex-direction: column; gap: 10px">
+<div style="height: 190px; background: repeating-linear-gradient(to bottom, #D9CBB0 0 2px, transparent 2px 6px); opacity: 0.5"></div>
+<div style="text-align: center; font-size: 10px; font-weight: 700; letter-spacing: 0.2em">CHAPTER XIV</div>
+<div style="flex-grow: 1; background: repeating-linear-gradient(to bottom, #D9CBB0 0 2px, transparent 2px 6px); opacity: 0.5"></div>
+</div>
+</div>
+<div style="position: absolute; left: 20px; top: 160px; width: 176px; height: 18px; background: rgba(255,201,60,0.35); border-radius: 2px"></div>
+</div>
+
+<button aria-label="Show or hide controls" onClick="{{toggle}}" style="position: absolute; left: 25%; width: 50%; top: 0; bottom: 0; border: 0; background: transparent; cursor: pointer"></button>
+
+<sc-if value="{{chrome}}" hint-placeholder-val="{{ true }}">
+<div style="position: absolute; left: 0; right: 0; top: 0; height: 64px; display: flex; align-items: center; gap: 4px; padding: 0 6px; background: rgba(14,18,34,0.95); border-bottom: 1px solid #2A3150">
+<a href="PhIssue.dc.html" aria-label="Back to the issue" style="width: 48px; height: 48px; display: flex; align-items: center; justify-content: center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#F1E4C6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"></path></svg></a>
+<div style="flex-grow: 1; min-width: 0">
+<div style="font-size: 16px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis">Off on a Comet</div>
+<div style="font-size: 12px; color: #ABA38C">Jules Verne · April 1926</div>
+</div>
+<button aria-label="Bookmark this page" style="width: 48px; height: 48px; border: 0; background: transparent; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="24" height="24" viewBox="0 0 24 24" fill="#FFC93C" stroke="#FFC93C" stroke-width="2" stroke-linejoin="round" style="filter: drop-shadow(0 0 6px rgba(255,201,60,0.7))"><path d="M7 4h10v16l-5-4-5 4z"></path></svg></button>
+</div>
+
+<div style="position: absolute; left: 0; right: 0; bottom: 0; padding: 14px 16px 10px; background: rgba(14,18,34,0.95); border-top: 1px solid #2A3150; display: flex; flex-direction: column; gap: 8px">
+<div style="display: flex; justify-content: center; align-items: flex-end; gap: 6px; height: 48px">
+<sc-for list="{{thumbs}}" as="t" hint-placeholder-count="9">
+<div style="width: {{t.w}}px; height: {{t.h}}px; box-sizing: border-box; background: repeating-linear-gradient(to bottom, rgba(217,203,176,0.35) 0 1px, transparent 1px 3px) 3px 5px / calc(100% - 6px) calc(100% - 10px) no-repeat, #1C1A16; border: {{t.border}}; box-shadow: {{t.glow}}"></div>
+</sc-for>
+</div>
+<div style="position: relative; height: 28px; display: flex; align-items: center">
+<div style="position: absolute; left: 0; right: 0; height: 4px; border-radius: 2px; background: #2A3150"></div>
+<div style="position: absolute; left: 0; width: 42%; height: 4px; border-radius: 2px; background: #FFC93C; box-shadow: 0 0 10px rgba(255,201,60,0.6)"></div>
+<sc-for list="{{ticks}}" as="k" hint-placeholder-count="6">
+<div style="position: absolute; left: {{k}}; top: 5px; width: 2px; height: 18px; background: #FF5A44"></div>
+</sc-for>
+<div style="position: absolute; left: calc(42% - 14px); width: 28px; height: 28px; border-radius: 50%; background: #FFC93C; border: 3px solid #0E1222; box-sizing: border-box; box-shadow: 0 0 14px rgba(255,201,60,0.8)"></div>
+</div>
+<div style="display: flex; justify-content: space-between; font-size: 13px; color: #ABA38C; font-variant-numeric: tabular-nums"><span><b style="color: #F1E4C6">p. 42</b> / 100</span><span>Part 1 ends p. 51</span></div>
+<div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); border-top: 1px solid #2A3150; padding-top: 6px">
+<sc-for list="{{tools}}" as="b" hint-placeholder-count="5">
+<a href="{{b.href}}" aria-label="{{b.label}}" style="height: 56px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; border-radius: 6px; color: {{b.ink}}; background: {{b.bg}}; text-decoration: none">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="{{b.d}}"></path></svg>
+<span style="font-size: 11px">{{b.label}}</span>
+</a>
+</sc-for>
+</div>
+</div>
+</sc-if>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":412,"height":892}}'>
+class Component extends DCLogic {
+constructor(props) {
+super(props);
+this.state = { chrome: true };
+}
+renderVals() {
+const thumbs = [];
+for (let p = 38; p <= 46; p++) {
+const cur = p === 42;
+thumbs.push({ w: cur ? 34 : 24, h: cur ? 47 : 33, border: cur ? '2px solid #FFC93C' : '1px solid #2A3150', glow: cur ? '0 0 12px rgba(255,201,60,0.6)' : 'none' });
+}
+return {
+chrome: this.state.chrome,
+toggle: () => this.setState({ chrome: !this.state.chrome }),
+thumbs,
+ticks: ['3%', '4%', '52%', '62%', '68%', '80%'],
+tools: [
+{ label: 'Contents', href: '#', ink: '#F1E4C6', bg: 'transparent', d: 'M9 6h11M9 12h11M9 18h11M4 6h1M4 12h1M4 18h1' },
+{ label: 'Pages', href: 'PhPages.dc.html', ink: '#F1E4C6', bg: 'transparent', d: 'M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z' },
+{ label: 'Display', href: '#', ink: '#F1E4C6', bg: 'transparent', d: 'M12 8a4 4 0 1 0 0 8a4 4 0 1 0 0-8M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M5 19l1.5-1.5M17.5 6.5L19 5' },
+{ label: 'Enhance', href: '#', ink: '#0E1222', bg: '#FFC93C', d: 'M4 19l5-14 5 14M6 14h6M18 3v6M15 6h6' },
+{ label: 'Highlights', href: '#', ink: '#F1E4C6', bg: 'transparent', d: 'M14 4l6 6-9 9H5v-6zM4 21h16' }
+]
+};
+}
+}
+</script>
+</body>
+</html>

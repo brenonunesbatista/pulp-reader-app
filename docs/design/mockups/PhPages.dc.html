@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Page index — phone</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#1F4E8C}
+</style>
+</helmet>
+<div style="width: 412px; height: 892px; overflow: hidden; display: flex; flex-direction: column; background: #EEE2C6; color: #2A2118; font-family: 'Source Serif 4', Georgia, serif">
+
+<div style="height: 60px; flex-shrink: 0; display: flex; align-items: center; gap: 8px; padding: 0 12px 0 6px; background: #2A2118; color: #EFE0C2">
+<a href="PhReader.dc.html" aria-label="Close page index" style="width: 48px; height: 48px; display: flex; align-items: center; justify-content: center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#EFE0C2" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"></path></svg></a>
+<div style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 28px; line-height: 1; color: #F2B705">PAGES</div>
+<div style="flex-grow: 1"></div>
+<div style="font-size: 13px; color: #B5A385; font-variant-numeric: tabular-nums">April 1926 · 100 pp.</div>
+</div>
+
+<div style="display: flex; gap: 8px; padding: 10px 0 10px 16px; overflow: hidden; background: #F7EEDA; border-bottom: 2px solid #2A2118">
+<sc-for list="{{chips}}" as="c" hint-placeholder-count="5">
+<a href="#" style="height: 40px; padding: 0 12px; flex-shrink: 0; display: flex; align-items: center; gap: 6px; border-radius: 4px; border: 2px solid #2A2118; background: {{c.bg}}; color: #2A2118; font-size: 14px; font-weight: 600; text-decoration: none; white-space: nowrap"><span style="font-variant-numeric: tabular-nums; color: #C8321F; font-weight: 700">{{c.page}}</span>{{c.title}}</a>
+</sc-for>
+</div>
+
+<div style="flex-grow: 1; padding: 14px 16px 0; display: flex; flex-direction: column; gap: 12px; min-height: 0">
+<sc-for list="{{groups}}" as="g" hint-placeholder-count="2">
+<div>
+<div style="display: flex; align-items: baseline; gap: 8px; margin-bottom: 10px">
+<span style="width: 12px; height: 12px; background: #C8321F; flex-shrink: 0; align-self: center"></span>
+<h2 style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 20px; line-height: 1">{{g.title}}</h2>
+<span style="font-size: 12px; color: #5E4E3A; font-variant-numeric: tabular-nums">{{g.range}}</span>
+</div>
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px">
+<sc-for list="{{g.pages}}" as="p" hint-placeholder-count="12">
+<a href="PhReader.dc.html" style="display: flex; flex-direction: column; gap: 3px; color: #2A2118; text-decoration: none">
+<div style="height: 108px; box-sizing: border-box; border: {{p.border}}; box-shadow: {{p.shadow}}; background: {{p.art}} repeating-linear-gradient(to bottom, rgba(42,33,24,0.38) 0 1.5px, transparent 1.5px 4px) 6px {{p.textTop}} / calc(100% - 12px) {{p.textH}} no-repeat, #F3E8CF"></div>
+<div style="font-size: 12px; text-align: center; font-weight: {{p.weight}}; font-variant-numeric: tabular-nums">{{p.n}}</div>
+</a>
+</sc-for>
+</div>
+</div>
+</sc-for>
+</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":412,"height":892}}'>
+class Component extends DCLogic {
+renderVals() {
+const mk = (a, b, starts, arts) => {
+const out = [];
+for (let n = a; n <= b; n++) {
+const cur = n === 42;
+const start = starts.includes(n);
+const hasArt = arts.includes(n) || start;
+out.push({
+n: cur ? n + ' · here' : String(n),
+weight: cur || start ? '700' : '400',
+border: cur ? '3px solid #F2B705' : (start ? '3px solid #C8321F' : '1px solid #B9A884'),
+shadow: cur ? '0 0 0 2px #2A2118' : 'none',
+art: hasArt ? 'linear-gradient(#5E4E3A, #5E4E3A) 6px 8px / calc(100% - 12px) 38px no-repeat,' : '',
+textTop: hasArt ? '52px' : '8px',
+textH: hasArt ? '48px' : '92px'
+});
+}
+return out;
+};
+return {
+chips: [
+{ page: '4', title: 'Off on a Comet', bg: '#F2B705' },
+{ page: '52', title: 'The New Accelerator', bg: 'transparent' },
+{ page: '62', title: 'The Man from the Atom', bg: 'transparent' }
+],
+groups: [
+{ title: 'OFF ON A COMET', range: 'pp. 4–51', pages: mk(40, 51, [], [43, 47]) },
+{ title: 'THE NEW ACCELERATOR', range: 'pp. 52–61', pages: mk(52, 59, [52], [55]) }
+]
+};
+}
+}
+</script>
+</body>
+</html>

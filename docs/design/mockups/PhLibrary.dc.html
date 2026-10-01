@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Library — phone</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#C8321F}a:hover{color:#8E1F14}
+input::placeholder{color:#7A6A52}
+</style>
+</helmet>
+<div style="width: 412px; height: 892px; overflow: hidden; display: flex; flex-direction: column; background: #EEE2C6; color: #2A2118; font-family: 'Source Serif 4', Georgia, serif">
+
+<div style="flex-shrink: 0; padding: 12px 16px 14px; background: radial-gradient(rgba(255,240,200,0.16) 1.3px, transparent 1.8px) 0 0 / 7px 7px, #C8321F; border-bottom: 3px solid #2A2118; display: flex; flex-direction: column; gap: 12px">
+<div style="display: flex; align-items: center; justify-content: space-between">
+<a href="PhLibrary.dc.html" style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 42px; line-height: 1; color: #F2B705; text-shadow: 3px 3px 0 #1F4E8C; text-decoration: none">BANCA</a>
+<button aria-label="Settings" style="width: 48px; height: 48px; border-radius: 4px; background: #F5EBD3; border: 2px solid #2A2118; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2A2118" stroke-width="2" stroke-linecap="round"><path d="M4 7h10M18 7h2M4 17h4M12 17h8M16 5v4M10 15v4"></path></svg></button>
+</div>
+<label style="height: 48px; border-radius: 4px; background: #F5EBD3; border: 2px solid #2A2118; display: flex; align-items: center; gap: 10px; padding: 0 12px; box-sizing: border-box">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2A2118" stroke-width="2.2" stroke-linecap="round"><path d="M11 4a7 7 0 1 0 0 14a7 7 0 1 0 0-14M20 20l-4-4"></path></svg>
+<input type="search" aria-label="Search the newsstand" placeholder="Titles, authors, artists…" style="flex-grow: 1; min-width: 0; background: transparent; border: 0; outline: none; color: #2A2118; font: 16px 'Source Serif 4', serif">
+</label>
+</div>
+
+<div style="flex-grow: 1; padding: 16px 0 0; display: flex; flex-direction: column; gap: 18px; min-height: 0">
+<section>
+<div style="display: flex; align-items: center; gap: 12px; margin: 0 16px 16px">
+<h2 style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 24px; line-height: 1">CONTINUE READING</h2>
+<div style="flex-grow: 1; height: 3px; background: #C8321F"></div>
+</div>
+<div style="position: relative; display: flex; gap: 24px; padding: 14px 16px 0 22px; overflow: hidden">
+<div style="position: absolute; left: 0; right: 0; top: 0; height: 3px; background: #2A2118"></div>
+<sc-for list="{{shelf}}" as="c" hint-placeholder-count="5">
+<a href="PhReader.dc.html" style="width: 104px; flex-shrink: 0; color: #2A2118; text-decoration: none">
+<dc-import name="Cover" w="104" bg="{{c.bg}}" date="{{c.d}}" price="{{c.price}}" hint-size="104px,144px"></dc-import>
+<div style="margin-top: 12px; height: 4px; background: #D6C6A2"><div style="height: 4px; width: {{c.pct}}; background: #C8321F"></div></div>
+<div style="font-size: 14px; font-weight: 700; margin-top: 6px">{{c.label}}</div>
+<div style="font-size: 12px; color: #5E4E3A; font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis">{{c.where}}</div>
+</a>
+</sc-for>
+</div>
+</section>
+
+<section style="padding: 0 16px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; align-items: center; gap: 12px">
+<h2 style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 24px; line-height: 1">PULP MAGAZINES</h2>
+<div style="flex-grow: 1; height: 3px; background: #C8321F"></div>
+</div>
+<sc-for list="{{mags}}" as="m" hint-placeholder-count="3">
+<a href="{{m.href}}" style="display: flex; gap: 14px; align-items: center; padding: 12px; border-radius: 4px; background: #F7EEDA; border: 2px solid #2A2118; box-shadow: 4px 4px 0 #2A2118; text-decoration: none; color: #2A2118; opacity: {{m.opacity}}">
+<div style="display: flex; gap: 4px; flex-shrink: 0">
+<sc-for list="{{m.covers}}" as="k" hint-placeholder-count="3">
+<dc-import name="Cover" w="46" bg="{{k}}" tag="false" mast="{{m.mast}}" hint-size="46px,64px"></dc-import>
+</sc-for>
+</div>
+<div style="display: flex; flex-direction: column; gap: 3px; min-width: 0">
+<div style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 22px; line-height: 0.95">{{m.title}}</div>
+<div style="font-size: 13px; color: #5E4E3A; font-variant-numeric: tabular-nums">{{m.years}} · {{m.count}}</div>
+</div>
+</a>
+</sc-for>
+</section>
+</div>
+
+<nav aria-label="Sections" style="height: 72px; flex-shrink: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); background: #F7EEDA; border-top: 2px solid #2A2118">
+<sc-for list="{{nav}}" as="n" hint-placeholder-count="4">
+<a href="{{n.href}}" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; color: #2A2118; text-decoration: none">
+<span style="width: 56px; height: 30px; border-radius: 15px; background: {{n.bg}}; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2A2118" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="{{n.d}}"></path></svg></span>
+<span style="font-size: 12px; font-weight: {{n.weight}}">{{n.label}}</span>
+</a>
+</sc-for>
+</nav>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":412,"height":892}}'>
+class Component extends DCLogic {
+renderVals() {
+const G = [
+'linear-gradient(160deg,#F2B705 0%,#E4572E 52%,#1F4E8C 100%)',
+'linear-gradient(175deg,#4FB0C6 0%,#1F4E8C 62%,#F2B705 100%)',
+'linear-gradient(150deg,#E4572E 0%,#9B2420 45%,#2A2118 100%)',
+'linear-gradient(165deg,#A8C95A 0%,#3C7A55 50%,#1F2E44 100%)',
+'linear-gradient(170deg,#F4DE9C 0%,#E09A2C 45%,#6B2232 100%)',
+'linear-gradient(155deg,#8A6FD6 0%,#2E3C8F 55%,#E4572E 100%)'
+];
+const shelf = [
+{ d: 'APR 1926', price: '25¢', label: 'April 1926', where: 'Off on a Comet · p. 42', pct: '42%' },
+{ d: 'AUG 1927', price: '25¢', label: 'August 1927', where: 'p. 12', pct: '12%' },
+{ d: 'JUN 1928', price: '25¢', label: 'June 1928', where: 'p. 88', pct: '86%' },
+{ d: 'OCT 1929', price: '25¢', label: 'October 1929', where: 'p. 31', pct: '30%' }
+].map((c, i) => ({ ...c, bg: G[i % G.length] }));
+const rot = (n) => [0, 1, 2].map((i) => G[(i + n) % G.length]);
+return {
+shelf,
+mags: [
+{ title: 'AMAZING STORIES', mast: 'AMAZ\nING', years: '1926–1956', count: '309 issues', opacity: '1', href: 'PhMagazine.dc.html', covers: rot(0) },
+{ title: 'FANTASY & SCIENCE FICTION', mast: 'F&SF', years: '1949–', count: 'coming soon', opacity: '0.55', href: '#', covers: rot(2) },
+{ title: 'GALAXY', mast: 'GAL\nAXY', years: '1950–1980', count: 'coming soon', opacity: '0.55', href: '#', covers: rot(4) }
+],
+nav: [
+{ label: 'Pulp', href: 'PhLibrary.dc.html', bg: '#F2B705', weight: '700', d: 'M3 5h6a3 3 0 0 1 3 3v12a2 2 0 0 0-2-2H3zM21 5h-6a3 3 0 0 0-3 3v12a2 2 0 0 1 2-2h7z' },
+{ label: 'RPG', href: '#', bg: 'transparent', weight: '400', d: 'M12 3l8 5v8l-8 5-8-5V8zM12 3v18M4 8l16 8M20 8L4 16' },
+{ label: 'Atlas', href: 'PhAtlas.dc.html', bg: 'transparent', weight: '400', d: 'M3 12h18M7 8v8M12 5v14M17 9v6' },
+{ label: 'Search', href: '#', bg: 'transparent', weight: '400', d: 'M11 4a7 7 0 1 0 0 14a7 7 0 1 0 0-14M20 20l-4-4' }
+]
+};
+}
+}
+</script>
+</body>
+</html>

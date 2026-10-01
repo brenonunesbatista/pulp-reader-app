@@ -7,7 +7,7 @@ Ideas and sources to add later. Items move into a phase brief when they are sche
 | Step | Scope | Why this order |
 |---|---|---|
 | ✅ now | Reader prefetch: 1 behind + 2 ahead decoded, pages 3–5 ahead downloaded | user report: fast page flips showed blurry pages |
-| **2.5 Design sprint** | name, visual identity, design tokens, mockups of Library / Issue / Reader for **tablet and phone** (Claude Artifacts, reviewed on the devices) | everything after this is built once, in the final look |
+| ✅ **2.5 Design sprint** | name, visual identity, design tokens, mockups of Library / Issue / Reader for **tablet and phone** (Claude Artifacts, reviewed on the devices) | everything after this is built once, in the final look |
 | **3 Reader** | new reader chrome in the new design; **page index** (thumbnail grid + contents markers); contents drawer; page slider; landscape spread; themes / brightness / warm filter; "enhance text"; OCR page-number fix; phone reading mode (fit width, column panning) | SPEC phase 3 + test feedback |
 | **4 Phones** | responsive app shell (S25 first: ~412 dp wide, bottom navigation, 2-column grids), any Android phone ≥ Android 8 | cheap if the design sprint already covers phone layouts |
 | 5 Downloads | SPEC phase 4 | |
