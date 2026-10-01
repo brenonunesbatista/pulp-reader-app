@@ -32,6 +32,30 @@ Ideas and sources to add later. Items move into a phase brief when they are sche
 - **Start small:** one "path" (e.g. *H. G. Wells → Amazing Stories → Golden Age → Asimov → Foundation on screen*) to
   validate format, tone, and timeline UX before scaling.
 
+### Atlas — user ideas to organize when the phase starts (2026-10-01)
+Raw list, kept as stated; to be discussed and prioritized together before building.
+1. **Recommendations are the core goal.** The Atlas exists so the user *discovers* and gets interested in new stories
+   and subjects. Every entity page and timeline should end in "what to explore next".
+2. **Searches and suggestions feed a curator inbox.** Whatever is searched or suggested in the app also comes back to
+   the owner as a *recommendation* to review and possibly curate into the Atlas (e.g. an "Inbox" in the content
+   pipeline built from search logs + accepted suggestions).
+3. **Personalized timeline on demand.** The user searches a subject and a timeline is assembled *for that subject, at
+   that moment*. Options to evaluate: (a) built from the curated graph in `atlas.db` (offline, instant, no AI at
+   runtime); (b) AI-generated on demand (needs a Claude API key stored only on the device, network, cost per query,
+   output not curated); (c) hybrid: graph first, AI suggests additions that go to the curator inbox.
+4. **Save timelines** (named, editable) in `user.db`.
+5. **Want-to lists:** want to read / watch / listen / see, with items added from anywhere (timeline, entity page,
+   recommendation).
+6. **All art forms, not only literature, music and cinema.** Painting and visual art get equal weight, along with
+   comics/manga, illustration (pulp cover art itself), theatre, photography and architecture.
+   - Paintings and images: Wikimedia Commons / museum open-access APIs (e.g. Met, Rijksmuseum, Art Institute of
+     Chicago) with licence and attribution stored per image.
+   - Music: Spotify link (open the Spotify app via deep link); MusicBrainz for metadata.
+   - Films/series: short description plus an IMDb link (IMDb data itself is not freely reusable; take descriptions from
+     TMDB/Wikidata with attribution and link out to IMDb).
+7. Interests to seed: science fiction, manga, cultures of other countries and eras, literature, cinema, music, visual
+   arts, and how art shapes humanity. Favorite authors: Asimov, Tolkien, Frank Herbert, H. G. Wells, Orwell, Dostoevsky.
+
 ## Phone support — notes
 - Same APK, responsive layout (window size classes: compact < 600 dp, medium, expanded ≥ 840 dp; the A9+ is
   expanded, the S25 is compact in portrait).

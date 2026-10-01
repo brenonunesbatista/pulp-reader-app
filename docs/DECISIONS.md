@@ -94,3 +94,8 @@ Not legal advice; a checklist of what would have to be cleared before any public
    minimum number of testers for 14 days before production.
 Options if publishing is ever wanted: restrict to verified public-domain issues (pre-1930 + confirmed non-renewals),
 own catalog data, neutral branding; or keep distributing privately (sideload / GitHub release APK).
+
+## 2026-10-01 — App name: Banca
+The app will be called **Banca** (Portuguese for "newsstand": a stand where magazines of every era hang). "Pulp
+Reader" stays as the repo/working name until the design sprint renames the app (Capacitor `appName`, icon, splash,
+README title). Design sprint prompt: `docs/design/artifact-prompt.md`.
