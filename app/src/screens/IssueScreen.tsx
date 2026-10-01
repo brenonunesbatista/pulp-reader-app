@@ -33,7 +33,7 @@ export function IssueScreen({ id }: { id: number }) {
   const magazine = issue.title.replace(/,\s*\w+ \d{4}$/, '')
   const readable = issue.availability === 'ia'
   const resume = progress.status === 'ok' ? progress.data : null
-  const openAt = (s: StoryInIssue) => nav.push({ name: 'reader', issueId: issue.id, leaf: s.iaLeaf ?? 0 })
+  const openAt = (s: StoryInIssue) => nav.push({ name: 'reader', issueId: issue.id, leaf: s.iaLeaf ?? 0, storyId: s.id })
   const current = resume ? [...contents].reverse().find((s) => s.iaLeaf !== null && s.iaLeaf <= resume.page) : undefined
   const kicker = [issue.volume && `Vol. ${issue.volume}`, issue.number && `No. ${issue.number}`, `${MONTHS[issue.month - 1]} ${issue.year}`]
     .filter(Boolean).join(' · ')

@@ -107,7 +107,7 @@ export function SearchScreen({ initial = '' }: { initial?: string }) {
               <div className="toc">
                 {res.stories.map((s) => (
                   <StoryRow key={s.id} story={s} showIssue
-                            onOpen={(x) => nav.push({ name: 'reader', issueId: x.issue.id, leaf: x.iaLeaf ?? 0 })} />
+                            onOpen={(x) => nav.push({ name: 'reader', issueId: x.issue.id, leaf: x.iaLeaf ?? 0, storyId: x.id })} />
                 ))}
               </div>
             </section>

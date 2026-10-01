@@ -41,7 +41,7 @@ export function PersonScreen({ id }: { id: number }) {
           <div className="toc">
             {stories.map((s) => (
               <StoryRow key={`${s.id}-${s.role}`} story={s} showIssue
-                        onOpen={(x) => nav.push({ name: 'reader', issueId: x.issue.id, leaf: x.iaLeaf ?? 0 })} />
+                        onOpen={(x) => nav.push({ name: 'reader', issueId: x.issue.id, leaf: x.iaLeaf ?? 0, storyId: x.id })} />
             ))}
           </div>
         </section>

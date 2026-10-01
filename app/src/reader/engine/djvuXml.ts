@@ -15,8 +15,7 @@ function unescape(s: string): string {
   return s.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&apos;/g, "'").replace(/&amp;/g, '&')
 }
 
-self.onmessage = (e: MessageEvent<string>) => {
-  const xml = e.data
+export function parseDjvuXml(xml: string): OcrPage[] {
   const pages: OcrPage[] = []
   for (const obj of xml.matchAll(OBJECT_RE)) {
     const w = attr(obj[1], 'width')
@@ -34,5 +33,5 @@ self.onmessage = (e: MessageEvent<string>) => {
     }
     pages.push({ w, h, words })
   }
-  ;(self as unknown as Worker).postMessage(pages)
+  return pages
 }

@@ -4,6 +4,7 @@ import { memoryDb } from '../db/wasmDb'
 import { migrateUserDb, USER_MIGRATIONS } from '../db/userSchema'
 import { getContents, getIssue, getPersonWorks, listIssues, listMagazines, search } from './catalogRepo'
 import { ftsQuery } from './fts'
+import { addHighlight, deleteHighlight, getPageMap, listBookmarks, listHighlights, savePageMap, setBookmark } from './annotationRepo'
 import { getProgress, recentProgress, saveProgress } from './progressRepo'
 import { testCatalog } from './testCatalog'
 
@@ -93,5 +94,26 @@ describe('user db', () => {
     await saveProgress(u, { issueId: 1, page: 42, offsetX: 10, offsetY: 20, zoom: 1.5 }, 3000)
     expect((await getProgress(u, 1))).toMatchObject({ page: 42, offsetX: 10, zoom: 1.5, updatedAt: 3000 })
     expect((await recentProgress(u)).map((p) => p.issueId)).toEqual([1, 3])
+  })
+
+  it('stores highlights, bookmarks and page maps', async () => {
+    const u = await memoryDb()
+    await migrateUserDb(u)
+    const id = await addHighlight(u, { issueId: 7, page: 12, rects: [[0.1, 0.2, 0.5, 0.25]], text: 'Hello' }, 100)
+    await addHighlight(u, { issueId: 7, page: 3, rects: [[0, 0, 1, 1]], text: 'Earlier' }, 200)
+    expect((await listHighlights(u, 7)).map((h) => [h.page, h.text])).toEqual([[3, 'Earlier'], [12, 'Hello']])
+    await deleteHighlight(u, id)
+    expect((await listHighlights(u, 7)).map((h) => h.text)).toEqual(['Earlier'])
+    await setBookmark(u, 7, 40, true)
+    await setBookmark(u, 7, 40, true) // idempotent
+    await setBookmark(u, 7, 2, true)
+    await setBookmark(u, 7, 2, false)
+    expect((await listBookmarks(u, 7)).map((b) => b.page)).toEqual([40])
+    await savePageMap(u, 'ident', [null, 2, 3], -1)
+    expect(await getPageMap(u, 'ident')).toEqual([null, 2, 3])
+    expect(await getPageMap(u, 'other')).toBeNull()
+    await saveProgress(u, { issueId: 7, page: 4, offsetX: 0.5, offsetY: 0.5, zoom: 1, pageCount: 100 })
+    await saveProgress(u, { issueId: 7, page: 5, offsetX: 0.5, offsetY: 0.5, zoom: 1 })
+    expect((await getProgress(u, 7))?.pageCount).toBe(100) // kept when a later save does not know it
   })
 })

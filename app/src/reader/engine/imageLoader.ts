@@ -1,7 +1,7 @@
 // Image pipeline for reader B: prioritized, cancellable, max 4 concurrent fetches; encoded blobs kept in an
 // LRU (cheap), decoded <img> elements kept only for the current window (expensive).
-import { BLOB_CACHE_PAGES } from '../config'
-import { metrics } from '../metrics'
+import { BLOB_CACHE_PAGES } from './config'
+import { metrics } from './metrics'
 
 const MAX_CONCURRENT = 4
 

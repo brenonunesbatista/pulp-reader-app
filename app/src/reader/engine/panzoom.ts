@@ -1,4 +1,4 @@
-// Gesture controller shared by both spike readers.
+// Reader gesture controller.
 // All per-frame work is a single CSS transform written in requestAnimationFrame — no React state.
 //   1 finger, not zoomed : page follows finger, swipe → turn
 //   1 finger, zoomed     : pan with inertia; dragging past the left/right page edge → turn (zoom kept)
@@ -9,6 +9,8 @@ export interface PanZoomOptions {
   onTurn: (dir: -1 | 1) => void
   onCenterTap: () => void
   onZoomSettled?: (scale: number) => void
+  /** zoom or position changed by the user (for saving progress) */
+  onViewChange?: () => void
   /** true while the user has a text selection — gestures are then left to the browser */
   isSelecting: () => boolean
 }
@@ -52,6 +54,8 @@ export class PanZoom {
   private rubber = 0 // visual-only horizontal offset while over-dragging a zoomed page
   private overscroll = 0
   private carry: { scale: number; dir: -1 | 1 } | null = null
+  /** phones in portrait: pages open zoomed to the screen width, at the top */
+  fitWidth = false
 
   constructor(viewport: HTMLElement, content: HTMLElement, opts: PanZoomOptions) {
     this.viewport = viewport
@@ -96,6 +100,28 @@ export class PanZoom {
     this.scale = carry ? carry.scale : 1
     if (carry) this.x = this.y = carry.dir > 0 ? 0 : -1e9 // clamp() snaps to the page edge
     this.layout()
+    if (!carry && this.fitWidth && this.vw / this.fitW > 1.05) {
+      this.scale = this.vw / this.fitW
+      this.x = 0
+      this.y = 0
+      this.clamp()
+      this.apply()
+    }
+  }
+
+  /** Zoom + centre of the visible area in content coordinates (0..1), independent of the screen size. */
+  getView(): { zoom: number; cx: number; cy: number } {
+    const cw = this.fitW * this.scale || 1
+    const ch = this.fitH * this.scale || 1
+    return { zoom: this.scale, cx: (this.vw / 2 - this.x) / cw, cy: (this.vh / 2 - this.y) / ch }
+  }
+
+  setView(v: { zoom: number; cx: number; cy: number }) {
+    this.scale = Math.min(MAX_SCALE, Math.max(1, v.zoom))
+    this.x = this.vw / 2 - v.cx * this.fitW * this.scale
+    this.y = this.vh / 2 - v.cy * this.fitH * this.scale
+    this.clamp()
+    this.apply()
   }
 
   private layout() {
@@ -220,6 +246,7 @@ export class PanZoom {
 
     if (this.wasPinch) {
       this.opts.onZoomSettled?.(this.scale)
+      this.opts.onViewChange?.()
       return
     }
     const dx = p.x - start.p.x
@@ -251,8 +278,8 @@ export class PanZoom {
     window.setTimeout(() => { this.content.style.transition = '' }, 160)
   }
 
-  /** Turn from a gesture; when zoomed, the next page keeps the zoom (see setPage). */
-  private turn(dir: -1 | 1) {
+  /** Turn (gesture or button); when zoomed, the next page keeps the zoom (see setPage). */
+  turn(dir: -1 | 1) {
     this.carry = this.scale > 1.01 ? { scale: this.scale, dir } : null
     this.opts.onTurn(dir)
   }
@@ -300,6 +327,7 @@ export class PanZoom {
     window.setTimeout(() => {
       this.content.style.transition = ''
       this.opts.onZoomSettled?.(this.scale)
+      this.opts.onViewChange?.()
     }, 190)
   }
 
@@ -317,7 +345,10 @@ export class PanZoom {
       last = t
       vx *= Math.pow(0.95, dt / 16)
       vy *= Math.pow(0.95, dt / 16)
-      if (Math.hypot(vx, vy) < 0.02) return
+      if (Math.hypot(vx, vy) < 0.02) {
+        this.opts.onViewChange?.()
+        return
+      }
       this.x += vx * dt
       this.y += vy * dt
       this.clamp()

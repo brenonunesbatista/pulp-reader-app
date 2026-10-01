@@ -5,10 +5,9 @@ export type Route =
   | { name: 'issue'; id: number }
   | { name: 'person'; id: number }
   | { name: 'search'; q?: string }
-  | { name: 'reader'; issueId: number; leaf?: number }
+  | { name: 'reader'; issueId: number; leaf?: number; storyId?: number }
   | { name: 'settings' }
   | { name: 'soon'; what: 'rpg' | 'atlas' }
-  | { name: 'dev' }
 
 export interface Entry {
   key: number
@@ -49,25 +48,24 @@ export function routeToHash(r: Route): string {
     case 'issue': return `#/issue/${r.id}`
     case 'person': return `#/person/${r.id}`
     case 'search': return `#/search/${encodeURIComponent(r.q ?? '')}`
-    case 'reader': return `#/reader/${r.issueId}/${r.leaf ?? ''}`
+    case 'reader': return `#/reader/${r.issueId}/${r.leaf ?? ''}${r.storyId ? `/${r.storyId}` : ''}`
     case 'settings': return '#/settings'
     case 'soon': return `#/soon/${r.what}`
-    case 'dev': return '#/dev'
   }
 }
 
 export function hashToRoute(hash: string): Route {
-  const [, name, a, b] = hash.replace(/^#/, '').split('/')
+  const [, name, a, b, c] = hash.replace(/^#/, '').split('/')
   const n = Number(a)
   switch (name) {
     case 'magazine': return Number.isFinite(n) ? { name, id: n } : { name: 'library' }
     case 'issue': return Number.isFinite(n) ? { name, id: n } : { name: 'library' }
     case 'person': return Number.isFinite(n) ? { name, id: n } : { name: 'library' }
     case 'search': return { name, q: decodeURIComponent(a ?? '') }
-    case 'reader': return Number.isFinite(n) ? { name, issueId: n, leaf: b ? Number(b) : undefined } : { name: 'library' }
+    case 'reader': return Number.isFinite(n)
+      ? { name, issueId: n, leaf: b ? Number(b) : undefined, ...(c ? { storyId: Number(c) } : {}) } : { name: 'library' }
     case 'settings': return { name }
     case 'soon': return a === 'rpg' || a === 'atlas' ? { name, what: a } : { name: 'library' }
-    case 'dev': return { name }
     default: return { name: 'library' }
   }
 }

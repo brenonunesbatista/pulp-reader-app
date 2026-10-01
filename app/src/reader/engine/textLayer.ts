@@ -1,6 +1,6 @@
 // Invisible, selectable text layer built from OCR word boxes (normalized 0..1).
 // Each word is an absolutely positioned transparent span, font-size = box height, scaleX to match box width.
-import type { OcrPage } from '../ocrTypes'
+import type { OcrPage } from './ocrTypes'
 
 let measureCtx: CanvasRenderingContext2D | null = null
 const FONT = 'serif'

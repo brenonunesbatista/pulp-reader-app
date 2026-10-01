@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-import { metrics } from './metrics'
+import { metrics } from './engine/metrics'
 
 /** Small always-on-top panel; updates its own DOM every 500 ms (no React re-renders). */
 export function MetricsOverlay() {
