@@ -181,3 +181,7 @@ implementation work for the next phase (plan first).
 - Fix after the tablet test: taps on a highlight were only checked in the middle zone, so in spreads (where most text
   is inside the 25 % edge zones) they turned the page. Highlights are now hit-tested first for every single tap
   (`PanZoom.onTapAt`). Highlights with a note get a small blue note marker at the end of their first line (tappable).
+- Notes screen redesigned after the tablet test (the grid with the cover column collapsed into a one-word-wide
+  column): plain rows with a color bar, `p. N · Story`, the text and the note. Highlight text is shown and exported as
+  one paragraph (`cleanText`): OCR line breaks become spaces and a word hyphenated at a line end is joined when the
+  next line starts lowercase (a real compound split exactly at a line end, e.g. "space-/suits", is joined too).

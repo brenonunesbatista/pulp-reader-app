@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { HIGHLIGHT_COLORS, type Bookmark, type Highlight } from '../data/annotationRepo'
+import { cleanText } from '../notes/markdown'
 import { HIGHLIGHT_HEX } from '../ui/format'
 import type { ReaderTheme } from '../data/settingsRepo'
 import { Icon } from '../ui/icons'
@@ -163,7 +164,7 @@ export function NotesDrawer({ highlights, bookmarks, label, onGo, onOpenHighligh
         <div key={h.id} className="item" role="button" onClick={() => onGo(h.page)}>
           <span className="pg-no">{label(h.page)}</span>
           <span>
-            <span className="quote" style={{ ['--hlc' as string]: HIGHLIGHT_HEX[h.color] }}>“{h.text.length > 180 ? `${h.text.slice(0, 180)}…` : h.text}”</span>
+            <span className="quote" style={{ ['--hlc' as string]: HIGHLIGHT_HEX[h.color] }}>{(() => { const t = cleanText(h.text); return t.length > 180 ? `${t.slice(0, 180)}…` : t })()}</span>
             {h.note && <span className="note">{h.note}</span>}
           </span>
           <button className="del" aria-label="Edit highlight" onClick={(e) => { e.stopPropagation(); onOpenHighlight(h) }}><Icon name="edit" size={20} /></button>
@@ -280,7 +281,7 @@ export function HighlightCard({ h, pageLabel, editNote, onColor, onNote, onSearc
   }
   return (
     <div className="r-hlcard" role="dialog" aria-label="Highlight">
-      <div className="quote" style={{ ['--hlc' as string]: HIGHLIGHT_HEX[h.color] }}>“{h.text}”</div>
+      <div className="quote" style={{ ['--hlc' as string]: HIGHLIGHT_HEX[h.color] }}>{cleanText(h.text)}</div>
       <div className="row">
         <ColorDots value={h.color} onPick={onColor} />
         <span className="muted small">p. {pageLabel}</span>

@@ -3,9 +3,9 @@ import { HIGHLIGHT_COLORS } from '../data/annotationRepo'
 import { useDb } from '../db/useDb'
 import { useIsActive, useNav } from '../nav/context'
 import { gatherNotes } from '../notes/gather'
-import { exportFileName, notesMarkdown } from '../notes/markdown'
+import { cleanText, exportFileName, notesMarkdown } from '../notes/markdown'
 import { copyText, shareMarkdown } from '../notes/share'
-import { Cover, ErrorBox, Loading, Screen, SectionHeader, SubMasthead } from '../ui/components'
+import { ErrorBox, Loading, Screen, SectionHeader, SubMasthead } from '../ui/components'
 import { HIGHLIGHT_HEX } from '../ui/format'
 import { Icon } from '../ui/icons'
 import { useAsync } from '../ui/useAsync'
@@ -76,26 +76,17 @@ export function NotesScreen() {
           </div>
           {shown.map((i) => (
             <section key={i.issueId} className="notes-issue">
-              <SectionHeader title={i.heading} />
-              <div className="notes-body">
-                <button className="notes-cover" onClick={() => nav.push({ name: 'issue', id: i.issueId })} aria-label={`Open ${i.heading}`}>
-                  <Cover path={i.issue.coverPath} alt={i.heading} small />
-                </button>
-                <div className="notes-list">
-                  {i.entries.map((e, k) => (
-                    <button key={k} className="note-row" onClick={() => nav.push({ name: 'reader', issueId: i.issueId, leaf: e.leaf })}>
-                      <span className="pg num">p. {e.page}</span>
-                      <span>
-                        {e.story && <span className="story">{e.story}</span>}
-                        {e.kind === 'bookmark'
-                          ? <span className="bm"><Icon name="bookmark" size={16} filled /> Bookmark</span>
-                          : <span className="quote" style={{ ['--hlc' as string]: HIGHLIGHT_HEX[e.color ?? 'yellow'] }}>“{e.text}”</span>}
-                        {e.note && <span className="note">{e.note}</span>}
-                      </span>
-                    </button>
-                  ))}
+              <SectionHeader title={i.heading} aside={
+                <button className="person-link" onClick={() => nav.push({ name: 'issue', id: i.issueId })}>Issue</button>} />
+              {i.entries.map((e, k) => (
+                <div key={k} className={`note-row ${e.kind}`} role="button" tabIndex={0}
+                     style={{ ['--hlc' as string]: HIGHLIGHT_HEX[e.color ?? 'yellow'] }}
+                     onClick={() => nav.push({ name: 'reader', issueId: i.issueId, leaf: e.leaf })}>
+                  <div className="meta num">p. {e.page}{e.story ? ` · ${e.story}` : ''}{e.kind === 'bookmark' ? ' · Bookmark' : ''}</div>
+                  {e.text && <p className="text">{cleanText(e.text)}</p>}
+                  {e.note && <p className="note"><Icon name="edit" size={15} /> {e.note}</p>}
                 </div>
-              </div>
+              ))}
             </section>
           ))}
           {shown.length === 0 && <p className="muted">Nothing matches.</p>}

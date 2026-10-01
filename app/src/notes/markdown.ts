@@ -20,7 +20,12 @@ export interface NoteIssue {
   entries: NoteEntry[] // in reading order
 }
 
-const quote = (t: string) => t.trim().split(/\n+/).map((l) => `> ${l.trim()}`).join('\n')
+/** OCR text as one readable paragraph: words hyphenated across lines are joined, line breaks become spaces. */
+export function cleanText(t: string): string {
+  return t.replace(/(\p{L})-\s*\n\s*(\p{Ll})/gu, '$1$2').replace(/\s*\n\s*/g, ' ').replace(/[ \t]{2,}/g, ' ').trim()
+}
+
+const quote = (t: string) => `> ${cleanText(t)}`
 
 export function issueMarkdown(issue: NoteIssue): string {
   const out: string[] = [`# ${issue.heading}`]

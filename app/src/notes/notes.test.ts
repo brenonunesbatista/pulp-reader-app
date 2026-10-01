@@ -4,7 +4,7 @@ import { migrateUserDb } from '../db/userSchema'
 import { memoryDb } from '../db/wasmDb'
 import { computeStarts } from '../reader/layout'
 import { gatherNotes } from './gather'
-import { exportFileName, issueMarkdown, notesMarkdown, type NoteIssue } from './markdown'
+import { cleanText, exportFileName, issueMarkdown, notesMarkdown, type NoteIssue } from './markdown'
 import { testCatalog } from '../data/testCatalog'
 
 const issue: NoteIssue = {
@@ -18,6 +18,13 @@ const issue: NoteIssue = {
 }
 
 describe('markdown export', () => {
+  it('turns OCR lines into one paragraph, joining hyphenated words', () => {
+    expect(cleanText('I have decided to re-\nlate the truly remarkable story\nof the astonishing dis-\n coveries')).toBe(
+      'I have decided to relate the truly remarkable story of the astonishing discoveries')
+    expect(cleanText('Mr. A. Hyatt Verrill. Our well-known\nexplorer')).toBe('Mr. A. Hyatt Verrill. Our well-known explorer')
+    expect(cleanText('page 62-\n63')).toBe('page 62- 63') // only letters are joined
+  })
+
   it('follows the SPEC format: issue heading, page — story sections, quotes, notes', () => {
     expect(issueMarkdown(issue)).toBe([
       '# Amazing Stories — Apr 1926',
@@ -26,8 +33,7 @@ describe('markdown export', () => {
       '',
       '*Bookmark*',
       '',
-      '> The universe',
-      '> is vast',
+      '> The universe is vast',
       '',
       '> Second',
       '*(red)*',

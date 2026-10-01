@@ -292,17 +292,9 @@ select.chip { appearance: none; padding-right: 30px; background-image: linear-gr
 .notes-search { min-width: 260px; flex: 1 1 260px; font-weight: 400; }
 .color-chip { width: 18px; height: 18px; border-radius: 50%; border: 2px solid var(--ink); display: inline-block; }
 .notes-issue { margin-bottom: 32px; }
-.notes-body { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 24px; align-items: start; }
-.notes-cover { all: unset; cursor: pointer; display: block; }
-.note-row { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 12px; width: 100%; padding: 10px 4px; border: 0;
-  border-bottom: 1px solid var(--rule); background: transparent; color: var(--ink); text-align: left; font: inherit; }
-.note-row .pg { font-weight: 700; color: var(--text-muted); font-size: 15px; }
-.note-row .story { display: block; font: 700 13px var(--f-text); letter-spacing: .06em; text-transform: uppercase; color: var(--text-muted); }
-.note-row .quote { display: block; font-style: italic; line-height: 1.4; border-left: 4px solid var(--hlc, #F2B705); padding-left: 10px; margin-top: 2px; }
-.note-row .note { display: block; margin-top: 6px; color: var(--press-blue); font-size: 15px; }
-.note-row .bm { display: inline-flex; align-items: center; gap: 6px; color: var(--pulp-red); font-weight: 600; }
-@media (max-width: 599px) {
-  .notes-body { grid-template-columns: 1fr; }
-  .notes-cover { width: 72px; }
-  .note-row { grid-template-columns: 52px minmax(0, 1fr); }
-}
+.note-row { padding: 12px 0 12px 14px; border-left: 4px solid var(--hlc, #F2B705); border-bottom: 1px solid var(--rule);
+  margin-bottom: 8px; cursor: pointer; max-width: 860px; }
+.note-row.bookmark { border-left-color: var(--pulp-red); }
+.note-row .meta { font: 700 13px var(--f-text); letter-spacing: .04em; color: var(--text-muted); }
+.note-row .text { margin: 4px 0 0; line-height: 1.5; }
+.note-row .note { margin: 8px 0 0; color: var(--press-blue); font-size: 15px; display: flex; gap: 6px; align-items: baseline; }
