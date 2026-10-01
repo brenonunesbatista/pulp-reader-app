@@ -17,8 +17,11 @@ export const SPIKE_ISSUES: SpikeIssue[] = [
 export const LOW_WIDTH = 400
 /** sharp width, capped by native width (IIIF returns 400 for upscaling) */
 export const SHARP_WIDTH = 1200
-/** decoded pages kept around the current one (current ±2 → max 5) */
-export const WINDOW = 2
+/** decoded pages (ready to paint instantly): 1 behind, current, 2 ahead → max 4 (~8 MB each at 1200 px) */
+export const DECODE_BEHIND = 1
+export const DECODE_AHEAD = 2
+/** downloaded but not decoded (~250 kB each; decoding takes tens of ms, the network takes 1–3 s) */
+export const FETCH_AHEAD = 5
 /** encoded blobs kept in memory */
 export const BLOB_CACHE_PAGES = 30
 

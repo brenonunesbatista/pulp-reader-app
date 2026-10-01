@@ -34,6 +34,12 @@ export class ImageLoader {
     return img
   }
 
+  /** Download into the blob cache without decoding (pages further ahead). */
+  prefetch(url: string, priority: number): void {
+    if (this.blobs.has(url)) return
+    this.blob(url, priority).catch(() => { /* aborted or failed: will be retried when the page gets closer */ })
+  }
+
   release(img: HTMLImageElement) {
     URL.revokeObjectURL(img.src)
     img.removeAttribute('src')

@@ -1,6 +1,6 @@
 // Reader B spike: IIIF page images + invisible OCR text layer.
 import { useEffect, useRef, useState } from 'react'
-import { LOW_WIDTH, SHARP_WIDTH, WINDOW, type SpikeIssue } from '../config'
+import { DECODE_AHEAD, DECODE_BEHIND, FETCH_AHEAD, LOW_WIDTH, SHARP_WIDTH, type SpikeIssue } from '../config'
 import { iiifUrl, loadManifest, loadOcr, type PageInfo } from '../ia'
 import { metrics } from '../metrics'
 import { MetricsOverlay } from '../MetricsOverlay'
@@ -122,9 +122,9 @@ class ReaderBController {
 
   private ensureWindow() {
     const cur = this.current
-    // drop decoded pages outside the window (keeps ≤ 5 decoded pages)
+    // drop decoded pages outside the decode window (keeps ≤ 4 decoded pages)
     for (const [leaf, s] of this.decoded) {
-      if (Math.abs(leaf - cur) > WINDOW) {
+      if (!this.inDecodeWindow(leaf)) {
         this.releaseSlots(s)
         this.decoded.delete(leaf)
       } else if (leaf !== cur && s.max) {
@@ -132,20 +132,39 @@ class ReaderBController {
         delete s.max
       }
     }
-    // priority order: current low+high, next, prev, next+2, prev-2
-    const order: [number, Kind][] = [[cur, 'low'], [cur, 'high'], [cur + 1, 'low'], [cur + 1, 'high'],
-      [cur - 1, 'low'], [cur + 2, 'low'], [cur - 1, 'high'], [cur + 2, 'high'], [cur - 2, 'low'], [cur - 2, 'high']]
+    // 1) decode window, by priority: current, next, previous, next+1 … (low-res first so a page is never blank)
+    const decode: [number, Kind][] = [[cur, 'low'], [cur, 'high']]
+    for (let d = 1; d <= Math.max(DECODE_AHEAD, DECODE_BEHIND); d++) {
+      if (d <= DECODE_AHEAD) decode.push([cur + d, 'low'], [cur + d, 'high'])
+      if (d <= DECODE_BEHIND) decode.push([cur - d, 'low'], [cur - d, 'high'])
+    }
+    // 2) download-only window further ahead: low-res of all first (fast), then sharp
+    const fetchOnly: [number, Kind][] = []
+    for (const kind of ['low', 'high'] as Kind[]) {
+      for (let d = DECODE_AHEAD + 1; d <= FETCH_AHEAD; d++) fetchOnly.push([cur + d, kind])
+    }
     const keep = new Map<string, number>()
-    order.forEach(([leaf, kind], prio) => {
-      if (leaf < 0 || leaf >= this.pages.length) return
+    let prio = 0
+    for (const [leaf, kind] of decode) {
+      if (leaf < 0 || leaf >= this.pages.length) continue
       const s = this.decoded.get(leaf)
-      if (s?.[kind] || (kind === 'low' && s?.high)) return // low is pointless once sharp is decoded
+      if (s?.[kind] || (kind === 'low' && s?.high)) continue // low is pointless once sharp is decoded
       const url = this.urlFor(leaf, kind)
       keep.set(url, prio)
-      this.request(leaf, kind, url, prio)
-    })
+      this.request(leaf, kind, url, prio++)
+    }
+    for (const [leaf, kind] of fetchOnly) {
+      if (leaf >= this.pages.length) continue
+      const url = this.urlFor(leaf, kind)
+      keep.set(url, prio)
+      this.loader.prefetch(url, prio++)
+    }
     if (this.decoded.get(cur)?.high && this.pz.scale > 1.4) this.onZoom(this.pz.scale)
     this.loader.retain(keep)
+  }
+
+  private inDecodeWindow(leaf: number) {
+    return leaf >= this.current - DECODE_BEHIND && leaf <= this.current + DECODE_AHEAD
   }
 
   private request(leaf: number, kind: Kind, url: string, prio: number) {
@@ -154,7 +173,7 @@ class ReaderBController {
     this.loader.load(url, prio).then(
       (img) => {
         this.loading.delete(url)
-        if (Math.abs(leaf - this.current) > WINDOW || (kind === 'max' && leaf !== this.current)) {
+        if (!this.inDecodeWindow(leaf) || (kind === 'max' && leaf !== this.current)) {
           this.loader.release(img)
           return
         }

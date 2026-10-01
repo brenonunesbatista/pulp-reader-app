@@ -2,6 +2,43 @@
 
 Ideas and sources to add later. Items move into a phase brief when they are scheduled.
 
+## Proposed order (after Phase 2 tests, 2026-10-01)
+
+| Step | Scope | Why this order |
+|---|---|---|
+| ✅ now | Reader prefetch: 1 behind + 2 ahead decoded, pages 3–5 ahead downloaded | user report: fast page flips showed blurry pages |
+| **2.5 Design sprint** | name, visual identity, design tokens, mockups of Library / Issue / Reader for **tablet and phone** (Claude Artifacts, reviewed on the devices) | everything after this is built once, in the final look |
+| **3 Reader** | new reader chrome in the new design; **page index** (thumbnail grid + contents markers); contents drawer; page slider; landscape spread; themes / brightness / warm filter; "enhance text"; OCR page-number fix; phone reading mode (fit width, column panning) | SPEC phase 3 + test feedback |
+| **4 Phones** | responsive app shell (S25 first: ~412 dp wide, bottom navigation, 2-column grids), any Android phone ≥ Android 8 | cheap if the design sprint already covers phone layouts |
+| 5 Downloads | SPEC phase 4 | |
+| 6 Highlights & export | SPEC phase 5 | |
+| **7 Atlas (Explore / Hall)** | curated knowledge layer: interactive timeline, stories, authors, characters, themes, influence on film/music/manga; AI-drafted entries with web sources, reviewed by the user | needs a content pipeline + curation time; its data model starts in a spike early (see below) |
+| 8 New sources | categories `pulp` / `rpg` and the sources listed below | each source = adapter + dedupe + (later) contents |
+
+## Atlas (Explore / Hall) — design notes
+- **What:** an in-app "museum" to *discover*: a timeline (1900s → today) with lanes for magazines, stories, authors,
+  world events, films/series, music, manga/anime; entity pages (story, author, character, theme, magazine, movement)
+  linked into a graph ("influenced", "adapted as", "same theme", "read next").
+- **Content pipeline (on the PC, not in the app):** `tools/atlas/` drafts entries with the Claude API + web search
+  (every claim and every recommended article / interview / film comes from a search result with its URL; links are
+  checked to resolve) → Markdown/JSON files with `status: draft | reviewed` → the user curates → the builder writes
+  `atlas.db` (entities, links, sources, themes, FTS). The app ships the reviewed content and works offline. No API keys
+  in the app or the repo.
+- **Seed interests:** science fiction, manga, other countries'/eras' cultures, literature, cinema, music, and how art
+  shapes humanity. Seed authors: Asimov, Tolkien, Frank Herbert, H. G. Wells, Orwell, Dostoevsky → expand by
+  influence links to pulp authors that are actually in the catalog (e.g. Wells reprinted in Amazing Stories 1926).
+- **Open data to link:** Wikidata (influences, adaptations, dates), ISFDB, SF Encyclopedia, FictionMags, Open Library,
+  TMDB (films), MusicBrainz, AniList/MyAnimeList (manga). Check each licence/terms before storing data.
+- **Start small:** one "path" (e.g. *H. G. Wells → Amazing Stories → Golden Age → Asimov → Foundation on screen*) to
+  validate format, tone, and timeline UX before scaling.
+
+## Phone support — notes
+- Same APK, responsive layout (window size classes: compact < 600 dp, medium, expanded ≥ 840 dp; the A9+ is
+  expanded, the S25 is compact in portrait).
+- Reader on phones: pulp pages are dense two-column text → "fit width" + column-by-column panning, double-tap to zoom
+  a column; landscape = single page fit width.
+- iOS is technically possible with Capacitor but needs a Mac + Xcode; out of scope.
+
 ## Categories (content types)
 
 The catalog currently has only magazines of one kind. New sources come in **categories**, and the app must keep them
