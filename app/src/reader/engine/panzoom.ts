@@ -7,8 +7,9 @@
 
 export interface PanZoomOptions {
   onTurn: (dir: -1 | 1) => void
-  /** single tap in the middle zone; client coordinates (for hit-testing highlights) */
-  onCenterTap: (client: { x: number; y: number }) => void
+  onCenterTap: () => void
+  /** any single tap, before the edge/center logic (client coordinates); return true if it was handled */
+  onTapAt?: (client: { x: number; y: number }) => boolean
   onZoomSettled?: (scale: number) => void
   /** zoom or position changed by the user (for saving progress) */
   onViewChange?: () => void
@@ -297,6 +298,13 @@ export class PanZoom {
   }
 
   private tap(p: Pt) {
+    // taps on highlights win over page turns and the chrome toggle, anywhere on the page
+    const r = this.viewport.getBoundingClientRect()
+    if (this.opts.onTapAt?.({ x: p.x + r.left, y: p.y + r.top })) {
+      window.clearTimeout(this.centerTapTimer)
+      this.lastTap = null
+      return
+    }
     // edge taps turn pages; zoomed, the edge strips are narrower to avoid accidental turns
     const edge = this.scale > 1.01 ? EDGE_ZOOMED : EDGE
     const zone = p.x < this.vw * edge ? 'left' : p.x > this.vw * (1 - edge) ? 'right' : 'center'
@@ -313,9 +321,7 @@ export class PanZoom {
     }
     this.lastTap = { t: now, p }
     window.clearTimeout(this.centerTapTimer)
-    const r = this.viewport.getBoundingClientRect()
-    const client = { x: p.x + r.left, y: p.y + r.top }
-    this.centerTapTimer = window.setTimeout(() => this.opts.onCenterTap(client), DOUBLE_TAP_MS)
+    this.centerTapTimer = window.setTimeout(() => this.opts.onCenterTap(), DOUBLE_TAP_MS)
   }
 
   private zoomAt(p: Pt, s: number) {

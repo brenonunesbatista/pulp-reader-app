@@ -36,8 +36,8 @@ Built for a Samsung Galaxy Tab A9+ (11", 1920×1200), with phone layouts for the
   - printed page numbers and story jumps are corrected from the scan's own OCR (the reference guide is off by a couple
     of pages in some issues);
   - long-press text selection on an invisible OCR layer; the selection bar offers **4 highlight colors**, *Note*,
-    *Search web* (Google in a Chrome tab over the app) and *Copy*; tapping a highlight opens a card to change its
-    color, write a note, search, copy or delete it; **bookmarks** per page; all saved on the device;
+    *Search web* (Google in a Chrome tab over the app) and *Copy*; tapping a highlight (anywhere on the page) opens a card to
+    see or edit its note, change its color, search, copy or delete it; highlights with a note show a small note marker; **bookmarks** per page; all saved on the device;
   - the exact page and zoom are saved and resumed.
 - **Notes** (pen icon in the masthead): every highlight, note and bookmark across issues, grouped by issue with story
   titles and printed page numbers; search, color filter, tap to open the page. **Export to Markdown** (one issue from

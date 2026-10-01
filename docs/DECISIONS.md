@@ -178,3 +178,6 @@ implementation work for the next phase (plan first).
 - **Notes screen** (`#/notes`, pen icon in the masthead): all issues with notes, most recently annotated first; search
   over quote/note/story, color filter; export applies to what is shown. Story start leaves are computed by one shared
   function (`layout.computeStarts`) for the reader and the Notes screen.
+- Fix after the tablet test: taps on a highlight were only checked in the middle zone, so in spreads (where most text
+  is inside the 25 % edge zones) they turned the page. Highlights are now hit-tested first for every single tap
+  (`PanZoom.onTapAt`). Highlights with a note get a small blue note marker at the end of their first line (tappable).

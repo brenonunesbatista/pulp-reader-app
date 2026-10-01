@@ -124,7 +124,7 @@ export function ReaderScreen({ issueId, leaf = 0, storyId }: { issueId: number; 
     setBookmarks(await listBookmarks(user, issueId))
   }, [user, issueId])
   useEffect(() => { void reloadNotes() }, [reloadNotes])
-  useEffect(() => { ctl.current?.setHighlights(highlights.map((h) => ({ id: h.id, page: h.page, rects: h.rects, color: h.color }))) }, [highlights, pages])
+  useEffect(() => { ctl.current?.setHighlights(highlights.map((h) => ({ id: h.id, page: h.page, rects: h.rects, color: h.color, note: !!h.note }))) }, [highlights, pages])
 
   // story starts, with leaves corrected by the OCR page map when available
   const starts = useMemo<StoryStart[]>(() => {

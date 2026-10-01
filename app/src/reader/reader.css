@@ -20,6 +20,11 @@
 .pg-hl > div[data-c="red"] { background: rgb(228 87 46 / .38); }
 .pg-hl > div[data-c="blue"] { background: rgb(74 123 208 / .34); }
 .pg-hl > div[data-c="green"] { background: rgb(79 163 90 / .36); }
+/* note marker: a small speech bubble at the end of the first highlighted line */
+.pg-hl > span.hl-note { position: absolute; width: 18px; height: 16px; margin: -14px 0 0 3px; border-radius: 4px 4px 4px 0;
+  background: #1F4E8C; border: 1.5px solid #FFF4DC; box-shadow: 1px 1px 0 rgb(0 0 0 / .35); }
+.pg-hl > span.hl-note::after { content: ''; position: absolute; left: 3px; right: 3px; top: 4px; height: 2px; background: #FFF4DC;
+  box-shadow: 0 4px 0 #FFF4DC; }
 .reader[data-rtheme="night"] .pg-hl > div { background: rgb(255 201 60 / .32); mix-blend-mode: normal; }
 .reader[data-rtheme="night"] .pg-hl > div[data-c="red"] { background: rgb(255 110 80 / .32); }
 .reader[data-rtheme="night"] .pg-hl > div[data-c="blue"] { background: rgb(134 168 240 / .32); }

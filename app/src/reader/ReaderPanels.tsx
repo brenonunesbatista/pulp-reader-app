@@ -294,7 +294,7 @@ export function HighlightCard({ h, pageLabel, editNote, onColor, onNote, onSearc
         <button onClick={onSearch}><Icon name="search" size={18} />Search web</button>
         <button onClick={onCopy}><Icon name="copy" size={18} />Copy</button>
         <button className="danger" onClick={() => (confirm ? onDelete() : setConfirm(true))}>
-          <Icon name="trash" size={18} />{confirm ? 'Delete?' : 'Delete'}
+          <Icon name="trash" size={18} />{confirm ? 'Tap to delete' : 'Delete highlight'}
         </button>
         <span className="sp" />
         <button className="primary" onClick={done}>Done</button>

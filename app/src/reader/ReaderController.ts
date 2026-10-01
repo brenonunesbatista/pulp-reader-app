@@ -15,7 +15,7 @@ type Kind = 'low' | 'high' | 'max'
 interface Slots { low?: HTMLImageElement; high?: HTMLImageElement; max?: HTMLImageElement }
 interface PageSlot { leaf: number; root: HTMLDivElement; img: HTMLDivElement; hl: HTMLDivElement; text: HTMLDivElement; cssW: number }
 
-export interface DrawnHighlight { id: number; page: number; rects: Rect[]; color: string }
+export interface DrawnHighlight { id: number; page: number; rects: Rect[]; color: string; note: boolean }
 export interface View { zoom: number; cx: number; cy: number }
 
 export interface ReaderEvents {
@@ -59,10 +59,12 @@ export class ReaderController {
     this.ev = ev
     this.pz = new PanZoom(viewport, content, {
       onTurn: (d) => this.go(this.unit + d),
-      onCenterTap: (p) => {
+      onCenterTap: () => ev.onCenterTap(),
+      onTapAt: (p) => {
         const id = this.highlightAt(p.x, p.y)
-        if (id !== null) ev.onHighlightTap(id)
-        else ev.onCenterTap()
+        if (id === null) return false
+        ev.onHighlightTap(id)
+        return true
       },
       onZoomSettled: (s) => this.onZoom(s),
       onViewChange: () => ev.onView(),
@@ -337,8 +339,11 @@ export class ReaderController {
       const padX = 8 / r.width
       const padY = 8 / r.height
       for (const h of this.highlights) {
-        if (h.page !== slot.leaf) continue
+        if (h.page !== slot.leaf || !h.rects.length) continue
         if (h.rects.some(([x0, y0, x1, y1]) => nx >= x0 - padX && nx <= x1 + padX && ny >= y0 - padY && ny <= y1 + padY)) return h.id
+        // the note marker sits just past the end of the first line
+        const [, y0, x1] = h.rects[0]
+        if (h.note && Math.abs(x - (r.left + x1 * r.width + 14)) < 26 && Math.abs(y - (r.top + y0 * r.height)) < 26) return h.id
       }
     }
     return null
@@ -349,6 +354,14 @@ export class ReaderController {
       const frag = document.createDocumentFragment()
       for (const h of this.highlights) {
         if (h.page !== slot.leaf) continue
+        if (h.note && h.rects.length) {
+          // small note marker at the end of the highlight's first line
+          const m = document.createElement('span')
+          m.className = 'hl-note'
+          m.dataset.c = h.color
+          m.style.cssText = `left:${h.rects[0][2] * 100}%;top:${h.rects[0][1] * 100}%`
+          frag.append(m)
+        }
         for (const [x0, y0, x1, y1] of h.rects) {
           const d = document.createElement('div')
           d.dataset.c = h.color
