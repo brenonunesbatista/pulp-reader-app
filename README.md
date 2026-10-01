@@ -7,7 +7,7 @@
 Built for a Samsung Galaxy Tab A9+ (11", 1920×1200), with phone layouts for the Galaxy S25. Personal use only. It is not published on any store; see
 [Distribution](#distribution).
 
-> Status: **Phase 5 (downloads) built, testing on the device.** Banca identity, catalog, search, the production reader
+> Status: **Phase 5 (downloads) done**, verified on the tablet. Banca identity, catalog, search, the production reader
 > and offline issues work; notes and export come next. See [Roadmap](#roadmap).
 
 ## Features
@@ -123,7 +123,7 @@ pytest                                                      # catalog tools, fro
    ([docs/design/banca-newsprint.md](docs/design/banca-newsprint.md)); applied to the app from Phase 3 on.
 3. ✅ **Banca + reader**: identity applied to every screen, phone layouts, production reader (spreads, page index,
    contents, slider, themes, brightness, warm filter, enhance text, OCR page numbers, highlights and bookmarks).
-4. 🧪 **Downloads**: offline issues, resumable, Wi-Fi only, downloaded filter, storage management (testing on the device).
+4. ✅ **Downloads**: offline issues, resumable, Wi-Fi only, downloaded filter, storage management.
 5. **Notes and export**: highlight colors, notes, web search, Markdown export.
 
 Next sources (content categories **pulp** and **rpg**: F&SF, Galaxy, Fantastic, Asimov's, Twilight Zone, Dragon,
