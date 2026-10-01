@@ -7,7 +7,7 @@
 Built for a Samsung Galaxy Tab A9+ (11", 1920×1200), with phone layouts for the Galaxy S25. Personal use only. It is not published on any store; see
 [Distribution](#distribution).
 
-> Status: **Phase 3 done** (testing on the device): Banca identity, catalog, search and the production reader. Offline
+> Status: **Phase 3 done** (verified on the tablet; phone test pending): Banca identity, catalog, search and the production reader. Offline
 > downloads, notes and export come next. See [Roadmap](#roadmap).
 
 ## Features
@@ -106,7 +106,7 @@ pytest                                                      # catalog tools, fro
 ## Roadmap
 
 1. ✅ **Spike and catalog**: reader approach chosen (IIIF images + OCR layer, not PDF.js) and catalog extraction.
-2. ✅ **App shell**: Library / Magazine / Issue / Person / Search screens and progress (testing on the device).
+2. ✅ **App shell**: Library / Magazine / Issue / Person / Search screens and progress.
    ✅ **Design sprint**: name **Banca** and the "Newsprint" identity, tokens and tablet/phone mockups
    ([docs/design/banca-newsprint.md](docs/design/banca-newsprint.md)); applied to the app from Phase 3 on.
 3. ✅ **Banca + reader**: identity applied to every screen, phone layouts, production reader (spreads, page index,
