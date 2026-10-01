@@ -15,7 +15,7 @@ type Kind = 'low' | 'high' | 'max'
 interface Slots { low?: HTMLImageElement; high?: HTMLImageElement; max?: HTMLImageElement }
 interface PageSlot { leaf: number; root: HTMLDivElement; img: HTMLDivElement; hl: HTMLDivElement; text: HTMLDivElement; cssW: number }
 
-export interface DrawnHighlight { id: number; page: number; rects: Rect[] }
+export interface DrawnHighlight { id: number; page: number; rects: Rect[]; color: string }
 export interface View { zoom: number; cx: number; cy: number }
 
 export interface ReaderEvents {
@@ -24,6 +24,8 @@ export interface ReaderEvents {
   onUnit: (leaves: number[]) => void
   onOcr: (pages: OcrPage[]) => void
   onCenterTap: () => void
+  /** a tap landed on a highlight */
+  onHighlightTap: (id: number) => void
   onView: () => void
   onError: (message: string) => void
 }
@@ -57,7 +59,11 @@ export class ReaderController {
     this.ev = ev
     this.pz = new PanZoom(viewport, content, {
       onTurn: (d) => this.go(this.unit + d),
-      onCenterTap: () => ev.onCenterTap(),
+      onCenterTap: (p) => {
+        const id = this.highlightAt(p.x, p.y)
+        if (id !== null) ev.onHighlightTap(id)
+        else ev.onCenterTap()
+      },
       onZoomSettled: (s) => this.onZoom(s),
       onViewChange: () => ev.onView(),
       isSelecting: () => !(document.getSelection()?.isCollapsed ?? true),
@@ -321,6 +327,23 @@ export class ReaderController {
     this.drawHighlights()
   }
 
+  /** highlight under a client point (on the pages currently shown), with a little slack for fingers */
+  private highlightAt(x: number, y: number): number | null {
+    for (const slot of this.slots) {
+      const r = slot.root.getBoundingClientRect()
+      if (!r.width || x < r.left || x > r.right || y < r.top || y > r.bottom) continue
+      const nx = (x - r.left) / r.width
+      const ny = (y - r.top) / r.height
+      const padX = 8 / r.width
+      const padY = 8 / r.height
+      for (const h of this.highlights) {
+        if (h.page !== slot.leaf) continue
+        if (h.rects.some(([x0, y0, x1, y1]) => nx >= x0 - padX && nx <= x1 + padX && ny >= y0 - padY && ny <= y1 + padY)) return h.id
+      }
+    }
+    return null
+  }
+
   private drawHighlights() {
     for (const slot of this.slots) {
       const frag = document.createDocumentFragment()
@@ -328,6 +351,7 @@ export class ReaderController {
         if (h.page !== slot.leaf) continue
         for (const [x0, y0, x1, y1] of h.rects) {
           const d = document.createElement('div')
+          d.dataset.c = h.color
           d.style.cssText = `left:${x0 * 100}%;top:${y0 * 100}%;width:${(x1 - x0) * 100}%;height:${(y1 - y0) * 100}%`
           frag.append(d)
         }

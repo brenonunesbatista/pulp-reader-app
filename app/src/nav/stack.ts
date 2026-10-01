@@ -7,6 +7,7 @@ export type Route =
   | { name: 'search'; q?: string }
   | { name: 'reader'; issueId: number; leaf?: number; storyId?: number }
   | { name: 'settings' }
+  | { name: 'notes' }
   | { name: 'soon'; what: 'rpg' | 'atlas' }
 
 export interface Entry {
@@ -50,6 +51,7 @@ export function routeToHash(r: Route): string {
     case 'search': return `#/search/${encodeURIComponent(r.q ?? '')}`
     case 'reader': return `#/reader/${r.issueId}/${r.leaf ?? ''}${r.storyId ? `/${r.storyId}` : ''}`
     case 'settings': return '#/settings'
+    case 'notes': return '#/notes'
     case 'soon': return `#/soon/${r.what}`
   }
 }
@@ -65,6 +67,7 @@ export function hashToRoute(hash: string): Route {
     case 'reader': return Number.isFinite(n)
       ? { name, issueId: n, leaf: b ? Number(b) : undefined, ...(c ? { storyId: Number(c) } : {}) } : { name: 'library' }
     case 'settings': return { name }
+    case 'notes': return { name }
     case 'soon': return a === 'rpg' || a === 'atlas' ? { name, what: a } : { name: 'library' }
     default: return { name: 'library' }
   }

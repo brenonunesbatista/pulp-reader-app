@@ -159,3 +159,22 @@ implementation work for the next phase (plan first).
   of a badge means online.
 - Bug caught by the tests: `bytes += await download()` in concurrent workers lost updates (reads `bytes` before the
   await); fixed by awaiting first.
+
+## 2026-10-01 — Phase 6: highlights, notes, web search, Markdown export
+- **Colors** yellow (default) / red / blue / green, no fixed meaning (the user can give them one); the selection bar
+  creates a highlight in one tap and remembers the last color. Colors are plain names in `highlight.color`; no
+  migration was needed (the v1 table already had `color` and `note`).
+- **Editing**: a tap in the middle of the page is hit-tested against the highlight rects of the pages on screen
+  (client coordinates through each page's bounding box, 8 px slack) before toggling the chrome; a hit opens the
+  highlight card (color, note, search, copy, delete). While a note is being typed, window resizes from the keyboard
+  are ignored so the reader does not switch between spread and single page.
+- **Search web**: `@capacitor/browser` (official; new dependency) opens Google in a Chrome Custom Tab over the app, so
+  Back returns to the same page. Query capped at 300 characters.
+- **Export**: Markdown in the SPEC format (`# Magazine — Mon YYYY`, `## p. N — Story`, `> quote`, `Note: …`; bookmarks as
+  `*Bookmark*`; non-yellow colors as `*(red)*`). Page labels use the OCR page map when the issue was opened before,
+  else leaf + 1. Delivered through `@capacitor/share` (official; new dependency) from a file in the cache dir (covered
+  by the existing FileProvider `cache-path`), so the user can save to Files/Drive, mail it or open it in a notes app;
+  plus *Copy*. Writing straight into the public Downloads folder was skipped (scoped-storage friction).
+- **Notes screen** (`#/notes`, pen icon in the masthead): all issues with notes, most recently annotated first; search
+  over quote/note/story, color filter; export applies to what is shown. Story start leaves are computed by one shared
+  function (`layout.computeStarts`) for the reader and the Notes screen.

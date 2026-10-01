@@ -3,6 +3,10 @@ import type { Db } from '../db/types'
 
 export type Rect = [number, number, number, number]
 
+/** highlight colors (no fixed meaning); yellow is the default */
+export const HIGHLIGHT_COLORS = ['yellow', 'red', 'blue', 'green'] as const
+export type HighlightColor = (typeof HIGHLIGHT_COLORS)[number]
+
 export interface Highlight {
   id: number
   issueId: number
@@ -41,6 +45,23 @@ export async function addHighlight(db: Db, h: Omit<Highlight, 'id' | 'createdAt'
     [h.issueId, h.page, JSON.stringify(h.rects), h.text, h.color ?? 'yellow', now])
   const r = await db.query<{ id: number }>(`SELECT max(id) AS id FROM highlight WHERE issue_id = ?`, [h.issueId])
   return r[0].id
+}
+
+export async function updateHighlight(db: Db, id: number, p: { color?: string; note?: string | null }): Promise<void> {
+  if (p.color !== undefined) await db.run(`UPDATE highlight SET color = ? WHERE id = ?`, [p.color, id])
+  if (p.note !== undefined) await db.run(`UPDATE highlight SET note = ? WHERE id = ?`, [p.note?.trim() ? p.note.trim() : null, id])
+}
+
+/** every highlight, grouped by issue then page (Notes screen, export all) */
+export async function listAllHighlights(db: Db): Promise<Highlight[]> {
+  const r = await db.query<HighlightRow>(`SELECT * FROM highlight ORDER BY issue_id, page, id`)
+  return r.map(toHighlight)
+}
+
+export async function listAllBookmarks(db: Db): Promise<Bookmark[]> {
+  const r = await db.query<{ issue_id: number; page: number; created_at: number }>(
+    `SELECT * FROM bookmark ORDER BY issue_id, page`)
+  return r.map((b) => ({ issueId: b.issue_id, page: b.page, createdAt: b.created_at }))
 }
 
 export async function deleteHighlight(db: Db, id: number): Promise<void> {

@@ -68,6 +68,9 @@ export function Masthead({ section, children }: { section: Section; children?: R
           <span className="placeholder">{compact ? 'Search…' : 'Search titles, authors, editors, cover artists, translators…'}</span>
         </button>
       )}
+      <button className="sq-btn" aria-label="Notes and highlights" onClick={() => nav.push({ name: 'notes' })}>
+        <Icon name="highlight" size={22} />
+      </button>
       <button className="sq-btn" aria-label="Settings" onClick={() => nav.push({ name: 'settings' })}>
         <Icon name="settings" size={22} />
       </button>

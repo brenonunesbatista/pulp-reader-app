@@ -1,3 +1,5 @@
+import { leafForPrinted } from './pageMap'
+
 // Reading units: one page, or a two-page spread (front cover alone, then pairs: leaves 1–2, 3–4, …).
 export type Unit = number[]
 
@@ -19,6 +21,22 @@ export interface StoryStart {
   credit: string
   partInfo: string | null
   leaf: number
+}
+
+/** Story start leaves from the contents, corrected by the OCR page map when known (guide leaf otherwise). */
+export function computeStarts(
+  contents: { id: number; title: string; partInfo: string | null; pagePrinted: number | null; iaLeaf: number | null
+    credits: { role: string; name: string }[] }[],
+  printed: (number | null)[] | null, pageCount: number,
+): StoryStart[] {
+  const n = pageCount || Infinity
+  return contents.flatMap((s) => {
+    const corrected = printed && s.pagePrinted !== null ? leafForPrinted({ printed, offset: null, anchors: 1 }, s.pagePrinted) : null
+    const l = corrected ?? s.iaLeaf
+    if (l === null || l >= n) return []
+    return [{ id: s.id, title: s.title, partInfo: s.partInfo, leaf: l,
+      credit: s.credits.filter((c) => c.role === 'author').map((c) => c.name).join(', ') }]
+  }).sort((a, b) => a.leaf - b.leaf)
 }
 
 /** Story being read at `leaf` (last one starting at or before it). */

@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import type { Bookmark, Highlight } from '../data/annotationRepo'
+import { HIGHLIGHT_COLORS, type Bookmark, type Highlight } from '../data/annotationRepo'
+import { HIGHLIGHT_HEX } from '../ui/format'
 import type { ReaderTheme } from '../data/settingsRepo'
 import { Icon } from '../ui/icons'
 import { useSettings } from '../ui/settingsContext'
@@ -132,13 +133,21 @@ export function ContentsDrawer({ starts, current, label, onGo }: {
 
 // ---- highlights + bookmarks ---------------------------------------------------------------------------------------
 
-export function NotesDrawer({ highlights, bookmarks, label, onGo, onDeleteHighlight, onDeleteBookmark }: {
+export function NotesDrawer({ highlights, bookmarks, label, onGo, onOpenHighlight, onDeleteBookmark, onExport, onCopy }: {
   highlights: Highlight[]; bookmarks: Bookmark[]; label: (l: number) => string; onGo: (leaf: number) => void
-  onDeleteHighlight: (id: number) => void; onDeleteBookmark: (page: number) => void
+  onOpenHighlight: (h: Highlight) => void; onDeleteBookmark: (page: number) => void
+  onExport: () => void; onCopy: () => void
 }) {
+  const empty = !highlights.length && !bookmarks.length
   return (
     <aside className="r-panel r-drawer right">
       <h3>Notes</h3>
+      {!empty && (
+        <div className="export">
+          <button onClick={onExport}><Icon name="share" size={18} />Export Markdown</button>
+          <button onClick={onCopy}><Icon name="copy" size={18} />Copy</button>
+        </div>
+      )}
       <h4>Bookmarks</h4>
       {bookmarks.length === 0 && <p className="empty">Tap the bookmark in the top bar to mark a page.</p>}
       {bookmarks.map((b) => (
@@ -149,12 +158,15 @@ export function NotesDrawer({ highlights, bookmarks, label, onGo, onDeleteHighli
         </div>
       ))}
       <h4>Highlights</h4>
-      {highlights.length === 0 && <p className="empty">Long-press text on a page, then tap Highlight.</p>}
+      {highlights.length === 0 && <p className="empty">Long-press text on a page, then pick a color.</p>}
       {highlights.map((h) => (
         <div key={h.id} className="item" role="button" onClick={() => onGo(h.page)}>
           <span className="pg-no">{label(h.page)}</span>
-          <span className="quote">“{h.text.length > 180 ? `${h.text.slice(0, 180)}…` : h.text}”</span>
-          <button className="del" aria-label="Delete highlight" onClick={(e) => { e.stopPropagation(); onDeleteHighlight(h.id) }}><Icon name="trash" size={20} /></button>
+          <span>
+            <span className="quote" style={{ ['--hlc' as string]: HIGHLIGHT_HEX[h.color] }}>“{h.text.length > 180 ? `${h.text.slice(0, 180)}…` : h.text}”</span>
+            {h.note && <span className="note">{h.note}</span>}
+          </span>
+          <button className="del" aria-label="Edit highlight" onClick={(e) => { e.stopPropagation(); onOpenHighlight(h) }}><Icon name="edit" size={20} /></button>
         </div>
       ))}
     </aside>
@@ -236,6 +248,56 @@ export function PageIndex({ pages, thumb, starts, current, label, printed, title
               : pages.map((_, l) => cell(l))}
           </div>
         </div>
+      </div>
+    </div>
+  )
+}
+
+// ---- highlight card: color, note, search, copy, delete -------------------------------------------------------------
+
+export function ColorDots({ value, onPick }: { value?: string; onPick: (c: string) => void }) {
+  return (
+    <>
+      {HIGHLIGHT_COLORS.map((c) => (
+        <button key={c} className={`swatch-dot ${value === c ? 'on' : ''}`} data-c={c} aria-label={`${c} highlight`}
+                onClick={() => onPick(c)} />
+      ))}
+    </>
+  )
+}
+
+export function HighlightCard({ h, pageLabel, editNote, onColor, onNote, onSearch, onCopy, onDelete, onClose }: {
+  h: Highlight; pageLabel: string; editNote: boolean
+  onColor: (c: string) => void; onNote: (note: string) => void; onSearch: () => void; onCopy: () => void
+  onDelete: () => void; onClose: () => void
+}) {
+  const [note, setNote] = useState(h.note ?? '')
+  const [writing, setWriting] = useState(editNote || !!h.note)
+  const [confirm, setConfirm] = useState(false)
+  const done = () => {
+    if (note.trim() !== (h.note ?? '')) onNote(note)
+    onClose()
+  }
+  return (
+    <div className="r-hlcard" role="dialog" aria-label="Highlight">
+      <div className="quote" style={{ ['--hlc' as string]: HIGHLIGHT_HEX[h.color] }}>“{h.text}”</div>
+      <div className="row">
+        <ColorDots value={h.color} onPick={onColor} />
+        <span className="muted small">p. {pageLabel}</span>
+      </div>
+      {writing && (
+        <textarea value={note} placeholder="Write a note…" autoFocus={editNote}
+                  onChange={(e) => setNote(e.target.value)} onBlur={() => { if (note.trim() !== (h.note ?? '')) onNote(note) }} />
+      )}
+      <div className="acts">
+        {!writing && <button onClick={() => setWriting(true)}><Icon name="edit" size={18} />Note</button>}
+        <button onClick={onSearch}><Icon name="search" size={18} />Search web</button>
+        <button onClick={onCopy}><Icon name="copy" size={18} />Copy</button>
+        <button className="danger" onClick={() => (confirm ? onDelete() : setConfirm(true))}>
+          <Icon name="trash" size={18} />{confirm ? 'Delete?' : 'Delete'}
+        </button>
+        <span className="sp" />
+        <button className="primary" onClick={done}>Done</button>
       </div>
     </div>
   )

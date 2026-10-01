@@ -7,7 +7,8 @@
 
 export interface PanZoomOptions {
   onTurn: (dir: -1 | 1) => void
-  onCenterTap: () => void
+  /** single tap in the middle zone; client coordinates (for hit-testing highlights) */
+  onCenterTap: (client: { x: number; y: number }) => void
   onZoomSettled?: (scale: number) => void
   /** zoom or position changed by the user (for saving progress) */
   onViewChange?: () => void
@@ -312,7 +313,9 @@ export class PanZoom {
     }
     this.lastTap = { t: now, p }
     window.clearTimeout(this.centerTapTimer)
-    this.centerTapTimer = window.setTimeout(() => this.opts.onCenterTap(), DOUBLE_TAP_MS)
+    const r = this.viewport.getBoundingClientRect()
+    const client = { x: p.x + r.left, y: p.y + r.top }
+    this.centerTapTimer = window.setTimeout(() => this.opts.onCenterTap(client), DOUBLE_TAP_MS)
   }
 
   private zoomAt(p: Pt, s: number) {

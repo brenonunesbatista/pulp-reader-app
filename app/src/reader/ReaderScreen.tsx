@@ -3,7 +3,7 @@ import { App as CapApp } from '@capacitor/app'
 import { Capacitor } from '@capacitor/core'
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import {
-  addHighlight, deleteHighlight, getPageMap, listBookmarks, listHighlights, savePageMap, setBookmark,
+  addHighlight, deleteHighlight, getPageMap, listBookmarks, listHighlights, savePageMap, setBookmark, updateHighlight,
   type Bookmark, type Highlight,
 } from '../data/annotationRepo'
 import { getContents, getIssue } from '../data/catalogRepo'
@@ -18,9 +18,12 @@ import { useAsync } from '../ui/useAsync'
 import { nativeDisplay, setBrightness, setImmersive } from './display'
 import type { PageInfo } from './engine/ia'
 import { MetricsOverlay } from './MetricsOverlay'
-import { pagesToEnd, storyAt, type StoryStart } from './layout'
-import { computePageMap, leafForPrinted } from './pageMap'
-import { ContentsDrawer, DisplayPanel, NotesDrawer, PageIndex, ReaderBottomBar } from './ReaderPanels'
+import { computeStarts, pagesToEnd, storyAt, type StoryStart } from './layout'
+import { computePageMap } from './pageMap'
+import { gatherNotes } from '../notes/gather'
+import { exportFileName, issueMarkdown } from '../notes/markdown'
+import { copyText, searchWeb, shareMarkdown } from '../notes/share'
+import { ColorDots, ContentsDrawer, DisplayPanel, HighlightCard, NotesDrawer, PageIndex, ReaderBottomBar } from './ReaderPanels'
 import { ReaderController } from './ReaderController'
 import './reader.css'
 
@@ -60,6 +63,9 @@ export function ReaderScreen({ issueId, leaf = 0, storyId }: { issueId: number; 
   const [error, setError] = useState<string | null>(null)
   const [highlights, setHighlights] = useState<Highlight[]>([])
   const [bookmarks, setBookmarks] = useState<Bookmark[]>([])
+  const [card, setCard] = useState<{ id: number; editNote: boolean } | null>(null)
+  const [lastColor, setLastColor] = useState('yellow')
+  const [toast, setToast] = useState<string | null>(null)
   const [layout, setLayout] = useState(layoutFor)
   const moved = useRef(0)
   const pending = useRef<{ page: number } | null>(null)
@@ -95,7 +101,8 @@ export function ReaderScreen({ issueId, leaf = 0, storyId }: { issueId: number; 
         setPrinted(map.printed)
         void savePageMap(user, issue.iaIdentifier!, map.printed, map.offset)
       },
-      onCenterTap: () => { setPanel(null); setChrome((v) => !v) },
+      onCenterTap: () => { setCard(null); setPanel(null); setChrome((v) => !v) },
+      onHighlightTap: (id) => { setPanel(null); setCard({ id, editNote: false }) },
       onView: scheduleSave,
       onError: setError,
     })
@@ -117,20 +124,12 @@ export function ReaderScreen({ issueId, leaf = 0, storyId }: { issueId: number; 
     setBookmarks(await listBookmarks(user, issueId))
   }, [user, issueId])
   useEffect(() => { void reloadNotes() }, [reloadNotes])
-  useEffect(() => { ctl.current?.setHighlights(highlights.map((h) => ({ id: h.id, page: h.page, rects: h.rects }))) }, [highlights, pages])
+  useEffect(() => { ctl.current?.setHighlights(highlights.map((h) => ({ id: h.id, page: h.page, rects: h.rects, color: h.color }))) }, [highlights, pages])
 
   // story starts, with leaves corrected by the OCR page map when available
   const starts = useMemo<StoryStart[]>(() => {
     if (data.status !== 'ok') return []
-    const n = pages.length || Infinity
-    const map = printed ? { printed, offset: null, anchors: 1 } : null
-    return data.data.contents.flatMap((s) => {
-      const corrected = map && s.pagePrinted !== null ? leafForPrinted(map, s.pagePrinted) : null
-      const l = corrected ?? s.iaLeaf
-      if (l === null || l >= n) return []
-      return [{ id: s.id, title: s.title, partInfo: s.partInfo,
-        credit: s.credits.filter((c) => c.role === 'author').map((c) => c.name).join(', '), leaf: l }]
-    }).sort((a, b) => a.leaf - b.leaf)
+    return computeStarts(data.data.contents, printed, pages.length)
   }, [data, printed, pages.length])
 
   // opened from a story: once the page map corrects its leaf, jump there (unless the reader already moved)
@@ -156,6 +155,8 @@ export function ReaderScreen({ issueId, leaf = 0, storyId }: { issueId: number; 
     const onResize = () => {
       window.clearTimeout(t)
       t = window.setTimeout(() => {
+        // the on-screen keyboard (writing a note) shrinks the window: keep the layout
+        if (document.activeElement instanceof HTMLTextAreaElement || document.activeElement instanceof HTMLInputElement) return
         const l = layoutFor()
         setLayout(l)
         ctl.current?.setLayout(l.spread, l.fitWidth)
@@ -183,16 +184,37 @@ export function ReaderScreen({ issueId, leaf = 0, storyId }: { issueId: number; 
   // ---- actions --------------------------------------------------------------------------------------------------
   const thumb = useCallback((l: number, w: number) => ctl.current?.thumbUrl(l, w) ?? '', [])
   const goLeaf = useCallback((l: number) => { ctl.current?.goLeaf(l); setPanel(null) }, [])
-  const highlight = async () => {
+  const flash = (msg: string) => { setToast(msg); window.setTimeout(() => setToast(null), 1800) }
+  const highlight = async (color: string, withNote = false) => {
     const sel = ctl.current?.selection()
     if (!sel) return
-    await addHighlight(user, { issueId, page: sel.leaf, rects: sel.rects, text: sel.text })
+    setLastColor(color)
+    const id = await addHighlight(user, { issueId, page: sel.leaf, rects: sel.rects, text: sel.text, color })
     document.getSelection()?.removeAllRanges()
     await reloadNotes()
+    if (withNote) setCard({ id, editNote: true })
   }
   const copy = () => {
-    void navigator.clipboard?.writeText(document.getSelection()?.toString() ?? '')
+    void copyText(document.getSelection()?.toString() ?? '').then(() => flash('Copied'))
     document.getSelection()?.removeAllRanges()
+  }
+  const searchSelection = () => {
+    const text = document.getSelection()?.toString() ?? ''
+    document.getSelection()?.removeAllRanges()
+    void searchWeb(text)
+  }
+  const cardHl = card ? highlights.find((h) => h.id === card.id) : undefined
+  const editHighlight = async (id: number, p: { color?: string; note?: string }) => {
+    if (p.color) setLastColor(p.color)
+    await updateHighlight(user, id, p)
+    await reloadNotes()
+  }
+  const exportIssue = async (mode: 'share' | 'copy') => {
+    const [notes] = await gatherNotes(catalog, user, issueId)
+    if (!notes) return
+    const md = issueMarkdown(notes)
+    if (mode === 'copy') { await copyText(md); flash('Markdown copied') }
+    else await shareMarkdown(exportFileName([notes]), md, notes.heading)
   }
   const bookmarked = bookmarks.find((b) => leaves.includes(b.page))
   const toggleBookmark = async () => {
@@ -200,7 +222,7 @@ export function ReaderScreen({ issueId, leaf = 0, storyId }: { issueId: number; 
     await setBookmark(user, issueId, bookmarked?.page ?? leaves[0], !bookmarked)
     await reloadNotes()
   }
-  const removeHighlight = async (id: number) => { await deleteHighlight(user, id); await reloadNotes() }
+  const removeHighlight = async (id: number) => { setCard(null); await deleteHighlight(user, id); await reloadNotes() }
   const removeBookmark = async (page: number) => { await setBookmark(user, issueId, page, false); await reloadNotes() }
   const toggle = (p: Exclude<Panel, null>) => setPanel((cur) => (cur === p ? null : p))
 
@@ -264,7 +286,9 @@ export function ReaderScreen({ issueId, leaf = 0, storyId }: { issueId: number; 
       {panel === 'contents' && chrome && <ContentsDrawer starts={starts} current={story} label={label} onGo={goLeaf} />}
       {panel === 'notes' && chrome && (
         <NotesDrawer highlights={highlights} bookmarks={bookmarks} label={label} onGo={goLeaf}
-                     onDeleteHighlight={(id) => void removeHighlight(id)} onDeleteBookmark={(p) => void removeBookmark(p)} />
+                     onOpenHighlight={(h) => { goLeaf(h.page); setCard({ id: h.id, editNote: false }) }}
+                     onDeleteBookmark={(p) => void removeBookmark(p)}
+                     onExport={() => void exportIssue('share')} onCopy={() => void exportIssue('copy')} />
       )}
       {panel === 'pages' && issue && (
         <PageIndex pages={pages} thumb={thumb} starts={starts} current={leaves} label={label} compact={layout.compact}
@@ -272,12 +296,23 @@ export function ReaderScreen({ issueId, leaf = 0, storyId }: { issueId: number; 
                    printed={printed} onGo={goLeaf} onClose={() => setPanel(null)} />
       )}
 
-      {hasSel && (
+      {hasSel && !card && (
         <div className="r-selbar">
+          <div className="dots"><ColorDots value={lastColor} onPick={(c) => void highlight(c)} /></div>
+          <button onClick={() => void highlight(lastColor, true)}>Note</button>
+          <button onClick={searchSelection}>Search web</button>
           <button onClick={copy}>Copy</button>
-          <button className="hl" onClick={() => void highlight()}>Highlight</button>
         </div>
       )}
+      {cardHl && card && (
+        <HighlightCard key={cardHl.id} h={cardHl} pageLabel={label(cardHl.page)} editNote={card.editNote}
+                       onColor={(c) => void editHighlight(cardHl.id, { color: c })}
+                       onNote={(n) => void editHighlight(cardHl.id, { note: n })}
+                       onSearch={() => void searchWeb(cardHl.text)}
+                       onCopy={() => void copyText(cardHl.text).then(() => flash('Copied'))}
+                       onDelete={() => void removeHighlight(cardHl.id)} onClose={() => setCard(null)} />
+      )}
+      {toast && <div className="r-toast">{toast}</div>}
       {failureText && <div className="r-error">{failureText}</div>}
       {settings.perfOverlay && <MetricsOverlay />}
     </div>

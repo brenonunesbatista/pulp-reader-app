@@ -35,3 +35,6 @@ export function formatBytes(n: number): string {
 
 export const downloadPct = (d: Pick<DownloadInfo, 'pagesDone' | 'pagesTotal'>) =>
   d.pagesTotal ? Math.floor((d.pagesDone / d.pagesTotal) * 100) : 0
+
+/** swatch colors for highlight color names (annotationRepo.HIGHLIGHT_COLORS) */
+export const HIGHLIGHT_HEX: Record<string, string> = { yellow: '#F2B705', red: '#E4572E', blue: '#4A7BD0', green: '#4FA35A' }

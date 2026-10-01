@@ -7,8 +7,8 @@
 Built for a Samsung Galaxy Tab A9+ (11", 1920×1200), with phone layouts for the Galaxy S25. Personal use only. It is not published on any store; see
 [Distribution](#distribution).
 
-> Status: **Phase 5 (downloads) done**, verified on the tablet. Banca identity, catalog, search, the production reader
-> and offline issues work; notes and export come next. See [Roadmap](#roadmap).
+> Status: **Phase 6 (notes and export) built, testing on the device.** Catalog, search, the production reader,
+> offline downloads, highlights with notes and Markdown export work. See [Roadmap](#roadmap).
 
 ## Features
 
@@ -35,8 +35,13 @@ Built for a Samsung Galaxy Tab A9+ (11", 1920×1200), with phone layouts for the
     and **Enhance text** for worn type on old scans; full screen while reading;
   - printed page numbers and story jumps are corrected from the scan's own OCR (the reference guide is off by a couple
     of pages in some issues);
-  - long-press text selection on an invisible OCR layer, **highlights** and **bookmarks** saved on the device;
+  - long-press text selection on an invisible OCR layer; the selection bar offers **4 highlight colors**, *Note*,
+    *Search web* (Google in a Chrome tab over the app) and *Copy*; tapping a highlight opens a card to change its
+    color, write a note, search, copy or delete it; **bookmarks** per page; all saved on the device;
   - the exact page and zoom are saved and resumed.
+- **Notes** (pen icon in the masthead): every highlight, note and bookmark across issues, grouped by issue with story
+  titles and printed page numbers; search, color filter, tap to open the page. **Export to Markdown** (one issue from
+  the reader's Notes panel, or everything / the filtered list) through Android's share sheet, or copy to the clipboard.
 - **Downloads (offline reading)**:
   - *Download* on an issue stores its pages (1200 px), thumbnails, page list and OCR text on the device (about
     25–65 MB per issue); the reader then uses the local files, so it works in airplane mode;
@@ -108,6 +113,7 @@ pytest                                                      # catalog tools, fro
 | `app/src/nav/` | stack navigator (browser history + Android back button) |
 | `app/src/screens/`, `app/src/ui/` | screens, shared components, icons, theme (`app.css`) |
 | `app/src/reader/` | reader screen, panels and `ReaderController`; `engine/` = gestures, image pipeline, OCR, IIIF, disk cache |
+| `app/src/notes/` | notes gathering, Markdown export (pure, tested), share sheet / web search helpers |
 | `app/src/downloads/` | download manager (queue, retries, resume, Wi-Fi policy), file store, React hooks |
 | `app/android/.../BancaDisplayPlugin.java` | small native plugin: reader brightness and immersive full screen |
 | `tools/` | catalog builder, magazine adapters, tests, Internet Archive investigation scripts, `brand/` icon generator |
@@ -124,7 +130,7 @@ pytest                                                      # catalog tools, fro
 3. ✅ **Banca + reader**: identity applied to every screen, phone layouts, production reader (spreads, page index,
    contents, slider, themes, brightness, warm filter, enhance text, OCR page numbers, highlights and bookmarks).
 4. ✅ **Downloads**: offline issues, resumable, Wi-Fi only, downloaded filter, storage management.
-5. **Notes and export**: highlight colors, notes, web search, Markdown export.
+5. 🧪 **Notes and export**: highlight colors, notes, web search, Notes screen, Markdown export (testing on the device).
 
 Next sources (content categories **pulp** and **rpg**: F&SF, Galaxy, Fantastic, Asimov's, Twilight Zone, Dragon,
 Dungeon, The Space Gamer, …) are tracked in [docs/BACKLOG.md](docs/BACKLOG.md).
