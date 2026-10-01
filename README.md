@@ -1,30 +1,41 @@
-# Pulp Reader
+# Banca
 
-A personal Android tablet app for browsing and reading classic pulp magazines scanned by the
+*A newsstand for pulp magazines.* A personal Android tablet (and phone) app for browsing and reading classic pulp magazines scanned by the
 [Internet Archive](https://archive.org). The first magazine is **Amazing Stories** (1926–1956): 309 issues,
 4,000+ stories, searchable by title, author, editor, cover artist and translator, and readable page by page.
 
-Built for a Samsung Galaxy Tab A9+ (11", 1920×1200). Personal use only. It is not published on any store; see
+Built for a Samsung Galaxy Tab A9+ (11", 1920×1200), with phone layouts for the Galaxy S25. Personal use only. It is not published on any store; see
 [Distribution](#distribution).
 
-> Status: **Phase 2 of 5**. Catalog, navigation, search and a first reader work on the tablet. The production reader,
-> downloads and highlights come next. See [Roadmap](#roadmap).
+> Status: **Phase 3 done** (testing on the device): Banca identity, catalog, search and the production reader. Offline
+> downloads, notes and export come next. See [Roadmap](#roadmap).
 
 ## Features
 
-- **Library**: magazines with a cover mosaic, plus a *Continue reading* shelf.
+- **Banca "Newsprint" design**: Paper and Night themes, bundled fonts (Big Shoulders Display + Source Serif 4), tablet
+  masthead with Pulp / RPG / Atlas tabs and a phone bottom navigation. RPG and Atlas are marked *coming soon*.
+- **Library**: magazines with a cover mosaic (upcoming magazines marked *coming soon*), plus a *Continue reading* shelf
+  with each issue's progress.
 - **Magazine**: cover grid of every issue, with filters by decade and year and a *readable only* toggle.
 - **Issue**: large cover, credits, and the table of contents. Tap a story to open the reader at its page. Tap a name
   to see everything that person wrote, edited or illustrated.
 - **Search**: SQLite FTS5 over issues, stories and people. It matches word prefixes, ignores accents and case, finds
   real names behind pseudonyms (`otto` → *Eando Binder*), and filters by role and year range. On-device queries take
   under 100 ms.
-- **Reader (interim)**:
-  - page images come from the Internet Archive IIIF API, loaded low-res first and then sharp, with ±2 pages prefetched;
-  - pinch-zoom and pan with inertia; you can turn pages while zoomed by dragging past the page edge or tapping the
-    screen edge;
-  - an invisible OCR text layer allows long-press selection and highlights (highlights are in memory for now);
-  - the current page is saved and resumed.
+- **Reader**:
+  - two-page spreads with the tablet in landscape; one page in portrait; on phones, pages open fitted to the width;
+  - page images come from the Internet Archive IIIF API, loaded low-res first and then sharp; the previous and next 2
+    pages are kept ready and pages 3–5 ahead are already downloaded;
+  - pinch-zoom and pan with inertia; turn pages while zoomed by dragging past the page edge, tapping the screen edge or
+    using the side buttons;
+  - auto-hiding top and bottom bars: thumbnail strip, page slider with marks where stories start, "pages to the end of
+    the story", a contents drawer and a **page index** (thumbnail grid with story starts and *go to page*);
+  - **Display** panel: Paper / Sepia / Night page themes, in-app brightness (independent of the system), warm filter
+    and **Enhance text** for worn type on old scans; full screen while reading;
+  - printed page numbers and story jumps are corrected from the scan's own OCR (the reference guide is off by a couple
+    of pages in some issues);
+  - long-press text selection on an invisible OCR layer, **highlights** and **bookmarks** saved on the device;
+  - the exact page and zoom are saved and resumed.
 
 ## How it works
 
@@ -84,9 +95,10 @@ pytest                                                      # catalog tools, fro
 | `app/src/db/` | database backends (native / sqlite-wasm) and `user.db` migrations |
 | `app/src/data/` | repositories, the only place with SQL |
 | `app/src/nav/` | stack navigator (browser history + Android back button) |
-| `app/src/screens/`, `app/src/ui/` | screens and shared components |
-| `app/src/spike/` | Phase 1 reader prototype (still used by the reader screen until Phase 3) |
-| `tools/` | catalog builder, magazine adapters, tests, and Internet Archive investigation scripts |
+| `app/src/screens/`, `app/src/ui/` | screens, shared components, icons, theme (`app.css`) |
+| `app/src/reader/` | reader screen, panels and `ReaderController`; `engine/` = gestures, image pipeline, OCR, IIIF, disk cache |
+| `app/android/.../BancaDisplayPlugin.java` | small native plugin: reader brightness and immersive full screen |
+| `tools/` | catalog builder, magazine adapters, tests, Internet Archive investigation scripts, `brand/` icon generator |
 | `docs/` | decisions log, Internet Archive findings, catalog report, benchmark checklist, backlog |
 | `docs/design/` | Banca visual identity: design system spec (`banca-newsprint.md`) and mockup sources (`mockups/`) |
 | `SPEC.md`, `PHASE*_PROMPT.md`, `CLAUDE.md` | product spec, phase briefs, contributor/agent notes |
@@ -97,10 +109,10 @@ pytest                                                      # catalog tools, fro
 2. ✅ **App shell**: Library / Magazine / Issue / Person / Search screens and progress (testing on the device).
    ✅ **Design sprint**: name **Banca** and the "Newsprint" identity, tokens and tablet/phone mockups
    ([docs/design/banca-newsprint.md](docs/design/banca-newsprint.md)); applied to the app from Phase 3 on.
-3. **Reader**: production reader with two-page spreads in landscape, themes, in-app brightness and a warm filter, a
-   "enhance text" filter for worn type, a contents drawer, page slider, and page numbers corrected from OCR.
+3. ✅ **Banca + reader**: identity applied to every screen, phone layouts, production reader (spreads, page index,
+   contents, slider, themes, brightness, warm filter, enhance text, OCR page numbers, highlights and bookmarks).
 4. **Downloads**: Kindle-style offline issues, resumable, Wi-Fi only, storage management.
-5. **Highlights and export**: 4 colors, notes, web search, Markdown export; icon and splash screen.
+5. **Notes and export**: highlight colors, notes, web search, Markdown export.
 
 Next sources (content categories **pulp** and **rpg**: F&SF, Galaxy, Fantastic, Asimov's, Twilight Zone, Dragon,
 Dungeon, The Space Gamer, …) are tracked in [docs/BACKLOG.md](docs/BACKLOG.md).

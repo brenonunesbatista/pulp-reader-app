@@ -1,6 +1,6 @@
-# CLAUDE.md — Pulp Reader
+# CLAUDE.md — Banca (repo: pulp-reader-app)
 
-Personal Android tablet app (Galaxy Tab A9+) to browse and read pulp magazines from the Internet Archive. Read `SPEC.md` first; it is the source of truth for requirements.
+Personal Android tablet + phone app (Galaxy Tab A9+, Galaxy S25) to browse and read pulp magazines from the Internet Archive. Read `SPEC.md` first; it is the source of truth for requirements.
 
 ## Stack
 Capacitor (Android) · Vite · React · TypeScript (strict) · SQLite (`@capacitor-community/sqlite`) · Python 3.11+ for `tools/` (catalog build).
@@ -19,6 +19,7 @@ Capacitor (Android) · Vite · React · TypeScript (strict) · SQLite (`@capacit
 - Android build/run on device: `cd app && npm run build && npx cap sync android && npx cap run android`
   (if `cap run` finds no device: `cd app/android && gradlew assembleDebug` then `adb install -r app/build/outputs/apk/debug/app-debug.apk`)
 - Spike IA probes: `python tools/spike/ia_metadata.py <id>` (then `ia_pages.py`, `ia_ocr.py`, `ia_pagemap.py`, `ia_cors.py`); deps in `tools/spike/requirements.txt`
+- Icons/splash (after changing the mark): `python tools/brand/make_icons.py` then `cd app && npx capacitor-assets generate --android`
 - Python setup (once): `python -m venv .venv && .venv\Scripts\pip install -r tools/requirements.txt`
 - Catalog build: `python tools/build_catalog.py --source data/source/Amazing_Stories_Reference_Guide.pdf --out app/public/catalog`
   (writes `catalog.db` + `covers/*.webp`, both git-ignored, and `docs/catalog-report.md`)
@@ -28,8 +29,9 @@ Capacitor (Android) · Vite · React · TypeScript (strict) · SQLite (`@capacit
 - `db/` — `Db` interface; `nativeDb.ts` (@capacitor-community/sqlite, Android) and `wasmDb.ts` (sqlite-wasm: browser dev + tests); `userSchema.ts` migrations for `user.db`
 - `data/` — repositories (only place with SQL): `catalogRepo.ts`, `progressRepo.ts`, `fts.ts`
 - `nav/` — stack navigator (`stack.ts` pure, `Nav.tsx` provider; history + Android back), screens stay mounted underneath
-- `screens/`, `ui/` — screens and shared components; `app.css` theme tokens
-- `spike/` — Phase 1 code; reader B is still used by `screens/ReaderScreen.tsx` until Phase 3; dev tools behind a long-press on the Library title
+- `screens/`, `ui/` — screens and shared components (`components.tsx`, `icons.tsx`, `SettingsProvider`); `app.css` = Banca tokens (docs/design/banca-newsprint.md)
+- `reader/` — `ReaderScreen.tsx` (chrome, panels), `ReaderController.ts` (page DOM, no React state per frame), `pageMap.ts` / `layout.ts` (pure, tested); `engine/` = PanZoom gestures, image loader, OCR parse/worker, IIIF access, disk cache
+- Native: `android/app/src/main/java/local/pulpreader/BancaDisplayPlugin.java` (brightness, immersive), registered in `MainActivity`
 
 ## Working rules
 - Work in the phase requested; don't build later phases early. If something is ambiguous, ask instead of guessing.
