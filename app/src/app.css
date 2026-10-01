@@ -295,6 +295,10 @@ select.chip { appearance: none; padding-right: 30px; background-image: linear-gr
 .note-row { padding: 12px 0 12px 14px; border-left: 4px solid var(--hlc, #F2B705); border-bottom: 1px solid var(--rule);
   margin-bottom: 8px; cursor: pointer; max-width: 860px; }
 .note-row.bookmark { border-left-color: var(--pulp-red); }
-.note-row .meta { font: 700 13px var(--f-text); letter-spacing: .04em; color: var(--text-muted); }
+.note-row .meta { font: 700 13px var(--f-text); letter-spacing: .04em; color: var(--text-muted); display: flex;
+  align-items: center; justify-content: space-between; gap: 12px; }
+.note-del { min-width: 40px; height: 36px; padding: 0 10px; border: 2px solid transparent; border-radius: 4px; background: transparent;
+  color: var(--text-muted); display: inline-flex; align-items: center; justify-content: center; font: 700 13px var(--f-text); }
+.note-del.confirm { background: var(--pulp-red); border-color: var(--pulp-red); color: var(--on-red); }
 .note-row .text { margin: 4px 0 0; line-height: 1.5; }
 .note-row .note { margin: 8px 0 0; color: var(--press-blue); font-size: 15px; display: flex; gap: 6px; align-items: baseline; }

@@ -40,7 +40,7 @@ Built for a Samsung Galaxy Tab A9+ (11", 1920×1200), with phone layouts for the
     see or edit its note, change its color, search, copy or delete it; highlights with a note show a small note marker; **bookmarks** per page; all saved on the device;
   - the exact page and zoom are saved and resumed.
 - **Notes** (pen icon in the masthead): every highlight, note and bookmark across issues, grouped by issue with story
-  titles and printed page numbers; search, color filter, tap to open the page. **Export to Markdown** (one issue from
+  titles and printed page numbers; search, color filter, tap to open the page, trash icon to delete (two taps). **Export to Markdown** (one issue from
   the reader's Notes panel, or everything / the filtered list) through Android's share sheet, or copy to the clipboard.
 - **Downloads (offline reading)**:
   - *Download* on an issue stores its pages (1200 px), thumbnails, page list and OCR text on the device (about

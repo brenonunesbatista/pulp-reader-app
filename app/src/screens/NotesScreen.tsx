@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react'
-import { HIGHLIGHT_COLORS } from '../data/annotationRepo'
+import { deleteHighlight, HIGHLIGHT_COLORS, setBookmark } from '../data/annotationRepo'
+import type { NoteEntry } from '../notes/markdown'
 import { useDb } from '../db/useDb'
 import { useIsActive, useNav } from '../nav/context'
 import { gatherNotes } from '../notes/gather'
@@ -15,10 +16,19 @@ export function NotesScreen() {
   const { catalog, user } = useDb()
   const nav = useNav()
   const active = useIsActive()
-  const data = useAsync(() => gatherNotes(catalog, user), [catalog, user, active])
+  const [tick, setTick] = useState(0)
+  const data = useAsync(() => gatherNotes(catalog, user), [catalog, user, active, tick])
   const [q, setQ] = useState('')
   const [color, setColor] = useState<string | null>(null)
   const [msg, setMsg] = useState<string | null>(null)
+  const [confirm, setConfirm] = useState<string | null>(null) // entry key awaiting the second tap
+  const remove = async (issueId: number, e: NoteEntry, key: string) => {
+    if (confirm !== key) return setConfirm(key)
+    setConfirm(null)
+    if (e.kind === 'bookmark') await setBookmark(user, issueId, e.leaf, false)
+    else if (e.highlightId !== undefined) await deleteHighlight(user, e.highlightId)
+    setTick((t) => t + 1)
+  }
 
   const shown = useMemo(() => {
     if (data.status !== 'ok') return []
@@ -82,7 +92,15 @@ export function NotesScreen() {
                 <div key={k} className={`note-row ${e.kind}`} role="button" tabIndex={0}
                      style={{ ['--hlc' as string]: HIGHLIGHT_HEX[e.color ?? 'yellow'] }}
                      onClick={() => nav.push({ name: 'reader', issueId: i.issueId, leaf: e.leaf })}>
-                  <div className="meta num">p. {e.page}{e.story ? ` · ${e.story}` : ''}{e.kind === 'bookmark' ? ' · Bookmark' : ''}</div>
+                  <div className="meta num">
+                    <span>p. {e.page}{e.story ? ` · ${e.story}` : ''}{e.kind === 'bookmark' ? ' · Bookmark' : ''}</span>
+                    <button className={`note-del ${confirm === `${i.issueId}-${k}` ? 'confirm' : ''}`}
+                            aria-label={e.kind === 'bookmark' ? 'Delete bookmark' : 'Delete highlight'}
+                            onBlur={() => setConfirm(null)}
+                            onClick={(ev) => { ev.stopPropagation(); void remove(i.issueId, e, `${i.issueId}-${k}`) }}>
+                      {confirm === `${i.issueId}-${k}` ? 'Delete?' : <Icon name="trash" size={18} />}
+                    </button>
+                  </div>
                   {e.text && <p className="text">{cleanText(e.text)}</p>}
                   {e.note && <p className="note"><Icon name="edit" size={15} /> {e.note}</p>}
                 </div>
