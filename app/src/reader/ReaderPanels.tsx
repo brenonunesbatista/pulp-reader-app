@@ -4,15 +4,17 @@ import type { ReaderTheme } from '../data/settingsRepo'
 import { Icon } from '../ui/icons'
 import { useSettings } from '../ui/settingsContext'
 import { INDEX_THUMB_WIDTH, THUMB_WIDTH } from './engine/config'
-import { iiifUrl, type PageInfo } from './engine/ia'
+import type { PageInfo } from './engine/ia'
 import { storyAt, type StoryStart } from './layout'
 
 type Panel = 'display' | 'contents' | 'notes' | 'pages' | null
+/** thumbnail URL for a leaf at a width (downloaded copy when present) */
+export type Thumb = (leaf: number, width: number) => string
 
 // ---- bottom bar: thumbnails, slider with story ticks, page labels (+ tool row on phones) --------------------------
 
-export function ReaderBottomBar({ pages, leaves, starts, label, pageLabel, storyEnd, compact, panel, enhance, onGo, onToggle, onEnhance }: {
-  pages: PageInfo[]; leaves: number[]; starts: StoryStart[]; label: (l: number) => string; pageLabel: string; storyEnd: string
+export function ReaderBottomBar({ pages, thumb, leaves, starts, label, pageLabel, storyEnd, compact, panel, enhance, onGo, onToggle, onEnhance }: {
+  pages: PageInfo[]; thumb: Thumb; leaves: number[]; starts: StoryStart[]; label: (l: number) => string; pageLabel: string; storyEnd: string
   compact: boolean; panel: Panel; enhance: boolean
   onGo: (leaf: number) => void; onToggle: (p: Exclude<Panel, null>) => void; onEnhance: () => void
 }) {
@@ -35,7 +37,7 @@ export function ReaderBottomBar({ pages, leaves, starts, label, pageLabel, story
       <div className="r-strip">
         {strip.map((l) => (
           <button key={l} className={leaves.includes(l) ? 'cur' : ''} aria-label={`Page ${label(l)}`} onClick={() => onGo(l)}>
-            {pages[l] && <img src={iiifUrl(pages[l], THUMB_WIDTH)} alt="" loading="lazy" decoding="async" draggable={false} />}
+            {pages[l] && <img src={thumb(l, THUMB_WIDTH)} alt="" loading="lazy" decoding="async" draggable={false} />}
           </button>
         ))}
       </div>
@@ -161,8 +163,8 @@ export function NotesDrawer({ highlights, bookmarks, label, onGo, onDeleteHighli
 
 // ---- page index ---------------------------------------------------------------------------------------------------
 
-export function PageIndex({ pages, starts, current, label, printed, title, compact, onGo, onClose }: {
-  pages: PageInfo[]; starts: StoryStart[]; current: number[]; label: (l: number) => string; printed: (number | null)[] | null
+export function PageIndex({ pages, thumb, starts, current, label, printed, title, compact, onGo, onClose }: {
+  pages: PageInfo[]; thumb: Thumb; starts: StoryStart[]; current: number[]; label: (l: number) => string; printed: (number | null)[] | null
   title: string; compact: boolean; onGo: (leaf: number) => void; onClose: () => void
 }) {
   const startAt = useMemo(() => new Map(starts.map((s) => [s.leaf, s])), [starts])
@@ -176,12 +178,12 @@ export function PageIndex({ pages, starts, current, label, printed, title, compa
     onGo(leaf >= 0 ? leaf : Math.min(pages.length - 1, Math.max(0, p - 1)))
   }
   const current0 = current[0] ?? 0
-  const thumb = (l: number) => {
+  const cell = (l: number) => {
     const s = startAt.get(l)
     const cur = current.includes(l)
     return (
       <button key={l} ref={cur && l === current0 ? curRef : undefined} className={`thumb ${s ? 'start' : ''} ${cur ? 'cur' : ''}`} onClick={() => onGo(l)}>
-        <span className="im"><img src={iiifUrl(pages[l], INDEX_THUMB_WIDTH)} alt="" loading="lazy" decoding="async" draggable={false} /></span>
+        <span className="im"><img src={thumb(l, INDEX_THUMB_WIDTH)} alt="" loading="lazy" decoding="async" draggable={false} /></span>
         <span className="lb">{s ? s.title : label(l)}</span>
       </button>
     )
@@ -231,7 +233,7 @@ export function PageIndex({ pages, starts, current, label, printed, title, compa
                 g.head ? <div key={`h${i}`} className="group-head">{g.head}</div> : null,
                 ...g.leaves.map(thumb),
               ])
-              : pages.map((_, l) => thumb(l))}
+              : pages.map((_, l) => cell(l))}
           </div>
         </div>
       </div>

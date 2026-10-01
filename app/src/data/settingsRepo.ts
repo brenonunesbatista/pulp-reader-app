@@ -11,10 +11,11 @@ export interface Settings {
   warmth: number // 0..1 warm overlay strength
   enhance: boolean
   perfOverlay: boolean
+  wifiOnly: boolean // downloads wait for Wi-Fi
 }
 
 export const DEFAULT_SETTINGS: Settings = {
-  theme: 'paper', readerTheme: 'paper', brightness: null, warmth: 0, enhance: false, perfOverlay: false,
+  theme: 'paper', readerTheme: 'paper', brightness: null, warmth: 0, enhance: false, perfOverlay: false, wifiOnly: true,
 }
 
 export async function loadSettings(db: Db): Promise<Settings> {

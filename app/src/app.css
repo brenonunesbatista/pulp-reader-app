@@ -261,3 +261,23 @@ select.chip { appearance: none; padding-right: 30px; background-image: linear-gr
 .kv { display: grid; grid-template-columns: max-content 1fr; gap: 6px 20px; font-size: 15px; }
 .kv dt { color: var(--text-muted); }
 .kv dd { margin: 0; word-break: break-word; }
+
+/* ---- downloads ----------------------------------------------------------------------------------------------- */
+.dl-badge { position: absolute; right: -5px; bottom: -6px; min-width: 26px; height: 26px; padding: 0 6px; box-sizing: border-box;
+  display: inline-flex; align-items: center; justify-content: center; gap: 3px; border: 2px solid #2A2118; border-radius: 13px;
+  font: 700 12px/1 var(--f-text); background: #F7EEDA; color: #2A2118; box-shadow: 2px 2px 0 rgb(42 33 24 / .85); }
+.dl-badge.done { background: #F2B705; padding: 0; }
+.dl-badge.busy { background: #1F4E8C; color: #FFF4DC; }
+.dl-badge.error { background: #C8321F; color: #FFF4DC; padding: 0; }
+.cover.small .dl-badge { transform: scale(.8); transform-origin: bottom right; }
+.dl-row { display: grid; grid-template-columns: 52px 1fr auto; gap: 14px; align-items: center; padding: 10px 0;
+  border-bottom: 1px solid var(--rule); }
+.dl-row .t { font-weight: 700; }
+.dl-progress { height: 6px; background: var(--surface-2); border: 1px solid var(--line); margin-top: 6px; }
+.dl-progress i { display: block; height: 100%; background: var(--press-blue); }
+.icon-btn { width: 44px; height: 44px; display: inline-flex; align-items: center; justify-content: center; border-radius: 4px;
+  border: 2px solid var(--ink); background: var(--surface); color: var(--ink); }
+.btn.danger { background: var(--surface); color: var(--pulp-red); border-color: var(--pulp-red); box-shadow: 4px 4px 0 var(--pulp-red); }
+.btn.danger.confirm { background: var(--pulp-red); color: var(--on-red); }
+.dl-status { font-size: 15px; color: var(--text-muted); margin-top: 10px; }
+.btn-row .dl-status { align-self: center; margin-top: 0; display: inline-flex; align-items: center; gap: 6px; }

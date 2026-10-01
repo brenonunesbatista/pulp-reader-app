@@ -148,6 +148,11 @@
 .r-pages .thumb.start .lb { color: var(--pulp-red); font-weight: 700; }
 .r-pages .group-head { grid-column: 1 / -1; margin: 10px 0 0; font: 900 20px/1 var(--f-display); text-transform: uppercase; }
 
+/* online-only indicator (issue not downloaded) */
+.r-net { margin-left: 10px; padding: 1px 6px; border: 1px solid currentColor; border-radius: 3px; font: 700 11px/1.4 var(--f-text);
+  letter-spacing: .1em; text-transform: uppercase; opacity: .7; }
+.r-net.off { color: #F2B705; opacity: 1; }
+
 /* phones */
 @media (max-width: 599px) {
   .r-top { padding: 0 6px; }

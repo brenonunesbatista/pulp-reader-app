@@ -1,14 +1,17 @@
 import type { ReactNode } from 'react'
 import type { Credit, IssueSummary, Story, StoryInIssue } from '../data/models'
 import { useNav } from '../nav/context'
+import { DownloadBadge } from './DownloadBadge'
 import { coverUrl, monthYear, typeTagClass } from './format'
 import { Icon } from './icons'
 import { useSizeClass } from './sizeClass'
 
 // ---- covers ---------------------------------------------------------------------------------------------------------
 
-export function Cover({ path, alt = '', tag, noScan = false, stamp = false, small = false, eager = false }: {
+export function Cover({ path, alt = '', tag, noScan = false, stamp = false, small = false, eager = false, dl }: {
   path: string | null; alt?: string; tag?: string; noScan?: boolean; stamp?: boolean; small?: boolean; eager?: boolean
+  /** issue id: show its download badge */
+  dl?: number
 }) {
   const src = coverUrl(path)
   return (
@@ -19,6 +22,7 @@ export function Cover({ path, alt = '', tag, noScan = false, stamp = false, smal
       {tag && !noScan && <span className="price-tag">{tag}</span>}
       {noScan && <span className="noscan-band">NO SCAN</span>}
       {stamp && <span className="stamp">READABLE</span>}
+      {dl !== undefined && !noScan && <DownloadBadge issueId={dl} />}
     </span>
   )
 }
@@ -28,7 +32,7 @@ export function IssueCard({ issue, onOpen, meta }: { issue: IssueSummary; onOpen
   const noScan = issue.availability !== 'ia'
   return (
     <button className="issue-card" onClick={onOpen}>
-      <Cover path={issue.coverPath} alt={issue.title} noScan={noScan} />
+      <Cover path={issue.coverPath} alt={issue.title} noScan={noScan} dl={issue.id} />
       <span className="date num">{monthYear(issue.year, issue.month)}</span>
       <span className="meta">{meta ?? issue.coverArtist ?? '—'}</span>
       {issue.storyCount > 0 && <span className="meta num">{issue.storyCount} items</span>}

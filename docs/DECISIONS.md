@@ -135,3 +135,27 @@ implementation work for the next phase (plan first).
 - **Highlights and bookmarks persisted** now (user.db v2: `bookmark`, `page_map`, `progress.page_count`); colors,
   notes, web search and export remain Phase 5.
 - `loggingBehavior: 'none'` in Capacitor: the debug bridge was logging whole SQL result sets on every query.
+
+## 2026-10-01 — Phase 5: downloads and offline reading
+- **What is stored per issue** (`files/downloads/<ident>/`, the app *data* dir so Android never evicts it): `p<leaf>.jpg`
+  at 1200 px (the reader's sharp size), `t<leaf>.jpg` at 200 px (strip + page index), `manifest.json`, `ocr.json`
+  (compact OCR). Native resolution for deep zoom stays online-only. Measured in the browser: Apr 1926, 100 pages =
+  63 MB (large-format scan); later digest-size issues are expected to be smaller.
+- **One code path**: the reader asks the store for the issue's local files first; a local page skips the low-res
+  placeholder and loads the 1200 px file directly; manifest/OCR come from the download before the cache and network.
+- **Writing files**: `Filesystem.downloadFile` (deprecated in favour of `@capacitor/file-transfer`, but present in v8 and
+  avoids a new dependency; it streams to disk natively, no base64 over the bridge). Written to `<file>.part` and renamed,
+  so a file cut by an app kill never counts as complete; resume = skip files that exist.
+- **Manager** (`downloads/manager.ts`, tested with a memory store): one issue at a time, 3 concurrent requests
+  (IA etiquette), 5 attempts per file with 1/2/4/8 s backoff, state in `user.db.download` (v3 adds `ia_identifier`,
+  `error`), interrupted downloads restart on launch. No background service: downloads only progress while the app is
+  open (a WorkManager job would be a separate native piece; revisit if needed).
+- **Network policy**: `@capacitor/network` (official plugin; new dependency) for connected / connection type. *Wi-Fi
+  only* (default on) holds the queue on mobile data; offline holds it too. Applied only on the device (the browser
+  reports a speed guess, e.g. '3g' → cellular).
+- **Finding downloaded issues**: badges on all covers, *Downloaded* switch in the magazine filter band, *On this
+  device* shelf in the Library, Settings → Storage list with per-issue remove and *Delete all downloads* (two-tap
+  confirm). The spec's "Cloud" badge for not-downloaded issues was left out: on a 300-cover grid it is noise; absence
+  of a badge means online.
+- Bug caught by the tests: `bytes += await download()` in concurrent workers lost updates (reads `bytes` before the
+  await); fixed by awaiting first.

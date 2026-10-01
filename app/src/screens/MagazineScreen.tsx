@@ -2,13 +2,14 @@ import { Fragment, useMemo, useState } from 'react'
 import { getMagazine, listIssues, magazineEditors } from '../data/catalogRepo'
 import type { IssueSummary } from '../data/models'
 import { useDb } from '../db/useDb'
+import { useDownloadList } from '../downloads/context'
 import { useNav } from '../nav/context'
 import { Cover, ErrorBox, Loading, Screen, SubMasthead } from '../ui/components'
 import { Icon } from '../ui/icons'
 import { useAsync } from '../ui/useAsync'
+import { decadeOf, filterIssues } from './issueFilter'
 
 const NO_ISSUES: IssueSummary[] = []
-const decadeOf = (y: number) => Math.floor(y / 10) * 10
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October',
   'November', 'December']
 
@@ -21,14 +22,16 @@ export function MagazineScreen({ id }: { id: number }) {
   const [decade, setDecade] = useState<number | 'all'>('all')
   const [year, setYear] = useState<number | null>(null)
   const [readableOnly, setReadableOnly] = useState(false)
+  const [downloadedOnly, setDownloadedOnly] = useState(false)
+  const downloads = useDownloadList()
+  const downloaded = useMemo(() => new Set(downloads.map((d) => d.issueId)), [downloads])
 
   const issues = data.status === 'ok' ? data.data.issues : NO_ISSUES
   const decades = useMemo(() => [...new Set(issues.map((i) => decadeOf(i.year)))], [issues])
   const years = useMemo(() => (decade === 'all' ? [] : [...new Set(issues.filter((i) => decadeOf(i.year) === decade)
     .map((i) => i.year))]), [issues, decade])
-  const shown = useMemo(() => issues.filter((i) =>
-    (decade === 'all' || decadeOf(i.year) === decade) && (year === null || i.year === year) &&
-    (!readableOnly || i.availability === 'ia')), [issues, decade, year, readableOnly])
+  const shown = useMemo(() => filterIssues(issues, { decade, year, readableOnly, downloaded: downloadedOnly ? downloaded : null }),
+    [issues, decade, year, readableOnly, downloadedOnly, downloaded])
   const byYear = useMemo(() => {
     const m = new Map<number, IssueSummary[]>()
     for (const i of shown) m.set(i.year, [...(m.get(i.year) ?? []), i])
@@ -68,6 +71,10 @@ export function MagazineScreen({ id }: { id: number }) {
                 <input type="checkbox" checked={readableOnly} onChange={(e) => setReadableOnly(e.target.checked)} />
                 <span className="track" />Readable only
               </label>
+              <label className="switch">
+                <input type="checkbox" checked={downloadedOnly} onChange={(e) => setDownloadedOnly(e.target.checked)} />
+                <span className="track" />Downloaded{downloaded.size ? ` (${issues.filter((i) => downloaded.has(i.id)).length})` : ''}
+              </label>
             </div>
           </div>
           {byYear.map(([y, list]) => (
@@ -79,7 +86,7 @@ export function MagazineScreen({ id }: { id: number }) {
               <div className="issue-grid">
                 {list.map((i) => (
                   <button key={i.id} className="issue-card" onClick={() => nav.push({ name: 'issue', id: i.id })}>
-                    <Cover path={i.coverPath} alt={i.title} noScan={i.availability !== 'ia'} />
+                    <Cover path={i.coverPath} alt={i.title} noScan={i.availability !== 'ia'} dl={i.id} />
                     <span className="month">{MONTHS[i.month - 1]}</span>
                     <span className="meta num">{i.coverArtist ?? '—'}{i.storyCount ? ` · ${i.storyCount}` : ''}</span>
                   </button>
@@ -87,7 +94,7 @@ export function MagazineScreen({ id }: { id: number }) {
               </div>
             </section>
           ))}
-          {byYear.length === 0 && <p className="muted">No issues match these filters.</p>}
+          {byYear.length === 0 && <p className="muted">{downloadedOnly && !downloaded.size ? 'No downloaded issues yet. Open an issue and tap Download.' : 'No issues match these filters.'}</p>}
         </>
       )}
     </Screen>

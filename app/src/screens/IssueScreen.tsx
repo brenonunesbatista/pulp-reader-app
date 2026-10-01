@@ -5,6 +5,7 @@ import { useDb } from '../db/useDb'
 import { useIsActive, useNav } from '../nav/context'
 import { Cover, ErrorBox, Loading, Screen, SectionHeader, StoryRow, SubMasthead } from '../ui/components'
 import { monthYear, coverTag } from '../ui/format'
+import { DownloadButtons } from '../ui/DownloadButtons'
 import { Icon } from '../ui/icons'
 import { useAsync } from '../ui/useAsync'
 
@@ -42,7 +43,7 @@ export function IssueScreen({ id }: { id: number }) {
     <Screen section="pulp" masthead={<SubMasthead title={magazine} sub={monthYear(issue.year, issue.month)} />}>
       <div className="issue-layout">
         <div className="issue-hero">
-          <Cover path={issue.coverPath} alt={issue.title} tag={coverTag(issue)} noScan={!readable} stamp={readable} eager />
+          <Cover path={issue.coverPath} alt={issue.title} tag={coverTag(issue)} noScan={!readable} stamp={readable} eager dl={issue.id} />
           <div className="muted small num">{readable ? `Scan: ${issue.iaIdentifier}` : 'Not on the Internet Archive'}</div>
         </div>
         <div style={{ minWidth: 0 }}>
@@ -75,7 +76,7 @@ export function IssueScreen({ id }: { id: number }) {
               </button>
             )}
             {!readable && <button className="btn" disabled>No scan available</button>}
-            <button className="btn" disabled title="Downloads arrive in a later phase"><Icon name="download" size={20} />Download</button>
+            {readable && issue.iaIdentifier && <DownloadButtons issueId={issue.id} ident={issue.iaIdentifier} />}
           </div>
           <SectionHeader title="Contents" aside={<span className="aside num">{contents.length} items</span>} />
           {contents.length === 0 && <p className="muted">No contents listed.</p>}

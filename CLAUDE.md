@@ -27,7 +27,8 @@ Capacitor (Android) · Vite · React · TypeScript (strict) · SQLite (`@capacit
 
 ## App structure (app/src)
 - `db/` — `Db` interface; `nativeDb.ts` (@capacitor-community/sqlite, Android) and `wasmDb.ts` (sqlite-wasm: browser dev + tests); `userSchema.ts` migrations for `user.db`
-- `data/` — repositories (only place with SQL): `catalogRepo.ts`, `progressRepo.ts`, `fts.ts`
+- `data/` — repositories (only place with SQL): `catalogRepo.ts`, `progressRepo.ts`, `annotationRepo.ts`, `downloadRepo.ts`, `settingsRepo.ts`, `fts.ts`
+- `downloads/` — `manager.ts` (queue, retries, resume, network policy; pure + tested), `store.ts` (Android app data dir `downloads/<ident>/` or memory), `DownloadsProvider` + hooks (`useDownload`, `useDownloadList`)
 - `nav/` — stack navigator (`stack.ts` pure, `Nav.tsx` provider; history + Android back), screens stay mounted underneath
 - `screens/`, `ui/` — screens and shared components (`components.tsx`, `icons.tsx`, `SettingsProvider`); `app.css` = Banca tokens (docs/design/banca-newsprint.md)
 - `reader/` — `ReaderScreen.tsx` (chrome, panels), `ReaderController.ts` (page DOM, no React state per frame), `pageMap.ts` / `layout.ts` (pure, tested); `engine/` = PanZoom gestures, image loader, OCR parse/worker, IIIF access, disk cache

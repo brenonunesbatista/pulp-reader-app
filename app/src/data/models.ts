@@ -87,3 +87,17 @@ export interface Progress {
   updatedAt: number
   pageCount?: number | null
 }
+
+export type DownloadState = 'downloading' | 'paused' | 'done' | 'error'
+
+/** One issue in the download manager (user.db `download`). Pages = scan leaves; each has a page image + thumbnail. */
+export interface DownloadInfo {
+  issueId: number
+  ident: string
+  state: DownloadState
+  bytes: number
+  pagesDone: number
+  pagesTotal: number
+  updatedAt: number
+  error: string | null
+}

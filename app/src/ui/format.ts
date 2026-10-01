@@ -1,4 +1,4 @@
-import type { IssueSummary, Story } from '../data/models'
+import type { DownloadInfo, IssueSummary, Story } from '../data/models'
 
 const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 const ROLE_LABEL = { author: 'Author', editor: 'Editor', cover_artist: 'Cover artist', translator: 'Translator' } as const
@@ -26,3 +26,12 @@ export function initials(name: string): string {
   const parts = name.replace(/\(.*?\)|,.*$/g, '').trim().split(/\s+/)
   return ((parts[0]?.[0] ?? '') + (parts.length > 1 ? parts[parts.length - 1][0] : '')).toUpperCase()
 }
+
+export function formatBytes(n: number): string {
+  if (n < 1e6) return `${Math.max(0, Math.round(n / 1e3))} KB`
+  if (n < 1e9) return `${(n / 1e6).toFixed(n < 1e7 ? 1 : 0)} MB`
+  return `${(n / 1e9).toFixed(2)} GB`
+}
+
+export const downloadPct = (d: Pick<DownloadInfo, 'pagesDone' | 'pagesTotal'>) =>
+  d.pagesTotal ? Math.floor((d.pagesDone / d.pagesTotal) * 100) : 0

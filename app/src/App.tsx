@@ -1,4 +1,5 @@
 import { DbProvider } from './db/DbContext'
+import { DownloadsProvider } from './downloads/DownloadsProvider'
 import { ReaderScreen } from './reader/ReaderScreen'
 import { NavProvider } from './nav/Nav'
 import type { Route } from './nav/stack'
@@ -28,7 +29,9 @@ export default function App() {
   return (
     <DbProvider>
       <SettingsProvider>
-        <NavProvider render={screenFor} />
+        <DownloadsProvider>
+          <NavProvider render={screenFor} />
+        </DownloadsProvider>
       </SettingsProvider>
     </DbProvider>
   )

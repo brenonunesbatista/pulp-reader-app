@@ -1,8 +1,9 @@
 // Reader engine: IIIF page images + invisible OCR text layer, one page or a two-page spread per "unit".
 // Owns the page DOM (no React state per frame); React only renders the chrome around it.
 import type { Rect } from '../data/annotationRepo'
+import { getStore } from '../downloads/store'
 import { DECODE_AHEAD, DECODE_BEHIND, FETCH_AHEAD, LOW_WIDTH, SHARP_WIDTH } from './engine/config'
-import { iiifUrl, loadManifest, loadOcr, type PageInfo } from './engine/ia'
+import { iiifUrl, loadManifest, loadOcr, pageFile, thumbFile, type LocalFiles, type PageInfo } from './engine/ia'
 import { ImageLoader } from './engine/imageLoader'
 import { metrics } from './engine/metrics'
 import type { OcrPage } from './engine/ocrTypes'
@@ -18,7 +19,8 @@ export interface DrawnHighlight { id: number; page: number; rects: Rect[] }
 export interface View { zoom: number; cx: number; cy: number }
 
 export interface ReaderEvents {
-  onReady: (pages: PageInfo[]) => void
+  /** `local` = how many pages are on the device (downloaded) */
+  onReady: (pages: PageInfo[], local: number) => void
   onUnit: (leaves: number[]) => void
   onOcr: (pages: OcrPage[]) => void
   onCenterTap: () => void
@@ -32,6 +34,7 @@ export class ReaderController {
   private unit = -1
   private spread = false
   private ocr: OcrPage[] | null = null
+  private local: LocalFiles | null = null
   private loader = new ImageLoader()
   private decoded = new Map<number, Slots>()
   private loading = new Set<string>()
@@ -64,16 +67,18 @@ export class ReaderController {
   async init(startLeaf: number, opts: { spread: boolean; fitWidth: boolean; view?: View }) {
     metrics.reset()
     try {
-      this.pages = await loadManifest(this.ident)
+      // downloaded files (Phase 5) replace the network for page images, thumbnails, manifest and OCR
+      this.local = await getStore().local(this.ident).catch(() => null)
+      this.pages = await loadManifest(this.ident, this.local)
       if (this.destroyed) return
       this.spread = opts.spread
       this.pz.fitWidth = opts.fitWidth
       this.units = buildUnits(this.pages.length, this.spread)
-      this.ev.onReady(this.pages)
+      this.ev.onReady(this.pages, this.local ? this.pages.filter((_, l) => this.local!.has(pageFile(l))).length : 0)
       // guide leaves can point past the end of a scan (docs/archive-findings.md §5)
       this.go(unitOfLeaf(this.units, Math.max(0, Math.min(startLeaf, this.pages.length - 1))))
       if (opts.view && opts.view.zoom > 1.01) this.pz.setView(opts.view)
-      this.ocr = await loadOcr(this.ident)
+      this.ocr = await loadOcr(this.ident, this.local)
       if (this.destroyed) return
       this.ev.onOcr(this.ocr)
       this.scheduleText()
@@ -149,8 +154,16 @@ export class ReaderController {
     this.ev.onUnit(leaves)
   }
 
-  private urlFor(leaf: number, kind: Kind) {
+  /** thumbnail for the strip / page index: downloaded copy if present */
+  thumbUrl(leaf: number, width: number): string {
     const p = this.pages[leaf]
+    return this.local?.has(thumbFile(leaf)) ? this.local.url(thumbFile(leaf)) : p ? iiifUrl(p, width) : ''
+  }
+
+  /** null = nothing to fetch for this kind (a downloaded page has no low-res placeholder: the sharp file is local) */
+  private urlFor(leaf: number, kind: Kind): string | null {
+    const p = this.pages[leaf]
+    if (kind !== 'max' && this.local?.has(pageFile(leaf))) return kind === 'high' ? this.local.url(pageFile(leaf)) : null
     return kind === 'low' ? iiifUrl(p, LOW_WIDTH) : kind === 'high' ? iiifUrl(p, SHARP_WIDTH) : iiifUrl(p, p.w)
   }
 
@@ -207,6 +220,7 @@ export class ReaderController {
         const s = this.decoded.get(leaf)
         if (s?.[kind] || (kind === 'low' && s?.high)) continue
         const url = this.urlFor(leaf, kind)
+        if (!url) continue
         keep.set(url, prio)
         this.request(leaf, kind, url, prio++)
       }
@@ -216,6 +230,7 @@ export class ReaderController {
     for (const kind of ['low', 'high'] as Kind[]) {
       for (const leaf of ahead) {
         const url = this.urlFor(leaf, kind)
+        if (!url) continue
         keep.set(url, prio)
         this.loader.prefetch(url, prio++)
       }
@@ -260,11 +275,11 @@ export class ReaderController {
 
   /** zoomed in: fetch native resolution for the pages on screen */
   private onZoom(scale: number) {
-    if (scale < 1.4) return
+    if (scale < 1.4 || !navigator.onLine) return // native resolution is online only (downloads keep 1200 px)
     for (const leaf of this.leaves) {
       const p = this.pages[leaf]
       if (!p || p.w <= SHARP_WIDTH || this.decoded.get(leaf)?.max || !this.decoded.get(leaf)?.high) continue
-      this.request(leaf, 'max', this.urlFor(leaf, 'max'), -1)
+      this.request(leaf, 'max', this.urlFor(leaf, 'max')!, -1)
     }
   }
 

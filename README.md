@@ -7,8 +7,8 @@
 Built for a Samsung Galaxy Tab A9+ (11", 1920×1200), with phone layouts for the Galaxy S25. Personal use only. It is not published on any store; see
 [Distribution](#distribution).
 
-> Status: **Phase 3 done** (verified on the tablet; phone test pending): Banca identity, catalog, search and the production reader. Offline
-> downloads, notes and export come next. See [Roadmap](#roadmap).
+> Status: **Phase 5 (downloads) built, testing on the device.** Banca identity, catalog, search, the production reader
+> and offline issues work; notes and export come next. See [Roadmap](#roadmap).
 
 ## Features
 
@@ -36,6 +36,16 @@ Built for a Samsung Galaxy Tab A9+ (11", 1920×1200), with phone layouts for the
     of pages in some issues);
   - long-press text selection on an invisible OCR layer, **highlights** and **bookmarks** saved on the device;
   - the exact page and zoom are saved and resumed.
+- **Downloads (offline reading)**:
+  - *Download* on an issue stores its pages (1200 px), thumbnails, page list and OCR text on the device (about
+    25–65 MB per issue); the reader then uses the local files, so it works in airplane mode;
+  - one issue at a time, 3 requests at once, retries with backoff; pause, resume and remove; downloads resume after
+    the app restarts (not while it is closed); *Download only on Wi-Fi* (on by default);
+  - badges on every cover (✓ downloaded, n % downloading, paused, failed), a *Downloaded* filter on the magazine
+    page and an *On this device* shelf in the Library;
+  - **Settings → Storage**: space used, the list of downloaded issues, *Delete all downloads* (with confirmation)
+    and *Clear cache*. Removing downloads keeps progress, highlights and bookmarks;
+  - reading an issue that is not downloaded shows a small *online* tag; offline, a clear message.
 
 ## How it works
 
@@ -97,6 +107,7 @@ pytest                                                      # catalog tools, fro
 | `app/src/nav/` | stack navigator (browser history + Android back button) |
 | `app/src/screens/`, `app/src/ui/` | screens, shared components, icons, theme (`app.css`) |
 | `app/src/reader/` | reader screen, panels and `ReaderController`; `engine/` = gestures, image pipeline, OCR, IIIF, disk cache |
+| `app/src/downloads/` | download manager (queue, retries, resume, Wi-Fi policy), file store, React hooks |
 | `app/android/.../BancaDisplayPlugin.java` | small native plugin: reader brightness and immersive full screen |
 | `tools/` | catalog builder, magazine adapters, tests, Internet Archive investigation scripts, `brand/` icon generator |
 | `docs/` | decisions log, Internet Archive findings, catalog report, benchmark checklist, backlog |
@@ -111,7 +122,7 @@ pytest                                                      # catalog tools, fro
    ([docs/design/banca-newsprint.md](docs/design/banca-newsprint.md)); applied to the app from Phase 3 on.
 3. ✅ **Banca + reader**: identity applied to every screen, phone layouts, production reader (spreads, page index,
    contents, slider, themes, brightness, warm filter, enhance text, OCR page numbers, highlights and bookmarks).
-4. **Downloads**: Kindle-style offline issues, resumable, Wi-Fi only, storage management.
+4. 🧪 **Downloads**: offline issues, resumable, Wi-Fi only, downloaded filter, storage management (testing on the device).
 5. **Notes and export**: highlight colors, notes, web search, Markdown export.
 
 Next sources (content categories **pulp** and **rpg**: F&SF, Galaxy, Fantastic, Asimov's, Twilight Zone, Dragon,

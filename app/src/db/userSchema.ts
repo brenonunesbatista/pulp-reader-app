@@ -24,6 +24,9 @@ export const USER_MIGRATIONS: string[] = [
      issue_id INTEGER NOT NULL, page INTEGER NOT NULL, created_at INTEGER NOT NULL, PRIMARY KEY (issue_id, page));
    CREATE TABLE page_map (
      ia_identifier TEXT PRIMARY KEY, printed_json TEXT NOT NULL, offset INTEGER, updated_at INTEGER NOT NULL);`,
+  // v3 (Phase 5): downloads remember their scan (resume after restart without the catalog) and the last error
+  `ALTER TABLE download ADD COLUMN ia_identifier TEXT;
+   ALTER TABLE download ADD COLUMN error TEXT;`,
 ]
 
 export async function migrateUserDb(db: Db): Promise<number> {

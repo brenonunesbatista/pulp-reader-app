@@ -31,3 +31,24 @@ export async function writeCache(key: string, value: unknown): Promise<void> {
     console.warn('[cache] write failed', key, e)
   }
 }
+
+/** bytes used by the cache (manifests + OCR of issues opened online) */
+export async function cacheSize(): Promise<number> {
+  if (!native) return [...memory.values()].reduce<number>((n, v) => n + JSON.stringify(v).length, 0)
+  try {
+    const r = await Filesystem.readdir({ path: 'banca', directory: Directory.Cache })
+    return r.files.reduce((n, f) => n + (f.size ?? 0), 0)
+  } catch {
+    return 0
+  }
+}
+
+export async function clearCache(): Promise<void> {
+  memory.clear()
+  if (!native) return
+  try {
+    await Filesystem.rmdir({ path: 'banca', directory: Directory.Cache, recursive: true })
+  } catch {
+    /* nothing cached yet */
+  }
+}

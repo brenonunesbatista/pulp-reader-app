@@ -3,6 +3,7 @@ import { useDb } from '../db/useDb'
 import { Screen, SubMasthead } from '../ui/components'
 import { useSettings } from '../ui/settingsContext'
 import { useAsync } from '../ui/useAsync'
+import { StorageSettings } from './StorageSettings'
 
 export function SettingsScreen() {
   const { settings, update } = useSettings()
@@ -31,6 +32,8 @@ export function SettingsScreen() {
           <p className="muted small">The reader has its own Paper / Sepia / Night setting in its Display panel.</p>
         </section>
 
+        <StorageSettings />
+
         <section className="settings-group">
           <h3>Catalog</h3>
           {meta.status === 'ok' && (
@@ -54,7 +57,7 @@ export function SettingsScreen() {
           <h3>About</h3>
           <p className="muted small">
             Banca — a personal newsstand for pulp magazines scanned by the Internet Archive. Page images and OCR are read
-            from archive.org on demand.
+            from archive.org on demand, or from the device for downloaded issues.
           </p>
           <button className="btn" onClick={() => nav.back()}>Done</button>
         </section>

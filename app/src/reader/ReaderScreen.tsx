@@ -9,6 +9,7 @@ import {
 import { getContents, getIssue } from '../data/catalogRepo'
 import { getProgress, saveProgress } from '../data/progressRepo'
 import { useDb } from '../db/useDb'
+import { useDownload, useNetworkState } from '../downloads/context'
 import { useNav } from '../nav/context'
 import { monthYear } from '../ui/format'
 import { Icon } from '../ui/icons'
@@ -48,6 +49,9 @@ export function ReaderScreen({ issueId, leaf = 0, storyId }: { issueId: number; 
   const content = useRef<HTMLDivElement>(null)
   const ctl = useRef<ReaderController | null>(null)
   const [pages, setPages] = useState<PageInfo[]>([])
+  const [localPages, setLocalPages] = useState(0)
+  const download = useDownload(issueId)
+  const { online } = useNetworkState()
   const [leaves, setLeaves] = useState<number[]>([])
   const [printed, setPrinted] = useState<(number | null)[] | null>(null)
   const [chrome, setChrome] = useState(true)
@@ -82,7 +86,7 @@ export function ReaderScreen({ issueId, leaf = 0, storyId }: { issueId: number; 
     const { issue, progress } = data.data
     setPrinted(data.data.printed)
     const c = new ReaderController(viewport.current!, content.current!, issue.iaIdentifier!, {
-      onReady: setPages,
+      onReady: (p, local) => { setPages(p); setLocalPages(local) },
       onUnit: (ls) => { moved.current++; setLeaves(ls); scheduleSave() },
       onOcr: (ocr) => {
         if (data.data.printed) return
@@ -177,6 +181,7 @@ export function ReaderScreen({ issueId, leaf = 0, storyId }: { issueId: number; 
   }, [])
 
   // ---- actions --------------------------------------------------------------------------------------------------
+  const thumb = useCallback((l: number, w: number) => ctl.current?.thumbUrl(l, w) ?? '', [])
   const goLeaf = useCallback((l: number) => { ctl.current?.goLeaf(l); setPanel(null) }, [])
   const highlight = async () => {
     const sel = ctl.current?.selection()
@@ -206,6 +211,11 @@ export function ReaderScreen({ issueId, leaf = 0, storyId }: { issueId: number; 
   const label = (l: number) => (printed?.[l] ? String(printed[l]) : String(l + 1))
   const pageLabel = leaves.length ? `p. ${leaves.map(label).join('–')}` : ''
   const toEnd = story ? pagesToEnd(starts, leaves[leaves.length - 1] ?? first, pages.length) : 0
+  const onDevice = pages.length > 0 && (localPages >= pages.length || download?.state === 'done')
+  const failure = error ?? (data.status === 'error' ? data.error : null)
+  const failureText = failure && !online && !onDevice
+    ? "You're offline and this issue isn't downloaded. Download it from the issue page to read it without a connection."
+    : failure
   const scanFilter = [
     settings.enhance ? 'grayscale(.2) contrast(1.45) brightness(1.06)' : '',
     settings.readerTheme === 'night' ? 'invert(.92) hue-rotate(180deg) sepia(.25) brightness(.9)' : '',
@@ -227,7 +237,10 @@ export function ReaderScreen({ issueId, leaf = 0, storyId }: { issueId: number; 
         <div className="r-title">
           <div className="t">{story?.title ?? issue?.title ?? ''}{story?.credit && <span className="by"> — {story.credit}</span>}</div>
           <div className="s">{issue ? `${issue.title.replace(/,\s*\w+ \d{4}$/, '')} · ${monthYear(issue.year, issue.month)}` : ''}
-            {story?.partInfo ? ` · ${story.partInfo}` : ''}</div>
+            {story?.partInfo ? ` · ${story.partInfo}` : ''}
+            {pages.length > 0 && !onDevice && (
+              <span className={`r-net ${online ? '' : 'off'}`}>{online ? 'online' : localPages ? `offline · ${localPages} pages here` : 'offline'}</span>
+            )}</div>
         </div>
         {!layout.compact && <>
           <button className={`r-btn ${panel === 'contents' ? 'on' : ''}`} aria-label="Contents" onClick={() => toggle('contents')}><Icon name="contents" /></button>
@@ -242,7 +255,7 @@ export function ReaderScreen({ issueId, leaf = 0, storyId }: { issueId: number; 
         </button>
       </header>
 
-      <ReaderBottomBar pages={pages} leaves={leaves} starts={starts} label={label} pageLabel={pageLabel}
+      <ReaderBottomBar pages={pages} thumb={thumb} leaves={leaves} starts={starts} label={label} pageLabel={pageLabel}
                        storyEnd={story ? `${story.title} · ${toEnd <= 1 ? 'last page' : `${toEnd} pages to the end`}${story.partInfo ? ` of ${story.partInfo.replace(' of ', '/')}` : ''}` : ''}
                        compact={layout.compact} panel={panel} enhance={settings.enhance}
                        onGo={goLeaf} onToggle={toggle} onEnhance={() => update('enhance', !settings.enhance)} />
@@ -254,7 +267,7 @@ export function ReaderScreen({ issueId, leaf = 0, storyId }: { issueId: number; 
                      onDeleteHighlight={(id) => void removeHighlight(id)} onDeleteBookmark={(p) => void removeBookmark(p)} />
       )}
       {panel === 'pages' && issue && (
-        <PageIndex pages={pages} starts={starts} current={leaves} label={label} compact={layout.compact}
+        <PageIndex pages={pages} thumb={thumb} starts={starts} current={leaves} label={label} compact={layout.compact}
                    title={`${issue.title.replace(/,\s*\w+ \d{4}$/, '')} · ${monthYear(issue.year, issue.month)} · ${pages.length} pages`}
                    printed={printed} onGo={goLeaf} onClose={() => setPanel(null)} />
       )}
@@ -265,7 +278,7 @@ export function ReaderScreen({ issueId, leaf = 0, storyId }: { issueId: number; 
           <button className="hl" onClick={() => void highlight()}>Highlight</button>
         </div>
       )}
-      {(error || data.status === 'error') && <div className="r-error">{error ?? (data.status === 'error' ? data.error : '')}</div>}
+      {failureText && <div className="r-error">{failureText}</div>}
       {settings.perfOverlay && <MetricsOverlay />}
     </div>
   )
