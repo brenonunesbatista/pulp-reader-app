@@ -1,3 +1,5 @@
+import type { IssueSummary, Story } from '../data/models'
+
 const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 const ROLE_LABEL = { author: 'Author', editor: 'Editor', cover_artist: 'Cover artist', translator: 'Translator' } as const
 
@@ -5,3 +7,22 @@ export const monthYear = (year: number, month: number) => `${MON[month - 1]} ${y
 export const roleLabel = (r: keyof typeof ROLE_LABEL) => ROLE_LABEL[r]
 /** catalog cover paths are relative to the catalog dir (public/catalog) */
 export const coverUrl = (path: string | null) => (path ? `/catalog/${path}` : null)
+
+export const coverTag = (i: Pick<IssueSummary, 'year' | 'month'>) => monthYear(i.year, i.month).toUpperCase()
+
+/** Design tag for a story type: serial / novelette / novel / short story / editorial / other. */
+export function typeTagClass(s: Pick<Story, 'typeCode' | 'partInfo'>): string {
+  switch (s.typeCode) {
+    case 'n.': return s.partInfo ? 'serial' : 'novel'
+    case 'na': return 'novel'
+    case 'nv': return 'novelette'
+    case 'ss': case 'vi': return 'short'
+    case 'ed': return 'editorial'
+    default: return 'other'
+  }
+}
+
+export function initials(name: string): string {
+  const parts = name.replace(/\(.*?\)|,.*$/g, '').trim().split(/\s+/)
+  return ((parts[0]?.[0] ?? '') + (parts.length > 1 ? parts[parts.length - 1][0] : '')).toUpperCase()
+}

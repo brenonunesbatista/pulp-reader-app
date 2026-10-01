@@ -51,7 +51,16 @@ export function NavProvider({ render }: { render: (route: Route) => ReactNode })
   const back = useCallback(() => {
     if (depthRef.current > 1) history.back()
   }, [])
-  const api = useMemo(() => ({ push, back, replace, depth }), [push, back, replace, depth])
+  const reset = useCallback(() => {
+    // drop the stack first; the single popstate fired by history.go(-n) then sees depth 1 and is ignored
+    const n = depthRef.current - 1
+    if (n <= 0) return
+    depthRef.current = 1
+    dispatch({ type: 'reset', route: { name: 'library' } })
+    history.go(-n)
+  }, [])
+  const top = state.entries[depth - 1].route
+  const api = useMemo(() => ({ push, back, replace, reset, depth, top }), [push, back, replace, reset, depth, top])
 
   return (
     <NavContext.Provider value={api}>

@@ -7,7 +7,7 @@ import { saveProgress } from '../data/progressRepo'
 import { useDb } from '../db/useDb'
 import { useNav } from '../nav/context'
 import { ReaderB } from '../spike/readerB/ReaderB'
-import { ErrorBox, Loading, TopBar } from '../ui/components'
+import { ErrorBox, Loading, SubMasthead } from '../ui/components'
 import { monthYear } from '../ui/format'
 import { useAsync } from '../ui/useAsync'
 
@@ -47,9 +47,9 @@ export function ReaderScreen({ issueId, leaf = 0 }: { issueId: number; leaf?: nu
     }
   }, [flush])
 
-  if (issue.status === 'loading') return <div className="screen"><TopBar /><Loading /></div>
+  if (issue.status === 'loading') return <div className="screen"><SubMasthead /><Loading /></div>
   if (issue.status === 'error' || !issue.data?.iaIdentifier) {
-    return <div className="screen"><TopBar /><ErrorBox error={issue.status === 'error' ? issue.error : 'This issue has no scan.'} /></div>
+    return <div className="screen"><SubMasthead /><ErrorBox error={issue.status === 'error' ? issue.error : 'This issue has no scan.'} /></div>
   }
   const i = issue.data
   return (

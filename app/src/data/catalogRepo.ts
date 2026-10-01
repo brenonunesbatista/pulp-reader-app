@@ -10,16 +10,18 @@ import type {
 
 interface IssueRow {
   id: number; magazine_id: number; slug: string; year: number; month: number; title: string
+  volume: number | null; number: number | null
   cover_artist: string | null; editor: string | null; ia_identifier: string | null; availability: Availability
   cover_path: string | null; n: number
 }
 
-const ISSUE_COLS = `i.id, i.magazine_id, i.slug, i.year, i.month, i.title, i.cover_artist, i.editor, i.ia_identifier,
+const ISSUE_COLS = `i.id, i.magazine_id, i.slug, i.year, i.month, i.title, i.volume, i.number, i.cover_artist, i.editor, i.ia_identifier,
   i.availability, i.cover_path, (SELECT count(*) FROM story s WHERE s.issue_id = i.id) AS n`
 
 function toIssue(r: IssueRow): IssueSummary {
   return {
     id: r.id, magazineId: r.magazine_id, slug: r.slug, year: r.year, month: r.month, title: r.title,
+    volume: r.volume, number: r.number,
     coverArtist: r.cover_artist, editor: r.editor, iaIdentifier: r.ia_identifier, availability: r.availability,
     coverPath: r.cover_path, storyCount: r.n,
   }
@@ -81,6 +83,19 @@ export async function listMagazines(db: Db): Promise<Magazine[]> {
 
 export async function getMagazine(db: Db, id: number): Promise<Magazine | null> {
   return (await listMagazines(db)).find((m) => m.id === id) ?? null
+}
+
+/** issue-level credits (cover artist, editors) with person ids */
+export async function issuePeople(db: Db, issueId: number): Promise<{ id: number; name: string; role: 'editor' | 'cover_artist' }[]> {
+  return db.query(`SELECT p.id, p.name, ip.role FROM issue_person ip JOIN person p ON p.id = ip.person_id
+                   WHERE ip.issue_id = ? ORDER BY ip.role, p.name`, [issueId])
+}
+
+/** editors of a magazine, in order of their first issue */
+export async function magazineEditors(db: Db, magazineId: number): Promise<{ id: number; name: string }[]> {
+  return db.query<{ id: number; name: string }>(
+    `SELECT p.id, p.name FROM issue_person ip JOIN issue i ON i.id = ip.issue_id JOIN person p ON p.id = ip.person_id
+     WHERE i.magazine_id = ? AND ip.role = 'editor' GROUP BY p.id ORDER BY min(i.year * 100 + i.month)`, [magazineId])
 }
 
 export async function listIssues(db: Db, magazineId: number): Promise<IssueSummary[]> {

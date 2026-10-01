@@ -1,11 +1,9 @@
-html, body, #root { margin: 0; height: 100%; }
-body { background: #111; color: #eee; font-family: system-ui, sans-serif; overscroll-behavior: none; }
-#root { width: auto; max-width: none; border: 0; text-align: left; }
-
+/* Phase 1 spike styles, scoped to the spike screens (dev tools + interim reader). Removed when src/reader/ lands. */
 .spike-home { padding: 24px; }
 .spike-home table { border-collapse: collapse; }
 .spike-home td { padding: 8px 12px; border-bottom: 1px solid #333; }
-button { font: inherit; padding: 8px 14px; border-radius: 6px; border: 1px solid #555; background: #222; color: #eee; }
+.spike-home button, .reader button, .cat button { font: 15px system-ui, sans-serif; padding: 8px 14px; border-radius: 6px;
+  border: 1px solid #555; background: #222; color: #eee; }
 
 .reader { position: fixed; inset: 0; overflow: hidden; background: #111; }
 .viewport { position: absolute; inset: 0; overflow: hidden; }

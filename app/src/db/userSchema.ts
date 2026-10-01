@@ -18,6 +18,12 @@ export const USER_MIGRATIONS: string[] = [
      rects_json TEXT NOT NULL, text TEXT NOT NULL, color TEXT NOT NULL, note TEXT, created_at INTEGER NOT NULL);
    CREATE INDEX highlight_by_issue ON highlight(issue_id, page);
    CREATE TABLE settings (key TEXT PRIMARY KEY, value TEXT NOT NULL);`,
+  // v2 (Phase 3): progress knows the scan length (shelf progress bars); bookmarks; OCR-derived page map per scan
+  `ALTER TABLE progress ADD COLUMN page_count INTEGER;
+   CREATE TABLE bookmark (
+     issue_id INTEGER NOT NULL, page INTEGER NOT NULL, created_at INTEGER NOT NULL, PRIMARY KEY (issue_id, page));
+   CREATE TABLE page_map (
+     ia_identifier TEXT PRIMARY KEY, printed_json TEXT NOT NULL, offset INTEGER, updated_at INTEGER NOT NULL);`,
 ]
 
 export async function migrateUserDb(db: Db): Promise<number> {

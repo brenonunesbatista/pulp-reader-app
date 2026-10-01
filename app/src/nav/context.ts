@@ -5,7 +5,10 @@ export interface NavApi {
   push: (r: Route) => void
   back: () => void
   replace: (r: Route) => void
+  /** back to the root screen (Library), dropping the whole stack */
+  reset: (r?: Route) => void
   depth: number
+  top: Route
 }
 
 export const NavContext = createContext<NavApi | null>(null)

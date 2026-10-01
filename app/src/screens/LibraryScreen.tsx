@@ -1,10 +1,10 @@
-import { useRef } from 'react'
-import { getIssuesByIds, listMagazines } from '../data/catalogRepo'
+import { UPCOMING } from '../content/upcoming'
+import { getContents, getIssuesByIds, listMagazines } from '../data/catalogRepo'
 import { recentProgress } from '../data/progressRepo'
 import { useDb } from '../db/useDb'
 import { useIsActive, useNav } from '../nav/context'
-import { Cover, ErrorBox, Loading } from '../ui/components'
-import { monthYear } from '../ui/format'
+import { Cover, ErrorBox, Loading, Masthead, Screen, SectionHeader } from '../ui/components'
+import { monthYear, coverTag } from '../ui/format'
 import { useAsync } from '../ui/useAsync'
 
 export function LibraryScreen() {
@@ -16,35 +16,30 @@ export function LibraryScreen() {
   const shelf = useAsync(async () => {
     const recent = await recentProgress(user)
     const issues = await getIssuesByIds(catalog, recent.map((p) => p.issueId))
-    return issues.map((issue) => ({ issue, progress: recent.find((p) => p.issueId === issue.id)! }))
+    return Promise.all(issues.map(async (issue) => {
+      const progress = recent.find((p) => p.issueId === issue.id)!
+      // story being read = last story starting at or before the saved leaf
+      const toc = await getContents(catalog, issue.id)
+      const story = [...toc].reverse().find((s) => s.iaLeaf !== null && s.iaLeaf <= progress.page)
+      return { issue, progress, story: story?.title ?? null, pageCount: progress.pageCount }
+    }))
   }, [catalog, user, active])
-  const press = useRef(0)
 
   return (
-    <div className="screen">
-      <header className="library-head">
-        {/* long-press the title for the Phase 1 developer tools */}
-        <h1 className="app-title"
-            onPointerDown={() => { press.current = window.setTimeout(() => nav.push({ name: 'dev' }), 800) }}
-            onPointerUp={() => window.clearTimeout(press.current)}
-            onPointerLeave={() => window.clearTimeout(press.current)}>
-          Pulp Reader
-        </h1>
-        <button className="search-field" onClick={() => nav.push({ name: 'search' })}>
-          Search issues, stories, authors, artists…
-        </button>
-      </header>
-
+    <Screen masthead={<Masthead section="pulp" />} section="pulp">
       {shelf.status === 'ok' && shelf.data.length > 0 && (
-        <section>
-          <h2 className="section-title">Continue reading</h2>
+        <section style={{ marginBottom: 36 }}>
+          <SectionHeader title="Continue reading" />
           <div className="shelf">
-            {shelf.data.map(({ issue, progress }) => (
+            {shelf.data.map(({ issue, progress, story, pageCount }) => (
               <button key={issue.id} className="shelf-item"
                       onClick={() => nav.push({ name: 'reader', issueId: issue.id, leaf: progress.page })}>
-                <Cover path={issue.coverPath} alt={issue.title} />
-                <span className="small">{monthYear(issue.year, issue.month)}</span>
-                <span className="muted small">page {progress.page + 1}</span>
+                <Cover path={issue.coverPath} alt={issue.title} tag={coverTag(issue)} />
+                <div className="progress-bar">
+                  <i style={{ width: pageCount ? `${Math.round(((progress.page + 1) / pageCount) * 100)}%` : '0%' }} />
+                </div>
+                <div className="t">{monthYear(issue.year, issue.month)}</div>
+                <div className="w num">{story ? `${story} · ` : ''}p. {progress.page + 1}</div>
               </button>
             ))}
           </div>
@@ -52,19 +47,34 @@ export function LibraryScreen() {
       )}
 
       <section>
-        <h2 className="section-title">Magazines</h2>
+        <SectionHeader title="Pulp magazines" />
         {mags.status === 'loading' && <Loading />}
         {mags.status === 'error' && <ErrorBox error={mags.error} />}
-        {mags.status === 'ok' && mags.data.map((m) => (
-          <button key={m.id} className="magazine-card" onClick={() => nav.push({ name: 'magazine', id: m.id })}>
-            <div className="mosaic">{m.covers.map((c) => <Cover key={c} path={c} />)}</div>
-            <div className="magazine-info">
-              <h3>{m.name}</h3>
-              <p className="muted">{m.firstYear}–{m.lastYear} · {m.issueCount} issues · {m.readable} readable online</p>
-            </div>
-          </button>
-        ))}
+        <div className="mag-grid">
+          {mags.status === 'ok' && mags.data.map((m) => (
+            <button key={m.id} className="mag-card" onClick={() => nav.push({ name: 'magazine', id: m.id })}>
+              <div className="mosaic">{m.covers.map((c) => <Cover key={c} path={c} small />)}</div>
+              <div className="info">
+                <div className="title">{m.name}</div>
+                <div className="muted small num">{m.firstYear}–{m.lastYear}</div>
+                <div className="muted small num">{m.issueCount} issues · {m.readable} readable</div>
+                <span className="tag">OPEN</span>
+              </div>
+            </button>
+          ))}
+          {UPCOMING.filter((u) => u.category === 'pulp').map((u) => (
+            <button key={u.title} className="mag-card" disabled>
+              <div className="mosaic">{Array.from({ length: 6 }, (_, i) => <Cover key={i} path={null} small />)}</div>
+              <div className="info">
+                <div className="title">{u.title}</div>
+                <div className="muted small num">{u.years}</div>
+                <div className="muted small">Not yet indexed</div>
+                <span className="tag soon">COMING SOON</span>
+              </div>
+            </button>
+          ))}
+        </div>
       </section>
-    </div>
+    </Screen>
   )
 }

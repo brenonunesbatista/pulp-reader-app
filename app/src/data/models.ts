@@ -19,6 +19,8 @@ export interface IssueSummary {
   year: number
   month: number
   title: string
+  volume: number | null
+  number: number | null
   coverArtist: string | null
   editor: string | null
   iaIdentifier: string | null
@@ -83,4 +85,5 @@ export interface Progress {
   offsetY: number
   zoom: number
   updatedAt: number
+  pageCount?: number | null
 }

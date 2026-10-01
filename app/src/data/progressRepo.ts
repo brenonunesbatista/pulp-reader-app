@@ -1,19 +1,24 @@
-// Reading progress (user.db). Saves are debounced by the caller (see screens/ReaderScreen.tsx).
+// Reading progress (user.db). Saves are debounced by the caller (the reader screen).
 import type { Db } from '../db/types'
 import type { Progress } from './models'
 
-interface ProgressRow { issue_id: number; page: number; offset_x: number; offset_y: number; zoom: number; updated_at: number }
+interface ProgressRow {
+  issue_id: number; page: number; offset_x: number; offset_y: number; zoom: number; updated_at: number
+  page_count: number | null
+}
 
 const toProgress = (r: ProgressRow): Progress => ({
   issueId: r.issue_id, page: r.page, offsetX: r.offset_x, offsetY: r.offset_y, zoom: r.zoom, updatedAt: r.updated_at,
+  pageCount: r.page_count,
 })
 
 export async function saveProgress(db: Db, p: Omit<Progress, 'updatedAt'>, now = Date.now()): Promise<void> {
   await db.run(
-    `INSERT INTO progress (issue_id, page, offset_x, offset_y, zoom, updated_at) VALUES (?, ?, ?, ?, ?, ?)
+    `INSERT INTO progress (issue_id, page, offset_x, offset_y, zoom, updated_at, page_count) VALUES (?, ?, ?, ?, ?, ?, ?)
      ON CONFLICT(issue_id) DO UPDATE SET page = excluded.page, offset_x = excluded.offset_x,
-       offset_y = excluded.offset_y, zoom = excluded.zoom, updated_at = excluded.updated_at`,
-    [p.issueId, p.page, p.offsetX, p.offsetY, p.zoom, now])
+       offset_y = excluded.offset_y, zoom = excluded.zoom, updated_at = excluded.updated_at,
+       page_count = coalesce(excluded.page_count, progress.page_count)`,
+    [p.issueId, p.page, p.offsetX, p.offsetY, p.zoom, now, p.pageCount ?? null])
 }
 
 export async function getProgress(db: Db, issueId: number): Promise<Progress | null> {
