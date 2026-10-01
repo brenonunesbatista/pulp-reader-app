@@ -13,7 +13,7 @@ Ideas and sources to add later. Items move into a phase brief when they are sche
 | ✅ **5 Downloads** (verified on the tablet 2026-10-01) | SPEC phase 4 + user request: *Delete all* in Settings, a way to see what is downloaded (filter) | |
 | 🧪 **6 Highlights & export** (built 2026-10-01, device test pending) | SPEC phase 5: 4 colors, notes, web search, Notes screen, Markdown export | |
 | **7 Atlas (Explore / Hall)** | curated knowledge layer: interactive timeline, stories, authors, characters, themes, influence on film/music/manga; AI-drafted entries with web sources, reviewed by the user | needs a content pipeline + curation time; its data model starts in a spike early (see below) |
-| 8 New sources | categories `pulp` / `rpg` and the sources listed below | each source = adapter + dedupe + (later) contents |
+| 8 New sources | categories `pulp` / `rpg` / `comics` and the sources listed below | each source = adapter + dedupe + (later) contents |
 
 ## Atlas (Explore / Hall) — design notes
 - **What:** an in-app "museum" to *discover*: a timeline (1900s → today) with lanes for magazines, stories, authors,
@@ -109,6 +109,35 @@ has a `_jp2.zip` page set and `_djvu.xml` OCR, which is what reader B uses.
   alternates.
 - **Contents (ToC):** unlike Amazing Stories, these have no reference guide. Options: IA metadata (title/date/volume
   only), FictionMags/ISFDB data for the fiction magazines, or issue-level only at first (cover + date, no story list).
+
+## Comics (user list, 2026-10-01) — for Phase 8, together with the other new titles
+A third category next to `pulp` and `rpg`: **`comics`**. Links as given by the user (not surveyed yet):
+
+| Title | IA item | Shape of the link |
+|---|---|---|
+| Amazing Spider-Man Masterworks v01 (2003) | `marvel-masterworks-amazing-spider-man-v-1-27` | pack: one item, several volumes (file path in the URL) |
+| Hellblazer (1988) #1 | `pinkcomics-hellblazer-1988` (`hellblazer-001`) | pack of issues |
+| Swamp Thing Bronze Age Omnibus | `swamp-thing-bronze-age-omnibus-original-color-edition` | single book |
+| Turok, Son of Stone 001 (Dell 4C) | `turok-son-of-stone-1954-1982-complete-collection_202306` | pack: complete 1954–1982 run |
+| A Espada Selvagem de Conan 001 (Abril, BR) | `aespadaselvagemdeconan2` | pack, **Portuguese** |
+| The Complete Peanuts vol. 1 (1950–1952) | `the-complete-peanuts-volume-1-26` | pack of 26 volumes; **landscape strip format** |
+| Asterix the Gaul | `35-asterix-and-the-picts` (`01_Asterix_the_Gaul`) | pack of albums |
+| Miracleman #16 | `miracleman-reprints` | pack |
+| Daredevil Masterworks v01 (2003) | `marvel-masterworks-daredevil-v-1-19` | pack |
+| Captain America Masterworks v17 (2025) | `marvel-masterworks-captain-america-v-1-17` | pack |
+
+Notes for when this is built:
+- Almost all are **packs** (one item, many books addressed by file path), so they reuse the pack work planned for
+  Dungeon/Dragon (`sub_book` per issue). Need to check per item whether pages come as `_jp2.zip` (IIIF-ready) or only as
+  CBR/CBZ/PDF (would need another page source).
+- Comics have little or no useful OCR (lettering), so search inside pages, highlights and the page map mostly do not
+  apply; contents = one entry per issue/story from IA metadata or a manual list.
+- **Reader option requested:** "single page even in landscape" (Peanuts strips are wide). Make it a reader setting
+  (Spreads: auto / always single page), possibly remembered per title. Cheap; can be done earlier if wanted.
+- **Rights, to discuss before building** (same concern as the D&D 5e item below): most of these are current
+  commercial editions (Marvel Masterworks, including a 2025 volume; Asterix; The Complete Peanuts; Hellblazer;
+  Miracleman; Abril's Conan), and the scanner-group tags in the file names ("Digital", "Empire", "pinkcomics") suggest
+  unauthorized uploads that IA may take down. 1950s Dell titles like Turok are the most likely to be clear.
 
 ## Not planned
 - `Livro-de-Regras-DnD-5e` (Guia do Mestre, Livro do Jogador, Manual dos Monstros; one item with 3 books, technically
