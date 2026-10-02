@@ -17,6 +17,12 @@ n = 1
 title = "Analog Science Fiction and Fact — Wikipedia"
 url = "https://en.wikipedia.org/wiki/Astounding_Science_Fiction"
 accessed = "2026-10-01"
+
+[image]
+url = "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/ASTJAN1930.jpg/960px-ASTJAN1930.jpg"
+credit = "Hans Waldemar Wessolowski"
+license = "Public domain"
+source = "https://commons.wikimedia.org/wiki/File:ASTJAN1930.jpg"
 +++
 The magazine began in January 1930 as *Astounding Stories of Super-Science*, published by William Clayton and edited
 by Harry Bates [1]. After Clayton's bankruptcy in 1933 it passed to Street & Smith; John W. Campbell took over as

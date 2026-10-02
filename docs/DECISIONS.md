@@ -220,3 +220,16 @@ spec in `docs/design/banca-atlas.md`. Timeline layout: **overview strip + stage 
 ("+N more") and needs no connection lines. Connections are shown as relation tags, overview pins and grouped lists.
 Three new lane colors (teal, magenta, warm grey); Night borders use `--edge #4A5276`. The mockups show "Read in
 Banca" on *Marooned off Vesta*, which has no scan; the spec adds the "in the catalog, no scan yet" state.
+
+## 2026-10-01 — Phase 7c: Atlas images on demand, external ids, new link types
+- **Images are not bundled** (owner's choice): entities store a Wikimedia Commons URL (960 px thumb) with credit,
+  licence and source page; the app loads them online and shows the halftone placeholder when offline. Pulp covers use
+  the catalog's own WebP covers.
+- `tools/atlas/suggest_media.py` takes each entity's Wikipedia article and asks the MediaWiki/Wikidata APIs, in
+  batches of 50 titles (≈ 4 requests total, after per-entity requests hit HTTP 429), for the lead image (Commons only,
+  free licences only) and IMDb (P345) / Spotify album (P2205) ids. Suggestions are curated by hand: 15 Commons images
+  kept (portraits, first-edition covers, posters in the public domain, Hiroshima, Sputnik CC BY-SA, WWII Bundesarchiv
+  CC BY-SA), 2 entities use catalog covers, George Pal's suggestion (the 1953 poster) was rejected. IMDb ids for the
+  five films/series and the Spotify album for Jeff Wayne's album.
+- Link types from the design spec added to the format: `collected_in` (Runaround → I, Robot) and `cover_of` (the
+  August 1927 cover → The War of the Worlds). "Same theme" is derived from `themes`.

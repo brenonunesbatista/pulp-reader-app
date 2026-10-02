@@ -54,6 +54,12 @@ n = 2
 title = "Banca catalog (Amazing Stories reference guide)"
 url = "banca:amazing-stories/1927-08"
 accessed = "2026-10-01"
+
+[image]
+url = "https://upload.wikimedia.org/wikipedia/commons/3/30/The_War_of_the_Worlds_first_edition.jpg"
+credit = "H. G. Wells"
+license = "Public domain"
+source = "https://commons.wikimedia.org/wiki/File:The_War_of_the_Worlds_first_edition.jpg"
 +++
 Serialized in 1897 in *Pearson's Magazine* (UK) and *Cosmopolitan* (US) and published as a book by William Heinemann
 in 1898 [1]. Martians in tripod fighting machines armed with heat-rays attack southern England; the invasion fails

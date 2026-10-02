@@ -30,12 +30,18 @@ magazine = "amazing-stories"
 issue = "1927-05"
 story = "The Time Machine"         # omit to point at the whole issue
 
-[image]                            # optional
+[image]                            # optional; loaded on demand in the app (not bundled)
 catalog_cover = "amazing-stories/1927-08"   # a cover already in the catalog
-# or: url, credit, license, source (Wikimedia Commons / museum open access)
+# or a free image (public domain / CC0 / CC BY / CC BY-SA) on Wikimedia Commons:
+# url = "https://upload.wikimedia.org/…" ; credit = "Author" ; license = "CC BY-SA 3.0" ; source = "https://commons…/File:…"
+
+[external]                         # optional, checked ids only (python tools/atlas/suggest_media.py helps)
+imdb = "tt0046534"                 # films and series
+spotify_album = "7ligZljXfUtcKPCotWul5g"   # albums
 
 [[links]]                          # one direction only; the builder adds the inverse
-rel = "adapted_as"                 # influenced | adapted_as | published_in | created_by | read_next | context
+rel = "adapted_as"                 # influenced | adapted_as | published_in | collected_in | cover_of | created_by
+                                   # | read_next | context
 to = "the-time-machine-1960-film"
 note = "First film version"        # optional, shown as the reason
 
@@ -55,6 +61,8 @@ Link meanings (as read from the file that declares them):
 - `influenced` → this entity influenced the target.
 - `adapted_as` → the target is an adaptation of this entity.
 - `published_in` → this work appeared in the target (magazine or issue).
+- `collected_in` → this story was collected in the target book.
+- `cover_of` → this artwork is the cover illustrating the target work.
 - `created_by` → the target person made this.
 - `read_next` → a recommendation, with `note` as the reason.
 - `context` → historical/real-world context (events).

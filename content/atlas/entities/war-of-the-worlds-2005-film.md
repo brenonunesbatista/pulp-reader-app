@@ -13,6 +13,9 @@ n = 1
 title = "War of the Worlds (2005 film) — Wikipedia"
 url = "https://en.wikipedia.org/wiki/War_of_the_Worlds_(2005_film)"
 accessed = "2026-10-01"
+
+[external]
+imdb = "tt0407304"
 +++
 Directed by Steven Spielberg from a script by Josh Friedman and David Koepp, with Tom Cruise and Dakota Fanning, and
 narration by Morgan Freeman; it opened widely on 29 June 2005 [1]. The tripods return, rising from underground, as a

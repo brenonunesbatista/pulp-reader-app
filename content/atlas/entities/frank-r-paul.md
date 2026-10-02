@@ -18,6 +18,9 @@ n = 1
 title = "Frank R. Paul — Wikipedia"
 url = "https://en.wikipedia.org/wiki/Frank_R._Paul"
 accessed = "2026-10-01"
+
+[image]
+catalog_cover = "amazing-stories/1927-08"
 +++
 Frank R. Paul was born on 18 April 1884 in Radkersburg, Austria-Hungary, and died on 29 June 1963 in Teaneck, New
 Jersey [1]. Hugo Gernsback hired him in 1914 to illustrate *The Electrical Experimenter*, and in April 1926 he painted

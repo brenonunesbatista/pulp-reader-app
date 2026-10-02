@@ -21,6 +21,12 @@ n = 1
 title = "The World Set Free — Wikipedia"
 url = "https://en.wikipedia.org/wiki/The_World_Set_Free"
 accessed = "2026-10-01"
+
+[image]
+url = "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/TheWorldSetFreeHGWells.jpg/960px-TheWorldSetFreeHGWells.jpg"
+credit = "Anonymous"
+license = "Public domain"
+source = "https://commons.wikimedia.org/wiki/File:TheWorldSetFreeHGWells.jpg"
 +++
 Written in 1913 and published in 1914, the novel imagines "atomic bombs" used in a war in the 1950s, drawing on the
 physics of Rutherford and Soddy [1]. The physicist Leo Szilard read it in 1932; the next year he conceived the nuclear

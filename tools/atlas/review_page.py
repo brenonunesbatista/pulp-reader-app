@@ -21,6 +21,7 @@ TYPE_LABEL = {"person": "Person", "work": "Work", "film": "Film", "series": "TV 
 LANE_LABEL = {"magazines": "Magazines & stories", "books": "Books", "film-tv": "Film & TV", "music": "Music",
               "visual-art": "Visual art", "comics": "Comics & manga", "events": "World events"}
 REL_LABEL = {"influenced": "Influenced", "adapted_as": "Adapted as", "published_in": "Published in",
+             "collected_in": "Collected in", "cover_of": "Cover of",
              "created_by": "Created by", "read_next": "Read next", "context": "Context"}
 ORDER = ["person", "magazine", "issue", "artwork", "work", "radio", "film", "series", "music", "movement", "event", "theme"]
 MONTHS = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
@@ -133,6 +134,19 @@ def main() -> None:
                      for l in m.get("links", [])]
             links += [f'<li><span class="rel in">← {REL_LABEL[rel]}</span> <a href="#{src}">{title(src)}</a></li>'
                       for rel, src in inbound.get(eid, [])]
+            media = []
+            if img_meta := (m.get("image") or {}):
+                if img_meta.get("url"):
+                    media.append(f'<li>Image: <a href="{html.escape(img_meta["source"])}" target="_blank" rel="noopener">'
+                                 f'{html.escape(img_meta["source"].rsplit("File:", 1)[-1])}</a> · {html.escape(img_meta["credit"])} · '
+                                 f'{html.escape(img_meta["license"])}</li>')
+                elif img_meta.get("catalog_cover"):
+                    media.append(f'<li>Image: catalog cover {html.escape(img_meta["catalog_cover"])}</li>')
+            ext = m.get("external") or {}
+            if ext.get("imdb"):
+                media.append(f'<li><a href="https://www.imdb.com/title/{ext["imdb"]}/" target="_blank" rel="noopener">IMDb ↗</a></li>')
+            if ext.get("spotify_album"):
+                media.append(f'<li><a href="https://open.spotify.com/album/{ext["spotify_album"]}" target="_blank" rel="noopener">Spotify ↗</a></li>')
             srcs = "".join(
                 f'<li id="{eid}-s{s["n"]}"><a href="{html.escape(s["url"])}" target="_blank" rel="noopener">{html.escape(s["title"])}</a></li>'
                 if s["url"].startswith("http") else f'<li id="{eid}-s{s["n"]}">{html.escape(s["title"])}</li>'
@@ -150,6 +164,7 @@ def main() -> None:
       {f'<h5>Themes</h5><div class="chips">{themes}</div>' if themes else ''}
       {f'<h5>In Banca</h5><ul class="plain">{"".join(cat)}</ul>' if cat else ''}
       {f'<h5>Connections</h5><ul class="plain links">{"".join(links)}</ul>' if links else ''}
+      {f'<h5>Image &amp; links</h5><ul class="plain">{"".join(media)}</ul>' if media else ''}
       {f'<h5>Sources</h5><ol class="sources">{srcs}</ol>' if srcs else ''}
     </aside>
   </div>

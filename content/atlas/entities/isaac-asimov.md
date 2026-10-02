@@ -29,6 +29,12 @@ n = 2
 title = "Foundation (Asimov novel) — Wikipedia"
 url = "https://en.wikipedia.org/wiki/Foundation_(Asimov_novel)"
 accessed = "2026-10-01"
+
+[image]
+url = "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Isaac.Asimov01.jpg/960px-Isaac.Asimov01.jpg"
+credit = "Phillip Leonian [1] from New York World-Telegram & Sun.[2]"
+license = "Public domain"
+source = "https://commons.wikimedia.org/wiki/File:Isaac.Asimov01.jpg"
 +++
 Isaac Asimov was born around 2 January 1920 in Petrovichi, Soviet Russia, arrived in the United States in 1923 and
 died in New York on 6 April 1992 [1]. His first published story, "Marooned off Vesta", appeared in *Amazing Stories*

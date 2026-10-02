@@ -20,6 +20,12 @@ n = 2
 title = "Deadline (science fiction story) — Wikipedia"
 url = "https://en.wikipedia.org/wiki/Deadline_(science_fiction_story)"
 accessed = "2026-10-01"
+
+[image]
+url = "https://upload.wikimedia.org/wikipedia/commons/1/10/Bundesarchiv_Bild_101I-646-5188-17%2C_Flugzeuge_Junkers_Ju_87.jpg"
+credit = "Richard Opitz"
+license = "CC BY-SA 3.0 de"
+source = "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-646-5188-17,_Flugzeuge_Junkers_Ju_87.jpg"
 +++
 The war began on 1 September 1939, when Germany invaded Poland, and ended with Germany's surrender on 8 May 1945 and
 Japan's on 2 September 1945; it was the deadliest conflict in history [1]. It overlaps almost exactly with the Golden

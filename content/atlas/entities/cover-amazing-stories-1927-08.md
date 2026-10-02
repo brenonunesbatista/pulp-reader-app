@@ -16,6 +16,10 @@ issue = "1927-08"
 catalog_cover = "amazing-stories/1927-08"
 
 [[links]]
+rel = "cover_of"
+to = "the-war-of-the-worlds"
+
+[[links]]
 rel = "created_by"
 to = "frank-r-paul"
 

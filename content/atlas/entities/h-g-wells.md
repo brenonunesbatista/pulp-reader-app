@@ -24,6 +24,12 @@ n = 2
 title = "Amazing Stories — Wikipedia"
 url = "https://en.wikipedia.org/wiki/Amazing_Stories"
 accessed = "2026-10-01"
+
+[image]
+url = "https://upload.wikimedia.org/wikipedia/commons/4/4b/H.G._Wells_by_Beresford.jpg"
+credit = "George Charles Beresford"
+license = "Public domain"
+source = "https://commons.wikimedia.org/wiki/File:H.G._Wells_by_Beresford.jpg"
 +++
 Herbert George Wells was born on 21 September 1866 in Bromley, Kent, and died in London on 13 August 1946 [1].
 Between 1895 and 1901 he wrote the books that defined modern science fiction: *The Time Machine*, *The Island of

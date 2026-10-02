@@ -13,6 +13,9 @@ n = 1
 title = "Jeff Wayne's Musical Version of The War of the Worlds — Wikipedia"
 url = "https://en.wikipedia.org/wiki/Jeff_Wayne%27s_Musical_Version_of_The_War_of_the_Worlds"
 accessed = "2026-10-01"
+
+[external]
+spotify_album = "7ligZljXfUtcKPCotWul5g"
 +++
 Released by CBS on 9 June 1978, Jeff Wayne's double concept album retells the novel through progressive rock,
 orchestra, narration and song [1]. Richard Burton narrates, with Justin Hayward, David Essex, Phil Lynott and Julie

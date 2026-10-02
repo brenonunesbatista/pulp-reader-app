@@ -25,6 +25,7 @@ Capacitor (Android) · Vite · React · TypeScript (strict) · SQLite (`@capacit
 - Catalog build: `python tools/build_catalog.py --source data/source/Amazing_Stories_Reference_Guide.pdf --out app/public/catalog`
   (writes `catalog.db` + `covers/*.webp`, both git-ignored, and `docs/catalog-report.md`)
 - Atlas review page: `python tools/atlas/review_page.py --out <file.html>` (one HTML page, path + all entities, OK/Change marks)
+- Atlas media suggestions: `python tools/atlas/suggest_media.py --out media.json` (free Commons images + IMDb/Spotify ids from Wikidata, batched; review before adding)
 - Atlas content check: `python tools/atlas/validate.py` (front matter, links, themes, citations, catalog references; content in `content/atlas/`, format in its README)
 - Tests: `npm test` (app), `pytest` (tools; run from the repo root — synthetic fixture PDF, real-guide smoke test skipped if the PDF is absent)
 

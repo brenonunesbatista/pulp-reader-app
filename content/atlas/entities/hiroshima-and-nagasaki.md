@@ -25,6 +25,12 @@ n = 3
 title = "Deadline (science fiction story) — Wikipedia"
 url = "https://en.wikipedia.org/wiki/Deadline_(science_fiction_story)"
 accessed = "2026-10-01"
+
+[image]
+url = "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Atomic_bombing_of_Japan.jpg/960px-Atomic_bombing_of_Japan.jpg"
+credit = "George R. Caron / Charles Levy"
+license = "Public domain"
+source = "https://commons.wikimedia.org/wiki/File:Atomic_bombing_of_Japan.jpg"
 +++
 The United States dropped atomic bombs on Hiroshima on 6 August and on Nagasaki on 9 August 1945, killing an
 estimated 150,000 to 246,000 people by the end of the year [1]. Japan announced its surrender on 15 August [1].

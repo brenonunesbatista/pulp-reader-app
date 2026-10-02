@@ -29,6 +29,12 @@ n = 2
 title = "Amazing Stories — Wikipedia"
 url = "https://en.wikipedia.org/wiki/Amazing_Stories"
 accessed = "2026-10-01"
+
+[image]
+url = "https://upload.wikimedia.org/wikipedia/commons/b/b5/Hugo_Gernsback_by_Bachrach.jpg"
+credit = "Bachrach Studios"
+license = "Public domain"
+source = "https://commons.wikimedia.org/wiki/File:Hugo_Gernsback_by_Bachrach.jpg"
 +++
 Hugo Gernsback was born in Luxembourg City on 16 August 1884, emigrated to the United States in 1904 and died in New
 York on 19 August 1967 [1]. He founded *Modern Electrics* in 1908, a magazine about electronics and radio, and

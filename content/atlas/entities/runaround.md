@@ -17,7 +17,7 @@ rel = "published_in"
 to = "astounding-science-fiction"
 
 [[links]]
-rel = "published_in"
+rel = "collected_in"
 to = "i-robot"
 
 [[sources]]

@@ -26,6 +26,9 @@ n = 1
 title = "Marooned off Vesta — Wikipedia"
 url = "https://en.wikipedia.org/wiki/Marooned_off_Vesta"
 accessed = "2026-10-01"
+
+[image]
+catalog_cover = "amazing-stories/1939-03"
 +++
 Asimov wrote it in July 1938, at 18; *Astounding* turned it down and *Amazing Stories* published it in March
 1939 [1]. Three survivors of the wrecked spaceship *Silver Queen*, with one spacesuit and three days of air, escape by

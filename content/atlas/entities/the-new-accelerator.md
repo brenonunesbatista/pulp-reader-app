@@ -26,6 +26,12 @@ n = 1
 title = "The New Accelerator — Wikipedia"
 url = "https://en.wikipedia.org/wiki/The_New_Accelerator"
 accessed = "2026-10-01"
+
+[image]
+url = "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Amazing_Stories_v01n01_p057_The_New_Accelerator.png/960px-Amazing_Stories_v01n01_p057_The_New_Accelerator.png"
+credit = "Unknown author"
+license = "Public domain"
+source = "https://commons.wikimedia.org/wiki/File:Amazing_Stories_v01n01_p057_The_New_Accelerator.png"
 +++
 First published in *The Strand Magazine* in December 1901 and collected in *Twelve Stories and a Dream* (1903) [1].
 Professor Gibberne invents a drug that speeds up the body and mind so much that the world seems to stand still [1].

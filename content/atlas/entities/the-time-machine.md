@@ -37,6 +37,12 @@ n = 2
 title = "Banca catalog (Amazing Stories reference guide)"
 url = "banca:amazing-stories/1927-05"
 accessed = "2026-10-01"
+
+[image]
+url = "https://upload.wikimedia.org/wikipedia/commons/6/62/Timemachinebook.jpg"
+credit = "Unknown author"
+license = "Public domain"
+source = "https://commons.wikimedia.org/wiki/File:Timemachinebook.jpg"
 +++
 First serialized in *The New Review* from January to May 1895 and published as a book that May [1]. A Victorian
 scientist travels to the year 802,701 and finds humanity split into two species: the gentle Eloi above ground and the

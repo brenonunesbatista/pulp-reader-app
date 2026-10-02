@@ -17,6 +17,12 @@ n = 1
 title = "The War of the Worlds (1938 radio drama) — Wikipedia"
 url = "https://en.wikipedia.org/wiki/The_War_of_the_Worlds_(1938_radio_drama)"
 accessed = "2026-10-01"
+
+[image]
+url = "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Orson_Welles_War_of_the_Worlds_1938.jpg/960px-Orson_Welles_War_of_the_Worlds_1938.jpg"
+credit = "Acme News Photos"
+license = "Public domain"
+source = "https://commons.wikimedia.org/wiki/File:Orson_Welles_War_of_the_Worlds_1938.jpg"
 +++
 Broadcast by CBS on 30 October 1938, directed and narrated by Orson Welles from a script by Howard Koch [1]. It told
 the invasion as a series of breaking news bulletins, with the Martians landing at Grovers Mill, New Jersey [1].

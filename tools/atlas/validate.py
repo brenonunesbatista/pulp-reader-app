@@ -16,7 +16,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 TYPES = {"person", "work", "film", "series", "radio", "music", "artwork", "magazine", "issue", "event", "movement", "theme"}
 LANES = {"magazines", "books", "film-tv", "music", "visual-art", "comics", "events"}
-RELS = {"influenced", "adapted_as", "published_in", "created_by", "read_next", "context"}
+RELS = {"influenced", "adapted_as", "published_in", "collected_in", "cover_of", "created_by", "read_next", "context"}
+EXTERNAL = {"imdb": re.compile(r"^tt\d{7,}$"), "spotify_album": re.compile(r"^[A-Za-z0-9]{22}$")}
 STATUSES = {"draft", "reviewed"}
 DATE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
 ID = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
@@ -132,6 +133,20 @@ def validate(content: Path, catalog_db: Path | None) -> Report:
             r.err(where, "no sources")
         if "## Why it matters" not in d.body and m.get("type") != "theme":
             r.warn(where, "no 'Why it matters' section")
+
+        # image and external links
+        img = m.get("image") or {}
+        if img and not img.get("catalog_cover"):
+            for k in ("url", "credit", "license", "source"):
+                if not img.get(k):
+                    r.err(where, f"image needs {k} (or catalog_cover)")
+            if img.get("url") and not str(img["url"]).startswith("https://"):
+                r.err(where, "image url must be https")
+        for k, v in (m.get("external") or {}).items():
+            if k not in EXTERNAL:
+                r.err(where, f"unknown external id {k!r}")
+            elif not EXTERNAL[k].match(str(v)):
+                r.err(where, f"external {k} {v!r} has the wrong format")
 
         # catalog references
         refs = list(m.get("catalog", []))

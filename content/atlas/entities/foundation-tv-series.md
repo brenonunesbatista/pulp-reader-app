@@ -13,6 +13,9 @@ n = 1
 title = "Foundation (TV series) — Wikipedia"
 url = "https://en.wikipedia.org/wiki/Foundation_(TV_series)"
 accessed = "2026-10-01"
+
+[external]
+imdb = "tt0804484"
 +++
 Developed by David S. Goyer and Josh Friedman, it premiered on Apple TV+ on 24 September 2021, with Jared Harris as
 Hari Seldon and Lee Pace as Brother Day [1]. It departs freely from the books: its "genetic dynasty" of cloned

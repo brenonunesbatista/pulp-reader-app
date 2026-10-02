@@ -33,6 +33,12 @@ n = 2
 title = "Golden Age of Science Fiction — Wikipedia"
 url = "https://en.wikipedia.org/wiki/Golden_Age_of_Science_Fiction"
 accessed = "2026-10-01"
+
+[image]
+url = "https://upload.wikimedia.org/wikipedia/commons/1/14/14th_WSFS_008_-_1956_John_Campbell_cropped.jpg"
+credit = "slomuse"
+license = "Public domain"
+source = "https://commons.wikimedia.org/wiki/File:14th_WSFS_008_-_1956_John_Campbell_cropped.jpg"
 +++
 John W. Campbell Jr. was born in Newark, New Jersey, on 8 June 1910 and died on 11 July 1971 [1]. His first
 published story, "When the Atoms Failed", appeared in *Amazing Stories* in January 1930; he wrote space opera under

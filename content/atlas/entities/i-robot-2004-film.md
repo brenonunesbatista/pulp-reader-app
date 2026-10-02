@@ -13,6 +13,9 @@ n = 1
 title = "I, Robot — Wikipedia"
 url = "https://en.wikipedia.org/wiki/I,_Robot"
 accessed = "2026-10-01"
+
+[external]
+imdb = "tt0343818"
 +++
 The 2004 film starring Will Smith takes its title, characters and the Three Laws from Asimov, but its story is largely
 original, drawing mainly on "Little Lost Robot" [1].
