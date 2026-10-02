@@ -66,10 +66,14 @@ def main() -> None:
     ap.add_argument("--out", type=Path, required=True)
     ap.add_argument("--content", type=Path, default=ROOT / "content" / "atlas")
     ap.add_argument("--catalog", type=Path, default=ROOT / "app" / "public" / "catalog")
+    ap.add_argument("--path", help="path id to show (default: the first draft path, else the first path)")
+    ap.add_argument("--drafts", action="store_true", help="list only draft entities (new content to review)")
     a = ap.parse_args()
 
     docs = {p.stem: parse(p) for p in sorted((a.content / "entities").glob("*.md"))}
-    path = parse(next((a.content / "paths").glob("*.md")))
+    paths = [parse(p) for p in sorted((a.content / "paths").glob("*.md"))]
+    path = next((p for p in paths if p.meta["id"] == a.path), None) if a.path else         next((p for p in paths if p.meta.get("status") == "draft"), paths[0])
+    shown = {i for i, d in docs.items() if not a.drafts or d.meta["status"] == "draft"}
     con = sqlite3.connect(a.catalog / "catalog.db") if (a.catalog / "catalog.db").exists() else None
 
     def readable(mag: str, issue: str) -> bool | None:
@@ -105,7 +109,7 @@ def main() -> None:
 
     sections = []
     for typ in ORDER:
-        ids = sorted((i for i, d in docs.items() if d.meta["type"] == typ), key=lambda i: str(docs[i].meta.get("date", "")))
+        ids = sorted((i for i, d in docs.items() if d.meta["type"] == typ and i in shown), key=lambda i: str(docs[i].meta.get("date", "")))
         if not ids:
             continue
         cards = []
@@ -185,12 +189,12 @@ def main() -> None:
         .replace("%SUBTITLE%", html.escape(path.meta.get("subtitle", ""))) \
         .replace("%INTRO%", body_html(path.body, "path")) \
         .replace("%STOPS%", "".join(stops)).replace("%SECTIONS%", "".join(sections)) \
-        .replace("%COUNT%", str(len(docs))).replace("%PATHN%", str(len(stops)))
+        .replace("%COUNT%", str(len(shown))).replace("%PATHID%", path.meta["id"]).replace("%PATHN%", str(len(stops)))
     a.out.write_text(page, encoding="utf-8")
     print(f"wrote {a.out} ({len(page) // 1024} KB, {len(docs)} entities)")
 
 
-TEMPLATE = r"""<title>Atlas Pilot Review</title>
+TEMPLATE = r"""<title>Atlas Review</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
 <style>
@@ -316,7 +320,7 @@ textarea { flex: 1 1 260px; min-width: 0; min-height: 40px; border: 2px solid va
 <div class="toast" id="toast" hidden>Copied</div>
 <script>
 (function () {
-  var KEY = 'atlas-pilot-review';
+  var KEY = 'atlas-review-%PATHID%';
   var state = {};
   try { state = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { state = {}; }
   function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
@@ -354,7 +358,7 @@ textarea { flex: 1 1 260px; min-width: 0; min-height: 40px; border: 2px solid va
       else if (s.v === 'change') change.push(c.dataset.id + ' (' + t + '): ' + ((s.note || '').trim() || 'change requested'));
       else todo.push(c.dataset.id);
     });
-    return 'Atlas pilot review\n\nOK (' + ok.length + '):\n' + ok.map(function (x) { return '- ' + x; }).join('\n') +
+    return 'Atlas review: %PATHID%\n\nOK (' + ok.length + '):\n' + ok.map(function (x) { return '- ' + x; }).join('\n') +
       '\n\nChange (' + change.length + '):\n' + change.map(function (x) { return '- ' + x; }).join('\n') +
       '\n\nNot reviewed (' + todo.length + '):\n' + todo.map(function (x) { return '- ' + x; }).join('\n') + '\n';
   }
