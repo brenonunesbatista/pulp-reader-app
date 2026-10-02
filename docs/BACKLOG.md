@@ -12,7 +12,7 @@ Ideas and sources to add later. Items move into a phase brief when they are sche
 | ✅ **4 Phones** (layouts done in Phase 3; tablet verified 2026-10-01; S25 test pending) | responsive app shell (S25 first: ~412 dp wide, bottom navigation, 2-column grids), any Android phone ≥ Android 8 | cheap if the design sprint already covers phone layouts |
 | ✅ **5 Downloads** (verified on the tablet 2026-10-01) | SPEC phase 4 + user request: *Delete all* in Settings, a way to see what is downloaded (filter) | |
 | ✅ **6 Highlights & export** (verified on the tablet 2026-10-01) | SPEC phase 5: 4 colors, notes, web search, Notes screen, Markdown export | |
-| 🧪 **7 Atlas (Explore / Hall)** — design ✅, pilot content ✅, app built 2026-10-01 (device test pending); next: 7d saved timelines, curator inbox, more paths | curated knowledge layer: interactive timeline, stories, authors, characters, themes, influence on film/music/manga; AI-drafted entries with web sources, reviewed by the user | needs a content pipeline + curation time; its data model starts in a spike early (see below) |
+| ✅ **7 Atlas (Explore / Hall)** — pilot verified on the tablet 2026-10-02; next: 7d saved timelines, curator inbox, more paths | curated knowledge layer: interactive timeline, stories, authors, characters, themes, influence on film/music/manga; AI-drafted entries with web sources, reviewed by the user | needs a content pipeline + curation time; its data model starts in a spike early (see below) |
 | 8 New sources | categories `pulp` / `rpg` / `comics` and the sources listed below | each source = adapter + dedupe + (later) contents |
 
 ## Atlas (Explore / Hall) — design notes
