@@ -125,6 +125,7 @@ A third category next to `pulp` and `rpg`: **`comics`**. Links as given by the u
 | Miracleman #16 | `miracleman-reprints` | pack |
 | Daredevil Masterworks v01 (2003) | `marvel-masterworks-daredevil-v-1-19` | pack |
 | Captain America Masterworks v17 (2025) | `marvel-masterworks-captain-america-v-1-17` | pack |
+| Conan the Barbarian #1 (Marvel, 1970) | `conan-the-barbarian-1-24` (`Conan The Barbarian 001`) | pack: issues 1–24 |
 
 Notes for when this is built:
 - Almost all are **packs** (one item, many books addressed by file path), so they reuse the pack work planned for
@@ -135,8 +136,8 @@ Notes for when this is built:
 - **Reader option requested:** "single page even in landscape" (Peanuts strips are wide). Make it a reader setting
   (Spreads: auto / always single page), possibly remembered per title. Cheap; can be done earlier if wanted.
 - **Rights, to discuss before building** (same concern as the D&D 5e item below): most of these are current
-  commercial editions (Marvel Masterworks, including a 2025 volume; Asterix; The Complete Peanuts; Hellblazer;
-  Miracleman; Abril's Conan), and the scanner-group tags in the file names ("Digital", "Empire", "pinkcomics") suggest
+  commercial editions (Marvel Masterworks, including a 2025 volume; Marvel's Conan the Barbarian; Asterix; The Complete
+  Peanuts; Hellblazer; Miracleman; Abril's Conan), and the scanner-group tags in the file names ("Digital", "Empire", "pinkcomics") suggest
   unauthorized uploads that IA may take down. 1950s Dell titles like Turok are the most likely to be clear.
 
 ## Not planned
