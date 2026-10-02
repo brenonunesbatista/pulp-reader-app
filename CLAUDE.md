@@ -26,11 +26,12 @@ Capacitor (Android) · Vite · React · TypeScript (strict) · SQLite (`@capacit
   (writes `catalog.db` + `covers/*.webp`, both git-ignored, and `docs/catalog-report.md`)
 - Atlas review page: `python tools/atlas/review_page.py --out <file.html>` (one HTML page, path + all entities, OK/Change marks)
 - Atlas media suggestions: `python tools/atlas/suggest_media.py --out media.json` (free Commons images + IMDb/Spotify ids from Wikidata, batched; review before adding)
+- Atlas build: `python tools/atlas/build_atlas.py` → `app/public/atlas/atlas.db` (reviewed entities only; also run automatically by the app's `predev`/`prebuild` via `app/scripts/copy-databases.mjs`)
 - Atlas content check: `python tools/atlas/validate.py` (front matter, links, themes, citations, catalog references; content in `content/atlas/`, format in its README)
 - Tests: `npm test` (app), `pytest` (tools; run from the repo root — synthetic fixture PDF, real-guide smoke test skipped if the PDF is absent)
 
 ## App structure (app/src)
-- `db/` — `Db` interface; `nativeDb.ts` (@capacitor-community/sqlite, Android) and `wasmDb.ts` (sqlite-wasm: browser dev + tests); `userSchema.ts` migrations for `user.db`
+- `db/` — `Db` interface (three databases: `catalog` and `atlas` read-only, shipped; `user` read-write); `nativeDb.ts` (@capacitor-community/sqlite, Android) and `wasmDb.ts` (sqlite-wasm: browser dev + tests); `userSchema.ts` migrations for `user.db`
 - `data/` — repositories (only place with SQL): `catalogRepo.ts`, `progressRepo.ts`, `annotationRepo.ts`, `downloadRepo.ts`, `settingsRepo.ts`, `fts.ts`
 - `downloads/` — `manager.ts` (queue, retries, resume, network policy; pure + tested), `store.ts` (Android app data dir `downloads/<ident>/` or memory), `DownloadsProvider` + hooks (`useDownload`, `useDownloadList`)
 - `notes/` — `gather.ts` (highlights + bookmarks with story titles and printed pages), `markdown.ts` (export, pure + tested), `share.ts` (share sheet, clipboard, web search)

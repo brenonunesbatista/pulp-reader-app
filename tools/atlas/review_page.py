@@ -13,7 +13,10 @@ import re
 import sqlite3
 from pathlib import Path
 
-from validate import ROOT, parse
+try:  # as a package (tests) or as a script
+    from .validate import ROOT, parse
+except ImportError:
+    from validate import ROOT, parse
 
 TYPE_LABEL = {"person": "Person", "work": "Work", "film": "Film", "series": "TV series", "radio": "Radio",
               "music": "Music", "artwork": "Visual art", "magazine": "Magazine", "issue": "Issue", "event": "Event",

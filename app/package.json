@@ -8,8 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "predev": "node scripts/copy-catalog-db.mjs",
-    "prebuild": "node scripts/copy-catalog-db.mjs",
+    "predev": "node scripts/copy-databases.mjs",
+    "prebuild": "node scripts/copy-databases.mjs",
     "typecheck": "tsc -b",
     "test": "vitest run"
   },

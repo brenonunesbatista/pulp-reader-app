@@ -11,5 +11,6 @@ export interface Db {
 
 export interface Databases {
   catalog: Db // read-only, replaced when the app ships a new catalog
+  atlas: Db // read-only curated Atlas content (tools/atlas), replaced with the catalog
   user: Db // progress/highlights/downloads/settings — never overwritten by catalog updates
 }

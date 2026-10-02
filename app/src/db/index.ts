@@ -13,11 +13,11 @@ export function openDatabases(): Promise<Databases & { info: string }> {
     }
     const t0 = performance.now()
     const { dbFromBytes, memoryDb } = await import('./wasmDb')
-    const bytes = new Uint8Array(await (await fetch('/catalog/catalog.db')).arrayBuffer())
-    const catalog = await dbFromBytes(bytes)
+    const load = async (url: string) => dbFromBytes(new Uint8Array(await (await fetch(url)).arrayBuffer()))
+    const [catalog, atlas] = await Promise.all([load('/catalog/catalog.db'), load('/atlas/atlas.db')])
     const user = await memoryDb() // dev only: progress is not persisted in the browser
     await migrateUserDb(user)
-    return { catalog, user, info: `web sqlite-wasm in ${Math.round(performance.now() - t0)} ms` }
+    return { catalog, atlas, user, info: `web sqlite-wasm in ${Math.round(performance.now() - t0)} ms` }
   })()
   return opening
 }

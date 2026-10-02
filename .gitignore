@@ -16,6 +16,8 @@ tools/spike/out/
 
 # Generated catalog (reproducible with tools/build_catalog.py; derived from the "not for distribution" guide)
 app/public/catalog/
+# Generated Atlas db (tools/atlas/build_atlas.py, rebuilt by the app's predev/prebuild)
+app/public/atlas/
 
 # OS / editors
 .DS_Store

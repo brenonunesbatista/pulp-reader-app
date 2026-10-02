@@ -1,7 +1,7 @@
-// Android backend: @capacitor-community/sqlite. The prebuilt catalog ships in public/assets/databases/catalog.db
-// (copied there by scripts/copy-catalog-db.mjs, which also writes public/catalog/catalog.sha256). It is installed
-// into the app's database dir on first run, and again only when the shipped file's sha differs from the installed one
-// (remembered in user.db settings) — catalog updates never touch user.db tables.
+// Android backend: @capacitor-community/sqlite. The prebuilt catalog.db and atlas.db ship in public/assets/databases/
+// (copied there by scripts/copy-databases.mjs, which also writes public/catalog/databases.sha256). They are installed
+// into the app's database dir on first run, and again only when the shipped sha differs from the installed one
+// (remembered in user.db settings) — content updates never touch user.db tables.
 import { CapacitorSQLite, SQLiteConnection, type SQLiteDBConnection } from '@capacitor-community/sqlite'
 import type { Db, SqlParam } from './types'
 import { migrateUserDb } from './userSchema'
@@ -36,24 +36,25 @@ async function connect(name: string, readonly: boolean): Promise<SQLiteDBConnect
   return conn
 }
 
-async function shippedCatalogSha(): Promise<string> {
-  const r = await fetch('/catalog/catalog.sha256')
-  if (!r.ok) throw new Error('catalog.sha256 missing from the app bundle')
+async function shippedSha(): Promise<string> {
+  const r = await fetch('/catalog/databases.sha256')
+  if (!r.ok) throw new Error('databases.sha256 missing from the app bundle')
   return (await r.text()).trim()
 }
 
-export async function openNative(): Promise<{ catalog: Db; user: Db; info: string }> {
+export async function openNative(): Promise<{ catalog: Db; atlas: Db; user: Db; info: string }> {
   const t0 = performance.now()
   const user = new NativeDb(await connect('user', false))
   await migrateUserDb(user)
-  const shipped = await shippedCatalogSha()
-  const installed = (await user.query<{ value: string }>("SELECT value FROM settings WHERE key = 'catalog_sha256'"))[0]?.value
-  const present = (await sqlite.isDatabase('catalog')).result
+  const shipped = await shippedSha()
+  const installed = (await user.query<{ value: string }>("SELECT value FROM settings WHERE key = 'databases_sha256'"))[0]?.value
+  const present = (await sqlite.isDatabase('catalog')).result && (await sqlite.isDatabase('atlas')).result
   const install = !present || installed !== shipped
   if (install) {
     await sqlite.copyFromAssets(true)
-    await user.run("INSERT OR REPLACE INTO settings (key, value) VALUES ('catalog_sha256', ?)", [shipped])
+    await user.run("INSERT OR REPLACE INTO settings (key, value) VALUES ('databases_sha256', ?)", [shipped])
   }
   const catalog = new NativeDb(await connect('catalog', true))
-  return { catalog, user, info: `${install ? 'catalog installed' : 'catalog ready'} in ${Math.round(performance.now() - t0)} ms` }
+  const atlas = new NativeDb(await connect('atlas', true))
+  return { catalog, atlas, user, info: `${install ? 'databases installed' : 'databases ready'} in ${Math.round(performance.now() - t0)} ms` }
 }

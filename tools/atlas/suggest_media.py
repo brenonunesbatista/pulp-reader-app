@@ -22,7 +22,10 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-from validate import ROOT, parse
+try:  # as a package (tests) or as a script
+    from .validate import ROOT, parse
+except ImportError:
+    from validate import ROOT, parse
 
 UA = "BancaAtlas/0.1 (personal-use content pipeline; github.com/brenonunesbatista/pulp-reader-app)"
 FREE = re.compile(r"^(public domain|pd|cc0|cc[- ]by(-sa)?( \d\.\d)?)", re.I)
