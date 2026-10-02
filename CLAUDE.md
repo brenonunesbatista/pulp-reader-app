@@ -9,6 +9,7 @@ Capacitor (Android) · Vite · React · TypeScript (strict) · SQLite (`@capacit
 - `app/` — the Capacitor/React app
 - `tools/` — Python catalog builders (one adapter per magazine), with tests
 - `data/source/` — input reference files (e.g. the Amazing Stories PDF). **Never commit these** (they are marked "not for distribution"); keep in `.gitignore`.
+- `content/atlas/` — Atlas entities and paths (TOML front matter + Markdown, one file each; `status = "draft" | "reviewed"`)
 - `docs/` — `DECISIONS.md` (append a dated entry for every non-trivial technical decision), `archive-findings.md`
 - `SPEC.md`, `PHASE*_PROMPT.md`
 
@@ -23,6 +24,7 @@ Capacitor (Android) · Vite · React · TypeScript (strict) · SQLite (`@capacit
 - Python setup (once): `python -m venv .venv && .venv\Scripts\pip install -r tools/requirements.txt`
 - Catalog build: `python tools/build_catalog.py --source data/source/Amazing_Stories_Reference_Guide.pdf --out app/public/catalog`
   (writes `catalog.db` + `covers/*.webp`, both git-ignored, and `docs/catalog-report.md`)
+- Atlas content check: `python tools/atlas/validate.py` (front matter, links, themes, citations, catalog references; content in `content/atlas/`, format in its README)
 - Tests: `npm test` (app), `pytest` (tools; run from the repo root — synthetic fixture PDF, real-guide smoke test skipped if the PDF is absent)
 
 ## App structure (app/src)

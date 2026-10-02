@@ -197,3 +197,17 @@ implementation work for the next phase (plan first).
   "Marooned off Vesta" is in Amazing Stories, March 1939 → Foundation on screen), ~30–40 entities.
 - **Design:** the owner designs the Atlas screens in Claude Artifacts (prompt: `docs/design/atlas-artifact-prompt.md`);
   sub-phases 7a design → 7b pilot content → 7c app → 7d saved timelines / curator inbox / more paths.
+
+## 2026-10-01 — Phase 7b: Atlas content format and pilot path
+- **Format:** one Markdown file per entity with **TOML** front matter between `+++` lines (Python 3.11 reads TOML with
+  the standard library, so no YAML dependency). Fields and link meanings: `content/atlas/README.md`. Links are stored
+  in one direction; the builder will derive inverses. Every factual sentence cites a numbered source.
+- **Validator** `tools/atlas/validate.py` (+ pytest): ids = file names, types/lanes/dates, themes exist, links resolve,
+  citations match sources, and catalog references (magazine/issue/story) exist in `catalog.db`.
+- **Pilot "From Wells to Foundation":** 37 entities (6 people, 2 magazines, 1 issue, 1 cover artwork, 9 literary works,
+  6 film/TV/radio, 1 album, 3 events, 1 movement, 6 themes) and a 19-stop path. Sources: Wikipedia articles fetched on
+  2026-10-01, plus the catalog itself.
+- **Finding:** all four Asimov stories in *Amazing Stories* (incl. "Marooned off Vesta", March 1939) are in the
+  catalog but have **no Internet Archive scan**; the Wells reprints (The Time Machine, May 1927; The War of the Worlds,
+  Aug–Sep 1927; The New Accelerator, Apr 1926) are readable. The path says so instead of offering "Read in Banca".
+- Not yet added (need checking before they go in): IMDb/Spotify ids, Wikimedia images with licences, Wikidata ids.

@@ -116,6 +116,7 @@ pytest                                                      # catalog tools, fro
 | `app/src/notes/` | notes gathering, Markdown export (pure, tested), share sheet / web search helpers |
 | `app/src/downloads/` | download manager (queue, retries, resume, Wi-Fi policy), file store, React hooks |
 | `app/android/.../BancaDisplayPlugin.java` | small native plugin: reader brightness and immersive full screen |
+| `content/atlas/` | Atlas entities and guided paths (curated text with sources), checked by `tools/atlas/validate.py` |
 | `tools/` | catalog builder, magazine adapters, tests, Internet Archive investigation scripts, `brand/` icon generator |
 | `docs/` | decisions log, Internet Archive findings, catalog report, benchmark checklist, backlog |
 | `docs/design/` | Banca visual identity: design system spec (`banca-newsprint.md`) and mockup sources (`mockups/`) |
