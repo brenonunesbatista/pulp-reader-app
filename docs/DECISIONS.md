@@ -185,3 +185,15 @@ implementation work for the next phase (plan first).
   column): plain rows with a color bar, `p. N · Story`, the text and the note. Highlight text is shown and exported as
   one paragraph (`cleanText`): OCR line breaks become spaces and a word hyphenated at a line end is joined when the
   next line starts lowercase (a real compound split exactly at a line end, e.g. "space-/suits", is joined too).
+
+## 2026-10-01 — Phase 7 (Atlas): decisions before building
+- **No AI at runtime.** The Atlas shows curated content only (offline, no API key on the device). AI may later only
+  *suggest* additions into a curator inbox.
+- **Content is authored by Claude Code in this repo** (web search, a source URL for every claim, image licence and
+  credit), one Markdown file per entity under `content/atlas/` with `status: draft | reviewed`; the owner reviews; a
+  builder writes `atlas.db`. No API key or paid pipeline needed.
+- **Language:** English, like the rest of the app.
+- **Pilot path:** "From Wells to Foundation" (Wells → Amazing Stories 1926 → Golden Age → Asimov, whose first story
+  "Marooned off Vesta" is in Amazing Stories, March 1939 → Foundation on screen), ~30–40 entities.
+- **Design:** the owner designs the Atlas screens in Claude Artifacts (prompt: `docs/design/atlas-artifact-prompt.md`);
+  sub-phases 7a design → 7b pilot content → 7c app → 7d saved timelines / curator inbox / more paths.

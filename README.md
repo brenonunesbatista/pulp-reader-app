@@ -7,8 +7,8 @@
 Built for a Samsung Galaxy Tab A9+ (11", 1920×1200), with phone layouts for the Galaxy S25. Personal use only. It is not published on any store; see
 [Distribution](#distribution).
 
-> Status: **Phase 6 (notes and export) built, testing on the device.** Catalog, search, the production reader,
-> offline downloads, highlights with notes and Markdown export work. See [Roadmap](#roadmap).
+> Status: **Phase 6 (notes and export) done**; **Phase 7 (Atlas)** is in design. Catalog, search, the production
+> reader, offline downloads, highlights with notes and Markdown export work. See [Roadmap](#roadmap).
 
 ## Features
 
@@ -130,9 +130,12 @@ pytest                                                      # catalog tools, fro
 3. ✅ **Banca + reader**: identity applied to every screen, phone layouts, production reader (spreads, page index,
    contents, slider, themes, brightness, warm filter, enhance text, OCR page numbers, highlights and bookmarks).
 4. ✅ **Downloads**: offline issues, resumable, Wi-Fi only, downloaded filter, storage management.
-5. 🧪 **Notes and export**: highlight colors, notes, web search, Notes screen, Markdown export (testing on the device).
+5. ✅ **Notes and export**: highlight colors, notes, web search, Notes screen, Markdown export.
+6. 🎨 **Atlas** (in design): a curated, offline "museum" linking the stories to authors, themes, film, music, comics
+   and visual art, with a timeline, entity pages, "explore next" recommendations and want-to lists. Pilot path:
+   *From Wells to Foundation*. Design prompt: [docs/design/atlas-artifact-prompt.md](docs/design/atlas-artifact-prompt.md).
 
-Next sources (content categories **pulp** and **rpg**: F&SF, Galaxy, Fantastic, Asimov's, Twilight Zone, Dragon,
+Next sources (content categories **pulp**, **rpg** and **comics**: F&SF, Galaxy, Fantastic, Asimov's, Twilight Zone, Dragon,
 Dungeon, The Space Gamer, …) are tracked in [docs/BACKLOG.md](docs/BACKLOG.md).
 
 ## Distribution
