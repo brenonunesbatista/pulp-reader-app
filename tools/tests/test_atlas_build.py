@@ -37,11 +37,12 @@ def test_reproducible(tmp_path):
 def test_drafts_are_left_out_and_errors_stop_the_build(tmp_path):
     content = tmp_path / "atlas"
     shutil.copytree(CONTENT, content)
+    before = build(content, tmp_path / "w.db", None)["drafts_skipped"]
     p = content / "entities" / "sputnik-1.md"
     p.write_text(p.read_text(encoding="utf-8").replace('status = "reviewed"', 'status = "draft"'), encoding="utf-8")
     stats = build(content, tmp_path / "x.db", None)
     con = sqlite3.connect(tmp_path / "x.db")
-    assert stats["drafts_skipped"] == 1
+    assert stats["drafts_skipped"] == before + 1
     assert con.execute("SELECT count(*) FROM entity WHERE id = 'sputnik-1'").fetchone()[0] == 0
     assert con.execute("SELECT count(*) FROM path_stop WHERE entity_id = 'sputnik-1'").fetchone()[0] == 0
 
