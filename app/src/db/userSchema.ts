@@ -27,6 +27,13 @@ export const USER_MIGRATIONS: string[] = [
   // v3 (Phase 5): downloads remember their scan (resume after restart without the catalog) and the last error
   `ALTER TABLE download ADD COLUMN ia_identifier TEXT;
    ALTER TABLE download ADD COLUMN error TEXT;`,
+  // v4 (Phase 7): Atlas want-to lists and visited entities (entity ids from atlas.db)
+  `CREATE TABLE want_to (
+     entity_id TEXT PRIMARY KEY, list TEXT NOT NULL CHECK (list IN ('read','watch','listen','see')),
+     added_at INTEGER NOT NULL, done_at INTEGER, from_label TEXT);
+   CREATE TABLE atlas_visit (
+     entity_id TEXT PRIMARY KEY, first_at INTEGER NOT NULL, last_at INTEGER NOT NULL, count INTEGER NOT NULL);
+   CREATE INDEX atlas_visit_recent ON atlas_visit(last_at DESC);`,
 ]
 
 export async function migrateUserDb(db: Db): Promise<number> {

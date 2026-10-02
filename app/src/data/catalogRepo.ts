@@ -219,3 +219,16 @@ export async function yearRange(db: Db): Promise<{ min: number; max: number }> {
   const r = await db.query<{ min: number; max: number }>(`SELECT min(year) AS min, max(year) AS max FROM issue`)
   return r[0]
 }
+
+/** Atlas → catalog: the issue of a magazine in a given month, and a story in it by exact title */
+export async function findIssueByMonth(db: Db, magazineSlug: string, year: number, month: number): Promise<IssueSummary | null> {
+  const rows = await db.query<IssueRow>(`SELECT ${ISSUE_COLS} FROM issue i JOIN magazine m ON m.id = i.magazine_id
+    WHERE m.slug = ? AND i.year = ? AND i.month = ? LIMIT 1`, [magazineSlug, year, month])
+  return rows.length ? toIssue(rows[0]) : null
+}
+
+export async function findStory(db: Db, issueId: number, title: string): Promise<{ id: number; iaLeaf: number | null } | null> {
+  const rows = await db.query<{ id: number; ia_leaf: number | null }>(
+    `SELECT id, ia_leaf FROM story WHERE issue_id = ? AND title = ? ORDER BY sort_order LIMIT 1`, [issueId, title])
+  return rows.length ? { id: rows[0].id, iaLeaf: rows[0].ia_leaf } : null
+}
