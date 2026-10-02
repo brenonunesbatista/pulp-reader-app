@@ -51,14 +51,19 @@ export function NavProvider({ render }: { render: (route: Route) => ReactNode })
   const back = useCallback(() => {
     if (depthRef.current > 1) history.back()
   }, [])
-  const reset = useCallback(() => {
+  /** Back to the Library root, then (for another section, e.g. the Atlas) open `route` on top of it, so the hardware
+   *  Back from a section home returns to the Library. */
+  const reset = useCallback((route: Route = { name: 'library' }) => {
+    const open = () => { if (route.name !== 'library') push(route) }
     // drop the stack first; the single popstate fired by history.go(-n) then sees depth 1 and is ignored
     const n = depthRef.current - 1
-    if (n <= 0) return
+    if (n <= 0) return open()
     depthRef.current = 1
     dispatch({ type: 'reset', route: { name: 'library' } })
+    const afterPop = () => { window.removeEventListener('popstate', afterPop); open() }
+    window.addEventListener('popstate', afterPop)
     history.go(-n)
-  }, [])
+  }, [push])
   const top = state.entries[depth - 1].route
   const api = useMemo(() => ({ push, back, replace, reset, depth, top }), [push, back, replace, reset, depth, top])
 
