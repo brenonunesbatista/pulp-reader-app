@@ -9,6 +9,11 @@ export type Route =
   | { name: 'settings' }
   | { name: 'notes' }
   | { name: 'soon'; what: 'rpg' | 'atlas' }
+  | { name: 'atlas' }
+  | { name: 'timeline'; focus?: string }
+  | { name: 'entity'; id: string }
+  | { name: 'path'; id: string }
+  | { name: 'wantTo'; list?: 'read' | 'watch' | 'listen' | 'see' }
 
 export interface Entry {
   key: number
@@ -53,6 +58,11 @@ export function routeToHash(r: Route): string {
     case 'settings': return '#/settings'
     case 'notes': return '#/notes'
     case 'soon': return `#/soon/${r.what}`
+    case 'atlas': return '#/atlas'
+    case 'timeline': return `#/timeline${r.focus ? `/${r.focus}` : ''}`
+    case 'entity': return `#/entity/${r.id}`
+    case 'path': return `#/path/${r.id}`
+    case 'wantTo': return `#/want-to${r.list ? `/${r.list}` : ''}`
   }
 }
 
@@ -69,6 +79,11 @@ export function hashToRoute(hash: string): Route {
     case 'settings': return { name }
     case 'notes': return { name }
     case 'soon': return a === 'rpg' || a === 'atlas' ? { name, what: a } : { name: 'library' }
+    case 'atlas': return { name }
+    case 'timeline': return a ? { name, focus: a } : { name }
+    case 'entity': return a ? { name, id: a } : { name: 'atlas' }
+    case 'path': return a ? { name, id: a } : { name: 'atlas' }
+    case 'want-to': return a === 'read' || a === 'watch' || a === 'listen' || a === 'see' ? { name: 'wantTo', list: a } : { name: 'wantTo' }
     default: return { name: 'library' }
   }
 }

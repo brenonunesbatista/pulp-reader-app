@@ -7,8 +7,8 @@
 Built for a Samsung Galaxy Tab A9+ (11", 1920×1200), with phone layouts for the Galaxy S25. Personal use only. It is not published on any store; see
 [Distribution](#distribution).
 
-> Status: **Phase 6 (notes and export) done**; **Phase 7 (Atlas)** is in design. Catalog, search, the production
-> reader, offline downloads, highlights with notes and Markdown export work. See [Roadmap](#roadmap).
+> Status: **Phase 7 (Atlas) built, testing on the device.** Catalog, search, the production reader, offline downloads,
+> highlights with notes, Markdown export and the first Atlas path work. See [Roadmap](#roadmap).
 
 ## Features
 
@@ -42,6 +42,16 @@ Built for a Samsung Galaxy Tab A9+ (11", 1920×1200), with phone layouts for the
 - **Notes** (pen icon in the masthead): every highlight, note and bookmark across issues, grouped by issue with story
   titles and printed page numbers; search, color filter, tap to open the page, trash icon to delete (two taps). **Export to Markdown** (one issue from
   the reader's Notes panel, or everything / the filtered list) through Android's share sheet, or copy to the clipboard.
+- **Atlas** (ATLAS tab): a curated, offline "museum" that links the stories to authors, magazines, themes, film, radio,
+  music, visual art and world events. Every text cites its sources; images come from Wikimedia Commons (free licences,
+  credited, loaded online) or the catalog's covers.
+  - **Home**: the featured path with progress, *Explore next* (recommendations that always say why), recently explored,
+    your lists and a timeline preview; Atlas search.
+  - **Timeline**: an overview strip (1890 → today, one row per lane) above decade or year columns; tap an item to see its
+    connections (tags, pins and a side sheet); lane filter, jump to year. Phones get a vertical list and a bottom sheet.
+  - **Entity pages**: picture with credit, text with citations, connections grouped by type, explore next, sources;
+    **Read in Banca** opens the story in the reader (or says the issue has no scan yet); IMDb / Spotify links.
+  - **Path** ("From Wells to Foundation", 19 stops) and **Want to…** lists (read / watch / listen / see, done, undo).
 - **Downloads (offline reading)**:
   - *Download* on an issue stores its pages (1200 px), thumbnails, page list and OCR text on the device (about
     25–65 MB per issue); the reader then uses the local files, so it works in airplane mode;
@@ -132,7 +142,7 @@ pytest                                                      # catalog tools, fro
    contents, slider, themes, brightness, warm filter, enhance text, OCR page numbers, highlights and bookmarks).
 4. ✅ **Downloads**: offline issues, resumable, Wi-Fi only, downloaded filter, storage management.
 5. ✅ **Notes and export**: highlight colors, notes, web search, Notes screen, Markdown export.
-6. 🎨 **Atlas** (in design): a curated, offline "museum" linking the stories to authors, themes, film, music, comics
+6. 🧪 **Atlas** (built, testing on the device): a curated, offline "museum" linking the stories to authors, themes, film, music, comics
    and visual art, with a timeline, entity pages, "explore next" recommendations and want-to lists. Pilot path:
    *From Wells to Foundation*. Design prompt: [docs/design/atlas-artifact-prompt.md](docs/design/atlas-artifact-prompt.md);
    design spec: [docs/design/banca-atlas.md](docs/design/banca-atlas.md).

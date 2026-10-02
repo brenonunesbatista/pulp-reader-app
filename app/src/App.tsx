@@ -3,6 +3,11 @@ import { DownloadsProvider } from './downloads/DownloadsProvider'
 import { ReaderScreen } from './reader/ReaderScreen'
 import { NavProvider } from './nav/Nav'
 import type { Route } from './nav/stack'
+import { AtlasHomeScreen } from './atlas/AtlasHomeScreen'
+import { EntityScreen } from './atlas/EntityScreen'
+import { PathScreen } from './atlas/PathScreen'
+import { TimelineScreen } from './atlas/TimelineScreen'
+import { WantToScreen } from './atlas/WantToScreen'
 import { ComingSoonScreen } from './screens/ComingSoonScreen'
 import { IssueScreen } from './screens/IssueScreen'
 import { LibraryScreen } from './screens/LibraryScreen'
@@ -23,7 +28,12 @@ function screenFor(r: Route) {
     case 'reader': return <ReaderScreen issueId={r.issueId} leaf={r.leaf} storyId={r.storyId} />
     case 'settings': return <SettingsScreen />
     case 'notes': return <NotesScreen />
-    case 'soon': return <ComingSoonScreen what={r.what} />
+    case 'soon': return r.what === 'atlas' ? <AtlasHomeScreen /> : <ComingSoonScreen what={r.what} />
+    case 'atlas': return <AtlasHomeScreen />
+    case 'timeline': return <TimelineScreen focus={r.focus} />
+    case 'entity': return <EntityScreen id={r.id} />
+    case 'path': return <PathScreen id={r.id} />
+    case 'wantTo': return <WantToScreen list={r.list} />
   }
 }
 

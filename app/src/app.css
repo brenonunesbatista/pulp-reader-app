@@ -60,7 +60,9 @@ a { color: var(--press-blue); }
   user-select: none; -webkit-user-select: none; background: none; border: 0; padding: 0; }
 .masthead-title { font: 900 30px/1 var(--f-display); color: #F2B705; text-shadow: 2px 2px 0 #1F4E8C; text-transform: uppercase;
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
-.masthead-sub { font-size: 17px; color: var(--mast-ink); white-space: nowrap; }
+.masthead-sub { font-size: 17px; color: var(--mast-ink); white-space: nowrap; min-width: 0; overflow: hidden; text-overflow: ellipsis;
+  flex: 1 1 0; } /* the subtitle gives way before the title */
+.masthead-title:has(+ .masthead-sub) { flex-shrink: 0; max-width: 62%; }
 .tabs { display: flex; gap: 8px; }
 .tab { height: 44px; padding: 0 16px; border-radius: 4px; border: 2px solid #F5EBD3; background: transparent; color: #F5EBD3;
   display: flex; align-items: center; gap: 6px; font: 800 19px/1 var(--f-display); letter-spacing: .06em; }

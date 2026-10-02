@@ -232,3 +232,10 @@ export async function findStory(db: Db, issueId: number, title: string): Promise
     `SELECT id, ia_leaf FROM story WHERE issue_id = ? AND title = ? ORDER BY sort_order LIMIT 1`, [issueId, title])
   return rows.length ? { id: rows[0].id, iaLeaf: rows[0].ia_leaf } : null
 }
+
+/** magazine slug + month of issues (Atlas: which entities were read in Banca) */
+export async function issueKeys(db: Db, ids: number[]): Promise<{ id: number; magazine: string; year: number; month: number }[]> {
+  if (!ids.length) return []
+  return db.query(`SELECT i.id, m.slug AS magazine, i.year, i.month FROM issue i JOIN magazine m ON m.id = i.magazine_id
+    WHERE i.id IN (${ids.map(() => '?').join(',')})`, ids)
+}

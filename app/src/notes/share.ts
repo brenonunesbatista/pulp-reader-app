@@ -31,3 +31,8 @@ export async function searchWeb(text: string): Promise<void> {
   const q = text.replace(/\s+/g, ' ').trim().slice(0, 300)
   if (q) await Browser.open({ url: `https://www.google.com/search?q=${encodeURIComponent(q)}` })
 }
+
+/** an outside page (IMDb, Spotify, Wikimedia) in a Chrome tab over the app; Spotify links open the app when installed */
+export async function openExternal(url: string): Promise<void> {
+  await Browser.open({ url })
+}

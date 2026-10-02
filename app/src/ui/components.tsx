@@ -84,7 +84,7 @@ function SectionTabs({ section }: { section: Section }) {
     <nav className="tabs">
       <button className={`tab ${section === 'pulp' ? 'on' : ''}`} onClick={() => nav.reset({ name: 'library' })}>PULP</button>
       <button className={`tab ${section === 'rpg' ? 'on' : ''}`} onClick={() => nav.push({ name: 'soon', what: 'rpg' })}>RPG</button>
-      <button className={`tab ${section === 'atlas' ? 'on' : ''}`} onClick={() => nav.push({ name: 'soon', what: 'atlas' })}>ATLAS</button>
+      <button className={`tab ${section === 'atlas' ? 'on' : ''}`} onClick={() => nav.reset({ name: 'atlas' })}>ATLAS</button>
     </nav>
   )
 }
@@ -111,7 +111,7 @@ export function BottomNav({ section }: { section: Section }) {
   const items: { key: Exclude<Section, null>; label: string; icon: Parameters<typeof Icon>[0]['name']; go: () => void }[] = [
     { key: 'pulp', label: 'PULP', icon: 'pulp', go: () => nav.reset({ name: 'library' }) },
     { key: 'rpg', label: 'RPG', icon: 'dice', go: () => nav.push({ name: 'soon', what: 'rpg' }) },
-    { key: 'atlas', label: 'ATLAS', icon: 'atlas', go: () => nav.push({ name: 'soon', what: 'atlas' }) },
+    { key: 'atlas', label: 'ATLAS', icon: 'atlas', go: () => nav.reset({ name: 'atlas' }) },
     { key: 'search', label: 'SEARCH', icon: 'search', go: () => nav.push({ name: 'search' }) },
   ]
   return (

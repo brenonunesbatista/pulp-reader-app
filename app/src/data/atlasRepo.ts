@@ -146,6 +146,14 @@ export async function searchAtlas(atlas: Db, q: string, limit = 30): Promise<Ent
   return rows.map(toSummary)
 }
 
+/** entities whose Banca reference is in one of these issues */
+export async function entitiesForIssues(atlas: Db, keys: { magazine: string; year: number; month: number }[]): Promise<string[]> {
+  if (!keys.length) return []
+  const rows = await atlas.query<{ entity_id: string }>(`SELECT DISTINCT entity_id FROM catalog_ref WHERE ${
+    keys.map(() => '(magazine = ? AND year = ? AND month = ?)').join(' OR ')}`, keys.flatMap((k) => [k.magazine, k.year, k.month]))
+  return rows.map((r) => r.entity_id)
+}
+
 // ---- user data (user.db) ----------------------------------------------------------------------------------------------
 
 /** which list an entity can go on (people, themes, events and movements have none) */

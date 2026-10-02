@@ -20,7 +20,9 @@ describe('stack', () => {
   it('round-trips routes through the URL hash', () => {
     const routes: Route[] = [{ name: 'library' }, { name: 'magazine', id: 1 }, { name: 'issue', id: 42 },
       { name: 'person', id: 9 }, { name: 'search', q: 'h. g. wells' }, { name: 'reader', issueId: 3, leaf: 63 },
-      { name: 'reader', issueId: 3, leaf: 7, storyId: 99 }, { name: 'settings' }, { name: 'notes' }, { name: 'soon', what: 'atlas' }]
+      { name: 'reader', issueId: 3, leaf: 7, storyId: 99 }, { name: 'settings' }, { name: 'notes' }, { name: 'soon', what: 'atlas' },
+      { name: 'atlas' }, { name: 'timeline' }, { name: 'timeline', focus: 'h-g-wells' }, { name: 'entity', id: 'nightfall' },
+      { name: 'path', id: 'from-wells-to-foundation' }, { name: 'wantTo' }, { name: 'wantTo', list: 'watch' }]
     for (const r of routes) expect(hashToRoute(routeToHash(r))).toEqual(r)
     expect(hashToRoute('#/nonsense')).toEqual({ name: 'library' })
   })

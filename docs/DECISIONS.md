@@ -233,3 +233,19 @@ Banca" on *Marooned off Vesta*, which has no scan; the spec adds the "in the cat
   five films/series and the Spotify album for Jeff Wayne's album.
 - Link types from the design spec added to the format: `collected_in` (Runaround → I, Robot) and `cover_of` (the
   August 1927 cover → The War of the Worlds). "Same theme" is derived from `themes`.
+
+## 2026-10-01 — Phase 7c: Atlas in the app
+- **Third database** `atlas.db` (read-only, shipped like the catalog; `copy-databases.mjs` rebuilds it from
+  `content/atlas` on every dev/build run and one sha covers both shipped dbs). User data in `user.db` v4: `want_to`
+  (entity, list read/watch/listen/see, done) and `atlas_visit` (first/last/count) — entity ids are stable strings.
+- **Recommendations** (`atlas/recommend.ts`): sum of weighted signals around an entity — read next 10, adapted 8,
+  influenced 7, created/cover/collected 5, published 4, context 3 (×0.8 seen from the other side; a backwards "read
+  next" ×0.2), same theme 4, next path stop 6, same year in another lane 1.5. The strongest contribution names the
+  reason. User history: done ×0.2, on a list ×0.8, read in Banca ×0.5, visited ×0.6. Home seeds = entities read in
+  Banca (via catalog refs of issues with progress) + the last 5 visits; with no history, the path start.
+- **Timeline** follows the spec's layout B: overview strip + stage of decade (6) / year (9) columns with scroll-snap,
+  only visible columns ±1 render their cards, max 4/3 cards then "+N more"; no connection lines (tags, pins and the
+  sheet instead). Phones: vertical grouped list + peek bottom sheet with a horizontal row of connections.
+- **Read in Banca** resolves the content's catalog refs at runtime (magazine slug + month + story title → issue/story);
+  an issue without a scan shows the dashed "In Amazing Stories · no scan yet" button that opens the Issue screen.
+- Works on the Books lane are labelled "Book", others "Story". The masthead subtitle now shrinks before the title.

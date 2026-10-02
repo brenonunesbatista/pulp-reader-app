@@ -1,5 +1,6 @@
 // Atlas vocabulary shared by screens and recommendations: lanes, entity types, link labels (docs/design/banca-atlas.md).
-import type { EntityType, Lane, LinkRel } from '../data/atlasRepo'
+import type { CSSProperties } from 'react'
+import type { EntitySummary, EntityType, Lane, LinkRel } from '../data/atlasRepo'
 
 export const LANES: { id: Lane; label: string; short: string }[] = [
   { id: 'magazines', label: 'Magazines & stories', short: 'Magazines' },
@@ -71,4 +72,24 @@ export function fmtDate(d: string | null): string {
   const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
   if (!m) return y
   return day ? `${Number(day)} ${MON[Number(m) - 1]} ${y}` : `${MON[Number(m) - 1]} ${y}`
+}
+
+/** inline CSS variables --lc / --on-lc for a lane color */
+export function laneVars(lane: Lane | null): CSSProperties {
+  if (!lane) return {}
+  const t = LANE_TOKEN[lane]
+  return { ['--lc' as string]: `var(--lane-${t})`, ['--on-lc' as string]: `var(--on-lane-${t})` }
+}
+
+export function dates(e: Pick<EntitySummary, 'date' | 'year' | 'endYear' | 'type'>, end?: string | null): string {
+  if (!e.date) return ''
+  if (e.type === 'person' && e.endYear) return `${e.year}–${e.endYear}`
+  if (end) return `${fmtDate(e.date)} – ${fmtDate(end)}`
+  return fmtDate(e.date)
+}
+
+
+/** badge label: works on the Books lane are books, the rest stories */
+export function typeLabel(type: EntityType, lane: Lane | null): string {
+  return type === 'work' && lane === 'books' ? 'Book' : TYPE_LABEL[type]
 }
