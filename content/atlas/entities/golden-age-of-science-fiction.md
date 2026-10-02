@@ -6,7 +6,7 @@ subtitle = "Late 1930s to mid-1940s"
 date = "1938"
 end = "1946"
 themes = []
-status = "draft"
+status = "reviewed"
 
 [[sources]]
 n = 1

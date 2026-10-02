@@ -6,7 +6,7 @@ subtitle = "Novella by H. G. Wells (1895)"
 lane = "books"
 date = "1895"
 themes = ["time-travel"]
-status = "draft"
+status = "reviewed"
 
 [[catalog]]
 magazine = "amazing-stories"

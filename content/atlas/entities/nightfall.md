@@ -6,7 +6,7 @@ subtitle = "Novelette by Isaac Asimov (1941)"
 lane = "magazines"
 date = "1941-09"
 themes = []
-status = "draft"
+status = "reviewed"
 
 [[links]]
 rel = "created_by"

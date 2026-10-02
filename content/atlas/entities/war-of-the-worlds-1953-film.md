@@ -6,7 +6,7 @@ subtitle = "Film produced by George Pal, directed by Byron Haskin"
 lane = "film-tv"
 date = "1953"
 themes = ["alien-invasion"]
-status = "draft"
+status = "reviewed"
 
 [[links]]
 rel = "created_by"

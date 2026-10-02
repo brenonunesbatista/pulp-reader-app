@@ -6,7 +6,7 @@ subtitle = "Concept album (1978)"
 lane = "music"
 date = "1978-06-09"
 themes = ["alien-invasion"]
-status = "draft"
+status = "reviewed"
 
 [[sources]]
 n = 1

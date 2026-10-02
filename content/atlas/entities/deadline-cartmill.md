@@ -6,7 +6,7 @@ subtitle = "Short story by Cleve Cartmill (1944)"
 lane = "magazines"
 date = "1944-03"
 themes = ["atomic-age"]
-status = "draft"
+status = "reviewed"
 
 [[links]]
 rel = "published_in"

@@ -6,7 +6,7 @@ subtitle = "Short story by H. G. Wells (1901)"
 lane = "books"
 date = "1901-12"
 themes = []
-status = "draft"
+status = "reviewed"
 
 [[catalog]]
 magazine = "amazing-stories"

@@ -6,7 +6,7 @@ subtitle = "Novel by Isaac Asimov (1951)"
 lane = "books"
 date = "1951-08-30"
 themes = ["galactic-empires", "psychohistory"]
-status = "draft"
+status = "reviewed"
 
 [[links]]
 rel = "created_by"

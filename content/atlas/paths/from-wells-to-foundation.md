@@ -2,7 +2,7 @@
 id = "from-wells-to-foundation"
 title = "From Wells to Foundation"
 subtitle = "How science fiction found its magazines, its golden age and its screens"
-status = "draft"
+status = "reviewed"
 
 [[stops]]
 entity = "h-g-wells"

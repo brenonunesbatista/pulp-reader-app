@@ -7,7 +7,7 @@ lane = "magazines"
 date = "1926-04"
 end = "1956-12"
 themes = []
-status = "draft"
+status = "reviewed"
 
 [[catalog]]
 magazine = "amazing-stories"

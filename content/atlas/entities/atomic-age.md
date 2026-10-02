@@ -4,7 +4,7 @@ type = "theme"
 title = "The atomic age"
 subtitle = "Theme"
 themes = []
-status = "draft"
+status = "reviewed"
 
 [[sources]]
 n = 1

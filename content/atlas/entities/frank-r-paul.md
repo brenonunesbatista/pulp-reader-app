@@ -6,7 +6,7 @@ subtitle = "Illustrator; the first great science fiction artist"
 date = "1884-04-18"
 end = "1963-06-29"
 themes = []
-status = "draft"
+status = "reviewed"
 
 [[links]]
 rel = "read_next"

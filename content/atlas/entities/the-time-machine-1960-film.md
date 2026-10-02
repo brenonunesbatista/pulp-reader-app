@@ -6,7 +6,7 @@ subtitle = "Film produced and directed by George Pal"
 lane = "film-tv"
 date = "1960-08-17"
 themes = ["time-travel"]
-status = "draft"
+status = "reviewed"
 
 [[links]]
 rel = "created_by"

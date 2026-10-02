@@ -4,7 +4,7 @@ type = "theme"
 title = "Alien invasion"
 subtitle = "Theme"
 themes = []
-status = "draft"
+status = "reviewed"
 
 [[sources]]
 n = 1

@@ -6,7 +6,7 @@ subtitle = "The first artificial satellite (4 October 1957)"
 lane = "events"
 date = "1957-10-04"
 themes = []
-status = "draft"
+status = "reviewed"
 
 [[sources]]
 n = 1

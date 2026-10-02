@@ -6,7 +6,7 @@ subtitle = "6 and 9 August 1945"
 lane = "events"
 date = "1945-08-06"
 themes = ["atomic-age"]
-status = "draft"
+status = "reviewed"
 
 [[sources]]
 n = 1

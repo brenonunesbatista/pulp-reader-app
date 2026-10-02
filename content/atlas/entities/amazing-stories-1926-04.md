@@ -6,7 +6,7 @@ subtitle = "Volume 1, Number 1 — the first issue"
 lane = "magazines"
 date = "1926-04"
 themes = []
-status = "draft"
+status = "reviewed"
 
 [[catalog]]
 magazine = "amazing-stories"

@@ -6,7 +6,7 @@ subtitle = "Apple TV+ series (2021–)"
 lane = "film-tv"
 date = "2021-09-24"
 themes = ["galactic-empires", "psychohistory"]
-status = "draft"
+status = "reviewed"
 
 [[sources]]
 n = 1

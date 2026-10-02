@@ -7,7 +7,7 @@ lane = "events"
 date = "1939-09-01"
 end = "1945-09-02"
 themes = []
-status = "draft"
+status = "reviewed"
 
 [[sources]]
 n = 1

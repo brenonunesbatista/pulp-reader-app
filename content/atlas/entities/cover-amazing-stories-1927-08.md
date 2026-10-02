@@ -6,7 +6,7 @@ subtitle = "Cover of Amazing Stories, August 1927, by Frank R. Paul"
 lane = "visual-art"
 date = "1927-08"
 themes = ["alien-invasion"]
-status = "draft"
+status = "reviewed"
 
 [[catalog]]
 magazine = "amazing-stories"

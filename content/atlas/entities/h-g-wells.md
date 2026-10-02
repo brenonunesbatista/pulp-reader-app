@@ -6,7 +6,7 @@ subtitle = "English novelist, the \"father of science fiction\""
 date = "1866-09-21"
 end = "1946-08-13"
 themes = ["time-travel", "alien-invasion", "atomic-age"]
-status = "draft"
+status = "reviewed"
 
 [[links]]
 rel = "read_next"

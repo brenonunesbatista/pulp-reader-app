@@ -6,7 +6,7 @@ subtitle = "Short story by Isaac Asimov (1942); the Three Laws of Robotics"
 lane = "magazines"
 date = "1942-03"
 themes = ["robots"]
-status = "draft"
+status = "reviewed"
 
 [[links]]
 rel = "created_by"

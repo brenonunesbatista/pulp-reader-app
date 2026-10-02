@@ -6,7 +6,7 @@ subtitle = "Story collection by Isaac Asimov (1950)"
 lane = "books"
 date = "1950-12-02"
 themes = ["robots"]
-status = "draft"
+status = "reviewed"
 
 [[links]]
 rel = "created_by"

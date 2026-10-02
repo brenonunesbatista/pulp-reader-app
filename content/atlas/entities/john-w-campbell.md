@@ -6,7 +6,7 @@ subtitle = "Writer and editor of Astounding; architect of the Golden Age"
 date = "1910-06-08"
 end = "1971-07-11"
 themes = []
-status = "draft"
+status = "reviewed"
 
 [[catalog]]
 magazine = "amazing-stories"

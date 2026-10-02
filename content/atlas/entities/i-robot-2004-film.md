@@ -6,7 +6,7 @@ subtitle = "Film starring Will Smith"
 lane = "film-tv"
 date = "2004"
 themes = ["robots"]
-status = "draft"
+status = "reviewed"
 
 [[sources]]
 n = 1

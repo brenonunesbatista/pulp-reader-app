@@ -6,7 +6,7 @@ subtitle = "Novel by H. G. Wells (1914)"
 lane = "books"
 date = "1914"
 themes = ["atomic-age"]
-status = "draft"
+status = "reviewed"
 
 [[links]]
 rel = "created_by"

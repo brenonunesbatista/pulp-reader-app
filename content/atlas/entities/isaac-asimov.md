@@ -6,7 +6,7 @@ subtitle = "Writer and biochemist; robots, Foundation and ~500 books"
 date = "1920-01-02"
 end = "1992-04-06"
 themes = ["robots", "galactic-empires", "psychohistory"]
-status = "draft"
+status = "reviewed"
 
 [[catalog]]
 magazine = "amazing-stories"

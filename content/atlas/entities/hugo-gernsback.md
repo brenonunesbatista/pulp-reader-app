@@ -6,7 +6,7 @@ subtitle = "Publisher and editor; founder of Amazing Stories"
 date = "1884-08-16"
 end = "1967-08-19"
 themes = []
-status = "draft"
+status = "reviewed"
 
 [[catalog]]
 magazine = "amazing-stories"

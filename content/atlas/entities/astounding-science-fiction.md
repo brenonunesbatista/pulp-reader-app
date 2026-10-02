@@ -6,7 +6,7 @@ subtitle = "Golden Age magazine; today Analog (1930–)"
 lane = "magazines"
 date = "1930-01"
 themes = []
-status = "draft"
+status = "reviewed"
 
 [[links]]
 rel = "influenced"

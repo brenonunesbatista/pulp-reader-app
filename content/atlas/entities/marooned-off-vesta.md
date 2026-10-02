@@ -6,7 +6,7 @@ subtitle = "Isaac Asimov's first published story (1939)"
 lane = "magazines"
 date = "1939-03"
 themes = []
-status = "draft"
+status = "reviewed"
 
 [[catalog]]
 magazine = "amazing-stories"

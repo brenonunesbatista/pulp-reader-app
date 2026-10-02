@@ -4,7 +4,7 @@ type = "person"
 title = "George Pal"
 subtitle = "Film producer and director; science fiction in Technicolor"
 themes = []
-status = "draft"
+status = "reviewed"
 
 [[sources]]
 n = 1

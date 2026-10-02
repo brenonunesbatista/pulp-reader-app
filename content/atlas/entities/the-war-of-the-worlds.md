@@ -6,7 +6,7 @@ subtitle = "Novel by H. G. Wells (1898)"
 lane = "books"
 date = "1898"
 themes = ["alien-invasion"]
-status = "draft"
+status = "reviewed"
 
 [[catalog]]
 magazine = "amazing-stories"
