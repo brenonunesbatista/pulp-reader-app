@@ -43,7 +43,7 @@ class Report:
 
 
 def parse(path: Path) -> Doc:
-    text = path.read_text(encoding="utf-8")
+    text = path.read_text(encoding="utf-8").replace("\r\n", "\n")  # git may check files out with CRLF
     m = re.match(r"^\+\+\+\n(.*?)\n\+\+\+\n(.*)$", text, re.S)
     if not m:
         raise ValueError("missing +++ front matter")
