@@ -2,39 +2,452 @@
   "v": 3,
   "attachments": {},
   "boards": {
-    "Enamel.dc.html": { "h": 1740, "title": "C · Enamel Sign", "w": 1440, "x": 3040, "y": 0, "page": "directions" },
-    "Main.dc.html": { "h": 1740, "title": "A · Night Stand", "w": 1440, "x": 0, "y": 0, "page": "directions" },
-    "Newsprint.dc.html": { "h": 1740, "title": "B · Newsprint", "w": 1440, "x": 1520, "y": 0, "page": "directions" },
-    "DS.dc.html": { "x": 0, "y": 0, "w": 2000, "h": 1560, "title": "Design system", "page": "system" },
-    "Cover.dc.html": { "x": 2080, "y": 0, "w": 200, "h": 278, "title": "Cover (component)", "page": "system" },
-    "TabLibrary.dc.html": { "x": 0, "y": 1960, "w": 1280, "h": 800, "title": "Tablet · Library", "page": "system", "is_interactive": true },
-    "TabMagazine.dc.html": { "x": 1360, "y": 1960, "w": 1280, "h": 800, "title": "Tablet · Magazine", "page": "system", "is_interactive": true },
-    "TabIssue.dc.html": { "x": 2720, "y": 1960, "w": 1280, "h": 800, "title": "Tablet · Issue", "page": "system", "is_interactive": true },
-    "TabReader.dc.html": { "x": 4080, "y": 1960, "w": 1280, "h": 800, "title": "Tablet · Reader (chrome visible)", "page": "system", "is_interactive": true },
-    "TabPages.dc.html": { "x": 5440, "y": 1960, "w": 1280, "h": 800, "title": "Tablet · Page index", "page": "system", "is_interactive": true },
-    "TabAtlas.dc.html": { "x": 6800, "y": 1960, "w": 1280, "h": 800, "title": "Tablet · Atlas (sketch)", "page": "system", "is_interactive": true },
-    "PhLibrary.dc.html": { "x": 0, "y": 3160, "w": 412, "h": 892, "title": "Phone · Library", "page": "system", "is_interactive": true },
-    "PhMagazine.dc.html": { "x": 492, "y": 3160, "w": 412, "h": 892, "title": "Phone · Magazine", "page": "system", "is_interactive": true },
-    "PhIssue.dc.html": { "x": 984, "y": 3160, "w": 412, "h": 892, "title": "Phone · Issue", "page": "system", "is_interactive": true },
-    "PhReader.dc.html": { "x": 1476, "y": 3160, "w": 412, "h": 892, "title": "Phone · Reader (Night)", "page": "system", "is_interactive": true },
-    "PhPages.dc.html": { "x": 1968, "y": 3160, "w": 412, "h": 892, "title": "Phone · Page index", "page": "system", "is_interactive": true },
-    "PhAtlas.dc.html": { "x": 2460, "y": 3160, "w": 412, "h": 892, "title": "Phone · Atlas (sketch)", "page": "system", "is_interactive": true }
+    "Cover.dc.html": {
+      "h": 278,
+      "page": "system",
+      "title": "Cover (component)",
+      "w": 200,
+      "x": 2080,
+      "y": 0
+    },
+    "DS.dc.html": {
+      "h": 1560,
+      "page": "system",
+      "title": "Design system",
+      "w": 2000,
+      "x": 0,
+      "y": 0
+    },
+    "Enamel.dc.html": {
+      "h": 1740,
+      "page": "directions",
+      "title": "C · Enamel Sign",
+      "w": 1440,
+      "x": 3040,
+      "y": 0
+    },
+    "Main.dc.html": {
+      "h": 1740,
+      "page": "directions",
+      "title": "A · Night Stand",
+      "w": 1440,
+      "x": 0,
+      "y": 0
+    },
+    "Newsprint.dc.html": {
+      "h": 1740,
+      "page": "directions",
+      "title": "B · Newsprint",
+      "w": 1440,
+      "x": 1520,
+      "y": 0
+    },
+    "PhAtlas.dc.html": {
+      "h": 892,
+      "is_interactive": true,
+      "page": "system",
+      "title": "Phone · Atlas (sketch)",
+      "w": 412,
+      "x": 2460,
+      "y": 3160
+    },
+    "PhIssue.dc.html": {
+      "h": 892,
+      "is_interactive": true,
+      "page": "system",
+      "title": "Phone · Issue",
+      "w": 412,
+      "x": 984,
+      "y": 3160
+    },
+    "PhLibrary.dc.html": {
+      "h": 892,
+      "is_interactive": true,
+      "page": "system",
+      "title": "Phone · Library",
+      "w": 412,
+      "x": 0,
+      "y": 3160
+    },
+    "PhMagazine.dc.html": {
+      "h": 892,
+      "is_interactive": true,
+      "page": "system",
+      "title": "Phone · Magazine",
+      "w": 412,
+      "x": 492,
+      "y": 3160
+    },
+    "PhPages.dc.html": {
+      "h": 892,
+      "is_interactive": true,
+      "page": "system",
+      "title": "Phone · Page index",
+      "w": 412,
+      "x": 1968,
+      "y": 3160
+    },
+    "PhReader.dc.html": {
+      "h": 892,
+      "is_interactive": true,
+      "page": "system",
+      "title": "Phone · Reader (Night)",
+      "w": 412,
+      "x": 1476,
+      "y": 3160
+    },
+    "TabAtlas.dc.html": {
+      "h": 800,
+      "is_interactive": true,
+      "page": "system",
+      "title": "Tablet · Atlas (sketch)",
+      "w": 1280,
+      "x": 6800,
+      "y": 1960
+    },
+    "TabIssue.dc.html": {
+      "h": 800,
+      "is_interactive": true,
+      "page": "system",
+      "title": "Tablet · Issue",
+      "w": 1280,
+      "x": 2720,
+      "y": 1960
+    },
+    "TabLibrary.dc.html": {
+      "h": 800,
+      "is_interactive": true,
+      "page": "system",
+      "title": "Tablet · Library",
+      "w": 1280,
+      "x": 0,
+      "y": 1960
+    },
+    "TabMagazine.dc.html": {
+      "h": 800,
+      "is_interactive": true,
+      "page": "system",
+      "title": "Tablet · Magazine",
+      "w": 1280,
+      "x": 1360,
+      "y": 1960
+    },
+    "TabPages.dc.html": {
+      "h": 800,
+      "is_interactive": true,
+      "page": "system",
+      "title": "Tablet · Page index",
+      "w": 1280,
+      "x": 5440,
+      "y": 1960
+    },
+    "TabReader.dc.html": {
+      "h": 800,
+      "is_interactive": true,
+      "page": "system",
+      "title": "Tablet · Reader (chrome visible)",
+      "w": 1280,
+      "x": 4080,
+      "y": 1960
+    },
+    "TabTimelineA.dc.html": {
+      "h": 800,
+      "is_interactive": true,
+      "page": "atlas",
+      "title": "Explored · Timeline A · Lanes",
+      "w": 1280,
+      "x": 0,
+      "y": 6500
+    },
+    "TabTimelineB.dc.html": {
+      "h": 800,
+      "is_interactive": true,
+      "page": "atlas",
+      "title": "Explored · Timeline B · Overview + stage",
+      "w": 1280,
+      "x": 1360,
+      "y": 6500
+    },
+    "AtlasDS.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 2000,
+      "h": 1500,
+      "title": "Atlas components",
+      "page": "atlas"
+    },
+    "TabAtlasHome.dc.html": {
+      "x": 0,
+      "y": 1800,
+      "w": 1280,
+      "h": 800,
+      "title": "Tablet · Atlas home",
+      "page": "atlas",
+      "is_interactive": true
+    },
+    "TabTimeline.dc.html": {
+      "x": 1360,
+      "y": 1800,
+      "w": 1280,
+      "h": 800,
+      "title": "Tablet · Timeline",
+      "page": "atlas",
+      "is_interactive": true
+    },
+    "TabEntity.dc.html": {
+      "x": 2720,
+      "y": 1800,
+      "w": 1280,
+      "h": 800,
+      "title": "Tablet · Entity page",
+      "page": "atlas",
+      "is_interactive": true
+    },
+    "TabPath.dc.html": {
+      "x": 4080,
+      "y": 1800,
+      "w": 1280,
+      "h": 800,
+      "title": "Tablet · Path",
+      "page": "atlas",
+      "is_interactive": true
+    },
+    "TabWantTo.dc.html": {
+      "x": 5440,
+      "y": 1800,
+      "w": 1280,
+      "h": 800,
+      "title": "Tablet · Want to… lists",
+      "page": "atlas",
+      "is_interactive": true
+    },
+    "TabTimelineNight.dc.html": {
+      "x": 1360,
+      "y": 2900,
+      "w": 1280,
+      "h": 800,
+      "title": "Tablet · Timeline · Night",
+      "page": "atlas",
+      "is_interactive": true
+    },
+    "TabEntityNight.dc.html": {
+      "x": 2720,
+      "y": 2900,
+      "w": 1280,
+      "h": 800,
+      "title": "Tablet · Entity · Night",
+      "page": "atlas",
+      "is_interactive": true
+    },
+    "PhAtlasHome.dc.html": {
+      "x": 0,
+      "y": 4000,
+      "w": 412,
+      "h": 892,
+      "title": "Phone · Atlas home",
+      "page": "atlas",
+      "is_interactive": true
+    },
+    "PhTimeline.dc.html": {
+      "x": 492,
+      "y": 4000,
+      "w": 412,
+      "h": 892,
+      "title": "Phone · Timeline",
+      "page": "atlas",
+      "is_interactive": true
+    },
+    "PhEntity.dc.html": {
+      "x": 984,
+      "y": 4000,
+      "w": 412,
+      "h": 892,
+      "title": "Phone · Entity page",
+      "page": "atlas",
+      "is_interactive": true
+    },
+    "PhPath.dc.html": {
+      "x": 1476,
+      "y": 4000,
+      "w": 412,
+      "h": 892,
+      "title": "Phone · Path",
+      "page": "atlas",
+      "is_interactive": true
+    },
+    "PhWantTo.dc.html": {
+      "x": 1968,
+      "y": 4000,
+      "w": 412,
+      "h": 892,
+      "title": "Phone · Want to… lists",
+      "page": "atlas",
+      "is_interactive": true
+    },
+    "PhTimelineNight.dc.html": {
+      "x": 492,
+      "y": 5200,
+      "w": 412,
+      "h": 892,
+      "title": "Phone · Timeline · Night",
+      "page": "atlas",
+      "is_interactive": true
+    },
+    "PhEntityNight.dc.html": {
+      "x": 984,
+      "y": 5200,
+      "w": 412,
+      "h": 892,
+      "title": "Phone · Entity · Night",
+      "page": "atlas",
+      "is_interactive": true
+    }
   },
-  "createdOnFiles": { "at": "2026-10-01T12:00:00Z", "v": 1 },
+  "createdOnFiles": {
+    "at": "2026-10-01T12:00:00Z",
+    "v": 1
+  },
   "designSystems": [],
-  "launch": { "view": "canvas", "page": "system" },
+  "launch": {
+    "page": "atlas",
+    "view": "canvas"
+  },
   "notes": {
-    "heading": { "kind": "title1", "maxW": 4480, "text": "Banca — three identity directions", "w": 240, "x": 0, "y": -300, "page": "directions" },
-    "dsTitle": { "kind": "title1", "maxW": 2280, "text": "Banca · Newsprint — design system", "x": 0, "y": -300, "page": "system" },
-    "tabTitle": { "kind": "title1", "maxW": 8080, "text": "Tablet · landscape 1280×800 dp (1920×1200 px)", "x": 0, "y": 1700, "page": "system" },
-    "phTitle": { "kind": "title1", "maxW": 2872, "text": "Phone · S25 portrait 412×892 dp", "x": 0, "y": 2900, "page": "system" }
+    "atlasTitle": {
+      "kind": "title1",
+      "maxW": 2000,
+      "page": "atlas",
+      "text": "Atlas — components",
+      "w": 240,
+      "x": 0,
+      "y": -300
+    },
+    "dsTitle": {
+      "kind": "title1",
+      "maxW": 2280,
+      "page": "system",
+      "text": "Banca · Newsprint — design system",
+      "w": 240,
+      "x": 0,
+      "y": -300
+    },
+    "heading": {
+      "kind": "title1",
+      "maxW": 4480,
+      "page": "directions",
+      "text": "Banca — three identity directions",
+      "w": 240,
+      "x": 0,
+      "y": -300
+    },
+    "phTitle": {
+      "kind": "title1",
+      "maxW": 2872,
+      "page": "system",
+      "text": "Phone · S25 portrait 412×892 dp",
+      "w": 240,
+      "x": 0,
+      "y": 2900
+    },
+    "tabTitle": {
+      "kind": "title1",
+      "maxW": 8000,
+      "page": "system",
+      "text": "Tablet · landscape 1280×800 dp (1920×1200 px)",
+      "w": 240,
+      "x": 0,
+      "y": 1700
+    },
+    "atlasTab": {
+      "kind": "title1",
+      "text": "Tablet · Paper",
+      "x": 0,
+      "y": 1540,
+      "maxW": 6720,
+      "page": "atlas"
+    },
+    "atlasTabN": {
+      "kind": "title1",
+      "text": "Tablet · Night",
+      "x": 1360,
+      "y": 2640,
+      "maxW": 2640,
+      "page": "atlas"
+    },
+    "atlasPh": {
+      "kind": "title1",
+      "text": "Phone · Paper",
+      "x": 0,
+      "y": 3740,
+      "maxW": 2380,
+      "page": "atlas"
+    },
+    "atlasPhN": {
+      "kind": "title1",
+      "text": "Phone · Night",
+      "x": 492,
+      "y": 4940,
+      "maxW": 904,
+      "page": "atlas"
+    },
+    "atlasOld": {
+      "kind": "title1",
+      "text": "Explored timeline options",
+      "x": 0,
+      "y": 6240,
+      "maxW": 2640,
+      "page": "atlas"
+    }
   },
   "order": [
-    "Main.dc.html", "Newsprint.dc.html", "Enamel.dc.html",
-    "DS.dc.html", "Cover.dc.html",
-    "TabLibrary.dc.html", "TabMagazine.dc.html", "TabIssue.dc.html", "TabReader.dc.html", "TabPages.dc.html", "TabAtlas.dc.html",
-    "PhLibrary.dc.html", "PhMagazine.dc.html", "PhIssue.dc.html", "PhReader.dc.html", "PhPages.dc.html", "PhAtlas.dc.html"
+    "Main.dc.html",
+    "Newsprint.dc.html",
+    "Enamel.dc.html",
+    "DS.dc.html",
+    "Cover.dc.html",
+    "TabLibrary.dc.html",
+    "TabMagazine.dc.html",
+    "TabIssue.dc.html",
+    "TabReader.dc.html",
+    "TabPages.dc.html",
+    "TabAtlas.dc.html",
+    "PhLibrary.dc.html",
+    "PhMagazine.dc.html",
+    "PhIssue.dc.html",
+    "PhReader.dc.html",
+    "PhPages.dc.html",
+    "PhAtlas.dc.html",
+    "TabTimelineA.dc.html",
+    "TabTimelineB.dc.html",
+    "AtlasDS.dc.html",
+    "TabAtlasHome.dc.html",
+    "TabTimeline.dc.html",
+    "TabEntity.dc.html",
+    "TabPath.dc.html",
+    "TabWantTo.dc.html",
+    "TabTimelineNight.dc.html",
+    "TabEntityNight.dc.html",
+    "PhAtlasHome.dc.html",
+    "PhTimeline.dc.html",
+    "PhEntity.dc.html",
+    "PhPath.dc.html",
+    "PhWantTo.dc.html",
+    "PhTimelineNight.dc.html",
+    "PhEntityNight.dc.html"
   ],
-  "pages": [ { "id": "system", "name": "Newsprint system" }, { "id": "directions", "name": "Directions" } ],
+  "pages": [
+    {
+      "id": "atlas",
+      "name": "Atlas"
+    },
+    {
+      "id": "system",
+      "name": "Newsprint system"
+    },
+    {
+      "id": "directions",
+      "name": "Directions"
+    }
+  ],
   "title": "Banca Identity"
 }

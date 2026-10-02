@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Atlas path — phone</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}</style>
+</helmet>
+<div style="position: relative; width: 412px; height: 892px; overflow: hidden; background: #EEE2C6; color: #2A2118; font-family: 'Source Serif 4', Georgia, serif">
+
+<div style="padding: 4px 16px 12px 6px; background: radial-gradient(rgba(255,240,200,0.16) 1.3px, transparent 1.8px) 0 0 / 7px 7px, #C8321F; border-bottom: 3px solid #2A2118">
+<div style="display: flex; align-items: center; gap: 4px">
+<a href="PhAtlasHome.dc.html" aria-label="Back to Atlas home" style="width: 48px; height: 48px; display: flex; align-items: center; justify-content: center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FFF4DC" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"></path></svg></a>
+<span style="font-size: 12px; font-weight: 700; letter-spacing: 0.14em; color: #FFF4DC">PATH · 12 OF 36</span>
+</div>
+<div style="padding-left: 10px; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 32px; line-height: 0.92; color: #F2B705; text-shadow: 2px 2px 0 #1F4E8C">FROM WELLS TO FOUNDATION</div>
+<div style="margin: 8px 0 0 10px; height: 8px; border: 2px solid #2A2118; background: #F5EBD3"><div style="width: 33%; height: 100%; background: #2A2118"></div></div>
+</div>
+
+<div style="position: relative; padding: 10px 16px 0; overflow: hidden; height: 600px; box-sizing: border-box">
+<div style="position: absolute; left: 37px; top: 10px; bottom: 0; width: 4px; background: #2A2118"></div>
+<sc-for list="{{stops}}" as="s" hint-placeholder-count="6">
+<button onClick="{{s.pick}}" style="position: relative; display: flex; align-items: center; gap: 12px; width: 100%; min-height: 54px; padding: 0; border: 0; background: transparent; color: #2A2118; text-align: left; cursor: pointer">
+<span style="width: 44px; flex-shrink: 0; display: flex; justify-content: center"><span style="width: 32px; height: 32px; box-sizing: border-box; border-radius: 50%; border: 3px solid #2A2118; background: {{s.dot}}; color: {{s.dotInk}}; display: flex; align-items: center; justify-content: center; font: 800 15px 'Big Shoulders Display', sans-serif">{{s.n}}</span></span>
+<span style="flex-grow: 1; min-width: 0"><span style="display: block; font-size: 11px; font-weight: 700; letter-spacing: 0.08em; color: #5E4E3A">{{s.year}} · {{s.type}}</span><span style="display: block; font-size: 16px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis">{{s.t}}</span></span>
+</button>
+<sc-if value="{{s.open}}" hint-placeholder-val="{{ false }}">
+<div style="position: relative; margin: 2px 0 12px 56px; padding: 12px; border: 2px solid #2A2118; border-radius: 4px; background: #F7EEDA; box-shadow: 4px 4px 0 #2A2118; display: flex; flex-direction: column; gap: 8px">
+<div style="height: 120px; border: 2px solid #2A2118; background: radial-gradient(rgba(0,0,0,0.18) 1px, transparent 1.5px) 0 0 / 6px 6px, {{s.bg2}}"></div>
+<div style="font-size: 10px; color: #5E4E3A; margin-top: -4px">[Image credit · licence · source]</div>
+<div style="font-size: 15px; line-height: 1.45">{{s.d}}</div>
+<div style="font-size: 11px; font-weight: 700; letter-spacing: 0.14em; color: #C8321F">WHY IT MATTERS</div>
+<div style="font-size: 14px; line-height: 1.4; margin-top: -4px">{{s.why}}</div>
+<div style="display: flex; gap: 8px">
+<a href="PhEntity.dc.html" style="flex-grow: 1; height: 44px; display: flex; align-items: center; justify-content: center; background: #C8321F; color: #FFF4DC; border: 2px solid #2A2118; border-radius: 4px; box-shadow: 3px 3px 0 #2A2118; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 17px; letter-spacing: 0.06em; text-decoration: none">{{s.action}}</a>
+<button aria-label="Add to Want to read" style="width: 48px; height: 44px; border: 2px solid #2A2118; border-radius: 4px; background: #F7EEDA; box-shadow: 3px 3px 0 #2A2118; font: 900 22px 'Big Shoulders Display', sans-serif; cursor: pointer">+</button>
+</div>
+</div>
+</sc-if>
+</sc-for>
+</div>
+
+<button onClick="{{goNext}}" style="position: absolute; left: 12px; right: 12px; bottom: 76px; height: 56px; display: flex; align-items: center; gap: 10px; padding: 0 14px; border: 2px solid #2A2118; border-radius: 4px; background: #F2B705; box-shadow: 4px 4px 0 #2A2118; color: #2A2118; text-align: left; cursor: pointer">
+<span style="flex-grow: 1"><span style="display: block; font-size: 10px; font-weight: 700; letter-spacing: 0.14em">NEXT STOP</span><span style="display: block; font-size: 15px; font-weight: 700">{{nextT}}</span></span>
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2A2118" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+</button>
+
+<nav aria-label="Sections" style="position: absolute; left: 0; right: 0; bottom: 0; height: 64px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); background: #F7EEDA; border-top: 2px solid #2A2118">
+<sc-for list="{{nav}}" as="n" hint-placeholder-count="4">
+<a href="{{n.href}}" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; color: #2A2118; text-decoration: none">
+<span style="width: 52px; height: 28px; border-radius: 14px; background: {{n.bg}}; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2A2118" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="{{n.d}}"></path></svg></span>
+<span style="font-size: 12px; font-weight: {{n.w}}">{{n.label}}</span>
+</a>
+</sc-for>
+</nav>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":412,"height":892}}'>
+class Component extends DCLogic {
+constructor(props) {
+super(props);
+this.state = { cur: 13 };
+}
+renderVals() {
+const L = { mag: '#C8321F', book: '#1F4E8C', film: '#2A2118', world: '#7D6B55' };
+const g = (l) => 'linear-gradient(150deg,' + L[l] + ' 0%, #F7EEDA 140%)';
+const S = [
+{ n: 11, year: '1938', type: 'Radio', lane: 'film', t: 'The War of the Worlds on the radio', d: 'Orson Welles’s Mercury Theatre tells Wells’s invasion as live news bulletins.', why: 'Proved how strongly the invasion story could reach a mass audience.' },
+{ n: 12, year: '1939', type: 'Story', lane: 'mag', t: 'Marooned off Vesta', d: 'Isaac Asimov’s first published story, Amazing Stories, March 1939.', why: 'The start of the career that carries this path to its last stop.', action: 'READ IN BANCA' },
+{ n: 13, year: '1941', type: 'Story', lane: 'mag', t: 'Nightfall', d: 'On a planet lit by six suns, night comes once every 2,049 years [1].', why: 'Often named the best science-fiction short story: a big idea told through people.' },
+{ n: 14, year: '1942', type: 'Story', lane: 'mag', t: 'Runaround', d: 'A robot on Mercury circles a selenium pool, caught between two of its laws.', why: 'The first explicit statement of the Three Laws of Robotics.' },
+{ n: 15, year: '1942', type: 'Story', lane: 'mag', t: 'Foundation begins', d: 'A mathematician predicts the fall of a galactic empire.', why: 'Brought “psychohistory” into space opera.' },
+{ n: 16, year: '1945', type: 'Event', lane: 'world', t: 'Hiroshima', d: 'The first atomic bomb used in war.', why: 'The magazines’ atomic stories suddenly read like prophecy.' },
+{ n: 17, year: '1950', type: 'Book', lane: 'book', t: 'I, Robot', d: 'Nine robot stories gathered into one book.', why: 'Made the Three Laws famous beyond the magazines.' }
+];
+const cur = this.state.cur;
+const nx = S.find((s) => s.n === cur + 1);
+return {
+stops: S.map((s) => ({
+...s, bg2: g(s.lane), open: s.n === cur, action: s.action || 'OPEN', pick: () => this.setState({ cur: s.n }),
+dot: s.n === cur ? '#F2B705' : (s.n < 13 ? '#2A2118' : '#F7EEDA'), dotInk: s.n < 13 && s.n !== cur ? '#F2B705' : '#2A2118'
+})),
+nextT: nx ? nx.n + ' · ' + nx.t : '18 · [next stop]',
+goNext: () => this.setState({ cur: Math.min(17, cur + 1) }),
+nav: [
+{ label: 'Pulp', href: '#', d: 'M3 5h6a3 3 0 0 1 3 3v12a2 2 0 0 0-2-2H3zM21 5h-6a3 3 0 0 0-3 3v12a2 2 0 0 1 2-2h7z' },
+{ label: 'RPG', href: '#', d: 'M12 3l8 5v8l-8 5-8-5V8zM12 3v18M4 8l16 8M20 8L4 16' },
+{ label: 'Atlas', href: 'PhAtlasHome.dc.html', d: 'M3 12h18M7 8v8M12 5v14M17 9v6', on: true },
+{ label: 'Search', href: '#', d: 'M11 4a7 7 0 1 0 0 14a7 7 0 1 0 0-14M20 20l-4-4' }
+].map((n) => ({ ...n, bg: n.on ? '#F2B705' : 'transparent', w: n.on ? '700' : '400' }))
+};
+}
+}
+</script>
+</body>
+</html>

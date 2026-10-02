@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Atlas entity page — tablet</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}</style>
+</helmet>
+<div style="position: relative; width: 1280px; height: 800px; overflow: hidden; background: {{T.bg}}; color: {{T.ink}}; font-family: 'Source Serif 4', Georgia, serif">
+
+<div style="height: 72px; display: flex; align-items: center; gap: 24px; padding: 0 24px; background: {{T.mast}}; border-bottom: 3px solid {{T.mastLine}}; box-sizing: border-box">
+<a href="TabAtlasHome.dc.html" style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 46px; line-height: 1; color: {{T.word}}; text-shadow: {{T.wordShadow}}; text-decoration: none">BANCA</a>
+<nav style="display: flex; gap: 8px">
+<a href="#" style="height: 44px; padding: 0 16px; border-radius: 4px; border: 2px solid {{T.tabInk}}; color: {{T.tabInk}}; display: flex; align-items: center; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 19px; letter-spacing: 0.06em; text-decoration: none">PULP</a>
+<a href="#" style="height: 44px; padding: 0 16px; border-radius: 4px; border: 2px solid {{T.tabInk}}; color: {{T.tabInk}}; display: flex; align-items: center; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 19px; letter-spacing: 0.06em; text-decoration: none">RPG</a>
+<a href="TabAtlasHome.dc.html" style="height: 44px; padding: 0 16px; border-radius: 4px; background: {{T.yellow}}; color: {{T.onYellow}}; border: 2px solid {{T.edge}}; display: flex; align-items: center; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 19px; letter-spacing: 0.06em; text-decoration: none">ATLAS</a>
+</nav>
+<div style="flex-grow: 1"></div>
+<button aria-label="Search the Atlas" style="width: 48px; height: 48px; border-radius: 4px; background: {{T.surface}}; border: 2px solid {{T.edge}}; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="{{T.ink}}" stroke-width="2.2" stroke-linecap="round"><path d="M11 4a7 7 0 1 0 0 14a7 7 0 1 0 0-14M20 20l-4-4"></path></svg></button>
+</div>
+
+<div style="height: 52px; display: flex; align-items: center; gap: 10px; padding: 0 14px 0 8px; border-bottom: 2px solid {{T.edge}}; background: {{T.surface}}; box-sizing: border-box">
+<a href="TabTimeline.dc.html" aria-label="Back" style="width: 44px; height: 44px; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="{{T.ink}}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"></path></svg></a>
+<span style="font-size: 14px; color: {{T.muted}}">Atlas · Timeline · <b style="color: {{T.ink}}">{{e.crumb}}</b></span>
+<div style="flex-grow: 1"></div>
+<span style="font-size: 11px; font-weight: 700; letter-spacing: 0.12em; color: {{T.muted}}; padding: 4px 6px; border: 1.5px dashed {{T.muted}}; border-radius: 3px">PROTOTYPE · PREVIEW AS</span>
+<sc-for list="{{kinds}}" as="k" hint-placeholder-count="7">
+<button onClick="{{k.pick}}" style="height: 40px; padding: 0 9px; border: 2px solid {{k.border}}; border-radius: 4px; background: {{k.bg}}; color: {{k.ink}}; font: 600 13px 'Source Serif 4', serif; cursor: pointer">{{k.label}}</button>
+</sc-for>
+</div>
+
+<div style="display: grid; grid-template-columns: 290px minmax(0, 1fr) 330px; gap: 30px; padding: 22px 26px 0; height: 676px; box-sizing: border-box">
+
+<div style="display: flex; flex-direction: column; gap: 10px; min-width: 0">
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 5px">
+<div style="position: relative; width: 286px; height: {{e.heroH}}px; box-sizing: border-box; border: 2px solid {{T.edge}}; box-shadow: {{T.img}}; background: radial-gradient(circle at 64% 55%, rgba(255,250,230,0.35) 0 16%, transparent 17%), radial-gradient({{T.dot}} 1px, transparent 1.5px) 0 0 / 6px 6px, {{e.heroBg}}">
+<sc-if value="{{e.readable}}" hint-placeholder-val="{{ false }}"><div style="position: absolute; right: 12px; bottom: 12px; width: 84px; height: 84px; border-radius: 50%; border: 3px solid #C8321F; background: rgba(247,238,218,0.9); color: #C8321F; display: flex; align-items: center; justify-content: center; transform: rotate(-12deg); font: 800 15px 'Big Shoulders Display', sans-serif; letter-spacing: 0.06em">READABLE</div></sc-if>
+</div>
+<figcaption style="font-size: 11px; line-height: 1.35; color: {{T.muted}}">{{e.credit}}</figcaption>
+</figure>
+<sc-if value="{{e.hasPrimary}}" hint-placeholder-val="{{ true }}">
+<a href="#" style="height: 52px; display: flex; align-items: center; justify-content: center; gap: 10px; background: {{e.pBg}}; color: {{e.pInk}}; border: 2px solid {{T.edge}}; border-radius: 4px; box-shadow: {{T.shadow}}; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 20px; letter-spacing: 0.06em; text-decoration: none">
+<sc-if value="{{e.stamp}}" hint-placeholder-val="{{ false }}"><span style="width: 28px; height: 28px; border-radius: 50%; border: 2px solid currentColor; display: flex; align-items: center; justify-content: center; font-size: 13px">R</span></sc-if>
+{{e.pLabel}}
+<sc-if value="{{e.ext}}" hint-placeholder-val="{{ false }}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6M20 4l-9 9M18 14v6H4V6h6"></path></svg></sc-if>
+</a>
+</sc-if>
+<sc-if value="{{e.hasWant}}" hint-placeholder-val="{{ true }}">
+<button onClick="{{toggleWant}}" style="height: 48px; display: flex; align-items: center; justify-content: center; gap: 8px; background: {{want.bg}}; color: {{want.ink}}; border: 2px solid {{T.edge}}; border-radius: 4px; box-shadow: {{T.shadow}}; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 18px; letter-spacing: 0.06em; cursor: pointer">{{want.label}}</button>
+</sc-if>
+<dl style="margin: 6px 0 0; display: flex; flex-direction: column">
+<sc-for list="{{e.facts}}" as="f" hint-placeholder-count="4">
+<div style="display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 8px; padding: 6px 0; border-top: 1px solid {{T.rule}}; font-size: 14px; line-height: 1.3">
+<dt style="color: {{T.muted}}">{{f.k}}</dt><dd style="margin: 0; font-weight: 600">{{f.v}}</dd>
+</div>
+</sc-for>
+</dl>
+</div>
+
+<article style="display: flex; flex-direction: column; gap: 10px; min-width: 0">
+<div style="display: flex; align-items: center; gap: 10px">
+<span style="height: 26px; padding: 0 8px; display: inline-flex; align-items: center; gap: 5px; box-sizing: border-box; border-radius: 3px; border: {{e.badgeBorder}}; background: {{e.badgeBg}}; color: {{e.badgeInk}}; font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="{{e.icon}}"></path></svg>{{e.type}}</span>
+<span style="font-size: 15px; color: {{T.muted}}; font-variant-numeric: tabular-nums">{{e.dates}}</span>
+</div>
+<h1 style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 52px; line-height: 0.92">{{e.title}}</h1>
+<div style="font-size: 18px; font-style: italic; color: {{T.muted}}">{{e.sub}}</div>
+<sc-for list="{{e.paras}}" as="p" hint-placeholder-count="3">
+<p style="margin: 0; font-size: 17px; line-height: 1.55">{{p.t}}<a href="#sources" style="font-size: 11px; font-weight: 700; vertical-align: super; text-decoration: none; padding: 0 2px; color: {{T.link}}">[{{p.c}}]</a></p>
+</sc-for>
+<div id="sources" style="margin-top: auto; padding: 10px 0 14px; border-top: 2px solid {{T.edge}}">
+<div style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 20px; margin-bottom: 6px">SOURCES</div>
+<sc-for list="{{e.sources}}" as="s" hint-placeholder-count="2">
+<div style="display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 6px; font-size: 13px; line-height: 1.4; margin-bottom: 3px"><span style="font-weight: 700; color: {{T.red}}">[{{s.n}}]</span><span>{{s.text}} · <a href="#" style="color: {{T.link}}">{{s.host}}</a></span></div>
+</sc-for>
+</div>
+</article>
+
+<aside style="display: flex; flex-direction: column; gap: 10px; min-width: 0">
+<div style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 24px; line-height: 1; padding-bottom: 6px; border-bottom: 3px solid {{T.edge}}">CONNECTIONS</div>
+<sc-for list="{{e.groups}}" as="g" hint-placeholder-count="3">
+<div>
+<div style="font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: {{g.c}}; margin-bottom: 2px">{{g.rel}}</div>
+<sc-for list="{{g.items}}" as="i" hint-placeholder-count="2">
+<a href="#" style="display: flex; align-items: center; gap: 8px; min-height: 40px; border-bottom: 1px solid {{T.rule}}; color: {{T.ink}}; text-decoration: none">
+<span style="width: 10px; height: 10px; flex-shrink: 0; border: 1.5px solid {{T.ink}}; background: {{i.dot}}"></span>
+<span style="flex-grow: 1; min-width: 0; font-size: 15px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis">{{i.t}}</span>
+<span style="font-size: 13px; color: {{T.muted}}; white-space: nowrap; font-variant-numeric: tabular-nums">{{i.m}}</span>
+</a>
+</sc-for>
+</div>
+</sc-for>
+<div style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 24px; line-height: 1; padding: 8px 0 6px; border-bottom: 3px solid {{T.edge}}">EXPLORE NEXT</div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px">
+<sc-for list="{{e.next}}" as="r" hint-placeholder-count="2">
+<a href="#" style="display: flex; flex-direction: column; border: 2px solid {{T.edge}}; border-radius: 4px; background: {{T.surface}}; box-shadow: {{T.shadow}}; color: {{T.ink}}; text-decoration: none; overflow: hidden">
+<span style="padding: 5px 8px; background: {{T.yellow}}; color: {{T.onYellow}}; border-bottom: 2px solid {{T.edge}}; font-size: 10px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; line-height: 1.25; min-height: 26px">{{r.reason}}</span>
+<span style="height: 50px; background: radial-gradient({{T.dot}} 1px, transparent 1.5px) 0 0 / 6px 6px, {{r.bg}}"></span>
+<span style="padding: 6px 8px 8px"><span style="display: block; font-size: 14px; font-weight: 700; line-height: 1.2">{{r.t}}</span><span style="display: block; font-size: 12px; color: {{T.muted}}">{{r.m}}</span></span>
+</a>
+</sc-for>
+</div>
+</aside>
+
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"night":{"editor":"boolean","default":false},"kind":{"editor":"enum","options":["person","story","film","music","art","theme","event"],"default":"story"},"$preview":{"width":1280,"height":800}}'>
+class Component extends DCLogic {
+constructor(props) {
+super(props);
+this.state = { kind: null, wanted: {} };
+}
+renderVals() {
+const night = this.props.night === true || this.props.night === 'true';
+const T = night ? {
+bg: '#0E1222', surface: '#171C30', ink: '#F1E4C6', muted: '#ABA38C', rule: '#2A3150', edge: '#4A5276', red: '#FF5A44', onRed: '#0E1222',
+yellow: '#FFC93C', onYellow: '#0E1222', link: '#86A8F0', dot: 'rgba(0,0,0,0.25)', paper: '#171C30',
+mast: 'radial-gradient(rgba(255,201,60,0.07) 1.3px, transparent 1.8px) 0 0 / 7px 7px, #171C30', mastLine: '#FF5A44',
+word: '#FFC93C', wordShadow: '0 0 14px rgba(255,201,60,0.55)', tabInk: '#F1E4C6',
+shadow: '3px 3px 0 rgba(0,0,0,0.55)', img: '0 10px 24px rgba(0,0,0,0.6), 0 0 30px rgba(255,201,60,0.18)'
+} : {
+bg: '#EEE2C6', surface: '#F7EEDA', ink: '#2A2118', muted: '#5E4E3A', rule: '#D6C6A2', edge: '#2A2118', red: '#C8321F', onRed: '#FFF4DC',
+yellow: '#F2B705', onYellow: '#2A2118', link: '#1F4E8C', dot: 'rgba(0,0,0,0.18)', paper: '#F7EEDA',
+mast: 'radial-gradient(rgba(255,240,200,0.16) 1.3px, transparent 1.8px) 0 0 / 7px 7px, #C8321F', mastLine: '#2A2118',
+word: '#F2B705', wordShadow: '3px 3px 0 #1F4E8C', tabInk: '#F5EBD3', shadow: '4px 4px 0 #2A2118', img: '4px 4px 0 #2A2118'
+};
+const LN = night
+? { mag: ['#FF5A44', '#0E1222'], book: ['#86A8F0', '#0E1222'], film: ['#F1E4C6', '#0E1222'], music: ['#5BC0A8', '#0E1222'], art: ['#FFC93C', '#0E1222'], comic: ['#E07AAE', '#0E1222'], world: ['#B8A68A', '#0E1222'] }
+: { mag: ['#C8321F', '#FFF4DC'], book: ['#1F4E8C', '#F7EEDA'], film: ['#2A2118', '#EFE0C2'], music: ['#2E7D6E', '#F7EEDA'], art: ['#F2B705', '#2A2118'], comic: ['#B0457E', '#FFF4DC'], world: ['#7D6B55', '#FFF4DC'] };
+const REL = night ? { inf: '#FF5A44', ad: '#86A8F0', th: '#5BC0A8', pub: '#F1E4C6', next: '#FFC93C' } : { inf: '#C8321F', ad: '#1F4E8C', th: '#2E7D6E', pub: '#2A2118', next: '#8A6A00' };
+const I = {
+story: 'M6 3h9l4 4v14H6zM14 3v5h5M9 12h7M9 16h7',
+film: 'M3 6h18v12H3zM7 6v12M17 6v12M3 10h4M3 14h4M17 10h4M17 14h4',
+music: 'M9 18V5l11-2v13M9 18a3 3 0 1 1-6 0a3 3 0 1 1 6 0M20 16a3 3 0 1 1-6 0a3 3 0 1 1 6 0',
+art: 'M12 3a9 9 0 1 0 0 18c1 0 2-1 1-2.5S13 16 15 16h3a3 3 0 0 0 3-3c0-5.5-4-10-9-10M7.5 11.5h.01M10 7.5h.01M15 7.5h.01',
+event: 'M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M12 8a4 4 0 1 0 0 8a4 4 0 1 0 0-8',
+person: 'M12 4a4 4 0 1 0 0 8a4 4 0 1 0 0-8M4 21c1-4 4-6 8-6s7 2 8 6',
+theme: 'M7 7h.01M3 3h8l10 10-8 8L3 11z'
+};
+const g = (lane) => 'linear-gradient(150deg,' + LN[lane][0] + ' 0%, ' + T.paper + ' 140%)';
+const it = (t, m, lane) => ({ t, m, dot: LN[lane][0] });
+const rec = (reason, t, m, lane) => ({ reason, t, m, bg: g(lane) });
+const D = {
+person: { label: 'Person', type: 'Person', outline: true, icon: I.person, lane: 'book', dates: '1920–1992', title: 'ISAAC ASIMOV', sub: 'Writer and biochemist · Russian-born American', crumb: 'Isaac Asimov', hero: 'portrait',
+credit: '[Portrait photograph · photographer · licence · source]', primary: { label: 'SEE ON TIMELINE', kind: 'plain' }, want: null,
+facts: [['Born', '1920, Petrovichi (Russia)'], ['Died', '1992, New York'], ['First story', 'Marooned off Vesta (1939)'], ['In Banca', '1 story · Amazing Stories']],
+paras: [['Asimov sold his first story to Amazing Stories in 1939, at nineteen, after Astounding had turned it down.', 1], ['Under John W. Campbell at Astounding he wrote “Nightfall” (1941) and the robot stories that set out the Three Laws of Robotics in “Runaround” (1942).', 2], ['The Foundation stories (1942–1950) became a trilogy and, in 2021, a television series.', 2]],
+groups: [{ rel: 'Wrote', c: REL.pub, items: [it('Marooned off Vesta', '1939 · R', 'mag'), it('Nightfall', '1941', 'mag'), it('Foundation', '1951', 'book')] }, { rel: 'Influenced by', c: REL.inf, items: [it('John W. Campbell', 'editor', 'mag')] }, { rel: 'Adapted as', c: REL.ad, items: [it('Foundation (series)', '2021', 'film')] }],
+next: [rec('Same theme: robots', 'Astro Boy', 'Osamu Tezuka · 1952', 'comic'), rec('Next on your path', 'Runaround', 'Asimov · 1942', 'mag')],
+sources: [{ n: 1, text: 'Isaac Asimov, In Memory Yet Green (1979)', host: 'isfdb.org' }, { n: 2, text: '“Asimov, Isaac”, The Encyclopedia of Science Fiction', host: 'sf-encyclopedia.com' }] },
+story: { label: 'Story', type: 'Story', lane: 'mag', icon: I.story, dates: 'March 1939', title: 'MAROONED OFF VESTA', sub: 'Short story by Isaac Asimov', crumb: 'Marooned off Vesta', hero: 'portrait', readable: true,
+credit: 'Cover of Amazing Stories, March 1939 · [artist] · [licence] · Internet Archive', primary: { label: 'READ IN BANCA', kind: 'banca' }, want: 'READ',
+facts: [['Author', 'Isaac Asimov'], ['Published in', 'Amazing Stories, Mar 1939'], ['Form', 'Short story'], ['Sequel', '“Anniversary” (1959)']],
+paras: [['Three survivors of a wrecked spaceship, stranded in orbit near the asteroid Vesta, improvise their way to safety with what is left of the hull.', 2], ['It was Asimov’s first published story; Astounding had rejected it before Amazing Stories bought it.', 1]],
+groups: [{ rel: 'Published in', c: REL.pub, items: [it('Amazing Stories · March 1939', 'R · p. [N]', 'mag')] }, { rel: 'Author', c: REL.pub, items: [it('Isaac Asimov', '1920–1992', 'book')] }, { rel: 'Sequel', c: REL.ad, items: [it('Anniversary', '1959', 'mag')] }],
+next: [rec('Because you read this', 'Nightfall', 'Asimov · 1941', 'mag'), rec('Same theme: space survival', 'The Time Machine', 'H. G. Wells · 1895', 'book')],
+sources: [{ n: 1, text: 'Isaac Asimov, In Memory Yet Green (1979)', host: 'isfdb.org' }, { n: 2, text: 'Title record, Internet Speculative Fiction Database', host: 'isfdb.org' }] },
+film: { label: 'Film', type: 'Film', lane: 'film', icon: I.film, dates: '1953', title: 'THE WAR OF THE WORLDS', sub: 'Directed by Byron Haskin · produced by George Pal', crumb: 'The War of the Worlds (1953)', hero: 'portrait',
+credit: '[Theatrical poster · credit · licence · source]', primary: { label: 'IMDb', kind: 'ext' }, want: 'WATCH',
+facts: [['Director', 'Byron Haskin'], ['Producer', 'George Pal'], ['Setting', '1950s California'], ['Award', 'Oscar, special effects']],
+paras: [['George Pal’s Technicolor adaptation moves Wells’s invasion from Victorian Surrey to 1950s Southern California.', 1], ['Its manta-shaped Martian war machines won the Academy Award for special effects.', 2]],
+groups: [{ rel: 'Adapted from', c: REL.ad, items: [it('The War of the Worlds', '1898 · novel', 'book')] }, { rel: 'Same source', c: REL.ad, items: [it('Mercury Theatre broadcast', '1938 · radio', 'film'), it('Jeff Wayne’s album', '1978', 'music')] }],
+next: [rec('Same source', 'Jeff Wayne’s War of the Worlds', 'Album · 1978', 'music'), rec('Same theme: alien invasion', 'Invasion of the Body Snatchers', 'Film · 1956', 'film')],
+sources: [{ n: 1, text: 'AFI Catalog of Feature Films', host: 'catalog.afi.com' }, { n: 2, text: 'Academy Awards database', host: 'oscars.org' }] },
+music: { label: 'Music', type: 'Music', lane: 'music', icon: I.music, dates: '1978', title: 'JEFF WAYNE’S WAR OF THE WORLDS', sub: 'Concept album narrated by Richard Burton', crumb: 'Jeff Wayne’s War of the Worlds', hero: 'square',
+credit: '[Album cover · artist · licence · source]', primary: { label: 'SPOTIFY', kind: 'ext' }, want: 'LISTEN',
+facts: [['Composer', 'Jeff Wayne'], ['Narrator', 'Richard Burton'], ['Singers', 'Justin Hayward, Phil Lynott'], ['Released', '1978']],
+paras: [['A rock and orchestral retelling of Wells’s novel, with Richard Burton as the Journalist.', 1], ['It became one of the best-selling albums in Britain and was later staged as a touring show.', 1]],
+groups: [{ rel: 'Adapted from', c: REL.ad, items: [it('The War of the Worlds', '1898 · novel', 'book')] }, { rel: 'Same source', c: REL.ad, items: [it('The War of the Worlds', '1953 · film', 'film'), it('Mercury Theatre broadcast', '1938', 'film')] }],
+next: [rec('Same source', 'The War of the Worlds', 'Film · 1953', 'film'), rec('Same theme: space', 'Holst · The Planets', 'Music · 1918', 'music')],
+sources: [{ n: 1, text: '[Album credits — official site, to verify]', host: 'thewaroftheworlds.com' }] },
+art: { label: 'Art', type: 'Visual art', lane: 'art', icon: I.art, dates: 'April 1926', title: 'AMAZING STORIES · APRIL 1926 COVER', sub: 'Illustration by Frank R. Paul', crumb: 'Cover, April 1926', hero: 'portrait', readable: true,
+credit: 'Frank R. Paul, cover of Amazing Stories, April 1926 · Public domain (US) · Wikimedia Commons', primary: { label: 'READ IN BANCA', kind: 'banca' }, want: 'SEE',
+facts: [['Artist', 'Frank R. Paul'], ['Illustrates', 'Off on a Comet (Verne)'], ['Medium', '[to verify]'], ['Rights', 'Public domain (US)']],
+paras: [['Paul painted the cover of the first issue of the first science-fiction magazine, illustrating Verne’s Off on a Comet.', 1], ['His bright, detailed machines and alien cities shaped how a generation of readers pictured the future.', 2]],
+groups: [{ rel: 'Cover of', c: REL.pub, items: [it('Amazing Stories · April 1926', 'R', 'mag')] }, { rel: 'Illustrates', c: REL.ad, items: [it('Off on a Comet', 'Jules Verne', 'mag')] }, { rel: 'Same artist', c: REL.th, items: [it('[More Paul covers]', '1926–1929', 'art')] }],
+next: [rec('Same form: space art', 'Bonestell · Saturn from Titan', 'Painting · 1944', 'art'), rec('Next on your path', 'The New Accelerator', 'H. G. Wells · 1926', 'mag')],
+sources: [{ n: 1, text: 'Issue record, Internet Speculative Fiction Database', host: 'isfdb.org' }, { n: 2, text: '“Paul, Frank R.”, The Encyclopedia of Science Fiction', host: 'sf-encyclopedia.com' }] },
+theme: { label: 'Theme', type: 'Theme', outline: true, icon: I.theme, lane: 'book', dates: '1920 →', title: 'ROBOTS', sub: 'Artificial people and thinking machines', crumb: 'Robots', hero: 'wide',
+credit: '[Image · credit · licence · source]', primary: { label: 'SHOW ON TIMELINE', kind: 'plain' }, want: null,
+facts: [['Word from', 'R.U.R., Karel Čapek (1920)'], ['Key idea', 'Three Laws (1942)'], ['In Atlas', '[N] items'], ['Related', 'Artificial intelligence']],
+paras: [['The word comes from Karel Čapek’s play R.U.R. (1920), from the Czech robota, forced labour.', 1], ['Asimov’s Three Laws (1942) turned robots from monsters into characters bound by rules, and much later fiction answers him.', 1]],
+groups: [{ rel: 'Stories & books', c: REL.th, items: [it('Runaround', '1942', 'mag'), it('I, Robot', '1950', 'book')] }, { rel: 'Film & manga', c: REL.th, items: [it('Metropolis', '1927', 'film'), it('Astro Boy', '1952', 'comic')] }],
+next: [rec('Related theme', 'Artificial intelligence', 'Theme', 'book'), rec('Most connected', 'I, Robot', 'Asimov · 1950', 'book')],
+sources: [{ n: 1, text: '“Robots”, The Encyclopedia of Science Fiction', host: 'sf-encyclopedia.com' }] },
+event: { label: 'Event', type: 'Event', lane: 'world', icon: I.event, dates: '4 October 1957', title: 'SPUTNIK 1', sub: 'The first artificial satellite · Soviet Union', crumb: 'Sputnik', hero: 'wide',
+credit: '[Photograph · NASA · public domain, to verify]', primary: { label: 'SHOW ON TIMELINE', kind: 'plain' }, want: null,
+facts: [['Launched', '4 Oct 1957'], ['Orbit', 'about 96 minutes'], ['Led to', 'Space Race'], ['Next', 'NASA founded (1958)']],
+paras: [['The Soviet Union put the first artificial satellite into orbit; its radio beeps could be picked up by amateurs around the world.', 1], ['The shock started the Space Race, and NASA was founded the following year.', 1]],
+groups: [{ rel: 'Led to', c: REL.inf, items: [it('NASA founded', '1958', 'world')] }, { rel: 'Same theme: space travel', c: REL.th, items: [it('Saturn from Titan', 'Bonestell · 1944', 'art'), it('The Conquest of Space', 'book · 1949', 'book')] }],
+next: [rec('Same theme: space travel', 'Saturn from Titan', 'Bonestell · 1944', 'art'), rec('Same decade', 'Forbidden Planet', 'Film · 1956', 'film')],
+sources: [{ n: 1, text: 'Sputnik and the Origins of the Space Age, NASA History', host: 'history.nasa.gov' }] }
+};
+const ORDER = ['person', 'story', 'film', 'music', 'art', 'theme', 'event'];
+const kind = this.state.kind || this.props.kind || 'story';
+const d = D[kind];
+const heroH = d.hero === 'portrait' ? 340 : (d.hero === 'square' ? 286 : 180);
+const isBanca = d.primary.kind === 'banca';
+const wanted = !!this.state.wanted[kind];
+return {
+T,
+kinds: ORDER.map((k) => ({ label: D[k].label, bg: k === kind ? T.ink : 'transparent', ink: k === kind ? T.yellow : T.ink, border: k === kind ? T.ink : T.rule, pick: () => this.setState({ kind: k }) })),
+toggleWant: () => { const w = { ...this.state.wanted }; w[kind] = !w[kind]; this.setState({ wanted: w }); },
+want: { label: wanted ? 'ON YOUR LIST · TAP TO REMOVE' : '+ WANT TO ' + d.want, bg: wanted ? T.yellow : T.surface, ink: wanted ? T.onYellow : T.ink },
+e: {
+...d, heroH, heroBg: g(d.lane), readable: !!d.readable,
+hasPrimary: true, hasWant: !!d.want, stamp: isBanca, ext: d.primary.kind === 'ext', pLabel: d.primary.label,
+pBg: isBanca ? T.red : T.surface, pInk: isBanca ? T.onRed : T.ink,
+badgeBg: d.outline ? 'transparent' : LN[d.lane][0], badgeInk: d.outline ? T.ink : LN[d.lane][1], badgeBorder: d.outline ? '2px solid ' + T.ink : '0',
+paras: d.paras.map(([t, c]) => ({ t, c }))
+}
+};
+}
+}
+</script>
+</body>
+</html>

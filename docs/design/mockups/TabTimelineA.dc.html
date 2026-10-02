@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Timeline A · Lanes — tablet</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#1F4E8C}a:hover{color:#C8321F}
+input::placeholder{color:#7A6A52}
+</style>
+</helmet>
+<div style="position: relative; width: 1280px; height: 800px; overflow: hidden; background: #EEE2C6; color: #2A2118; font-family: 'Source Serif 4', Georgia, serif">
+
+<div style="height: 72px; display: flex; align-items: center; gap: 24px; padding: 0 24px; background: radial-gradient(rgba(255,240,200,0.16) 1.3px, transparent 1.8px) 0 0 / 7px 7px, #C8321F; border-bottom: 3px solid #2A2118; box-sizing: border-box">
+<a href="#" style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 46px; line-height: 1; color: #F2B705; text-shadow: 3px 3px 0 #1F4E8C; text-decoration: none">BANCA</a>
+<nav style="display: flex; gap: 8px">
+<a href="#" style="height: 44px; padding: 0 16px; border-radius: 4px; border: 2px solid #F5EBD3; color: #F5EBD3; display: flex; align-items: center; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 19px; letter-spacing: 0.06em; text-decoration: none">PULP</a>
+<a href="#" style="height: 44px; padding: 0 16px; border-radius: 4px; border: 2px solid #F5EBD3; color: #F5EBD3; display: flex; align-items: center; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 19px; letter-spacing: 0.06em; text-decoration: none">RPG</a>
+<a href="#" style="height: 44px; padding: 0 16px; border-radius: 4px; background: #F2B705; color: #2A2118; border: 2px solid #2A2118; display: flex; align-items: center; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 19px; letter-spacing: 0.06em; text-decoration: none">ATLAS</a>
+</nav>
+<div style="flex-grow: 1"></div>
+<button aria-label="Search the Atlas" style="width: 48px; height: 48px; border-radius: 4px; background: #F5EBD3; border: 2px solid #2A2118; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2A2118" stroke-width="2.2" stroke-linecap="round"><path d="M11 4a7 7 0 1 0 0 14a7 7 0 1 0 0-14M20 20l-4-4"></path></svg></button>
+</div>
+
+<div style="height: 52px; display: flex; align-items: center; gap: 16px; padding: 0 16px 0 20px; border-bottom: 2px solid #2A2118; background: #F7EEDA; box-sizing: border-box">
+<a href="#" aria-label="Back to Atlas home" style="width: 44px; height: 44px; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2A2118" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"></path></svg></a>
+<h1 style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 28px; line-height: 1">TIMELINE</h1>
+<span style="font-size: 14px; color: #5E4E3A">Path: From Wells to Foundation</span>
+<div style="flex-grow: 1"></div>
+<div role="group" aria-label="Zoom" style="display: flex; border: 2px solid #2A2118; border-radius: 4px; overflow: hidden">
+<sc-for list="{{zooms}}" as="z" hint-placeholder-count="3">
+<button onClick="{{z.pick}}" style="height: 40px; padding: 0 14px; border: 0; border-right: {{z.sep}}; background: {{z.bg}}; color: {{z.ink}}; font: 700 14px 'Source Serif 4', serif; cursor: pointer">{{z.label}}</button>
+</sc-for>
+</div>
+<label style="display: flex; align-items: center; gap: 8px; height: 40px; padding: 0 10px; border: 2px solid #2A2118; border-radius: 4px; font-size: 14px; background: #EEE2C6">Jump to
+<input type="number" aria-label="Year" placeholder="1939" style="width: 56px; border: 0; background: transparent; font: 700 15px 'Source Serif 4', serif; font-variant-numeric: tabular-nums; outline: none">
+</label>
+</div>
+
+<div style="position: absolute; left: 0; top: 124px; width: 1280px; height: 28px; border-bottom: 2px solid #2A2118; box-sizing: border-box">
+<div style="position: absolute; left: 20px; top: 6px; font-size: 11px; font-weight: 700; letter-spacing: 0.12em; color: #5E4E3A">LANES · TAP TO HIDE</div>
+<sc-for list="{{ticks}}" as="t" hint-placeholder-count="12">
+<div style="position: absolute; left: {{t.left}}px; bottom: 0; width: 2px; height: {{t.h}}px; background: #2A2118"></div>
+<div style="position: absolute; left: {{t.left}}px; top: 3px; transform: translateX(-50%); font-size: 13px; font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap">{{t.label}}</div>
+</sc-for>
+</div>
+
+<div style="position: absolute; left: 0; top: 152px; width: 1280px; height: 466px; overflow: hidden">
+<sc-for list="{{lanes}}" as="l" hint-placeholder-count="7">
+<div style="position: absolute; left: 0; top: {{l.top}}px; width: 1280px; height: {{l.h}}px; border-bottom: 1px solid #D6C6A2; background: {{l.band}}"></div>
+<button onClick="{{l.toggle}}" aria-pressed="{{l.on}}" style="position: absolute; left: 12px; top: {{l.btnTop}}px; width: 150px; height: {{l.btnH}}px; display: flex; align-items: center; gap: 8px; padding: 0 8px; border: 0; border-radius: 4px; background: transparent; color: {{l.labelInk}}; text-align: left; cursor: pointer">
+<span style="width: 14px; height: 14px; flex-shrink: 0; border: 2px solid #2A2118; background: {{l.swatch}}"></span>
+<span style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 16px; letter-spacing: 0.04em; line-height: 1.05">{{l.name}}</span>
+</button>
+<sc-if value="{{l.empty}}" hint-placeholder-val="{{ false }}">
+<div style="position: absolute; left: 190px; top: {{l.emptyTop}}px; font-size: 13px; font-style: italic; color: #5E4E3A">Nothing in this period</div>
+</sc-if>
+</sc-for>
+
+<sc-for list="{{lines}}" as="k" hint-placeholder-count="4">
+<div style="position: absolute; left: {{k.x}}px; top: {{k.y}}px; width: {{k.len}}px; height: 2px; background: #C8321F; transform: rotate({{k.ang}}rad); transform-origin: 0 50%"></div>
+</sc-for>
+
+<sc-for list="{{cards}}" as="c" hint-placeholder-count="14">
+<button onClick="{{c.pick}}" style="position: absolute; left: {{c.left}}px; top: {{c.top}}px; width: {{c.w}}px; height: 28px; box-sizing: border-box; display: flex; align-items: center; gap: 6px; padding: 0 6px 0 0; border: {{c.border}}; border-radius: 3px; background: {{c.bg}}; color: {{c.ink}}; box-shadow: {{c.shadow}}; opacity: {{c.op}}; overflow: visible; text-align: left; cursor: pointer">
+<span style="width: {{c.thumbW}}px; height: 24px; flex-shrink: 0; background: radial-gradient(rgba(0,0,0,0.18) 1px, transparent 1.4px) 0 0 / 5px 5px, {{c.thumb}}"></span>
+<span style="flex-grow: 1; min-width: 0; font: 600 13px 'Source Serif 4', serif; white-space: nowrap; overflow: hidden; text-overflow: ellipsis">{{c.title}}</span>
+<span style="font: 12px 'Source Serif 4', serif; opacity: 0.8; font-variant-numeric: tabular-nums">{{c.year}}</span>
+<sc-if value="{{c.hasMore}}" hint-placeholder-val="{{ false }}"><span style="position: absolute; right: -10px; top: -10px; min-width: 24px; height: 20px; padding: 0 4px; box-sizing: border-box; border-radius: 10px; background: #2A2118; color: #EFE0C2; font: 700 11px 'Source Serif 4', serif; display: flex; align-items: center; justify-content: center">+{{c.more}}</span></sc-if>
+<sc-if value="{{c.readable}}" hint-placeholder-val="{{ false }}"><span style="position: absolute; left: -6px; top: -9px; width: 18px; height: 18px; border-radius: 50%; border: 2px solid #C8321F; background: #F7EEDA; color: #C8321F; font: 800 10px 'Big Shoulders Display', sans-serif; display: flex; align-items: center; justify-content: center">R</span></sc-if>
+</button>
+</sc-for>
+
+<sc-for list="{{offs}}" as="o" hint-placeholder-count="3">
+<button onClick="{{o.pick}}" style="position: absolute; left: {{o.left}}px; top: {{o.top}}px; width: 96px; height: 28px; box-sizing: border-box; border: 2px dashed #C8321F; border-radius: 14px; background: #F7EEDA; color: #C8321F; font: 700 12px 'Source Serif 4', serif; font-variant-numeric: tabular-nums; cursor: pointer">{{o.label}}</button>
+</sc-for>
+
+<sc-for list="{{relTags}}" as="r" hint-placeholder-count="4">
+<div style="position: absolute; left: {{r.x}}px; top: {{r.y}}px; transform: translate(-50%, -50%); padding: 2px 6px; border-radius: 3px; background: #C8321F; color: #FFF4DC; font: 700 10px 'Source Serif 4', serif; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap">{{r.label}}</div>
+</sc-for>
+</div>
+
+<div style="position: absolute; left: 0; right: 0; bottom: 0; height: 182px; box-sizing: border-box; padding: 14px 24px 16px; background: #F7EEDA; border-top: 3px solid #2A2118; box-shadow: 0 -6px 0 rgba(42,33,24,0.12); display: grid; grid-template-columns: 112px minmax(0, 1fr) 330px; gap: 22px">
+<div style="display: flex; flex-direction: column; gap: 4px">
+<div style="height: 132px; border: 2px solid #2A2118; background: radial-gradient(rgba(0,0,0,0.18) 1px, transparent 1.5px) 0 0 / 6px 6px, {{sel.thumb}}"></div>
+<div style="font-size: 10px; color: #5E4E3A; line-height: 1.2">{{sel.credit}}</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px; min-width: 0">
+<div style="display: flex; align-items: center; gap: 8px">
+<span style="font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; padding: 3px 7px; border-radius: 3px; background: {{sel.laneC}}; color: {{sel.laneInk}}">{{sel.type}}</span>
+<span style="font-size: 14px; color: #5E4E3A; font-variant-numeric: tabular-nums">{{sel.when}}</span>
+</div>
+<div style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 32px; line-height: 0.95">{{sel.titleCaps}}</div>
+<div style="font-size: 15px; line-height: 1.45">{{sel.summary}}</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<div style="font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #C8321F">{{connCount}}</div>
+<div style="display: flex; flex-wrap: wrap; gap: 6px">
+<sc-for list="{{connList}}" as="c" hint-placeholder-count="4">
+<button onClick="{{c.pick}}" style="height: 30px; padding: 0 8px; border: 1.5px solid #2A2118; border-radius: 3px; background: transparent; font: 13px 'Source Serif 4', serif; cursor: pointer"><b style="color: #C8321F">{{c.rel}}</b> {{c.title}}</button>
+</sc-for>
+</div>
+<div style="display: flex; gap: 10px; margin-top: auto">
+<a href="#" style="height: 44px; padding: 0 16px; display: flex; align-items: center; background: #C8321F; color: #FFF4DC; border: 2px solid #2A2118; border-radius: 4px; box-shadow: 3px 3px 0 #2A2118; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 18px; letter-spacing: 0.06em; text-decoration: none">OPEN</a>
+<button style="height: 44px; padding: 0 14px; background: #F7EEDA; color: #2A2118; border: 2px solid #2A2118; border-radius: 4px; box-shadow: 3px 3px 0 #2A2118; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 18px; letter-spacing: 0.06em; cursor: pointer">{{sel.want}}</button>
+</div>
+</div>
+</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":800}}'>
+class Component extends DCLogic {
+constructor(props) {
+super(props);
+this.state = { zoom: 'decade', sel: 'wotw', off: {} };
+}
+renderVals() {
+const s = this.state;
+const LANES = [
+{ id: 'mag', name: 'Magazines & stories', c: '#C8321F', ink: '#FFF4DC' },
+{ id: 'book', name: 'Books', c: '#1F4E8C', ink: '#F7EEDA' },
+{ id: 'film', name: 'Film & TV', c: '#2A2118', ink: '#EFE0C2' },
+{ id: 'music', name: 'Music', c: '#2E7D6E', ink: '#F7EEDA' },
+{ id: 'art', name: 'Visual art', c: '#F2B705', ink: '#2A2118' },
+{ id: 'comic', name: 'Comics & manga', c: '#B0457E', ink: '#FFF4DC' },
+{ id: 'world', name: 'World events', c: '#7D6B55', ink: '#FFF4DC' }
+];
+const LC = {}; LANES.forEach((l) => { LC[l.id] = l; });
+const IT = [
+{ id: 'tm', t: 'The Time Machine', y: 1895, lane: 'book', type: 'Book', want: 'Read' },
+{ id: 'wotw', t: 'The War of the Worlds', y: 1898, lane: 'book', type: 'Book', want: 'Read', sum: 'Martians land in Surrey and overrun southern England. Wells’s novel set the pattern for every alien-invasion story that followed [1].' },
+{ id: 'trip', t: 'A Trip to the Moon', y: 1902, lane: 'film', type: 'Film', want: 'Watch' },
+{ id: 'planets', t: 'Holst · The Planets', y: 1918, lane: 'music', type: 'Music', want: 'Listen' },
+{ id: 'amz', t: 'Amazing Stories', y: 1926, lane: 'mag', type: 'Magazine', want: 'Read', readable: true, sum: 'Hugo Gernsback launches the first magazine devoted to science fiction, reprinting Wells, Verne and Poe [1].' },
+{ id: 'acc', t: 'The New Accelerator', y: 1926, lane: 'mag', type: 'Story', want: 'Read', readable: true },
+{ id: 'paul', t: 'Paul · cover, Apr 1926', y: 1926, lane: 'art', type: 'Illustration', want: 'See' },
+{ id: 'theremin', t: 'Theremin patented', y: 1928, lane: 'music', type: 'Music', want: 'Listen' },
+{ id: 'buck', t: 'Buck Rogers strip', y: 1929, lane: 'comic', type: 'Comic', want: 'Read' },
+{ id: 'ast', t: 'Campbell edits Astounding', y: 1937, lane: 'mag', type: 'Magazine', want: 'Read' },
+{ id: 'radio', t: 'War of the Worlds (radio)', y: 1938, lane: 'film', type: 'Radio', want: 'Listen', sum: 'Orson Welles’s Mercury Theatre plays the novel as live news bulletins on 30 October 1938 [2].' },
+{ id: 'vesta', t: 'Marooned off Vesta', y: 1939, lane: 'mag', type: 'Story', want: 'Read', readable: true, sum: 'Isaac Asimov’s first published story, in Amazing Stories, March 1939 [1].' },
+{ id: 'ww2', t: 'World War II', y: 1939, y2: 1945, lane: 'world', type: 'Event', want: 'See' },
+{ id: 'night', t: 'Nightfall', y: 1941, lane: 'mag', type: 'Story', want: 'Read' },
+{ id: 'run', t: 'Runaround', y: 1942, lane: 'mag', type: 'Story', want: 'Read' },
+{ id: 'fst', t: 'Foundation (stories)', y: 1942, lane: 'mag', type: 'Story', want: 'Read' },
+{ id: 'bones', t: 'Bonestell · Saturn from Titan', y: 1944, lane: 'art', type: 'Painting', want: 'See' },
+{ id: 'hiro', t: 'Hiroshima', y: 1945, lane: 'world', type: 'Event', want: 'See' },
+{ id: 'irobot', t: 'I, Robot', y: 1950, lane: 'book', type: 'Book', want: 'Read' },
+{ id: 'fnd', t: 'Foundation', y: 1951, lane: 'book', type: 'Book', want: 'Read' },
+{ id: 'astro', t: 'Astro Boy', y: 1952, lane: 'comic', type: 'Manga', want: 'Read' },
+{ id: 'film53', t: 'The War of the Worlds', y: 1953, lane: 'film', type: 'Film', want: 'Watch' },
+{ id: 'sput', t: 'Sputnik', y: 1957, lane: 'world', type: 'Event', want: 'See' },
+{ id: 'album', t: 'Jeff Wayne’s War of the Worlds', y: 1978, lane: 'music', type: 'Album', want: 'Listen' },
+{ id: 'film05', t: 'War of the Worlds', y: 2005, lane: 'film', type: 'Film', want: 'Watch' },
+{ id: 'series', t: 'Foundation (series)', y: 2021, lane: 'film', type: 'Series', want: 'Watch' }
+];
+const BY = {}; IT.forEach((i) => { BY[i.id] = i; });
+const E = [
+['wotw', 'radio', 'Adapted as'], ['wotw', 'film53', 'Adapted as'], ['wotw', 'album', 'Adapted as'], ['wotw', 'film05', 'Adapted as'],
+['wotw', 'amz', 'Influenced'], ['tm', 'amz', 'Influenced'], ['acc', 'amz', 'Published in'], ['paul', 'amz', 'Cover of'],
+['vesta', 'amz', 'Published in'], ['amz', 'buck', 'Adapted as'], ['night', 'ast', 'Published in'], ['run', 'ast', 'Published in'],
+['fst', 'ast', 'Published in'], ['run', 'irobot', 'Collected in'], ['fst', 'fnd', 'Collected in'], ['fnd', 'series', 'Adapted as'],
+['run', 'astro', 'Same theme'], ['ww2', 'hiro', 'Includes'], ['planets', 'bones', 'Same theme'], ['trip', 'bones', 'Same theme']
+];
+const INV = { 'Adapted as': 'Adapted from', 'Influenced': 'Influenced by', 'Published in': 'Published', 'Cover of': 'Cover by', 'Collected in': 'Collects', 'Includes': 'Part of', 'Same theme': 'Same theme' };
+const conn = {};
+E.forEach(([a, b, r]) => { if (a === s.sel) conn[b] = r; else if (b === s.sel) conn[a] = INV[r] || r; });
+const pick = (id) => () => this.setState({ sel: id });
+const W = s.zoom === 'year' ? { a: 1936, b: 1946.6 } : { a: 1888, b: 1946 };
+const X0 = 176, AREA = 1080;
+const sc = AREA / (W.b - W.a);
+const cw = s.zoom === 'year' ? 184 : 150;
+const xOf = (y) => X0 + (y - W.a) * sc;
+const grad = (l) => 'linear-gradient(150deg,' + LC[l].c + ' 0%, #F7EEDA 140%)';
+const lanes = []; const cards = []; const offs = []; const centers = {};
+let top = 0;
+LANES.forEach((l) => {
+const on = !s.off[l.id];
+const h = on ? 66 : 30;
+const ends = [-1e9, -1e9];
+let last = null; let count = 0; let offN = 0;
+if (on) {
+IT.filter((i) => i.lane === l.id).sort((p, q) => p.y - q.y).forEach((i) => {
+const isSel = i.id === s.sel; const isConn = !!conn[i.id];
+if (i.y > W.b - 1.5) {
+if (isConn) {
+const o = { left: X0 + AREA - 100, top: top + 4 + (offN % 2) * 32, label: '→ ' + i.y + ' · ' + i.type, pick: pick(i.id) };
+offs.push(o); offN++;
+centers[i.id] = { x: o.left + 48, y: o.top + 14 };
+}
+return;
+}
+if ((i.y2 || i.y) < W.a) return;
+const x = Math.max(X0, xOf(i.y));
+const w = i.y2 ? Math.min(xOf(i.y2), X0 + AREA) - x : cw;
+let row = x >= ends[0] + 6 ? 0 : (x >= ends[1] + 6 ? 1 : -1);
+if (row < 0 && last && !isSel) { last.more++; last.hasMore = true; return; }
+if (row < 0) row = 1;
+ends[row] = x + w;
+const c = {
+id: i.id, title: i.t, year: i.y2 ? i.y + '–' + String(i.y2).slice(2) : String(i.y), left: x, top: top + 4 + row * 32, w,
+thumb: grad(i.lane), thumbW: i.y2 ? 0 : 24, readable: !!i.readable, more: 0, hasMore: false, pick: pick(i.id),
+bg: isSel ? '#F2B705' : (i.y2 ? l.c : '#F7EEDA'), ink: isSel ? '#2A2118' : (i.y2 ? l.ink : '#2A2118'),
+border: isSel ? '2px solid #2A2118' : (isConn ? '2px solid #C8321F' : '1.5px solid #2A2118'),
+shadow: isSel ? '3px 3px 0 #2A2118' : (isConn ? '2px 2px 0 #C8321F' : 'none'),
+op: isSel || isConn ? '1' : '0.55'
+};
+cards.push(c); last = c; count++;
+centers[i.id] = { x: x + Math.min(w, 150) / 2, y: c.top + 14 };
+});
+}
+lanes.push({
+name: l.name, top, h, on: on ? 'true' : 'false', btnTop: top + (on ? 9 : 1), btnH: on ? 48 : 28,
+swatch: on ? l.c : 'transparent', labelInk: on ? '#2A2118' : '#8A7A62',
+band: on ? 'transparent' : 'repeating-linear-gradient(135deg, transparent 0 6px, rgba(42,33,24,0.06) 6px 7px)',
+empty: on && count === 0 && offN === 0, emptyTop: top + 24,
+toggle: () => { const off = { ...s.off }; off[l.id] = !off[l.id]; this.setState({ off }); }
+});
+top += h;
+});
+const lines = []; const relTags = [];
+const a = centers[s.sel];
+if (a) {
+Object.keys(conn).forEach((id) => {
+const b = centers[id]; if (!b) return;
+const dx = b.x - a.x, dy = b.y - a.y;
+lines.push({ x: a.x, y: a.y, len: Math.sqrt(dx * dx + dy * dy), ang: Math.atan2(dy, dx) });
+relTags.push({ x: a.x + dx * 0.55, y: a.y + dy * 0.55, label: conn[id] });
+});
+}
+const ticks = [];
+if (s.zoom === 'year') { for (let y = 1936; y <= 1946; y++) ticks.push({ left: xOf(y), label: String(y), h: 6 }); }
+else { for (let y = 1890; y <= 1945; y += 5) ticks.push({ left: xOf(y), label: y % 10 === 0 ? String(y) : '', h: y % 10 === 0 ? 8 : 4 }); }
+const it = BY[s.sel]; const L = LC[it.lane];
+const connList = Object.keys(conn).map((id) => ({ rel: conn[id], title: BY[id].t + ' (' + BY[id].y + ')', pick: pick(id) }));
+const zooms = [['decade', 'Decades'], ['year', 'Years']].map(([k, label], i) => ({
+label, bg: s.zoom === k ? '#2A2118' : '#F7EEDA', ink: s.zoom === k ? '#F2B705' : '#2A2118', sep: i === 0 ? '2px solid #2A2118' : '0',
+pick: () => this.setState({ zoom: k })
+}));
+return {
+zooms, ticks, lanes, cards, offs, lines, relTags, connList,
+connCount: connList.length + ' connections · tap to follow',
+sel: {
+titleCaps: it.t.toUpperCase(), type: it.type, when: it.y2 ? it.y + '–' + it.y2 : String(it.y),
+summary: it.sum || '[Summary — curated text pending review]', laneC: L.c, laneInk: L.ink,
+thumb: grad(it.lane), credit: '[Image credit · licence]', want: '+ WANT TO ' + it.want.toUpperCase()
+}
+};
+}
+}
+</script>
+</body>
+</html>

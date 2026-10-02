@@ -119,7 +119,7 @@ pytest                                                      # catalog tools, fro
 | `content/atlas/` | Atlas entities and guided paths (curated text with sources), checked by `tools/atlas/validate.py` |
 | `tools/` | catalog builder, magazine adapters, tests, Internet Archive investigation scripts, `brand/` icon generator |
 | `docs/` | decisions log, Internet Archive findings, catalog report, benchmark checklist, backlog |
-| `docs/design/` | Banca visual identity: design system spec (`banca-newsprint.md`) and mockup sources (`mockups/`) |
+| `docs/design/` | Banca visual identity (`banca-newsprint.md`), Atlas design spec (`banca-atlas.md`) and mockup sources (`mockups/`) |
 | `SPEC.md`, `PHASE*_PROMPT.md`, `CLAUDE.md` | product spec, phase briefs, contributor/agent notes |
 
 ## Roadmap
@@ -134,7 +134,8 @@ pytest                                                      # catalog tools, fro
 5. ✅ **Notes and export**: highlight colors, notes, web search, Notes screen, Markdown export.
 6. 🎨 **Atlas** (in design): a curated, offline "museum" linking the stories to authors, themes, film, music, comics
    and visual art, with a timeline, entity pages, "explore next" recommendations and want-to lists. Pilot path:
-   *From Wells to Foundation*. Design prompt: [docs/design/atlas-artifact-prompt.md](docs/design/atlas-artifact-prompt.md).
+   *From Wells to Foundation*. Design prompt: [docs/design/atlas-artifact-prompt.md](docs/design/atlas-artifact-prompt.md);
+   design spec: [docs/design/banca-atlas.md](docs/design/banca-atlas.md).
 
 Next sources (content categories **pulp**, **rpg** and **comics**: F&SF, Galaxy, Fantastic, Asimov's, Twilight Zone, Dragon,
 Dungeon, The Space Gamer, …) are tracked in [docs/BACKLOG.md](docs/BACKLOG.md).

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Want to lists — phone</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}</style>
+</helmet>
+<div style="position: relative; width: 412px; height: 892px; overflow: hidden; background: #EEE2C6; color: #2A2118; font-family: 'Source Serif 4', Georgia, serif">
+
+<div style="height: 56px; display: flex; align-items: center; gap: 4px; padding: 0 6px; background: radial-gradient(rgba(255,240,200,0.16) 1.3px, transparent 1.8px) 0 0 / 7px 7px, #C8321F; border-bottom: 3px solid #2A2118; box-sizing: border-box">
+<a href="PhAtlasHome.dc.html" aria-label="Back to Atlas home" style="width: 48px; height: 48px; display: flex; align-items: center; justify-content: center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FFF4DC" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"></path></svg></a>
+<h1 style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 30px; line-height: 1; color: #F2B705; text-shadow: 2px 2px 0 #1F4E8C">WANT TO…</h1>
+</div>
+
+<div role="tablist" style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; padding: 10px 12px; background: #F7EEDA; border-bottom: 2px solid #2A2118">
+<sc-for list="{{tabs}}" as="t" hint-placeholder-count="4">
+<button role="tab" aria-selected="{{t.sel}}" onClick="{{t.pick}}" style="height: 48px; display: flex; flex-direction: column; align-items: center; justify-content: center; border: 2px solid #2A2118; border-radius: 4px; background: {{t.bg}}; box-shadow: {{t.shadow}}; color: #2A2118; cursor: pointer"><span style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 17px; letter-spacing: 0.06em; line-height: 1">{{t.label}}</span><span style="font-size: 12px; font-weight: 700; font-variant-numeric: tabular-nums">{{t.n}}</span></button>
+</sc-for>
+</div>
+
+<div style="padding: 4px 16px 0">
+<sc-for list="{{todo}}" as="r" hint-placeholder-count="5">
+<div style="display: grid; grid-template-columns: 52px minmax(0, 1fr) auto; gap: 12px; align-items: center; min-height: 76px; border-bottom: 2px solid #D6C6A2">
+<a href="{{r.href}}" aria-label="Open {{r.t}}" style="position: relative; width: 50px; height: 50px; box-sizing: border-box; border: 2px solid #2A2118; background: radial-gradient(rgba(0,0,0,0.18) 1px, transparent 1.5px) 0 0 / 5px 5px, {{r.bg}}">
+<sc-if value="{{r.readable}}" hint-placeholder-val="{{ false }}"><span style="position: absolute; right: -8px; bottom: -8px; width: 22px; height: 22px; border-radius: 50%; border: 2px solid #C8321F; background: #F7EEDA; color: #C8321F; font: 800 10px 'Big Shoulders Display', sans-serif; display: flex; align-items: center; justify-content: center">R</span></sc-if>
+</a>
+<a href="{{r.href}}" style="min-width: 0; color: #2A2118; text-decoration: none">
+<span style="display: block; font-size: 16px; font-weight: 700; line-height: 1.2">{{r.t}}</span>
+<span style="display: block; font-size: 12px; color: #5E4E3A">{{r.type}} · {{r.year}} · from {{r.from}}</span>
+</a>
+<button onClick="{{r.done}}" aria-label="Mark as done" style="width: 48px; height: 48px; border: 2px solid #2A2118; border-radius: 4px; background: #F7EEDA; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2A2118" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"></path></svg></button>
+</div>
+</sc-for>
+<div style="font-size: 12px; color: #5E4E3A; padding: 8px 0">Swipe a row left to remove it.</div>
+<sc-if value="{{hasDone}}" hint-placeholder-val="{{ true }}">
+<div style="display: flex; align-items: center; gap: 10px; margin: 6px 0 2px">
+<span style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 20px; color: #5E4E3A">DONE · {{doneN}}</span>
+<div style="flex-grow: 1; height: 2px; background: #D6C6A2"></div>
+</div>
+<sc-for list="{{doneList}}" as="r" hint-placeholder-count="2">
+<div style="display: flex; align-items: center; gap: 12px; min-height: 50px; border-bottom: 1px solid #D6C6A2; opacity: 0.6">
+<span style="flex-grow: 1; font-size: 15px; text-decoration: line-through; text-decoration-thickness: 2px">{{r.t}} · {{r.year}}</span>
+<button onClick="{{r.done}}" style="height: 44px; padding: 0 10px; border: 0; background: transparent; font: 600 14px 'Source Serif 4', serif; color: #1F4E8C; cursor: pointer">Undo</button>
+</div>
+</sc-for>
+</sc-if>
+</div>
+
+<nav aria-label="Sections" style="position: absolute; left: 0; right: 0; bottom: 0; height: 64px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); background: #F7EEDA; border-top: 2px solid #2A2118">
+<sc-for list="{{nav}}" as="n" hint-placeholder-count="4">
+<a href="{{n.href}}" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; color: #2A2118; text-decoration: none">
+<span style="width: 52px; height: 28px; border-radius: 14px; background: {{n.bg}}; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2A2118" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="{{n.d}}"></path></svg></span>
+<span style="font-size: 12px; font-weight: {{n.w}}">{{n.label}}</span>
+</a>
+</sc-for>
+</nav>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":412,"height":892}}'>
+class Component extends DCLogic {
+constructor(props) {
+super(props);
+this.state = { tab: 'read', done: { wotw: true, acc: true } };
+}
+renderVals() {
+const L = { mag: '#C8321F', book: '#1F4E8C', film: '#2A2118', music: '#2E7D6E', art: '#F2B705' };
+const g = (l) => 'linear-gradient(150deg,' + L[l] + ' 0%, #F7EEDA 140%)';
+const R = (id, t, type, year, lane, from, readable) => ({ id, t, type, year, lane, from, readable: !!readable });
+const DATA = {
+read: [
+R('vesta', 'Marooned off Vesta', 'Story', '1939', 'mag', 'Path', true), R('night', 'Nightfall', 'Story', '1941', 'mag', 'Path'),
+R('run', 'Runaround', 'Story', '1942', 'mag', 'Asimov'), R('irobot', 'I, Robot', 'Book', '1950', 'book', 'Robots'),
+R('fnd', 'Foundation', 'Book', '1951', 'book', 'Timeline'), R('tm', 'The Time Machine', 'Book', '1895', 'book', 'Wells'),
+R('wotw', 'The War of the Worlds', 'Book', '1898', 'book', 'Path'), R('acc', 'The New Accelerator', 'Story', '1926', 'mag', 'Path', true)
+],
+watch: [R('film53', 'The War of the Worlds', 'Film', '1953', 'film', 'Entity'), R('series', 'Foundation', 'Series', '2021', 'film', 'Path'), R('metro', 'Metropolis', 'Film', '1927', 'film', 'Robots'), R('fp', 'Forbidden Planet', 'Film', '1956', 'film', 'Timeline')],
+listen: [R('album', 'Jeff Wayne’s War of the Worlds', 'Album', '1978', 'music', 'Entity'), R('radio', 'Mercury Theatre broadcast', 'Radio', '1938', 'film', 'Path'), R('planets', 'Holst · The Planets', 'Music', '1918', 'music', 'Timeline')],
+see: [R('paul', 'Paul · Amazing cover, Apr 1926', 'Visual art', '1926', 'art', 'Path', true), R('bones', 'Bonestell · Saturn from Titan', 'Painting', '1944', 'art', 'Timeline')]
+};
+const s = this.state;
+const toggle = (id) => () => { const d = { ...s.done }; d[id] = !d[id]; this.setState({ done: d }); };
+const rows = DATA[s.tab].map((r) => ({ ...r, bg: g(r.lane), done: toggle(r.id), href: r.readable ? '#' : 'PhEntity.dc.html' }));
+const doneList = rows.filter((r) => s.done[r.id]);
+return {
+tabs: Object.keys(DATA).map((k) => ({
+label: k.toUpperCase(), n: DATA[k].filter((r) => !s.done[r.id]).length, sel: k === s.tab ? 'true' : 'false',
+bg: k === s.tab ? '#F2B705' : '#F7EEDA', shadow: k === s.tab ? '3px 3px 0 #2A2118' : 'none', pick: () => this.setState({ tab: k })
+})),
+todo: rows.filter((r) => !s.done[r.id]), doneList, hasDone: doneList.length > 0, doneN: doneList.length,
+nav: [
+{ label: 'Pulp', href: '#', d: 'M3 5h6a3 3 0 0 1 3 3v12a2 2 0 0 0-2-2H3zM21 5h-6a3 3 0 0 0-3 3v12a2 2 0 0 1 2-2h7z' },
+{ label: 'RPG', href: '#', d: 'M12 3l8 5v8l-8 5-8-5V8zM12 3v18M4 8l16 8M20 8L4 16' },
+{ label: 'Atlas', href: 'PhAtlasHome.dc.html', d: 'M3 12h18M7 8v8M12 5v14M17 9v6', on: true },
+{ label: 'Search', href: '#', d: 'M11 4a7 7 0 1 0 0 14a7 7 0 1 0 0-14M20 20l-4-4' }
+].map((n) => ({ ...n, bg: n.on ? '#F2B705' : 'transparent', w: n.on ? '700' : '400' }))
+};
+}
+}
+</script>
+</body>
+</html>

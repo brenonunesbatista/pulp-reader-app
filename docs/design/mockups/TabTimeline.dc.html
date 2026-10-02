@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Atlas Timeline — tablet</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+input::placeholder{color:#8A7A62}
+</style>
+</helmet>
+<div style="position: relative; width: 1280px; height: 800px; overflow: hidden; background: {{T.bg}}; color: {{T.ink}}; font-family: 'Source Serif 4', Georgia, serif">
+
+<div style="height: 72px; display: flex; align-items: center; gap: 24px; padding: 0 24px; background: {{T.mast}}; border-bottom: 3px solid {{T.mastLine}}; box-sizing: border-box">
+<a href="TabAtlasHome.dc.html" style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 46px; line-height: 1; color: {{T.word}}; text-shadow: {{T.wordShadow}}; text-decoration: none">BANCA</a>
+<nav style="display: flex; gap: 8px">
+<a href="#" style="height: 44px; padding: 0 16px; border-radius: 4px; border: 2px solid {{T.tabInk}}; color: {{T.tabInk}}; display: flex; align-items: center; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 19px; letter-spacing: 0.06em; text-decoration: none">PULP</a>
+<a href="#" style="height: 44px; padding: 0 16px; border-radius: 4px; border: 2px solid {{T.tabInk}}; color: {{T.tabInk}}; display: flex; align-items: center; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 19px; letter-spacing: 0.06em; text-decoration: none">RPG</a>
+<a href="TabAtlasHome.dc.html" style="height: 44px; padding: 0 16px; border-radius: 4px; background: {{T.yellow}}; color: {{T.onYellow}}; border: 2px solid {{T.edge}}; display: flex; align-items: center; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 19px; letter-spacing: 0.06em; text-decoration: none">ATLAS</a>
+</nav>
+<div style="flex-grow: 1"></div>
+<button aria-label="Search the Atlas" style="width: 48px; height: 48px; border-radius: 4px; background: {{T.surface}}; border: 2px solid {{T.edge}}; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="{{T.ink}}" stroke-width="2.2" stroke-linecap="round"><path d="M11 4a7 7 0 1 0 0 14a7 7 0 1 0 0-14M20 20l-4-4"></path></svg></button>
+</div>
+
+<div style="height: 52px; display: flex; align-items: center; gap: 10px; padding: 0 14px 0 8px; border-bottom: 2px solid {{T.edge}}; background: {{T.surface}}; box-sizing: border-box">
+<a href="TabAtlasHome.dc.html" aria-label="Back to Atlas home" style="width: 44px; height: 44px; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="{{T.ink}}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"></path></svg></a>
+<h1 style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 28px; line-height: 1">TIMELINE</h1>
+<div role="group" aria-label="Zoom" style="display: flex; border: 2px solid {{T.edge}}; border-radius: 4px; overflow: hidden; margin-left: 6px">
+<sc-for list="{{zooms}}" as="z" hint-placeholder-count="2">
+<button onClick="{{z.pick}}" style="height: 40px; padding: 0 12px; border: 0; border-right: {{z.sep}}; background: {{z.bg}}; color: {{z.ink}}; font: 700 14px 'Source Serif 4', serif; cursor: pointer">{{z.label}}</button>
+</sc-for>
+</div>
+<label style="display: flex; align-items: center; gap: 6px; height: 40px; padding: 0 8px; border: 2px solid {{T.edge}}; border-radius: 4px; font-size: 13px; color: {{T.muted}}">Year
+<input type="number" aria-label="Jump to year" placeholder="1939" style="width: 48px; border: 0; background: transparent; color: {{T.ink}}; font: 700 15px 'Source Serif 4', serif; font-variant-numeric: tabular-nums; outline: none">
+</label>
+<div style="flex-grow: 1"></div>
+<sc-for list="{{laneChips}}" as="l" hint-placeholder-count="7">
+<button onClick="{{l.toggle}}" aria-pressed="{{l.on}}" style="height: 40px; padding: 0 8px; display: flex; align-items: center; gap: 5px; border: 2px solid {{l.border}}; border-radius: 20px; background: {{l.bg}}; color: {{l.ink}}; font: 600 13px 'Source Serif 4', serif; cursor: pointer"><span style="width: 12px; height: 12px; border-radius: 50%; border: 1.5px solid {{T.ink}}; background: {{l.dot}}"></span>{{l.short}}</button>
+</sc-for>
+</div>
+
+<div style="position: absolute; left: 0; top: 124px; width: 1280px; height: 92px; border-bottom: 2px solid {{T.edge}}; box-sizing: border-box; background: {{T.surface2}}">
+<button onClick="{{noop}}" aria-label="Visible period, drag to move" style="position: absolute; left: {{win.left}}px; top: 6px; width: {{win.w}}px; height: 60px; box-sizing: border-box; border: 3px solid {{T.ink}}; background: {{T.winFill}}; box-shadow: {{T.shadowS}}; cursor: grab"></button>
+<sc-for list="{{ovRows}}" as="r" hint-placeholder-count="7">
+<div style="position: absolute; left: 24px; top: {{r.top}}px; width: 1232px; height: 1px; background: {{T.hair}}"></div>
+<sc-for list="{{r.marks}}" as="m" hint-placeholder-count="4">
+<div style="position: absolute; left: {{m.left}}px; top: {{m.top}}px; width: {{m.w}}px; height: 6px; background: {{r.c}}; outline: {{m.outline}}"></div>
+</sc-for>
+</sc-for>
+<sc-for list="{{ovPins}}" as="p" hint-placeholder-count="3">
+<div style="position: absolute; left: {{p.left}}px; top: 2px; width: 2px; height: 66px; background: {{p.c}}"></div>
+</sc-for>
+<sc-for list="{{ovYears}}" as="y" hint-placeholder-count="15">
+<div style="position: absolute; left: {{y.left}}px; top: 70px; transform: translateX(-50%); font-size: 12px; font-weight: {{y.w}}; font-variant-numeric: tabular-nums; color: {{T.muted}}">{{y.label}}</div>
+</sc-for>
+</div>
+
+<div style="position: absolute; left: 0; top: 216px; width: 900px; height: 584px; box-sizing: border-box; padding: 14px 16px 0 20px; display: flex; gap: {{gap}}px">
+<sc-for list="{{cols}}" as="col" hint-placeholder-count="6">
+<div style="width: {{colW}}px; flex-shrink: 0; display: flex; flex-direction: column; gap: 10px">
+<div style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 22px; line-height: 1; padding-bottom: 6px; border-bottom: 3px solid {{T.edge}}; font-variant-numeric: tabular-nums">{{col.label}}</div>
+<sc-for list="{{col.cards}}" as="c" hint-placeholder-count="4">
+<button onClick="{{c.pick}}" style="position: relative; display: flex; flex-direction: column; padding: 0; border: {{c.border}}; border-radius: 3px; background: {{c.bg}}; color: {{c.ink}}; box-shadow: {{c.shadow}}; opacity: {{c.op}}; text-align: left; overflow: visible; cursor: pointer">
+<span style="display: block; height: {{thumbH}}px; border-bottom: 4px solid {{c.laneC}}; background: radial-gradient({{T.dot}} 1px, transparent 1.5px) 0 0 / 6px 6px, {{c.thumb}}"></span>
+<span style="display: block; padding: 5px 7px 6px">
+<span style="display: block; font: 600 13px/1.2 'Source Serif 4', serif; max-height: 31px; overflow: hidden">{{c.title}}</span>
+<span style="display: block; font: 12px 'Source Serif 4', serif; opacity: 0.8; font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis">{{c.meta}}</span>
+</span>
+<sc-if value="{{c.hasRel}}" hint-placeholder-val="{{ false }}"><span style="position: absolute; left: -4px; top: -9px; padding: 2px 5px; border-radius: 3px; background: {{T.red}}; color: {{T.onRed}}; font: 700 9px 'Source Serif 4', serif; letter-spacing: 0.08em; text-transform: uppercase; white-space: nowrap">{{c.rel}}</span></sc-if>
+<sc-if value="{{c.readable}}" hint-placeholder-val="{{ false }}"><span style="position: absolute; right: 5px; top: 5px; width: 22px; height: 22px; border-radius: 50%; border: 2px solid {{T.red}}; background: {{T.surface}}; color: {{T.red}}; font: 800 11px 'Big Shoulders Display', sans-serif; display: flex; align-items: center; justify-content: center">R</span></sc-if>
+</button>
+</sc-for>
+<sc-if value="{{col.hasMore}}" hint-placeholder-val="{{ false }}">
+<button style="height: 40px; border: 2px dashed {{T.muted}}; border-radius: 3px; background: transparent; color: {{T.muted}}; font: 700 13px 'Source Serif 4', serif; cursor: pointer">+{{col.more}} more</button>
+</sc-if>
+</div>
+</sc-for>
+</div>
+
+<aside style="position: absolute; right: 0; top: 216px; width: 380px; height: 584px; box-sizing: border-box; padding: 16px 20px; background: {{T.surface}}; border-left: 3px solid {{T.edge}}; display: flex; flex-direction: column; gap: 8px; overflow: hidden">
+<div style="height: 96px; flex-shrink: 0; border: 2px solid {{T.edge}}; box-shadow: {{T.img}}; background: radial-gradient({{T.dot}} 1px, transparent 1.5px) 0 0 / 6px 6px, {{sel.thumb}}"></div>
+<div style="font-size: 10px; color: {{T.muted}}; margin-top: -2px">[Image credit · licence · source]</div>
+<div style="display: flex; align-items: center; gap: 8px">
+<span style="font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; padding: 3px 7px; border-radius: 3px; background: {{sel.laneC}}; color: {{sel.laneInk}}">{{sel.type}}</span>
+<span style="font-size: 14px; color: {{T.muted}}; font-variant-numeric: tabular-nums">{{sel.when}}</span>
+</div>
+<div style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 30px; line-height: 0.95">{{sel.titleCaps}}</div>
+<div style="font-size: 14px; line-height: 1.45">{{sel.summary}}</div>
+<sc-for list="{{groups}}" as="g" hint-placeholder-count="2">
+<div style="border-top: 2px solid {{T.rule}}; padding-top: 6px">
+<div style="font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: {{T.red}}">{{g.rel}}</div>
+<sc-for list="{{g.items}}" as="i" hint-placeholder-count="2">
+<button onClick="{{i.pick}}" style="display: flex; justify-content: space-between; width: 100%; min-height: 30px; align-items: center; padding: 0; border: 0; background: transparent; font: 600 14px 'Source Serif 4', serif; color: {{T.ink}}; text-align: left; cursor: pointer"><span>{{i.title}}</span><span style="font-weight: 400; font-size: 13px; color: {{T.muted}}; font-variant-numeric: tabular-nums">{{i.meta}}</span></button>
+</sc-for>
+</div>
+</sc-for>
+<div style="display: flex; gap: 10px; margin-top: auto">
+<a href="TabEntity.dc.html" style="height: 44px; padding: 0 16px; display: flex; align-items: center; background: {{T.red}}; color: {{T.onRed}}; border: 2px solid {{T.edge}}; border-radius: 4px; box-shadow: {{T.shadowS}}; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 18px; letter-spacing: 0.06em; text-decoration: none">OPEN</a>
+<button style="height: 44px; padding: 0 12px; background: {{T.surface}}; color: {{T.ink}}; border: 2px solid {{T.edge}}; border-radius: 4px; box-shadow: {{T.shadowS}}; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 18px; letter-spacing: 0.06em; cursor: pointer">{{sel.want}}</button>
+</div>
+</aside>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"night":{"editor":"boolean","default":false},"$preview":{"width":1280,"height":800}}'>
+class Component extends DCLogic {
+constructor(props) {
+super(props);
+this.state = { zoom: 'decade', sel: 'wotw', off: {} };
+}
+renderVals() {
+const s = this.state;
+const night = this.props.night === true || this.props.night === 'true';
+const T = night ? {
+bg: '#0E1222', surface: '#171C30', surface2: '#222842', ink: '#F1E4C6', muted: '#ABA38C', rule: '#2A3150', edge: '#4A5276',
+red: '#FF5A44', onRed: '#0E1222', yellow: '#FFC93C', onYellow: '#0E1222', hair: 'rgba(241,228,198,0.12)', dot: 'rgba(0,0,0,0.25)',
+mast: 'radial-gradient(rgba(255,201,60,0.07) 1.3px, transparent 1.8px) 0 0 / 7px 7px, #171C30', mastLine: '#FF5A44',
+word: '#FFC93C', wordShadow: '0 0 14px rgba(255,201,60,0.55)', tabInk: '#F1E4C6', winFill: 'rgba(14,18,34,0.7)',
+shadowS: '3px 3px 0 rgba(0,0,0,0.55)', img: '0 10px 24px rgba(0,0,0,0.6), 0 0 30px rgba(255,201,60,0.18)', selGlow: '0 0 24px rgba(255,201,60,0.3)', paper: '#171C30'
+} : {
+bg: '#EEE2C6', surface: '#F7EEDA', surface2: '#E4D4AF', ink: '#2A2118', muted: '#5E4E3A', rule: '#D6C6A2', edge: '#2A2118',
+red: '#C8321F', onRed: '#FFF4DC', yellow: '#F2B705', onYellow: '#2A2118', hair: 'rgba(42,33,24,0.15)', dot: 'rgba(0,0,0,0.18)',
+mast: 'radial-gradient(rgba(255,240,200,0.16) 1.3px, transparent 1.8px) 0 0 / 7px 7px, #C8321F', mastLine: '#2A2118',
+word: '#F2B705', wordShadow: '3px 3px 0 #1F4E8C', tabInk: '#F5EBD3', winFill: 'rgba(247,238,218,0.85)',
+shadowS: '3px 3px 0 #2A2118', img: '4px 4px 0 #2A2118', selGlow: '4px 4px 0 #2A2118', paper: '#F7EEDA'
+};
+const LANES = [
+{ id: 'mag', short: 'Mags', p: ['#C8321F', '#FFF4DC'], n: '#FF5A44' },
+{ id: 'book', short: 'Books', p: ['#1F4E8C', '#F7EEDA'], n: '#86A8F0' },
+{ id: 'film', short: 'Film', p: ['#2A2118', '#EFE0C2'], n: '#F1E4C6' },
+{ id: 'music', short: 'Music', p: ['#2E7D6E', '#F7EEDA'], n: '#5BC0A8' },
+{ id: 'art', short: 'Art', p: ['#F2B705', '#2A2118'], n: '#FFC93C' },
+{ id: 'comic', short: 'Comics', p: ['#B0457E', '#FFF4DC'], n: '#E07AAE' },
+{ id: 'world', short: 'World', p: ['#7D6B55', '#FFF4DC'], n: '#B8A68A' }
+];
+const LC = {}; LANES.forEach((l, i) => { LC[l.id] = { i, c: night ? l.n : l.p[0], ink: night ? '#0E1222' : l.p[1], short: l.short }; });
+const IT = [
+{ id: 'tm', t: 'The Time Machine', y: 1895, lane: 'book', type: 'Book', want: 'Read' },
+{ id: 'wotw', t: 'The War of the Worlds', y: 1898, lane: 'book', type: 'Book', want: 'Read', sum: 'Martians land in Surrey and overrun southern England. Wells’s novel set the pattern for every alien-invasion story that followed [1].' },
+{ id: 'trip', t: 'A Trip to the Moon', y: 1902, lane: 'film', type: 'Film', want: 'Watch' },
+{ id: 'planets', t: 'Holst · The Planets', y: 1918, lane: 'music', type: 'Music', want: 'Listen' },
+{ id: 'amz', t: 'Amazing Stories', y: 1926, lane: 'mag', type: 'Magazine', want: 'Read', readable: true, sum: 'Hugo Gernsback launches the first magazine devoted to science fiction, reprinting Wells, Verne and Poe [1].' },
+{ id: 'acc', t: 'The New Accelerator', y: 1926, lane: 'mag', type: 'Story', want: 'Read', readable: true },
+{ id: 'paul', t: 'Frank R. Paul · cover', y: 1926, lane: 'art', type: 'Illustration', want: 'See' },
+{ id: 'theremin', t: 'Theremin patented', y: 1928, lane: 'music', type: 'Music', want: 'Listen' },
+{ id: 'buck', t: 'Buck Rogers strip', y: 1929, lane: 'comic', type: 'Comic', want: 'Read' },
+{ id: 'ast', t: 'Campbell edits Astounding', y: 1937, lane: 'mag', type: 'Magazine', want: 'Read' },
+{ id: 'radio', t: 'War of the Worlds (radio)', y: 1938, lane: 'film', type: 'Radio', want: 'Listen', sum: 'Orson Welles’s Mercury Theatre plays the novel as live news bulletins on 30 October 1938 [2].' },
+{ id: 'vesta', t: 'Marooned off Vesta', y: 1939, lane: 'mag', type: 'Story', want: 'Read', readable: true, sum: 'Isaac Asimov’s first published story, in Amazing Stories, March 1939 [1].' },
+{ id: 'ww2', t: 'World War II', y: 1939, y2: 1945, lane: 'world', type: 'Event', want: 'See' },
+{ id: 'night', t: 'Nightfall', y: 1941, lane: 'mag', type: 'Story', want: 'Read' },
+{ id: 'run', t: 'Runaround', y: 1942, lane: 'mag', type: 'Story', want: 'Read' },
+{ id: 'fst', t: 'Foundation (stories)', y: 1942, lane: 'mag', type: 'Story', want: 'Read' },
+{ id: 'bones', t: 'Bonestell · Saturn from Titan', y: 1944, lane: 'art', type: 'Painting', want: 'See' },
+{ id: 'hiro', t: 'Hiroshima', y: 1945, lane: 'world', type: 'Event', want: 'See' },
+{ id: 'irobot', t: 'I, Robot', y: 1950, lane: 'book', type: 'Book', want: 'Read' },
+{ id: 'fnd', t: 'Foundation', y: 1951, lane: 'book', type: 'Book', want: 'Read' },
+{ id: 'astro', t: 'Astro Boy', y: 1952, lane: 'comic', type: 'Manga', want: 'Read' },
+{ id: 'film53', t: 'The War of the Worlds', y: 1953, lane: 'film', type: 'Film', want: 'Watch' },
+{ id: 'sput', t: 'Sputnik', y: 1957, lane: 'world', type: 'Event', want: 'See' },
+{ id: 'album', t: 'Jeff Wayne’s War of the Worlds', y: 1978, lane: 'music', type: 'Album', want: 'Listen' },
+{ id: 'film05', t: 'War of the Worlds', y: 2005, lane: 'film', type: 'Film', want: 'Watch' },
+{ id: 'series', t: 'Foundation (series)', y: 2021, lane: 'film', type: 'Series', want: 'Watch' }
+];
+const BY = {}; IT.forEach((i) => { BY[i.id] = i; });
+const E = [
+['wotw', 'radio', 'Adapted as'], ['wotw', 'film53', 'Adapted as'], ['wotw', 'album', 'Adapted as'], ['wotw', 'film05', 'Adapted as'],
+['wotw', 'amz', 'Influenced'], ['tm', 'amz', 'Influenced'], ['acc', 'amz', 'Published in'], ['paul', 'amz', 'Cover of'],
+['vesta', 'amz', 'Published in'], ['amz', 'buck', 'Adapted as'], ['night', 'ast', 'Published in'], ['run', 'ast', 'Published in'],
+['fst', 'ast', 'Published in'], ['run', 'irobot', 'Collected in'], ['fst', 'fnd', 'Collected in'], ['fnd', 'series', 'Adapted as'],
+['run', 'astro', 'Same theme'], ['ww2', 'hiro', 'Includes'], ['planets', 'bones', 'Same theme'], ['trip', 'bones', 'Same theme']
+];
+const INV = { 'Adapted as': 'Adapted from', 'Influenced': 'Influenced by', 'Published in': 'Published', 'Cover of': 'Cover by', 'Collected in': 'Collects', 'Includes': 'Part of', 'Same theme': 'Same theme' };
+const conn = {};
+E.forEach(([a, b, r]) => { if (a === s.sel) conn[b] = r; else if (b === s.sel) conn[a] = INV[r] || r; });
+const pick = (id) => () => this.setState({ sel: id });
+const grad = (l) => 'linear-gradient(150deg,' + LC[l].c + ' 0%, ' + T.paper + ' 140%)';
+const visible = IT.filter((i) => !s.off[i.lane]);
+const OX = 24, OW = 1232, OA = 1890, OB = 2030;
+const ox = (y) => OX + (y - OA) / (OB - OA) * OW;
+const W = s.zoom === 'year' ? { a: 1937, b: 1946 } : { a: 1890, b: 1950 };
+const ovRows = LANES.filter((l) => !s.off[l.id]).map((l, r) => ({
+c: LC[l.id].c, top: 12 + r * 8,
+marks: visible.filter((i) => i.lane === l.id).map((i) => ({
+left: ox(i.y), top: 9 + r * 8, w: i.y2 ? ox(i.y2) - ox(i.y) : 3, outline: i.id === s.sel ? '2px solid ' + T.ink : 'none'
+}))
+}));
+const ovPins = [{ left: ox(BY[s.sel].y), c: T.ink }].concat(Object.keys(conn).map((id) => ({ left: ox(BY[id].y), c: T.red })));
+const ovYears = [];
+for (let y = 1890; y <= 2030; y += 10) ovYears.push({ left: ox(y), label: y % 50 === 0 || y === 2020 ? String(y) : '’' + String(y).slice(2), w: y % 50 === 0 ? '700' : '400' });
+const buckets = [];
+if (s.zoom === 'year') { for (let y = 1937; y <= 1945; y++) buckets.push({ label: String(y), a: y, b: y + 1 }); }
+else { for (let d = 1890; d < 1950; d += 10) buckets.push({ label: d + 's', a: d, b: d + 10 }); }
+const per = s.zoom === 'year' ? 3 : 4;
+const cols = buckets.map((bk) => {
+const inB = visible.filter((i) => i.y >= bk.a && i.y < bk.b);
+inB.sort((p, q) => {
+const rp = p.id === s.sel ? 0 : (conn[p.id] ? 1 : 2);
+const rq = q.id === s.sel ? 0 : (conn[q.id] ? 1 : 2);
+return rp - rq || p.y - q.y || LC[p.lane].i - LC[q.lane].i;
+});
+const shown = inB.slice(0, per);
+return {
+label: bk.label, more: inB.length - shown.length, hasMore: inB.length > shown.length,
+cards: shown.map((i) => {
+const isSel = i.id === s.sel; const isConn = !!conn[i.id];
+return {
+title: i.t, meta: (i.y2 ? i.y + '–' + i.y2 : i.y) + ' · ' + i.type, thumb: grad(i.lane), laneC: LC[i.lane].c,
+readable: !!i.readable, hasRel: isConn, rel: conn[i.id] || '', pick: pick(i.id),
+bg: isSel ? T.yellow : T.surface, ink: isSel ? T.onYellow : T.ink,
+border: isSel ? '2px solid ' + T.edge : (isConn ? '2px solid ' + T.red : '1.5px solid ' + T.edge),
+shadow: isSel ? T.selGlow : (isConn ? '3px 3px 0 ' + T.red : 'none'),
+op: isSel || isConn ? '1' : '0.5'
+};
+})
+};
+});
+const n = buckets.length; const gap = s.zoom === 'year' ? 8 : 12;
+const colW = Math.floor((900 - 36 - gap * (n - 1)) / n);
+const groupsMap = {};
+Object.keys(conn).forEach((id) => {
+const it = BY[id]; const out = it.y < W.a || it.y >= W.b;
+const g = out ? 'Elsewhere in time · ' + conn[id] : conn[id];
+(groupsMap[g] = groupsMap[g] || []).push({ title: it.t, meta: it.y + ' · ' + it.type, pick: pick(id) });
+});
+const it = BY[s.sel]; const L = LC[it.lane];
+const zooms = [['decade', 'Decades'], ['year', 'Years']].map(([k, label], i) => ({
+label, bg: s.zoom === k ? T.ink : T.surface, ink: s.zoom === k ? T.yellow : T.ink, sep: i === 0 ? '2px solid ' + T.edge : '0',
+pick: () => this.setState({ zoom: k })
+}));
+return {
+T, zooms, ovRows, ovPins, ovYears, cols, colW, gap, noop: () => {},
+thumbH: s.zoom === 'year' ? 40 : 54,
+win: { left: ox(W.a), w: ox(W.b) - ox(W.a) },
+laneChips: LANES.map((l) => {
+const on = !s.off[l.id];
+return { short: l.short, on: on ? 'true' : 'false', dot: on ? LC[l.id].c : 'transparent', bg: on ? T.surface : 'transparent', border: on ? T.edge : T.rule, ink: on ? T.ink : T.muted,
+toggle: () => { const off = { ...s.off }; off[l.id] = !off[l.id]; this.setState({ off }); } };
+}),
+groups: Object.keys(groupsMap).slice(0, 3).map((g) => ({ rel: g, items: groupsMap[g].slice(0, 2) })),
+sel: {
+titleCaps: it.t.toUpperCase(), type: it.type, when: it.y2 ? it.y + '–' + it.y2 : String(it.y),
+summary: it.sum || '[Summary — curated text pending review]', laneC: L.c, laneInk: L.ink,
+thumb: grad(it.lane), want: '+ WANT TO ' + it.want.toUpperCase()
+}
+};
+}
+}
+</script>
+</body>
+</html>

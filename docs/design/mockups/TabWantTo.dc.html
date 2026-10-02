@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Want to lists — tablet</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#1F4E8C}
+</style>
+</helmet>
+<div style="width: 1280px; height: 800px; overflow: hidden; display: flex; flex-direction: column; background: #EEE2C6; color: #2A2118; font-family: 'Source Serif 4', Georgia, serif">
+
+<div style="height: 72px; flex-shrink: 0; display: flex; align-items: center; gap: 24px; padding: 0 24px; background: radial-gradient(rgba(255,240,200,0.16) 1.3px, transparent 1.8px) 0 0 / 7px 7px, #C8321F; border-bottom: 3px solid #2A2118; box-sizing: border-box">
+<a href="TabAtlasHome.dc.html" style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 46px; line-height: 1; color: #F2B705; text-shadow: 3px 3px 0 #1F4E8C; text-decoration: none">BANCA</a>
+<nav style="display: flex; gap: 8px">
+<a href="#" style="height: 44px; padding: 0 16px; border-radius: 4px; border: 2px solid #F5EBD3; color: #F5EBD3; display: flex; align-items: center; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 19px; letter-spacing: 0.06em; text-decoration: none">PULP</a>
+<a href="#" style="height: 44px; padding: 0 16px; border-radius: 4px; border: 2px solid #F5EBD3; color: #F5EBD3; display: flex; align-items: center; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 19px; letter-spacing: 0.06em; text-decoration: none">RPG</a>
+<a href="TabAtlasHome.dc.html" style="height: 44px; padding: 0 16px; border-radius: 4px; background: #F2B705; color: #2A2118; border: 2px solid #2A2118; display: flex; align-items: center; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 19px; letter-spacing: 0.06em; text-decoration: none">ATLAS</a>
+</nav>
+</div>
+
+<div style="height: 64px; flex-shrink: 0; display: flex; align-items: center; gap: 14px; padding: 0 24px 0 8px; border-bottom: 2px solid #2A2118; background: #F7EEDA; box-sizing: border-box">
+<a href="TabAtlasHome.dc.html" aria-label="Back to Atlas home" style="width: 44px; height: 44px; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2A2118" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"></path></svg></a>
+<h1 style="margin: 0 16px 0 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 32px; line-height: 1">WANT TO…</h1>
+<div role="tablist" style="display: flex; gap: 6px">
+<sc-for list="{{tabs}}" as="t" hint-placeholder-count="4">
+<button role="tab" aria-selected="{{t.sel}}" onClick="{{t.pick}}" style="height: 48px; padding: 0 16px; display: flex; align-items: center; gap: 8px; border: 2px solid #2A2118; border-radius: 4px; background: {{t.bg}}; color: #2A2118; box-shadow: {{t.shadow}}; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 20px; letter-spacing: 0.06em; cursor: pointer">{{t.label}}<span style="min-width: 24px; height: 24px; padding: 0 5px; box-sizing: border-box; border-radius: 12px; background: #2A2118; color: #EFE0C2; font: 700 13px 'Source Serif 4', serif; display: flex; align-items: center; justify-content: center; font-variant-numeric: tabular-nums">{{t.n}}</span></button>
+</sc-for>
+</div>
+<div style="flex-grow: 1"></div>
+<button style="height: 40px; padding: 0 12px; border: 2px solid #2A2118; border-radius: 4px; background: transparent; font: 600 14px 'Source Serif 4', serif; cursor: pointer">Readable in Banca first</button>
+<button style="height: 40px; padding: 0 12px; border: 2px solid #2A2118; border-radius: 4px; background: transparent; font: 600 14px 'Source Serif 4', serif; cursor: pointer">Sort: recently added</button>
+</div>
+
+<div style="flex-grow: 1; padding: 10px 32px 0; display: flex; flex-direction: column; min-height: 0">
+<sc-for list="{{todo}}" as="r" hint-placeholder-count="5">
+<div style="display: grid; grid-template-columns: 64px minmax(0, 1fr) auto; gap: 16px; align-items: center; min-height: 80px; border-bottom: 2px solid #D6C6A2">
+<div style="position: relative; width: 60px; height: 60px; border: 2px solid #2A2118; box-sizing: border-box; background: radial-gradient(rgba(0,0,0,0.18) 1px, transparent 1.5px) 0 0 / 5px 5px, {{r.bg}}">
+<sc-if value="{{r.readable}}" hint-placeholder-val="{{ false }}"><span style="position: absolute; right: -8px; bottom: -8px; width: 24px; height: 24px; border-radius: 50%; border: 2px solid #C8321F; background: #F7EEDA; color: #C8321F; font: 800 11px 'Big Shoulders Display', sans-serif; display: flex; align-items: center; justify-content: center">R</span></sc-if>
+</div>
+<div style="min-width: 0">
+<div style="display: flex; align-items: center; gap: 8px">
+<span style="height: 20px; padding: 0 6px; display: inline-flex; align-items: center; border-radius: 3px; background: {{r.c}}; color: {{r.ink}}; font-size: 10px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase">{{r.type}}</span>
+<span style="font-size: 14px; color: #5E4E3A; font-variant-numeric: tabular-nums">{{r.year}}</span>
+</div>
+<div style="font-size: 19px; font-weight: 700; margin-top: 2px">{{r.t}}</div>
+<div style="font-size: 13px; color: #5E4E3A">from {{r.from}}</div>
+</div>
+<div style="display: flex; gap: 8px; align-items: center">
+<a href="{{r.href}}" style="height: 48px; padding: 0 14px; display: flex; align-items: center; gap: 6px; border: 2px solid #2A2118; border-radius: 4px; background: {{r.openBg}}; color: {{r.openInk}}; box-shadow: 3px 3px 0 #2A2118; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 17px; letter-spacing: 0.06em; text-decoration: none">{{r.open}}</a>
+<button onClick="{{r.done}}" aria-label="Mark as done" style="width: 48px; height: 48px; border: 2px solid #2A2118; border-radius: 4px; background: #F7EEDA; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2A2118" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"></path></svg></button>
+<button aria-label="Remove from list" style="width: 48px; height: 48px; border: 0; border-radius: 4px; background: transparent; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5E4E3A" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"></path></svg></button>
+</div>
+</div>
+</sc-for>
+<sc-if value="{{hasDone}}" hint-placeholder-val="{{ true }}">
+<div style="display: flex; align-items: center; gap: 12px; margin: 16px 0 4px">
+<span style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 22px; color: #5E4E3A">DONE · {{doneN}}</span>
+<div style="flex-grow: 1; height: 2px; background: #D6C6A2"></div>
+</div>
+<sc-for list="{{doneList}}" as="r" hint-placeholder-count="2">
+<div style="display: grid; grid-template-columns: 64px minmax(0, 1fr) auto; gap: 16px; align-items: center; min-height: 60px; border-bottom: 1px solid #D6C6A2; opacity: 0.6">
+<div style="width: 44px; height: 44px; border: 2px solid #2A2118; background: radial-gradient(rgba(0,0,0,0.18) 1px, transparent 1.5px) 0 0 / 5px 5px, {{r.bg}}; filter: saturate(0.3)"></div>
+<div style="font-size: 17px; text-decoration: line-through; text-decoration-thickness: 2px">{{r.t}} <span style="font-size: 14px; color: #5E4E3A; text-decoration: none">· {{r.year}}</span></div>
+<button onClick="{{r.done}}" style="height: 44px; padding: 0 12px; border: 0; background: transparent; font: 600 14px 'Source Serif 4', serif; color: #1F4E8C; cursor: pointer">Undo</button>
+</div>
+</sc-for>
+</sc-if>
+</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":800}}'>
+class Component extends DCLogic {
+constructor(props) {
+super(props);
+this.state = { tab: 'read', done: { wotw: true, acc: true } };
+}
+renderVals() {
+const L = { mag: ['#C8321F', '#FFF4DC'], book: ['#1F4E8C', '#F7EEDA'], film: ['#2A2118', '#EFE0C2'], music: ['#2E7D6E', '#F7EEDA'], art: ['#F2B705', '#2A2118'], comic: ['#B0457E', '#FFF4DC'] };
+const g = (l) => 'linear-gradient(150deg,' + L[l][0] + ' 0%, #F7EEDA 140%)';
+const R = (id, t, type, year, lane, from, readable) => ({ id, t, type, year, lane, from, readable: !!readable });
+const DATA = {
+read: [
+R('vesta', 'Marooned off Vesta', 'Story', '1939', 'mag', 'Path · stop 12', true),
+R('night', 'Nightfall', 'Story', '1941', 'mag', 'Path · stop 13'),
+R('run', 'Runaround', 'Story', '1942', 'mag', 'Entity · Isaac Asimov'),
+R('irobot', 'I, Robot', 'Book', '1950', 'book', 'Theme · Robots'),
+R('fnd', 'Foundation', 'Book', '1951', 'book', 'Timeline · 1950s'),
+R('tm', 'The Time Machine', 'Book', '1895', 'book', 'Recommendation · same author'),
+R('wotw', 'The War of the Worlds', 'Book', '1898', 'book', 'Path · stop 2'),
+R('acc', 'The New Accelerator', 'Story', '1926', 'mag', 'Path · stop 5', true)
+],
+watch: [
+R('film53', 'The War of the Worlds', 'Film', '1953', 'film', 'Entity · The War of the Worlds'),
+R('series', 'Foundation', 'Series', '2021', 'film', 'Path · stop 36'),
+R('metro', 'Metropolis', 'Film', '1927', 'film', 'Theme · Robots'),
+R('fp', 'Forbidden Planet', 'Film', '1956', 'film', 'Recommendation · same decade')
+],
+listen: [
+R('album', 'Jeff Wayne’s War of the Worlds', 'Album', '1978', 'music', 'Entity · The War of the Worlds'),
+R('radio', 'Mercury Theatre: The War of the Worlds', 'Radio', '1938', 'film', 'Path · stop 11'),
+R('planets', 'Holst · The Planets', 'Music', '1918', 'music', 'Recommendation · same theme')
+],
+see: [
+R('paul', 'Frank R. Paul · Amazing Stories cover, April 1926', 'Visual art', '1926', 'art', 'Path · stop 4', true),
+R('bones', 'Bonestell · Saturn as Seen from Titan', 'Painting', '1944', 'art', 'Timeline · 1940s')
+]
+};
+const VERB = { read: 'Read', watch: 'Watch', listen: 'Listen', see: 'See' };
+const s = this.state;
+const toggle = (id) => () => { const d = { ...s.done }; d[id] = !d[id]; this.setState({ done: d }); };
+const rows = DATA[s.tab].map((r) => ({
+...r, bg: g(r.lane), c: L[r.lane][0], ink: L[r.lane][1], done: toggle(r.id),
+open: r.readable ? 'READ IN BANCA' : 'OPEN', href: r.readable ? '#' : 'TabEntity.dc.html',
+openBg: r.readable ? '#C8321F' : '#F7EEDA', openInk: r.readable ? '#FFF4DC' : '#2A2118'
+}));
+const doneList = rows.filter((r) => s.done[r.id]);
+return {
+tabs: Object.keys(DATA).map((k) => ({
+label: VERB[k].toUpperCase(), n: DATA[k].filter((r) => !s.done[r.id]).length, sel: k === s.tab ? 'true' : 'false',
+bg: k === s.tab ? '#F2B705' : '#F7EEDA', shadow: k === s.tab ? '3px 3px 0 #2A2118' : 'none', pick: () => this.setState({ tab: k })
+})),
+todo: rows.filter((r) => !s.done[r.id]),
+doneList, hasDone: doneList.length > 0, doneN: doneList.length
+};
+}
+}
+</script>
+</body>
+</html>

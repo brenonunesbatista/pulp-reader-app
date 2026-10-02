@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Atlas home — phone</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+input::placeholder{color:#7A6A52}
+</style>
+</helmet>
+<div style="position: relative; width: 412px; height: 892px; overflow: hidden; background: #EEE2C6; color: #2A2118; font-family: 'Source Serif 4', Georgia, serif">
+
+<div style="padding: 10px 16px 12px; background: radial-gradient(rgba(255,240,200,0.16) 1.3px, transparent 1.8px) 0 0 / 7px 7px, #C8321F; border-bottom: 3px solid #2A2118; display: flex; flex-direction: column; gap: 10px">
+<div style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 40px; line-height: 1; color: #F2B705; text-shadow: 3px 3px 0 #1F4E8C">ATLAS</div>
+<label style="height: 48px; border-radius: 4px; background: #F5EBD3; border: 2px solid #2A2118; display: flex; align-items: center; gap: 10px; padding: 0 12px; box-sizing: border-box">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2A2118" stroke-width="2.2" stroke-linecap="round"><path d="M11 4a7 7 0 1 0 0 14a7 7 0 1 0 0-14M20 20l-4-4"></path></svg>
+<input type="search" aria-label="Search the Atlas" placeholder="People, works, themes, events…" style="flex-grow: 1; min-width: 0; background: transparent; border: 0; outline: none; color: #2A2118; font: 16px 'Source Serif 4', serif">
+</label>
+</div>
+
+<div style="padding: 16px 16px 0; display: flex; flex-direction: column; gap: 18px">
+<a href="PhPath.dc.html" style="display: flex; flex-direction: column; border: 2px solid #2A2118; border-radius: 4px; background: #F7EEDA; box-shadow: 5px 5px 0 #2A2118; color: #2A2118; text-decoration: none; overflow: hidden">
+<span style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); height: 60px; border-bottom: 2px solid #2A2118">
+<span style="background: radial-gradient(rgba(0,0,0,0.18) 1px, transparent 1.5px) 0 0 / 6px 6px, linear-gradient(150deg, #1F4E8C 0%, #F7EEDA 140%); border-right: 2px solid #2A2118"></span>
+<span style="background: radial-gradient(circle at 64% 55%, rgba(255,250,230,0.45) 0 16%, transparent 17%), linear-gradient(160deg,#F2B705 0%,#E4572E 52%,#1F4E8C 100%); border-right: 2px solid #2A2118"></span>
+<span style="background: radial-gradient(rgba(0,0,0,0.18) 1px, transparent 1.5px) 0 0 / 6px 6px, linear-gradient(150deg, #2A2118 0%, #F7EEDA 140%)"></span>
+</span>
+<span style="padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 11px; font-weight: 700; letter-spacing: 0.14em; color: #C8321F">FEATURED PATH · 36 STOPS</span>
+<span style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 34px; line-height: 0.9">FROM WELLS TO FOUNDATION</span>
+<span style="display: flex; align-items: center; gap: 8px"><span style="flex-grow: 1; height: 8px; border: 2px solid #2A2118; background: #E4D4AF"><span style="display: block; width: 33%; height: 100%; background: #C8321F"></span></span><span style="font-size: 13px; font-weight: 700; font-variant-numeric: tabular-nums">12 / 36</span></span>
+<span style="align-self: flex-start; margin-top: 4px; height: 44px; padding: 0 16px; display: flex; align-items: center; background: #C8321F; color: #FFF4DC; border: 2px solid #2A2118; border-radius: 4px; box-shadow: 3px 3px 0 #2A2118; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 18px; letter-spacing: 0.06em">CONTINUE · STOP 13</span>
+</span>
+</a>
+
+<section>
+<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px">
+<h2 style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 24px; line-height: 1">EXPLORE NEXT</h2>
+<div style="flex-grow: 1; height: 3px; background: #C8321F"></div>
+</div>
+<div style="display: flex; gap: 12px; margin-right: -16px; overflow: hidden">
+<sc-for list="{{next}}" as="r" hint-placeholder-count="3">
+<a href="PhEntity.dc.html" style="width: 168px; flex-shrink: 0; display: flex; flex-direction: column; border: 2px solid #2A2118; border-radius: 4px; background: #F7EEDA; box-shadow: 3px 3px 0 #2A2118; color: #2A2118; text-decoration: none; overflow: hidden">
+<span style="padding: 5px 8px; background: #F2B705; border-bottom: 2px solid #2A2118; font-size: 10px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; line-height: 1.25; height: 26px">{{r.reason}}</span>
+<span style="height: 44px; background: radial-gradient(rgba(0,0,0,0.18) 1px, transparent 1.5px) 0 0 / 6px 6px, {{r.bg}}"></span>
+<span style="padding: 6px 8px 8px"><span style="display: block; font-size: 15px; font-weight: 700; line-height: 1.2">{{r.t}}</span><span style="display: block; font-size: 12px; color: #5E4E3A">{{r.m}}</span></span>
+</a>
+</sc-for>
+</div>
+</section>
+
+<section>
+<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 4px">
+<h2 style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 24px; line-height: 1">CONTINUE EXPLORING</h2>
+<div style="flex-grow: 1; height: 3px; background: #C8321F"></div>
+</div>
+<sc-for list="{{recent}}" as="i" hint-placeholder-count="1">
+<a href="PhEntity.dc.html" style="display: flex; align-items: center; gap: 12px; min-height: 56px; border-bottom: 2px solid #D6C6A2; color: #2A2118; text-decoration: none">
+<span style="width: 40px; height: 40px; border: 2px solid #2A2118; background: radial-gradient(rgba(0,0,0,0.18) 1px, transparent 1.5px) 0 0 / 5px 5px, {{i.bg}}"></span>
+<span style="flex-grow: 1"><span style="display: block; font-size: 15px; font-weight: 700">{{i.t}}</span><span style="display: block; font-size: 12px; color: #5E4E3A">{{i.m}}</span></span>
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2A2118" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"></path></svg>
+</a>
+</sc-for>
+</section>
+
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px">
+<sc-for list="{{lists}}" as="w" hint-placeholder-count="4">
+<a href="PhWantTo.dc.html" style="display: flex; flex-direction: column; align-items: center; padding: 8px 0; border: 2px solid #2A2118; border-radius: 4px; background: #F7EEDA; box-shadow: 3px 3px 0 #2A2118; color: #2A2118; text-decoration: none"><span style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 28px; line-height: 1">{{w.n}}</span><span style="font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase">{{w.l}}</span></a>
+</sc-for>
+</div>
+</div>
+
+<a href="PhTimeline.dc.html" style="position: absolute; left: 16px; right: 16px; bottom: 76px; height: 48px; display: flex; align-items: center; justify-content: center; gap: 8px; border: 2px solid #2A2118; border-radius: 24px; background: #2A2118; color: #F2B705; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 18px; letter-spacing: 0.06em; text-decoration: none"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F2B705" stroke-width="2.2" stroke-linecap="round"><path d="M3 12h18M7 8v8M12 5v14M17 9v6"></path></svg>OPEN THE TIMELINE</a>
+
+<nav aria-label="Sections" style="position: absolute; left: 0; right: 0; bottom: 0; height: 64px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); background: #F7EEDA; border-top: 2px solid #2A2118">
+<sc-for list="{{nav}}" as="n" hint-placeholder-count="4">
+<a href="{{n.href}}" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; color: #2A2118; text-decoration: none">
+<span style="width: 52px; height: 28px; border-radius: 14px; background: {{n.bg}}; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2A2118" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="{{n.d}}"></path></svg></span>
+<span style="font-size: 12px; font-weight: {{n.w}}">{{n.label}}</span>
+</a>
+</sc-for>
+</nav>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":412,"height":892}}'>
+class Component extends DCLogic {
+renderVals() {
+const L = { mag: '#C8321F', book: '#1F4E8C', film: '#2A2118', music: '#2E7D6E', comic: '#B0457E' };
+const g = (l) => 'linear-gradient(150deg,' + L[l] + ' 0%, #F7EEDA 140%)';
+return {
+next: [
+{ reason: 'Because you read Marooned off Vesta', t: 'Nightfall', m: 'Asimov · 1941', bg: g('mag') },
+{ reason: 'Adapted as', t: 'Jeff Wayne’s War of the Worlds', m: 'Album · 1978', bg: g('music') },
+{ reason: 'Same theme: robots', t: 'Astro Boy', m: 'Tezuka · 1952', bg: g('comic') }
+],
+recent: [
+{ t: 'Marooned off Vesta', m: 'Story · 1939 · today', bg: g('mag') }
+],
+lists: [{ n: '6', l: 'Read' }, { n: '4', l: 'Watch' }, { n: '3', l: 'Listen' }, { n: '2', l: 'See' }],
+nav: [
+{ label: 'Pulp', href: '#', d: 'M3 5h6a3 3 0 0 1 3 3v12a2 2 0 0 0-2-2H3zM21 5h-6a3 3 0 0 0-3 3v12a2 2 0 0 1 2-2h7z' },
+{ label: 'RPG', href: '#', d: 'M12 3l8 5v8l-8 5-8-5V8zM12 3v18M4 8l16 8M20 8L4 16' },
+{ label: 'Atlas', href: 'PhAtlasHome.dc.html', d: 'M3 12h18M7 8v8M12 5v14M17 9v6', on: true },
+{ label: 'Search', href: '#', d: 'M11 4a7 7 0 1 0 0 14a7 7 0 1 0 0-14M20 20l-4-4' }
+].map((n) => ({ ...n, bg: n.on ? '#F2B705' : 'transparent', w: n.on ? '700' : '400' }))
+};
+}
+}
+</script>
+</body>
+</html>

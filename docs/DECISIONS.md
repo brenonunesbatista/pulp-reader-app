@@ -211,3 +211,12 @@ implementation work for the next phase (plan first).
   catalog but have **no Internet Archive scan**; the Wells reprints (The Time Machine, May 1927; The War of the Worlds,
   Aug–Sep 1927; The New Accelerator, Apr 1926) are readable. The path says so instead of offering "Read in Banca".
 - Not yet added (need checking before they go in): IMDb/Spotify ids, Wikimedia images with licences, Wikidata ids.
+
+## 2026-10-01 — Atlas design (mockups)
+Tablet and phone mockups for Atlas home, Timeline, Entity page, Path and Want-to lists (Paper; Timeline and Entity
+also Night) plus an Atlas component board, in the design canvas (page "Atlas"); sources in `docs/design/mockups/`,
+spec in `docs/design/banca-atlas.md`. Timeline layout: **overview strip + stage of decade/year columns** with a side
+(tablet) or bottom (phone) sheet, chosen over parallel swimlanes because images stay visible, it scales by grouping
+("+N more") and needs no connection lines. Connections are shown as relation tags, overview pins and grouped lists.
+Three new lane colors (teal, magenta, warm grey); Night borders use `--edge #4A5276`. The mockups show "Read in
+Banca" on *Marooned off Vesta*, which has no scan; the spec adds the "in the catalog, no scan yet" state.

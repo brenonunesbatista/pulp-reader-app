@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Atlas — components</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#1F4E8C}a:hover{color:#C8321F}
+</style>
+</helmet>
+<div style="width: 2000px; height: 1500px; box-sizing: border-box; padding: 48px; display: flex; flex-direction: column; gap: 28px; background: #E9DCBD; color: #2A2118; font-family: 'Source Serif 4', Georgia, serif">
+
+<header style="display: flex; align-items: baseline; gap: 24px">
+<h1 style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 56px; line-height: 1">ATLAS · COMPONENTS</h1>
+<p style="margin: 0; font-size: 18px; color: #5E4E3A">Builds on the Newsprint system. Lane colors = forms of art; everything else reuses existing tokens.</p>
+</header>
+
+<section style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 28px; height: 610px">
+
+<div style="background: #F7EEDA; border: 2px solid #2A2118; border-radius: 6px; box-shadow: 6px 6px 0 #2A2118; padding: 26px; display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 28px; line-height: 1">LANE COLORS</h2>
+<div style="display: grid; grid-template-columns: 1.3fr 1fr 1fr; gap: 8px; font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #5E4E3A"><div>Token · lane</div><div>Paper</div><div>Night</div></div>
+<sc-for list="{{lanes}}" as="l" hint-placeholder-count="7">
+<div style="display: grid; grid-template-columns: 1.3fr 1fr 1fr; gap: 8px; align-items: center">
+<div><div style="font-family: ui-monospace, Consolas, monospace; font-size: 12px; font-weight: 600">{{l.token}}</div><div style="font-size: 14px">{{l.name}}</div></div>
+<div style="display: flex; align-items: center; gap: 8px; padding: 6px; border-radius: 4px; background: #EEE2C6"><span style="height: 28px; padding: 0 8px; display: flex; align-items: center; border-radius: 3px; background: {{l.p}}; color: {{l.pInk}}; font-size: 12px; font-weight: 700">Aa</span><span style="font-size: 12px; font-variant-numeric: tabular-nums">{{l.p}}</span></div>
+<div style="display: flex; align-items: center; gap: 8px; padding: 6px; border-radius: 4px; background: #0E1222; color: #ABA38C"><span style="height: 28px; padding: 0 8px; display: flex; align-items: center; border-radius: 3px; background: {{l.n}}; color: #0E1222; font-size: 12px; font-weight: 700">Aa</span><span style="font-size: 12px; font-variant-numeric: tabular-nums">{{l.n}}</span></div>
+</div>
+</sc-for>
+<div style="font-size: 13px; color: #5E4E3A; margin-top: auto">Four lanes reuse the palette (red, blue, ink, yellow); three are new print tones: teal, process magenta, warm grey. Text on a lane fill uses the listed ink; all pairs ≥ 4.5:1.</div>
+</div>
+
+<div style="background: #F7EEDA; border: 2px solid #2A2118; border-radius: 6px; box-shadow: 6px 6px 0 #2A2118; padding: 26px; display: flex; flex-direction: column; gap: 14px">
+<h2 style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 28px; line-height: 1">ENTITY TYPE BADGES</h2>
+<div style="font-size: 13px; color: #5E4E3A">26 dp high, radius 3, 14 px icon + label 11/700 caps. Fill = lane color; person and theme are outlined (they are not forms of art).</div>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<sc-for list="{{types}}" as="t" hint-placeholder-count="11">
+<span style="height: 26px; padding: 0 8px; display: inline-flex; align-items: center; gap: 5px; box-sizing: border-box; border-radius: 3px; border: {{t.pBorder}}; background: {{t.p}}; color: {{t.pInk}}; font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="{{t.d}}"></path></svg>{{t.label}}</span>
+</sc-for>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 8px; padding: 14px; border-radius: 4px; background: #0E1222">
+<sc-for list="{{types}}" as="t" hint-placeholder-count="11">
+<span style="height: 26px; padding: 0 8px; display: inline-flex; align-items: center; gap: 5px; box-sizing: border-box; border-radius: 3px; border: {{t.nBorder}}; background: {{t.n}}; color: {{t.nInk}}; font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="{{t.d}}"></path></svg>{{t.label}}</span>
+</sc-for>
+</div>
+<h3 style="margin: 8px 0 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 22px">LINK TYPE CHIPS</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<sc-for list="{{rels}}" as="r" hint-placeholder-count="7">
+<span style="height: 32px; padding: 0 10px; display: inline-flex; align-items: center; border: 2px solid {{r.c}}; border-radius: 16px; color: {{r.c}}; font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase">{{r.label}}</span>
+</sc-for>
+</div>
+<div style="font-size: 13px; color: #5E4E3A">Direction pairs share a color: influence = red, adaptation = blue, theme = teal, publication = ink, recommendation = dark ochre (yellow text fails contrast on paper).</div>
+</div>
+
+<div style="background: #F7EEDA; border: 2px solid #2A2118; border-radius: 6px; box-shadow: 6px 6px 0 #2A2118; padding: 26px; display: flex; flex-direction: column; gap: 14px">
+<h2 style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 28px; line-height: 1">CREDITS &amp; SOURCES</h2>
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 6px">
+<div style="height: 150px; border: 2px solid #2A2118; box-shadow: 4px 4px 0 #2A2118; background: radial-gradient(circle at 64% 55%, rgba(255,250,230,0.45) 0 16%, transparent 17%), linear-gradient(160deg,#F2B705 0%,#E4572E 52%,#1F4E8C 100%)"></div>
+<figcaption style="font-size: 11px; line-height: 1.35; color: #5E4E3A">Frank R. Paul, cover of <i>Amazing Stories</i>, April 1926 · Public domain (US) · <a href="#">Wikimedia Commons</a></figcaption>
+</figure>
+<div style="font-size: 13px; color: #5E4E3A">Image credit: 11/1.35 muted, directly under the image, always visible; link to the source page.</div>
+<div style="display: flex; gap: 14px">
+<div style="width: 110px; height: 80px; flex-shrink: 0; border: 2px dashed #8A7A62; background: radial-gradient(rgba(42,33,24,0.2) 1.2px, transparent 1.7px) 0 0 / 7px 7px, #E4D4AF; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; letter-spacing: 0.1em; color: #5E4E3A">NO IMAGE</div>
+<div style="font-size: 13px; color: #5E4E3A">No image yet: halftone placeholder with a dashed border, same as covers without a scan. Never blank space.</div>
+</div>
+<div style="border-top: 2px solid #D6C6A2; padding-top: 12px; font-size: 16px; line-height: 1.5">Asimov sold it to <i>Amazing Stories</i> after <i>Astounding</i> turned it down<a href="#src1" style="font-size: 11px; font-weight: 700; vertical-align: super; text-decoration: none; padding: 0 2px">[1]</a>.</div>
+<ol style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px">
+<li id="src1" style="display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 6px; font-size: 13px; line-height: 1.35"><span style="font-weight: 700; color: #C8321F">[1]</span><span>Isaac Asimov, <i>In Memory Yet Green</i> (1979) · <a href="#">isfdb.org</a></span></li>
+<li style="display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 6px; font-size: 13px; line-height: 1.35"><span style="font-weight: 700; color: #C8321F">[2]</span><span>“Asimov, Isaac”, <i>The Encyclopedia of Science Fiction</i> · <a href="#">sf-encyclopedia.com</a></span></li>
+</ol>
+<div style="font-size: 13px; color: #5E4E3A; margin-top: auto">Citation marker: 11/700 superscript, link color, 48 dp hit area via padding in the app. Tap jumps to the source and highlights it.</div>
+</div>
+
+</section>
+
+<section style="display: grid; grid-template-columns: 1.1fr 1fr 0.9fr; gap: 28px; flex-grow: 1">
+
+<div style="background: #F7EEDA; border: 2px solid #2A2118; border-radius: 6px; box-shadow: 6px 6px 0 #2A2118; padding: 26px; display: flex; flex-direction: column; gap: 14px">
+<h2 style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 28px; line-height: 1">TIMELINE ITEM</h2>
+<div style="display: flex; gap: 22px; align-items: flex-start; padding-top: 12px">
+<sc-for list="{{items}}" as="c" hint-placeholder-count="5">
+<div style="display: flex; flex-direction: column; gap: 10px; width: 132px">
+<div style="position: relative; display: flex; flex-direction: column; border: {{c.border}}; border-radius: 3px; background: {{c.bg}}; box-shadow: {{c.shadow}}; opacity: {{c.op}}">
+<div style="height: 54px; border-bottom: 4px solid {{c.lane}}; background: radial-gradient(rgba(0,0,0,0.18) 1px, transparent 1.5px) 0 0 / 6px 6px, linear-gradient(150deg, {{c.lane}} 0%, #F7EEDA 140%)"></div>
+<div style="padding: 5px 7px 6px"><div style="font: 600 13px/1.2 'Source Serif 4', serif">{{c.title}}</div><div style="font-size: 12px; color: #5E4E3A">{{c.meta}}</div></div>
+<sc-if value="{{c.hasRel}}" hint-placeholder-val="{{ false }}"><span style="position: absolute; left: -4px; top: -9px; padding: 2px 5px; border-radius: 3px; background: #C8321F; color: #FFF4DC; font-size: 9px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase">{{c.rel}}</span></sc-if>
+<sc-if value="{{c.readable}}" hint-placeholder-val="{{ false }}"><span style="position: absolute; right: 5px; top: 5px; width: 22px; height: 22px; border-radius: 50%; border: 2px solid #C8321F; background: rgba(247,238,218,0.92); color: #C8321F; font: 800 11px 'Big Shoulders Display', sans-serif; display: flex; align-items: center; justify-content: center">R</span></sc-if>
+</div>
+<div style="font-size: 13px; font-weight: 700">{{c.state}}</div>
+</div>
+</sc-for>
+</div>
+<div style="display: flex; gap: 22px; align-items: center">
+<button style="width: 132px; height: 40px; border: 2px dashed #8A7A62; border-radius: 3px; background: transparent; color: #5E4E3A; font: 700 13px 'Source Serif 4', serif">+12 more</button>
+<div style="font-size: 13px; color: #5E4E3A">Group: when a column holds more than 4 (decades) or 3 (years) items. Selected and connected items always float to the top.</div>
+</div>
+<div style="display: flex; gap: 22px; align-items: center">
+<div style="position: relative; width: 132px; height: 40px; background: #E4D4AF; border: 1px solid #B9A884">
+<div style="position: absolute; left: 10px; top: 8px; width: 3px; height: 6px; background: #C8321F"></div>
+<div style="position: absolute; left: 30px; top: 8px; width: 3px; height: 6px; background: #C8321F; outline: 2px solid #2A2118"></div>
+<div style="position: absolute; left: 50px; top: 22px; width: 40px; height: 6px; background: #7D6B55"></div>
+<div style="position: absolute; left: 100px; top: 0; width: 2px; height: 40px; background: #C8321F"></div>
+</div>
+<div style="font-size: 13px; color: #5E4E3A">Overview marks: 3×6 ticks per item (bars for ranges), selected = ink outline, red pins = connected items, even off-window.</div>
+</div>
+</div>
+
+<div style="background: #F7EEDA; border: 2px solid #2A2118; border-radius: 6px; box-shadow: 6px 6px 0 #2A2118; padding: 26px; display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 28px; line-height: 1">RECOMMENDATION CARD</h2>
+<div style="display: flex; gap: 20px">
+<a href="#" style="width: 210px; display: flex; flex-direction: column; border: 2px solid #2A2118; border-radius: 4px; background: #F7EEDA; box-shadow: 4px 4px 0 #2A2118; color: #2A2118; text-decoration: none; overflow: hidden">
+<div style="padding: 7px 10px; background: #F2B705; border-bottom: 2px solid #2A2118; font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; line-height: 1.3">Because you read<br><span style="text-transform: none; letter-spacing: 0; font-size: 13px; font-style: italic">Marooned off Vesta</span></div>
+<div style="height: 100px; background: radial-gradient(rgba(0,0,0,0.18) 1px, transparent 1.5px) 0 0 / 6px 6px, linear-gradient(150deg, #C8321F 0%, #F7EEDA 140%)"></div>
+<div style="padding: 8px 10px 10px; display: flex; flex-direction: column; gap: 4px">
+<span style="align-self: flex-start; height: 22px; padding: 0 6px; display: inline-flex; align-items: center; border-radius: 3px; background: #C8321F; color: #FFF4DC; font-size: 10px; font-weight: 700; letter-spacing: 0.1em">STORY</span>
+<span style="font-size: 16px; font-weight: 700; line-height: 1.2">Nightfall</span>
+<span style="font-size: 13px; color: #5E4E3A">Isaac Asimov · 1941</span>
+</div>
+</a>
+<div style="display: flex; flex-direction: column; gap: 10px; font-size: 13px; color: #5E4E3A">
+<div>Reason strip on yellow: one of</div>
+<div style="font-weight: 600; color: #2A2118; line-height: 1.6">Because you read · Same theme: robots · Adapted as · Same author · Next on your path · Happened the same year</div>
+<div>Whole card is one link (48 dp+). Add-to-list lives on the entity page, not on the card, to keep cards calm.</div>
+</div>
+</div>
+<h3 style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 22px">ADD TO WANT TO…</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 14px; align-items: center">
+<button style="height: 48px; padding: 0 14px; background: #F7EEDA; color: #2A2118; border: 2px solid #2A2118; border-radius: 4px; box-shadow: 4px 4px 0 #2A2118; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 18px; letter-spacing: 0.06em">+ WANT TO READ</button>
+<button style="height: 48px; padding: 0 14px; display: flex; align-items: center; gap: 6px; background: #F2B705; color: #2A2118; border: 2px solid #2A2118; border-radius: 4px; box-shadow: 4px 4px 0 #2A2118; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 18px; letter-spacing: 0.06em"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"></path></svg>ON YOUR LIST</button>
+<button style="height: 48px; padding: 0 14px; display: flex; align-items: center; gap: 6px; background: #2A2118; color: #EFE0C2; border: 2px solid #2A2118; border-radius: 4px; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 18px; letter-spacing: 0.06em"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"></path></svg>READ</button>
+</div>
+<div style="font-size: 13px; color: #5E4E3A">Default → On your list (yellow; tap again offers remove) → Done (ink, no shadow). Verb follows the form: read / watch / listen / see.</div>
+<div style="display: flex; gap: 14px; align-items: center; flex-wrap: wrap">
+<a href="#" style="position: relative; height: 52px; padding: 0 22px 0 18px; display: flex; align-items: center; gap: 10px; background: #C8321F; color: #FFF4DC; border: 2px solid #2A2118; border-radius: 4px; box-shadow: 4px 4px 0 #2A2118; font-family: 'Big Shoulders Display', sans-serif; font-weight: 800; font-size: 21px; letter-spacing: 0.06em; text-decoration: none"><span style="width: 30px; height: 30px; border-radius: 50%; border: 2px solid #FFF4DC; display: flex; align-items: center; justify-content: center; font-size: 13px">R</span>READ IN BANCA</a>
+<a href="#" style="height: 48px; padding: 0 14px; display: flex; align-items: center; gap: 8px; background: #F7EEDA; color: #2A2118; border: 2px solid #2A2118; border-radius: 4px; box-shadow: 4px 4px 0 #2A2118; font: 700 15px 'Source Serif 4', serif; text-decoration: none">IMDb<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6M20 4l-9 9M18 14v6H4V6h6"></path></svg></a>
+<a href="#" style="height: 48px; padding: 0 14px; display: flex; align-items: center; gap: 8px; background: #F7EEDA; color: #2A2118; border: 2px solid #2A2118; border-radius: 4px; box-shadow: 4px 4px 0 #2A2118; font: 700 15px 'Source Serif 4', serif; text-decoration: none">Spotify<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6M20 4l-9 9M18 14v6H4V6h6"></path></svg></a>
+</div>
+<div style="font-size: 13px; color: #5E4E3A">External links are secondary buttons with the outbound arrow; services are named in text (no third-party logos).</div>
+</div>
+
+<div style="background: #0E1222; color: #F1E4C6; border: 2px solid #3A4160; border-radius: 6px; padding: 26px; display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 28px; line-height: 1; color: #FFC93C; text-shadow: 0 0 14px rgba(255,201,60,0.5)">NIGHT</h2>
+<div style="display: flex; gap: 18px; padding-top: 10px">
+<div style="position: relative; width: 132px; border: 2px solid #4A5276; border-radius: 3px; background: #FFC93C; color: #0E1222; box-shadow: 0 0 24px rgba(255,201,60,0.25)">
+<div style="height: 54px; border-bottom: 4px solid #86A8F0; background: radial-gradient(rgba(0,0,0,0.25) 1px, transparent 1.5px) 0 0 / 6px 6px, linear-gradient(150deg, #86A8F0 0%, #171C30 140%)"></div>
+<div style="padding: 5px 7px 6px"><div style="font: 600 13px/1.2 'Source Serif 4', serif">The War of the Worlds</div><div style="font-size: 12px">1898 · Book</div></div>
+</div>
+<div style="position: relative; width: 132px; border: 2px solid #FF5A44; border-radius: 3px; background: #171C30">
+<div style="height: 54px; border-bottom: 4px solid #F1E4C6; background: radial-gradient(rgba(0,0,0,0.25) 1px, transparent 1.5px) 0 0 / 6px 6px, linear-gradient(150deg, #F1E4C6 0%, #171C30 140%)"></div>
+<div style="padding: 5px 7px 6px"><div style="font: 600 13px/1.2 'Source Serif 4', serif">War of the Worlds (radio)</div><div style="font-size: 12px; color: #ABA38C">1938 · Radio</div></div>
+<span style="position: absolute; left: -4px; top: -9px; padding: 2px 5px; border-radius: 3px; background: #FF5A44; color: #0E1222; font-size: 9px; font-weight: 700; letter-spacing: 0.08em">ADAPTED AS</span>
+</div>
+</div>
+<div style="font-size: 13px; color: #ABA38C; line-height: 1.5">Selected = yellow fill with a soft glow (the only blurred shadow in Atlas, limited to one element). Borders use <span style="font-family: ui-monospace, Consolas, monospace">--edge #4A5276</span> instead of ink; offset shadows become <span style="font-family: ui-monospace, Consolas, monospace">rgba(0,0,0,.55)</span>.</div>
+<a href="#" style="width: 210px; display: flex; flex-direction: column; border: 2px solid #4A5276; border-radius: 4px; background: #171C30; color: #F1E4C6; text-decoration: none; overflow: hidden">
+<div style="padding: 7px 10px; background: #FFC93C; color: #0E1222; font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase">Same theme: robots</div>
+<div style="height: 70px; background: radial-gradient(rgba(0,0,0,0.25) 1px, transparent 1.5px) 0 0 / 6px 6px, linear-gradient(150deg, #E07AAE 0%, #171C30 140%)"></div>
+<div style="padding: 8px 10px 10px"><div style="font-size: 16px; font-weight: 700">Astro Boy</div><div style="font-size: 13px; color: #ABA38C">Osamu Tezuka · 1952</div></div>
+</a>
+</div>
+
+</section>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":2000,"height":1500}}'>
+class Component extends DCLogic {
+renderVals() {
+const L = {
+mag: ['#C8321F', '#FFF4DC', '#FF5A44'], book: ['#1F4E8C', '#F7EEDA', '#86A8F0'], film: ['#2A2118', '#EFE0C2', '#F1E4C6'],
+music: ['#2E7D6E', '#F7EEDA', '#5BC0A8'], art: ['#F2B705', '#2A2118', '#FFC93C'], comic: ['#B0457E', '#FFF4DC', '#E07AAE'], world: ['#7D6B55', '#FFF4DC', '#B8A68A']
+};
+const I = {
+book: 'M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2zM4 21V5M8 7h7',
+story: 'M6 3h9l4 4v14H6zM14 3v5h5M9 12h7M9 16h7',
+magazine: 'M4 4h16v16H4zM4 9h16M9 9v11',
+film: 'M3 6h18v12H3zM7 6v12M17 6v12M3 10h4M3 14h4M17 10h4M17 14h4',
+series: 'M3 7h18v12H3zM8 3l4 4 4-4',
+music: 'M9 18V5l11-2v13M9 18a3 3 0 1 1-6 0a3 3 0 1 1 6 0M20 16a3 3 0 1 1-6 0a3 3 0 1 1 6 0',
+art: 'M12 3a9 9 0 1 0 0 18c1 0 2-1 1-2.5S13 16 15 16h3a3 3 0 0 0 3-3c0-5.5-4-10-9-10M7.5 11.5h.01M10 7.5h.01M15 7.5h.01',
+comic: 'M4 4h16v12H9l-5 4zM8 8h8M8 12h5',
+event: 'M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M12 8a4 4 0 1 0 0 8a4 4 0 1 0 0-8',
+person: 'M12 4a4 4 0 1 0 0 8a4 4 0 1 0 0-8M4 21c1-4 4-6 8-6s7 2 8 6',
+theme: 'M7 7h.01M3 3h8l10 10-8 8L3 11z'
+};
+const fill = (label, lane, icon) => ({ label, d: I[icon], p: L[lane][0], pInk: L[lane][1], pBorder: '0', n: L[lane][2], nInk: '#0E1222', nBorder: '0' });
+const outline = (label, icon) => ({ label, d: I[icon], p: 'transparent', pInk: '#2A2118', pBorder: '2px solid #2A2118', n: 'transparent', nInk: '#F1E4C6', nBorder: '2px solid #F1E4C6' });
+return {
+lanes: [
+['--lane-mag', 'Magazines & stories', 'mag'], ['--lane-book', 'Books', 'book'], ['--lane-film', 'Film & TV', 'film'], ['--lane-music', 'Music', 'music'],
+['--lane-art', 'Visual art', 'art'], ['--lane-comic', 'Comics & manga', 'comic'], ['--lane-world', 'World events', 'world']
+].map(([token, name, k]) => ({ token, name, p: L[k][0], pInk: L[k][1], n: L[k][2] })),
+types: [
+fill('Book', 'book', 'book'), fill('Story', 'mag', 'story'), fill('Magazine', 'mag', 'magazine'), fill('Film', 'film', 'film'), fill('Series', 'film', 'series'),
+fill('Music', 'music', 'music'), fill('Visual art', 'art', 'art'), fill('Comic', 'comic', 'comic'), fill('Event', 'world', 'event'), outline('Person', 'person'), outline('Theme', 'theme')
+],
+rels: [
+{ label: 'Influenced', c: '#C8321F' }, { label: 'Influenced by', c: '#C8321F' }, { label: 'Adapted as', c: '#1F4E8C' }, { label: 'Adapted from', c: '#1F4E8C' },
+{ label: 'Same theme', c: '#2E7D6E' }, { label: 'Published in', c: '#2A2118' }, { label: 'Read next', c: '#8A6A00' }
+],
+items: [
+{ state: 'Normal', title: 'Nightfall', meta: '1941 · Story', lane: '#C8321F', bg: '#F7EEDA', border: '1.5px solid #2A2118', shadow: 'none', op: '1', hasRel: false, readable: false },
+{ state: 'Selected', title: 'The War of the Worlds', meta: '1898 · Book', lane: '#1F4E8C', bg: '#F2B705', border: '2px solid #2A2118', shadow: '4px 4px 0 #2A2118', op: '1', hasRel: false, readable: false },
+{ state: 'Connected', title: 'War of the Worlds (radio)', meta: '1938 · Radio', lane: '#2A2118', bg: '#F7EEDA', border: '2px solid #C8321F', shadow: '3px 3px 0 #C8321F', op: '1', hasRel: true, rel: 'Adapted as', readable: false },
+{ state: 'Dimmed', title: 'Theremin patented', meta: '1928 · Music', lane: '#2E7D6E', bg: '#F7EEDA', border: '1.5px solid #2A2118', shadow: 'none', op: '0.5', hasRel: false, readable: false },
+{ state: 'Readable', title: 'Marooned off Vesta', meta: '1939 · Story', lane: '#C8321F', bg: '#F7EEDA', border: '1.5px solid #2A2118', shadow: 'none', op: '1', hasRel: false, readable: true }
+]
+};
+}
+}
+</script>
+</body>
+</html>
