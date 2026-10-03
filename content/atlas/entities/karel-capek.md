@@ -6,7 +6,7 @@ subtitle = "Czech writer and playwright; gave the world the word \"robot\""
 date = "1890"
 end = "1938-12-25"
 themes = ["robots"]
-status = "draft"
+status = "reviewed"
 
 [[links]]
 rel = "read_next"

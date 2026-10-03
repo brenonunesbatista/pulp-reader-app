@@ -6,7 +6,7 @@ subtitle = "Film by Fritz Lang"
 lane = "film-tv"
 date = "1927-01-10"
 themes = ["robots"]
-status = "draft"
+status = "reviewed"
 
 [[sources]]
 n = 1

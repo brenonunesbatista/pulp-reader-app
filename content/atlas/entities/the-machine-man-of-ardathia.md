@@ -6,7 +6,7 @@ subtitle = "Short story by Francis Flagg (1927)"
 lane = "magazines"
 date = "1927-11"
 themes = ["cyborgs"]
-status = "draft"
+status = "reviewed"
 
 [[catalog]]
 magazine = "amazing-stories"

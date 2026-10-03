@@ -2,7 +2,7 @@
 id = "from-rur-to-the-thinking-machine"
 title = "From R.U.R. to the Thinking Machine"
 subtitle = "A century of robots and artificial minds, on stage, page and screen"
-status = "draft"
+status = "reviewed"
 
 [[stops]]
 entity = "rur"

@@ -6,7 +6,7 @@ subtitle = "Album by Kraftwerk (1978)"
 lane = "music"
 date = "1978-05-19"
 themes = ["robots"]
-status = "draft"
+status = "reviewed"
 
 [[sources]]
 n = 1

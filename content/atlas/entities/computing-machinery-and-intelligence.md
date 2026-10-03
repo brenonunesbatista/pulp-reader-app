@@ -6,7 +6,7 @@ subtitle = "Alan Turing's paper (October 1950)"
 lane = "events"
 date = "1950-10"
 themes = ["artificial-intelligence"]
-status = "draft"
+status = "reviewed"
 
 [[sources]]
 n = 1

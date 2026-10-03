@@ -41,7 +41,7 @@ describe('recommendations', () => {
   })
 
   it('uses the path and the user history', () => {
-    const path = ['wells', 'tm', 'wotw']
+    const path = [['wells', 'tm', 'wotw']]
     expect(recommendFrom(graph(), 'tm', NO_SIGNALS, path).find((x) => x.id === 'wotw')?.reason).toBe('NEXT ON YOUR PATH')
     // nothing known about the user: start of the path
     expect(recommendHome(graph(), NO_SIGNALS, path)[0]).toMatchObject({ id: 'wells', reason: 'START HERE' })

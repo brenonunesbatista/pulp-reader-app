@@ -7,7 +7,7 @@ lane = "events"
 date = "1956-06-18"
 end = "1956-08-17"
 themes = ["artificial-intelligence"]
-status = "draft"
+status = "reviewed"
 
 [[sources]]
 n = 1

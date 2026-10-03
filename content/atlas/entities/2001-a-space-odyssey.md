@@ -6,7 +6,7 @@ subtitle = "Film by Stanley Kubrick, written with Arthur C. Clarke"
 lane = "film-tv"
 date = "1968-04-02"
 themes = ["artificial-intelligence"]
-status = "draft"
+status = "reviewed"
 
 [[sources]]
 n = 1

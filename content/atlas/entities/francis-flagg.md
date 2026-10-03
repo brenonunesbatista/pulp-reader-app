@@ -6,7 +6,7 @@ subtitle = "Pen name of the poet and writer George Henry Weiss"
 date = "1898"
 end = "1946"
 themes = []
-status = "draft"
+status = "reviewed"
 
 [[links]]
 rel = "read_next"

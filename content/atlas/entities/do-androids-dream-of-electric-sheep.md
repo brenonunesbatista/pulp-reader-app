@@ -6,7 +6,7 @@ subtitle = "Novel by Philip K. Dick (1968)"
 lane = "books"
 date = "1968"
 themes = ["artificial-intelligence"]
-status = "draft"
+status = "reviewed"
 
 [[links]]
 rel = "adapted_as"

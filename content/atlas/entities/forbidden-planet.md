@@ -6,7 +6,7 @@ subtitle = "Film directed by Fred M. Wilcox"
 lane = "film-tv"
 date = "1956-03-23"
 themes = ["robots"]
-status = "draft"
+status = "reviewed"
 
 [[sources]]
 n = 1

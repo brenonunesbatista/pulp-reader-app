@@ -6,7 +6,7 @@ subtitle = "Short story by Eando Binder (1939)"
 lane = "magazines"
 date = "1939-01"
 themes = ["robots"]
-status = "draft"
+status = "reviewed"
 
 [[catalog]]
 magazine = "amazing-stories"

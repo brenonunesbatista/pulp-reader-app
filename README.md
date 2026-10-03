@@ -51,7 +51,8 @@ Built for a Samsung Galaxy Tab A9+ (11", 1920×1200), with phone layouts for the
     connections (tags, pins and a side sheet); lane filter, jump to year. Phones get a vertical list and a bottom sheet.
   - **Entity pages**: picture with credit, text with citations, connections grouped by type, explore next, sources;
     **Read in Banca** opens the story in the reader (or says the issue has no scan yet); IMDb / Spotify links.
-  - **Path** ("From Wells to Foundation", 19 stops) and **Want to…** lists (read / watch / listen / see, done, undo).
+  - **Paths**: "From Wells to Foundation" (19 stops) and "From R.U.R. to the Thinking Machine" (robots and AI, 18 stops); the
+    home features the path in progress and **Want to…** lists (read / watch / listen / see, done, undo).
 - **Downloads (offline reading)**:
   - *Download* on an issue stores its pages (1200 px), thumbnails, page list and OCR text on the device (about
     25–65 MB per issue); the reader then uses the local files, so it works in airplane mode;

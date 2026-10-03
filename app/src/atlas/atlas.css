@@ -237,3 +237,13 @@
 .tl-sheet.bottom .tl-cons { display: flex; gap: 12px; overflow-x: auto; margin-top: 10px; padding-bottom: 4px; }
 .tl-sheet.bottom .a-group { flex: 0 0 auto; margin: 0; }
 .tl-sheet.bottom .a-chips { flex-wrap: nowrap; }
+
+/* more paths on the Atlas home */
+.a-paths { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
+.a-pathmini { display: flex; gap: 14px; align-items: center; padding: 12px; border: 2px solid var(--edge); background: var(--surface);
+  color: var(--ink); text-align: left; box-shadow: var(--shadow-print); min-width: 0; }
+.a-pathmini .pics { display: flex; gap: 4px; flex-shrink: 0; }
+.a-pathmini .pics .a-pic .frame { width: 40px; height: 54px; }
+.a-pathmini .txt { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.a-pathmini .t { font: 900 22px/1 var(--f-display); text-transform: uppercase; }
+.a-pathmini .m { font-size: 13px; color: var(--text-muted); }

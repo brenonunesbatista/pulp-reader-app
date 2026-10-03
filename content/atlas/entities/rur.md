@@ -6,7 +6,7 @@ subtitle = "Play by Karel Čapek (1920)"
 lane = "books"
 date = "1920"
 themes = ["robots", "artificial-intelligence"]
-status = "draft"
+status = "reviewed"
 
 [[links]]
 rel = "created_by"

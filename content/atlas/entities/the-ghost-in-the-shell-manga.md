@@ -6,7 +6,7 @@ subtitle = "Manga by Masamune Shirow (1989)"
 lane = "comics"
 date = "1989"
 themes = ["cyborgs", "artificial-intelligence"]
-status = "draft"
+status = "reviewed"
 
 [[links]]
 rel = "adapted_as"

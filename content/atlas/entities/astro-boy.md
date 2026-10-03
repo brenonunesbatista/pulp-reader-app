@@ -7,7 +7,7 @@ lane = "comics"
 date = "1952"
 end = "1968"
 themes = ["robots"]
-status = "draft"
+status = "reviewed"
 
 [[sources]]
 n = 1

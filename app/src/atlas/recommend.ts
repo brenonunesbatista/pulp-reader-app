@@ -39,8 +39,8 @@ function add(acc: Acc, id: string, score: number, reason: string) {
   acc.set(id, cur)
 }
 
-/** Raw candidates around one entity (no personalization). `pathStops` = ordered entity ids of a path. */
-function around(g: AtlasGraph, id: string, pathStops: string[]): Acc {
+/** Raw candidates around one entity (no personalization). `paths` = each path's ordered entity ids. */
+function around(g: AtlasGraph, id: string, paths: string[][]): Acc {
   const acc: Acc = new Map()
   for (const l of g.links) {
     if (l.src !== id) continue
@@ -55,8 +55,10 @@ function around(g: AtlasGraph, id: string, pathStops: string[]): Acc {
       if (other !== id && ts.includes(t)) add(acc, other, 4, `Same theme: ${theme?.title ?? t}`.toUpperCase())
     }
   }
-  const pos = pathStops.indexOf(id)
-  if (pos >= 0 && pos + 1 < pathStops.length) add(acc, pathStops[pos + 1], 6, 'NEXT ON YOUR PATH')
+  for (const stops of paths) {
+    const pos = stops.indexOf(id)
+    if (pos >= 0 && pos + 1 < stops.length) add(acc, stops[pos + 1], 6, 'NEXT ON YOUR PATH')
+  }
   const me = g.entities.get(id)
   if (me?.year && me.lane) {
     for (const e of g.entities.values()) {
@@ -76,12 +78,13 @@ function rank(acc: Acc, g: AtlasGraph, s: Signals, exclude: Set<string>, limit: 
 }
 
 /** Explore next on an entity page. */
-export function recommendFrom(g: AtlasGraph, id: string, s: Signals = NO_SIGNALS, pathStops: string[] = [], limit = 6): Rec[] {
-  return rank(around(g, id, pathStops), g, s, new Set([id]), limit)
+export function recommendFrom(g: AtlasGraph, id: string, s: Signals = NO_SIGNALS, paths: string[][] = [], limit = 6): Rec[] {
+  return rank(around(g, id, paths), g, s, new Set([id]), limit)
 }
 
-/** Explore next on the Atlas home: around what was read in Banca and explored recently; a path start when new. */
-export function recommendHome(g: AtlasGraph, s: Signals, pathStops: string[] = [], limit = 8): Rec[] {
+/** Explore next on the Atlas home: around what was read in Banca and explored recently; with no history, the
+ *  stops of the first (featured) path. */
+export function recommendHome(g: AtlasGraph, s: Signals, paths: string[][] = [], limit = 8): Rec[] {
   const seeds: { id: string; weight: number; reason: string }[] = []
   for (const id of s.read) {
     const e = g.entities.get(id)
@@ -93,11 +96,11 @@ export function recommendHome(g: AtlasGraph, s: Signals, pathStops: string[] = [
     if (e) seeds.push({ id, weight: 0.9 - i * 0.12, reason: `Because you explored ${e.title}` })
   })
   if (!seeds.length) {
-    return pathStops.slice(0, limit).map((id, i) => ({ id, score: limit - i, reason: i === 0 ? 'START HERE' : 'NEXT ON YOUR PATH' }))
+    return (paths[0] ?? []).slice(0, limit).map((id, i) => ({ id, score: limit - i, reason: i === 0 ? 'START HERE' : 'NEXT ON YOUR PATH' }))
   }
   const acc: Acc = new Map()
   for (const seed of seeds) {
-    for (const [id, v] of around(g, seed.id, pathStops)) add(acc, id, v.score * seed.weight, seed.reason.toUpperCase())
+    for (const [id, v] of around(g, seed.id, paths)) add(acc, id, v.score * seed.weight, seed.reason.toUpperCase())
   }
   return rank(acc, g, s, new Set([...seeds.map((x) => x.id), ...s.visited.keys()]), limit)
 }

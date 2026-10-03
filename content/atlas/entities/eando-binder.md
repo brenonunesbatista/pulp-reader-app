@@ -6,7 +6,7 @@ subtitle = "Pen name of the brothers Earl and Otto Binder"
 date = "1904"
 end = "1974"
 themes = ["robots"]
-status = "draft"
+status = "reviewed"
 
 [[links]]
 rel = "read_next"

@@ -6,7 +6,7 @@ subtitle = "Animated film by Mamoru Oshii"
 lane = "film-tv"
 date = "1995-11-18"
 themes = ["cyborgs", "artificial-intelligence"]
-status = "draft"
+status = "reviewed"
 
 [[sources]]
 n = 1

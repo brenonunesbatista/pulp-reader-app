@@ -38,8 +38,8 @@ export function EntityScreen({ id }: { id: string }) {
 
   const recs = useMemo(() => {
     if (ctx.status !== 'ok') return []
-    const stops = ctx.data.paths[0]?.stops.map((s) => s.entity.id) ?? []
-    return recommendFrom(ctx.data.graph, id, ctx.data.signals, stops, 6)
+    const paths = ctx.data.paths.map((p) => p.stops.map((s) => s.entity.id))
+    return recommendFrom(ctx.data.graph, id, ctx.data.signals, paths, 6)
   }, [ctx, id])
 
   if (data.status !== 'ok') {

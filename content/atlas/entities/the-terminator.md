@@ -6,7 +6,7 @@ subtitle = "Film directed by James Cameron"
 lane = "film-tv"
 date = "1984-10-26"
 themes = ["artificial-intelligence", "cyborgs"]
-status = "draft"
+status = "reviewed"
 
 [[sources]]
 n = 1

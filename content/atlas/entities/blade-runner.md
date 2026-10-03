@@ -6,7 +6,7 @@ subtitle = "Film directed by Ridley Scott"
 lane = "film-tv"
 date = "1982-06-25"
 themes = ["artificial-intelligence"]
-status = "draft"
+status = "reviewed"
 
 [[sources]]
 n = 1
