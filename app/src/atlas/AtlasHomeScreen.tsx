@@ -1,7 +1,7 @@
-import { useMemo, useState } from 'react'
-import { searchAtlas, type WantList } from '../data/atlasRepo'
+import { useEffect, useMemo, useState } from 'react'
+import { deleteTimeline, listSavedTimelines, recordMissedSearch, renameTimeline, searchAtlas, type WantList } from '../data/atlasRepo'
 import { useDb } from '../db/useDb'
-import { useNav } from '../nav/context'
+import { useIsActive, useNav } from '../nav/context'
 import { ErrorBox, Loading, Masthead, Screen, SectionHeader } from '../ui/components'
 import { Icon } from '../ui/icons'
 import { useAsync } from '../ui/useAsync'
@@ -9,17 +9,29 @@ import './atlas.css'
 import { LANES, LANE_TOKEN, wantVerb } from './forms'
 import { EntityChip, Picture, RecCard } from './parts'
 import { recommendHome } from './recommend'
+import { SuggestForm } from './SuggestForm'
 import { useAtlas } from './useAtlas'
 
 const FROM = 1890
 const TO = 2030
 
 export function AtlasHomeScreen() {
-  const { atlas } = useDb()
+  const { atlas, user } = useDb()
   const nav = useNav()
   const ctx = useAtlas()
   const [q, setQ] = useState('')
   const results = useAsync(() => (q.trim() ? searchAtlas(atlas, q) : Promise.resolve([])), [atlas, q])
+  const [suggest, setSuggest] = useState<string | null>(null) // open form with this initial text
+  const [tick, setTick] = useState(0)
+  const active = useIsActive()
+  const timelines = useAsync(() => listSavedTimelines(user), [user, tick, active])
+  const [renaming, setRenaming] = useState<{ id: number; name: string } | null>(null)
+  // a search that finds nothing goes to the curator inbox (once the text has been stable for a moment)
+  useEffect(() => {
+    if (results.status !== 'ok' || results.data.length || q.trim().length < 3) return
+    const t = window.setTimeout(() => void recordMissedSearch(user, q), 1500)
+    return () => window.clearTimeout(t)
+  }, [results, q, user])
 
   const home = useMemo(() => {
     if (ctx.status !== 'ok') return null
@@ -59,8 +71,17 @@ export function AtlasHomeScreen() {
                 {results.data.map((e) => <EntityChip key={e.id} e={e} onOpen={() => nav.push({ name: 'entity', id: e.id })} />)}
                 {results.data.length === 0 && <p className="muted">Nothing in the Atlas matches “{q}” yet.</p>}
               </div>
+              <div className="a-actions row" style={{ marginTop: 12 }}>
+                {results.data.length > 0 && (
+                  <button className="btn" onClick={() => nav.push({ name: 'timeline', subject: q.trim() })}>
+                    <Icon name="atlas" size={20} />Timeline of “{q.trim()}”
+                  </button>
+                )}
+                <button className="btn" onClick={() => setSuggest(q.trim())}>Suggest “{q.trim()}”</button>
+              </div>
             </section>
           )}
+          {suggest !== null && <SuggestForm context={q.trim() ? 'Atlas search' : 'Atlas home'} initial={suggest} onDone={() => setSuggest(null)} />}
 
           {home.path && (
             <button className="a-pathcard" onClick={() => nav.push({ name: 'path', id: home.path!.id })}>
@@ -111,6 +132,38 @@ export function AtlasHomeScreen() {
             </section>
           )}
 
+          {timelines.status === 'ok' && timelines.data.length > 0 && (
+            <section className="a-sec">
+              <SectionHeader title="Your timelines" />
+              <ul className="a-saved">
+                {timelines.data.map((t) => (
+                  <li key={t.id}>
+                    {renaming?.id === t.id ? (
+                      <form className="row" onSubmit={(e) => {
+                        e.preventDefault()
+                        void renameTimeline(user, t.id, renaming.name).then(() => { setRenaming(null); setTick((n) => n + 1) })
+                      }}>
+                        <input id={`tl-rename-${t.id}`} aria-label="Timeline name" value={renaming.name} autoFocus
+                               onChange={(e) => setRenaming({ id: t.id, name: e.target.value })} />
+                        <button className="btn small primary" type="submit">Save</button>
+                        <button className="btn small" type="button" onClick={() => setRenaming(null)}>Cancel</button>
+                      </form>
+                    ) : (
+                      <>
+                        <button className="open" onClick={() => nav.push({ name: 'timeline', saved: t.id })}>
+                          <span className="t">{t.name}</span>
+                          <span className="m num">{t.spec.subject ? `“${t.spec.subject}” · ` : ''}{t.spec.zoom === 'years' ? 'by year' : 'by decade'}{t.spec.fromYear > 1890 ? ` · from ${t.spec.fromYear}` : ''}</span>
+                        </button>
+                        <button className="icon-btn" aria-label={`Rename ${t.name}`} onClick={() => setRenaming({ id: t.id, name: t.name })}><Icon name="edit" size={20} /></button>
+                        <button className="icon-btn" aria-label={`Delete ${t.name}`} onClick={() => void deleteTimeline(user, t.id).then(() => setTick((n) => n + 1))}><Icon name="trash" size={20} /></button>
+                      </>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
           <div className="a-two">
             <section className="a-sec">
               <SectionHeader title="Timeline" />
@@ -137,6 +190,13 @@ export function AtlasHomeScreen() {
               </div>
             </section>
           </div>
+
+          <section className="a-sec">
+            <SectionHeader title="Missing something?" />
+            {suggest === null
+              ? <button className="btn" onClick={() => setSuggest('')}>Suggest a subject for the Atlas</button>
+              : <p className="muted">The form is open at the top of the page.</p>}
+          </section>
         </div>
       )}
     </Screen>

@@ -247,3 +247,27 @@
 .a-pathmini .txt { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
 .a-pathmini .t { font: 900 22px/1 var(--f-display); text-transform: uppercase; }
 .a-pathmini .m { font-size: 13px; color: var(--text-muted); }
+
+/* 7d: saved timelines, subject timelines, suggestions */
+.tl-subject { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; padding: 8px 12px;
+  background: var(--pulp-yellow); color: #2A2118; border: 2px solid var(--edge); }
+.tl-subject .chip { height: 36px; background: var(--surface); color: var(--ink); }
+.tl-save { margin-left: auto; }
+.tl-saveform { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; padding: 10px 12px; border: 2px solid var(--edge); background: var(--surface); }
+.tl-saveform label { font: 700 12px var(--f-text); letter-spacing: .1em; text-transform: uppercase; color: var(--text-muted); }
+.tl-saveform input, .a-saved input { flex: 1 1 220px; min-width: 0; height: 40px; border: 2px solid var(--edge); border-radius: 4px; background: var(--bg);
+  color: var(--ink); font: 16px var(--f-text); padding: 0 10px; }
+.a-toast { position: fixed; z-index: 30; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%);
+  padding: 10px 18px; border-radius: 20px; background: var(--ink); color: var(--bg); font: 600 15px var(--f-text); pointer-events: none; }
+.a-saved { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; max-width: 860px; }
+.a-saved li { display: flex; gap: 8px; align-items: center; padding: 8px 10px; border: 2px solid var(--edge); background: var(--surface); }
+.a-saved li .open { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; border: 0; background: none; padding: 0; color: var(--ink); text-align: left; }
+.a-saved .t { font: 900 20px/1.1 var(--f-display); text-transform: uppercase; }
+.a-saved .m { font-size: 13px; color: var(--text-muted); }
+.a-saved form { flex: 1; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.a-suggest { display: grid; gap: 8px; margin-top: 14px; padding: 14px 16px; border: 2px solid var(--edge); background: var(--surface); max-width: 720px; }
+.a-suggest label { font: 700 13px var(--f-text); letter-spacing: .06em; text-transform: uppercase; }
+.a-suggest textarea { width: 100%; box-sizing: border-box; border: 2px solid var(--edge); border-radius: 4px; background: var(--bg); color: var(--ink);
+  font: 16px/1.4 var(--f-text); padding: 8px 10px; resize: vertical; }
+.a-suggest .row { display: flex; gap: 8px; flex-wrap: wrap; }
+.a-suggest.sent { display: flex; align-items: center; justify-content: space-between; gap: 12px; }

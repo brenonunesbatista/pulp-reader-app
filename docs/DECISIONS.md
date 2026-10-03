@@ -249,3 +249,16 @@ Banca" on *Marooned off Vesta*, which has no scan; the spec adds the "in the cat
 - **Read in Banca** resolves the content's catalog refs at runtime (magazine slug + month + story title → issue/story);
   an issue without a scan shows the dashed "In Amazing Stories · no scan yet" button that opens the Issue screen.
 - Works on the Books lane are labelled "Book", others "Story". The masthead subtitle now shrinks before the title.
+
+## 2026-10-03 — Phase 7d: saved timelines, subject timelines, curator inbox
+- **Second path** "From R.U.R. to the Thinking Machine" (20 new entities, reviewed). The Atlas home features the path
+  in progress (most recently explored), else the first not started; the others are listed. "Next on your path" works
+  across all paths (`recommend` takes `string[][]`).
+- **Saved timelines** in `user.db` v5 `saved_timeline` (name + JSON spec: zoom, hidden lanes, first visible year,
+  selection, subject). A subject is stored as the search text and recomputed on open, so new content shows up.
+- **Subject timeline** = Atlas FTS matches + every entity directly linked to them + members of a matched theme
+  (`atlas/subject.ts`, pure). No AI: only curated links.
+- **Curator inbox** in `user.db` v5 `atlas_inbox`: suggestions (with the page they came from) and Atlas searches with
+  no result (≥ 3 characters, recorded after 1.5 s without typing, one row per text with a count). Settings → Atlas inbox
+  exports it as Markdown (share sheet / copy) for the curation conversation.
+- Home lists ("Your timelines") reload when the screen becomes visible again (screens below stay mounted).

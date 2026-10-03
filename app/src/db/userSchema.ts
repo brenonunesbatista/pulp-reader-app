@@ -34,6 +34,13 @@ export const USER_MIGRATIONS: string[] = [
    CREATE TABLE atlas_visit (
      entity_id TEXT PRIMARY KEY, first_at INTEGER NOT NULL, last_at INTEGER NOT NULL, count INTEGER NOT NULL);
    CREATE INDEX atlas_visit_recent ON atlas_visit(last_at DESC);`,
+  // v5 (Phase 7d): saved timeline views and the curator inbox (suggestions + searches that found nothing)
+  `CREATE TABLE saved_timeline (
+     id INTEGER PRIMARY KEY, name TEXT NOT NULL, spec_json TEXT NOT NULL, created_at INTEGER NOT NULL, updated_at INTEGER NOT NULL);
+   CREATE TABLE atlas_inbox (
+     id INTEGER PRIMARY KEY, kind TEXT NOT NULL CHECK (kind IN ('suggestion','search')), text TEXT NOT NULL,
+     context TEXT, count INTEGER NOT NULL DEFAULT 1, created_at INTEGER NOT NULL, updated_at INTEGER NOT NULL);
+   CREATE UNIQUE INDEX atlas_inbox_search ON atlas_inbox(text) WHERE kind = 'search';`,
 ]
 
 export async function migrateUserDb(db: Db): Promise<number> {

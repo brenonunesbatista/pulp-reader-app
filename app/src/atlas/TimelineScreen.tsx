@@ -2,7 +2,7 @@
 // for the visible period) above a "stage" of decade or year columns. Tap = select: connected items get a relation tag,
 // the rest dim, and a sheet lists the connections. Phones get a vertical list grouped by decade/year.
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
-import { entitiesWithTheme, type EntitySummary, type Lane } from '../data/atlasRepo'
+import { entitiesWithTheme, getSavedTimeline, saveTimeline, searchAtlas, type EntitySummary, type Lane } from '../data/atlasRepo'
 import { useDb } from '../db/useDb'
 import { useNav } from '../nav/context'
 import { ErrorBox, Loading, Screen, SubMasthead } from '../ui/components'
@@ -12,6 +12,7 @@ import { useAsync } from '../ui/useAsync'
 import './atlas.css'
 import { dates, LANES, LANE_TOKEN, laneVars, linkLabel } from './forms'
 import { EntityChip, Picture, TypeBadge, WantButton } from './parts'
+import { subjectIds } from './subject'
 import { useAtlas } from './useAtlas'
 
 const FROM = 1890
@@ -19,8 +20,8 @@ const TO = 2029
 type Zoom = 'decades' | 'years'
 const LANE_ORDER = new Map(LANES.map((l, i) => [l.id, i]))
 
-export function TimelineScreen({ focus }: { focus?: string }) {
-  const { atlas } = useDb()
+export function TimelineScreen({ focus, subject, saved }: { focus?: string; subject?: string; saved?: number }) {
+  const { atlas, user } = useDb()
   const nav = useNav()
   const compact = useSizeClass() === 'compact'
   const [tick, setTick] = useState(0)
@@ -30,13 +31,31 @@ export function TimelineScreen({ focus }: { focus?: string }) {
   const [selected, setSelected] = useState<string | null>(focus ?? null)
   const [more, setMore] = useState<{ label: string; items: EntitySummary[] } | null>(null)
   const [lanesOpen, setLanesOpen] = useState(false)
+  const [subjectQ, setSubjectQ] = useState<string | null>(subject ?? null)
+  const [saving, setSaving] = useState<string | null>(null) // name being typed for "Save view"
+  const [toast, setToast] = useState<string | null>(null)
+  const savedView = useAsync(() => (saved ? getSavedTimeline(user, saved) : Promise.resolve(null)), [user, saved])
+  const restoreYear = useRef<number | null>(null)
+  // a saved view restores zoom, lanes, selection, subject and period (once, when it has loaded)
+  useEffect(() => {
+    if (savedView.status !== 'ok' || !savedView.data) return
+    const s = savedView.data.spec
+    setZoom(s.zoom)
+    setHidden(new Set(s.hidden))
+    setSelected(s.selected)
+    setSubjectQ(s.subject)
+    restoreYear.current = s.fromYear
+  }, [savedView])
+  const matches = useAsync(async () => (subjectQ ? (await searchAtlas(atlas, subjectQ, 60)).map((e) => e.id) : null), [atlas, subjectQ])
   const themeMembers = useAsync(async () => {
     const e = selected && ctx.status === 'ok' ? ctx.data.graph.entities.get(selected) : null
     return e?.type === 'theme' ? (await entitiesWithTheme(atlas, e.id)).map((x) => x.id) : []
   }, [atlas, selected, ctx.status])
 
   const g = ctx.status === 'ok' ? ctx.data.graph : null
-  const items = useMemo(() => (g ? [...g.entities.values()].filter((e) => e.lane && e.year && !hidden.has(e.lane)) : []), [g, hidden])
+  const subjectSet = useMemo(() => (g && matches.status === 'ok' && matches.data ? subjectIds(g, matches.data) : null), [g, matches])
+  const items = useMemo(() => (g ? [...g.entities.values()].filter((e) => e.lane && e.year && !hidden.has(e.lane)
+    && (!subjectSet || subjectSet.has(e.id))) : []), [g, hidden, subjectSet])
 
   /** connected entity → relation label (as seen from the selection) */
   const connected = useMemo(() => {
@@ -96,7 +115,20 @@ export function TimelineScreen({ focus }: { focus?: string }) {
     const ys = [...connected.keys()].map((id) => g.entities.get(id)?.year).filter((y): y is number => !!y)
     return ys.length ? Math.min(...ys) : 1926
   }, [g, selected, connected])
-  useLayoutEffect(() => { if (g) scrollToYear(centreYear, false) }, [g, zoom, compact]) // eslint-disable-line react-hooks/exhaustive-deps
+  useLayoutEffect(() => {
+    if (!g) return
+    if (restoreYear.current !== null) {
+      // saved period: put its first year in the first visible column
+      scrollToYear(restoreYear.current + Math.floor(visibleCols / 2) * span, false)
+      restoreYear.current = null
+    } else scrollToYear(centreYear, false)
+  }, [g, zoom, compact, savedView.status]) // eslint-disable-line react-hooks/exhaustive-deps
+  // a subject timeline opens on its earliest item
+  useEffect(() => {
+    if (!g || !subjectSet || selected || restoreYear.current !== null) return
+    const ys = items.map((e) => e.year!).filter(Boolean)
+    if (ys.length) scrollToYear(Math.min(...ys) + Math.floor(visibleCols / 2) * span, false)
+  }, [subjectSet]) // eslint-disable-line react-hooks/exhaustive-deps
   useEffect(() => { if (g && selected) scrollToYear(centreYear) }, [selected]) // eslint-disable-line react-hooks/exhaustive-deps
 
   if (ctx.status !== 'ok' || !g) {
@@ -159,6 +191,35 @@ export function TimelineScreen({ focus }: { focus?: string }) {
       {compact
         ? <button className="chip" onClick={() => setLanesOpen((v) => !v)}><Icon name="filter" size={18} />Lanes</button>
         : <LaneChips hidden={hidden} setHidden={setHidden} />}
+      <button className="chip tl-save" onClick={() => setSaving(saving === null ? defaultName() : null)} aria-expanded={saving !== null}>
+        <Icon name="bookmark" size={18} />Save view
+      </button>
+    </div>
+  )
+  function defaultName() {
+    if (subjectQ) return `Timeline of ${subjectQ}`
+    if (savedView.status === 'ok' && savedView.data) return savedView.data.name
+    return sel ? `Around ${sel.title}` : `Timeline ${visFrom}–${visTo}`
+  }
+  const doSave = async () => {
+    if (saving === null) return
+    await saveTimeline(user, saving, { zoom, hidden: [...hidden], fromYear: visFrom, selected, subject: subjectQ })
+    setSaving(null)
+    setToast('Saved to Your timelines on the Atlas home')
+    window.setTimeout(() => setToast(null), 2200)
+  }
+  const saveForm = saving !== null && (
+    <form className="tl-saveform" onSubmit={(e) => { e.preventDefault(); void doSave() }}>
+      <label htmlFor="tl-save-name">Name</label>
+      <input id="tl-save-name" value={saving} autoFocus onChange={(e) => setSaving(e.target.value)} />
+      <button className="btn small primary" type="submit">Save</button>
+      <button className="btn small" type="button" onClick={() => setSaving(null)}>Cancel</button>
+    </form>
+  )
+  const subjectBar = subjectQ && (
+    <div className="tl-subject">
+      <span>Timeline of <b>“{subjectQ}”</b> · <span className="num">{items.length}</span> {items.length === 1 ? 'item' : 'items'}</span>
+      <button className="chip" onClick={() => setSubjectQ(null)}><Icon name="close" size={16} />Show everything</button>
     </div>
   )
 
@@ -193,10 +254,12 @@ export function TimelineScreen({ focus }: { focus?: string }) {
   )
 
   return (
-    <Screen section="atlas" masthead={<SubMasthead title="Timeline" sub={sel ? sel.title : '1890 → today'} />}>
+    <Screen section="atlas" masthead={<SubMasthead title="Timeline" sub={sel ? sel.title : subjectQ ? `“${subjectQ}”` : savedView.status === 'ok' && savedView.data ? savedView.data.name : '1890 → today'} />}>
       <div className={`tl ${compact ? 'phone' : 'tablet'} ${sel ? 'has-sel' : ''}`}>
+        {subjectBar}
         {overview}
         {controls}
+        {saveForm}
         {compact && lanesOpen && <div className="tl-lanes-sheet"><LaneChips hidden={hidden} setHidden={setHidden} /></div>}
         {compact ? (
           <div className="tl-list">
@@ -232,6 +295,7 @@ export function TimelineScreen({ focus }: { focus?: string }) {
         )}
         {compact && sheet}
       </div>
+      {toast && <div className="a-toast" role="status">{toast}</div>}
       {more && (
         <div className="tl-modal" role="dialog" aria-label={`Everything in the ${more.label}`} onClick={() => setMore(null)}>
           <div className="box" onClick={(e) => e.stopPropagation()}>

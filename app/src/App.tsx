@@ -30,7 +30,7 @@ function screenFor(r: Route) {
     case 'notes': return <NotesScreen />
     case 'soon': return r.what === 'atlas' ? <AtlasHomeScreen /> : <ComingSoonScreen what={r.what} />
     case 'atlas': return <AtlasHomeScreen />
-    case 'timeline': return <TimelineScreen focus={r.focus} />
+    case 'timeline': return <TimelineScreen focus={r.focus} subject={r.subject} saved={r.saved} />
     case 'entity': return <EntityScreen id={r.id} />
     case 'path': return <PathScreen id={r.id} />
     case 'wantTo': return <WantToScreen list={r.list} />

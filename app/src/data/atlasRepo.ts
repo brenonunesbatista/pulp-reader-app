@@ -199,3 +199,73 @@ export async function recentVisits(user: Db, limit = 50): Promise<{ entityId: st
     `SELECT entity_id, last_at, count FROM atlas_visit ORDER BY last_at DESC LIMIT ?`, [limit])
   return rows.map((r) => ({ entityId: r.entity_id, lastAt: r.last_at, count: r.count }))
 }
+
+// ---- saved timelines -------------------------------------------------------------------------------------------------
+
+/** what a saved timeline restores; `subject` = the Atlas search it was built from (recomputed on open) */
+export interface TimelineSpec {
+  zoom: 'decades' | 'years'
+  hidden: Lane[]
+  fromYear: number
+  selected: string | null
+  subject: string | null
+}
+export interface SavedTimeline { id: number; name: string; spec: TimelineSpec; updatedAt: number }
+
+export async function listSavedTimelines(user: Db): Promise<SavedTimeline[]> {
+  const rows = await user.query<{ id: number; name: string; spec_json: string; updated_at: number }>(
+    `SELECT id, name, spec_json, updated_at FROM saved_timeline ORDER BY updated_at DESC`)
+  return rows.map((r) => ({ id: r.id, name: r.name, spec: JSON.parse(r.spec_json) as TimelineSpec, updatedAt: r.updated_at }))
+}
+
+export async function getSavedTimeline(user: Db, id: number): Promise<SavedTimeline | null> {
+  return (await listSavedTimelines(user)).find((t) => t.id === id) ?? null
+}
+
+export async function saveTimeline(user: Db, name: string, spec: TimelineSpec, now = Date.now()): Promise<number> {
+  await user.run(`INSERT INTO saved_timeline (name, spec_json, created_at, updated_at) VALUES (?, ?, ?, ?)`,
+    [name.trim() || 'Untitled timeline', JSON.stringify(spec), now, now])
+  return (await user.query<{ id: number }>(`SELECT max(id) AS id FROM saved_timeline`))[0].id
+}
+
+export async function renameTimeline(user: Db, id: number, name: string, now = Date.now()) {
+  if (name.trim()) await user.run(`UPDATE saved_timeline SET name = ?, updated_at = ? WHERE id = ?`, [name.trim(), now, id])
+}
+
+export async function deleteTimeline(user: Db, id: number) {
+  await user.run(`DELETE FROM saved_timeline WHERE id = ?`, [id])
+}
+
+// ---- curator inbox -----------------------------------------------------------------------------------------------------
+
+export interface InboxItem { id: number; kind: 'suggestion' | 'search'; text: string; context: string | null; count: number
+  createdAt: number; updatedAt: number }
+
+export async function addSuggestion(user: Db, text: string, context: string | null, now = Date.now()) {
+  if (!text.trim()) return
+  await user.run(`INSERT INTO atlas_inbox (kind, text, context, count, created_at, updated_at) VALUES ('suggestion', ?, ?, 1, ?, ?)`,
+    [text.trim(), context, now, now])
+}
+
+/** an Atlas search that found nothing (same text = one row, counted) */
+export async function recordMissedSearch(user: Db, text: string, now = Date.now()) {
+  const t = text.trim().toLowerCase()
+  if (t.length < 3) return
+  await user.run(`INSERT INTO atlas_inbox (kind, text, context, count, created_at, updated_at) VALUES ('search', ?, NULL, 1, ?, ?)
+    ON CONFLICT(text) WHERE kind = 'search' DO UPDATE SET count = count + 1, updated_at = excluded.updated_at`, [t, now, now])
+}
+
+export async function listInbox(user: Db): Promise<InboxItem[]> {
+  const rows = await user.query<{ id: number; kind: 'suggestion' | 'search'; text: string; context: string | null; count: number
+    created_at: number; updated_at: number }>(`SELECT * FROM atlas_inbox ORDER BY kind DESC, updated_at DESC`)
+  return rows.map((r) => ({ id: r.id, kind: r.kind, text: r.text, context: r.context, count: r.count, createdAt: r.created_at,
+    updatedAt: r.updated_at }))
+}
+
+export async function deleteInboxItem(user: Db, id: number) {
+  await user.run(`DELETE FROM atlas_inbox WHERE id = ?`, [id])
+}
+
+export async function clearInbox(user: Db) {
+  await user.run(`DELETE FROM atlas_inbox`)
+}

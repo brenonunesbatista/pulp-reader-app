@@ -3,6 +3,7 @@ import { useDb } from '../db/useDb'
 import { Screen, SubMasthead } from '../ui/components'
 import { useSettings } from '../ui/settingsContext'
 import { useAsync } from '../ui/useAsync'
+import { AtlasInboxSettings } from './AtlasInboxSettings'
 import { ReadingSettings } from './ReadingSettings'
 import { StorageSettings } from './StorageSettings'
 
@@ -36,6 +37,8 @@ export function SettingsScreen() {
         <ReadingSettings />
 
         <StorageSettings />
+
+        <AtlasInboxSettings />
 
         <section className="settings-group">
           <h3>Catalog</h3>

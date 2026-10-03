@@ -2,12 +2,13 @@ import { existsSync, readFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { describe, expect, it } from 'vitest'
 import {
-  addWant, getEntity, getPath, listWants, loadGraph, recentVisits, recordVisit, removeWant, searchAtlas, setWantDone,
+  addSuggestion, addWant, clearInbox, deleteTimeline, getEntity, listInbox, listSavedTimelines, recordMissedSearch, renameTimeline, saveTimeline, getPath, listWants, loadGraph, recentVisits, recordVisit, removeWant, searchAtlas, setWantDone,
   type AtlasGraph, type EntitySummary,
 } from '../data/atlasRepo'
 import { migrateUserDb } from '../db/userSchema'
 import { dbFromBytes, memoryDb } from '../db/wasmDb'
 import { NO_SIGNALS, recommendFrom, recommendHome } from './recommend'
+import { inboxMarkdown, subjectIds } from './subject'
 
 const e = (id: string, year: number | null, lane: EntitySummary['lane'], type: EntitySummary['type'] = 'work'): EntitySummary => ({
   id, type, title: id.toUpperCase(), subtitle: '', lane, date: year ? String(year) : null, year, endYear: null,
@@ -87,5 +88,38 @@ describe('want-to lists and visits (user.db v4)', () => {
     await recordVisit(u, 'tm', 20)
     await recordVisit(u, 'wells', 30)
     expect(await recentVisits(u)).toEqual([{ entityId: 'wells', lastAt: 30, count: 2 }, { entityId: 'tm', lastAt: 20, count: 1 }])
+  })
+})
+
+describe('subject timelines and the curator inbox', () => {
+  it('builds a subject from matches, their links and theme members', () => {
+    const g = graph()
+    expect([...subjectIds(g, ['wotw'])].sort()).toEqual(['radio', 'wells', 'wotw'])
+    expect([...subjectIds(g, ['tt'])].sort()).toEqual(['tm', 'tm-film', 'tt'])
+    expect(subjectIds(g, ['nope']).size).toBe(0)
+  })
+
+  it('saves timelines and collects suggestions and missed searches (user.db v5)', async () => {
+    const u = await memoryDb()
+    await migrateUserDb(u)
+    const id = await saveTimeline(u, ' Robots ', { zoom: 'years', hidden: ['music'], fromYear: 1920, selected: 'rur', subject: 'robot' }, 5)
+    await renameTimeline(u, id, 'Robots on screen', 6)
+    expect(await listSavedTimelines(u)).toEqual([{ id, name: 'Robots on screen', updatedAt: 6,
+      spec: { zoom: 'years', hidden: ['music'], fromYear: 1920, selected: 'rur', subject: 'robot' } }])
+    await deleteTimeline(u, id)
+    expect(await listSavedTimelines(u)).toEqual([])
+
+    await addSuggestion(u, 'Dune', 'Frank Herbert path idea', Date.UTC(2026, 9, 3))
+    await recordMissedSearch(u, 'Moebius', Date.UTC(2026, 9, 3))
+    await recordMissedSearch(u, 'moebius ', Date.UTC(2026, 9, 4))
+    await recordMissedSearch(u, 'ab') // too short: ignored
+    const items = await listInbox(u)
+    expect(items.map((i) => [i.kind, i.text, i.count])).toEqual([['suggestion', 'Dune', 1], ['search', 'moebius', 2]])
+    const md = inboxMarkdown(items, Date.UTC(2026, 9, 5))
+    expect(md).toContain('# Banca Atlas inbox (2026-10-05)')
+    expect(md).toContain('- Dune — from Frank Herbert path idea (2026-10-03)')
+    expect(md).toContain('- "moebius" ×2 (last 2026-10-04)')
+    await clearInbox(u)
+    expect(await listInbox(u)).toEqual([])
   })
 })

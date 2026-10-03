@@ -10,12 +10,14 @@ import './atlas.css'
 import { dates, LANES, linkLabel, linkTone, typeLabel } from './forms'
 import { Body, EntityChip, ExternalLinks, Picture, ReadInBanca, RecCard, TypeBadge, WantButton } from './parts'
 import { recommendFrom } from './recommend'
+import { SuggestForm } from './SuggestForm'
 import { useAtlas } from './useAtlas'
 
 export function EntityScreen({ id }: { id: string }) {
   const { atlas, user } = useDb()
   const nav = useNav()
   const [tick, setTick] = useState(0)
+  const [suggest, setSuggest] = useState(false)
   const data = useAsync(async () => {
     const e = await getEntity(atlas, id)
     if (!e) throw new Error(`Nothing in the Atlas called "${id}"`)
@@ -116,6 +118,12 @@ export function EntityScreen({ id }: { id: string }) {
               </div>
             </section>
           )}
+
+          <section className="a-sec">
+            {suggest
+              ? <SuggestForm context={e.title} onDone={() => setSuggest(false)} />
+              : <button className="linklike" onClick={() => setSuggest(true)}>Suggest something related for the Atlas</button>}
+          </section>
 
           {e.sources.length > 0 && (
             <section className="a-sec">

@@ -304,3 +304,11 @@ select.chip { appearance: none; padding-right: 30px; background-image: linear-gr
 .note-del.confirm { background: var(--pulp-red); border-color: var(--pulp-red); color: var(--on-red); }
 .note-row .text { margin: 4px 0 0; line-height: 1.5; }
 .note-row .note { margin: 8px 0 0; color: var(--press-blue); font-size: 15px; display: flex; gap: 6px; align-items: baseline; }
+
+/* Settings → Atlas inbox */
+.inbox-list { list-style: none; margin: 0; padding: 0; }
+.inbox-list li { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 12px; align-items: center; padding: 8px 0;
+  border-bottom: 1px solid var(--rule); }
+.inbox-list .kind { font: 700 11px var(--f-text); letter-spacing: .1em; text-transform: uppercase; padding: 3px 7px; border: 2px solid var(--ink); }
+.inbox-list .kind.suggestion { background: var(--pulp-yellow); color: #2A2118; }
+.inbox-list .txt { display: flex; flex-direction: column; }

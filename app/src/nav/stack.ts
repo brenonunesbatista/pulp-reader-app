@@ -10,7 +10,7 @@ export type Route =
   | { name: 'notes' }
   | { name: 'soon'; what: 'rpg' | 'atlas' }
   | { name: 'atlas' }
-  | { name: 'timeline'; focus?: string }
+  | { name: 'timeline'; focus?: string; subject?: string; saved?: number }
   | { name: 'entity'; id: string }
   | { name: 'path'; id: string }
   | { name: 'wantTo'; list?: 'read' | 'watch' | 'listen' | 'see' }
@@ -59,7 +59,10 @@ export function routeToHash(r: Route): string {
     case 'notes': return '#/notes'
     case 'soon': return `#/soon/${r.what}`
     case 'atlas': return '#/atlas'
-    case 'timeline': return `#/timeline${r.focus ? `/${r.focus}` : ''}`
+    case 'timeline':
+      if (r.saved) return `#/timeline-saved/${r.saved}`
+      if (r.subject) return `#/timeline-of/${encodeURIComponent(r.subject)}`
+      return `#/timeline${r.focus ? `/${r.focus}` : ''}`
     case 'entity': return `#/entity/${r.id}`
     case 'path': return `#/path/${r.id}`
     case 'wantTo': return `#/want-to${r.list ? `/${r.list}` : ''}`
@@ -81,6 +84,8 @@ export function hashToRoute(hash: string): Route {
     case 'soon': return a === 'rpg' || a === 'atlas' ? { name, what: a } : { name: 'library' }
     case 'atlas': return { name }
     case 'timeline': return a ? { name, focus: a } : { name }
+    case 'timeline-of': return a ? { name: 'timeline', subject: decodeURIComponent(a) } : { name: 'timeline' }
+    case 'timeline-saved': return Number.isFinite(n) && n > 0 ? { name: 'timeline', saved: n } : { name: 'timeline' }
     case 'entity': return a ? { name, id: a } : { name: 'atlas' }
     case 'path': return a ? { name, id: a } : { name: 'atlas' }
     case 'want-to': return a === 'read' || a === 'watch' || a === 'listen' || a === 'see' ? { name: 'wantTo', list: a } : { name: 'wantTo' }
