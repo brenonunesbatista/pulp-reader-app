@@ -1,20 +1,23 @@
 # Banca
 
 *A newsstand for pulp magazines.* A personal Android tablet (and phone) app for browsing and reading classic pulp magazines scanned by the
-[Internet Archive](https://archive.org). The first magazine is **Amazing Stories** (1926–1956): 309 issues,
-4,000+ stories, searchable by title, author, editor, cover artist and translator, and readable page by page.
+[Internet Archive](https://archive.org). Five magazines, about 1,400 issues: **Amazing Stories** (1926–1956, 309
+issues with 4,000+ stories, searchable by title, author, editor, cover artist and translator), **The Magazine of Fantasy
+& Science Fiction** (1949–2007), **Galaxy** (1950–1980), **Fantastic** (1952–1980) and **Rod Serling's The Twilight Zone
+Magazine** (1981–1989), all readable page by page.
 
 Built for a Samsung Galaxy Tab A9+ (11", 1920×1200), with phone layouts for the Galaxy S25. Personal use only. It is not published on any store; see
 [Distribution](#distribution).
 
-> Status: **Phase 7 (Atlas pilot) done**, verified on the tablet. Catalog, search, the production reader, offline downloads,
-> highlights with notes, Markdown export and the first Atlas path work. See [Roadmap](#roadmap).
+> Status: **Phase 8a (new pulp sources)** built. Catalog, search, the production reader, offline downloads,
+> highlights with notes, Markdown export and the Atlas work. See [Roadmap](#roadmap).
 
 ## Features
 
 - **Banca "Newsprint" design**: Paper and Night themes, bundled fonts (Big Shoulders Display + Source Serif 4), tablet
   masthead with Pulp / RPG / Atlas tabs and a phone bottom navigation. RPG and Atlas are marked *coming soon*.
-- **Library**: magazines with a cover mosaic (upcoming magazines marked *coming soon*), plus a *Continue reading* shelf
+- **Library**: magazines by category (pulp & science fiction now; RPG and comics next) with a cover mosaic (upcoming
+  magazines marked *coming soon*), plus a *Continue reading* shelf
   with each issue's progress. Progress can be cleared per issue (× on the shelf, *Clear progress* on the issue page)
   or all at once (Settings → Reading); highlights, bookmarks and downloads are kept.
 - **Magazine**: cover grid of every issue, with filters by decade and year and a *readable only* toggle.
@@ -73,16 +76,19 @@ Built for a Samsung Galaxy Tab A9+ (11", 1920×1200), with phone layouts for the
 ## How it works
 
 ```
-data/source/<reference guide>.pdf ──► tools/build_catalog.py ──► app/public/catalog/catalog.db (+ covers/*.webp)
-                                     (one adapter per magazine)          │
+data/source/<reference guide>.pdf ──┐
+tools/sources/ia/<collection>.json ──┴► tools/build_catalog.py ──► app/public/catalog/catalog.db (+ covers/*.webp)
+ (IA collection listings, committed)    (tools/sources.toml, one adapter per source) │
                                                                          ▼
 Internet Archive ◄── IIIF page images + djvu.xml OCR ──── Capacitor app (React + TypeScript, SQLite)
 ```
 
-- **Catalog**: a Python builder parses a magazine reference document into one SQLite schema
-  (`tools/catalog/schema.sql`) with FTS5 tables. It also writes a validation report
-  ([docs/catalog-report.md](docs/catalog-report.md)). Builds are reproducible, and each magazine is a *source adapter*
-  in `tools/adapters/`.
+- **Catalog**: a Python builder reads every magazine listed in `tools/sources.toml` into one SQLite schema
+  (`tools/catalog/schema.sql`, with categories and FTS5 tables). Amazing Stories comes from a reference guide (with full
+  contents, report: [docs/catalog-report.md](docs/catalog-report.md)); the other magazines come from Internet Archive
+  collections through a generic adapter that dates each scan, picks the best scan per issue and keeps the others as
+  alternates (report: [docs/catalog-sources.md](docs/catalog-sources.md)). Their covers load from the Internet Archive.
+  Builds are reproducible and need no network unless `--refresh` re-reads the collections.
 - **Reader**: page images come from the IIIF Image API (CORS-enabled, any width). OCR word boxes come from each
   item's `_djvu.xml`, fetched natively because that endpoint sends no CORS headers. The research and measurements behind
   this design are in [docs/archive-findings.md](docs/archive-findings.md) and [docs/DECISIONS.md](docs/DECISIONS.md).
@@ -103,8 +109,8 @@ Requirements: Node 22+, Python 3.11+, JDK 21, Android Studio (SDK + platform-too
 python -m venv .venv
 .venv/Scripts/pip install -r tools/requirements.txt        # Windows (use .venv/bin/pip elsewhere)
 
-# 2. Catalog (needs the reference PDF in data/source/, which is not in the repo)
-python tools/build_catalog.py --source data/source/Amazing_Stories_Reference_Guide.pdf --out app/public/catalog
+# 2. Catalog (needs the reference PDF in data/source/, which is not in the repo; --refresh re-reads IA collections)
+python tools/build_catalog.py --out app/public/catalog
 
 # 3. App in the desktop browser
 cd app && npm install && npm run dev
@@ -154,8 +160,10 @@ pytest                                                      # catalog tools, fro
    *From Wells to Foundation*. Design prompt: [docs/design/atlas-artifact-prompt.md](docs/design/atlas-artifact-prompt.md);
    design spec: [docs/design/banca-atlas.md](docs/design/banca-atlas.md).
 
-Next sources (content categories **pulp**, **rpg** and **comics**: F&SF, Galaxy, Fantastic, Asimov's, Twilight Zone, Dragon,
-Dungeon, The Space Gamer, …) are tracked in [docs/BACKLOG.md](docs/BACKLOG.md).
+   ✅ 7d–7e: saved and subject timelines, a curator inbox, your own items on timelines.
+7. 🧪 **New sources** (categories **pulp**, **rpg**, **comics**): 8a ✅ F&SF, Galaxy, Fantastic, Twilight Zone (issue
+   level, contents not indexed yet); 8b Dragon and Dungeon (multi-issue "pack" items); 8c comics (list in
+   [docs/BACKLOG.md](docs/BACKLOG.md)).
 
 ## Distribution
 
@@ -169,4 +177,5 @@ app on a store would first require clearing copyright, trademark and data-source
 
 - Scans and OCR: [Internet Archive](https://archive.org) and the volunteers who scanned and uploaded these magazines.
 - Issue contents: *Amazing Stories Reference Guide* by Tak Kurosaki (used privately, not redistributed).
+- Collection listings and covers of the other magazines: Internet Archive metadata and thumbnails.
 - Item type codes: [FictionMags Index](http://www.philsp.com/docs/fm_item_types.html).

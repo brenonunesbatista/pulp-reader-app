@@ -22,8 +22,9 @@ Capacitor (Android) · Vite · React · TypeScript (strict) · SQLite (`@capacit
 - Spike IA probes: `python tools/spike/ia_metadata.py <id>` (then `ia_pages.py`, `ia_ocr.py`, `ia_pagemap.py`, `ia_cors.py`); deps in `tools/spike/requirements.txt`
 - Icons/splash (after changing the mark): `python tools/brand/make_icons.py` then `cd app && npx capacitor-assets generate --android`
 - Python setup (once): `python -m venv .venv && .venv\Scripts\pip install -r tools/requirements.txt`
-- Catalog build: `python tools/build_catalog.py --source data/source/Amazing_Stories_Reference_Guide.pdf --out app/public/catalog`
-  (writes `catalog.db` + `covers/*.webp`, both git-ignored, and `docs/catalog-report.md`)
+- Catalog build: `python tools/build_catalog.py --out app/public/catalog` (all magazines in `tools/sources.toml`;
+  `--refresh` re-reads the IA collection listings into `tools/sources/ia/*.json`, committed; `--only slug,slug`;
+  writes `catalog.db` + `covers/*.webp`, both git-ignored, `docs/catalog-report.md` and `docs/catalog-sources.md`)
 - Atlas review page: `python tools/atlas/review_page.py --out <file.html>` (one HTML page, path + all entities, OK/Change marks)
 - Atlas media suggestions: `python tools/atlas/suggest_media.py --out media.json` (free Commons images + IMDb/Spotify ids from Wikidata, batched; review before adding)
 - Atlas build: `python tools/atlas/build_atlas.py` → `app/public/atlas/atlas.db` (reviewed entities only; also run automatically by the app's `predev`/`prebuild` via `app/scripts/copy-databases.mjs`)

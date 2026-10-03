@@ -46,7 +46,7 @@ export function IssueScreen({ id }: { id: number }) {
     <Screen section="pulp" masthead={<SubMasthead title={magazine} sub={monthYear(issue.year, issue.month)} />}>
       <div className="issue-layout">
         <div className="issue-hero">
-          <Cover path={issue.coverPath} alt={issue.title} tag={coverTag(issue)} noScan={!readable} stamp={readable} eager dl={issue.id} />
+          <Cover path={issue.coverPath} alt={issue.title} tag={coverTag(issue)} noScan={!readable} stamp={readable} eager large dl={issue.id} />
           <div className="muted small num">{readable ? `Scan: ${issue.iaIdentifier}` : 'Not on the Internet Archive'}</div>
         </div>
         <div style={{ minWidth: 0 }}>
@@ -91,8 +91,14 @@ export function IssueScreen({ id }: { id: number }) {
             {!readable && <button className="btn" disabled>No scan available</button>}
             {readable && issue.iaIdentifier && <DownloadButtons issueId={issue.id} ident={issue.iaIdentifier} />}
           </div>
-          <SectionHeader title="Contents" aside={<span className="aside num">{contents.length} items</span>} />
-          {contents.length === 0 && <p className="muted">No contents listed.</p>}
+          <SectionHeader title="Contents" aside={contents.length ? <span className="aside num">{contents.length} items</span> : undefined} />
+          {contents.length === 0 && (
+            <p className="muted">
+              {readable
+                ? 'The stories of this magazine are not indexed yet. Read the issue and use the page index to browse every page.'
+                : 'No contents listed.'}
+            </p>
+          )}
           <div className="toc">
             {contents.map((s) => (
               <StoryRow key={s.id} story={s} onOpen={openAt} current={s === current}

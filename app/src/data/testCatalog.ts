@@ -11,7 +11,11 @@ export async function testCatalog(): Promise<Db> {
   const db = await memoryDb()
   await db.exec(SCHEMA)
   await db.exec(`
-    INSERT INTO magazine VALUES (1, 'Amazing Stories', 'amazing-stories', 'test');
+    INSERT INTO category VALUES (1, 'pulp', 'Pulp & science fiction', 1), (2, 'rpg', 'RPG magazines', 2);
+    INSERT INTO magazine VALUES (1, 'Amazing Stories', 'amazing-stories', 'test', 1, 1),
+      (2, 'Galaxy', 'galaxy', 'test', 1, 2);
+    INSERT INTO issue VALUES (4, 2, 'galaxy-1950-10', 1950, 10, 'Galaxy, October 1950', 1, 1, NULL, NULL,
+      'Galaxy_v01n01_1950-10', 'ia', NULL, NULL);
     INSERT INTO person VALUES (1, 'Clement Fezandié'), (2, 'Ellen E. Frewer'), (3, 'Frank R. Paul'),
       (4, 'H. G. Wells'), (5, 'Hugo Gernsback'), (6, 'Jules Verne'), (7, 'Eando Binder'), (8, 'Leo Morey');
     INSERT INTO issue VALUES

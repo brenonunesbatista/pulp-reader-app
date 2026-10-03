@@ -274,3 +274,28 @@ Banca" on *Marooned off Vesta*, which has no scan; the spec adds the "in the cat
 - Phase 8 decided with the user: 8a categories + generic IA collection adapter + F&SF, Galaxy, Fantastic, Twilight
   Zone (issue-level contents first); 8b packs (Dragon, Dungeon); 8c comics (all titles on the user's list, personal use,
   accepting that IA may remove items).
+
+## 2026-10-03 — Phase 8a: categories and Internet Archive collections
+- **Sources list** `tools/sources.toml`: categories (pulp, rpg, comics) and magazines with their adapter. The catalog is
+  one database for all magazines (`category` table, `magazine.category_id` + `sort`, schema_version 2).
+- **Collection snapshots** in `tools/sources/ia/<collection>.json` (committed, ~300 KB for four collections): the
+  collection's search results (identifier, title, date, image count, has JP2 / OCR, restricted). Builds read them, so they
+  are reproducible and offline; `--refresh` re-reads them (one advancedsearch request per 1000 items, 1 s apart,
+  descriptive User-Agent).
+- **Dating a scan**: `YYYY-MM` in identifier/title, else `Month YYYY` (also abbreviated), else season (Winter 1,
+  Spring 4, Summer 7, Fall 10), else `MonYY` at the end of the identifier, else the metadata date (Jan 1 is a year-only
+  placeholder and is ignored). Volume/number from `v01n02`, `v-01-n-02`, `Volume 2, Number 11`.
+- **One issue per date**: the best scan wins — readable (JP2 + OCR, not lending-only) first, then penalties: missing
+  pages −30, foreign reprint (World Editions, UK, Australian) −40, ads removed −15, image/PDF re-upload −5, modified −5,
+  then most pages. The others go to `issue_scan` (alternates; no UI yet). Two scans with different known volumes/numbers
+  on the same date stay two issues ("May 1975 (vol. 48 no. 5)"). Anthologies, foreign editions, the Galaxy novel series
+  and compilations are excluded by a pattern per magazine; every skipped item is listed with its reason in
+  `docs/catalog-sources.md`.
+- Result: F&SF 596 issues (1949–2007), Galaxy 249 (1950–1980), Fantastic 180 (1952–1980), Twilight Zone 60 (1981–1989);
+  1,394 issues in all, `catalog.db` 2.8 MB.
+- **Covers** of IA-sourced issues are not shipped: `coverPath = "ia:<identifier>"` resolves to
+  `archive.org/services/img/<id>` (~180 px, ~19 KB) in grids and `archive.org/download/<id>/page/cover_medium.jpg`
+  (~100 KB) on the issue page; the WebView's HTTP cache keeps them. Offline, a blank cover is shown.
+- **Contents**: none yet for these magazines (the issue page says so; the reader's page index is the way in). Candidate
+  source for later: ISFDB, after checking its data licence.
+- Issue cards (search, person pages) now show the magazine name; the RPG tab lists RPG magazines once indexed.

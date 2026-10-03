@@ -1,7 +1,11 @@
 -- Catalog schema (SPEC §3). Single source: used by tools/catalog/db.py and the app tests.
 PRAGMA page_size = 4096;
 CREATE TABLE catalog_meta (key TEXT PRIMARY KEY, value TEXT NOT NULL);
-CREATE TABLE magazine (id INTEGER PRIMARY KEY, name TEXT NOT NULL, slug TEXT NOT NULL UNIQUE, source TEXT);
+-- categories keep content types apart (pulp / rpg / comics); magazines are listed by category, then sort
+CREATE TABLE category (id INTEGER PRIMARY KEY, slug TEXT NOT NULL UNIQUE, name TEXT NOT NULL, sort INTEGER NOT NULL);
+CREATE TABLE magazine (
+  id INTEGER PRIMARY KEY, name TEXT NOT NULL, slug TEXT NOT NULL UNIQUE, source TEXT,
+  category_id INTEGER NOT NULL REFERENCES category(id), sort INTEGER NOT NULL);
 CREATE TABLE issue (
   id INTEGER PRIMARY KEY,
   magazine_id INTEGER NOT NULL REFERENCES magazine(id),
@@ -26,6 +30,9 @@ CREATE TABLE story (
   note TEXT
 );
 CREATE INDEX story_by_issue ON story(issue_id, sort_order);
+-- other scans of the same issue on the Internet Archive (the issue row holds the best one)
+CREATE TABLE issue_scan (
+  issue_id INTEGER NOT NULL REFERENCES issue(id), ia_identifier TEXT NOT NULL, PRIMARY KEY (issue_id, ia_identifier));
 CREATE TABLE person (id INTEGER PRIMARY KEY, name TEXT NOT NULL);
 CREATE TABLE story_person (
   story_id INTEGER NOT NULL REFERENCES story(id), person_id INTEGER NOT NULL REFERENCES person(id),

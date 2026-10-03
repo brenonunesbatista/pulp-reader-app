@@ -1,0 +1,4016 @@
+[
+{
+"identifier": "GalaxyPD",
+"title": "Galaxy PD",
+"date": "2016-01-10",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "GalaxyV18n03196002AkFhd",
+"title": "Galaxy V 18n 03 ( 1960 02) Ak Fhd",
+"date": "2017-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_1952.03_-_jpg",
+"title": "Galaxy 1952.03 - jpg",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_1952.04_-_jpg",
+"title": "Galaxy 1952.04 - jpg",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_1952.05_-_jpg",
+"title": "Galaxy 1952.05 - jpg",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_1952.06_-_jpg",
+"title": "Galaxy 1952.06 - jpg",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_1952.07_-_jpg",
+"title": "Galaxy 1952.07 - jpg",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_1952.09_-_jpg",
+"title": "Galaxy 1952.09 - jpg",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_1952.11_-_jpg",
+"title": "Galaxy 1952.11 - jpg",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_2nd_Series_v01n01_1994-01",
+"title": "Galaxy (2nd Series) v01n01 (1994 01)",
+"date": null,
+"imagecount": 56,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_2nd_Series_v01n02_1994-03",
+"title": "Galaxy (2nd Series) v01n02 (1994 03)",
+"date": null,
+"imagecount": 0,
+"jp2": false,
+"ocr": false,
+"restricted": false
+},
+{
+"identifier": "Galaxy_2nd_Series_v01n03_1994-05",
+"title": "Galaxy (2nd Series) v01n03 (1994 05)",
+"date": null,
+"imagecount": 0,
+"jp2": false,
+"ocr": false,
+"restricted": false
+},
+{
+"identifier": "Galaxy_2nd_Series_v01n04_1994-07",
+"title": "Galaxy (2nd Series) v01n04 (1994 07)",
+"date": null,
+"imagecount": 0,
+"jp2": false,
+"ocr": false,
+"restricted": false
+},
+{
+"identifier": "Galaxy_2nd_Series_v01n05_1994-09",
+"title": "Galaxy (2nd Series) v01n05 (1994 09)",
+"date": null,
+"imagecount": 0,
+"jp2": false,
+"ocr": false,
+"restricted": false
+},
+{
+"identifier": "Galaxy_2nd_Series_v01n06_1994-11",
+"title": "Galaxy (2nd Series) v01n06 (1994 11)",
+"date": null,
+"imagecount": 0,
+"jp2": false,
+"ocr": false,
+"restricted": false
+},
+{
+"identifier": "Galaxy_2nd_Series_v02n01_1995-01",
+"title": "Galaxy (2nd Series) v02n01 (1995 01)",
+"date": null,
+"imagecount": 96,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_2nd_Series_v02n02_1995-03",
+"title": "Galaxy (2nd Series) v02n02 (1995 03)",
+"date": null,
+"imagecount": 96,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_01_Eric_Frank_Russell_Sinister_Barrier_1950",
+"title": "Galaxy Science Fiction Novel #01 Eric Frank Russell Sinister Barrier (1950)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_02_Jack_Williamson_The_Legion_Of_Space_1935",
+"title": "Galaxy Science Fiction Novel #02 Jack Williamson The Legion Of Space (1935)",
+"date": null,
+"imagecount": 160,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_03_Arthur_C._Clarke_Prelude_To_Space_1951",
+"title": "Galaxy Science Fiction Novel #03 Arthur C. Clarke Prelude To Space (1951)",
+"date": null,
+"imagecount": 163,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_04_S._Fowler_Wright_The_Amphibians_1930",
+"title": "Galaxy Science Fiction Novel #04 S. Fowler Wright The Amphibians (1930)",
+"date": null,
+"imagecount": 131,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_05_S._Fowler_Wright_The_World_Below_1930",
+"title": "Galaxy Science Fiction Novel #05 S. Fowler Wright The World Below (1930)",
+"date": null,
+"imagecount": 124,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_06_Raymond_F._Jones_The_Alien_1951",
+"title": "Galaxy Science Fiction Novel #06 Raymond F. Jones The Alien (1951)",
+"date": null,
+"imagecount": 162,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_07_Clifford_D._Simak_Empire_1951",
+"title": "Galaxy Science Fiction Novel #07 Clifford D. Simak Empire (1951)",
+"date": null,
+"imagecount": 161,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_08_Olaf_Stapledon_Odd_John_1936",
+"title": "Galaxy Science Fiction Novel #08 Olaf Stapledon Odd John (1936)",
+"date": null,
+"imagecount": 166,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_09_William_F._Temple_Four_Sided_Triangle_1951",
+"title": "Galaxy Science Fiction Novel #09 William F. Temple Four Sided Triangle (1951)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_10_Jay_Franklin_The_Rat_Race_1947",
+"title": "Galaxy Science Fiction Novel #10 Jay Franklin The Rat Race (1947)",
+"date": null,
+"imagecount": 166,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_11_Wilson_Tucker_The_City_in_the_Sea_1952",
+"title": "Galaxy Science Fiction Novel #11 Wilson Tucker The City in the Sea (1952)",
+"date": null,
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_12_Sam_Merwin_Jr._The_House_of_Many_Worlds_1951",
+"title": "Galaxy Science Fiction Novel #12 Sam Merwin, Jr. The House of Many Worlds (1951)",
+"date": null,
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_13_John_Taine_Seeds_of_Life_1951",
+"title": "Galaxy Science Fiction Novel #13 John Taine Seeds of Life (1951)",
+"date": null,
+"imagecount": 182,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_14_Isaac_Asimov_Pebble_in_the_Sky_1950",
+"title": "Galaxy Science Fiction Novel #14 Isaac Asimov Pebble in the Sky (1950)",
+"date": null,
+"imagecount": 162,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_15_Leslie_Mitchell_Three_Go_Back_1953",
+"title": "Galaxy Science Fiction Novel #15 Leslie Mitchell Three Go Back (1953)",
+"date": null,
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_16_James_Blish_The_Warriors_of_Day_1951",
+"title": "Galaxy Science Fiction Novel #16 James Blish The Warriors of Day (1951)",
+"date": null,
+"imagecount": 131,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_17_Lewis_Padgett_Well_of_the_Worlds_1953",
+"title": "Galaxy Science Fiction Novel #17 Lewis Padgett Well of the Worlds (1953)",
+"date": null,
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_18_Edmond_Hamilton_City_at_Worlds_End_1953",
+"title": "Galaxy Science Fiction Novel #18 Edmond Hamilton City at World's End (1953)",
+"date": null,
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_19_James_Blish_Jack_of_Eagles_1952",
+"title": "Galaxy Science Fiction Novel #19 James Blish Jack of Eagles (1952)",
+"date": null,
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_20_Murray_Leinster_The_Black_Galaxy_1954",
+"title": "Galaxy Science Fiction Novel #20 Murray Leinster The Black Galaxy (1954)",
+"date": null,
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_21_Jack_Williamson_The_Humanoids_1950",
+"title": "Galaxy Science Fiction Novel #21 Jack Williamson The Humanoids (1950)",
+"date": null,
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_22_Sam_merwin_Jr._Killer_To_Come_1953",
+"title": "Galaxy Science Fiction Novel #22 Sam merwin Jr. Killer To Come (1953)",
+"date": null,
+"imagecount": 131,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_23_David_V._Reed_Murder_in_Space_1944",
+"title": "Galaxy Science Fiction Novel #23 d V. Reed Murder in Space (1944)",
+"date": null,
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_24_L._Sprague_de_Camp_Lest_Darkness_Fall_1949",
+"title": "Galaxy Science Fiction Novel #24 L. Sprague de Camp Lest Darkness Fall (1949)",
+"date": null,
+"imagecount": 130,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_25_Murray_Leinster_The_Last_Spaceship_1949",
+"title": "Galaxy Science Fiction Novel #25 Murray Leinster The Last Spaceship (1949)",
+"date": null,
+"imagecount": 130,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_26_Lewis_Padgett_Chessboard_Planet_1946",
+"title": "Galaxy Science Fiction Novel #26 Lewis Padgett Chessboard Planet (1946)",
+"date": null,
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_27_Malcolm_Jameson_Tarnished_Utopia_1941",
+"title": "Galaxy Science Fiction Novel #27 Malcolm Jameson Tarnished Utopia (1941)",
+"date": null,
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_28_Fritz_Leiber_Destiny_Times_Three_1957",
+"title": "Galaxy Science Fiction Novel #28 Fritz Leiber Destiny Times Three (1957)",
+"date": null,
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_29_L._Ron_Hubbard_Fear_1951",
+"title": "Galaxy Science Fiction Novel #29 L. Ron Hubbard Fear (1951)",
+"date": null,
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_30_Fletcher_Pratt_Double_Jeopardy_1952",
+"title": "Galaxy Science Fiction Novel #30 Fletcher Pratt Double Jeopardy (1952)",
+"date": null,
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_31_C._L._Moore_Shambleau_1953",
+"title": "Galaxy Science Fiction Novel #31 C. L. Moore Shambleau (1953)",
+"date": null,
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_32_F._L._Wallace_Address_Centauri_1955",
+"title": "Galaxy Science Fiction Novel #32 F. L. Wallace Address Centauri (1955)",
+"date": "1955-01-01",
+"imagecount": 197,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_33_Hal_Clement_Mission_of_Gravity_1957",
+"title": "Galaxy Science Fiction Novel #33 Hal Clement Mission of Gty (1957)",
+"date": null,
+"imagecount": 215,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_34_Manly_Wade_Wellman_Twice_in_Time_1951",
+"title": "Galaxy Science Fiction Novel #34 Manly Wade Wellman Twice in Time (1951)",
+"date": null,
+"imagecount": 191,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_35_Mark_Clifton_and_Frank_Riley_The_Forever_Machine",
+"title": "Galaxy Science Fiction Novel #35 Mark Clifton and Frank Riley The Forever Machine (1958)",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_37_The_Deviates",
+"title": "Galaxy Science Fiction Novel 37 The Deviates",
+"date": null,
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_38_George_O._Smith_Troubled_Star_1957",
+"title": "Galaxy Science Fiction Novel #38 George O. Smith Troubled Star (1957)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_39_Pagan_Passions_by_Randall_Garrett_and_Laurence_J",
+"title": "Galaxy Science Fiction Novel 39 Pagan Passions by Randall Garrett and Laurence Janifer",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_41_Philip_Jose_Farmer_Flesh",
+"title": "Galaxy Science Fiction Novel 41 Philip Jose Farmer Flesh",
+"date": null,
+"imagecount": 161,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_43_Philip_Jose_Farmer_A_Woman_A_Day_1960",
+"title": "Galaxy Science Fiction Novel #43 Philip Jose Farmer A Woman A Day (1960)",
+"date": null,
+"imagecount": 162,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_44_A._E._Van_Vogt_The_Mating_Cry_1960",
+"title": "Galaxy Science Fiction Novel #44 A. E. Van Vogt The Mating Cry (1960)",
+"date": null,
+"imagecount": 162,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Novel_46_Cyril_Judd_Sin_in_Space_1961",
+"title": "Galaxy Science Fiction Novel #46 Cyril Judd Sin in Space (1961)",
+"date": null,
+"imagecount": 196,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_Science_Fiction_Santa_Covers_1950s",
+"title": "Galaxy Science Fiction Santa Covers (1950s)",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v01n01_-_1950_-_World_Editions",
+"title": "Galaxy v01n01 - 1950 - World Editions",
+"date": "1950-10-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v01n01_1950-10",
+"title": "Galaxy v01n01 (1950 10)",
+"date": "1950-10-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v01n02_-_1950-11.WorldEditionsAK",
+"title": "Galaxy v01n02 - 1950-11.WorldEditions)(AK)",
+"date": "1950-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v01n02_1950-11",
+"title": "Galaxy v01n02 (1950 11)",
+"date": "1950-11-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v01n03_-_1950-12.World_EditionsAK",
+"title": "Galaxy v01n03 - 1950-12.World Editions)(AK)",
+"date": "1950-12-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v01n03_1950-12",
+"title": "Galaxy v01n03 (1950 12)",
+"date": "1950-12-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v01n04_-_1951_01_-_World_Editions",
+"title": "Galaxy v01n04 - 1951 01 - World Editions",
+"date": "1951-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v01n04_1951-01",
+"title": "Galaxy v01n04 (1951 01)",
+"date": "1951-01-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v01n05_1951-02",
+"title": "Galaxy v01n05 (1951 02)",
+"date": "1951-02-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v01n05_1951-02.World_EditionsAKv1.0",
+"title": "Galaxy v01n05 (1951-02.World Editions)(AKv1.0)",
+"date": "1951-02-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v01n06_-_1951-03",
+"title": "Galaxy v01n06 - 1951-03",
+"date": "1951-03-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v01n06_1951-03",
+"title": "Galaxy v01n06 (1951 03)",
+"date": "1951-03-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v01n06_1951-03.World_EditionsAKv1.0",
+"title": "Galaxy v01n06 (1951-03.World Editions)(AKv1.0)",
+"date": "1951-03-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v02n01_-_1951_04-AK_v1.0_jpg",
+"title": "Galaxy v02n01 - 1951 04-AK v1.0 jpg",
+"date": "1951-04-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v02n01_1951-04",
+"title": "Galaxy v02n01 (1951 04)",
+"date": "1951-04-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v02n02_1951-05",
+"title": "Galaxy v02n02 1951-05",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v02n02_1951-05.World_Editions",
+"title": "Galaxy v02n02 (1951-05.World Editions)",
+"date": "1951-05-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v02n03_1951-06",
+"title": "Galaxy v02n03 (1951 06)",
+"date": "1951-06-01",
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v02n03_1951-06.World_Editions",
+"title": "Galaxy v02n03 (1951-06.World Editions)",
+"date": "1951-06-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v02n04_1951-07",
+"title": "Galaxy v02n04 (1951 07)",
+"date": "1951-07-01",
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v02n04_1951-07.World_Editions",
+"title": "Galaxy v02n04 (1951-07.World Editions)",
+"date": "1951-07-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v02n05_1951-08",
+"title": "Galaxy v02n05 (1951 08)",
+"date": "1951-08-01",
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v02n05_1951-08.World_Editions",
+"title": "Galaxy v02n05 (1951-08.World Editions)",
+"date": "1951-08-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v02n06_-_1951_09_-_World_Editions",
+"title": "Galaxy v02n06 - 1951 09 - World Editions",
+"date": "1951-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v02n06_1951-09",
+"title": "Galaxy v02n06 (1951 09)",
+"date": "1951-09-01",
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v03n01_1951-10",
+"title": "Galaxy v03n01 (1951 10)",
+"date": "1951-10-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v03n01_1951-10.Galaxy",
+"title": "Galaxy v03n01 (1951-10.Galaxy)",
+"date": "1951-10-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v03n02_1951-11",
+"title": "Galaxy v03n02 (1951 11)",
+"date": "1951-11-01",
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v03n02_1951-11.Galaxy",
+"title": "Galaxy v03n02 (1951-11.Galaxy)",
+"date": "1951-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v03n03_1951-12",
+"title": "Galaxy v03n03 (1951 12)",
+"date": "1951-12-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v03n03_1951-12.GalaxyAKv1.0",
+"title": "Galaxy v03n03 (1951-12.Galaxy)(AKv1.0)",
+"date": "1951-12-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v03n04_-_1952_01_-_Galaxy",
+"title": "Galaxy v03n04 - 1952 01 - Galaxy",
+"date": "1952-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v03n04_1952-01",
+"title": "Galaxy v03n04 (1952 01)",
+"date": null,
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v03n05_-_1952_02_-_Galaxy",
+"title": "Galaxy v03n05 - 1952 02 - Galaxy",
+"date": "1952-02-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v03n05_1952-02",
+"title": "Galaxy v03n05 (1952 02)",
+"date": null,
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v03n06_1952-03",
+"title": "Galaxy v03n06 (1952 03)",
+"date": null,
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v04n01_1952-04",
+"title": "Galaxy v04n01 (1952 04)",
+"date": null,
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v04n02_1952-05",
+"title": "Galaxy v04n02 (1952 05)",
+"date": null,
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v04n03_1952-06",
+"title": "Galaxy v04n03 (1952 06)",
+"date": null,
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v04n04_1952-07",
+"title": "Galaxy v04n04 (1952 07)",
+"date": null,
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v04n05_-_1952.08_-_jpg",
+"title": "Galaxy v04n05 - 1952.08 - jpg",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v04n05_1952-08",
+"title": "Galaxy v04n05 (1952 08)",
+"date": null,
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v04n06_1952-09",
+"title": "Galaxy v04n06 (1952 09)",
+"date": null,
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v05n01_-_1952-10.Guinn",
+"title": "Galaxy v05n01 - 1952-10.Guinn)",
+"date": "1952-10-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v05n01_1952-10",
+"title": "Galaxy v05n01 (1952 10)",
+"date": null,
+"imagecount": 163,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v05n02_1952-11",
+"title": "Galaxy v05n02 (1952 11)",
+"date": null,
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v05n03_1952-12",
+"title": "Galaxy v05n03 (1952 12)",
+"date": null,
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v05n03_1952-12.Galaxy",
+"title": "Galaxy v05n03 (1952-12.Galaxy)",
+"date": "1952-12-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v05n04_1953-01",
+"title": "Galaxy v05n04 (1953 01)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v05n04_1953-01.Galaxy",
+"title": "Galaxy v05n04 (1953-01.Galaxy)",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v05n05_1953-02",
+"title": "Galaxy v05n05 (1953 02)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v05n05_1953-02.Galaxy",
+"title": "Galaxy v05n05 (1953-02.Galaxy)",
+"date": "1953-02-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v05n06_1953-03",
+"title": "Galaxy v05n06 (1953 03)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v05n06_1953-03.Galaxy",
+"title": "Galaxy v05n06 (1953-03.Galaxy)",
+"date": "1953-03-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v06_02_Galaxy_May_1953_AKv1.0",
+"title": "Galaxy v06 02 Galaxy (May 1953) (AKv1.0)",
+"date": "1953-05-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v06_04_Galaxy_Jul_1953",
+"title": "Galaxy v06 04 Galaxy (Jul 1953)",
+"date": "1953-07-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v06_05_Galaxy_Aug_1953",
+"title": "Galaxy v06 05 Galaxy (Aug 1953)",
+"date": "1953-08-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v06_06_Galaxy_Sep_1953",
+"title": "Galaxy v06 06 Galaxy (Sep 1953)",
+"date": "1953-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v06n01_1953-04",
+"title": "Galaxy v06n01 (1953 04)",
+"date": null,
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v06n01_1953-04.Galaxy",
+"title": "Galaxy v06n01 (1953-04.Galaxy)",
+"date": "1953-04-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v06n02_1953-05",
+"title": "Galaxy v06n02 (1953 05)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v06n03_1953-06",
+"title": "Galaxy v06n03 (1953 06)",
+"date": null,
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v06n04_1953-07",
+"title": "Galaxy v06n04 (1953 07)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v06n05_1953-08",
+"title": "Galaxy v06n05 (1953 08)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v06n06_1953-09",
+"title": "Galaxy v06n06 (1953 09)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v07_01_Galaxy_Oct_1953",
+"title": "Galaxy v07 01 Galaxy (Oct 1953)",
+"date": "1953-10-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v07_02_Galaxy_Nov_1953",
+"title": "Galaxy v07 02 Galaxy (Nov 1953)",
+"date": "1953-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v07_03_Galaxy_Dec_1953",
+"title": "Galaxy v07 03 Galaxy (Dec 1953)",
+"date": "1953-12-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v07_04_Galaxy_Jan_1954_AKv1.0",
+"title": "Galaxy v07 04 Galaxy (Jan 1954) (AKv1.0)",
+"date": "1954-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v07_06_Galaxy_Mar_1954",
+"title": "Galaxy v07 06 Galaxy (Mar 1954)",
+"date": "1954-03-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v07n01_1953-10",
+"title": "Galaxy v07n01 (1953 10)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v07n02_1953-11",
+"title": "Galaxy v07n02 (1953 11)",
+"date": null,
+"imagecount": 167,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v07n03_1953-12",
+"title": "Galaxy v07n03 (1953 12)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v07n04_1954-01",
+"title": "Galaxy v07n04 (1954 01)",
+"date": "1954-01-01",
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v07n05_1954-02",
+"title": "Galaxy v07n05 (1954 02)",
+"date": "1954-02-01",
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v07n06_1954-03",
+"title": "Galaxy v07n06 (1954 03)",
+"date": "1954-03-01",
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v08n01_1954-04",
+"title": "Galaxy v08n01 (1954 04)",
+"date": "1954-04-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v08n02_1954-05",
+"title": "Galaxy v08n02 (1954 05)",
+"date": "1954-05-01",
+"imagecount": 166,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v08n03_1954-06",
+"title": "Galaxy v08n03 (1954 06)",
+"date": "1954-06-01",
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v08n04_1954-07",
+"title": "Galaxy v08n04 (1954 07)",
+"date": "1954-07-01",
+"imagecount": 166,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v08n05_1954-08",
+"title": "Galaxy v08n05 (1954 08)",
+"date": "1954-08-01",
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v08n06_1954-09",
+"title": "Galaxy v08n06 (1954 09)",
+"date": "1954-09-01",
+"imagecount": 83,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v09n01_1954-10",
+"title": "Galaxy v09n01 (1954 10)",
+"date": "1954-10-01",
+"imagecount": 83,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v09n02_1954-11",
+"title": "Galaxy v09n02 (1954 11)",
+"date": "1954-11-01",
+"imagecount": 83,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v09n03_1954-12",
+"title": "Galaxy v09n03 (1954 12)",
+"date": "1954-12-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v09n04_1955-01",
+"title": "Galaxy v09n04 (1955 01)",
+"date": "1955-01-01",
+"imagecount": 148,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v09n05_1955-02",
+"title": "Galaxy v09n05 (1955 02)",
+"date": "1955-02-01",
+"imagecount": 148,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v09n06_1955-03",
+"title": "Galaxy v09n06 (1955 03)",
+"date": "1955-03-01",
+"imagecount": 148,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v10n01_1955-04",
+"title": "Galaxy v10n01 (1955 04)",
+"date": "1955-04-01",
+"imagecount": 75,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v10n02_1955-05",
+"title": "Galaxy v10n02 (1955 05)",
+"date": "1955-05-01",
+"imagecount": 148,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v10n03_1955-06",
+"title": "Galaxy v10n03 (1955 06)",
+"date": "1955-06-01",
+"imagecount": 149,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v10n04_1955-07",
+"title": "Galaxy v10n04 (1955 07)",
+"date": "1955-07-01",
+"imagecount": 149,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v10n06_1955-09",
+"title": "Galaxy v10n06 (1955 09)",
+"date": "1955-09-01",
+"imagecount": 149,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v11n01_1955-10",
+"title": "Galaxy v11n01 (1955 10)",
+"date": "1955-10-01",
+"imagecount": 149,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v11n02_1955-11",
+"title": "Galaxy v11n02 (1955 11)",
+"date": "1955-11-01",
+"imagecount": 149,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v11n03_1956-01",
+"title": "Galaxy v11n03 (1956 01)",
+"date": "1956-01-01",
+"imagecount": 149,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v11n04_1956-02",
+"title": "Galaxy v11n04 (1956 02)",
+"date": "1956-02-01",
+"imagecount": 149,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v11n05_1956-03",
+"title": "Galaxy v11n05 (1956 03)",
+"date": "1956-03-01",
+"imagecount": 148,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v11n06_1956-04",
+"title": "Galaxy v11n06 (1956 04)",
+"date": "1956-04-01",
+"imagecount": 148,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v12n01_1956-05",
+"title": "Galaxy v12n01 (1956 05)",
+"date": "1956-05-01",
+"imagecount": 75,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v12n02_1956-06",
+"title": "Galaxy v12n02 (1956 06)",
+"date": "1956-06-01",
+"imagecount": 148,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v12n03_1956-07",
+"title": "Galaxy v12n03 (1956 07)",
+"date": "1956-07-01",
+"imagecount": 149,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v12n04_1956-08",
+"title": "Galaxy v12n04 (1956 08)",
+"date": "1956-08-01",
+"imagecount": 148,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v12n05_1956-09",
+"title": "Galaxy v12n05 (1956 09)",
+"date": "1956-09-01",
+"imagecount": 146,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v12n06_1956-10",
+"title": "Galaxy v12n06 (1956 10)",
+"date": "1956-10-01",
+"imagecount": 146,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v13n01_1956-11",
+"title": "Galaxy v13n01 (1956 11)",
+"date": "1956-11-01",
+"imagecount": 148,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v13n02_1956-12",
+"title": "Galaxy v13n02 (1956 12)",
+"date": "1956-12-01",
+"imagecount": 149,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v13n03_1957-01",
+"title": "Galaxy v13n03 (1957 01)",
+"date": "1957-01-01",
+"imagecount": 148,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v13n04_1957-02",
+"title": "Galaxy v13n04 (1957 02)",
+"date": "1957-02-01",
+"imagecount": 148,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v13n05_1957-03",
+"title": "Galaxy v13n05 (1957 03)",
+"date": "1957-03-01",
+"imagecount": 148,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v13n06_1957-04",
+"title": "Galaxy v13n06 (1957 04)",
+"date": "1957-04-01",
+"imagecount": 148,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v14n01_1957-05",
+"title": "Galaxy v14n01 (1957 05)",
+"date": "1957-05-01",
+"imagecount": 149,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v14n02_1957-06",
+"title": "Galaxy v14n02 (1957 06)",
+"date": "1957-06-01",
+"imagecount": 148,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v14n03_1957-07",
+"title": "Galaxy v14n03 (1957 07)",
+"date": "1957-07-01",
+"imagecount": 149,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v14n04_1957-08",
+"title": "Galaxy v14n04 (1957 08)",
+"date": "1957-08-01",
+"imagecount": 147,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v14n05_1957-09",
+"title": "Galaxy v14n05 (1957 09)",
+"date": "1957-09-01",
+"imagecount": 147,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v14n06_1957-10",
+"title": "Galaxy v14n06 (1957 10)",
+"date": "1957-10-01",
+"imagecount": 149,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v15n01_1957-11",
+"title": "Galaxy v15n01 (1957 11)",
+"date": "1957-11-01",
+"imagecount": 149,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v15n02_1957-12",
+"title": "Galaxy v15n02 (1957 12)",
+"date": "1957-12-01",
+"imagecount": 148,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v15n03_1958-01",
+"title": "Galaxy v15n03 (1958 01)",
+"date": "1958-01-01",
+"imagecount": 148,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v15n04_1958-02",
+"title": "Galaxy v15n04 (1958 02)",
+"date": "1958-02-01",
+"imagecount": 149,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v15n05_1958-03",
+"title": "Galaxy v15n05 (1958 03)",
+"date": "1958-03-01",
+"imagecount": 148,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v15n06_1958-04",
+"title": "Galaxy v15n06 (1958 04)",
+"date": "1958-04-01",
+"imagecount": 148,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v16n01_1958-05",
+"title": "Galaxy v16n01 (1958 05)",
+"date": "1958-05-01",
+"imagecount": 148,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v16n02_1958-06",
+"title": "Galaxy v16n02 (1958 06)",
+"date": "1958-06-01",
+"imagecount": 148,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v16n03_1958-07_modified",
+"title": "Galaxy v16n03 (July 1958) (Modified)",
+"date": "1958-07-01",
+"imagecount": 130,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v16n04_1958-08",
+"title": "Galaxy v16n04 (1958 08)",
+"date": "1958-08-01",
+"imagecount": 148,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v16n05_1958-09",
+"title": "Galaxy v16n05 (1958 09)",
+"date": "1958-09-01",
+"imagecount": 148,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v16n06_1958-10",
+"title": "Galaxy v16n06 (1958 10)",
+"date": "1958-10-01",
+"imagecount": 148,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v17n01_1958-11",
+"title": "Galaxy v17n01 (1958 11)",
+"date": "1958-11-01",
+"imagecount": 149,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v17n02_1958-12",
+"title": "Galaxy v17n02 (1958 12)",
+"date": "1958-12-01",
+"imagecount": 149,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v17n03_1959-02",
+"title": "Galaxy v17n03 (1959 02)",
+"date": "1959-02-01",
+"imagecount": 194,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v17n04_1959-04",
+"title": "Galaxy v17n04 (1959 04)",
+"date": "1959-04-01",
+"imagecount": 196,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v17n05_1959-06",
+"title": "Galaxy v17n05 (1959 06)",
+"date": "1959-06-01",
+"imagecount": 195,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v17n06_1959-08",
+"title": "Galaxy v17n06 (1959 08)",
+"date": "1959-08-01",
+"imagecount": 194,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v18n01_1959-10",
+"title": "Galaxy v18n01 (1959 10)",
+"date": "1959-10-01",
+"imagecount": 196,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v18n02_1959-12",
+"title": "Galaxy v18n02 (1959 12)",
+"date": "1959-12-01",
+"imagecount": 196,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v18n03_1960-02",
+"title": "Galaxy v18n03 (1960 02)",
+"date": null,
+"imagecount": 99,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v18n04_1960-04",
+"title": "Galaxy v18n04 (1960 04)",
+"date": null,
+"imagecount": 99,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v18n05_1960-06",
+"title": "Galaxy v18n05 (1960 06)",
+"date": null,
+"imagecount": 196,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v18n06_1960-08",
+"title": "Galaxy v18n06 (1960 08)",
+"date": null,
+"imagecount": 198,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v19n01_1960-10",
+"title": "Galaxy v19n01 (1960 10)",
+"date": null,
+"imagecount": 99,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v19n02_1960-12",
+"title": "Galaxy v19n02 (1960 12)",
+"date": null,
+"imagecount": 99,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v19n03_1961-02",
+"title": "Galaxy v19n03 (1961 02)",
+"date": null,
+"imagecount": 99,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v19n04_1961-04",
+"title": "Galaxy v19n04 (1961 04)",
+"date": null,
+"imagecount": 99,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v19n05_1961-06_modified",
+"title": "Galaxy v19n05 (June 1961) (Modified)",
+"date": "1961-06-01",
+"imagecount": 94,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v19n06_1961-08",
+"title": "Galaxy v19n06 (1961 08)",
+"date": null,
+"imagecount": 99,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v20n01_1961-10",
+"title": "Galaxy v20n01 (1961 10)",
+"date": null,
+"imagecount": 197,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v20n02_1961-12_modified",
+"title": "Galaxy v20n02 (December 1961) (Modified)",
+"date": "1961-12-01",
+"imagecount": 70,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v20n02_1962-02",
+"title": "Galaxy v20n03 1962-02",
+"date": "1962-02-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v20n04_1962-04",
+"title": "Galaxy v20n04 (1962 04)",
+"date": null,
+"imagecount": 99,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v20n05_1962-06",
+"title": "Galaxy v20n05 (1962 06)",
+"date": null,
+"imagecount": 197,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v20n06_1962-08",
+"title": "Galaxy v20n06 (1962 08)",
+"date": null,
+"imagecount": 196,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v21n01_1962-10",
+"title": "Galaxy v21n01 (1962 10)",
+"date": null,
+"imagecount": 99,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v21n02_1962.12",
+"title": "Galaxy v21n02 (1962.12)",
+"date": null,
+"imagecount": 197,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v21n03_1963-02",
+"title": "Galaxy v21n03 (1963 02)",
+"date": null,
+"imagecount": 0,
+"jp2": false,
+"ocr": false,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v21n04_1963-04",
+"title": "Galaxy v21n04 (1963 04)",
+"date": null,
+"imagecount": 99,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v21n05_1963-06",
+"title": "Galaxy v21n05 (1963 06)",
+"date": null,
+"imagecount": 99,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v21n06_1963-08",
+"title": "Galaxy v21n06 (1963 08)",
+"date": null,
+"imagecount": 99,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v22n01_1963-10",
+"title": "Galaxy v22n01 (1963 10)",
+"date": null,
+"imagecount": 99,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v22n02_1963-12",
+"title": "Galaxy v22n02 (1963 12)",
+"date": null,
+"imagecount": 100,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v22n03_1964-02",
+"title": "Galaxy v22n03 (1964 02)",
+"date": null,
+"imagecount": 196,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v22n04_1964-04",
+"title": "Galaxy v22n04 (1964 04)",
+"date": null,
+"imagecount": 196,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v22n05_1964-06_modified",
+"title": "Galaxy v22n05 (June 1964) (Modified)",
+"date": "1964-06-01",
+"imagecount": 140,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v22n06_1964-08",
+"title": "Galaxy v22n06 (1964 08)",
+"date": null,
+"imagecount": 99,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v23n01_1964-10",
+"title": "Galaxy v23n01 (1964 10)",
+"date": null,
+"imagecount": 197,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v23n02_1964-12",
+"title": "Galaxy v23n02 (1964 12)",
+"date": null,
+"imagecount": 196,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v23n03_1965-02",
+"title": "Galaxy v23n03 (1965 02)",
+"date": null,
+"imagecount": 197,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v23n04_1965-04",
+"title": "Galaxy v23n04 (1965 04)",
+"date": null,
+"imagecount": 197,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v23n05_1965-06",
+"title": "Galaxy v23n05 (1965 06)",
+"date": null,
+"imagecount": 197,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v23n06_1965-08",
+"title": "Galaxy v23n06 (1965 08)",
+"date": null,
+"imagecount": 197,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v24n01_1965-10",
+"title": "Galaxy v24n01 (1965 10)",
+"date": null,
+"imagecount": 197,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v24n03_1966-02",
+"title": "Galaxy v24n03 (1966 02)",
+"date": null,
+"imagecount": 197,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v24n04_1966-04",
+"title": "Galaxy v24n04 (1966 04)",
+"date": null,
+"imagecount": 99,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v24n05_1966-06",
+"title": "Galaxy v24n05 (1966 06)",
+"date": null,
+"imagecount": 197,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v24n06_1966-08",
+"title": "Galaxy v24n06 (1966 08)",
+"date": null,
+"imagecount": 197,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v25n01_1966-10",
+"title": "Galaxy v25n01 (1966 10)",
+"date": null,
+"imagecount": 197,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v25n02_1966-12_modified",
+"title": "Galaxy v25n02 (December 1966) (Modified)",
+"date": "1966-12-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v25n03_1967-02",
+"title": "Galaxy v25n03 (1967 02)",
+"date": null,
+"imagecount": 196,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v25n04_1967-04",
+"title": "Galaxy v25n04 (1967 04)",
+"date": null,
+"imagecount": 197,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v25n05_1967-06_modified",
+"title": "Galaxy v25n05 (June 1967) (Modified)",
+"date": "1967-02-01",
+"imagecount": 162,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v26n01_1967-10_modified",
+"title": "Galaxy v26n01 (October 1967) (Modified)",
+"date": "1967-10-01",
+"imagecount": 185,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v26n02_1967-12_modified",
+"title": "Galaxy v26n02 (December 1967) (Modified)",
+"date": "1967-12-01",
+"imagecount": 125,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v26n03_1968-02_modified",
+"title": "Galaxy v26n03 (February 1968) (Modified)",
+"date": "1968-02-01",
+"imagecount": 141,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v26n04_1968-04",
+"title": "Galaxy v26n04 (1968 04)",
+"date": null,
+"imagecount": 196,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v26n05_1968-06_2",
+"title": "Galaxy v26n05 1968-06",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v26n06_1968-07",
+"title": "Galaxy v26n06 (1968 07)",
+"date": null,
+"imagecount": 197,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v27n01_1968-08",
+"title": "Galaxy v27n01 (1968 08)",
+"date": null,
+"imagecount": 197,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v27n02_1968-09",
+"title": "Galaxy v27n02 (1968 09)",
+"date": null,
+"imagecount": 196,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v27n03_1968-10",
+"title": "Galaxy v27n03 (1968 10)",
+"date": null,
+"imagecount": 197,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v27n04_1968-11",
+"title": "Galaxy v27n04 (1968 11)",
+"date": null,
+"imagecount": 199,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v27n05_1968-12_modified",
+"title": "Galaxy v27n05 (December 1968) (Modified)",
+"date": "1968-12-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v27n06_1969-01",
+"title": "Galaxy v27n06 (1969 01)",
+"date": null,
+"imagecount": 197,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v28n01_1969-02",
+"title": "Galaxy v28n01 (1969 02)",
+"date": null,
+"imagecount": 197,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v28n02_1969-03",
+"title": "Galaxy v28n02 (1969 03)",
+"date": null,
+"imagecount": 196,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v28n03_1969-04",
+"title": "Galaxy v28n03 (1969 04)",
+"date": null,
+"imagecount": 197,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v28n04_1969-05",
+"title": "Galaxy v28n04 (1969 05)",
+"date": null,
+"imagecount": 197,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v28n05_1969-07",
+"title": "Galaxy v28n05 (1969 07)",
+"date": null,
+"imagecount": 83,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v28n06_1969-08_modified",
+"title": "Galaxy v28n06 (August 1969) (Modified)",
+"date": "1969-08-01",
+"imagecount": 63,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v29n01_1969-09",
+"title": "Galaxy v29n01 (1969 09)",
+"date": null,
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v29n02_1969-10",
+"title": "Galaxy v29n02 (1969 10)",
+"date": null,
+"imagecount": 83,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v29n05_1970-02",
+"title": "Galaxy v29n05 (1970 02)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v29n06_1970-03_2",
+"title": "Galaxy v29n06 1970-03",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v30n01_1970-04",
+"title": "Galaxy v30n01 (1970 04)",
+"date": null,
+"imagecount": 166,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v30n02_1970-05",
+"title": "Galaxy v30n02 (1970 05)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v30n03_1970-06",
+"title": "Galaxy v30n03 (1970 06)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v30n04_1970-07",
+"title": "Galaxy v30n04 (1970 07)",
+"date": null,
+"imagecount": 166,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v30n05_1970-08-09",
+"title": "Galaxy v30n05 (1970 08 09)",
+"date": null,
+"imagecount": 201,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v30n06_1970-10-11",
+"title": "Galaxy v30n06 (1970 10 11)",
+"date": null,
+"imagecount": 205,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v31n01_1970-12",
+"title": "Galaxy v31n01 (1970 12)",
+"date": null,
+"imagecount": 200,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v31n02_1971-01",
+"title": "Galaxy v31n02 (1971 01)",
+"date": null,
+"imagecount": 197,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v31n04_1971-03",
+"title": "Galaxy v31n04 (1971 03)",
+"date": null,
+"imagecount": 197,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v31n05_1971-04",
+"title": "Galaxy v31n05 (1971 04)",
+"date": null,
+"imagecount": 198,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v31n06_1971-05-06",
+"title": "Galaxy v31n06 (1971 05 06)",
+"date": null,
+"imagecount": 180,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v32n01_1971-07",
+"title": "Galaxy v32n01 (1971 07)",
+"date": null,
+"imagecount": 182,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v32n02_1971-09",
+"title": "Galaxy v32n02 (1971 09)",
+"date": null,
+"imagecount": 181,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v32n03_1971-11",
+"title": "Galaxy v32n03 (1971 11)",
+"date": null,
+"imagecount": 181,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v32n04_1972-01",
+"title": "Galaxy v32n04 (1972 01)",
+"date": null,
+"imagecount": 181,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v32n05_1972-03",
+"title": "Galaxy v32n05 (1972 03)",
+"date": null,
+"imagecount": 180,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v32n06_1972-05",
+"title": "Galaxy v32n06 (1972 05)",
+"date": null,
+"imagecount": 182,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v33n01_1972-07",
+"title": "Galaxy v33n01 (1972 07)",
+"date": null,
+"imagecount": 182,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v33n02_1972-09",
+"title": "Galaxy v33n02 (1972 09)",
+"date": null,
+"imagecount": 183,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v33n03_1972-11",
+"title": "Galaxy v33n03 (1972 11)",
+"date": null,
+"imagecount": 184,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v33n04_1973-01",
+"title": "Galaxy v33n04 (1973 01)",
+"date": null,
+"imagecount": 180,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v33n05_1973-04",
+"title": "Galaxy v33n05 (1973 04)",
+"date": null,
+"imagecount": 183,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v33n06_1973-05",
+"title": "Galaxy v33n06 (1973 05)",
+"date": null,
+"imagecount": 180,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v33n07_1973-07",
+"title": "Galaxy v33n07 (1973 07)",
+"date": null,
+"imagecount": 180,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v33n08_1973-09",
+"title": "Galaxy v33n08 (1973 09)",
+"date": null,
+"imagecount": 180,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v34n02_1973-11",
+"title": "Galaxy v34n02 (1973 11)",
+"date": null,
+"imagecount": 181,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v34n03_1973-12",
+"title": "Galaxy v34n03 (1973 12)",
+"date": null,
+"imagecount": 180,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v34n05_1974-01",
+"title": "Galaxy v34n05 (1974 01)",
+"date": null,
+"imagecount": 184,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v34n05_1974-02",
+"title": "Galaxy v34n05 (1974 02)",
+"date": null,
+"imagecount": 176,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v34n06_1974-03",
+"title": "Galaxy v34n06 (1974 03)",
+"date": null,
+"imagecount": 182,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v34n07_1974-04",
+"title": "Galaxy v34n07 (1974 04)",
+"date": null,
+"imagecount": 180,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v35n05_1974-05",
+"title": "Galaxy v35n05 (1974 05)",
+"date": null,
+"imagecount": 181,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v35n06_1974-06",
+"title": "Galaxy v35n06 (1974 06)",
+"date": null,
+"imagecount": 181,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v35n07_1974-07",
+"title": "Galaxy v35n07 (1974 07)",
+"date": null,
+"imagecount": 180,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v35n08_1974-08_modified",
+"title": "Galaxy v35n08 (1974 08) (Modified)",
+"date": "1974-08-01",
+"imagecount": 172,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v35n09_1974-09",
+"title": "Galaxy v35n09 (1974 09)",
+"date": null,
+"imagecount": 181,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v35n10_1974-10",
+"title": "Galaxy v35n10 (1974 10)",
+"date": null,
+"imagecount": 181,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v35n11_1974-11",
+"title": "Galaxy v35n11 (1974 11)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v35n12_1974-12",
+"title": "Galaxy v35n12 (1974 12)",
+"date": null,
+"imagecount": 168,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v36n01_1975-01",
+"title": "Galaxy v36n01 (1975 01)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v36n02_1975-02",
+"title": "Galaxy v36n02 (1975 02)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v36n03_1975-03",
+"title": "Galaxy v36n03 (1975 03)",
+"date": null,
+"imagecount": 167,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v36n04_1975-04",
+"title": "Galaxy v36n04 (1975 04)",
+"date": null,
+"imagecount": 167,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v36n05_1975-06",
+"title": "Galaxy v36n05 (1975 06)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v36n06_1975-07",
+"title": "Galaxy v36n06 (1975 07)",
+"date": null,
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v36n07_1975-08",
+"title": "Galaxy v36n07 (1975 08)",
+"date": null,
+"imagecount": 167,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v36n08_1975-09",
+"title": "Galaxy v36n08 (1975 09)",
+"date": null,
+"imagecount": 167,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v36n09_1975-10",
+"title": "Galaxy v36n09 (1975 10)",
+"date": null,
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v37n01_1976-01",
+"title": "Galaxy v37n01 (1976 01)",
+"date": null,
+"imagecount": 167,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v37n02_1976-02",
+"title": "Galaxy v37n02 (1976 02)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v37n03_1976-03_modified",
+"title": "Galaxy Sci-Fi Magazine Volume 37 Number 03 (Modified)",
+"date": "1976-03-01",
+"imagecount": 155,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v37n04_1976-05",
+"title": "Galaxy v37n04 (1976 05)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v37n05_1976-07",
+"title": "Galaxy v37n05 (1976 07)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v37n06_1976-09",
+"title": "Galaxy v37n06 (1976 09)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v37n07_1976-10",
+"title": "Galaxy v37n07 (1976 10)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v37n08_1976-11",
+"title": "Galaxy v37n08 (1976 11)",
+"date": null,
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v37n09_1976-12",
+"title": "Galaxy v37n09 (1976 12)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v38n01_1977-03",
+"title": "Galaxy v38n01 (1977 03)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v38n02_1977-04",
+"title": "Galaxy v38n02 (1977 04)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v38n03_1977-05",
+"title": "Galaxy v38n03 (1977 05)",
+"date": null,
+"imagecount": 82,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v38n04_1977-06",
+"title": "Galaxy v38n04 (1977 06)",
+"date": null,
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v38n05_1977-07",
+"title": "Galaxy v38n05 (1977 07)",
+"date": null,
+"imagecount": 83,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v38n06_1977-08",
+"title": "Galaxy v38n06 (1977 08)",
+"date": null,
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v38n07_1977-09",
+"title": "Galaxy v38n07 (1977 09)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v38n08_1977-10",
+"title": "Galaxy v38n08 (1977 10)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v38n09_1977-11",
+"title": "Galaxy v38n09 (1977 11)",
+"date": null,
+"imagecount": 83,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v39n01_1978-01",
+"title": "Galaxy v39n01 (1978 01)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v39n02_1978-02",
+"title": "Galaxy v39n02 (1978 02)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v39n03_1978-03",
+"title": "Galaxy v39n03 (1978 03)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v39n04_1978-04",
+"title": "Galaxy v39n04 (1978 04)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v39n06_1978-06",
+"title": "Galaxy v39n06 (1978 06)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v39n07_1978-09",
+"title": "Galaxy v39n07 (1978 09)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v39n08_1978-12",
+"title": "Galaxy v39n08 (1978 12)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v39n09_1979-03",
+"title": "Galaxy v39n09 (1979 03)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v39n10_1979-07",
+"title": "Galaxy v39n10 (1979 07)",
+"date": null,
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v39n11_1979-10",
+"title": "Galaxy v39n11 (1979 10)",
+"date": null,
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Galaxy_v40n01_1980-07",
+"title": "Galaxy v40n01 (1980 07)",
+"date": null,
+"imagecount": 77,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxy_v21n01_1962-10_0",
+"title": "Galaxy v21n01 1962-10",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxy_v24n02_1965-12_202209",
+"title": "Galaxy v24n02 1965-12",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxy_v25n06_1967-08_20240223",
+"title": "Galaxy v25n06 1967-08",
+"date": "1967-08-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxy_v29n03_1969-11_202402",
+"title": "Galaxy magazine v29n03 1969-11",
+"date": "1969-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1950-10",
+"title": "Galaxy Magazine (October 1950)",
+"date": "1950-10-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1950-11",
+"title": "Galaxy Magazine (November 1950)",
+"date": "1950-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1950-12",
+"title": "Galaxy Magazine (December 1950)",
+"date": "1950-12-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1951-01",
+"title": "Galaxy Magazine (January 1951)",
+"date": "1951-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1951-02",
+"title": "Galaxy Magazine (February 1951)",
+"date": "1951-02-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1951-03",
+"title": "Galaxy Magazine (March 1951)",
+"date": "1951-03-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1951-05",
+"title": "Galaxy Magazine (May 1951)",
+"date": "1951-05-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1951-06",
+"title": "Galaxy Magazine (June 1951)",
+"date": "1951-06-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1951-07",
+"title": "Galaxy Magazine (July 1951)",
+"date": "1951-07-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1951-08",
+"title": "Galaxy Magazine (August 1951)",
+"date": "1951-08-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1951-09",
+"title": "Galaxy Magazine (September 1951)",
+"date": "1951-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1951-10",
+"title": "Galaxy Magazine (October 1951)",
+"date": "1951-10-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1951-11",
+"title": "Galaxy Magazine (November 1951)",
+"date": "1951-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1951-12",
+"title": "Galaxy Magazine (December 1951)",
+"date": "1951-12-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1952-01",
+"title": "Galaxy Magazine (January 1952)",
+"date": "1952-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1952-02",
+"title": "Galaxy Magazine (February 1952)",
+"date": "1952-02-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1952-03",
+"title": "Galaxy Magazine (March 1952)",
+"date": "1952-03-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1952-04",
+"title": "Galaxy Magazine (April 1952)",
+"date": "1952-04-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1952-05_modified",
+"title": "Galaxy Magazine (May 1952) (Modified)",
+"date": "1952-05-01",
+"imagecount": 134,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1952-06",
+"title": "Galaxy Magazine (June 1952)",
+"date": "1952-06-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1952-07",
+"title": "Galaxy Magazine (July 1952)",
+"date": "1952-07-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1952-08",
+"title": "Galaxy Magazine (August 1952)",
+"date": "1952-08-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1952-09",
+"title": "Galaxy Magazine (September 1952)",
+"date": "1952-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1952-10",
+"title": "Galaxy Magazine (October 1952)",
+"date": "1952-10-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1952-11",
+"title": "Galaxy Magazine (November 1952)",
+"date": "1952-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1952-12",
+"title": "Galaxy Magazine (December 1952)",
+"date": "1952-12-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1953-01",
+"title": "Galaxy Magazine (January 1953)",
+"date": "1953-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1953-02",
+"title": "Galaxy Magazine (February 1953)",
+"date": "1953-02-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1953-03_modified",
+"title": "Galaxy Magazine (March 1953) (Modified)",
+"date": "1953-03-01",
+"imagecount": 136,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1953-04",
+"title": "Galaxy Magazine (April 1953)",
+"date": "1953-04-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1953-05",
+"title": "Galaxy Magazine (May 1953)",
+"date": "1953-05-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1953-06",
+"title": "Galaxy Magazine (June 1953)",
+"date": "1953-06-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1953-07",
+"title": "Galaxy Magazine (July 1953)",
+"date": "1953-07-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1953-08",
+"title": "Galaxy Magazine (August 1953)",
+"date": "1953-08-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1953-09",
+"title": "Galaxy Magazine (September 1953)",
+"date": "1953-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1953-10",
+"title": "Galaxy Magazine (October 1953)",
+"date": "1953-10-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1953-11",
+"title": "Galaxy Magazine (November 1953)",
+"date": "1953-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1953-12",
+"title": "Galaxy Magazine (December 1953)",
+"date": "1953-12-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1954-01",
+"title": "Galaxy Magazine (January 1954)",
+"date": "1954-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1954-02",
+"title": "Galaxy Magazine (February 1954)",
+"date": "1954-02-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1954-03",
+"title": "Galaxy Magazine (March 1954)",
+"date": "1954-03-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1954-04",
+"title": "Galaxy Magazine (April 1954)",
+"date": "1954-04-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1954-05",
+"title": "Galaxy Magazine (May 1954)",
+"date": "1954-05-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1954-06",
+"title": "Galaxy Magazine (June 1954)",
+"date": "1954-06-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1954-07",
+"title": "Galaxy Magazine (July 1954)",
+"date": "1954-07-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1954-08",
+"title": "Galaxy Magazine (August 1954)",
+"date": "1954-08-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1954-09",
+"title": "Galaxy Magazine (September 1954)",
+"date": "1954-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1954-10",
+"title": "Galaxy Magazine (October 1954)",
+"date": "1954-10-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1954-11",
+"title": "Galaxy Magazine (November 1954)",
+"date": "1954-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1954-12",
+"title": "Galaxy Magazine (December 1954)",
+"date": "1954-12-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1955-01",
+"title": "Galaxy Magazine (January 1955)",
+"date": "1955-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1955-02",
+"title": "Galaxy Magazine (February 1955)",
+"date": "1955-02-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1955-03",
+"title": "Galaxy Magazine (March 1955)",
+"date": "1955-03-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1955-04",
+"title": "Galaxy Magazine (April 1955)",
+"date": "1955-04-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1955-05",
+"title": "Galaxy Magazine (May 1955)",
+"date": "1955-05-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1955-06",
+"title": "Galaxy Magazine (June 1955)",
+"date": "1955-06-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1955-07",
+"title": "Galaxy Magazine (July 1955)",
+"date": "1955-07-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1955-08",
+"title": "Galaxy Magazine (August 1955)",
+"date": "1955-08-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1955-09",
+"title": "Galaxy Magazine (September 1955)",
+"date": "1955-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1955-10",
+"title": "Galaxy Magazine (October 1955)",
+"date": "1955-10-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1955-11",
+"title": "Galaxy Magazine (November 1955)",
+"date": "1955-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1956-01",
+"title": "Galaxy Magazine (January 1956)",
+"date": "1956-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1956-02_modified",
+"title": "Galaxy Magazine (February 1956) (Modified)",
+"date": "1956-02-01",
+"imagecount": 139,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1956-03",
+"title": "Galaxy Magazine (March 1956)",
+"date": "1956-03-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1956-04",
+"title": "Galaxy Magazine (April 1956)",
+"date": "1956-04-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1956-05",
+"title": "Galaxy Magazine (May 1956)",
+"date": "1956-05-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1956-06",
+"title": "Galaxy Magazine (June 1956)",
+"date": "1956-06-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1956-07",
+"title": "Galaxy Magazine (July 1956)",
+"date": "1956-07-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1956-08",
+"title": "Galaxy Magazine (August 1956)",
+"date": "1956-08-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1956-09",
+"title": "Galaxy Magazine (September 1956)",
+"date": "1956-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1956-10",
+"title": "Galaxy Magazine (October 1956)",
+"date": "1956-10-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1956-11",
+"title": "Galaxy Magazine (November 1956)",
+"date": "1956-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1956-12",
+"title": "Galaxy Magazine (December 1956)",
+"date": "1956-12-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1957-01",
+"title": "Galaxy Magazine (January 1957)",
+"date": "1957-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1957-02",
+"title": "Galaxy Magazine (February 1957)",
+"date": "1957-02-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1957-03_modified",
+"title": "Galaxy Magazine (March 1957) (Modified)",
+"date": "1957-03-01",
+"imagecount": 138,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1957-04",
+"title": "Galaxy Magazine (April 1957)",
+"date": "1957-04-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1957-05",
+"title": "Galaxy Magazine (May 1957)",
+"date": "1957-05-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1957-06",
+"title": "Galaxy Magazine (June 1957)",
+"date": "1957-06-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1957-07_modified",
+"title": "Galaxy Magazine (July 1957) (Modified)",
+"date": "1957-07-01",
+"imagecount": 111,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1957-08",
+"title": "Galaxy Magazine (August 1957)",
+"date": "1957-08-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1957-09",
+"title": "Galaxy Magazine (September 1957)",
+"date": "1957-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1957-10",
+"title": "Galaxy Magazine (October 1957)",
+"date": "1957-10-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1957-11",
+"title": "Galaxy Magazine (November 1957)",
+"date": "1957-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1957-12",
+"title": "Galaxy Magazine (December 1957)",
+"date": "1957-12-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1958-01",
+"title": "Galaxy Magazine (January 1958)",
+"date": "1958-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1958-02",
+"title": "Galaxy Magazine (February 1958)",
+"date": "1958-02-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1958-03",
+"title": "Galaxy Magazine (March 1958)",
+"date": "1958-03-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1958-04",
+"title": "Galaxy Magazine (April 1958)",
+"date": "1958-04-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1958-05",
+"title": "Galaxy Magazine (May 1958)",
+"date": "1958-05-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1958-07",
+"title": "Galaxy Magazine (July 1958)",
+"date": "1958-07-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1958-08",
+"title": "Galaxy Magazine (August 1958)",
+"date": "1958-08-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1958-09",
+"title": "Galaxy Magazine (September 1958)",
+"date": "1958-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1958-10",
+"title": "Galaxy Magazine (October 1958)",
+"date": "1958-10-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1958-11",
+"title": "Galaxy Magazine (November 1958)",
+"date": "1958-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1958-12",
+"title": "Galaxy Magazine (December 1958)",
+"date": "1958-12-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1959-02",
+"title": "Galaxy Magazine (February 1959)",
+"date": "1959-02-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1959-04",
+"title": "Galaxy Magazine (April 1959)",
+"date": "1959-04-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1959-06",
+"title": "Galaxy Magazine (June 1959)",
+"date": "1959-06-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1959-08",
+"title": "Galaxy Magazine (August 1959)",
+"date": "1959-08-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1959-10",
+"title": "Galaxy Magazine (October 1959)",
+"date": "1959-10-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "galaxymagazine-1959-12",
+"title": "Galaxy Magazine (December 1959)",
+"date": "1959-12-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+}
+]

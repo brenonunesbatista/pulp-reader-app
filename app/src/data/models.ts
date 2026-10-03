@@ -1,10 +1,16 @@
 export type Availability = 'ia' | 'hathitrust' | 'none'
 export type Role = 'author' | 'translator' | 'editor' | 'cover_artist'
 
+export interface Category {
+  slug: string // pulp | rpg | comics
+  name: string
+}
+
 export interface Magazine {
   id: number
   name: string
   slug: string
+  category: string
   issueCount: number
   readable: number
   firstYear: number

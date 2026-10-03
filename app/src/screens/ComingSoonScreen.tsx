@@ -1,5 +1,8 @@
-import { UPCOMING } from '../content/upcoming'
-import { Cover, Masthead, Screen, SectionHeader } from '../ui/components'
+import { listCategories, listMagazines } from '../data/catalogRepo'
+import { useDb } from '../db/useDb'
+import { Masthead, Screen } from '../ui/components'
+import { useAsync } from '../ui/useAsync'
+import { MagazineShelf } from './MagazineGrid'
 
 const TEXT = {
   rpg: {
@@ -8,38 +11,27 @@ const TEXT = {
   },
   atlas: {
     title: 'Atlas',
-    body: 'An interactive timeline of stories, authors, magazines, films, music and art — and how they shaped each other. ' +
-      'Coming in a later phase.',
+    body: 'An interactive timeline of stories, authors, magazines, films, music and art — and how they shaped each other.',
   },
 }
 
+/** A tab whose category may still be empty: its magazines once indexed, a "coming soon" panel until then. */
 export function ComingSoonScreen({ what }: { what: 'rpg' | 'atlas' }) {
+  const { catalog } = useDb()
   const t = TEXT[what]
-  const mags = UPCOMING.filter((u) => u.category === what)
+  const data = useAsync(async () => ({ categories: await listCategories(catalog), magazines: await listMagazines(catalog) }), [catalog])
+  const category = data.status === 'ok' ? data.data.categories.find((c) => c.slug === what) : undefined
+  const indexed = data.status === 'ok' && data.data.magazines.some((m) => m.category === what)
   return (
     <Screen section={what} masthead={<Masthead section={what} />}>
-      <div className="soon-panel">
-        <h2>{t.title}</h2>
-        <p>{t.body}</p>
-        <span className="label muted">Coming soon</span>
-      </div>
-      {mags.length > 0 && (
-        <section>
-          <SectionHeader title="On the way" />
-          <div className="mag-grid">
-            {mags.map((u) => (
-              <button key={u.title} className="mag-card" disabled>
-                <div className="mosaic">{Array.from({ length: 6 }, (_, i) => <Cover key={i} path={null} small />)}</div>
-                <div className="info">
-                  <div className="title">{u.title}</div>
-                  <div className="muted small num">{u.years}</div>
-                  <span className="tag soon">COMING SOON</span>
-                </div>
-              </button>
-            ))}
-          </div>
-        </section>
+      {!indexed && (
+        <div className="soon-panel">
+          <h2>{t.title}</h2>
+          <p>{t.body}</p>
+          <span className="label muted">Coming soon</span>
+        </div>
       )}
+      {category && data.status === 'ok' && <MagazineShelf category={category} magazines={data.data.magazines} />}
     </Screen>
   )
 }

@@ -1,23 +1,28 @@
-import type { ReactNode } from 'react'
+import { useState, type ReactNode } from 'react'
 import type { Credit, IssueSummary, Story, StoryInIssue } from '../data/models'
 import { useNav } from '../nav/context'
 import { DownloadBadge } from './DownloadBadge'
-import { coverUrl, monthYear, typeTagClass } from './format'
+import { coverUrl, magazineOf, monthYear, typeTagClass } from './format'
 import { Icon } from './icons'
 import { useSizeClass } from './sizeClass'
 
 // ---- covers ---------------------------------------------------------------------------------------------------------
 
-export function Cover({ path, alt = '', tag, noScan = false, stamp = false, small = false, eager = false, dl }: {
+export function Cover({ path, alt = '', tag, noScan = false, stamp = false, small = false, eager = false, large = false, dl }: {
   path: string | null; alt?: string; tag?: string; noScan?: boolean; stamp?: boolean; small?: boolean; eager?: boolean
+  /** online covers (Internet Archive): load the larger image */
+  large?: boolean
   /** issue id: show its download badge */
   dl?: number
 }) {
-  const src = coverUrl(path)
+  const src = coverUrl(path, large ? 'large' : 'small')
+  const [failed, setFailed] = useState<string | null>(null) // offline or missing: show the blank cover
+  const show = src && failed !== src
   return (
     <span className={`cover ${small ? 'small' : ''} ${noScan ? 'noscan' : ''}`}>
-      <span className={`cover-art ${src ? '' : 'missing'}`}>
-        {src && <img src={src} alt={alt} loading={eager ? 'eager' : 'lazy'} decoding="async" draggable={false} />}
+      <span className={`cover-art ${show ? '' : 'missing'}`}>
+        {show && <img src={src} alt={alt} loading={eager ? 'eager' : 'lazy'} decoding="async" draggable={false}
+                      onError={() => setFailed(src)} />}
       </span>
       {tag && !noScan && <span className="price-tag">{tag}</span>}
       {noScan && <span className="noscan-band">NO SCAN</span>}
@@ -34,7 +39,8 @@ export function IssueCard({ issue, onOpen, meta }: { issue: IssueSummary; onOpen
     <button className="issue-card" onClick={onOpen}>
       <Cover path={issue.coverPath} alt={issue.title} noScan={noScan} dl={issue.id} />
       <span className="date num">{monthYear(issue.year, issue.month)}</span>
-      <span className="meta">{meta ?? issue.coverArtist ?? '—'}</span>
+      <span className="meta mag">{magazineOf(issue.title)}</span>
+      <span className="meta">{meta ?? issue.coverArtist ?? ''}</span>
       {issue.storyCount > 0 && <span className="meta num">{issue.storyCount} items</span>}
     </button>
   )

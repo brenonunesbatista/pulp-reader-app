@@ -1,0 +1,54 @@
+# Magazines in the app catalog (tools/build_catalog.py). Categories keep content types apart in the app.
+# Collections are read from the snapshot tools/sources/ia/<collection>.json (refresh: build_catalog.py --refresh).
+
+[[category]]
+slug = "pulp"
+name = "Pulp & science fiction"
+
+[[category]]
+slug = "rpg"
+name = "RPG magazines"
+
+[[category]]
+slug = "comics"
+name = "Comics"
+
+[[magazine]]
+slug = "amazing-stories"
+name = "Amazing Stories"
+category = "pulp"
+adapter = "amazing_stories"
+source = "data/source/Amazing_Stories_Reference_Guide.pdf"
+
+[[magazine]]
+slug = "fantasy-and-science-fiction"
+name = "The Magazine of Fantasy & Science Fiction"
+category = "pulp"
+adapter = "ia_collection"
+collection = "fantasyandsciencefiction"
+# anthologies, foreign editions and single-story extracts are not issues of the US magazine
+exclude = 'Best_From|Australian|\(UK\)|_UK_|TheCricketBall'
+
+[[magazine]]
+slug = "galaxy"
+name = "Galaxy"
+category = "pulp"
+adapter = "ia_collection"
+collection = "galaxymagazine"
+# the Galaxy Science Fiction Novels are a book series; the 1994 2nd series is a different magazine; GalaxyPD is a
+# compilation
+exclude = 'Novel_|Santa_Covers|2nd_Series|^GalaxyPD$'
+
+[[magazine]]
+slug = "fantastic"
+name = "Fantastic"
+category = "pulp"
+adapter = "ia_collection"
+collection = "fantasticsfstories"
+
+[[magazine]]
+slug = "twilight-zone"
+name = "Rod Serling's The Twilight Zone Magazine"
+category = "pulp"
+adapter = "ia_collection"
+collection = "twilightzonemagazine"

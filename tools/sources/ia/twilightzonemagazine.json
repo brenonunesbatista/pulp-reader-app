@@ -1,0 +1,596 @@
+[
+{
+"identifier": "TwilightZoneFeb83",
+"title": "Rod Serling's The Twilight Zone Magazine Volume 2, Number 11 Feb 1983 (The Dark Crystal)",
+"date": "1983-02-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "TwilightZoneJune83",
+"title": "Rod Serling's The Twilight Zone Magazine Volume 3, Number 2 May/June 1983 (The Dark Crystal)",
+"date": "1983-06-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "TwilightZoneMay82",
+"title": "Rod Serling's The Twilight Zone Magazine Volume 2, Number 2 May 1982 (The Dark Crystal)",
+"date": "1982-05-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v01n01_1981-04_noads",
+"title": "Twilight Zone v01n01 (1981 04) (noads)",
+"date": null,
+"imagecount": 100,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v01n02_1981-05_TZ_Publications_Gorgon776",
+"title": "Twilight Zone v01n02 (1981 05) (TZ Publications) (Gorgon776)",
+"date": null,
+"imagecount": 110,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v01n02_1981-05_noads",
+"title": "Twilight Zone v01n02 (1981 05) (noads)",
+"date": null,
+"imagecount": 99,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v01n03_1981-06_noads",
+"title": "Twilight Zone v01n03 (1981 06) (noads)",
+"date": null,
+"imagecount": 98,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v01n04_1981-07_noads",
+"title": "Twilight Zone v01n04 (1981 07) (noads)",
+"date": null,
+"imagecount": 97,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v01n05_1981-08_noads",
+"title": "Twilight Zone v01n05 (1981 08) (noads)",
+"date": null,
+"imagecount": 96,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v01n06_1981-09_noads",
+"title": "Twilight Zone v01n06 (1981 09) (noads)",
+"date": null,
+"imagecount": 91,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v01n07_1981-10_noads",
+"title": "Twilight Zone v01n07 (1981 10) (noads)",
+"date": null,
+"imagecount": 92,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v01n08_1981-11_noads",
+"title": "Twilight Zone v01n08 (1981 11) (noads)",
+"date": null,
+"imagecount": 93,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v01n09_1981-12_noads",
+"title": "Twilight Zone v01n09 (1981 12) (noads)",
+"date": null,
+"imagecount": 94,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v01n10_1982-01_noads",
+"title": "Twilight Zone v01n10 (1982 01) (noads)",
+"date": null,
+"imagecount": 94,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v01n11_1982-02_noads",
+"title": "Twilight Zone v01n11 (1982 02) (noads)",
+"date": null,
+"imagecount": 93,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v01n12_1982-03_noads",
+"title": "Twilight Zone v01n12 (1982 03) (noads)",
+"date": null,
+"imagecount": 92,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v02n01_1982-04_noads",
+"title": "Twilight Zone v02n01 (1982 04) (noads)",
+"date": null,
+"imagecount": 93,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v02n02_1982-05_noads",
+"title": "Twilight Zone v02n02 (1982 05) (noads)",
+"date": null,
+"imagecount": 92,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v02n03_1982-06_noads",
+"title": "Twilight Zone v02n03 (1982 06) (noads)",
+"date": null,
+"imagecount": 94,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v02n04_1982-07_noads",
+"title": "Twilight Zone v02n04 (1982 07) (noads)",
+"date": null,
+"imagecount": 95,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v02n05_1982-08_noads",
+"title": "Twilight Zone v02n05 (1982 08) (noads)",
+"date": null,
+"imagecount": 94,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v02n06_1982-09_noads",
+"title": "Twilight Zone v02n06 (1982 09) (noads)",
+"date": null,
+"imagecount": 94,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v02n07_1982-10_noads",
+"title": "Twilight Zone v02n07 (1982 10) (noads)",
+"date": null,
+"imagecount": 97,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v02n08_1982-11_noads",
+"title": "Twilight Zone v02n08 (1982 11) (noads)",
+"date": null,
+"imagecount": 95,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v02n10_1982-12_noads",
+"title": "Twilight Zone v02n10 (1982 12) (noads)",
+"date": null,
+"imagecount": 95,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v02n11_1983-02_noads_cover_upgrade",
+"title": "Twilight Zone v02n11 (1983 02) (noads) [cover upgrade]",
+"date": null,
+"imagecount": 101,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v03n01_1983-04_noads",
+"title": "Twilight Zone v03n01 (1983 04) (noads)",
+"date": null,
+"imagecount": 93,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v03n02_1983-06_noads",
+"title": "Twilight Zone v03n02 (1983 06) (noads)",
+"date": null,
+"imagecount": 95,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v03n03_1983-08_noads",
+"title": "Twilight Zone v03n03 (1983 08) (noads)",
+"date": null,
+"imagecount": 96,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v03n04_1983-10_noads",
+"title": "Twilight Zone v03n04 (1983 10) (noads)",
+"date": null,
+"imagecount": 96,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v03n05_1983-12_noads",
+"title": "Twilight Zone v03n05 (1983 12) (noads)",
+"date": null,
+"imagecount": 93,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v03n06_1984-02_noads",
+"title": "Twilight Zone v03n06 (1984 02) (noads)",
+"date": null,
+"imagecount": 95,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v04n01_1984-04_noads",
+"title": "Twilight Zone v04n01 (1984 04) (noads)",
+"date": null,
+"imagecount": 93,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v04n02_1984-06_noads",
+"title": "Twilight Zone v04n02 (1984 06) (noads)",
+"date": null,
+"imagecount": 92,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v04n03_1984-08_noads",
+"title": "Twilight Zone v04n03 (1984 08) (noads)",
+"date": null,
+"imagecount": 92,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v04n04_1984-10_noads",
+"title": "Twilight Zone v04n04 (1984 10) (noads)",
+"date": null,
+"imagecount": 89,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v04n05_1984-12_noads",
+"title": "Twilight Zone v04n05 (1984 12) (noads)",
+"date": null,
+"imagecount": 92,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v04n06_1985-02_noads",
+"title": "Twilight Zone v04n06 (1985 02) (noads)",
+"date": null,
+"imagecount": 98,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v05n01_1985-04_noads",
+"title": "Twilight Zone v05n01 (1985 04) (noads)",
+"date": null,
+"imagecount": 93,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v05n02_1985-06_noads",
+"title": "Twilight Zone v05n02 (1985 06) (noads)",
+"date": null,
+"imagecount": 95,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v05n03_1985-08_1985_",
+"title": "Twilight Zone v05n03 (1985 08) (1985) ( )",
+"date": null,
+"imagecount": 105,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v05n03_1985-08_noads",
+"title": "Twilight Zone v05n03 (1985 08) (noads)",
+"date": null,
+"imagecount": 96,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v05n04_1985-10_noads",
+"title": "Twilight Zone v05n04 (1985 10) (noads)",
+"date": null,
+"imagecount": 96,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v05n05_1985-12_noads",
+"title": "Twilight Zone v05n05 (1985 12) (noads)",
+"date": null,
+"imagecount": 106,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v05n06_1986-02_noads",
+"title": "Twilight Zone v05n06 (1986 02) (noads)",
+"date": null,
+"imagecount": 96,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v06n01_1986-04_noads",
+"title": "Twilight Zone v06n01 (1986 04) (noads)",
+"date": null,
+"imagecount": 91,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v06n02_1986-06_noads",
+"title": "Twilight Zone v06n02 (1986 06) (noads)",
+"date": null,
+"imagecount": 92,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v06n03_1986-08_noads",
+"title": "Twilight Zone v06n03 (1986 08) (noads)",
+"date": null,
+"imagecount": 93,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v06n04_1986-10_noads",
+"title": "Twilight Zone v06n04 (1986 10) (noads)",
+"date": null,
+"imagecount": 89,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v06n05_1986-12_noads",
+"title": "Twilight Zone v06n05 (1986 12) (noads)",
+"date": null,
+"imagecount": 89,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v06n06_1987-02_noads",
+"title": "Twilight Zone v06n06 (1987 02) (noads)",
+"date": null,
+"imagecount": 98,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v07n01_1987-04_noads",
+"title": "Twilight Zone v07n01 (1987 04) (noads)",
+"date": null,
+"imagecount": 91,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v07n02_1987-06_noads",
+"title": "Twilight Zone v07n02 (1987 06) (noads)",
+"date": null,
+"imagecount": 97,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v07n03_1987-08_noads",
+"title": "Twilight Zone v07n03 (1987 08) (noads)",
+"date": null,
+"imagecount": 91,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v07n04_1987-10_noads",
+"title": "Twilight Zone v07n04 (1987 10) (noads)",
+"date": null,
+"imagecount": 93,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v07n05_1987-12_noads",
+"title": "Twilight Zone v07n05 (1987 12) (noads)",
+"date": null,
+"imagecount": 88,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v07n06_1988-02_RUL666",
+"title": "Twilight Zone v07n06 (1988 02) RUL666",
+"date": null,
+"imagecount": 100,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v07n06_1988-02_noads",
+"title": "Twilight Zone v07n06 (1988 02) (noads)",
+"date": null,
+"imagecount": 90,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v08n01_1988-04_noads",
+"title": "Twilight Zone v08n01 (1988 04) (noads)",
+"date": null,
+"imagecount": 91,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v08n02_1988-06_noads",
+"title": "Twilight Zone v08n02 (1988 06) (noads)",
+"date": null,
+"imagecount": 94,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v08n03_1988-08_noads",
+"title": "Twilight Zone v08n03 (1988 08) (noads)",
+"date": null,
+"imagecount": 91,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v08n04_1988-10_noads",
+"title": "Twilight Zone v08n04 (1988 10) (noads)",
+"date": null,
+"imagecount": 91,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v08n05_1988-12_noads",
+"title": "Twilight Zone v08n05 (1988 12) (noads)",
+"date": null,
+"imagecount": 92,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v08n06_1989-02_noads",
+"title": "Twilight Zone v08n06 (1989 02) (noads)",
+"date": null,
+"imagecount": 92,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v09n01_1989-04_noads",
+"title": "Twilight Zone v09n01 (1989 04) (noads)",
+"date": null,
+"imagecount": 92,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Twilight_Zone_v09n02_1989-06_noads",
+"title": "Twilight Zone v09n02 (1989 06) (noads)",
+"date": null,
+"imagecount": 93,
+"jp2": true,
+"ocr": true,
+"restricted": false
+}
+]

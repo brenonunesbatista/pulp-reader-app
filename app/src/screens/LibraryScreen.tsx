@@ -1,5 +1,4 @@
-import { UPCOMING } from '../content/upcoming'
-import { getContents, getIssuesByIds, listMagazines } from '../data/catalogRepo'
+import { getContents, getIssuesByIds, listCategories, listMagazines } from '../data/catalogRepo'
 import { deleteProgress, recentProgress } from '../data/progressRepo'
 import { useDb } from '../db/useDb'
 import { useDownloadList } from '../downloads/context'
@@ -9,6 +8,7 @@ import { formatBytes, monthYear, coverTag } from '../ui/format'
 import { Icon } from '../ui/icons'
 import { useAsync } from '../ui/useAsync'
 import { useState } from 'react'
+import { MagazineShelf } from './MagazineGrid'
 
 export function LibraryScreen() {
   const { catalog, user } = useDb()
@@ -16,7 +16,7 @@ export function LibraryScreen() {
   const active = useIsActive()
   const [cleared, setCleared] = useState(0)
   const [confirmId, setConfirmId] = useState<number | null>(null)
-  const mags = useAsync(() => listMagazines(catalog), [catalog])
+  const mags = useAsync(async () => ({ categories: await listCategories(catalog), magazines: await listMagazines(catalog) }), [catalog])
   // reload the shelf whenever the Library becomes visible again (e.g. back from the reader)
   const shelf = useAsync(async () => {
     const recent = await recentProgress(user)
@@ -87,35 +87,12 @@ export function LibraryScreen() {
         </section>
       )}
 
-      <section>
-        <SectionHeader title="Pulp magazines" />
-        {mags.status === 'loading' && <Loading />}
-        {mags.status === 'error' && <ErrorBox error={mags.error} />}
-        <div className="mag-grid">
-          {mags.status === 'ok' && mags.data.map((m) => (
-            <button key={m.id} className="mag-card" onClick={() => nav.push({ name: 'magazine', id: m.id })}>
-              <div className="mosaic">{m.covers.map((c) => <Cover key={c} path={c} small />)}</div>
-              <div className="info">
-                <div className="title">{m.name}</div>
-                <div className="muted small num">{m.firstYear}–{m.lastYear}</div>
-                <div className="muted small num">{m.issueCount} issues · {m.readable} readable</div>
-                <span className="tag">OPEN</span>
-              </div>
-            </button>
-          ))}
-          {UPCOMING.filter((u) => u.category === 'pulp').map((u) => (
-            <button key={u.title} className="mag-card" disabled>
-              <div className="mosaic">{Array.from({ length: 6 }, (_, i) => <Cover key={i} path={null} small />)}</div>
-              <div className="info">
-                <div className="title">{u.title}</div>
-                <div className="muted small num">{u.years}</div>
-                <div className="muted small">Not yet indexed</div>
-                <span className="tag soon">COMING SOON</span>
-              </div>
-            </button>
-          ))}
-        </div>
-      </section>
+      {mags.status === 'loading' && <Loading />}
+      {mags.status === 'error' && <ErrorBox error={mags.error} />}
+      {/* every category without a tab of its own (RPG has one) */}
+      {mags.status === 'ok' && mags.data.categories.filter((c) => c.slug !== 'rpg').map((c) => (
+        <MagazineShelf key={c.slug} category={c} magazines={mags.data.magazines} />
+      ))}
     </Screen>
   )
 }

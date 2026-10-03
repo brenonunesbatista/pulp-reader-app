@@ -12,7 +12,7 @@ from conftest import REAL_SOURCE
 @pytest.fixture(scope="module")
 def built(fixture_pdf, tmp_path_factory):
     out = tmp_path_factory.mktemp("catalog")
-    assert build_catalog.main(["--source", str(fixture_pdf), "--out", str(out), "--report", str(out / "report.md")]) == 0
+    assert build_catalog.main(["--source", str(fixture_pdf), "--only", "amazing-stories", "--out", str(out), "--report", str(out / "report.md")]) == 0
     return out
 
 
@@ -68,7 +68,7 @@ def test_build_is_reproducible(fixture_pdf, tmp_path):
     hashes = []
     for n in (1, 2):
         out = tmp_path / f"b{n}"
-        build_catalog.main(["--source", str(fixture_pdf), "--out", str(out), "--report", str(out / "r.md")])
+        build_catalog.main(["--source", str(fixture_pdf), "--only", "amazing-stories", "--out", str(out), "--report", str(out / "r.md")])
         hashes.append(hashlib.sha256((out / "catalog.db").read_bytes()).hexdigest())
     assert hashes[0] == hashes[1]
 

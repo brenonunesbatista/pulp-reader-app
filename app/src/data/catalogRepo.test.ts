@@ -2,7 +2,8 @@ import { beforeAll, describe, expect, it } from 'vitest'
 import type { Db } from '../db/types'
 import { memoryDb } from '../db/wasmDb'
 import { migrateUserDb, USER_MIGRATIONS } from '../db/userSchema'
-import { getContents, getIssue, getPersonWorks, listIssues, listMagazines, search } from './catalogRepo'
+import { coverUrl } from '../ui/format'
+import { getContents, getIssue, getPersonWorks, listCategories, listIssues, listMagazines, search } from './catalogRepo'
 import { ftsQuery } from './fts'
 import { addHighlight, deleteHighlight, getPageMap, listBookmarks, listHighlights, savePageMap, setBookmark } from './annotationRepo'
 import { deleteAllProgress, deleteProgress, getProgress, recentProgress, saveProgress } from './progressRepo'
@@ -27,6 +28,17 @@ describe('catalog', () => {
     const [m] = await listMagazines(db)
     expect(m).toMatchObject({ name: 'Amazing Stories', issueCount: 3, readable: 2, firstYear: 1926, lastYear: 1940 })
     expect(m.covers).toHaveLength(3)
+  })
+
+  it('groups magazines by category; scans without a catalog cover use the Internet Archive cover', async () => {
+    expect(await listCategories(db)).toEqual([{ slug: 'pulp', name: 'Pulp & science fiction' }, { slug: 'rpg', name: 'RPG magazines' }])
+    const mags = await listMagazines(db)
+    expect(mags.map((m) => [m.slug, m.category])).toEqual([['amazing-stories', 'pulp'], ['galaxy', 'pulp']])
+    expect(mags[1].covers).toEqual(['ia:Galaxy_v01n01_1950-10'])
+    expect((await getIssue(db, 4))?.coverPath).toBe('ia:Galaxy_v01n01_1950-10')
+    expect(coverUrl('ia:Galaxy_v01n01_1950-10')).toBe('https://archive.org/services/img/Galaxy_v01n01_1950-10')
+    expect(coverUrl('ia:x', 'large')).toBe('https://archive.org/download/x/page/cover_medium.jpg')
+    expect(coverUrl('covers/a.webp')).toBe('/catalog/covers/a.webp')
   })
 
   it('lists issues chronologically with story counts', async () => {

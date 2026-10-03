@@ -12,7 +12,7 @@ const catalog = 'public/catalog/catalog.db'
 const atlas = 'public/atlas/atlas.db'
 if (!existsSync(catalog)) {
   console.error(`\n[copy-databases] ${catalog} is missing. Build it first (from the repo root):\n` +
-    '  python tools/build_catalog.py --source data/source/Amazing_Stories_Reference_Guide.pdf --out app/public/catalog\n')
+    '  python tools/build_catalog.py --out app/public/catalog\n')
   process.exit(1)
 }
 const py = spawnSync(process.platform === 'win32' ? 'python' : 'python3', ['../tools/atlas/build_atlas.py'], { stdio: 'inherit' })

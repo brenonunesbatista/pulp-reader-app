@@ -2,7 +2,7 @@
 import type { Db } from '../db/types'
 import { ftsQuery } from './fts'
 import type {
-  Availability, Credit, IssueSummary, Magazine, PersonWorks, Role, SearchFilters, SearchResults, Story,
+  Availability, Category, Credit, IssueSummary, Magazine, PersonWorks, Role, SearchFilters, SearchResults, Story,
   StoryInIssue,
 } from './models'
 
@@ -18,12 +18,15 @@ interface IssueRow {
 const ISSUE_COLS = `i.id, i.magazine_id, i.slug, i.year, i.month, i.title, i.volume, i.number, i.cover_artist, i.editor, i.ia_identifier,
   i.availability, i.cover_path, (SELECT count(*) FROM story s WHERE s.issue_id = i.id) AS n`
 
+/** catalog cover, else the scan's own cover from the Internet Archive ("ia:<identifier>", loaded online; ui/format.ts) */
+const cover = (path: string | null, ia: string | null) => path ?? (ia ? `ia:${ia}` : null)
+
 function toIssue(r: IssueRow): IssueSummary {
   return {
     id: r.id, magazineId: r.magazine_id, slug: r.slug, year: r.year, month: r.month, title: r.title,
     volume: r.volume, number: r.number,
     coverArtist: r.cover_artist, editor: r.editor, iaIdentifier: r.ia_identifier, availability: r.availability,
-    coverPath: r.cover_path, storyCount: r.n,
+    coverPath: cover(r.cover_path, r.ia_identifier), storyCount: r.n,
   }
 }
 
@@ -56,26 +59,33 @@ function toStory(r: StoryRow): StoryInIssue {
   }
   return {
     ...story,
-    issue: { id: r.issue_id, title: r.i_title, year: r.i_year, month: r.i_month, iaIdentifier: r.i_ia, coverPath: r.i_cover },
+    issue: { id: r.issue_id, title: r.i_title, year: r.i_year, month: r.i_month, iaIdentifier: r.i_ia, coverPath: cover(r.i_cover, r.i_ia) },
   }
 }
 
 // ---- queries ---------------------------------------------------------------------------------------------------------
 
+export async function listCategories(db: Db): Promise<Category[]> {
+  return db.query<Category>(`SELECT slug, name FROM category ORDER BY sort`)
+}
+
+/** magazines by category, then in sources.toml order */
 export async function listMagazines(db: Db): Promise<Magazine[]> {
   const rows = await db.query<{
-    id: number; name: string; slug: string; n: number; readable: number; first: number; last: number
-  }>(`SELECT m.id, m.name, m.slug, count(i.id) AS n, sum(i.availability = 'ia') AS readable,
+    id: number; name: string; slug: string; category: string; n: number; readable: number; first: number; last: number
+  }>(`SELECT m.id, m.name, m.slug, c.slug AS category, count(i.id) AS n, sum(i.availability = 'ia') AS readable,
         min(i.year) AS first, max(i.year) AS last
-      FROM magazine m LEFT JOIN issue i ON i.magazine_id = m.id GROUP BY m.id ORDER BY m.name`)
+      FROM magazine m JOIN category c ON c.id = m.category_id LEFT JOIN issue i ON i.magazine_id = m.id
+      GROUP BY m.id ORDER BY c.sort, m.sort`)
   const out: Magazine[] = []
   for (const r of rows) {
-    const covers = await db.query<{ cover_path: string }>(
-      `SELECT cover_path FROM issue WHERE magazine_id = ? AND cover_path IS NOT NULL ORDER BY year, month, id`, [r.id])
+    const covers = (await db.query<{ cover_path: string | null; ia_identifier: string | null }>(
+      `SELECT cover_path, ia_identifier FROM issue WHERE magazine_id = ? AND (cover_path IS NOT NULL OR ia_identifier IS NOT NULL)
+       ORDER BY year, month, id`, [r.id])).map((c) => ({ cover_path: cover(c.cover_path, c.ia_identifier)! }))
     // evenly spaced across the run, so the mosaic shows the magazine's whole history
     const k = 6
     const pick = covers.length <= k ? covers : Array.from({ length: k }, (_, j) => covers[Math.floor((j * covers.length) / k)])
-    out.push({ id: r.id, name: r.name, slug: r.slug, issueCount: r.n, readable: r.readable ?? 0, firstYear: r.first,
+    out.push({ id: r.id, name: r.name, slug: r.slug, category: r.category, issueCount: r.n, readable: r.readable ?? 0, firstYear: r.first,
       lastYear: r.last, covers: pick.map((c) => c.cover_path) })
   }
   return out
