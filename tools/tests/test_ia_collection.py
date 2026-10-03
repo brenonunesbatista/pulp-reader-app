@@ -4,6 +4,7 @@ import sqlite3
 
 import build_catalog
 from adapters.ia_collection import parse, parse_scan
+from catalog.db import issue_id
 
 
 def row(ident, title="", date=None, imagecount=100, jp2=True, ocr=True):
@@ -58,5 +59,14 @@ def test_catalog_with_collections(fixture_pdf, tmp_path):
                        "from magazine m join category c on c.id = m.category_id order by m.sort").fetchall()
     assert mags[0] == ("amazing-stories", "pulp", 2) and mags[1][:2] == ("twilight-zone", "pulp") and mags[1][2] >= 55
     assert con.execute("select count(*) from issue_scan").fetchone()[0] >= 1
+    # stable ids: Amazing Stories keeps 1..n, a collection issue id encodes block + date (sources.toml)
+    assert con.execute("select min(i.id), max(i.id) from issue i join magazine m on m.id = i.magazine_id "
+                       "where m.slug = 'amazing-stories'").fetchone() == (1, 2)
+    assert con.execute("select id from issue where slug = 'twilight-zone-1981-04'").fetchone() == (51981040,)
     assert con.execute("select rowid from issue_fts where issue_fts match 'twilight' limit 1").fetchone()
     assert "Twilight Zone" in (out / "s.md").read_text(encoding="utf-8")
+
+
+def test_issue_ids_are_stable():
+    assert issue_id(2, 1954, 10, 0) == 21954100
+    assert issue_id(2, 1975, 5, 1) == 21975051

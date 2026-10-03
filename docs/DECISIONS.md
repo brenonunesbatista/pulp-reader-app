@@ -299,3 +299,6 @@ Banca" on *Marooned off Vesta*, which has no scan; the spec adds the "in the cat
 - **Contents**: none yet for these magazines (the issue page says so; the reader's page index is the way in). Candidate
   source for later: ISFDB, after checking its data licence.
 - Issue cards (search, person pages) now show the magazine name; the RPG tab lists RPG magazines once indexed.
+- **Stable issue ids** (user.db keys progress, highlights and downloads by issue id): Amazing Stories keeps its ids
+  1–309; every other magazine has a `block` in sources.toml and its ids are block × 10,000,000 + year × 1000 +
+  month × 10 + n. Refreshing a collection or adding a magazine never moves an existing id.

@@ -60,7 +60,7 @@ def main(argv: list[str] | None = None) -> int:
                 snap.write_text(json.dumps(ia.fetch(m["collection"]), indent=0, ensure_ascii=False) + "\n",
                                 encoding="utf-8", newline="\n")
             cat, alternates, skipped = ia.parse(m, snap)
-            parts.append(db.Part(cat, m["category"], alternates))
+            parts.append(db.Part(cat, m["category"], alternates, m["block"]))
             collections.append((m, cat, alternates, skipped))
             meta[f"source:{m['slug']}"] = f"{cat.source} sha256 {hashlib.sha256(snap.read_bytes()).hexdigest()}"
         else:

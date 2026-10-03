@@ -24,6 +24,13 @@ class Part:
     cat: Catalog
     category: str
     alternates: dict[str, list[str]] = field(default_factory=dict)
+    block: int | None = None  # stable issue ids (sources.toml); None = sequential (Amazing Stories, ids 1–309)
+
+
+def issue_id(block: int, year: int, month: int, n: int) -> int:
+    """stable id of an issue: never moves when a collection is refreshed or a magazine is added"""
+    assert 0 <= n < 10 and 1 <= month <= 12
+    return block * 10_000_000 + year * 1000 + month * 10 + n
 
 
 def write(parts: list[Part], categories: list[dict], db_path: Path, cover_paths: dict[str, str],
@@ -50,11 +57,22 @@ def write(parts: list[Part], categories: list[dict], db_path: Path, cover_paths:
         return person_id[_key(raw)]
 
     story_id = 0
-    iid = 0
+    seq = 0
+    count = 0
+    blocks = [p.block for p in parts if p.block is not None]
+    assert len(blocks) == len(set(blocks)), "two magazines share a block"
     for mid, part in enumerate(parts, 1):
         cat = part.cat
+        per_month: dict[tuple[int, int], int] = {}
         for issue in cat.issues:
-            iid += 1
+            count += 1
+            if part.block is None:
+                seq += 1
+                iid = seq
+            else:
+                n = per_month.get((issue.year, issue.month), 0)
+                per_month[(issue.year, issue.month)] = n + 1
+                iid = issue_id(part.block, issue.year, issue.month, n)
             editors = []
             for s in issue.stories:
                 if s.type_code == "ed":
@@ -107,7 +125,7 @@ def write(parts: list[Part], categories: list[dict], db_path: Path, cover_paths:
     con.commit()
     con.execute("VACUUM")
     con.close()
-    return {"issues": iid, "stories": story_id, "people": len(person_id)}
+    return {"issues": count, "stories": story_id, "people": len(person_id)}
 
 
 def name_registry(*cats: Catalog) -> NameRegistry:

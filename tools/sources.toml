@@ -1,5 +1,9 @@
 # Magazines in the app catalog (tools/build_catalog.py). Categories keep content types apart in the app.
 # Collections are read from the snapshot tools/sources/ia/<collection>.json (refresh: build_catalog.py --refresh).
+# Issue ids must never change: user.db (progress, highlights, downloads) stores them. Amazing Stories keeps its
+# historical ids 1–309; every other magazine has its own `block`, and its issue ids are
+# block × 10,000,000 + year × 1000 + month × 10 + n (n = 0 for the first issue of that month), so refreshing a
+# collection or adding a magazine never moves an existing id. Give each new magazine a new, unused block.
 
 [[category]]
 slug = "pulp"
@@ -22,6 +26,7 @@ source = "data/source/Amazing_Stories_Reference_Guide.pdf"
 
 [[magazine]]
 slug = "fantasy-and-science-fiction"
+block = 2
 name = "The Magazine of Fantasy & Science Fiction"
 category = "pulp"
 adapter = "ia_collection"
@@ -31,6 +36,7 @@ exclude = 'Best_From|Australian|\(UK\)|_UK_|TheCricketBall'
 
 [[magazine]]
 slug = "galaxy"
+block = 3
 name = "Galaxy"
 category = "pulp"
 adapter = "ia_collection"
@@ -41,6 +47,7 @@ exclude = 'Novel_|Santa_Covers|2nd_Series|^GalaxyPD$'
 
 [[magazine]]
 slug = "fantastic"
+block = 4
 name = "Fantastic"
 category = "pulp"
 adapter = "ia_collection"
@@ -48,6 +55,7 @@ collection = "fantasticsfstories"
 
 [[magazine]]
 slug = "twilight-zone"
+block = 5
 name = "Rod Serling's The Twilight Zone Magazine"
 category = "pulp"
 adapter = "ia_collection"
