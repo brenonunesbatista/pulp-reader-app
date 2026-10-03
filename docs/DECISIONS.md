@@ -262,3 +262,15 @@ Banca" on *Marooned off Vesta*, which has no scan; the spec adds the "in the cat
   no result (≥ 3 characters, recorded after 1.5 s without typing, one row per text with a count). Settings → Atlas inbox
   exports it as Markdown (share sheet / copy) for the curation conversation.
 - Home lists ("Your timelines") reload when the screen becomes visible again (screens below stay mounted).
+
+## 2026-10-03 — Phase 7e: adding items to saved timelines (user request)
+- `user.db` v6 `timeline_item(timeline_id, entity_id | title+year+lane, note, url)`; one row per Atlas entity per
+  timeline (partial unique index). Deleting a timeline deletes its items; "Save as new" copies them.
+- A timeline shows its added Atlas entries even outside its subject, plus the user's own items in the lane they chose
+  (dashed card, "YOURS"); spec flag `mine` = *Only what I added*. Only entries with a lane and a year can be added
+  (people/themes are not on the timeline). Composition is pure (`timelineEntries` in `atlas/subject.ts`, tested).
+- Own items never leave the device and are not part of the curated Atlas; they are user data like highlights.
+- A saved timeline's *Save* now updates it in place (and renames); *Save as new* makes a copy.
+- Phase 8 decided with the user: 8a categories + generic IA collection adapter + F&SF, Galaxy, Fantastic, Twilight
+  Zone (issue-level contents first); 8b packs (Dragon, Dungeon); 8c comics (all titles on the user's list, personal use,
+  accepting that IA may remove items).

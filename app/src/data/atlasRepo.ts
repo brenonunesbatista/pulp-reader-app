@@ -209,13 +209,17 @@ export interface TimelineSpec {
   fromYear: number
   selected: string | null
   subject: string | null
+  /** show only the items added to this timeline (7e) */
+  mine?: boolean
 }
-export interface SavedTimeline { id: number; name: string; spec: TimelineSpec; updatedAt: number }
+export interface SavedTimeline { id: number; name: string; spec: TimelineSpec; updatedAt: number; itemCount: number }
 
 export async function listSavedTimelines(user: Db): Promise<SavedTimeline[]> {
-  const rows = await user.query<{ id: number; name: string; spec_json: string; updated_at: number }>(
-    `SELECT id, name, spec_json, updated_at FROM saved_timeline ORDER BY updated_at DESC`)
-  return rows.map((r) => ({ id: r.id, name: r.name, spec: JSON.parse(r.spec_json) as TimelineSpec, updatedAt: r.updated_at }))
+  const rows = await user.query<{ id: number; name: string; spec_json: string; updated_at: number; n: number }>(
+    `SELECT t.id, t.name, t.spec_json, t.updated_at, (SELECT count(*) FROM timeline_item i WHERE i.timeline_id = t.id) AS n
+     FROM saved_timeline t ORDER BY t.updated_at DESC`)
+  return rows.map((r) => ({ id: r.id, name: r.name, spec: JSON.parse(r.spec_json) as TimelineSpec, updatedAt: r.updated_at,
+    itemCount: r.n }))
 }
 
 export async function getSavedTimeline(user: Db, id: number): Promise<SavedTimeline | null> {
@@ -232,8 +236,65 @@ export async function renameTimeline(user: Db, id: number, name: string, now = D
   if (name.trim()) await user.run(`UPDATE saved_timeline SET name = ?, updated_at = ? WHERE id = ?`, [name.trim(), now, id])
 }
 
+export async function updateTimelineSpec(user: Db, id: number, spec: TimelineSpec, now = Date.now()) {
+  await user.run(`UPDATE saved_timeline SET spec_json = ?, updated_at = ? WHERE id = ?`, [JSON.stringify(spec), now, id])
+}
+
 export async function deleteTimeline(user: Db, id: number) {
+  await user.run(`DELETE FROM timeline_item WHERE timeline_id = ?`, [id])
   await user.run(`DELETE FROM saved_timeline WHERE id = ?`, [id])
+}
+
+// ---- items added to a saved timeline (7e) ---------------------------------------------------------------------------
+
+/** an Atlas entity pinned to the timeline (entityId) or the user's own item (title, year, lane, note, url) */
+export interface TimelineItem {
+  id: number; timelineId: number; entityId: string | null
+  title: string | null; year: number | null; lane: Lane | null; note: string | null; url: string | null; createdAt: number
+}
+export interface PersonalItem { title: string; year: number; lane: Lane; note: string | null; url: string | null }
+
+export async function listTimelineItems(user: Db, timelineId: number): Promise<TimelineItem[]> {
+  const rows = await user.query<{ id: number; timeline_id: number; entity_id: string | null; title: string | null; year: number | null
+    lane: Lane | null; note: string | null; url: string | null; created_at: number }>(
+    `SELECT * FROM timeline_item WHERE timeline_id = ? ORDER BY year, id`, [timelineId])
+  return rows.map((r) => ({ id: r.id, timelineId: r.timeline_id, entityId: r.entity_id, title: r.title, year: r.year, lane: r.lane,
+    note: r.note, url: r.url, createdAt: r.created_at }))
+}
+
+/** saved timelines that already hold this Atlas entity */
+export async function timelinesWithEntity(user: Db, entityId: string): Promise<number[]> {
+  return (await user.query<{ timeline_id: number }>(`SELECT timeline_id FROM timeline_item WHERE entity_id = ?`, [entityId]))
+    .map((r) => r.timeline_id)
+}
+
+const touch = (user: Db, id: number, now: number) => user.run(`UPDATE saved_timeline SET updated_at = ? WHERE id = ?`, [now, id])
+
+export async function addEntityToTimeline(user: Db, timelineId: number, entityId: string, now = Date.now()) {
+  await user.run(`INSERT OR IGNORE INTO timeline_item (timeline_id, entity_id, created_at) VALUES (?, ?, ?)`, [timelineId, entityId, now])
+  await touch(user, timelineId, now)
+}
+
+export async function removeEntityFromTimeline(user: Db, timelineId: number, entityId: string) {
+  await user.run(`DELETE FROM timeline_item WHERE timeline_id = ? AND entity_id = ?`, [timelineId, entityId])
+}
+
+const clean = (p: PersonalItem) => [p.title.trim(), Math.round(p.year), p.lane, p.note?.trim() || null, p.url?.trim() || null] as const
+
+export async function addPersonalItem(user: Db, timelineId: number, p: PersonalItem, now = Date.now()): Promise<number> {
+  await user.run(`INSERT INTO timeline_item (timeline_id, title, year, lane, note, url, created_at) VALUES (?, ?, ?, ?, ?, ?, ?)`,
+    [timelineId, ...clean(p), now])
+  await touch(user, timelineId, now)
+  return (await user.query<{ id: number }>(`SELECT max(id) AS id FROM timeline_item`))[0].id
+}
+
+export async function updatePersonalItem(user: Db, id: number, p: PersonalItem) {
+  await user.run(`UPDATE timeline_item SET title = ?, year = ?, lane = ?, note = ?, url = ? WHERE id = ? AND entity_id IS NULL`,
+    [...clean(p), id])
+}
+
+export async function deleteTimelineItem(user: Db, id: number) {
+  await user.run(`DELETE FROM timeline_item WHERE id = ?`, [id])
 }
 
 // ---- curator inbox -----------------------------------------------------------------------------------------------------

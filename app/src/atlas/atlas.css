@@ -271,3 +271,22 @@
   font: 16px/1.4 var(--f-text); padding: 8px 10px; resize: vertical; }
 .a-suggest .row { display: flex; gap: 8px; flex-wrap: wrap; }
 .a-suggest.sent { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+
+/* 7e: items added to a saved timeline */
+.tl-card.mine, .tl-row.mine { border-style: dashed; border-width: 2px; }
+.tl-card.pinned::after, .tl-row.pinned::after { content: ""; position: absolute; right: 4px; top: 4px; width: 10px; height: 10px;
+  border-radius: 50%; background: var(--pulp-red); border: 2px solid var(--surface); }
+.tl-row { position: relative; }
+.tl-card .tl-thumb.own .frame { display: grid; place-items: center; background: repeating-linear-gradient(135deg, transparent 0 6px, var(--rule, rgba(0,0,0,.08)) 6px 7px); }
+.a-mine { padding: 2px 8px; border: 2px dashed var(--edge); font: 700 12px var(--f-text); letter-spacing: .08em; text-transform: uppercase; }
+.tl-note { font: 16px/1.45 var(--f-text); white-space: pre-wrap; margin: 6px 0 10px; }
+.btn.a-pin.on { background: var(--pulp-yellow); color: #2A2118; }
+.tl-own input, .tl-own select { box-sizing: border-box; height: 40px; border: 2px solid var(--edge); border-radius: 4px; background: var(--bg);
+  color: var(--ink); font: 16px var(--f-text); padding: 0 10px; min-width: 0; }
+.tl-own > input { width: 100%; }
+.tl-own .row input.yr { flex: 0 0 110px; }
+.tl-own .row select { flex: 1 1 180px; }
+.tl-sheet .tl-own { margin-top: 28px; border: 0; padding: 0; background: none; }
+.a-addtl { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 10px; border: 2px solid var(--edge); background: var(--surface); }
+.a-addtl .a-rel { flex-basis: 100%; }
+.a-addtl .chip.on { background: var(--pulp-yellow); color: #2A2118; }

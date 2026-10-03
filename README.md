@@ -53,6 +53,8 @@ Built for a Samsung Galaxy Tab A9+ (11", 1920×1200), with phone layouts for the
     **Read in Banca** opens the story in the reader (or says the issue has no scan yet); IMDb / Spotify links.
   - **Saved and subject timelines**: *Save view* keeps the zoom, lanes, period, selection and subject under *Your
     timelines*; an Atlas search offers *Timeline of "…"* (the matches and everything curated around them).
+    In a saved timeline you can add any Atlas entry (also from its page: *Add to a timeline*, or start a new one with
+    it) and your own items (title, year, lane, note, link); *Only what I added* turns it into a personal timeline.
   - **Curator inbox**: *Suggest* (Atlas home, search, any page) and Atlas searches that found nothing are collected in
     Settings → Atlas inbox, exported as Markdown to curate new entries.
   - **Paths**: "From Wells to Foundation" (19 stops) and "From R.U.R. to the Thinking Machine" (robots and AI, 18 stops); the

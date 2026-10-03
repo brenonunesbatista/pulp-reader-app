@@ -35,7 +35,7 @@ Capacitor (Android) · Vite · React · TypeScript (strict) · SQLite (`@capacit
 - `data/` — repositories (only place with SQL): `catalogRepo.ts`, `progressRepo.ts`, `annotationRepo.ts`, `downloadRepo.ts`, `settingsRepo.ts`, `fts.ts`
 - `downloads/` — `manager.ts` (queue, retries, resume, network policy; pure + tested), `store.ts` (Android app data dir `downloads/<ident>/` or memory), `DownloadsProvider` + hooks (`useDownload`, `useDownloadList`)
 - `notes/` — `gather.ts` (highlights + bookmarks with story titles and printed pages), `markdown.ts` (export, pure + tested), `share.ts` (share sheet, clipboard, web search)
-- `atlas/` — Atlas screens (Home, Timeline, Entity, Path, Want to), `parts.tsx` components, `forms.ts` vocabulary, `recommend.ts` (pure, tested), `useAtlas.ts` (graph + user signals); data in `data/atlasRepo.ts`
+- `atlas/` — Atlas screens (Home, Timeline, Entity, Path, Want to), `parts.tsx` components, `forms.ts` vocabulary, `recommend.ts` and `subject.ts` (pure, tested), `TimelineItems.tsx` (own items, add-to-timeline), `useAtlas.ts` (graph + user signals); data in `data/atlasRepo.ts`
 - `nav/` — stack navigator (`stack.ts` pure, `Nav.tsx` provider; history + Android back), screens stay mounted underneath
 - `screens/`, `ui/` — screens and shared components (`components.tsx`, `icons.tsx`, `SettingsProvider`); `app.css` = Banca tokens (docs/design/banca-newsprint.md)
 - `reader/` — `ReaderScreen.tsx` (chrome, panels), `ReaderController.ts` (page DOM, no React state per frame), `pageMap.ts` / `layout.ts` (pure, tested); `engine/` = PanZoom gestures, image loader, OCR parse/worker, IIIF access, disk cache

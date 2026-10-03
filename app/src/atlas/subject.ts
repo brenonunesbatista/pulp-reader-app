@@ -1,5 +1,26 @@
 // Timeline of a subject and the curator inbox export (pure, tested).
-import type { AtlasGraph, InboxItem } from '../data/atlasRepo'
+import type { AtlasGraph, EntitySummary, InboxItem, Lane, TimelineItem } from '../data/atlasRepo'
+
+/** id of a user's own timeline item in the timeline (never collides with Atlas ids, which are slugs) */
+export const mineId = (id: number) => `mine:${id}`
+
+/** a user's own item drawn like an Atlas entry (type event, the lane they chose) */
+export function personalSummary(i: TimelineItem): EntitySummary {
+  return { id: mineId(i.id), type: 'event', title: i.title ?? '', subtitle: i.note ?? '', lane: i.lane, date: String(i.year),
+    year: i.year, endYear: null, image: { url: null, credit: null, license: null, source: null, catalogCover: null } }
+}
+
+/** What a timeline shows: Atlas entries with a lane and a year (limited to the subject, if any), plus the entities added
+ *  to a saved timeline even when outside the subject, plus the user's own items; `mineOnly` keeps only the added ones. */
+export function timelineEntries(g: AtlasGraph, o: { subject: Set<string> | null; added: TimelineItem[]; mineOnly: boolean
+  hidden: Set<Lane> }): EntitySummary[] {
+  const pinned = new Set(o.added.flatMap((i) => (i.entityId ? [i.entityId] : [])))
+  const shown = (e: EntitySummary) => !!e.lane && !!e.year && !o.hidden.has(e.lane)
+  const atlas = [...g.entities.values()].filter((e) => shown(e)
+    && (pinned.has(e.id) || (!o.mineOnly && (!o.subject || o.subject.has(e.id)))))
+  const own = o.added.filter((i) => !i.entityId).map(personalSummary).filter(shown)
+  return [...atlas, ...own]
+}
 
 /** The entities a subject timeline shows: the search matches, everything directly linked to them, and the members
  *  of any matched theme. Only curated links are used — nothing is generated. */

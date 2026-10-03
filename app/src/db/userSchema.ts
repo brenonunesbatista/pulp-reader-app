@@ -41,6 +41,13 @@ export const USER_MIGRATIONS: string[] = [
      id INTEGER PRIMARY KEY, kind TEXT NOT NULL CHECK (kind IN ('suggestion','search')), text TEXT NOT NULL,
      context TEXT, count INTEGER NOT NULL DEFAULT 1, created_at INTEGER NOT NULL, updated_at INTEGER NOT NULL);
    CREATE UNIQUE INDEX atlas_inbox_search ON atlas_inbox(text) WHERE kind = 'search';`,
+  // v6 (Phase 7e): items added to a saved timeline — an Atlas entity (entity_id) or the user's own (title, year, …)
+  `CREATE TABLE timeline_item (
+     id INTEGER PRIMARY KEY, timeline_id INTEGER NOT NULL, entity_id TEXT,
+     title TEXT, year INTEGER, lane TEXT, note TEXT, url TEXT, created_at INTEGER NOT NULL,
+     CHECK (entity_id IS NOT NULL OR (title IS NOT NULL AND year IS NOT NULL AND lane IS NOT NULL)));
+   CREATE INDEX timeline_item_by_timeline ON timeline_item(timeline_id);
+   CREATE UNIQUE INDEX timeline_item_entity ON timeline_item(timeline_id, entity_id) WHERE entity_id IS NOT NULL;`,
 ]
 
 export async function migrateUserDb(db: Db): Promise<number> {

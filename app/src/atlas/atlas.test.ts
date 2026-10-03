@@ -2,13 +2,13 @@ import { existsSync, readFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { describe, expect, it } from 'vitest'
 import {
-  addSuggestion, addWant, clearInbox, deleteTimeline, getEntity, listInbox, listSavedTimelines, recordMissedSearch, renameTimeline, saveTimeline, getPath, listWants, loadGraph, recentVisits, recordVisit, removeWant, searchAtlas, setWantDone,
-  type AtlasGraph, type EntitySummary,
+  addEntityToTimeline, addPersonalItem, addSuggestion, addWant, clearInbox, deleteTimeline, deleteTimelineItem, listTimelineItems, removeEntityFromTimeline, timelinesWithEntity, updatePersonalItem, updateTimelineSpec, getEntity, listInbox, listSavedTimelines, recordMissedSearch, renameTimeline, saveTimeline, getPath, listWants, loadGraph, recentVisits, recordVisit, removeWant, searchAtlas, setWantDone,
+  type AtlasGraph, type EntitySummary, type Lane,
 } from '../data/atlasRepo'
 import { migrateUserDb } from '../db/userSchema'
 import { dbFromBytes, memoryDb } from '../db/wasmDb'
 import { NO_SIGNALS, recommendFrom, recommendHome } from './recommend'
-import { inboxMarkdown, subjectIds } from './subject'
+import { inboxMarkdown, subjectIds, timelineEntries } from './subject'
 
 const e = (id: string, year: number | null, lane: EntitySummary['lane'], type: EntitySummary['type'] = 'work'): EntitySummary => ({
   id, type, title: id.toUpperCase(), subtitle: '', lane, date: year ? String(year) : null, year, endYear: null,
@@ -104,7 +104,7 @@ describe('subject timelines and the curator inbox', () => {
     await migrateUserDb(u)
     const id = await saveTimeline(u, ' Robots ', { zoom: 'years', hidden: ['music'], fromYear: 1920, selected: 'rur', subject: 'robot' }, 5)
     await renameTimeline(u, id, 'Robots on screen', 6)
-    expect(await listSavedTimelines(u)).toEqual([{ id, name: 'Robots on screen', updatedAt: 6,
+    expect(await listSavedTimelines(u)).toEqual([{ id, name: 'Robots on screen', updatedAt: 6, itemCount: 0,
       spec: { zoom: 'years', hidden: ['music'], fromYear: 1920, selected: 'rur', subject: 'robot' } }])
     await deleteTimeline(u, id)
     expect(await listSavedTimelines(u)).toEqual([])
@@ -121,5 +121,39 @@ describe('subject timelines and the curator inbox', () => {
     expect(md).toContain('- "moebius" ×2 (last 2026-10-04)')
     await clearInbox(u)
     expect(await listInbox(u)).toEqual([])
+  })
+
+  it('adds Atlas entries and personal items to a saved timeline (user.db v6)', async () => {
+    const u = await memoryDb()
+    expect(await migrateUserDb(u)).toBe(6)
+    const spec = { zoom: 'decades' as const, hidden: [], fromYear: 1890, selected: null, subject: 'wotw' }
+    const id = await saveTimeline(u, 'Mine', spec, 1)
+    await addEntityToTimeline(u, id, 'nightfall', 2)
+    await addEntityToTimeline(u, id, 'nightfall', 3) // once
+    const own = await addPersonalItem(u, id, { title: ' Grandpa reads Amazing ', year: 1952, lane: 'events', note: '', url: null }, 4)
+    let items = await listTimelineItems(u, id)
+    expect(items.map((i) => [i.entityId, i.title, i.year, i.note])).toEqual([['nightfall', null, null, null], [null, 'Grandpa reads Amazing', 1952, null]])
+    expect((await listSavedTimelines(u))[0]).toMatchObject({ itemCount: 2, updatedAt: 4 })
+    expect(await timelinesWithEntity(u, 'nightfall')).toEqual([id])
+
+    const g = graph()
+    const subject = subjectIds(g, ['wotw'])
+    const ids = (mineOnly: boolean, hidden: Lane[] = []) =>
+      timelineEntries(g, { subject, added: items, mineOnly, hidden: new Set(hidden) }).map((x) => x.id).sort()
+    expect(ids(false)).toEqual([`mine:${own}`, 'nightfall', 'radio', 'wotw']) // wells has no lane: not on the timeline
+    expect(ids(true)).toEqual([`mine:${own}`, 'nightfall'])
+    expect(ids(true, ['events'])).toEqual(['nightfall'])
+
+    await updatePersonalItem(u, own, { title: 'Grandpa', year: 1953, lane: 'magazines', note: 'first issue', url: 'https://example.org' })
+    await updateTimelineSpec(u, id, { ...spec, mine: true }, 9)
+    items = await listTimelineItems(u, id)
+    expect(items[1]).toMatchObject({ title: 'Grandpa', year: 1953, lane: 'magazines', note: 'first issue' })
+    expect((await listSavedTimelines(u))[0].spec.mine).toBe(true)
+    await removeEntityFromTimeline(u, id, 'nightfall')
+    await deleteTimelineItem(u, own)
+    expect(await listTimelineItems(u, id)).toEqual([])
+    await addEntityToTimeline(u, id, 'wotw')
+    await deleteTimeline(u, id) // items go with it
+    expect(await timelinesWithEntity(u, 'wotw')).toEqual([])
   })
 })

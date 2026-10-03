@@ -11,6 +11,7 @@ import { dates, LANES, linkLabel, linkTone, typeLabel } from './forms'
 import { Body, EntityChip, ExternalLinks, Picture, ReadInBanca, RecCard, TypeBadge, WantButton } from './parts'
 import { recommendFrom } from './recommend'
 import { SuggestForm } from './SuggestForm'
+import { AddToTimeline } from './TimelineItems'
 import { useAtlas } from './useAtlas'
 
 export function EntityScreen({ id }: { id: string }) {
@@ -69,6 +70,7 @@ export function EntityScreen({ id }: { id: string }) {
             {onTimeline && (
               <button className="btn" onClick={() => nav.push({ name: 'timeline', focus: e.id })}>Show on timeline</button>
             )}
+            <AddToTimeline e={e} />
           </div>
           <dl className="a-facts">
             <dt>Type</dt><dd>{typeLabel(e.type, e.lane)}</dd>

@@ -152,7 +152,7 @@ export function AtlasHomeScreen() {
                       <>
                         <button className="open" onClick={() => nav.push({ name: 'timeline', saved: t.id })}>
                           <span className="t">{t.name}</span>
-                          <span className="m num">{t.spec.subject ? `“${t.spec.subject}” · ` : ''}{t.spec.zoom === 'years' ? 'by year' : 'by decade'}{t.spec.fromYear > 1890 ? ` · from ${t.spec.fromYear}` : ''}</span>
+                          <span className="m num">{t.spec.subject ? `“${t.spec.subject}” · ` : ''}{t.spec.zoom === 'years' ? 'by year' : 'by decade'}{t.spec.fromYear > 1890 ? ` · from ${t.spec.fromYear}` : ''}{t.itemCount ? ` · ${t.itemCount} added` : ''}</span>
                         </button>
                         <button className="icon-btn" aria-label={`Rename ${t.name}`} onClick={() => setRenaming({ id: t.id, name: t.name })}><Icon name="edit" size={20} /></button>
                         <button className="icon-btn" aria-label={`Delete ${t.name}`} onClick={() => void deleteTimeline(user, t.id).then(() => setTick((n) => n + 1))}><Icon name="trash" size={20} /></button>

@@ -2,9 +2,14 @@
 // for the visible period) above a "stage" of decade or year columns. Tap = select: connected items get a relation tag,
 // the rest dim, and a sheet lists the connections. Phones get a vertical list grouped by decade/year.
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
-import { entitiesWithTheme, getSavedTimeline, saveTimeline, searchAtlas, type EntitySummary, type Lane } from '../data/atlasRepo'
+import {
+  addEntityToTimeline, addPersonalItem, deleteTimelineItem, entitiesWithTheme, getSavedTimeline, listTimelineItems,
+  removeEntityFromTimeline, renameTimeline, saveTimeline, searchAtlas, updatePersonalItem, updateTimelineSpec,
+  type EntitySummary, type Lane, type PersonalItem, type TimelineItem,
+} from '../data/atlasRepo'
 import { useDb } from '../db/useDb'
 import { useNav } from '../nav/context'
+import { openExternal } from '../notes/share'
 import { ErrorBox, Loading, Screen, SubMasthead } from '../ui/components'
 import { Icon } from '../ui/icons'
 import { useSizeClass } from '../ui/sizeClass'
@@ -12,7 +17,8 @@ import { useAsync } from '../ui/useAsync'
 import './atlas.css'
 import { dates, LANES, LANE_TOKEN, laneVars, linkLabel } from './forms'
 import { EntityChip, Picture, TypeBadge, WantButton } from './parts'
-import { subjectIds } from './subject'
+import { mineId, personalSummary, subjectIds, timelineEntries } from './subject'
+import { PersonalItemForm } from './TimelineItems'
 import { useAtlas } from './useAtlas'
 
 const FROM = 1890
@@ -35,6 +41,17 @@ export function TimelineScreen({ focus, subject, saved }: { focus?: string; subj
   const [saving, setSaving] = useState<string | null>(null) // name being typed for "Save view"
   const [toast, setToast] = useState<string | null>(null)
   const savedView = useAsync(() => (saved ? getSavedTimeline(user, saved) : Promise.resolve(null)), [user, saved])
+  // 7e: the saved timeline being shown (also set after "Save view"), what was added to it, and the "only mine" filter
+  const [savedId, setSavedId] = useState<number | null>(saved ?? null)
+  useEffect(() => setSavedId(saved ?? null), [saved])
+  const [mineOnly, setMineOnly] = useState(false)
+  const [itemsTick, setItemsTick] = useState(0)
+  const [ownForm, setOwnForm] = useState<'new' | number | null>(null) // new item, or the id being edited
+  const added = useAsync(() => (savedId ? listTimelineItems(user, savedId) : Promise.resolve([] as TimelineItem[])), [user, savedId, itemsTick])
+  const addedList = useMemo(() => (added.status === 'ok' ? added.data : []), [added])
+  const own = useMemo(() => new Map(addedList.filter((i) => !i.entityId).map((i) => [mineId(i.id), i])), [addedList])
+  const pinned = useMemo(() => new Set(addedList.flatMap((i) => (i.entityId ? [i.entityId] : []))), [addedList])
+  const reloadItems = () => setItemsTick((t) => t + 1)
   const restoreYear = useRef<number | null>(null)
   // a saved view restores zoom, lanes, selection, subject and period (once, when it has loaded)
   useEffect(() => {
@@ -44,6 +61,7 @@ export function TimelineScreen({ focus, subject, saved }: { focus?: string; subj
     setHidden(new Set(s.hidden))
     setSelected(s.selected)
     setSubjectQ(s.subject)
+    setMineOnly(!!s.mine)
     restoreYear.current = s.fromYear
   }, [savedView])
   const matches = useAsync(async () => (subjectQ ? (await searchAtlas(atlas, subjectQ, 60)).map((e) => e.id) : null), [atlas, subjectQ])
@@ -54,8 +72,12 @@ export function TimelineScreen({ focus, subject, saved }: { focus?: string; subj
 
   const g = ctx.status === 'ok' ? ctx.data.graph : null
   const subjectSet = useMemo(() => (g && matches.status === 'ok' && matches.data ? subjectIds(g, matches.data) : null), [g, matches])
-  const items = useMemo(() => (g ? [...g.entities.values()].filter((e) => e.lane && e.year && !hidden.has(e.lane)
-    && (!subjectSet || subjectSet.has(e.id))) : []), [g, hidden, subjectSet])
+  const items = useMemo(() => (g ? timelineEntries(g, { subject: subjectSet, added: addedList, mineOnly, hidden }) : []),
+    [g, hidden, subjectSet, addedList, mineOnly])
+  const ownSummary = useCallback((id: string | null) => {
+    const i = id ? own.get(id) : undefined
+    return i ? personalSummary(i) : null
+  }, [own])
 
   /** connected entity → relation label (as seen from the selection) */
   const connected = useMemo(() => {
@@ -110,11 +132,11 @@ export function TimelineScreen({ focus, subject, saved }: { focus?: string; subj
   // centre on the focus / selection when it changes or when the zoom changes
   const centreYear = useMemo(() => {
     if (!g || !selected) return 1926
-    const e = g.entities.get(selected)
+    const e = g.entities.get(selected) ?? ownSummary(selected)
     if (e?.year && e.lane) return e.year
     const ys = [...connected.keys()].map((id) => g.entities.get(id)?.year).filter((y): y is number => !!y)
     return ys.length ? Math.min(...ys) : 1926
-  }, [g, selected, connected])
+  }, [g, selected, connected, ownSummary])
   useLayoutEffect(() => {
     if (!g) return
     if (restoreYear.current !== null) {
@@ -134,7 +156,8 @@ export function TimelineScreen({ focus, subject, saved }: { focus?: string; subj
   if (ctx.status !== 'ok' || !g) {
     return <Screen section="atlas" masthead={<SubMasthead title="Timeline" />}>{ctx.status === 'error' ? <ErrorBox error={ctx.error} /> : <Loading />}</Screen>
   }
-  const sel = selected ? g.entities.get(selected) ?? null : null
+  const sel = selected ? g.entities.get(selected) ?? ownSummary(selected) : null
+  const selOwn = selected ? own.get(selected) ?? null : null
   const select = (id: string) => setSelected((cur) => (cur === id ? null : id))
   const max = compact ? 3 : zoom === 'decades' ? 4 : 3
   const visFrom = FROM + first * span
@@ -142,7 +165,8 @@ export function TimelineScreen({ focus, subject, saved }: { focus?: string; subj
 
   const card = (e: EntitySummary) => {
     const rel = connected.get(e.id)
-    const state = e.id === selected ? 'sel' : rel ? 'con' : selected ? 'dim' : ''
+    const state = [e.id === selected ? 'sel' : rel ? 'con' : selected ? 'dim' : '', own.has(e.id) ? 'mine' : '',
+      pinned.has(e.id) ? 'pinned' : ''].join(' ')
     return compact ? (
       <button key={e.id} className={`tl-row ${state}`} style={laneVars(e.lane)} onClick={() => select(e.id)}>
         <span className="yr num">{e.year}</span><span className="sq" />
@@ -151,7 +175,9 @@ export function TimelineScreen({ focus, subject, saved }: { focus?: string; subj
     ) : (
       <button key={e.id} className={`tl-card ${state}`} style={laneVars(e.lane)} onClick={() => select(e.id)}>
         {rel && <span className="tag">{rel}</span>}
-        <Picture e={e} className="tl-thumb" />
+        {own.has(e.id)
+          ? <figure className="a-pic tl-thumb own"><div className="frame"><span className="noimg">YOURS</span></div></figure>
+          : <Picture e={e} className="tl-thumb" />}
         <span className="t">{e.title}</span>
         <span className="m num">{e.year} · {LANES.find((l) => l.id === e.lane)?.short}</span>
       </button>
@@ -191,30 +217,74 @@ export function TimelineScreen({ focus, subject, saved }: { focus?: string; subj
       {compact
         ? <button className="chip" onClick={() => setLanesOpen((v) => !v)}><Icon name="filter" size={18} />Lanes</button>
         : <LaneChips hidden={hidden} setHidden={setHidden} />}
+      {savedId && (
+        <>
+          <button className="chip" aria-pressed={mineOnly} onClick={() => setMineOnly((v) => !v)}>
+            {mineOnly ? '✓ ' : ''}Only what I added
+          </button>
+          <button className="chip" aria-expanded={ownForm === 'new'} onClick={() => setOwnForm(ownForm === 'new' ? null : 'new')}>
+            <Icon name="edit" size={18} />Add your own
+          </button>
+        </>
+      )}
       <button className="chip tl-save" onClick={() => setSaving(saving === null ? defaultName() : null)} aria-expanded={saving !== null}>
-        <Icon name="bookmark" size={18} />Save view
+        <Icon name="bookmark" size={18} />{savedId ? 'Save' : 'Save view'}
       </button>
     </div>
   )
+  const flash = (m: string) => { setToast(m); window.setTimeout(() => setToast(null), 2200) }
+  const savePersonal = async (p: PersonalItem) => {
+    if (!savedId) return
+    if (ownForm === 'new') {
+      const id = await addPersonalItem(user, savedId, p)
+      setSelected(mineId(id))
+      flash('Added to this timeline')
+    } else if (typeof ownForm === 'number') await updatePersonalItem(user, ownForm, p)
+    setOwnForm(null)
+    reloadItems()
+  }
+  const togglePin = async (id: string) => {
+    if (!savedId) return
+    if (pinned.has(id)) await removeEntityFromTimeline(user, savedId, id)
+    else await addEntityToTimeline(user, savedId, id)
+    reloadItems()
+  }
   function defaultName() {
     if (subjectQ) return `Timeline of ${subjectQ}`
     if (savedView.status === 'ok' && savedView.data) return savedView.data.name
     return sel ? `Around ${sel.title}` : `Timeline ${visFrom}–${visTo}`
   }
-  const doSave = async () => {
+  const spec = () => ({ zoom, hidden: [...hidden], fromYear: visFrom, selected, subject: subjectQ, mine: mineOnly })
+  /** a saved timeline is updated in place (and renamed); "Save as new" copies it with what was added to it */
+  const doSave = async (asNew: boolean) => {
     if (saving === null) return
-    await saveTimeline(user, saving, { zoom, hidden: [...hidden], fromYear: visFrom, selected, subject: subjectQ })
+    if (savedId && !asNew) {
+      await updateTimelineSpec(user, savedId, spec())
+      await renameTimeline(user, savedId, saving)
+      flash('Timeline updated')
+    } else {
+      const id = await saveTimeline(user, saving, spec())
+      for (const i of addedList) {
+        if (i.entityId) await addEntityToTimeline(user, id, i.entityId)
+        else await addPersonalItem(user, id, { title: i.title!, year: i.year!, lane: i.lane!, note: i.note, url: i.url })
+      }
+      setSavedId(id)
+      reloadItems()
+      flash('Saved to Your timelines on the Atlas home')
+    }
     setSaving(null)
-    setToast('Saved to Your timelines on the Atlas home')
-    window.setTimeout(() => setToast(null), 2200)
   }
   const saveForm = saving !== null && (
-    <form className="tl-saveform" onSubmit={(e) => { e.preventDefault(); void doSave() }}>
+    <form className="tl-saveform" onSubmit={(e) => { e.preventDefault(); void doSave(false) }}>
       <label htmlFor="tl-save-name">Name</label>
       <input id="tl-save-name" value={saving} autoFocus onChange={(e) => setSaving(e.target.value)} />
       <button className="btn small primary" type="submit">Save</button>
+      {savedId && <button className="btn small" type="button" onClick={() => void doSave(true)}>Save as new</button>}
       <button className="btn small" type="button" onClick={() => setSaving(null)}>Cancel</button>
     </form>
+  )
+  const ownFormEl = ownForm === 'new' && (
+    <PersonalItemForm defaultYear={sel?.year ?? undefined} onSave={savePersonal} onCancel={() => setOwnForm(null)} />
   )
   const subjectBar = subjectQ && (
     <div className="tl-subject">
@@ -223,7 +293,29 @@ export function TimelineScreen({ focus, subject, saved }: { focus?: string; subj
     </div>
   )
 
-  const sheet = sel && (
+  const ownSheet = sel && selOwn && (
+    <aside className={`tl-sheet ${compact ? 'bottom' : 'side'}`}>
+      <button className="tl-close" aria-label="Close" onClick={() => setSelected(null)}><Icon name="close" size={20} /></button>
+      {ownForm === selOwn.id ? (
+        <PersonalItemForm initial={{ title: selOwn.title!, year: selOwn.year!, lane: selOwn.lane!, note: selOwn.note, url: selOwn.url }}
+                          onSave={savePersonal} onCancel={() => setOwnForm(null)}
+                          onDelete={() => void deleteTimelineItem(user, selOwn.id).then(() => { setOwnForm(null); setSelected(null); reloadItems() })} />
+      ) : (
+        <>
+          <div className="a-kicker"><span className="a-mine">Your item</span><span className="num">{selOwn.year}</span>
+            <span>{LANES.find((l) => l.id === selOwn.lane)?.short}</span></div>
+          <h2 className="tl-title">{selOwn.title}</h2>
+          {selOwn.note && <p className="tl-note">{selOwn.note}</p>}
+          <div className="a-actions row">
+            {selOwn.url && <button className="btn primary" onClick={() => void openExternal(selOwn.url!)}>Open link</button>}
+            <button className="btn" onClick={() => setOwnForm(selOwn.id)}><Icon name="edit" size={18} />Edit</button>
+          </div>
+        </>
+      )}
+    </aside>
+  )
+
+  const sheet = ownSheet || (sel && (
     <aside className={`tl-sheet ${compact ? 'bottom' : 'side'}`}>
       <button className="tl-close" aria-label="Close" onClick={() => setSelected(null)}><Icon name="close" size={20} /></button>
       <div className="a-kicker"><TypeBadge type={sel.type} lane={sel.lane} /><span className="num">{dates(sel)}</span></div>
@@ -232,6 +324,11 @@ export function TimelineScreen({ focus, subject, saved }: { focus?: string; subj
       <div className="a-actions row">
         <button className="btn primary" onClick={() => nav.push({ name: 'entity', id: sel.id })}>Open</button>
         <WantButton e={sel} item={ctx.data.wants.find((w) => w.entityId === sel.id)} from="from Timeline" onChange={() => setTick((t) => t + 1)} square={compact} />
+        {savedId && sel.lane && sel.year && (
+          <button className={`btn a-pin ${pinned.has(sel.id) ? 'on' : ''}`} aria-pressed={pinned.has(sel.id)} onClick={() => void togglePin(sel.id)}>
+            {pinned.has(sel.id) ? '✓ In this timeline' : '+ Add to this timeline'}
+          </button>
+        )}
       </div>
       {connected.size > 0 && (
         <div className="tl-cons">
@@ -251,7 +348,7 @@ export function TimelineScreen({ focus, subject, saved }: { focus?: string; subj
         </div>
       )}
     </aside>
-  )
+  ))
 
   return (
     <Screen section="atlas" masthead={<SubMasthead title="Timeline" sub={sel ? sel.title : subjectQ ? `“${subjectQ}”` : savedView.status === 'ok' && savedView.data ? savedView.data.name : '1890 → today'} />}>
@@ -260,6 +357,7 @@ export function TimelineScreen({ focus, subject, saved }: { focus?: string; subj
         {overview}
         {controls}
         {saveForm}
+        {ownFormEl}
         {compact && lanesOpen && <div className="tl-lanes-sheet"><LaneChips hidden={hidden} setHidden={setHidden} /></div>}
         {compact ? (
           <div className="tl-list">
