@@ -19,15 +19,20 @@ def render(collections: list[tuple[dict, Catalog, dict[str, list[str]], list[tup
     for m, cat, alts, skipped in collections:
         items = len(cat.issues) + sum(len(v) for v in alts.values()) + len(skipped)
         years = f"{cat.issues[0].year}–{cat.issues[-1].year}" if cat.issues else "—"
-        w(f"| {m['name']} | `{m['collection']}` | {items} | {len(cat.issues)} | {years} | "
+        w(f"| {m['name']} | `{m.get('collection') or m.get('item')}` | {items} | {len(cat.issues)} | {years} | "
           f"{sum(len(v) for v in alts.values())} | {len(skipped)} |")
     w("")
     for m, cat, alts, skipped in collections:
         w(f"## {m['name']}\n")
-        flagged = Counter(p.detail for p in cat.problems)
+        flagged = Counter(p.detail for p in cat.problems if p.kind == "chosen-scan-flagged")
         if flagged:
             w("Chosen scans that still carry a penalty (no better scan of that issue): " +
               ", ".join(f"{k} ×{v}" for k, v in flagged.most_common()) + ".\n")
+        if m.get("item"):
+            interp = [p.text for p in cat.problems if p.kind == "interpolated-date"]
+            w(f"Pack item: issues are sub-books of `{m['item']}`. Cover dates: {len(cat.issues) - len(interp)} read from the "
+              f"issue's OCR text, {len(interp)} interpolated between read issues one month apart "
+              "(`tools/catalog/pack_dates.py`).\n")
         if skipped:
             w("### Skipped\n")
             w("| Item | Reason |\n|---|---|")
@@ -39,6 +44,7 @@ def render(collections: list[tuple[dict, Catalog, dict[str, list[str]], list[tup
         for i in cat.issues:
             vn = f"{i.volume}/{i.number}" if i.volume is not None else ""
             alt = ", ".join(f"`{a}`" for a in alts.get(i.ia_identifier or "", []))
-            w(f"| {i.title.split(', ', 1)[-1]} | {vn} | `{i.ia_identifier}` | {alt} |")
+            when = f"{i.title.split(', ', 1)[-1]}" if not m.get("item") else f"{i.title} ({i.year}-{i.month:02d})"
+            w(f"| {when} | {vn} | `{i.ia_identifier}` | {alt} |")
         w("\n</details>\n")
     return "\n".join(out).rstrip()

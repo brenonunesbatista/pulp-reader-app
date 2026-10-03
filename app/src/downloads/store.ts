@@ -20,7 +20,10 @@ export interface DownloadStore {
 
 const ROOT = 'downloads'
 const DIR = Directory.Data
-const dirOf = (ident: string) => `${ROOT}/${ident}`
+// a pack issue's scan key is "<item>/<stem>" with spaces and '#': one flat, safe folder name (plain IA identifiers
+// only use [A-Za-z0-9._-], so their folders keep their names)
+export const folderOf = (ident: string) => ident.replace(/\//g, '__').replace(/[^A-Za-z0-9._-]+/g, '_')
+const dirOf = (ident: string) => `${ROOT}/${folderOf(ident)}`
 
 class NativeStore implements DownloadStore {
   private made = new Set<string>()

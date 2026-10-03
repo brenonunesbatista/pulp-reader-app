@@ -2,6 +2,7 @@
 // Lookup order: downloaded files (Phase 5) → disk cache → network. The same fetchers fill downloads.
 import { readCache, writeCache } from './diskCache'
 import { getDownloadText } from './http'
+import { packPageSvc, scanParts, sizedImageUrl } from './scan'
 import { metrics } from './metrics'
 import type { OcrPage } from './ocrTypes'
 
@@ -27,7 +28,28 @@ interface IiifManifest {
   items: { width: number; height: number; items: { items: { body: { service: { id: string }[] } }[] }[] }[]
 }
 
+/** pages of a pack issue from its `<stem>_scandata.xml` (pages not added to access formats are skipped, as in IIIF) */
+export function parseScandata(xml: string, item: string, stem: string): PageInfo[] {
+  const out: PageInfo[] = []
+  for (const m of xml.matchAll(/<page leafNum="(\d+)">([\s\S]*?)<\/page>/g)) {
+    const body = m[2]
+    if (/<addToAccessFormats>false<\/addToAccessFormats>/.test(body)) continue
+    const num = (tag: string) => Number(new RegExp(`<${tag}>(\\d+)</${tag}>`).exec(body)?.[1] ?? 0)
+    const crop = /<cropBox>([\s\S]*?)<\/cropBox>/.exec(body)?.[1] ?? ''
+    const cw = Number(/<w>(\d+)<\/w>/.exec(crop)?.[1] ?? 0)
+    const ch = Number(/<h>(\d+)<\/h>/.exec(crop)?.[1] ?? 0)
+    out.push({ w: cw || num('origWidth'), h: ch || num('origHeight'), svc: packPageSvc(item, stem, Number(m[1]), out.length) })
+  }
+  return out
+}
+
 export async function fetchManifest(ident: string): Promise<PageInfo[]> {
+  const s = scanParts(ident)
+  if (s.pack) {
+    const pages = parseScandata(await getDownloadText(s.item, `${s.stem}_scandata.xml`), s.item, s.stem)
+    if (!pages.length) throw new Error('no pages in scandata')
+    return pages
+  }
   const r = await fetch(`https://iiif.archive.org/iiif/3/${ident}/manifest.json`)
   if (!r.ok) throw new Error(`manifest HTTP ${r.status}`)
   const text = await r.text()
@@ -55,9 +77,9 @@ export async function loadManifest(ident: string, local?: LocalFiles | null): Pr
   return pages
 }
 
+/** page image `width` px wide: IIIF, or the BookReader page URL of a pack issue IIIF cannot serve (engine/scan.ts) */
 export function iiifUrl(p: PageInfo, width: number): string {
-  const w = Math.min(width, p.w)
-  return w >= p.w ? `${p.svc}/full/max/0/default.jpg` : `${p.svc}/full/${w},/0/default.jpg`
+  return sizedImageUrl(p.svc, width, p.w)
 }
 
 /** compact on-disk form: per page [w, h, [[text, x0, y0, x1, y1, line], …]] (≈40 % of djvu.xml) */
@@ -72,7 +94,8 @@ const compact = (pages: OcrPage[]): CompactOcr =>
 /** Download `<id>_djvu.xml` and parse it off the main thread. */
 export async function fetchOcr(ident: string): Promise<CompactOcr> {
   const t0 = performance.now()
-  const xml = await getDownloadText(ident, `${ident}_djvu.xml`)
+  const { item, stem } = scanParts(ident)
+  const xml = await getDownloadText(item, `${stem}_djvu.xml`)
   const t1 = performance.now()
   const worker = new Worker(new URL('./ocr.worker.ts', import.meta.url), { type: 'module' })
   const pages = await new Promise<OcrPage[]>((resolve, reject) => {

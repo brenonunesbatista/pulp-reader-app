@@ -38,6 +38,8 @@ class Issue:
     volume: int | None = None
     number: int | None = None
     cover_image: bytes | None = None  # raw image extracted from the source, converted later
+    id: int | None = None  # stable id set by the adapter (packs); else assigned by catalog/db.py
+    page_count: int | None = None  # known at build time for packs (sub-book page count)
     stories: list[Story] = field(default_factory=list)
 
     @property

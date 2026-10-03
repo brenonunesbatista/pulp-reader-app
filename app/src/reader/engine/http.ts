@@ -7,9 +7,9 @@ import { metrics } from './metrics'
 const isNative = Capacitor.isNativePlatform()
 
 function downloadUrl(ident: string, file: string): string {
-  return isNative
-    ? `https://archive.org/download/${ident}/${file}`
-    : `/ia-download/${ident}/${file}`
+  // file names of pack issues have spaces, '#' and brackets ("Dungeon Magazine # 1 - …_djvu.xml")
+  const path = `${encodeURIComponent(ident)}/${encodeURIComponent(file)}`
+  return isNative ? `https://archive.org/download/${path}` : `/ia-download/${path}`
 }
 
 export async function getDownloadText(ident: string, file: string): Promise<string> {

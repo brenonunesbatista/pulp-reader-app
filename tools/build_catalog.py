@@ -24,6 +24,27 @@ sys.path.insert(0, str(ROOT))
 from catalog import covers, db, report, sources_report  # noqa: E402
 
 
+def write_pack_dates(m: dict, snap: Path, out: Path, pack) -> None:
+    """cover dates of a pack's issues and specials, read from their OCR text (tools/catalog/pack_dates.py)"""
+    from catalog import pack_dates as pd
+    books = json.loads(snap.read_text(encoding="utf-8"))
+    nums = pack.numbered(m, books)
+    lo, hi = (m["years"][0], 1), (m["years"][1], 12)
+    print(f"dating {m['name']}: {len(nums)} numbered issues", flush=True)
+    issues = pd.date_issues(m["item"], {n: s for n, s in nums.items()}, lo, hi, log=lambda s: print(s, flush=True))
+    specials = {}
+    if m.get("special_pattern"):
+        import re
+        for b in books:
+            if b["stem"] not in nums.values() and re.search(m["special_pattern"], b["stem"]):
+                d = pd.pick(pd.dates_in(pd.ocr_head(m["item"], b["stem"])), lo, hi)
+                print(f"  {b['stem']}: {d}", flush=True)
+                if d:
+                    specials[b["stem"]] = [*d, "ocr"]
+    out.write_text(json.dumps({"issues": {str(n): list(v) for n, v in issues.items()}, "specials": specials},
+                              indent=0) + "\n", encoding="utf-8", newline="\n")
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--out", type=Path, required=True, help="catalog output dir (catalog.db + covers/)")
@@ -31,6 +52,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--source", type=Path, help="reference PDF for the amazing_stories adapter (overrides sources.toml)")
     ap.add_argument("--only", help="comma-separated magazine slugs (default: all)")
     ap.add_argument("--refresh", action="store_true", help="re-read IA collection listings")
+    ap.add_argument("--date-packs", action="store_true", help="re-read the cover dates of pack issues (OCR, ~100 requests)")
     ap.add_argument("--report", type=Path, default=Path("docs/catalog-report.md"))
     ap.add_argument("--sources-report", type=Path, default=Path("docs/catalog-sources.md"))
     args = ap.parse_args(argv)
@@ -63,6 +85,21 @@ def main(argv: list[str] | None = None) -> int:
             parts.append(db.Part(cat, m["category"], alternates, m["block"]))
             collections.append((m, cat, alternates, skipped))
             meta[f"source:{m['slug']}"] = f"{cat.source} sha256 {hashlib.sha256(snap.read_bytes()).hexdigest()}"
+        elif m["adapter"] == "ia_pack":
+            pack = importlib.import_module("adapters.ia_pack")
+            snap = ROOT / "sources" / "ia" / f"{m['item']}.json"
+            dates = ROOT / "sources" / "ia" / f"{m['item']}.dates.json"
+            if args.refresh or not snap.exists():
+                snap.parent.mkdir(parents=True, exist_ok=True)
+                snap.write_text(json.dumps(pack.fetch(m["item"]), indent=0, ensure_ascii=False) + "\n",
+                                encoding="utf-8", newline="\n")
+            if args.date_packs or not dates.exists():
+                write_pack_dates(m, snap, dates, pack)
+            cat, skipped = pack.parse(m, snap, dates)
+            parts.append(db.Part(cat, m["category"], {}, m["block"]))
+            collections.append((m, cat, {}, skipped))
+            meta[f"source:{m['slug']}"] = (f"{cat.source} sha256 "
+                                           f"{hashlib.sha256(snap.read_bytes() + dates.read_bytes()).hexdigest()}")
         else:
             raise SystemExit(f"unknown adapter {m['adapter']!r} for {m['slug']}")
     names = [p.cat.magazine_name for p in parts]

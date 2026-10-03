@@ -1,3 +1,4 @@
+import { packPageSvc, scanParts, sizedImageUrl } from '../reader/engine/scan'
 import type { DownloadInfo, IssueSummary, Story } from '../data/models'
 
 const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
@@ -9,6 +10,11 @@ export const roleLabel = (r: keyof typeof ROLE_LABEL) => ROLE_LABEL[r]
  *  Internet Archive (small: ~180 px thumbnail for grids, large: ~100 KB for the issue page) */
 export function coverUrl(path: string | null, size: 'small' | 'large' = 'small'): string | null {
   if (!path) return null
+  if (path.startsWith('ia:') && path.includes('/')) {
+    // an issue inside a pack item: its first page (the item's own thumbnail would be the first issue's cover)
+    const { item, stem } = scanParts(path.slice(3))
+    return sizedImageUrl(packPageSvc(item, stem, 0, 0), size === 'large' ? 600 : 200, Infinity)
+  }
   if (path.startsWith('ia:')) {
     const id = encodeURIComponent(path.slice(3))
     return size === 'large' ? `https://archive.org/download/${id}/page/cover_medium.jpg` : `https://archive.org/services/img/${id}`
@@ -18,6 +24,13 @@ export function coverUrl(path: string | null, size: 'small' | 'large' = 'small')
 
 /** "Galaxy, October 1950" → "Galaxy" (issue titles are "<magazine>, <date>") */
 export const magazineOf = (title: string) => title.replace(/,\s*[^,]*\d{4}(\s*\(.*\))?$/, '')
+
+/** short label of an issue without a cover artist: "#100" (packs), "Vol. 7 · No. 4", or a special's title */
+export function issueLabel(i: Pick<IssueSummary, 'title' | 'volume' | 'number'>): string {
+  if (i.volume != null && i.number != null) return `Vol. ${i.volume} · No. ${i.number}`
+  if (i.number != null) return `#${i.number}`
+  return i.title.includes(',') ? '—' : i.title // pack specials: "Dragon Annual 1", "The Best of Dragon Vol. 2"
+}
 
 export const coverTag = (i: Pick<IssueSummary, 'year' | 'month'>) => monthYear(i.year, i.month).toUpperCase()
 

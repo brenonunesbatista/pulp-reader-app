@@ -1,0 +1,1110 @@
+{
+"issues": {
+"1": [
+1986,
+10,
+"ocr"
+],
+"2": [
+1986,
+12,
+"interpolated"
+],
+"3": [
+1987,
+2,
+"ocr"
+],
+"4": [
+1987,
+3,
+"ocr"
+],
+"5": [
+1987,
+5,
+"interpolated"
+],
+"6": [
+1987,
+7,
+"ocr"
+],
+"7": [
+1987,
+9,
+"ocr"
+],
+"8": [
+1987,
+12,
+"ocr"
+],
+"9": [
+1988,
+2,
+"ocr"
+],
+"10": [
+1988,
+4,
+"ocr"
+],
+"11": [
+1988,
+5,
+"interpolated"
+],
+"12": [
+1988,
+6,
+"interpolated"
+],
+"13": [
+1988,
+7,
+"interpolated"
+],
+"14": [
+1988,
+8,
+"interpolated"
+],
+"15": [
+1988,
+9,
+"ocr"
+],
+"16": [
+1989,
+3,
+"ocr"
+],
+"17": [
+1989,
+6,
+"ocr"
+],
+"18": [
+1989,
+6,
+"interpolated"
+],
+"19": [
+1989,
+8,
+"ocr"
+],
+"20": [
+1989,
+12,
+"ocr"
+],
+"21": [
+1990,
+2,
+"ocr"
+],
+"22": [
+1990,
+3,
+"ocr"
+],
+"23": [
+1990,
+6,
+"ocr"
+],
+"24": [
+1990,
+6,
+"interpolated"
+],
+"25": [
+1990,
+6,
+"ocr"
+],
+"26": [
+1990,
+10,
+"ocr"
+],
+"27": [
+1990,
+10,
+"ocr"
+],
+"28": [
+1991,
+2,
+"interpolated"
+],
+"29": [
+1991,
+5,
+"ocr"
+],
+"30": [
+1991,
+7,
+"interpolated"
+],
+"31": [
+1991,
+9,
+"interpolated"
+],
+"32": [
+1991,
+12,
+"interpolated"
+],
+"33": [
+1992,
+2,
+"interpolated"
+],
+"34": [
+1992,
+3,
+"ocr"
+],
+"35": [
+1992,
+6,
+"ocr"
+],
+"36": [
+1992,
+8,
+"ocr"
+],
+"37": [
+1992,
+10,
+"ocr"
+],
+"38": [
+1992,
+12,
+"ocr"
+],
+"39": [
+1993,
+1,
+"interpolated"
+],
+"40": [
+1993,
+2,
+"ocr"
+],
+"41": [
+1993,
+5,
+"ocr"
+],
+"42": [
+1993,
+8,
+"ocr"
+],
+"43": [
+1993,
+8,
+"ocr"
+],
+"44": [
+1993,
+10,
+"interpolated"
+],
+"45": [
+1994,
+1,
+"ocr"
+],
+"46": [
+1994,
+3,
+"ocr"
+],
+"47": [
+1998,
+2,
+"interpolated"
+],
+"48": [
+2000,
+2,
+"interpolated"
+],
+"49": [
+2002,
+2,
+"interpolated"
+],
+"50": [
+2004,
+3,
+"ocr"
+],
+"51": [
+2004,
+3,
+"interpolated"
+],
+"52": [
+2004,
+3,
+"interpolated"
+],
+"53": [
+2004,
+3,
+"interpolated"
+],
+"54": [
+2004,
+3,
+"interpolated"
+],
+"55": [
+2004,
+3,
+"interpolated"
+],
+"56": [
+2004,
+3,
+"interpolated"
+],
+"57": [
+2004,
+3,
+"interpolated"
+],
+"58": [
+2004,
+3,
+"interpolated"
+],
+"59": [
+2004,
+3,
+"interpolated"
+],
+"60": [
+2004,
+3,
+"interpolated"
+],
+"61": [
+2004,
+3,
+"interpolated"
+],
+"62": [
+2004,
+3,
+"interpolated"
+],
+"63": [
+2004,
+3,
+"interpolated"
+],
+"64": [
+2004,
+3,
+"interpolated"
+],
+"65": [
+2004,
+3,
+"interpolated"
+],
+"66": [
+2004,
+3,
+"interpolated"
+],
+"67": [
+2004,
+3,
+"interpolated"
+],
+"68": [
+2004,
+3,
+"interpolated"
+],
+"69": [
+2004,
+3,
+"interpolated"
+],
+"70": [
+2004,
+3,
+"interpolated"
+],
+"71": [
+2004,
+3,
+"interpolated"
+],
+"72": [
+2004,
+3,
+"interpolated"
+],
+"73": [
+2004,
+3,
+"interpolated"
+],
+"74": [
+2004,
+3,
+"interpolated"
+],
+"75": [
+2004,
+3,
+"interpolated"
+],
+"76": [
+2004,
+3,
+"interpolated"
+],
+"77": [
+2004,
+3,
+"interpolated"
+],
+"78": [
+2004,
+3,
+"interpolated"
+],
+"79": [
+2004,
+3,
+"interpolated"
+],
+"80": [
+2004,
+3,
+"interpolated"
+],
+"81": [
+2004,
+3,
+"interpolated"
+],
+"82": [
+2004,
+3,
+"interpolated"
+],
+"83": [
+2004,
+3,
+"interpolated"
+],
+"84": [
+2004,
+3,
+"interpolated"
+],
+"85": [
+2004,
+3,
+"interpolated"
+],
+"86": [
+2004,
+3,
+"interpolated"
+],
+"87": [
+2004,
+3,
+"interpolated"
+],
+"88": [
+2004,
+3,
+"interpolated"
+],
+"89": [
+2004,
+3,
+"interpolated"
+],
+"90": [
+2004,
+3,
+"interpolated"
+],
+"91": [
+2004,
+3,
+"interpolated"
+],
+"92": [
+2004,
+3,
+"interpolated"
+],
+"93": [
+2004,
+3,
+"interpolated"
+],
+"94": [
+2004,
+3,
+"interpolated"
+],
+"95": [
+2004,
+3,
+"interpolated"
+],
+"96": [
+2004,
+3,
+"interpolated"
+],
+"97": [
+2004,
+3,
+"interpolated"
+],
+"98": [
+2004,
+3,
+"interpolated"
+],
+"99": [
+2004,
+3,
+"interpolated"
+],
+"100": [
+2004,
+3,
+"ocr"
+],
+"101": [
+2004,
+3,
+"interpolated"
+],
+"102": [
+2004,
+4,
+"interpolated"
+],
+"103": [
+2004,
+4,
+"interpolated"
+],
+"104": [
+2004,
+4,
+"interpolated"
+],
+"105": [
+2004,
+4,
+"interpolated"
+],
+"106": [
+2004,
+4,
+"interpolated"
+],
+"107": [
+2004,
+4,
+"ocr"
+],
+"108": [
+2004,
+5,
+"interpolated"
+],
+"109": [
+2004,
+5,
+"interpolated"
+],
+"110": [
+2004,
+5,
+"ocr"
+],
+"111": [
+2004,
+6,
+"interpolated"
+],
+"112": [
+2004,
+7,
+"interpolated"
+],
+"113": [
+2004,
+8,
+"interpolated"
+],
+"114": [
+2004,
+9,
+"interpolated"
+],
+"115": [
+2004,
+10,
+"interpolated"
+],
+"116": [
+2004,
+11,
+"interpolated"
+],
+"117": [
+2004,
+12,
+"interpolated"
+],
+"118": [
+2005,
+1,
+"interpolated"
+],
+"119": [
+2005,
+2,
+"interpolated"
+],
+"120": [
+2005,
+3,
+"ocr"
+],
+"121": [
+2005,
+4,
+"interpolated"
+],
+"122": [
+2005,
+5,
+"interpolated"
+],
+"123": [
+2005,
+6,
+"interpolated"
+],
+"124": [
+2005,
+7,
+"interpolated"
+],
+"125": [
+2005,
+8,
+"interpolated"
+],
+"126": [
+2005,
+9,
+"interpolated"
+],
+"127": [
+2005,
+10,
+"interpolated"
+],
+"128": [
+2005,
+11,
+"interpolated"
+],
+"129": [
+2005,
+12,
+"interpolated"
+],
+"130": [
+2006,
+1,
+"ocr"
+],
+"131": [
+2006,
+2,
+"interpolated"
+],
+"132": [
+2006,
+3,
+"interpolated"
+],
+"133": [
+2006,
+4,
+"interpolated"
+],
+"134": [
+2006,
+5,
+"interpolated"
+],
+"135": [
+2006,
+6,
+"interpolated"
+],
+"136": [
+2006,
+7,
+"interpolated"
+],
+"137": [
+2006,
+8,
+"interpolated"
+],
+"138": [
+2006,
+9,
+"interpolated"
+],
+"139": [
+2006,
+10,
+"interpolated"
+],
+"140": [
+2006,
+11,
+"ocr"
+],
+"141": [
+2006,
+12,
+"interpolated"
+],
+"142": [
+2007,
+1,
+"interpolated"
+],
+"143": [
+2007,
+2,
+"interpolated"
+],
+"144": [
+2007,
+3,
+"interpolated"
+],
+"145": [
+2007,
+4,
+"interpolated"
+],
+"146": [
+2007,
+5,
+"interpolated"
+],
+"147": [
+2007,
+6,
+"interpolated"
+],
+"148": [
+2007,
+7,
+"interpolated"
+],
+"149": [
+2007,
+8,
+"interpolated"
+],
+"150": [
+2007,
+9,
+"ocr"
+],
+"151": [
+2007,
+10,
+"ocr"
+],
+"152": [
+2007,
+10,
+"ocr"
+],
+"153": [
+2008,
+2,
+"ocr"
+],
+"154": [
+2008,
+5,
+"ocr"
+],
+"155": [
+2008,
+6,
+"ocr"
+],
+"156": [
+2008,
+7,
+"interpolated"
+],
+"157": [
+2008,
+8,
+"interpolated"
+],
+"158": [
+2008,
+9,
+"interpolated"
+],
+"159": [
+2008,
+10,
+"interpolated"
+],
+"160": [
+2008,
+11,
+"ocr"
+],
+"161": [
+2008,
+12,
+"interpolated"
+],
+"162": [
+2009,
+1,
+"interpolated"
+],
+"163": [
+2009,
+2,
+"interpolated"
+],
+"164": [
+2009,
+3,
+"interpolated"
+],
+"165": [
+2009,
+4,
+"interpolated"
+],
+"166": [
+2009,
+5,
+"interpolated"
+],
+"167": [
+2009,
+6,
+"interpolated"
+],
+"168": [
+2009,
+7,
+"interpolated"
+],
+"169": [
+2009,
+8,
+"interpolated"
+],
+"170": [
+2009,
+9,
+"ocr"
+],
+"171": [
+2009,
+10,
+"interpolated"
+],
+"172": [
+2009,
+11,
+"interpolated"
+],
+"173": [
+2009,
+12,
+"interpolated"
+],
+"174": [
+2010,
+1,
+"interpolated"
+],
+"175": [
+2010,
+2,
+"interpolated"
+],
+"176": [
+2010,
+3,
+"interpolated"
+],
+"177": [
+2010,
+4,
+"interpolated"
+],
+"178": [
+2010,
+5,
+"interpolated"
+],
+"179": [
+2010,
+6,
+"interpolated"
+],
+"180": [
+2010,
+7,
+"ocr"
+],
+"181": [
+2010,
+8,
+"interpolated"
+],
+"182": [
+2010,
+9,
+"interpolated"
+],
+"183": [
+2010,
+10,
+"interpolated"
+],
+"184": [
+2010,
+11,
+"interpolated"
+],
+"185": [
+2010,
+12,
+"interpolated"
+],
+"186": [
+2011,
+1,
+"interpolated"
+],
+"187": [
+2011,
+2,
+"interpolated"
+],
+"188": [
+2011,
+3,
+"interpolated"
+],
+"189": [
+2011,
+4,
+"interpolated"
+],
+"190": [
+2011,
+5,
+"ocr"
+],
+"191": [
+2011,
+6,
+"interpolated"
+],
+"192": [
+2011,
+7,
+"interpolated"
+],
+"193": [
+2011,
+8,
+"interpolated"
+],
+"194": [
+2011,
+9,
+"interpolated"
+],
+"195": [
+2011,
+10,
+"interpolated"
+],
+"196": [
+2011,
+11,
+"interpolated"
+],
+"197": [
+2011,
+12,
+"interpolated"
+],
+"198": [
+2012,
+1,
+"interpolated"
+],
+"199": [
+2012,
+2,
+"interpolated"
+],
+"200": [
+2012,
+3,
+"ocr"
+],
+"201": [
+2012,
+4,
+"interpolated"
+],
+"202": [
+2012,
+5,
+"interpolated"
+],
+"203": [
+2012,
+6,
+"interpolated"
+],
+"204": [
+2012,
+7,
+"interpolated"
+],
+"205": [
+2012,
+8,
+"interpolated"
+],
+"206": [
+2012,
+9,
+"interpolated"
+],
+"207": [
+2012,
+10,
+"interpolated"
+],
+"208": [
+2012,
+11,
+"interpolated"
+],
+"209": [
+2012,
+12,
+"interpolated"
+],
+"210": [
+2013,
+1,
+"ocr"
+],
+"211": [
+2013,
+2,
+"interpolated"
+],
+"212": [
+2013,
+3,
+"interpolated"
+],
+"213": [
+2013,
+4,
+"interpolated"
+],
+"214": [
+2013,
+5,
+"interpolated"
+],
+"215": [
+2013,
+6,
+"interpolated"
+],
+"216": [
+2013,
+7,
+"interpolated"
+],
+"217": [
+2013,
+8,
+"interpolated"
+],
+"218": [
+2013,
+9,
+"interpolated"
+],
+"219": [
+2013,
+10,
+"interpolated"
+],
+"220": [
+2013,
+11,
+"ocr"
+],
+"221": [
+2013,
+12,
+"ocr"
+]
+},
+"specials": {}
+}

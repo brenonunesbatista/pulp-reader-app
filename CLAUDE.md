@@ -23,7 +23,9 @@ Capacitor (Android) · Vite · React · TypeScript (strict) · SQLite (`@capacit
 - Icons/splash (after changing the mark): `python tools/brand/make_icons.py` then `cd app && npx capacitor-assets generate --android`
 - Python setup (once): `python -m venv .venv && .venv\Scripts\pip install -r tools/requirements.txt`
 - Catalog build: `python tools/build_catalog.py --out app/public/catalog` (all magazines in `tools/sources.toml`;
-  `--refresh` re-reads the IA collection listings into `tools/sources/ia/*.json`, committed; `--only slug,slug`;
+  `--refresh` re-reads the IA collection / pack listings into `tools/sources/ia/*.json`, committed; `--date-packs`
+  re-reads the cover dates of pack issues from their OCR (`*.dates.json`, committed, ~150 ranged requests);
+  `--only slug,slug`;
   writes `catalog.db` + `covers/*.webp`, both git-ignored, `docs/catalog-report.md` and `docs/catalog-sources.md`)
 - Atlas review page: `python tools/atlas/review_page.py --out <file.html>` (one HTML page, path + all entities, OK/Change marks)
 - Atlas media suggestions: `python tools/atlas/suggest_media.py --out media.json` (free Commons images + IMDb/Spotify ids from Wikidata, batched; review before adding)

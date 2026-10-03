@@ -60,3 +60,39 @@ name = "Rod Serling's The Twilight Zone Magazine"
 category = "pulp"
 adapter = "ia_collection"
 collection = "twilightzonemagazine"
+
+# Packs: one IA item holding many issues (sub-books). Dates: tools/sources/ia/<item>.dates.json, made once with
+# build_catalog.py --date-packs (reads the cover date of anchor issues from their OCR text, see catalog/pack_dates.py).
+[[magazine]]
+slug = "dragon"
+block = 6
+name = "Dragon"
+category = "rpg"
+adapter = "ia_pack"
+item = "DragonMagazine260_201801"
+years = [1976, 2013]
+issue_pattern = 'Dragon ?Magazine ?(\d+)'
+special_pattern = 'Annual|Best of|Compendium|The Art of|Web ?(Supplement|Enhancement)'
+# the OCR of #2–#9 (1976–77, irregular schedule) quotes many dates; spread them evenly between #1 (Jun 1976) and #10
+# (Oct 1977), both read from the OCR
+interpolate = [[1, 10]]
+
+[[magazine]]
+slug = "dungeon"
+block = 7
+name = "Dungeon"
+category = "rpg"
+adapter = "ia_pack"
+item = "dungeon-magazine"
+years = [1986, 2013]
+issue_pattern = 'Dungeon Magazine #? ?(\d+)(?!\d).*'
+# The OCR of 1986–2003 issues has no printed date (it is in the cover art), so the schedule comes from the masthead
+# ("published bimonthly" up to #97, "monthly" from #98) and dates read from the OCR: #1 Oct 1986, #60 Aug 1996,
+# #61 Oct 1996, #63 Feb 1997, #64 Oct 1997 (TSR's 1997 pause), #66 Feb 1998, #68 Jun 1998, #150 Sep 2007 (last print
+# issue), #155 Jun 2008, #160 Nov 2008, #170 Sep 2009, #221 Dec 2013. Issues #151–#154 keep their OCR dates.
+schedule = [
+  { from = 1, to = 63, start = "1986-10", step = 2 },
+  { from = 64, to = 97, start = "1997-10", step = 2 },
+  { from = 98, to = 150, start = "2003-05", step = 1 },
+  { from = 155, to = 221, start = "2008-06", step = 1 },
+]

@@ -302,3 +302,27 @@ Banca" on *Marooned off Vesta*, which has no scan; the spec adds the "in the cat
 - **Stable issue ids** (user.db keys progress, highlights and downloads by issue id): Amazing Stories keeps its ids
   1–309; every other magazine has a `block` in sources.toml and its ids are block × 10,000,000 + year × 1000 +
   month × 10 + n. Refreshing a collection or adding a magazine never moves an existing id.
+
+## 2026-10-03 — Phase 8b: pack items (Dragon, Dungeon)
+- **Packs**: one IA item holds every issue as a sub-book (`<stem>_jp2.zip`, `<stem>_djvu.xml`, `<stem>_scandata.xml`).
+  Dragon `DragonMagazine260_201801`: #1–#430 (no #305, #379) + 15 specials (annuals, best of, web supplements);
+  Dungeon `dungeon-magazine`: #1–#221. The catalog stores such a scan as `<item>/<stem>` in `ia_identifier`, so
+  progress, page maps, highlights and downloads work unchanged; downloads use a flattened folder name.
+- **Pages**: the item's IIIF manifest covers only its first book, so the page list comes from the sub-book's scandata
+  (pages with `addToAccessFormats=false` skipped, sizes from the crop box; ~20–40 KB, fetched natively like the OCR).
+  Images: IIIF `<item>/<stem>_jp2.zip/<stem>_jp2/<stem>_NNNN.jp2` — but IIIF answers 404 for any name containing `#` or
+  `&` (Dungeon #1–#99, "Dungeon Magazine # 1 - … & …"; every encoding tried), so those use the BookReader page URL
+  `archive.org/download/<item>/page/n<i>_w<width>.jpg?subPrefix=<stem>` (redirects to the data server). That URL sends
+  no CORS headers: the reader's image loader shows it through a plain `<img>` (HTTP cache) instead of fetch → blob.
+  First page of a pack issue: several seconds the first time (IA extracts it from the zip); later pages are prefetched.
+- **Dates**: sub-book names carry only issue numbers. `tools/catalog/pack_dates.py` reads the first 40 KB (then 400 KB)
+  of the OCR text of anchor issues (first, every 10th, last; one ranged request each, 1 s apart, cached in
+  tools/spike/out/ocr_heads), fills monthly runs between anchors and bisects irregular stretches; dates read out of
+  order are re-picked between their neighbours. Dragon: 72 read, the rest interpolated; #2–#9 (1976–77) are spread
+  evenly between #1 (Jun 1976) and #10 (Oct 1977). Dungeon's 1986–2003 OCR has no printed date (it is in the cover
+  art), so `sources.toml` holds its schedule from the masthead ("published bimonthly" to #97, monthly from #98) and OCR
+  anchors (#1 Oct 1986, #63 Feb 1997, #64 Oct 1997 after TSR's 1997 pause, #150 Sep 2007, #155 Jun 2008, #221 Dec 2013).
+  Specials without a readable date take the year in their name (annuals) or their issue's date (web supplements);
+  "The Best of Dragon Vol. 1" has neither and is skipped.
+- **Ids**: block × 10,000,000 + number × 10 (Dragon block 6, Dungeon block 7); specials block × 10M + 9M + crc32(stem).
+- 663 RPG issues; catalog 2,057 issues, 3.1 MB.

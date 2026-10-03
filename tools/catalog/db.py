@@ -66,7 +66,9 @@ def write(parts: list[Part], categories: list[dict], db_path: Path, cover_paths:
         per_month: dict[tuple[int, int], int] = {}
         for issue in cat.issues:
             count += 1
-            if part.block is None:
+            if issue.id is not None:
+                iid = issue.id
+            elif part.block is None:
                 seq += 1
                 iid = seq
             else:
@@ -82,7 +84,7 @@ def write(parts: list[Part], categories: list[dict], db_path: Path, cover_paths:
             con.execute("INSERT INTO issue VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (
                 iid, mid, issue.slug, issue.year, issue.month, issue.title, issue.volume, issue.number,
                 cover_artist, " & ".join(editors) or None, issue.ia_identifier, issue.availability,
-                cover_paths.get(issue.slug), None))
+                cover_paths.get(issue.slug), issue.page_count))
             con.executemany("INSERT INTO issue_scan VALUES (?, ?)",
                             [(iid, alt) for alt in part.alternates.get(issue.ia_identifier or "", [])])
             ip: list[tuple] = []

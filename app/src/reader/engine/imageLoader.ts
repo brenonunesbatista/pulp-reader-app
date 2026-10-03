@@ -4,6 +4,9 @@ import { BLOB_CACHE_PAGES } from './config'
 import { metrics } from './metrics'
 
 const MAX_CONCURRENT = 4
+/** BookReader page URLs (pack issues IIIF cannot serve, engine/scan.ts) send no CORS headers: fetch() fails, but an
+ *  <img> can load them (the WebView's HTTP cache keeps them instead of the blob cache) */
+const direct = (url: string) => url.includes('archive.org/download/')
 
 interface Task {
   url: string
@@ -18,30 +21,34 @@ export class ImageLoader {
   private blobs = new Map<string, Blob>() // insertion order = LRU order
   private pending = new Map<string, Task>()
   private active = 0
-
-  has(url: string) {
-    return this.blobs.has(url)
-  }
+  private warmed = new Set<string>()
 
   /** Fetch (or reuse) the blob and return a decoded <img>. Lower priority number = sooner. */
   async load(url: string, priority: number): Promise<HTMLImageElement> {
-    const blob = await this.blob(url, priority)
     const img = new Image()
     img.decoding = 'async'
     img.draggable = false
-    img.src = URL.createObjectURL(blob)
+    img.src = direct(url) ? url : URL.createObjectURL(await this.blob(url, priority))
     await img.decode()
     return img
   }
 
   /** Download into the blob cache without decoding (pages further ahead). */
   prefetch(url: string, priority: number): void {
+    if (direct(url)) {
+      if (!this.warmed.has(url)) { this.warmed.add(url); new Image().src = url } // into the HTTP cache
+      return
+    }
     if (this.blobs.has(url)) return
     this.blob(url, priority).catch(() => { /* aborted or failed: will be retried when the page gets closer */ })
   }
 
+  has(url: string) {
+    return this.blobs.has(url)
+  }
+
   release(img: HTMLImageElement) {
-    URL.revokeObjectURL(img.src)
+    if (img.src.startsWith('blob:')) URL.revokeObjectURL(img.src)
     img.removeAttribute('src')
   }
 

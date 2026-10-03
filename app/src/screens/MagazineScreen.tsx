@@ -5,6 +5,7 @@ import { useDb } from '../db/useDb'
 import { useDownloadList } from '../downloads/context'
 import { useNav } from '../nav/context'
 import { Cover, ErrorBox, Loading, Screen, SubMasthead } from '../ui/components'
+import { issueLabel } from '../ui/format'
 import { Icon } from '../ui/icons'
 import { useAsync } from '../ui/useAsync'
 import { decadeOf, filterIssues } from './issueFilter'
@@ -88,7 +89,7 @@ export function MagazineScreen({ id }: { id: number }) {
                   <button key={i.id} className="issue-card" onClick={() => nav.push({ name: 'issue', id: i.id })}>
                     <Cover path={i.coverPath} alt={i.title} noScan={i.availability !== 'ia'} dl={i.id} />
                     <span className="month">{MONTHS[i.month - 1]}</span>
-                    <span className="meta num">{i.coverArtist ?? '—'}{i.storyCount ? ` · ${i.storyCount}` : ''}</span>
+                    <span className="meta num">{i.coverArtist ?? issueLabel(i)}{i.storyCount ? ` · ${i.storyCount}` : ''}</span>
                   </button>
                 ))}
               </div>
