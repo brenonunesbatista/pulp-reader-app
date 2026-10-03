@@ -9,7 +9,7 @@ Magazine** (1981–1989), all readable page by page.
 Built for a Samsung Galaxy Tab A9+ (11", 1920×1200), with phone layouts for the Galaxy S25. Personal use only. It is not published on any store; see
 [Distribution](#distribution).
 
-> Status: **Phase 8a (new pulp sources)** built. Catalog, search, the production reader, offline downloads,
+> Status: **Phase 8a (new pulp sources)** verified on the tablet. Catalog, search, the production reader, offline downloads,
 > highlights with notes, Markdown export and the Atlas work. See [Roadmap](#roadmap).
 
 ## Features
