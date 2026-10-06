@@ -6,7 +6,8 @@ import {
   addHighlight, deleteHighlight, getPageMap, listBookmarks, listHighlights, savePageMap, setBookmark, updateHighlight,
   type Bookmark, type Highlight,
 } from '../data/annotationRepo'
-import { getContents, getIssue } from '../data/catalogRepo'
+import { getContents, getIssue, readerMagazine } from '../data/catalogRepo'
+import type { Spreads } from '../data/settingsRepo'
 import { getProgress, saveProgress } from '../data/progressRepo'
 import { useDb } from '../db/useDb'
 import { useDownload, useNetworkState } from '../downloads/context'
@@ -30,10 +31,11 @@ import './reader.css'
 const SAVE_DEBOUNCE_MS = 800
 type Panel = 'display' | 'contents' | 'notes' | 'pages' | null
 
-function layoutFor() {
+/** `allowSpread` false = one page at a time even in landscape (per magazine: Display panel, catalog default) */
+function layoutFor(allowSpread = true) {
   const w = window.innerWidth
   const h = window.innerHeight
-  return { spread: w > h && w >= 900, fitWidth: h > w && w < 600, compact: w < 600 }
+  return { spread: allowSpread && w > h && w >= 900, fitWidth: h > w && w < 600, compact: w < 600 }
 }
 
 export function ReaderScreen({ issueId, leaf = 0, storyId }: { issueId: number; leaf?: number; storyId?: number }) {
@@ -43,9 +45,10 @@ export function ReaderScreen({ issueId, leaf = 0, storyId }: { issueId: number; 
   const data = useAsync(async () => {
     const issue = await getIssue(catalog, issueId)
     if (!issue?.iaIdentifier) throw new Error('This issue has no scan on the Internet Archive.')
-    const [contents, progress, printed] = await Promise.all([
-      getContents(catalog, issueId), getProgress(user, issueId), getPageMap(user, issue.iaIdentifier)])
-    return { issue, contents, progress, printed }
+    const [contents, progress, printed, mag] = await Promise.all([
+      getContents(catalog, issueId), getProgress(user, issueId), getPageMap(user, issue.iaIdentifier),
+      readerMagazine(catalog, issue.magazineId)])
+    return { issue, contents, progress, printed, mag }
   }, [catalog, user, issueId])
 
   const viewport = useRef<HTMLDivElement>(null)
@@ -66,7 +69,13 @@ export function ReaderScreen({ issueId, leaf = 0, storyId }: { issueId: number; 
   const [card, setCard] = useState<{ id: number; editNote: boolean } | null>(null)
   const [lastColor, setLastColor] = useState('yellow')
   const [toast, setToast] = useState<string | null>(null)
-  const [layout, setLayout] = useState(layoutFor)
+  const [layout, setLayout] = useState(() => layoutFor())
+  // two pages side by side in landscape: the user's choice for this magazine, else the catalog default (Peanuts: never)
+  const magSlug = data.status === 'ok' ? data.data.mag?.slug ?? null : null
+  const allowSpread: Spreads = (magSlug ? settings.spreads[magSlug] : undefined)
+    ?? (data.status === 'ok' ? data.data.mag?.spreads : undefined) ?? 'auto'
+  const allowRef = useRef(true)
+  allowRef.current = allowSpread !== 'never'
   const moved = useRef(0)
   const pending = useRef<{ page: number } | null>(null)
   const timer = useRef(0)
@@ -107,7 +116,8 @@ export function ReaderScreen({ issueId, leaf = 0, storyId }: { issueId: number; 
       onError: setError,
     })
     ctl.current = c
-    const l = layoutFor()
+    const l = layoutFor(allowRef.current)
+    setLayout(l)
     const resume = progress && progress.page === leaf ? { zoom: progress.zoom, cx: progress.offsetX, cy: progress.offsetY } : undefined
     void c.init(leaf, { spread: l.spread, fitWidth: l.fitWidth, view: resume })
     return () => {
@@ -157,7 +167,7 @@ export function ReaderScreen({ issueId, leaf = 0, storyId }: { issueId: number; 
       t = window.setTimeout(() => {
         // the on-screen keyboard (writing a note) shrinks the window: keep the layout
         if (document.activeElement instanceof HTMLTextAreaElement || document.activeElement instanceof HTMLInputElement) return
-        const l = layoutFor()
+        const l = layoutFor(allowRef.current)
         setLayout(l)
         ctl.current?.setLayout(l.spread, l.fitWidth)
       }, 150)
@@ -282,7 +292,17 @@ export function ReaderScreen({ issueId, leaf = 0, storyId }: { issueId: number; 
                        compact={layout.compact} panel={panel} enhance={settings.enhance}
                        onGo={goLeaf} onToggle={toggle} onEnhance={() => update('enhance', !settings.enhance)} />
 
-      {panel === 'display' && chrome && <DisplayPanel />}
+      {panel === 'display' && chrome && (
+        <DisplayPanel spreads={allowSpread} magazine={data.status === 'ok' ? data.data.mag?.name ?? null : null}
+                      onSpreads={(v) => {
+                        if (!magSlug) return
+                        update('spreads', { ...settings.spreads, [magSlug]: v })
+                        allowRef.current = v !== 'never'
+                        const l = layoutFor(allowRef.current)
+                        setLayout(l)
+                        ctl.current?.setLayout(l.spread, l.fitWidth)
+                      }} />
+      )}
       {panel === 'contents' && chrome && <ContentsDrawer starts={starts} current={story} label={label} onGo={goLeaf} />}
       {panel === 'notes' && chrome && (
         <NotesDrawer highlights={highlights} bookmarks={bookmarks} label={label} onGo={goLeaf}

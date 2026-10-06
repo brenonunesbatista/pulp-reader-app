@@ -4,7 +4,8 @@ import type { DownloadInfo, IssueSummary, Story } from '../data/models'
 const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 const ROLE_LABEL = { author: 'Author', editor: 'Editor', cover_artist: 'Cover artist', translator: 'Translator' } as const
 
-export const monthYear = (year: number, month: number) => `${MON[month - 1]} ${year}`
+/** "Apr 1926"; month 0 = only the year is known (comics) */
+export const monthYear = (year: number, month: number) => (month ? `${MON[month - 1]} ${year}` : String(year))
 export const roleLabel = (r: keyof typeof ROLE_LABEL) => ROLE_LABEL[r]
 /** catalog cover paths are relative to the catalog dir (public/catalog); "ia:<identifier>" = the scan's cover on the
  *  Internet Archive (small: ~180 px thumbnail for grids, large: ~100 KB for the issue page) */
@@ -30,6 +31,12 @@ export function issueLabel(i: Pick<IssueSummary, 'title' | 'volume' | 'number'>)
   if (i.volume != null && i.number != null) return `Vol. ${i.volume} · No. ${i.number}`
   if (i.number != null) return `#${i.number}`
   return i.title.includes(',') ? '—' : i.title // pack specials: "Dragon Annual 1", "The Best of Dragon Vol. 2"
+}
+
+/** an issue's title without its magazine name: "Hellblazer #12" → "#12"; album titles stay ("Asterix the Gaul") */
+export function shortTitle(title: string, magazine: string): string {
+  const rest = title.startsWith(magazine) ? title.slice(magazine.length).replace(/^[,\s]+/, '') : ''
+  return /^(#|Vol\.)/.test(rest) ? rest : title
 }
 
 export const coverTag = (i: Pick<IssueSummary, 'year' | 'month'>) => monthYear(i.year, i.month).toUpperCase()

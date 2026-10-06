@@ -3,6 +3,7 @@ import type { Db } from '../db/types'
 
 export type AppTheme = 'paper' | 'night'
 export type ReaderTheme = 'paper' | 'sepia' | 'night'
+export type Spreads = 'auto' | 'never'
 
 export interface Settings {
   theme: AppTheme
@@ -12,10 +13,12 @@ export interface Settings {
   enhance: boolean
   perfOverlay: boolean
   wifiOnly: boolean // downloads wait for Wi-Fi
+  /** per magazine slug: two-page spreads in landscape ('auto') or always one page ('never'); unset = catalog default */
+  spreads: Record<string, Spreads>
 }
 
 export const DEFAULT_SETTINGS: Settings = {
-  theme: 'paper', readerTheme: 'paper', brightness: null, warmth: 0, enhance: false, perfOverlay: false, wifiOnly: true,
+  theme: 'paper', readerTheme: 'paper', brightness: null, warmth: 0, enhance: false, perfOverlay: false, wifiOnly: true, spreads: {},
 }
 
 export async function loadSettings(db: Db): Promise<Settings> {

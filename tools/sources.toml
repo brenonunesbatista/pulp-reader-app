@@ -96,3 +96,161 @@ schedule = [
   { from = 98, to = 150, start = "2003-05", step = 1 },
   { from = 155, to = 221, start = "2008-06", step = 1 },
 ]
+
+# ---- comics (Phase 8c): packs too, dated by year only (`year_only`: month unknown, shown as the year). Years come from
+# the file name (`year` group) where it has one — for Masterworks that is the edition year — else from `year_anchors`
+# (first/last issues of the run, or a table), interpolated in between.
+[[magazine]]
+slug = "amazing-spider-man-masterworks"
+block = 8
+name = "Amazing Spider-Man Masterworks"
+category = "comics"
+adapter = "ia_pack"
+item = "marvel-masterworks-amazing-spider-man-v-1-27"
+year_only = true
+issue_pattern = '.*?(?:\b[Vv]|Spider-Man )0*(\d+)\b.*?\((?P<year>\d{4})\).*'
+title = "{name} Vol. {n}"
+
+[[magazine]]
+slug = "daredevil-masterworks"
+block = 9
+name = "Daredevil Masterworks"
+category = "comics"
+adapter = "ia_pack"
+item = "marvel-masterworks-daredevil-v-1-19"
+year_only = true
+issue_pattern = '.*?(?:\b[Vv]|Daredevil |Masterworks )0*(\d+)\b.*?\((?P<year>\d{4})\).*'
+title = "{name} Vol. {n}"
+
+[[magazine]]
+slug = "captain-america-masterworks"
+block = 10
+name = "Captain America Masterworks"
+category = "comics"
+adapter = "ia_pack"
+item = "marvel-masterworks-captain-america-v-1-17"
+year_only = true
+issue_pattern = '.*?\b[Vv]0*(\d+)\b.*?\((?P<year>\d{4})\).*'
+title = "{name} Vol. {n}"
+
+[[magazine]]
+slug = "hellblazer"
+block = 11
+name = "Hellblazer"
+category = "comics"
+adapter = "ia_pack"
+item = "pinkcomics-hellblazer-1988"
+year_only = true
+issue_pattern = 'hellblazer-0*(\d+)'
+# DC/Vertigo, monthly: #1 Jan 1988 … #300 Feb 2013 (scans with Portuguese translation)
+year_anchors = [[1, 1988], [300, 2013]]
+
+[[magazine]]
+slug = "turok"
+block = 12
+name = "Turok, Son of Stone"
+category = "comics"
+adapter = "ia_pack"
+item = "turok-son-of-stone-1954-1982-complete-collection_202306"
+year_only = true
+issue_pattern = 'Turok Son of Stone 0*(\d+)(?: \((?P<year>\d{4})\))?.*'
+special_pattern = 'Giant'
+special_years = { "Turok Son of Stone Giant 01" = 1966 }
+# Dell (as Four Color 596 and 656) from 1954, Gold Key from 1962, Whitman until #130 (1982); #131 was unpublished
+year_anchors = [[1, 1954], [130, 1982], [131, 1982]]
+
+[[magazine]]
+slug = "a-espada-selvagem-de-conan"
+block = 13
+name = "A Espada Selvagem de Conan"
+category = "comics"
+adapter = "ia_pack"
+item = "aespadaselvagemdeconan2"
+year_only = true
+issue_pattern = 'A\.Espada\.Selvagem\.de\.Conan\.0*(\d+)\..*'
+ignore = 'Em\.Cores'
+# Editora Abril, in Portuguese: #1 1984 … #205 2001 (years read from the OCR of both)
+year_anchors = [[1, 1984], [205, 2001]]
+
+[[magazine]]
+slug = "a-espada-selvagem-de-conan-em-cores"
+block = 14
+name = "A Espada Selvagem de Conan em Cores"
+category = "comics"
+adapter = "ia_pack"
+item = "aespadaselvagemdeconan2"
+year_only = true
+issue_pattern = 'A\.Espada\.Selvagem\.de\.Conan\.Em\.Cores\.0*(\d+)\..*'
+ignore = '.'
+# Editora Abril, in Portuguese; OCR of #13 mentions 1989–1990
+year_anchors = [[1, 1989], [13, 1990]]
+
+[[magazine]]
+slug = "conan-the-barbarian"
+block = 15
+name = "Conan the Barbarian"
+category = "comics"
+adapter = "ia_pack"
+item = "conan-the-barbarian-1-24"
+year_only = true
+issue_pattern = 'Conan The Barbarian 0*(\d+)'
+# Marvel: #1 Oct 1970 … #24 Mar 1973
+year_anchors = [[1, 1970], [24, 1973]]
+
+[[magazine]]
+slug = "miracleman"
+block = 16
+name = "Miracleman"
+category = "comics"
+adapter = "ia_pack"
+item = "miracleman-reprints"
+year_only = true
+issue_pattern = 'Miracleman #0*(\d+).*'
+# Eclipse: #1 Aug 1985 … #16 Dec 1989
+year_anchors = [[1, 1985], [16, 1989]]
+
+[[magazine]]
+slug = "swamp-thing-bronze-age-omnibus"
+block = 17
+name = "Swamp Thing Bronze Age Omnibus"
+category = "comics"
+adapter = "ia_pack"
+item = "swamp-thing-bronze-age-omnibus-original-color-edition"
+year_only = true
+issue_pattern = 'NO-NUMBERED-ISSUES'
+special_pattern = 'Omnibus'
+# collects Swamp Thing #1–24 (1972–76); dated by the first issue
+special_years = { "Swamp Thing Bronze Age Omnibus (Original Color Edition)" = 1972 }
+
+[[magazine]]
+slug = "complete-peanuts"
+block = 18
+name = "The Complete Peanuts"
+category = "comics"
+adapter = "ia_pack"
+item = "the-complete-peanuts-volume-1-26"
+year_only = true
+issue_pattern = 'Volume (\d+)(?: - [^(]+)? \((?P<year>\d{4}) to (?P<end>\d{4})\)'
+title = "{name} Vol. {n} ({year}–{end})"
+# daily strips: wide pages read better one at a time
+spreads = "never"
+
+[[magazine]]
+slug = "asterix"
+block = 19
+name = "Asterix"
+category = "comics"
+adapter = "ia_pack"
+item = "35-asterix-and-the-picts"
+year_only = true
+issue_pattern = '(?:Asterix v)?0*(\d+)(?: - |[ _])(?P<title>.+?)(?: \(\d{4}\).*)?'
+title = "{title}"
+titles = { "38" = "Asterix and the Chieftain's Daughter" }
+special_pattern = 'Asterix|Obelix'
+# original album years (French editions)
+special_years = { "Asterix_Versus_Caesar" = 1985, "How_Obelix_Fell_into_the_Magic_Potion" = 1989, "Asterix_Conquers_America" = 1994 }
+year_anchors = [[1, 1961], [2, 1962], [3, 1963], [4, 1964], [5, 1965], [6, 1965], [7, 1966], [8, 1966], [9, 1966],
+  [10, 1967], [11, 1968], [12, 1968], [13, 1969], [14, 1969], [15, 1970], [16, 1970], [17, 1971], [18, 1972],
+  [19, 1972], [20, 1973], [21, 1974], [22, 1975], [23, 1976], [24, 1979], [25, 1980], [26, 1981], [27, 1983],
+  [28, 1987], [29, 1991], [30, 1996], [31, 2001], [32, 2003], [33, 2005], [34, 2009], [35, 2013], [36, 2015],
+  [37, 2017], [38, 2019], [39, 2021], [40, 2023]]

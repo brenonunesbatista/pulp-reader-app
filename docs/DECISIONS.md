@@ -326,3 +326,21 @@ Banca" on *Marooned off Vesta*, which has no scan; the spec adds the "in the cat
   "The Best of Dragon Vol. 1" has neither and is skipped.
 - **Ids**: block × 10,000,000 + number × 10 (Dragon block 6, Dungeon block 7); specials block × 10M + 9M + crc32(stem).
 - 663 RPG issues; catalog 2,057 issues, 3.1 MB.
+
+## 2026-10-06 — Phase 8c: comics
+- **12 titles, 823 issues/volumes**, all IA pack items with page sets + OCR + scandata, read through the pack adapter:
+  Amazing Spider-Man / Daredevil / Captain America Masterworks, Hellblazer (Portuguese scans), Turok Son of Stone,
+  A Espada Selvagem de Conan (Abril; the "Em Cores" run in the same item is its own series), Conan the Barbarian #1–24,
+  Miracleman (Eclipse), Swamp Thing Bronze Age Omnibus, The Complete Peanuts, Asterix. Category `comics`, a COMICS tab
+  (tablet masthead and phone bottom nav, now 5 items). Personal use; the user accepted that IA may remove items.
+- **Year only** (`year_only`; catalog `month = 0`, shown as the year): comics OCR is lettering, so no cover dates. Years
+  come from the file name where it has one (Masterworks: the edition year; Peanuts: the strips' first year; some Turok
+  issues), else from `year_anchors` in sources.toml (first/last issue of a run: Hellblazer 1988–2013, Conan the Barbarian
+  1970–1973, Miracleman 1985–1989, A Espada Selvagem de Conan 1984–2001 read from the OCR; Asterix: each album's
+  original year), interpolated linearly in between — approximate by a year for irregular runs (Turok).
+- Titles from a per-series template (`{name} #{n}`, `{name} Vol. {n}`, Asterix album names) and `titles` overrides;
+  scan-group tags are dropped. Grids show "#12" / "Vol. 3" / the album title where pulp shows the month.
+- **Spreads per magazine**: catalog `magazine.spreads` ('auto' | 'never', schema v3; Peanuts = never, its pages are wide
+  strips) and a user override per magazine slug in settings (`spreads`). Display panel: *Two pages side by side: In
+  landscape / Never*, applied at once (layout rebuilt).
+- Catalog: 19 magazines, 2,880 issues, 3.4 MB.

@@ -19,8 +19,8 @@ export function MagazineShelf({ category, magazines }: { category: Category; mag
             <div className="mosaic">{m.covers.map((c) => <Cover key={c} path={c} small />)}</div>
             <div className="info">
               <div className="title">{m.name}</div>
-              <div className="muted small num">{m.firstYear}–{m.lastYear}</div>
-              <div className="muted small num">{m.issueCount} issues · {m.readable} readable</div>
+              <div className="muted small num">{m.firstYear === m.lastYear ? m.firstYear : `${m.firstYear}–${m.lastYear}`}</div>
+              <div className="muted small num">{m.issueCount} {m.issueCount === 1 ? 'issue' : 'issues'} · {m.readable} readable</div>
               <span className="tag">OPEN</span>
             </div>
           </button>

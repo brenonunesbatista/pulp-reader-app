@@ -8,7 +8,7 @@ export type Route =
   | { name: 'reader'; issueId: number; leaf?: number; storyId?: number }
   | { name: 'settings' }
   | { name: 'notes' }
-  | { name: 'soon'; what: 'rpg' | 'atlas' }
+  | { name: 'soon'; what: 'rpg' | 'comics' | 'atlas' }
   | { name: 'atlas' }
   | { name: 'timeline'; focus?: string; subject?: string; saved?: number }
   | { name: 'entity'; id: string }
@@ -81,7 +81,7 @@ export function hashToRoute(hash: string): Route {
       ? { name, issueId: n, leaf: b ? Number(b) : undefined, ...(c ? { storyId: Number(c) } : {}) } : { name: 'library' }
     case 'settings': return { name }
     case 'notes': return { name }
-    case 'soon': return a === 'rpg' || a === 'atlas' ? { name, what: a } : { name: 'library' }
+    case 'soon': return a === 'rpg' || a === 'comics' || a === 'atlas' ? { name, what: a } : { name: 'library' }
     case 'atlas': return { name }
     case 'timeline': return a ? { name, focus: a } : { name }
     case 'timeline-of': return a ? { name: 'timeline', subject: decodeURIComponent(a) } : { name: 'timeline' }

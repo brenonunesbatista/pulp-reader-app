@@ -5,7 +5,9 @@ CREATE TABLE catalog_meta (key TEXT PRIMARY KEY, value TEXT NOT NULL);
 CREATE TABLE category (id INTEGER PRIMARY KEY, slug TEXT NOT NULL UNIQUE, name TEXT NOT NULL, sort INTEGER NOT NULL);
 CREATE TABLE magazine (
   id INTEGER PRIMARY KEY, name TEXT NOT NULL, slug TEXT NOT NULL UNIQUE, source TEXT,
-  category_id INTEGER NOT NULL REFERENCES category(id), sort INTEGER NOT NULL);
+  category_id INTEGER NOT NULL REFERENCES category(id), sort INTEGER NOT NULL,
+  -- reader default for two-page spreads in landscape: 'auto' | 'never' (wide strips, e.g. Peanuts)
+  spreads TEXT NOT NULL DEFAULT 'auto' CHECK (spreads IN ('auto', 'never')));
 CREATE TABLE issue (
   id INTEGER PRIMARY KEY,
   magazine_id INTEGER NOT NULL REFERENCES magazine(id),

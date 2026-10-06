@@ -2,8 +2,8 @@ import { beforeAll, describe, expect, it } from 'vitest'
 import type { Db } from '../db/types'
 import { memoryDb } from '../db/wasmDb'
 import { migrateUserDb, USER_MIGRATIONS } from '../db/userSchema'
-import { coverUrl } from '../ui/format'
-import { getContents, getIssue, getPersonWorks, listCategories, listIssues, listMagazines, search } from './catalogRepo'
+import { coverUrl, monthYear, shortTitle } from '../ui/format'
+import { getContents, getIssue, getPersonWorks, listCategories, readerMagazine, listIssues, listMagazines, search } from './catalogRepo'
 import { ftsQuery } from './fts'
 import { addHighlight, deleteHighlight, getPageMap, listBookmarks, listHighlights, savePageMap, setBookmark } from './annotationRepo'
 import { deleteAllProgress, deleteProgress, getProgress, recentProgress, saveProgress } from './progressRepo'
@@ -33,12 +33,22 @@ describe('catalog', () => {
   it('groups magazines by category; scans without a catalog cover use the Internet Archive cover', async () => {
     expect(await listCategories(db)).toEqual([{ slug: 'pulp', name: 'Pulp & science fiction' }, { slug: 'rpg', name: 'RPG magazines' }])
     const mags = await listMagazines(db)
-    expect(mags.map((m) => [m.slug, m.category])).toEqual([['amazing-stories', 'pulp'], ['galaxy', 'pulp']])
+    expect(mags.map((m) => [m.slug, m.category])).toEqual([['amazing-stories', 'pulp'], ['galaxy', 'pulp'], ['complete-peanuts', 'pulp']])
     expect(mags[1].covers).toEqual(['ia:Galaxy_v01n01_1950-10'])
     expect((await getIssue(db, 4))?.coverPath).toBe('ia:Galaxy_v01n01_1950-10')
     expect(coverUrl('ia:Galaxy_v01n01_1950-10')).toBe('https://archive.org/services/img/Galaxy_v01n01_1950-10')
     expect(coverUrl('ia:x', 'large')).toBe('https://archive.org/download/x/page/cover_medium.jpg')
     expect(coverUrl('covers/a.webp')).toBe('/catalog/covers/a.webp')
+  })
+
+  it('knows each magazine reader default for spreads; comics without a month show only the year', async () => {
+    expect(await readerMagazine(db, 3)).toEqual({ slug: 'complete-peanuts', name: 'The Complete Peanuts', spreads: 'never' })
+    expect(await readerMagazine(db, 1)).toMatchObject({ spreads: 'auto' })
+    expect(monthYear(1988, 0)).toBe('1988')
+    expect(monthYear(1926, 4)).toBe('Apr 1926')
+    expect(shortTitle('Hellblazer #12', 'Hellblazer')).toBe('#12')
+    expect(shortTitle('Asterix the Gaul', 'Asterix')).toBe('Asterix the Gaul')
+    expect(shortTitle('The Complete Peanuts Vol. 1 (1950–1952)', 'The Complete Peanuts')).toBe('Vol. 1 (1950–1952)')
   })
 
   it('lists issues chronologically with story counts', async () => {

@@ -4,21 +4,22 @@
 [Internet Archive](https://archive.org). Seven magazines, about 2,000 issues: **Amazing Stories** (1926–1956, 309
 issues with 4,000+ stories, searchable by title, author, editor, cover artist and translator), **The Magazine of Fantasy
 & Science Fiction** (1949–2007), **Galaxy** (1950–1980), **Fantastic** (1952–1980) and **Rod Serling's The Twilight Zone
-Magazine** (1981–1989), plus the RPG magazines **Dragon** (1976–2013) and **Dungeon** (1986–2013), all readable page by
-page.
+Magazine** (1981–1989), plus the RPG magazines **Dragon** (1976–2013) and **Dungeon** (1986–2013), and 12 comics titles (about 820
+issues and volumes: Hellblazer, Turok, Conan, Miracleman, Asterix, The Complete Peanuts, Marvel Masterworks and more),
+all readable page by page.
 
 Built for a Samsung Galaxy Tab A9+ (11", 1920×1200), with phone layouts for the Galaxy S25. Personal use only. It is not published on any store; see
 [Distribution](#distribution).
 
-> Status: **Phase 8b (RPG magazines)** verified on the tablet. Catalog, search, the production reader, offline downloads,
+> Status: **Phase 8c (comics)** built; 8b verified on the tablet. Catalog, search, the production reader, offline downloads,
 > highlights with notes, Markdown export and the Atlas work. See [Roadmap](#roadmap).
 
 ## Features
 
 - **Banca "Newsprint" design**: Paper and Night themes, bundled fonts (Big Shoulders Display + Source Serif 4), tablet
   masthead with Pulp / RPG / Atlas tabs and a phone bottom navigation. RPG and Atlas are marked *coming soon*.
-- **Library**: magazines by category (pulp & science fiction; RPG magazines on the RPG tab; comics next) with a cover
-  mosaic (upcoming magazines marked *coming soon*), plus a *Continue reading* shelf
+- **Library**: magazines by category (pulp & science fiction; RPG magazines and comics on their own tabs) with a
+  cover mosaic (upcoming magazines marked *coming soon*), plus a *Continue reading* shelf
   with each issue's progress. Progress can be cleared per issue (× on the shelf, *Clear progress* on the issue page)
   or all at once (Settings → Reading); highlights, bookmarks and downloads are kept.
 - **Magazine**: cover grid of every issue, with filters by decade and year and a *readable only* toggle.
@@ -164,7 +165,8 @@ pytest                                                      # catalog tools, fro
    ✅ 7d–7e: saved and subject timelines, a curator inbox, your own items on timelines.
 7. 🧪 **New sources** (categories **pulp**, **rpg**, **comics**): 8a ✅ F&SF, Galaxy, Fantastic, Twilight Zone (issue
    level, contents not indexed yet); 8b ✅ Dragon and Dungeon (issues inside multi-issue "pack" items, dated from their
-   OCR); 8c comics (list in [docs/BACKLOG.md](docs/BACKLOG.md)).
+   OCR); 8c 🧪 comics (12 titles, dated by year only; reader option *Two pages side by side: In landscape / Never*, remembered
+   per magazine, Peanuts defaults to Never).
 
 ## Distribution
 

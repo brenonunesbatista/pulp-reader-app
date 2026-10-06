@@ -21,6 +21,7 @@ const PATHS = {
   copy: 'M9 9h11v11H9zM5 15V4h11',
   pulp: 'M5 3h11l3 3v15H5zM9 8h6M9 12h6M9 16h4',
   dice: 'M5 5h14v14H5zM9 9h.01M15 15h.01M15 9h.01M9 15h.01M12 12h.01',
+  comic: 'M4 4h16v12H10l-5 4v-4H4zM8 9h8M8 12h5',
   check: 'M5 12l5 5 9-10',
   edit: 'M4 20h4L19 9l-4-4L4 16zM13 7l4 4',
   share: 'M12 4v11M8 8l4-4 4 4M5 13v7h14v-7',

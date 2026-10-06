@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { HIGHLIGHT_COLORS, type Bookmark, type Highlight } from '../data/annotationRepo'
 import { cleanText } from '../notes/markdown'
 import { HIGHLIGHT_HEX } from '../ui/format'
-import type { ReaderTheme } from '../data/settingsRepo'
+import type { ReaderTheme, Spreads } from '../data/settingsRepo'
 import { Icon } from '../ui/icons'
 import { useSettings } from '../ui/settingsContext'
 import { INDEX_THUMB_WIDTH, THUMB_WIDTH } from './engine/config'
@@ -76,7 +76,9 @@ const THEMES: { key: ReaderTheme; label: string; swatch: string }[] = [
   { key: 'night', label: 'Night', swatch: '#1C1A16' },
 ]
 
-export function DisplayPanel() {
+export function DisplayPanel({ spreads, magazine, onSpreads }: {
+  spreads: Spreads; magazine: string | null; onSpreads: (v: Spreads) => void
+}) {
   const { settings, update } = useSettings()
   const auto = settings.brightness === null
   return (
@@ -102,6 +104,17 @@ export function DisplayPanel() {
         <div className="row"><span>Warm filter</span><span className="num" style={{ color: '#5E4E3A' }}>{Math.round(settings.warmth * 100)}%</span></div>
         <input className="warm" type="range" min={0} max={100} value={Math.round(settings.warmth * 100)} aria-label="Warm filter"
                onChange={(e) => update('warmth', Number(e.target.value) / 100)} />
+      </div>
+      <div>
+        <div className="row"><span>Two pages side by side</span></div>
+        <div className="seg">
+          {(['auto', 'never'] as Spreads[]).map((v) => (
+            <button key={v} className={spreads === v ? 'on' : ''} onClick={() => onSpreads(v)}>
+              {v === 'auto' ? 'In landscape' : 'Never'}
+            </button>
+          ))}
+        </div>
+        {magazine && <p className="sub" style={{ margin: '4px 0 0', fontSize: 13, color: '#5E4E3A' }}>Remembered for {magazine}</p>}
       </div>
       <label className="switch enh">
         <span className="txt"><b>Enhance text</b><span className="sub">Darkens worn letters on old scans</span></span>

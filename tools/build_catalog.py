@@ -93,13 +93,13 @@ def main(argv: list[str] | None = None) -> int:
                 snap.parent.mkdir(parents=True, exist_ok=True)
                 snap.write_text(json.dumps(pack.fetch(m["item"]), indent=0, ensure_ascii=False) + "\n",
                                 encoding="utf-8", newline="\n")
-            if args.date_packs or not dates.exists():
+            if not m.get("year_only") and (args.date_packs or not dates.exists()):
                 write_pack_dates(m, snap, dates, pack)
             cat, skipped = pack.parse(m, snap, dates)
-            parts.append(db.Part(cat, m["category"], {}, m["block"]))
+            parts.append(db.Part(cat, m["category"], {}, m["block"], m.get("spreads", "auto")))
             collections.append((m, cat, {}, skipped))
             meta[f"source:{m['slug']}"] = (f"{cat.source} sha256 "
-                                           f"{hashlib.sha256(snap.read_bytes() + dates.read_bytes()).hexdigest()}")
+                                           f"{hashlib.sha256(snap.read_bytes() + (dates.read_bytes() if dates.exists() else b"")).hexdigest()}")
         else:
             raise SystemExit(f"unknown adapter {m['adapter']!r} for {m['slug']}")
     names = [p.cat.magazine_name for p in parts]

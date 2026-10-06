@@ -39,7 +39,7 @@ export function IssueScreen({ id }: { id: number }) {
   const resume = progress.status === 'ok' ? progress.data : null
   const openAt = (s: StoryInIssue) => nav.push({ name: 'reader', issueId: issue.id, leaf: s.iaLeaf ?? 0, storyId: s.id })
   const current = resume ? [...contents].reverse().find((s) => s.iaLeaf !== null && s.iaLeaf <= resume.page) : undefined
-  const kicker = [issue.volume && `Vol. ${issue.volume}`, issue.number && `No. ${issue.number}`, `${MONTHS[issue.month - 1]} ${issue.year}`]
+  const kicker = [issue.volume && `Vol. ${issue.volume}`, issue.number && `No. ${issue.number}`, issue.month ? `${MONTHS[issue.month - 1]} ${issue.year}` : String(issue.year)]
     .filter(Boolean).join(' · ')
 
   return (

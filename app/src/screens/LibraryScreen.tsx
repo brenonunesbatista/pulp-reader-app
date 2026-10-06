@@ -89,8 +89,8 @@ export function LibraryScreen() {
 
       {mags.status === 'loading' && <Loading />}
       {mags.status === 'error' && <ErrorBox error={mags.error} />}
-      {/* every category without a tab of its own (RPG has one) */}
-      {mags.status === 'ok' && mags.data.categories.filter((c) => c.slug !== 'rpg').map((c) => (
+      {/* every category without a tab of its own (RPG and Comics have one) */}
+      {mags.status === 'ok' && mags.data.categories.filter((c) => c.slug !== 'rpg' && c.slug !== 'comics').map((c) => (
         <MagazineShelf key={c.slug} category={c} magazines={mags.data.magazines} />
       ))}
     </Screen>

@@ -51,3 +51,19 @@ def test_dating_fills_monthly_runs_and_reads_irregular_ones(monkeypatch):
     assert {n: (y, m) for n, (y, m, _) in out.items()} == truth
     assert out[25][2] == "interpolated" and out[10][2] == "ocr"
     assert len(reads) < len(truth)  # monthly stretches are not read issue by issue
+
+
+def test_comics_years_only(tmp_path):
+    cfg = {"slug": "turok", "name": "Turok", "item": "T", "block": 12, "year_only": True,
+           "issue_pattern": r"Turok 0*(\d+)(?: \((?P<year>\d{4})\))?.*", "year_anchors": [[1, 1954], [9, 1962]],
+           "special_pattern": "Giant", "special_years": {"Turok Giant 01": 1966}, "titles": {"9": "Turok #9 (last)"}}
+    snap = tmp_path / "t.json"
+    snap.write_text(json.dumps([book("Turok 001"), book("Turok 005 (1957) (Dell) (c2c)"), book("Turok 007"),
+                                book("Turok 009"), book("Turok Giant 01")]))
+    cat, skipped = ia_pack.parse(cfg, snap, tmp_path / "unused.json")
+    got = {i.title: (i.year, i.month) for i in cat.issues}
+    # name year for #5, anchors for #1/#9, linear in between (#7: 1957 → 1962), month 0 = year only
+    assert got == {"Turok #1": (1954, 0), "Turok #5": (1957, 0), "Turok #7": (1960, 0), "Turok #9 (last)": (1962, 0),
+                   "Turok Giant 01": (1966, 0)}
+    assert skipped == []
+    assert ia_pack.clean_title("37 asterix and the chariot race") == "37 Asterix and the Chariot Race"

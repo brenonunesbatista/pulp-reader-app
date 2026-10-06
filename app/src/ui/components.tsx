@@ -58,7 +58,7 @@ export function SectionHeader({ title, aside }: { title: ReactNode; aside?: Reac
   )
 }
 
-export type Section = 'pulp' | 'rpg' | 'atlas' | 'search' | null
+export type Section = 'pulp' | 'rpg' | 'comics' | 'atlas' | 'search' | null
 
 /** Full masthead (Library): wordmark, section tabs, search, settings. On phones the tabs move to the bottom nav. */
 export function Masthead({ section, children }: { section: Section; children?: ReactNode }) {
@@ -90,6 +90,7 @@ function SectionTabs({ section }: { section: Section }) {
     <nav className="tabs">
       <button className={`tab ${section === 'pulp' ? 'on' : ''}`} onClick={() => nav.reset({ name: 'library' })}>PULP</button>
       <button className={`tab ${section === 'rpg' ? 'on' : ''}`} onClick={() => nav.push({ name: 'soon', what: 'rpg' })}>RPG</button>
+      <button className={`tab ${section === 'comics' ? 'on' : ''}`} onClick={() => nav.push({ name: 'soon', what: 'comics' })}>COMICS</button>
       <button className={`tab ${section === 'atlas' ? 'on' : ''}`} onClick={() => nav.reset({ name: 'atlas' })}>ATLAS</button>
     </nav>
   )
@@ -111,12 +112,13 @@ export function SubMasthead({ title, sub, children }: { title?: ReactNode; sub?:
   )
 }
 
-/** Phone bottom navigation (Pulp · RPG · Atlas · Search). */
+/** Phone bottom navigation (Pulp · RPG · Comics · Atlas · Search). */
 export function BottomNav({ section }: { section: Section }) {
   const nav = useNav()
   const items: { key: Exclude<Section, null>; label: string; icon: Parameters<typeof Icon>[0]['name']; go: () => void }[] = [
     { key: 'pulp', label: 'PULP', icon: 'pulp', go: () => nav.reset({ name: 'library' }) },
     { key: 'rpg', label: 'RPG', icon: 'dice', go: () => nav.push({ name: 'soon', what: 'rpg' }) },
+    { key: 'comics', label: 'COMICS', icon: 'comic', go: () => nav.push({ name: 'soon', what: 'comics' }) },
     { key: 'atlas', label: 'ATLAS', icon: 'atlas', go: () => nav.reset({ name: 'atlas' }) },
     { key: 'search', label: 'SEARCH', icon: 'search', go: () => nav.push({ name: 'search' }) },
   ]

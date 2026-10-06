@@ -9,6 +9,10 @@ const TEXT = {
     title: 'RPG magazines',
     body: 'Tabletop RPG magazines for campaign inspiration — Dragon, Dungeon, The Space Gamer — are being indexed.',
   },
+  comics: {
+    title: 'Comics',
+    body: 'Comics and collected editions.',
+  },
   atlas: {
     title: 'Atlas',
     body: 'An interactive timeline of stories, authors, magazines, films, music and art — and how they shaped each other.',
@@ -16,7 +20,7 @@ const TEXT = {
 }
 
 /** A tab whose category may still be empty: its magazines once indexed, a "coming soon" panel until then. */
-export function ComingSoonScreen({ what }: { what: 'rpg' | 'atlas' }) {
+export function ComingSoonScreen({ what }: { what: 'rpg' | 'comics' | 'atlas' }) {
   const { catalog } = useDb()
   const t = TEXT[what]
   const data = useAsync(async () => ({ categories: await listCategories(catalog), magazines: await listMagazines(catalog) }), [catalog])
