@@ -13,7 +13,7 @@ Ideas and sources to add later. Items move into a phase brief when they are sche
 | ✅ **5 Downloads** (verified on the tablet 2026-10-01) | SPEC phase 4 + user request: *Delete all* in Settings, a way to see what is downloaded (filter) | |
 | ✅ **6 Highlights & export** (verified on the tablet 2026-10-01) | SPEC phase 5: 4 colors, notes, web search, Notes screen, Markdown export | |
 | ✅ **7 Atlas (Explore / Hall)** — pilot verified 2026-10-02; second path (robots & AI) 2026-10-02; 7d saved/subject timelines + curator inbox verified 2026-10-03; 🧪 7e items added to timelines built 2026-10-03 | curated knowledge layer: interactive timeline, stories, authors, characters, themes, influence on film/music/manga; AI-drafted entries with web sources, reviewed by the user | needs a content pipeline + curation time; its data model starts in a spike early (see below) |
-| 🧪 **8 New sources** — 8a pulp collections verified on the tablet 2026-10-03; 🧪 8b packs (Dragon, Dungeon) built 2026-10-03; 8c comics | categories `pulp` / `rpg` / `comics` and the sources listed below | each source = adapter + dedupe + (later) contents |
+| 🧪 **8 New sources** — 8a pulp collections verified on the tablet 2026-10-03; 8b packs (Dragon, Dungeon) verified on the tablet 2026-10-06; 8c comics | categories `pulp` / `rpg` / `comics` and the sources listed below | each source = adapter + dedupe + (later) contents |
 
 ## Atlas (Explore / Hall) — design notes
 - **What:** an in-app "museum" to *discover*: a timeline (1900s → today) with lanes for magazines, stories, authors,
