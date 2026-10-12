@@ -31,6 +31,7 @@ export function UpdatesProvider({ children }: { children: ReactNode }) {
   /** ask the PC for a newer APK (cheap, on the LAN: at every start and every manual check) */
   const runApk = useCallback(async (manual: boolean) => {
     if (!serverRef.current.trim()) return
+    if (manual) setState((s) => ({ ...s, apk: null, apkMessage: 'Asking the PC for a new app version…' }))
     try {
       const apk = await checkApk(serverRef.current)
       setState((s) => ({ ...s, apk, apkMessage: apk ? null : 'This is the newest version on the PC.' }))
@@ -110,7 +111,11 @@ export function UpdatesProvider({ children }: { children: ReactNode }) {
   }, [state.apk])
 
   const api = useMemo(() => ({
-    state, check: () => { void run(true); void runApk(true) }, installApk: () => void install(),
+    state, check: (typed?: string) => {
+      if (typed !== undefined) serverRef.current = typed.trim()
+      void run(true)
+      void runApk(true)
+    }, installApk: () => void install(),
   }), [state, run, runApk, install])
   return (
     <UpdatesContext.Provider value={api}>

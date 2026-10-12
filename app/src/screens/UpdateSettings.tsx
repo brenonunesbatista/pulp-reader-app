@@ -16,7 +16,7 @@ export function UpdateSettings() {
   const busy = state.phase === 'checking' || state.phase === 'installing'
   const status = {
     idle: null, checking: 'Checking…', installing: 'Downloading the new Atlas…', current: 'Atlas is up to date.',
-    installed: 'Atlas updated.', error: `Could not check: ${state.message ?? 'unknown error'}`,
+    installed: 'Atlas updated.', error: `Could not check the Atlas: ${state.message ?? 'unknown error'}`,
   }[state.phase]
   return (
     <section className="settings-group">
@@ -31,7 +31,10 @@ export function UpdateSettings() {
         hours (on Wi-Fi when downloads are Wi-Fi only).
       </p>
       {status && <p className="small" role="status">{status}</p>}
-      <button className="btn" disabled={busy} onClick={check}>{busy ? 'Checking…' : 'Check for updates'}</button>
+      <button className="btn" disabled={busy} onClick={() => {
+        if (server.trim() !== settings.updateServer) update('updateServer', server.trim())
+        check(server)
+      }}>{busy ? 'Checking…' : 'Check for updates'}</button>
 
       {apkUpdates && (
         <>

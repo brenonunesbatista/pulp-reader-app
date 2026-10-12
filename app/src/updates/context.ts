@@ -15,7 +15,8 @@ export interface UpdatesState {
 export interface UpdatesApi {
   state: UpdatesState
   /** check now (Settings button); the app also checks by itself at most every few hours */
-  check: () => void
+  /** `server`: the PC address as typed (it may not be saved yet when the button is tapped) */
+  check: (server?: string) => void
   /** download the APK from the PC and open Android's installer */
   installApk: () => void
 }
