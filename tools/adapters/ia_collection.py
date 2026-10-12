@@ -136,6 +136,7 @@ def parse(cfg: dict, snapshot: Path) -> tuple[Catalog, dict[str, list[str]], lis
     skipped: list[tuple[str, str]] = []
     problems: list[ParseIssue] = []
     slots: dict[tuple[int, int], list[Scan]] = {}
+    parts: dict[int, dict[str, str]] = {}
     for row in rows:
         s = parse_scan(row)
         if include and not (include.search(s.identifier) or include.search(s.title)):
@@ -155,13 +156,16 @@ def parse(cfg: dict, snapshot: Path) -> tuple[Catalog, dict[str, list[str]], lis
             if not m:
                 skipped.append((s.identifier, "no issue number"))
                 continue
-            s.number = int(m[1])
+            # `number_join`: volume and number groups make one number (v1n02 → 102; title groups g1, g2)
+            s.number = int(m[1]) * 100 + int(m[2]) if cfg.get("number_join") else int(m[1])
+            if cfg.get("number_join"):
+                parts[s.number] = {"g1": str(int(m[1])), "g2": str(int(m[2]))}
             slots.setdefault((s.number, 0), []).append(s)
             continue
         slots.setdefault((s.year, s.month), []).append(s)
 
     if number_key:
-        return _by_number(cfg, slots, skipped, problems)
+        return _by_number(cfg, slots, skipped, problems, parts)
 
     issues: list[Issue] = []
     alternates: dict[str, list[str]] = {}
@@ -201,7 +205,7 @@ def snapshot_name(cfg: dict) -> str:
     return cfg["collection"] if cfg.get("collection") else f"q-{cfg['slug']}"
 
 
-def _by_number(cfg: dict, slots: dict, skipped: list, problems: list):
+def _by_number(cfg: dict, slots: dict, skipped: list, problems: list, parts: dict | None = None):
     """one issue per number (weekly papers; small magazines numbered but not dated); stable id = block × 10M +
     number × 10. `year_only`: month 0 and the year from the scan, else from `year_anchors` (catalog/years.py)."""
     from catalog.years import interpolate_years
@@ -223,7 +227,7 @@ def _by_number(cfg: dict, slots: dict, skipped: list, problems: list):
             y, mo, when = years[n][0], 0, str(years[n][0])
         else:
             y, mo, when = best.year, best.month, f"{MONTH_NAMES[best.month - 1]} {best.year}"
-        title = (cfg.get("title") or "{name} #{n}").format(name=cfg["name"], n=n)
+        title = (cfg.get("title") or "{name} #{n}").format(name=cfg["name"], n=n, **(parts or {}).get(n, {}))
         issue = Issue(year=y, month=mo, title=title if cfg.get("year_only") else f"{title}, {when}",
                       slug=f"{cfg['slug']}-{n:04d}", source_page=0, ia_identifier=best.identifier, number=n)
         issue.id = cfg["block"] * 10_000_000 + n * 10

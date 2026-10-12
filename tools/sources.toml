@@ -842,3 +842,368 @@ collection = "interzonemagazine"
 exclude = 'reference-guide|Reference Guide'
 isfdb = '^Interzone, '
 isfdb_exclude = '\bUK\b|British|Australian'
+
+# ---- Phase 11c: classic comics (blocks 90+; year only). Golden Age Fawcett and Ace titles (1940–1956, public domain)
+# and the black-and-white horror magazines of Warren and Skywald (1964–1985). One issue per number; reprints, excerpts,
+# partial scans, annuals and specials are left out. Years: the scan's date where the name has one, else the run's span.
+[[magazine]]
+slug = "whiz-comics"
+block = 90
+name = "Whiz Comics"
+category = "comics"
+adapter = "ia_collection"
+collection = "fawcett-comics"
+# Fawcett: Captain Marvel's first home (#2 Feb 1940 … #155 1953)
+include = 'Whiz_Comics'
+exclude = 'reprint|excerpt|_only|missing|Mighty_Midget|Wheaties|Special_Edition|alt_scan|alternate|Canadian|legal_notice|Annual|Yearbook|Fearbook|Handbook|Game_Book|Spectacular|Presents|Cover$|Limited|Winter$|Giveaway'
+year_only = true
+number_key = 'Whiz_Comics_0*(\d+)'
+year_anchors = [[2, 1940], [155, 1953]]
+
+[[magazine]]
+slug = "master-comics"
+block = 91
+name = "Master Comics"
+category = "comics"
+adapter = "ia_collection"
+collection = "fawcett-comics"
+# Fawcett: Bulletman, Captain Marvel Jr. (#1 1940 … #133 1953)
+include = 'Master_Comics|master-comics'
+exclude = 'reprint|excerpt|_only|missing|Mighty_Midget|Wheaties|Special_Edition|alt_scan|alternate|Canadian|legal_notice|Annual|Yearbook|Fearbook|Handbook|Game_Book|Spectacular|Presents|Cover$|Limited|Winter$|Giveaway'
+year_only = true
+number_key = 'master[_-]comics[_-]0*(\d+)'
+year_anchors = [[1, 1940], [133, 1953]]
+
+[[magazine]]
+slug = "marvel-family"
+block = 92
+name = "The Marvel Family"
+category = "comics"
+adapter = "ia_collection"
+collection = "fawcett-comics"
+# Fawcett (#1 Dec 1945 … #89 1954)
+include = 'Marvel_Family'
+exclude = 'reprint|excerpt|_only|missing|Mighty_Midget|Wheaties|Special_Edition|alt_scan|alternate|Canadian|legal_notice|Annual|Yearbook|Fearbook|Handbook|Game_Book|Spectacular|Presents|Cover$|Limited|Winter$|Giveaway'
+year_only = true
+number_key = 'Marvel_Family_0*(\d+)'
+year_anchors = [[1, 1945], [89, 1954]]
+
+[[magazine]]
+slug = "captain-marvel-jr"
+block = 93
+name = "Captain Marvel Jr."
+category = "comics"
+adapter = "ia_collection"
+collection = "fawcett-comics"
+# Fawcett (#1 Nov 1942 … #119 1953)
+include = 'Captain_Marvel_Jr_\d'
+exclude = 'reprint|excerpt|_only|missing|Mighty_Midget|Wheaties|Special_Edition|alt_scan|alternate|Canadian|legal_notice|Annual|Yearbook|Fearbook|Handbook|Game_Book|Spectacular|Presents|Cover$|Limited|Winter$|Giveaway'
+year_only = true
+number_key = 'Captain_Marvel_Jr_0*(\d+)'
+year_anchors = [[1, 1942], [119, 1953]]
+
+[[magazine]]
+slug = "wow-comics"
+block = 94
+name = "Wow Comics"
+category = "comics"
+adapter = "ia_collection"
+collection = "fawcett-comics"
+# Fawcett: Mary Marvel (#1 1940 … #69 1948)
+include = 'Wow_Comics'
+exclude = 'reprint|excerpt|_only|missing|Mighty_Midget|Wheaties|Special_Edition|alt_scan|alternate|Canadian|legal_notice|Annual|Yearbook|Fearbook|Handbook|Game_Book|Spectacular|Presents|Cover$|Limited|Winter$|Giveaway'
+year_only = true
+number_key = 'Wow_Comics_0*(\d+)'
+year_anchors = [[1, 1940], [69, 1948]]
+
+[[magazine]]
+slug = "mary-marvel"
+block = 95
+name = "Mary Marvel"
+category = "comics"
+adapter = "ia_collection"
+collection = "fawcett-comics"
+# Fawcett (#1 Dec 1945 … #28 1948)
+include = 'Mary_Marvel_\d'
+exclude = 'reprint|excerpt|_only|missing|Mighty_Midget|Wheaties|Special_Edition|alt_scan|alternate|Canadian|legal_notice|Annual|Yearbook|Fearbook|Handbook|Game_Book|Spectacular|Presents|Cover$|Limited|Winter$|Giveaway'
+year_only = true
+number_key = 'Mary_Marvel_0*(\d+)'
+year_anchors = [[1, 1945], [28, 1948]]
+
+[[magazine]]
+slug = "captain-midnight"
+block = 96
+name = "Captain Midnight"
+category = "comics"
+adapter = "ia_collection"
+collection = "fawcett-comics"
+# Fawcett (#1 1942 … #67 1948)
+include = 'Captain_Midnight_\d'
+exclude = 'reprint|excerpt|_only|missing|Mighty_Midget|Wheaties|Special_Edition|alt_scan|alternate|Canadian|legal_notice|Annual|Yearbook|Fearbook|Handbook|Game_Book|Spectacular|Presents|Cover$|Limited|Winter$|Giveaway'
+year_only = true
+number_key = 'Captain_Midnight_0*(\d+)'
+year_anchors = [[1, 1942], [67, 1948]]
+
+[[magazine]]
+slug = "spy-smasher"
+block = 97
+name = "Spy Smasher"
+category = "comics"
+adapter = "ia_collection"
+collection = "fawcett-comics"
+# Fawcett (#1 1940 … #11 1943)
+include = 'Spy_Smasher_\d'
+exclude = 'reprint|excerpt|_only|missing|Mighty_Midget|Wheaties|Special_Edition|alt_scan|alternate|Canadian|legal_notice|Annual|Yearbook|Fearbook|Handbook|Game_Book|Spectacular|Presents|Cover$|Limited|Winter$|Giveaway'
+year_only = true
+number_key = 'Spy_Smasher_0*(\d+)'
+year_anchors = [[1, 1940], [11, 1943]]
+
+[[magazine]]
+slug = "americas-greatest-comics"
+block = 98
+name = "America's Greatest Comics"
+category = "comics"
+adapter = "ia_collection"
+collection = "fawcett-comics"
+# Fawcett (#1 1941 … #8 1943)
+include = 'americas-greatest'
+exclude = 'reprint|excerpt|_only|missing|Mighty_Midget|Wheaties|Special_Edition|alt_scan|alternate|Canadian|legal_notice|Annual|Yearbook|Fearbook|Handbook|Game_Book|Spectacular|Presents|Cover$|Limited|Winter$|Giveaway'
+year_only = true
+number_key = 'americas-greatest-comics-0*(\d+)'
+year_anchors = [[1, 1941], [8, 1943]]
+
+[[magazine]]
+slug = "captain-marvel-adventures"
+block = 99
+name = "Captain Marvel Adventures"
+category = "comics"
+adapter = "ia_collection"
+collection = "captainmarveladventures"
+# Fawcett: the best-selling comic of the 1940s (#1 1941 … #150 1953)
+include = 'Captain_Marvel_Adventures_\d'
+exclude = 'reprint|excerpt|_only|missing|Mighty_Midget|Wheaties|Special_Edition|alt_scan|alternate|Canadian|legal_notice|Annual|Yearbook|Fearbook|Handbook|Game_Book|Spectacular|Presents|Cover$|Limited|Winter$|Giveaway'
+year_only = true
+number_key = 'Captain_Marvel_Adventures_0*(\d+)'
+year_anchors = [[1, 1941], [150, 1953]]
+
+[[magazine]]
+slug = "bulletman"
+block = 100
+name = "Bulletman"
+category = "comics"
+adapter = "ia_collection"
+collection = "bulletman"
+# Fawcett (#1 1941 … #16 1946)
+include = 'bulletman-'
+exclude = 'reprint|excerpt|_only|missing|Mighty_Midget|Wheaties|Special_Edition|alt_scan|alternate|Canadian|legal_notice|Annual|Yearbook|Fearbook|Handbook|Game_Book|Spectacular|Presents|Cover$|Limited|Winter$|Giveaway'
+year_only = true
+number_key = 'bulletman-(?:comics-)?0*(\d+)'
+year_anchors = [[1, 1941], [16, 1946]]
+
+[[magazine]]
+slug = "super-mystery-comics"
+block = 101
+name = "Super Mystery Comics"
+category = "comics"
+adapter = "ia_collection"
+collection = "super-mystery-comics"
+# Ace (volume/number: v1 1940 … v8 1949)
+exclude = 'reprint|excerpt|_only|missing|Mighty_Midget|Wheaties|Special_Edition|alt_scan|alternate|Canadian|legal_notice|Annual|Yearbook|Fearbook|Handbook|Game_Book|Spectacular|Presents|Cover$|Limited|Winter$|Giveaway'
+year_only = true
+number_key = 'v0*(\d)n(\d\d)'
+number_join = true
+title = "{name} Vol. {g1} No. {g2}"
+year_anchors = [[101, 1940], [201, 1941], [301, 1942], [401, 1944], [501, 1945], [601, 1946], [701, 1947], [801, 1948], [806, 1949]]
+
+[[magazine]]
+slug = "web-of-mystery"
+block = 102
+name = "Web of Mystery"
+category = "comics"
+adapter = "ia_collection"
+collection = "webofmystery-comics"
+# Ace horror (#1 1951 … #29 1955)
+exclude = 'reprint|excerpt|_only|missing|Mighty_Midget|Wheaties|Special_Edition|alt_scan|alternate|Canadian|legal_notice|Annual|Yearbook|Fearbook|Handbook|Game_Book|Spectacular|Presents|Cover$|Limited|Winter$|Giveaway'
+year_only = true
+number_key = 'comics-0*(\d+)'
+year_anchors = [[1, 1951], [29, 1955]]
+
+[[magazine]]
+slug = "four-favorites"
+block = 103
+name = "Four Favorites"
+category = "comics"
+adapter = "ia_collection"
+collection = "four-favorites-comics"
+# Ace (#1 1941 … #32 1947)
+exclude = 'reprint|excerpt|_only|missing|Mighty_Midget|Wheaties|Special_Edition|alt_scan|alternate|Canadian|legal_notice|Annual|Yearbook|Fearbook|Handbook|Game_Book|Spectacular|Presents|Cover$|Limited|Winter$|Giveaway'
+year_only = true
+number_key = 'comics-0*(\d+)'
+year_anchors = [[1, 1941], [32, 1947]]
+
+[[magazine]]
+slug = "crime-must-pay"
+block = 104
+name = "Crime Must Pay the Penalty!"
+category = "comics"
+adapter = "ia_collection"
+collection = "crime-must-pay-ace"
+# Ace crime comic (1948 … 1956)
+exclude = 'reprint|excerpt|_only|missing|Mighty_Midget|Wheaties|Special_Edition|alt_scan|alternate|Canadian|legal_notice|Annual|Yearbook|Fearbook|Handbook|Game_Book|Spectacular|Presents|Cover$|Limited|Winter$|Giveaway'
+year_only = true
+number_key = 'ace-0*(\d+)'
+year_anchors = [[1, 1948], [48, 1956]]
+
+[[magazine]]
+slug = "beyond"
+block = 105
+name = "Beyond"
+category = "comics"
+adapter = "ia_collection"
+collection = "ace-comics"
+# Ace horror (#1 1950 … #30 1955)
+include = 'beyond-comic'
+exclude = 'reprint|excerpt|_only|missing|Mighty_Midget|Wheaties|Special_Edition|alt_scan|alternate|Canadian|legal_notice|Annual|Yearbook|Fearbook|Handbook|Game_Book|Spectacular|Presents|Cover$|Limited|Winter$|Giveaway'
+year_only = true
+number_key = 'beyond-comic-0*(\d+)'
+year_anchors = [[1, 1950], [30, 1955]]
+
+[[magazine]]
+slug = "baffling-mysteries"
+block = 106
+name = "Baffling Mysteries"
+category = "comics"
+adapter = "ia_collection"
+collection = "ace-comics"
+# Ace horror (#5 1951 … #26 1955)
+include = 'baffling-mysteries'
+exclude = 'reprint|excerpt|_only|missing|Mighty_Midget|Wheaties|Special_Edition|alt_scan|alternate|Canadian|legal_notice|Annual|Yearbook|Fearbook|Handbook|Game_Book|Spectacular|Presents|Cover$|Limited|Winter$|Giveaway'
+year_only = true
+number_key = 'baffling-mysteries-0*(\d+)'
+year_anchors = [[5, 1951], [26, 1955]]
+
+[[magazine]]
+slug = "hand-of-fate"
+block = 107
+name = "The Hand of Fate"
+category = "comics"
+adapter = "ia_collection"
+collection = "ace-comics"
+# Ace horror (#8 1951 … #25 1955)
+include = 'hand-of-fate'
+exclude = 'reprint|excerpt|_only|missing|Mighty_Midget|Wheaties|Special_Edition|alt_scan|alternate|Canadian|legal_notice|Annual|Yearbook|Fearbook|Handbook|Game_Book|Spectacular|Presents|Cover$|Limited|Winter$|Giveaway'
+year_only = true
+number_key = 'hand-of-fate-0*(\d+)'
+year_anchors = [[8, 1951], [25, 1955]]
+
+[[magazine]]
+slug = "atomic-war"
+block = 108
+name = "Atomic War!"
+category = "comics"
+adapter = "ia_collection"
+collection = "ace-comics"
+# Ace (#1 Nov 1952 … #4 1953)
+include = 'atomic-war|AtomicWar'
+exclude = 'reprint|excerpt|_only|missing|Mighty_Midget|Wheaties|Special_Edition|alt_scan|alternate|Canadian|legal_notice|Annual|Yearbook|Fearbook|Handbook|Game_Book|Spectacular|Presents|Cover$|Limited|Winter$|Giveaway'
+year_only = true
+number_key = 'atomic-?war-?0*(\d)(?!\d{3})'
+year_anchors = [[1, 1952], [4, 1953]]
+
+[[magazine]]
+slug = "creepy"
+block = 109
+name = "Creepy"
+category = "comics"
+adapter = "ia_collection"
+collection = "creepy_warren"
+# Warren black-and-white horror magazine (#1 1964 … #146 1985)
+include = 'creepy'
+exclude = 'reprint|excerpt|_only|missing|Mighty_Midget|Wheaties|Special_Edition|alt_scan|alternate|Canadian|legal_notice|Annual|Yearbook|Fearbook|Handbook|Game_Book|Spectacular|Presents|Cover$|Limited|Winter$|Giveaway'
+year_only = true
+number_key = 'creepy-?0*(\d+)$'
+year_anchors = [[1, 1964], [146, 1985]]
+
+[[magazine]]
+slug = "eerie"
+block = 110
+name = "Eerie"
+category = "comics"
+adapter = "ia_collection"
+collection = "eerie_magazines"
+# Warren (#1 1966 … #139 1983)
+include = 'eerie_magazine_\d'
+exclude = 'reprint|excerpt|_only|missing|Mighty_Midget|Wheaties|Special_Edition|alt_scan|alternate|Canadian|legal_notice|Annual|Yearbook|Fearbook|Handbook|Game_Book|Spectacular|Presents|Cover$|Limited|Winter$|Giveaway'
+year_only = true
+number_key = 'eerie_magazine_0*(\d+)'
+year_anchors = [[1, 1966], [139, 1983]]
+
+[[magazine]]
+slug = "vampirella"
+block = 111
+name = "Vampirella"
+category = "comics"
+adapter = "ia_collection"
+collection = "warren-vampirella"
+# Warren (#1 1969 … #112 1983)
+include = 'vampirella'
+exclude = 'reprint|excerpt|_only|missing|Mighty_Midget|Wheaties|Special_Edition|alt_scan|alternate|Canadian|legal_notice|Annual|Yearbook|Fearbook|Handbook|Game_Book|Spectacular|Presents|Cover$|Limited|Winter$|Giveaway'
+year_only = true
+number_key = 'vampirella-0*(\d{1,3})(?!\d)'
+year_anchors = [[1, 1969], [112, 1983]]
+
+[[magazine]]
+slug = "nightmare"
+block = 112
+name = "Nightmare (Skywald)"
+category = "comics"
+adapter = "ia_collection"
+collection = "skywald-comics"
+# Skywald horror magazine (#1 1970 … #23 1975)
+include = 'Nightmare-\d'
+exclude = 'reprint|excerpt|_only|missing|Mighty_Midget|Wheaties|Special_Edition|alt_scan|alternate|Canadian|legal_notice|Annual|Yearbook|Fearbook|Handbook|Game_Book|Spectacular|Presents|Cover$|Limited|Winter$|Giveaway'
+year_only = true
+number_key = 'Nightmare-0*(\d+)'
+year_anchors = [[1, 1970], [23, 1975]]
+
+[[magazine]]
+slug = "psycho"
+block = 113
+name = "Psycho (Skywald)"
+category = "comics"
+adapter = "ia_collection"
+collection = "skywald-comics"
+# Skywald (#1 1971 … #24 1975)
+include = 'Psycho-\d'
+exclude = 'reprint|excerpt|_only|missing|Mighty_Midget|Wheaties|Special_Edition|alt_scan|alternate|Canadian|legal_notice|Annual|Yearbook|Fearbook|Handbook|Game_Book|Spectacular|Presents|Cover$|Limited|Winter$|Giveaway'
+year_only = true
+number_key = 'Psycho-0*(\d+)'
+year_anchors = [[1, 1971], [24, 1975]]
+
+[[magazine]]
+slug = "scream"
+block = 114
+name = "Scream (Skywald)"
+category = "comics"
+adapter = "ia_collection"
+collection = "skywald-comics"
+# Skywald (#1 1973 … #11 1975)
+include = 'Scream-\d'
+exclude = 'reprint|excerpt|_only|missing|Mighty_Midget|Wheaties|Special_Edition|alt_scan|alternate|Canadian|legal_notice|Annual|Yearbook|Fearbook|Handbook|Game_Book|Spectacular|Presents|Cover$|Limited|Winter$|Giveaway'
+year_only = true
+number_key = 'Scream-0*(\d+)'
+year_anchors = [[1, 1973], [11, 1975]]
+
+[[magazine]]
+slug = "famous-monsters"
+block = 115
+name = "Famous Monsters of Filmland"
+category = "comics"
+adapter = "ia_collection"
+collection = "famousmonstersmagazine"
+# Warren's monster-movie magazine edited by Forrest J Ackerman (#1 1958 … #191 1983)
+include = 'amous.?monsters.?of.?filmland|^fm\d'
+exclude = 'reprint|excerpt|_only|missing|Mighty_Midget|Wheaties|Special_Edition|alt_scan|alternate|Canadian|legal_notice|Annual|Yearbook|Fearbook|Handbook|Game_Book|Spectacular|Presents|Cover$|Limited|Winter$|Giveaway'
+year_only = true
+number_key = 'filmland[_ -]?0*(\d{1,3})(?=\D|19\d\d|$)'
+year_anchors = [[1, 1958], [191, 1983]]

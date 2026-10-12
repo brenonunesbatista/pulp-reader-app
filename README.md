@@ -1,13 +1,14 @@
 # Banca
 
 *A newsstand for pulp magazines.* A personal Android tablet (and phone) app for browsing and reading classic pulp magazines scanned by the
-[Internet Archive](https://archive.org). About 7,900 issues in 69 titles: **Amazing Stories** (1926–1956, 309 issues), **Weird Tales**, **Astounding / Analog**, **Planet Stories**,
+[Internet Archive](https://archive.org). About 9,300 issues in 95 titles: **Amazing Stories** (1926–1956, 309 issues), **Weird Tales**, **Astounding / Analog**, **Planet Stories**,
 **Startling** and **Thrilling Wonder Stories**, **Unknown**, **If**, **New Worlds**, **Adventure**, **Argosy**, **Blue Book**, **The Magazine of Fantasy
 & Science Fiction** (1949–2007), **Galaxy** (1950–1980), **Fantastic** (1952–1980) and **Rod Serling's The Twilight Zone
 Magazine** (1981–1989), **Asimov's Science Fiction** (1977–2014), the dime-novel weekly **Fame and Fortune
 Weekly** (1905–1928), plus 27 RPG magazines — the Brazilian **Dragão Brasil**, **Dragon Slayer** and **Revista Tormenta**, **Dragon**, **Dungeon**, **White Dwarf**, **Polyhedron**, **The Space Gamer**, **Different
-Worlds**, **Imagine**, **Ares**, the Traveller magazines (*JTAS*, *Challenge*, *Travellers' Digest*) and more — and 12 comics titles (about 820
-issues and volumes: Hellblazer, Turok, Conan, Miracleman, Asterix, The Complete Peanuts, Marvel Masterworks and more),
+Worlds**, **Imagine**, **Ares**, the Traveller magazines (*JTAS*, *Challenge*, *Travellers' Digest*) and more — and 38 comics titles — Golden Age Captain Marvel (*Whiz Comics*, *Captain Marvel Adventures*, *The Marvel Family*…),
+Ace's horror comics, Warren's *Creepy*, *Eerie* and *Vampirella*, *Famous Monsters of Filmland*, Hellblazer, Turok,
+Conan, Miracleman, Asterix, The Complete Peanuts, Marvel Masterworks and more —
 all readable page by page. The pulp magazines' contents — about 60,000 stories, articles and poems — are searchable
 by title, author, editor, cover artist and translator (Amazing Stories from its reference guide, the others from the
 [ISFDB](https://www.isfdb.org)).

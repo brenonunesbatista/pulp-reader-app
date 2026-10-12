@@ -456,3 +456,21 @@ Banca" on *Marooned off Vesta*, which has no scan; the spec adds the "in the cat
 - The IIIF manifest service answered 500 for `explosive_runes-08` (and timed out for others) while the item's files were fine. `fetchManifest` now retries a 5xx once and then builds the page list from the item's own `<id>_scandata.xml` (as for pack issues).
 - Magazine-card titles: `titleSize()` (ui/format.ts) picks a smaller size when the longest word has 10+ letters (MASTERWORKS) or 15+; checked on every card of the PULP, RPG and COMICS tabs at 1280×800 and 375×812 (no word wider than its column).
 
+
+## 2026-10-12 — Phase 11c: classic comics; OCR file names
+- 26 titles, blocks 90–115, 1,360 issues (COMICS tab): Fawcett — Whiz Comics, Master Comics, The Marvel Family, Captain
+  Marvel Jr., Wow Comics, Mary Marvel, Captain Midnight, Spy Smasher, America's Greatest Comics, Captain Marvel
+  Adventures, Bulletman; Ace — Super Mystery Comics, Web of Mystery, Four Favorites, Crime Must Pay the Penalty!, Beyond,
+  Baffling Mysteries, The Hand of Fate, Atomic War!; Warren — Creepy, Eerie, Vampirella, Famous Monsters of Filmland;
+  Skywald — Nightmare, Psycho, Scream. Several titles share one IA collection (`include` per title). One issue per number;
+  reprints, excerpts, partial scans, giveaways, annuals and yearbooks are excluded. Year only: the scan's date where its
+  name has one, else the run's first/last year. `number_join` now works for collections too (Super Mystery v1n02 → 102,
+  titles "Vol. 1 No. 2").
+- 26 description drafts (95 in all); two Wikipedia pages did not exist (Atomic War!, Super-Mystery Comics) and point to
+  the IA items instead; the minimum length is now 15 words (Skywald's Psycho and Scream have little documentation).
+- **OCR and page-list file names**: in some collections the derived files keep the uploaded file's name ("Whiz Comics
+  002 (1940-02)_djvu.xml" in item `fawcett_Whiz_Comics_002_1940-02`). On a 404 the reader reads the item's file list
+  from the CORS-enabled metadata API (`/metadata/<id>/files`, once per item) and uses the item's single `_djvu.xml` /
+  `_scandata.xml`. On 2026-10-12 the Archive answered 500 for that item's files for hours (its storage node), so the
+  OCR of that issue could not be checked end to end.
+- Catalog: 95 magazines, 9,281 issues, 21.5 MB.

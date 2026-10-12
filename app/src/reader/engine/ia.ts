@@ -43,7 +43,34 @@ export function parseScandata(xml: string, item: string, stem: string): PageInfo
   return out
 }
 
+const itemFileNames = new Map<string, Promise<string[]>>()
+
+/** names of an item's files (metadata API, CORS-enabled; once per item per session) */
+function itemFiles(item: string): Promise<string[]> {
+  let p = itemFileNames.get(item)
+  if (!p) {
+    p = fetch(`https://archive.org/metadata/${encodeURIComponent(item)}/files`)
+      .then((r) => (r.ok ? r.json() : { result: [] }))
+      .then((j: { result?: { name: string }[] }) => (j.result ?? []).map((f) => f.name))
+    itemFileNames.set(item, p)
+  }
+  return p
+}
+
+/** The stem of a plain item's derived files. Usually the identifier, but uploads keep their own file name
+ *  ("Whiz Comics 002 (1940-02)_djvu.xml" in item fawcett_Whiz_Comics_002_1940-02): then the item's single file with
+ *  that suffix names it. */
+async function stemFor(ident: string, suffix: string): Promise<string> {
+  const s = scanParts(ident)
+  if (s.pack) return s.stem
+  const names = await itemFiles(ident).catch(() => [] as string[])
+  if (!names.length || names.includes(ident + suffix)) return ident
+  const own = names.filter((n) => n.endsWith(suffix))
+  return own.length === 1 ? own[0].slice(0, -suffix.length) : ident
+}
+
 async function fromScandata(item: string, stem: string): Promise<PageInfo[]> {
+  if (item === stem) stem = await stemFor(item, '_scandata.xml')
   const pages = parseScandata(await getDownloadText(item, `${stem}_scandata.xml`), item, stem)
   if (!pages.length) throw new Error('no pages in scandata')
   return pages
@@ -117,7 +144,15 @@ const compact = (pages: OcrPage[]): CompactOcr =>
 export async function fetchOcr(ident: string): Promise<CompactOcr> {
   const t0 = performance.now()
   const { item, stem } = scanParts(ident)
-  const xml = await getDownloadText(item, `${stem}_djvu.xml`)
+  let xml: string
+  try {
+    xml = await getDownloadText(item, `${stem}_djvu.xml`)
+  } catch (e) {
+    // the OCR file may carry the uploaded file's name instead of the identifier
+    const real = /HTTP 404/.test(String(e)) ? await stemFor(ident, '_djvu.xml') : stem
+    if (real === stem) throw e
+    xml = await getDownloadText(item, `${real}_djvu.xml`)
+  }
   const t1 = performance.now()
   const worker = new Worker(new URL('./ocr.worker.ts', import.meta.url), { type: 'module' })
   const pages = await new Promise<OcrPage[]>((resolve, reject) => {

@@ -1,0 +1,731 @@
+[
+{
+"identifier": "Skywald-Comics-Psycho-01",
+"title": "Skywald Comics: Psycho 01",
+"date": null,
+"imagecount": 0,
+"jp2": false,
+"ocr": false,
+"restricted": false
+},
+{
+"identifier": "complete-hell-rider",
+"title": "Skwald Comics The Complete Hell Rider",
+"date": null,
+"imagecount": 0,
+"jp2": false,
+"ocr": false,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Blazing-Six-Guns-01",
+"title": "Skywald Comics: Blazing Six Guns Issue 01",
+"date": "1971-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Blazing-Six-Guns-02",
+"title": "Skywald Comics: Blazing Six Guns Issue 02",
+"date": "1971-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Bravados-01",
+"title": "Skywald Comics: Bravados Issue 01",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Butch-Cassidy-01",
+"title": "Skywald Comics: Butch Cassidy Issue 01",
+"date": "1971-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Hell-Rider-01",
+"title": "Skywald Comics: Hell Rider Issue 01",
+"date": null,
+"imagecount": 0,
+"jp2": false,
+"ocr": false,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Hell-Rider-02",
+"title": "Skywald Comics: Hell Rider Issue 02",
+"date": null,
+"imagecount": 0,
+"jp2": false,
+"ocr": false,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Jungle-Adventures-01",
+"title": "Skywald Comics: Jungle Adventures Issue 01",
+"date": "1971-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Jungle-Adventures-02",
+"title": "Skywald Comics: Jungle Adventures Issue 02",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Jungle-Adventures-03",
+"title": "Skywald Comics: Jungle Adventures Issue 03",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Nightmare-01",
+"title": "Skywald Comics: Nightmare Issue 01",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Nightmare-02",
+"title": "Skywald Comics: Nightmare Issue 02",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Nightmare-03",
+"title": "Skywald Comics: Nightmare Issue 03",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Nightmare-04",
+"title": "Skywald Comics: Nightmare Issue 04",
+"date": "1971-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Nightmare-05",
+"title": "Skywald Comics: Nightmare Issue 05",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Nightmare-06",
+"title": "Skywald Comics: Nightmare Issue 06",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Nightmare-07",
+"title": "Skywald Comics: Nightmare Issue 07",
+"date": "1972-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Nightmare-08",
+"title": "Skywald Comics: Nightmare Issue 08",
+"date": "1972-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Nightmare-09",
+"title": "Skywald Comics: Nightmare Issue 09",
+"date": "1972-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Nightmare-10",
+"title": "Skywald Comics: Nightmare Issue 10",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Nightmare-11",
+"title": "Skywald Comics: Nightmare Issue 11",
+"date": "1973-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Nightmare-12",
+"title": "Skywald Comics: Nightmare Issue 12",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Nightmare-13",
+"title": "Skywald Comics: Nightmare Issue 13",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Nightmare-15",
+"title": "Skywald Comics: Nightmare Issue 15",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Nightmare-16",
+"title": "Skywald Comics: Nightmare Issue 16",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Nightmare-17",
+"title": "Skywald Comics: Nightmare Issue 17",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Nightmare-18",
+"title": "Skywald Comics: Nightmare Issue 18",
+"date": "1974-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Nightmare-19",
+"title": "Skywald Comics: Nightmare Issue 19",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Nightmare-20",
+"title": "Skywald Comics: Nightmare Issue 20",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Nightmare-21",
+"title": "Skywald Comics: Nightmare Issue 21",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Nightmare-22",
+"title": "Skywald Comics: Nightmare Issue 22",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Nightmare-23",
+"title": "Skywald Comics: Nightmare Issue 23",
+"date": "1975-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Nightmare-Annual",
+"title": "Skywald Comics: Nightmare Issue Annual",
+"date": "1972-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Nightmare-Winter",
+"title": "Skywald Comics: Nightmare Issue Winter",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Nightmare-Yearbook",
+"title": "Skywald Comics: Nightmare Issue Yearbook",
+"date": "1974-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Psycho-02",
+"title": "Skywald Comics: Psycho Issue 02",
+"date": "1971-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Psycho-03",
+"title": "Skywald Comics: Psycho Issue 03",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Psycho-04",
+"title": "Skywald Comics: Psycho Issue 04",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Psycho-05",
+"title": "Skywald Comics: Psycho Issue 05",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Psycho-06",
+"title": "Skywald Comics: Psycho Issue 06",
+"date": "1973-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Psycho-07",
+"title": "Skywald Comics: Psycho Issue 07",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Psycho-08",
+"title": "Skywald Comics: Psycho Issue 08",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Psycho-09",
+"title": "Skywald Comics: Psycho Issue 09",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Psycho-10",
+"title": "Skywald Comics: Psycho Issue 10",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Psycho-11",
+"title": "Skywald Comics: Psycho Issue 11",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Psycho-13",
+"title": "Skywald Comics: Psycho Issue 13",
+"date": "1973-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Psycho-14",
+"title": "Skywald Comics: Psycho Issue 14",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Psycho-15",
+"title": "Skywald Comics: Psycho Issue 15",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Psycho-16",
+"title": "Skywald Comics: Psycho Issue 16",
+"date": "1974-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Psycho-17",
+"title": "Skywald Comics: Psycho Issue 17",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Psycho-20",
+"title": "Skywald Comics: Psycho Issue 20",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Psycho-21",
+"title": "Skywald Comics: Psycho Issue 21",
+"date": "1974-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Psycho-22",
+"title": "Skywald Comics: Psycho Issue 22",
+"date": "1974-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Psycho-23",
+"title": "Skywald Comics: Psycho Issue 23",
+"date": "1975-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Psycho-24",
+"title": "Skywald Comics: Psycho Issue 24",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Psycho-Annual",
+"title": "Skywald Comics: Psycho Issue Annual",
+"date": "1972-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Psycho-Yearbook",
+"title": "Skywald Comics: Psycho Issue Yearbook",
+"date": "1974-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Scream-01",
+"title": "Skywald Comics: Scream Issue 01",
+"date": "1973-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Scream-02",
+"title": "Skywald Comics: Scream Issue 02",
+"date": "1973-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Scream-03",
+"title": "Skywald Comics: Scream Issue 03",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Scream-04",
+"title": "Skywald Comics: Scream Issue 04",
+"date": "1974-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Scream-05",
+"title": "Skywald Comics: Scream Issue 05",
+"date": "1974-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Scream-06",
+"title": "Skywald Comics: Scream Issue 06",
+"date": "1974-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Scream-07",
+"title": "Skywald Comics: Scream Issue 07",
+"date": "1974-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Scream-08",
+"title": "Skywald Comics: Scream Issue 08",
+"date": "1974-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Scream-09",
+"title": "Skywald Comics: Scream Issue 09",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Scream-10",
+"title": "Skywald Comics: Scream Issue 10",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Scream-11",
+"title": "Skywald Comics: Scream Issue 11",
+"date": "1975-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Sundance-Kid-03",
+"title": "Skywald Comics: Sundance Kid Issue 03",
+"date": "1971-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-The-Crime-Machine",
+"title": "Skywald Comics: The Crime Issue Machine",
+"date": "1970-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-The-Crime-Machine-01",
+"title": "Skywald Comics: The Crime Machine Issue 01",
+"date": "1971-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-The-Heap-01",
+"title": "Skywald Comics: The Heap Issue 01",
+"date": "1971-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Wild-Western-Action-01",
+"title": "Skywald Comics: Wild Western Action Issue 01",
+"date": "1971-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Wild-Western-Action-02",
+"title": "Skywald Comics: Wild Western Action Issue 02",
+"date": "1971-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-comics-Wild-Western-Action-03",
+"title": "Skywald Comics: Wild Western Action Issue 03",
+"date": "1971-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "skywald-complete-nightmare",
+"title": "Skywald Comics The Complete Nightmare",
+"date": null,
+"imagecount": 0,
+"jp2": false,
+"ocr": false,
+"restricted": false
+},
+{
+"identifier": "skywald-complete-psycho",
+"title": "Skywald Comics The Complete Psycho",
+"date": null,
+"imagecount": 0,
+"jp2": false,
+"ocr": false,
+"restricted": false
+},
+{
+"identifier": "skywald-complete-scream",
+"title": "Skywald Comics The Complete Scream",
+"date": null,
+"imagecount": 0,
+"jp2": false,
+"ocr": false,
+"restricted": false
+},
+{
+"identifier": "sundance-kid-complete",
+"title": "[Skywald] The Sundance Kid #1-3 (Complete)",
+"date": "1971-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "wild-western-action-conplete",
+"title": "[Skywald] Wild Western Action #1-3 (Complete)",
+"date": "1978-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+}
+]

@@ -60,8 +60,8 @@ def check(content: Path = CONTENT, sources_toml: Path = ROOT / "tools" / "source
         if not re.search(r"\[\d+\]", body):
             errors.append(f"{where}: the text cites no source")
         words = len(body.split())
-        if not 25 <= words <= 220:  # obscure magazines get short texts rather than padding
-            errors.append(f"{where}: {words} words (25–220)")
+        if not 15 <= words <= 220:  # obscure magazines get short texts rather than padding
+            errors.append(f"{where}: {words} words (15–220)")
         if meta.get("atlas") and not (atlas_dir / f"{meta['atlas']}.md").exists():
             errors.append(f"{where}: no Atlas entity {meta['atlas']!r}")
     return errors
