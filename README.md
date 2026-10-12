@@ -81,6 +81,13 @@ Built for a Samsung Galaxy Tab A9+ (11", 1920×1200), with phone layouts for the
   - **Settings → Storage**: space used, the list of downloaded issues, *Delete all downloads* (with confirmation)
     and *Clear cache*. Removing downloads keeps progress, highlights and bookmarks;
   - reading an issue that is not downloaded shows a small *online* tag; offline, a clear message.
+- **Updates without reinstalling**:
+  - the Atlas and the magazine descriptions arrive over the air: `tools/publish_content.py --push` publishes
+    `updates/atlas.db` and a manifest in this repository; the app checks a few seconds after start (every 6 h at most,
+    on Wi-Fi when downloads are Wi-Fi only) and in **Settings → Updates**, verifies size and sha256, swaps the database
+    and shows a notice. Progress, notes and downloads (user.db) and the catalog are never touched;
+  - new app versions come from the PC on the home network: `tools/serve_updates.py` serves the latest APK; with the
+    PC address set in Settings → Updates, the app says when a newer build is there and opens Android's installer.
 
 ## How it works
 
@@ -103,8 +110,9 @@ Internet Archive ◄── IIIF page images + djvu.xml OCR ──── Capacito
 - **Reader**: page images come from the IIIF Image API (CORS-enabled, any width). OCR word boxes come from each
   item's `_djvu.xml`, fetched natively because that endpoint sends no CORS headers. The research and measurements behind
   this design are in [docs/archive-findings.md](docs/archive-findings.md) and [docs/DECISIONS.md](docs/DECISIONS.md).
-- **Data on the device**: `catalog.db` is shipped read-only and replaced when a new catalog ships. `user.db` holds
-  progress, highlights, downloads and settings, and catalog updates never touch it.
+- **Data on the device**: `catalog.db` is shipped read-only and replaced when a new catalog ships; `atlas.db` (Atlas +
+  magazine descriptions) ships with the app and is replaced by newer published versions (`updates/`). `user.db` holds
+  progress, highlights, downloads and settings, and no update touches it.
 
 ## Tech stack
 
@@ -181,6 +189,9 @@ pytest                                                      # catalog tools, fro
    magazines (White Dwarf, Polyhedron, The Space Gamer, Different Worlds, Imagine, Ares, the Traveller magazines, Pegasus,
    OSR fanzines and more); 10c Brazilian RPG magazines (Dragão Brasil, Dragon Slayer, Tormenta, Lua dos Dragões, Só
    Aventuras, Troll).
+10. 🧪 **Magazine descriptions and classic sources**: an About band on every magazine page (95 drafts, under review);
+   classic pulps (Weird Tales, Astounding, Adventure, Argosy, New Worlds…) and comics (Fawcett, Ace, Warren, Skywald).
+11. 🧪 **Updates**: Atlas content over the air and new APKs from the PC on the home network.
 
 ## Distribution
 

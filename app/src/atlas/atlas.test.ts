@@ -2,7 +2,7 @@ import { existsSync, readFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { describe, expect, it } from 'vitest'
 import {
-  addEntityToTimeline, addPersonalItem, addSuggestion, addWant, clearInbox, deleteTimeline, deleteTimelineItem, listTimelineItems, removeEntityFromTimeline, timelinesWithEntity, updatePersonalItem, updateTimelineSpec, getEntity, listInbox, listSavedTimelines, recordMissedSearch, renameTimeline, saveTimeline, getPath, listWants, loadGraph, recentVisits, recordVisit, removeWant, searchAtlas, setWantDone,
+  addEntityToTimeline, addPersonalItem, getMagazineAbout, addSuggestion, addWant, clearInbox, deleteTimeline, deleteTimelineItem, listTimelineItems, removeEntityFromTimeline, timelinesWithEntity, updatePersonalItem, updateTimelineSpec, getEntity, listInbox, listSavedTimelines, recordMissedSearch, renameTimeline, saveTimeline, getPath, listWants, loadGraph, recentVisits, recordVisit, removeWant, searchAtlas, setWantDone,
   type AtlasGraph, type EntitySummary, type Lane,
 } from '../data/atlasRepo'
 import { migrateUserDb } from '../db/userSchema'
@@ -53,6 +53,20 @@ describe('recommendations', () => {
     // already done items sink
     const done = recommendFrom(graph(), 'wells', { ...NO_SIGNALS, done: new Set(['tm']) })
     expect(done[0].id).toBe('wotw')
+  })
+})
+
+describe('magazine descriptions', () => {
+  it('reads the About of a magazine by slug, and nothing from an atlas.db without descriptions', async () => {
+    const atlas = await memoryDb()
+    await atlas.exec(readFileSync(fileURLToPath(new URL('../../../tools/atlas/schema.sql', import.meta.url)), 'utf8'))
+    await atlas.run(`INSERT INTO magazine_about VALUES (?, ?)`, ['amazing-stories', JSON.stringify({
+      years: '1926–2005', country: 'United States', language: 'English', publishers: ['Experimenter Publishing'],
+      editors: ['Hugo Gernsback'], atlas: 'amazing-stories', text: 'The first science fiction magazine [1].',
+      sources: [{ n: 1, title: 'Amazing Stories — Wikipedia', url: 'https://en.wikipedia.org/wiki/Amazing_Stories' }] })])
+    expect(await getMagazineAbout(atlas, 'amazing-stories')).toMatchObject({ years: '1926–2005', sources: [{ n: 1 }] })
+    expect(await getMagazineAbout(atlas, 'galaxy')).toBeNull()
+    expect(await getMagazineAbout(await memoryDb(), 'amazing-stories')).toBeNull()
   })
 })
 

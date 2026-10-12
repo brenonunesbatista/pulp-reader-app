@@ -1,5 +1,6 @@
 """atlas.db builder: reviewed content only, links in both directions, reproducible."""
 import hashlib
+import json
 import shutil
 import sqlite3
 
@@ -50,3 +51,22 @@ def test_drafts_are_left_out_and_errors_stop_the_build(tmp_path):
                  else p.read_text(encoding="utf-8").replace('lane = "events"', 'lane = "nowhere"'), encoding="utf-8")
     with pytest.raises(SystemExit):
         build(content, tmp_path / "y.db", None)
+
+
+def test_magazine_descriptions_and_version(tmp_path):
+    reviewed = build(CONTENT, tmp_path / "r.db", None, version=123)
+    drafts = build(CONTENT, tmp_path / "d.db", None, draft_about=True, version=123)
+    con = sqlite3.connect(tmp_path / "d.db")
+    assert drafts["magazines"] >= 95 and drafts["magazines"] >= reviewed["magazines"]
+    about = json.loads(con.execute("SELECT about FROM magazine_about WHERE slug = 'amazing-stories'").fetchone()[0])
+    assert about["sources"] and about["text"]
+    meta = dict(con.execute("SELECT key, value FROM atlas_meta").fetchall())
+    assert meta["content_version"] == "123" and meta["schema_version"] == "2"
+
+
+def test_publish_writes_a_matching_manifest(tmp_path):
+    from publish_content import publish
+    m = publish(tmp_path, version=456)["atlas"]
+    data = (tmp_path / "atlas.db").read_bytes()
+    assert m["version"] == 456 and m["size"] == len(data) and m["sha256"] == hashlib.sha256(data).hexdigest()
+    assert json.loads((tmp_path / "manifest.json").read_text(encoding="utf-8"))["atlas"] == m

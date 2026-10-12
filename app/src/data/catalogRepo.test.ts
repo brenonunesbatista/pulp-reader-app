@@ -3,7 +3,7 @@ import type { Db } from '../db/types'
 import { memoryDb } from '../db/wasmDb'
 import { migrateUserDb, USER_MIGRATIONS } from '../db/userSchema'
 import { coverUrl, monthYear, shortTitle, titleSize } from '../ui/format'
-import { getContents, getIssue, getPersonWorks, getMagazineAbout, listCategories, readerMagazine, listIssues, listMagazines, search } from './catalogRepo'
+import { getContents, getIssue, getPersonWorks, listCategories, readerMagazine, listIssues, listMagazines, search } from './catalogRepo'
 import { ftsQuery } from './fts'
 import { addHighlight, deleteHighlight, getPageMap, listBookmarks, listHighlights, savePageMap, setBookmark } from './annotationRepo'
 import { deleteAllProgress, deleteProgress, getProgress, recentProgress, saveProgress } from './progressRepo'
@@ -44,9 +44,6 @@ describe('catalog', () => {
   it('knows each magazine reader default for spreads; comics without a month show only the year', async () => {
     expect(await readerMagazine(db, 3)).toEqual({ slug: 'complete-peanuts', name: 'The Complete Peanuts', spreads: 'never', contentsCredit: null })
     expect((await readerMagazine(db, 2))?.contentsCredit).toBe('ISFDB (isfdb.org), CC BY 4.0')
-    const about = await getMagazineAbout(db, 1)
-    expect(about).toMatchObject({ years: '1926–2005', atlas: 'amazing-stories', sources: [{ n: 1 }] })
-    expect(await getMagazineAbout(db, 2)).toBeNull()
     expect(await readerMagazine(db, 1)).toMatchObject({ spreads: 'auto' })
     expect(monthYear(1988, 0)).toBe('1988')
     expect(monthYear(1926, 4)).toBe('Apr 1926')

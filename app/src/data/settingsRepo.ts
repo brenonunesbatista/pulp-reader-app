@@ -15,10 +15,12 @@ export interface Settings {
   wifiOnly: boolean // downloads wait for Wi-Fi
   /** per magazine slug: two-page spreads in landscape ('auto') or always one page ('never'); unset = catalog default */
   spreads: Record<string, Spreads>
+  /** PC on the home network serving new APKs (tools/serve_updates.py), e.g. "192.168.0.10:8765"; '' = none */
+  updateServer: string
 }
 
 export const DEFAULT_SETTINGS: Settings = {
-  theme: 'paper', readerTheme: 'paper', brightness: null, warmth: 0, enhance: false, perfOverlay: false, wifiOnly: true, spreads: {},
+  theme: 'paper', readerTheme: 'paper', brightness: null, warmth: 0, enhance: false, perfOverlay: false, wifiOnly: true, spreads: {}, updateServer: '',
 }
 
 export async function loadSettings(db: Db): Promise<Settings> {

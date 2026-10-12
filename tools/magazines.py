@@ -6,7 +6,8 @@ editors, optional atlas entity, numbered [[sources]]) and a short English text c
   python tools/magazines.py check                 validate every file against tools/sources.toml
   python tools/magazines.py review --out f.html   one review page (OK / Change + note per magazine, copy all notes)
 
-build_catalog.py stores the reviewed ones in catalog.db (`magazine.about`, JSON) via `about_json()`.
+tools/atlas/build_atlas.py stores the reviewed ones in atlas.db (`magazine_about`, JSON) via `about_json()`, so they
+reach the app with content updates (tools/publish_content.py) without a new APK.
 """
 from __future__ import annotations
 

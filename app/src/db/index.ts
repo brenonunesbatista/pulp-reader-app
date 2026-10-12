@@ -1,6 +1,6 @@
 // Opens the two databases once per app run. Android → native plugin; browser dev → sqlite-wasm.
 import { Capacitor } from '@capacitor/core'
-import type { Databases } from './types'
+import type { Databases, Db } from './types'
 import { migrateUserDb } from './userSchema'
 
 let opening: Promise<Databases & { info: string }> | null = null
@@ -20,6 +20,16 @@ export function openDatabases(): Promise<Databases & { info: string }> {
     return { catalog, atlas, user, info: `web sqlite-wasm in ${Math.round(performance.now() - t0)} ms` }
   })()
   return opening
+}
+
+/** Replace the open atlas.db with a downloaded, verified one (src/updates); returns the new connection. */
+export async function installAtlas(bytes: Uint8Array): Promise<Db> {
+  if (Capacitor.isNativePlatform()) {
+    const { installNativeAtlas } = await import('./nativeDb')
+    return installNativeAtlas(bytes)
+  }
+  const { dbFromBytes } = await import('./wasmDb')
+  return dbFromBytes(bytes)
 }
 
 export type { Databases, Db } from './types'

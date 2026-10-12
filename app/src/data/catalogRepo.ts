@@ -2,7 +2,7 @@
 import type { Db } from '../db/types'
 import { ftsQuery } from './fts'
 import type {
-  Availability, Category, Credit, IssueSummary, MagazineAbout, Magazine, PersonWorks, Role, SearchFilters, SearchResults, Story,
+  Availability, Category, Credit, IssueSummary, Magazine, PersonWorks, Role, SearchFilters, SearchResults, Story,
   StoryInIssue,
 } from './models'
 
@@ -100,14 +100,6 @@ export async function readerMagazine(db: Db, id: number): Promise<{
   return rows[0] ? { slug: rows[0].slug, name: rows[0].name, spreads: rows[0].spreads, contentsCredit: rows[0].contents_credit } : null
 }
 
-export async function getMagazineAbout(db: Db, id: number): Promise<MagazineAbout | null> {
-  const rows = await db.query<{ about: string | null }>(`SELECT about FROM magazine WHERE id = ?`, [id])
-  try {
-    return rows[0]?.about ? (JSON.parse(rows[0].about) as MagazineAbout) : null
-  } catch {
-    return null
-  }
-}
 
 export async function getMagazine(db: Db, id: number): Promise<Magazine | null> {
   return (await listMagazines(db)).find((m) => m.id === id) ?? null

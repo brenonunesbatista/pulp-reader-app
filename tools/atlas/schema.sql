@@ -38,4 +38,7 @@ CREATE TABLE path (id TEXT PRIMARY KEY, title TEXT NOT NULL, subtitle TEXT NOT N
 CREATE TABLE path_stop (path_id TEXT NOT NULL, pos INTEGER NOT NULL, entity_id TEXT NOT NULL, why TEXT NOT NULL,
   PRIMARY KEY (path_id, pos));
 
+-- "About" on each magazine page, by catalog slug: JSON from content/magazines (tools/magazines.py about_json)
+CREATE TABLE magazine_about (slug TEXT PRIMARY KEY, about TEXT NOT NULL);
+
 CREATE VIRTUAL TABLE entity_fts USING fts5(id UNINDEXED, title, subtitle, body, tokenize = 'unicode61 remove_diacritics 2', prefix = '2 3 4');

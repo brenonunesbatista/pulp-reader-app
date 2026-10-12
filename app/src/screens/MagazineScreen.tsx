@@ -1,5 +1,6 @@
 import { Fragment, useMemo, useState } from 'react'
-import { getMagazine, getMagazineAbout, listIssues, magazineEditors } from '../data/catalogRepo'
+import { getMagazineAbout } from '../data/atlasRepo'
+import { getMagazine, listIssues, magazineEditors } from '../data/catalogRepo'
 import { MagazineAbout } from './MagazineAbout'
 import type { IssueSummary } from '../data/models'
 import { useDb } from '../db/useDb'
@@ -16,12 +17,15 @@ const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 
   'November', 'December']
 
 export function MagazineScreen({ id }: { id: number }) {
-  const { catalog } = useDb()
+  const { catalog, atlas } = useDb()
   const nav = useNav()
-  const data = useAsync(async () => ({
-    mag: await getMagazine(catalog, id), issues: await listIssues(catalog, id), editors: await magazineEditors(catalog, id),
-    about: await getMagazineAbout(catalog, id),
-  }), [catalog, id])
+  const data = useAsync(async () => {
+    const mag = await getMagazine(catalog, id)
+    return {
+      mag, issues: await listIssues(catalog, id), editors: await magazineEditors(catalog, id),
+      about: mag ? await getMagazineAbout(atlas, mag.slug) : null,
+    }
+  }, [catalog, atlas, id])
   const [decade, setDecade] = useState<number | 'all'>('all')
   const [year, setYear] = useState<number | null>(null)
   const [readableOnly, setReadableOnly] = useState(false)

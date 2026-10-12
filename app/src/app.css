@@ -326,3 +326,11 @@ select.chip { appearance: none; padding-right: 30px; background-image: linear-gr
 .mag-about .cite { font-size: 11px; color: var(--pulp-red); margin-left: 1px; }
 .mag-about .sources { margin: 8px 0 0; padding-left: 0; list-style: none; }
 .mag-about .sources li { margin: 2px 0; }
+
+/* app-wide notice (content updates) */
+.toast { position: fixed; z-index: 60; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%);
+  max-width: calc(100vw - 32px); padding: 10px 18px; border-radius: 20px; background: var(--ink); color: var(--bg);
+  font: 600 15px var(--f-text); pointer-events: none; text-align: center; }
+.settings-group .field { display: grid; gap: 4px; margin: 14px 0 8px; max-width: 420px; }
+.settings-group .field input { font: 400 17px var(--f-text); padding: 8px 10px; border: 2px solid var(--edge); background: var(--surface);
+  color: var(--ink); border-radius: 0; }

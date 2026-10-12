@@ -6,6 +6,7 @@ import { useAsync } from '../ui/useAsync'
 import { AtlasInboxSettings } from './AtlasInboxSettings'
 import { ReadingSettings } from './ReadingSettings'
 import { StorageSettings } from './StorageSettings'
+import { UpdateSettings } from './UpdateSettings'
 
 export function SettingsScreen() {
   const { settings, update } = useSettings()
@@ -39,6 +40,8 @@ export function SettingsScreen() {
         <StorageSettings />
 
         <AtlasInboxSettings />
+
+        <UpdateSettings />
 
         <section className="settings-group">
           <h3>Catalog</h3>

@@ -58,3 +58,28 @@ export async function openNative(): Promise<{ catalog: Db; atlas: Db; user: Db; 
   const atlas = new NativeDb(await connect('atlas', true))
   return { catalog, atlas, user, info: `${install ? 'databases installed' : 'databases ready'} in ${Math.round(performance.now() - t0)} ms` }
 }
+
+function base64(bytes: Uint8Array): string {
+  let s = ''
+  for (let i = 0; i < bytes.length; i += 0x8000) s += String.fromCharCode(...bytes.subarray(i, i + 0x8000))
+  return btoa(s)
+}
+
+/** Replace atlas.db with a downloaded (already verified) copy: write it to files/updates/, close the atlas
+ *  connection, move it over atlasSQLite.db (the plugin's moveDatabasesAndAddSuffix, a rename) and reopen. When the
+ *  new file does not open as an Atlas, the shipped databases are reinstalled. */
+export async function installNativeAtlas(bytes: Uint8Array): Promise<Db> {
+  const { Directory, Filesystem } = await import('@capacitor/filesystem')
+  await Filesystem.writeFile({ path: 'updates/atlas.db', data: base64(bytes), directory: Directory.Data, recursive: true })
+  if ((await sqlite.isConnection('atlas', true)).result) await sqlite.closeConnection('atlas', true)
+  await sqlite.moveDatabasesAndAddSuffix('files/updates', ['atlas.db'])
+  const atlas = new NativeDb(await connect('atlas', true))
+  try {
+    await atlas.query(`SELECT value FROM atlas_meta WHERE key = 'content_version'`)
+    return atlas
+  } catch (e) {
+    await sqlite.closeConnection('atlas', true)
+    await sqlite.copyFromAssets(true)
+    throw e
+  }
+}

@@ -30,24 +30,30 @@ Capacitor (Android) · Vite · React · TypeScript (strict) · SQLite (`@capacit
   the backup is downloaded by hand from the ISFDB wiki, needs a login; 4 streaming passes, ~2 min); `--only slug,slug`;
   writes `catalog.db` + `covers/*.webp`, both git-ignored, `docs/catalog-report.md` and `docs/catalog-sources.md`)
 - Magazine descriptions: `python tools/magazines.py check` (format, sources, citations) and
-  `python tools/magazines.py review --out <file.html>`; only `status = "reviewed"` ones ship (`build_catalog.py
-  --draft-about` previews drafts)
+  `python tools/magazines.py review --out <file.html>`; only `status = "reviewed"` ones ship (they go into atlas.db;
+  `build_atlas.py --draft-about`, or `DRAFT_ABOUT=1 npm run build`, previews drafts)
 - Atlas review page: `python tools/atlas/review_page.py --out <file.html>` (one HTML page, path + all entities, OK/Change marks)
 - Atlas media suggestions: `python tools/atlas/suggest_media.py --out media.json` (free Commons images + IMDb/Spotify ids from Wikidata, batched; review before adding)
-- Atlas build: `python tools/atlas/build_atlas.py` → `app/public/atlas/atlas.db` (reviewed entities only; also run automatically by the app's `predev`/`prebuild` via `app/scripts/copy-databases.mjs`)
+- Atlas build: `python tools/atlas/build_atlas.py` → `app/public/atlas/atlas.db` (reviewed entities and magazine descriptions; version = commit time of content/; also run automatically by the app's `predev`/`prebuild` via `app/scripts/copy-databases.mjs`)
+- Content update over the air: commit content/, then `python tools/publish_content.py --push` (writes `updates/atlas.db` +
+  `updates/manifest.json`, pushes; the app installs it at its next check). Never publish the catalog.
+- New APK on the home network: build the APK, then `python tools/serve_updates.py` (port 8765; the app's
+  Settings → Updates → PC address)
 - Atlas content check: `python tools/atlas/validate.py` (front matter, links, themes, citations, catalog references; content in `content/atlas/`, format in its README)
 - Tests: `npm test` (app), `pytest` (tools; run from the repo root — synthetic fixture PDF, real-guide smoke test skipped if the PDF is absent)
 
 ## App structure (app/src)
 - `db/` — `Db` interface (three databases: `catalog` and `atlas` read-only, shipped; `user` read-write); `nativeDb.ts` (@capacitor-community/sqlite, Android) and `wasmDb.ts` (sqlite-wasm: browser dev + tests); `userSchema.ts` migrations for `user.db`
 - `data/` — repositories (only place with SQL): `catalogRepo.ts`, `progressRepo.ts`, `annotationRepo.ts`, `downloadRepo.ts`, `settingsRepo.ts`, `fts.ts`
+- `updates/` — content updates (`content.ts`: manifest, verify, pure + tested; `UpdatesProvider` swaps the atlas connection) and LAN APKs (`apk.ts`, native `BancaUpdatePlugin.java`)
 - `downloads/` — `manager.ts` (queue, retries, resume, network policy; pure + tested), `store.ts` (Android app data dir `downloads/<ident>/` or memory), `DownloadsProvider` + hooks (`useDownload`, `useDownloadList`)
 - `notes/` — `gather.ts` (highlights + bookmarks with story titles and printed pages), `markdown.ts` (export, pure + tested), `share.ts` (share sheet, clipboard, web search)
 - `atlas/` — Atlas screens (Home, Timeline, Entity, Path, Want to), `parts.tsx` components, `forms.ts` vocabulary, `recommend.ts` and `subject.ts` (pure, tested), `TimelineItems.tsx` (own items, add-to-timeline), `useAtlas.ts` (graph + user signals); data in `data/atlasRepo.ts`
 - `nav/` — stack navigator (`stack.ts` pure, `Nav.tsx` provider; history + Android back), screens stay mounted underneath
 - `screens/`, `ui/` — screens and shared components (`components.tsx`, `icons.tsx`, `SettingsProvider`); `app.css` = Banca tokens (docs/design/banca-newsprint.md)
 - `reader/` — `ReaderScreen.tsx` (chrome, panels), `ReaderController.ts` (page DOM, no React state per frame), `pageMap.ts` / `layout.ts` (pure, tested); `engine/` = PanZoom gestures, image loader, OCR parse/worker, IIIF access, disk cache
-- Native: `android/app/src/main/java/local/pulpreader/BancaDisplayPlugin.java` (brightness, immersive), registered in `MainActivity`
+- Native: `android/app/src/main/java/local/pulpreader/BancaDisplayPlugin.java` (brightness, immersive) and
+  `BancaUpdatePlugin.java` (LAN apk.json, download + installer), registered in `MainActivity`
 
 ## Working rules
 - Work in the phase requested; don't build later phases early. If something is ambiguous, ask instead of guessing.

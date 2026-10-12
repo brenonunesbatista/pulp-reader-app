@@ -12,10 +12,9 @@ export async function testCatalog(): Promise<Db> {
   await db.exec(SCHEMA)
   await db.exec(`
     INSERT INTO category VALUES (1, 'pulp', 'Pulp & science fiction', 1), (2, 'rpg', 'RPG magazines', 2);
-    INSERT INTO magazine VALUES (1, 'Amazing Stories', 'amazing-stories', 'test', 1, 1, 'auto', 'guide',
-        '{"years":"1926–2005","country":"United States","language":"English","publishers":["Experimenter Publishing"],"editors":["Hugo Gernsback"],"atlas":"amazing-stories","text":"The first science fiction magazine [1].","sources":[{"n":1,"title":"Amazing Stories — Wikipedia","url":"https://en.wikipedia.org/wiki/Amazing_Stories"}]}'),
-      (2, 'Galaxy', 'galaxy', 'test', 1, 2, 'auto', 'ISFDB (isfdb.org), CC BY 4.0', NULL),
-      (3, 'The Complete Peanuts', 'complete-peanuts', 'test', 1, 3, 'never', NULL, NULL);
+    INSERT INTO magazine VALUES (1, 'Amazing Stories', 'amazing-stories', 'test', 1, 1, 'auto', 'guide'),
+      (2, 'Galaxy', 'galaxy', 'test', 1, 2, 'auto', 'ISFDB (isfdb.org), CC BY 4.0'),
+      (3, 'The Complete Peanuts', 'complete-peanuts', 'test', 1, 3, 'never', NULL);
     INSERT INTO issue VALUES (4, 2, 'galaxy-1950-10', 1950, 10, 'Galaxy, October 1950', 1, 1, NULL, NULL,
       'Galaxy_v01n01_1950-10', 'ia', NULL, NULL);
     INSERT INTO person VALUES (1, 'Clement Fezandié'), (2, 'Ellen E. Frewer'), (3, 'Frank R. Paul'),

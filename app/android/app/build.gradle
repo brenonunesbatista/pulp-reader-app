@@ -7,8 +7,10 @@ android {
         applicationId "local.pulpreader"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName "1.0"
+        // every build gets a higher versionCode (minutes since 1970), so the app can tell a newer APK served from the PC
+        // on the LAN (tools/serve_updates.py, src/updates/apk.ts); the name shows the build time
+        versionCode((int) (System.currentTimeMillis() / 60000L))
+        versionName "1.0 (" + new Date().format("yyyy-MM-dd HH:mm") + ")"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
              // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.

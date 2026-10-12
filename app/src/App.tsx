@@ -18,6 +18,7 @@ import { PersonScreen } from './screens/PersonScreen'
 import { SearchScreen } from './screens/SearchScreen'
 import { SettingsScreen } from './screens/SettingsScreen'
 import { SettingsProvider } from './ui/SettingsProvider'
+import { UpdatesProvider } from './updates/UpdatesProvider'
 
 function screenFor(r: Route) {
   switch (r.name) {
@@ -43,9 +44,11 @@ export default function App() {
   return (
     <DbProvider>
       <SettingsProvider>
-        <DownloadsProvider>
-          <NavProvider render={screenFor} />
-        </DownloadsProvider>
+        <UpdatesProvider>
+          <DownloadsProvider>
+            <NavProvider render={screenFor} />
+          </DownloadsProvider>
+        </UpdatesProvider>
       </SettingsProvider>
     </DbProvider>
   )

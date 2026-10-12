@@ -44,6 +44,13 @@ the ISFDB (CC BY 4.0). Not covered: Dragon, Dungeon, comics (the ISFDB barely in
   Omnibus vol. 1–2 (`hellboy-omnibus-vol-02-paragens-exoticas`) — not chosen for now. Dime novels not chosen.
 - Not wanted: Casus Belli (FR), Sinkadus (SE), Magia i Miecz (PL), Diplomacy/chess/go zines.
 
+## Phase 12 — updates without reinstalling (user request 2026-10-12: "Conteúdo + aviso de APK novo")
+- 🧪 12a content over the air: atlas.db (Atlas + magazine descriptions) published in `updates/` of this repo, checked at
+  start and in Settings → Updates, verified (size, sha256, schema), swapped without touching user.db or the catalog.
+- 🧪 12b APKs from the PC: `tools/serve_updates.py` on the LAN, versionCode per build, Settings → Updates → PC address,
+  Android installer via the local plugin.
+- Later: publish the catalog the same way only if its source allowed it (it does not: the guide is not for distribution).
+
 ## Atlas (Explore / Hall) — design notes
 - **What:** an in-app "museum" to *discover*: a timeline (1900s → today) with lanes for magazines, stories, authors,
   world events, films/series, music, manga/anime; entity pages (story, author, character, theme, magazine, movement)

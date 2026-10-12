@@ -481,3 +481,31 @@ Banca" on *Marooned off Vesta*, which has no scan; the spec adds the "in the cat
   `typescript-eslint` recommended rules, `react-hooks` (rules of hooks as error, exhaustive deps as warning — the
   existing `eslint-disable` comments already named these rules) and `react-refresh/only-export-components`
   (`app/eslint.config.js`). First run: 100 files, 0 problems; a deliberate conditional `useState` is reported.
+
+## 2026-10-12 — Phase 12: updates without reinstalling
+- **What travels**: atlas.db only — the Atlas and, from now on, the magazine descriptions, which moved out of the catalog
+  into atlas.db (`magazine_about`, by slug; catalog schema v6 drops `magazine.about`, atlas schema v2). The catalog is
+  not published: it derives from a guide marked "not for distribution", and it changes only with new sources (an APK).
+- **Where**: `updates/atlas.db` + `updates/manifest.json` in this public repository, read from raw.githubusercontent.com
+  (CORS `*`, no server to run, ~300 KB per update). `tools/publish_content.py --push` builds, writes the manifest
+  (version, schema, size, sha256, counts) and pushes. GitHub Releases were not needed for a file this small.
+- **Version**: the commit time of the last change under content/ (`atlas_meta.content_version`), so an APK and a
+  published update built from the same commit agree, and a newer commit always wins. publish_content.py refuses
+  uncommitted content. The app installs only a higher version with the schema it reads (`ATLAS_SCHEMA`).
+- **Swap on Android**: the downloaded bytes are verified in JS (size + SHA-256 via WebCrypto), written to
+  `files/updates/atlas.db` (@capacitor/filesystem), the atlas connection is closed and the plugin's
+  `moveDatabasesAndAddSuffix` renames the file over `atlasSQLite.db`; a fresh connection replaces the old one in the
+  React context, so every Atlas screen and magazine page re-reads. If the new file does not open as an Atlas, the shipped
+  databases are reinstalled. `getFromHTTPRequest` was not used: it writes straight into place, with no checksum step.
+  An APK update reinstalls its own atlas.db (the sha rule of Phase 6); a newer published one comes back at the next check.
+- **When**: 4 s after start, at most every 6 h, not on mobile data when downloads are Wi-Fi only; and Settings → Updates.
+  A notice says what arrived.
+- **APKs on the LAN** (12b): `tools/serve_updates.py` serves `/apk.json` (versionCode/versionName from AGP's
+  `output-metadata.json`, size, sha256) and `/banca.apk` from the debug build folder. `versionCode` = minutes since 1970
+  at build time (always higher, fits an int until year 6053). The local `BancaUpdate` plugin fetches over plain HTTP
+  (the https WebView would block mixed content), checks the sha256, and opens Android's installer through the existing
+  FileProvider (`cache/updates/`). Needs `REQUEST_INSTALL_PACKAGES` (the user grants "install unknown apps" to Banca
+  once, on the screen Android opens) and `usesCleartextTraffic` for the LAN address. The same debug key signs every
+  build, so updates install over the existing app and keep user.db.
+- Until the descriptions are reviewed, the published update and the device build include the drafts
+  (`--draft-about`, `DRAFT_ABOUT=1`), as the previous build did.

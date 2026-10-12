@@ -1,6 +1,7 @@
 // Atlas queries (read-only atlas.db, schema in tools/atlas/schema.sql) and the user's Atlas data in user.db
 // (want-to lists, visits). The only module with Atlas SQL.
 import type { Db } from '../db/types'
+import type { MagazineAbout } from './models'
 import { ftsQuery } from './fts'
 
 export type EntityType = 'person' | 'work' | 'film' | 'series' | 'radio' | 'music' | 'artwork' | 'magazine' | 'issue'
@@ -329,4 +330,14 @@ export async function deleteInboxItem(user: Db, id: number) {
 
 export async function clearInbox(user: Db) {
   await user.run(`DELETE FROM atlas_inbox`)
+}
+
+/** "About" on a magazine page (content/magazines, reviewed descriptions; updated over the air with the Atlas) */
+export async function getMagazineAbout(atlas: Db, slug: string): Promise<MagazineAbout | null> {
+  try {
+    const rows = await atlas.query<{ about: string }>(`SELECT about FROM magazine_about WHERE slug = ?`, [slug])
+    return rows[0] ? (JSON.parse(rows[0].about) as MagazineAbout) : null
+  } catch {
+    return null // an older atlas.db without descriptions, or a malformed row
+  }
 }
