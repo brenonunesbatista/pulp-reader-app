@@ -42,7 +42,8 @@ describe('catalog', () => {
   })
 
   it('knows each magazine reader default for spreads; comics without a month show only the year', async () => {
-    expect(await readerMagazine(db, 3)).toEqual({ slug: 'complete-peanuts', name: 'The Complete Peanuts', spreads: 'never' })
+    expect(await readerMagazine(db, 3)).toEqual({ slug: 'complete-peanuts', name: 'The Complete Peanuts', spreads: 'never', contentsCredit: null })
+    expect((await readerMagazine(db, 2))?.contentsCredit).toBe('ISFDB (isfdb.org), CC BY 4.0')
     expect(await readerMagazine(db, 1)).toMatchObject({ spreads: 'auto' })
     expect(monthYear(1988, 0)).toBe('1988')
     expect(monthYear(1926, 4)).toBe('Apr 1926')

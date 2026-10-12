@@ -33,6 +33,12 @@ def render(collections: list[tuple[dict, Catalog, dict[str, list[str]], list[tup
             w(f"Pack item: issues are sub-books of `{m['item']}`. Cover dates: {len(cat.issues) - len(interp)} read from the "
               f"issue's OCR text, {len(interp)} interpolated between read issues one month apart "
               "(`tools/catalog/pack_dates.py`).\n")
+        unmatched = [p.text for p in cat.problems if p.kind == "isfdb-unmatched-issue"]
+        if m.get("isfdb"):
+            stories = sum(len(i.stories) for i in cat.issues)
+            w(f"Contents from the ISFDB (CC BY 4.0, extract `tools/sources/isfdb/{m['slug']}.json`): "
+              f"{len(cat.issues) - len(unmatched)} of {len(cat.issues)} issues matched, {stories} items." +
+              (f" Without contents: {', '.join(f'`{u}`' for u in unmatched)}." if unmatched else "") + "\n")
         if skipped:
             w("### Skipped\n")
             w("| Item | Reason |\n|---|---|")

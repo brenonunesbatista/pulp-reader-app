@@ -1,12 +1,13 @@
 # Banca
 
 *A newsstand for pulp magazines.* A personal Android tablet (and phone) app for browsing and reading classic pulp magazines scanned by the
-[Internet Archive](https://archive.org). Seven magazines, about 2,000 issues: **Amazing Stories** (1926–1956, 309
-issues with 4,000+ stories, searchable by title, author, editor, cover artist and translator), **The Magazine of Fantasy
+[Internet Archive](https://archive.org). About 2,900 issues: **Amazing Stories** (1926–1956, 309 issues), **The Magazine of Fantasy
 & Science Fiction** (1949–2007), **Galaxy** (1950–1980), **Fantastic** (1952–1980) and **Rod Serling's The Twilight Zone
 Magazine** (1981–1989), plus the RPG magazines **Dragon** (1976–2013) and **Dungeon** (1986–2013), and 12 comics titles (about 820
 issues and volumes: Hellblazer, Turok, Conan, Miracleman, Asterix, The Complete Peanuts, Marvel Masterworks and more),
-all readable page by page.
+all readable page by page. The pulp magazines' contents — about 18,000 stories, articles and poems — are searchable
+by title, author, editor, cover artist and translator (Amazing Stories from its reference guide, the others from the
+[ISFDB](https://www.isfdb.org)).
 
 Built for a Samsung Galaxy Tab A9+ (11", 1920×1200), with phone layouts for the Galaxy S25. Personal use only. It is not published on any store; see
 [Distribution](#distribution).
@@ -90,7 +91,9 @@ Internet Archive ◄── IIIF page images + djvu.xml OCR ──── Capacito
   contents, report: [docs/catalog-report.md](docs/catalog-report.md)); the other magazines come from Internet Archive
   collections through a generic adapter that dates each scan, picks the best scan per issue and keeps the others as
   alternates (report: [docs/catalog-sources.md](docs/catalog-sources.md)). Their covers load from the Internet Archive.
-  Builds are reproducible and need no network unless `--refresh` re-reads the collections.
+  Builds are reproducible and need no network unless `--refresh` re-reads the collections. Contents of F&SF, Galaxy,
+  Fantastic and Twilight Zone come from an extract of the ISFDB database backup (`tools/sources/isfdb/`, CC BY 4.0,
+  refreshed with `--isfdb <backup.zip>`), matched to the issues by date.
 - **Reader**: page images come from the IIIF Image API (CORS-enabled, any width). OCR word boxes come from each
   item's `_djvu.xml`, fetched natively because that endpoint sends no CORS headers. The research and measurements behind
   this design are in [docs/archive-findings.md](docs/archive-findings.md) and [docs/DECISIONS.md](docs/DECISIONS.md).
@@ -167,6 +170,7 @@ pytest                                                      # catalog tools, fro
    level, contents not indexed yet); 8b ✅ Dragon and Dungeon (issues inside multi-issue "pack" items, dated from their
    OCR); 8c ✅ comics (12 titles, dated by year only; reader option *Two pages side by side: In landscape / Never*, remembered
    per magazine, Peanuts defaults to Never).
+8. 🧪 **Contents from the ISFDB**: story indexes for F&SF, Galaxy, Fantastic and Twilight Zone (1,084 of 1,085 issues).
 
 ## Distribution
 
@@ -181,4 +185,6 @@ app on a store would first require clearing copyright, trademark and data-source
 - Scans and OCR: [Internet Archive](https://archive.org) and the volunteers who scanned and uploaded these magazines.
 - Issue contents: *Amazing Stories Reference Guide* by Tak Kurosaki (used privately, not redistributed).
 - Collection listings and covers of the other magazines: Internet Archive metadata and thumbnails.
+- Contents of F&SF, Galaxy, Fantastic and The Twilight Zone Magazine: [ISFDB](https://www.isfdb.org), The Internet
+  Speculative Fiction Database, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 - Item type codes: [FictionMags Index](http://www.philsp.com/docs/fm_item_types.html).

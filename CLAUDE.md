@@ -25,7 +25,8 @@ Capacitor (Android) · Vite · React · TypeScript (strict) · SQLite (`@capacit
 - Catalog build: `python tools/build_catalog.py --out app/public/catalog` (all magazines in `tools/sources.toml`;
   `--refresh` re-reads the IA collection / pack listings into `tools/sources/ia/*.json`, committed; `--date-packs`
   re-reads the cover dates of pack issues from their OCR (`*.dates.json`, committed, ~150 ranged requests);
-  `--only slug,slug`;
+  `--isfdb data/source/<ISFDB backup>.zip` re-extracts pulp contents into `tools/sources/isfdb/*.json` (committed;
+  the backup is downloaded by hand from the ISFDB wiki, needs a login; 4 streaming passes, ~2 min); `--only slug,slug`;
   writes `catalog.db` + `covers/*.webp`, both git-ignored, `docs/catalog-report.md` and `docs/catalog-sources.md`)
 - Atlas review page: `python tools/atlas/review_page.py --out <file.html>` (one HTML page, path + all entities, OK/Change marks)
 - Atlas media suggestions: `python tools/atlas/suggest_media.py --out media.json` (free Commons images + IMDb/Spotify ids from Wikidata, batched; review before adding)

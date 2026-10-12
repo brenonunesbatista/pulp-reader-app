@@ -7,7 +7,9 @@ CREATE TABLE magazine (
   id INTEGER PRIMARY KEY, name TEXT NOT NULL, slug TEXT NOT NULL UNIQUE, source TEXT,
   category_id INTEGER NOT NULL REFERENCES category(id), sort INTEGER NOT NULL,
   -- reader default for two-page spreads in landscape: 'auto' | 'never' (wide strips, e.g. Peanuts)
-  spreads TEXT NOT NULL DEFAULT 'auto' CHECK (spreads IN ('auto', 'never')));
+  spreads TEXT NOT NULL DEFAULT 'auto' CHECK (spreads IN ('auto', 'never')),
+  -- where the issue contents come from, shown on issue pages (credit), e.g. 'ISFDB (CC BY 4.0)'
+  contents_credit TEXT);
 CREATE TABLE issue (
   id INTEGER PRIMARY KEY,
   magazine_id INTEGER NOT NULL REFERENCES magazine(id),

@@ -12,8 +12,20 @@ function downloadUrl(ident: string, file: string): string {
   return isNative ? `https://archive.org/download/${path}` : `/ia-download/${path}`
 }
 
+/** GET a text file from archive.org/download, retrying server errors (the Archive answers 5xx now and then) */
 export async function getDownloadText(ident: string, file: string): Promise<string> {
-  const url = downloadUrl(ident, file)
+  for (let attempt = 0; ; attempt++) {
+    try {
+      return await getOnce(downloadUrl(ident, file), file)
+    } catch (e) {
+      const status = Number(/HTTP (\d+)/.exec(String(e))?.[1] ?? 0)
+      if (attempt >= 2 || (status && status < 500)) throw e
+      await new Promise((r) => setTimeout(r, 1500 * 2 ** attempt))
+    }
+  }
+}
+
+async function getOnce(url: string, file: string): Promise<string> {
   if (isNative) {
     const r = await CapacitorHttp.get({ url, headers: { 'User-Agent': USER_AGENT }, responseType: 'text' })
     if (r.status !== 200) throw new Error(`HTTP ${r.status} for ${file}`)

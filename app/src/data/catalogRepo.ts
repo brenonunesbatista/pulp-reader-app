@@ -92,10 +92,12 @@ export async function listMagazines(db: Db): Promise<Magazine[]> {
 }
 
 /** what the reader needs about an issue's magazine: slug (per-magazine settings) and its default for landscape spreads */
-export async function readerMagazine(db: Db, id: number): Promise<{ slug: string; name: string; spreads: 'auto' | 'never' } | null> {
-  const rows = await db.query<{ slug: string; name: string; spreads: 'auto' | 'never' }>(
-    `SELECT slug, name, spreads FROM magazine WHERE id = ?`, [id])
-  return rows[0] ?? null
+export async function readerMagazine(db: Db, id: number): Promise<{
+  slug: string; name: string; spreads: 'auto' | 'never'; contentsCredit: string | null
+} | null> {
+  const rows = await db.query<{ slug: string; name: string; spreads: 'auto' | 'never'; contents_credit: string | null }>(
+    `SELECT slug, name, spreads, contents_credit FROM magazine WHERE id = ?`, [id])
+  return rows[0] ? { slug: rows[0].slug, name: rows[0].name, spreads: rows[0].spreads, contentsCredit: rows[0].contents_credit } : null
 }
 
 export async function getMagazine(db: Db, id: number): Promise<Magazine | null> {

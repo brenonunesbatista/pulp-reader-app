@@ -33,6 +33,10 @@ adapter = "ia_collection"
 collection = "fantasyandsciencefiction"
 # anthologies, foreign editions and single-story extracts are not issues of the US magazine
 exclude = 'Best_From|Australian|\(UK\)|_UK_|TheCricketBall'
+# contents from the ISFDB extract tools/sources/isfdb/<slug>.json (build_catalog.py --isfdb <dump.zip> to refresh)
+# (the first issue, Fall 1949, was "The Magazine of Fantasy")
+isfdb = '^The Magazine of Fantasy( (&|and) Science Fiction)?, '
+isfdb_exclude = '\bUK\b|British|Australian'
 
 [[magazine]]
 slug = "galaxy"
@@ -44,6 +48,8 @@ collection = "galaxymagazine"
 # the Galaxy Science Fiction Novels are a book series; the 1994 2nd series is a different magazine; GalaxyPD is a
 # compilation
 exclude = 'Novel_|Santa_Covers|2nd_Series|^GalaxyPD$'
+isfdb = '^Galaxy( Science Fiction( Magazine)?| Magazine)?, (?!#)'
+isfdb_exclude = '\bUK\b|British|Australian|World Editions'
 
 [[magazine]]
 slug = "fantastic"
@@ -52,6 +58,8 @@ name = "Fantastic"
 category = "pulp"
 adapter = "ia_collection"
 collection = "fantasticsfstories"
+isfdb = '^Fantastic( Stories of (the )?Imagination| Science Fiction( Stories)?| Stories)?, '
+isfdb_exclude = '\bUK\b|British'
 
 [[magazine]]
 slug = "twilight-zone"
@@ -60,6 +68,7 @@ name = "Rod Serling's The Twilight Zone Magazine"
 category = "pulp"
 adapter = "ia_collection"
 collection = "twilightzonemagazine"
+isfdb = "^Rod Serling's The Twilight Zone Magazine, "
 
 # Packs: one IA item holding many issues (sub-books). Dates: tools/sources/ia/<item>.dates.json, made once with
 # build_catalog.py --date-packs (reads the cover date of anchor issues from their OCR text, see catalog/pack_dates.py).

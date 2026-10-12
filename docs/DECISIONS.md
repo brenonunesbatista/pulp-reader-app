@@ -344,3 +344,30 @@ Banca" on *Marooned off Vesta*, which has no scan; the spec adds the "in the cat
   strips) and a user override per magazine slug in settings (`spreads`). Display panel: *Two pages side by side: In
   landscape / Never*, applied at once (layout rebuilt).
 - Catalog: 19 magazines, 2,880 issues, 3.4 MB.
+
+## 2026-10-12 — Phase 9: issue contents from the ISFDB
+- **Licence**: the ISFDB states "This work is licensed under a Creative Commons Attribution 4.0 International License"
+  (isfdb.org front page). Credit on issue pages ("Contents: ISFDB, CC BY 4.0", linked), in README credits and in each
+  extract file.
+- **Access**: no per-issue crawling of the site. The database backup (zipped mysqldump, 367 MB → 1.6 GB SQL, dated
+  2026-10-10) is downloaded by the user from the ISFDB wiki (login required) into `data/source/` (git-ignored).
+  `tools/catalog/mysqldump.py` streams rows of the requested tables only (no MySQL server; ~25 s per pass), and
+  `tools/catalog/isfdb.py` reads pubs → pub_content → titles → canonical_author/authors (4 passes, ~2 min). Wiki user
+  tables in the backup (emails, users) are never read.
+- **Extract** committed in `tools/sources/isfdb/<slug>.json` (3 MB for four magazines): per ISFDB magazine issue its
+  date, title, contents (title, type, length, printed page, credited authors, real names behind pseudonyms), cover
+  artists and editors. Issues are selected by a title pattern per magazine (`isfdb`, `isfdb_exclude` drops UK/Australian
+  editions); F&SF's first issue was "The Magazine of Fantasy".
+- **Matching** to catalog issues by year and month (a month either side for bimonthly/seasonal dating; ISFDB seasons
+  map like ours). Result: F&SF 595/596 (October 1991 unmatched), Galaxy 249/249, Fantastic 180/180, Twilight Zone
+  60/60; 13,956 items. Types map to the FictionMags codes the app already shows (novella, novelette, short story,
+  serial with "Part n of m", article, editorial, poem, interview); book reviews and interior art are left out.
+  Recurring columns lose the ISFDB's "(Galaxy, October 1950)" disambiguation; uncredited items whose author the ISFDB
+  knows are credited to that author with the note "uncredited"; pseudonyms keep the printed name with "X = Real".
+- People are merged across magazines by the existing name registry (Asimov, Ellison, Silverberg: one person each);
+  catalog 17,978 items, 3,888 people. Catalog schema v4: `magazine.contents_credit`.
+- Stories have a printed page but no scan leaf: the reader places them with the OCR page map (as for Amazing), so a
+  jump from the contents lands once the OCR is read. `getDownloadText` now retries 5xx answers (2 retries, 1.5 s/3 s):
+  the Archive returned a transient 500 for a djvu.xml during testing.
+- Lint could not run on 2026-10-12: Windows Application Control blocks oxlint's native binary
+  (`oxlint.win32-x64-msvc.node`); typecheck and tests pass.

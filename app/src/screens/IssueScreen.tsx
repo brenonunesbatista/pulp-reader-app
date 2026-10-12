@@ -1,7 +1,8 @@
-import { getContents, getIssue, issuePeople } from '../data/catalogRepo'
+import { getContents, getIssue, issuePeople, readerMagazine } from '../data/catalogRepo'
 import type { StoryInIssue } from '../data/models'
 import { deleteProgress, getProgress } from '../data/progressRepo'
 import { useDb } from '../db/useDb'
+import { openExternal } from '../notes/share'
 import { useIsActive, useNav } from '../nav/context'
 import { Cover, ErrorBox, Loading, Screen, SectionHeader, StoryRow, SubMasthead } from '../ui/components'
 import { monthYear, coverTag } from '../ui/format'
@@ -20,7 +21,8 @@ export function IssueScreen({ id }: { id: number }) {
   const data = useAsync(async () => {
     const issue = await getIssue(catalog, id)
     if (!issue) throw new Error(`Issue ${id} not found`)
-    return { issue, contents: await getContents(catalog, id), people: await issuePeople(catalog, id) }
+    return { issue, contents: await getContents(catalog, id), people: await issuePeople(catalog, id),
+      mag: await readerMagazine(catalog, issue.magazineId) }
   }, [catalog, id])
   const [cleared, setCleared] = useState(0)
   const [confirmClear, setConfirmClear] = useState(false)
@@ -97,6 +99,11 @@ export function IssueScreen({ id }: { id: number }) {
               {readable
                 ? 'The stories of this magazine are not indexed yet. Read the issue and use the page index to browse every page.'
                 : 'No contents listed.'}
+            </p>
+          )}
+          {contents.length > 0 && data.data.mag?.contentsCredit?.startsWith('ISFDB') && (
+            <p className="muted small credit-line">
+              Contents: <button className="linklike" onClick={() => void openExternal('https://www.isfdb.org')}>ISFDB</button>, CC BY 4.0
             </p>
           )}
           <div className="toc">

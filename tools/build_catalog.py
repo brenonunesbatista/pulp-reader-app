@@ -52,6 +52,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--source", type=Path, help="reference PDF for the amazing_stories adapter (overrides sources.toml)")
     ap.add_argument("--only", help="comma-separated magazine slugs (default: all)")
     ap.add_argument("--refresh", action="store_true", help="re-read IA collection listings")
+    ap.add_argument("--isfdb", type=Path, help="ISFDB backup zip: re-extract issue contents into tools/sources/isfdb/")
     ap.add_argument("--date-packs", action="store_true", help="re-read the cover dates of pack issues (OCR, ~100 requests)")
     ap.add_argument("--report", type=Path, default=Path("docs/catalog-report.md"))
     ap.add_argument("--sources-report", type=Path, default=Path("docs/catalog-sources.md"))
@@ -60,6 +61,11 @@ def main(argv: list[str] | None = None) -> int:
     conf = tomllib.loads(args.sources.read_text(encoding="utf-8"))
     only = set(args.only.split(",")) if args.only else None
     mags = [m for m in conf["magazine"] if not only or m["slug"] in only]
+    isfdb_dir = ROOT / "sources" / "isfdb"
+    if args.isfdb:
+        from catalog import isfdb
+        print("extracting ISFDB contents …", flush=True)
+        print(isfdb.extract(args.isfdb, [m for m in mags if m.get("isfdb")], isfdb_dir), flush=True)
     parts: list[db.Part] = []
     meta: dict[str, str] = {}
     images: dict[str, bytes] = {}
@@ -72,7 +78,7 @@ def main(argv: list[str] | None = None) -> int:
             sha = hashlib.sha256(src.read_bytes()).hexdigest()
             guide = (cat, sha)
             images |= {i.slug: i.cover_image for i in cat.issues if i.cover_image}
-            parts.append(db.Part(cat, m["category"]))
+            parts.append(db.Part(cat, m["category"], contents_credit="Amazing Stories Reference Guide (Tak Kurosaki)"))
             meta[f"source:{m['slug']}"] = f"{src.name} sha256 {sha}"
         elif m["adapter"] == "ia_collection":
             ia = importlib.import_module("adapters.ia_collection")
@@ -82,7 +88,13 @@ def main(argv: list[str] | None = None) -> int:
                 snap.write_text(json.dumps(ia.fetch(m["collection"]), indent=0, ensure_ascii=False) + "\n",
                                 encoding="utf-8", newline="\n")
             cat, alternates, skipped = ia.parse(m, snap)
-            parts.append(db.Part(cat, m["category"], alternates, m["block"]))
+            if m.get("isfdb") and (isfdb_dir / f"{m['slug']}.json").exists():
+                from catalog import isfdb
+                print(f"  {m['slug']}: ISFDB contents {isfdb.attach(cat, isfdb_dir / (m['slug'] + '.json'))}", flush=True)
+            credit = None
+            if m.get("isfdb") and (isfdb_dir / f"{m['slug']}.json").exists():
+                credit = "ISFDB (isfdb.org), CC BY 4.0"
+            parts.append(db.Part(cat, m["category"], alternates, m["block"], contents_credit=credit))
             collections.append((m, cat, alternates, skipped))
             meta[f"source:{m['slug']}"] = f"{cat.source} sha256 {hashlib.sha256(snap.read_bytes()).hexdigest()}"
         elif m["adapter"] == "ia_pack":
