@@ -4,6 +4,10 @@ import { useNav } from '../nav/context'
 import { Cover, SectionHeader } from '../ui/components'
 import { titleSize } from '../ui/format'
 
+/** card titles break between words only, never at a hyphen ("Uncanny X-/Men") */
+const keepHyphenated = (name: string) =>
+  name.split(/(\S*-\S*)/).map((part, i) => (i % 2 ? <span key={i} className="nowrap">{part}</span> : part))
+
 /** One category shelf: its magazines (from the catalog) and the ones still on the way. */
 export function MagazineShelf({ category, magazines }: { category: Category; magazines: Magazine[] }) {
   const nav = useNav()
@@ -19,7 +23,7 @@ export function MagazineShelf({ category, magazines }: { category: Category; mag
           <button key={m.id} className="mag-card" onClick={() => nav.push({ name: 'magazine', id: m.id })}>
             <div className="mosaic">{m.covers.map((c) => <Cover key={c} path={c} small />)}</div>
             <div className="info">
-              <div className={`title ${titleSize(m.name)}`}>{m.name}</div>
+              <div className={`title ${titleSize(m.name)}`}>{keepHyphenated(m.name)}</div>
               <div className="muted small num">{m.firstYear === m.lastYear ? m.firstYear : `${m.firstYear}–${m.lastYear}`}</div>
               <div className="muted small num">{m.issueCount} {m.issueCount === 1 ? 'issue' : 'issues'} · {m.readable} readable</div>
               <span className="tag">OPEN</span>

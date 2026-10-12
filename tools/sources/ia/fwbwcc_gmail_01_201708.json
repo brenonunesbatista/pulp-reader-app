@@ -1,0 +1,68 @@
+[
+{
+"stem": "Spaw1to8",
+"pages": 183,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "Spawn18to26",
+"pages": 204,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "Spawn27to35",
+"pages": 206,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "Spawn36to44",
+"pages": 203,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "Spawn45to52",
+"pages": 204,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "Spawn53to61",
+"pages": 199,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "Spawn62to70",
+"pages": 187,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "Spawn71to79",
+"pages": 193,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "Spawn80to89",
+"pages": 229,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "Spawn90to99",
+"pages": 228,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "Spawn9to17",
+"pages": 205,
+"ocr": true,
+"scandata": true
+}
+]

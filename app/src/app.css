@@ -334,3 +334,4 @@ select.chip { appearance: none; padding-right: 30px; background-image: linear-gr
 .settings-group .field { display: grid; gap: 4px; margin: 14px 0 8px; max-width: 420px; }
 .settings-group .field input { font: 400 17px var(--f-text); padding: 8px 10px; border: 2px solid var(--edge); background: var(--surface);
   color: var(--ink); border-radius: 0; }
+.nowrap { white-space: nowrap; }

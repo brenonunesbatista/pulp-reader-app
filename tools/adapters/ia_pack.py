@@ -5,6 +5,10 @@ The catalog stores such an issue's scan as `<item>/<stem>` in `ia_identifier`; t
 sub-book (app/src/reader/engine/ia.ts). Inputs, both committed:
 - `tools/sources/ia/<item>.json`: the sub-books (stem, page count, has OCR), from the item's metadata (`--refresh`);
 - `tools/sources/ia/<item>.dates.json`: cover date per issue number and per special (tools/catalog/pack_dates.py).
+
+A magazine may take its sub-books from several items (`items = [...]`, Phase 13: Uncanny X-Men, Batman), and sub-books
+may sit in folders ("Batman - Knightfall/Batman - Knightfall Part 01 …"): patterns and titles use the base name.
+`[[magazine.books]]` entries (`stem` = base name, `title`, `year`) curate the title and year of unnumbered books.
 """
 from __future__ import annotations
 
@@ -34,19 +38,29 @@ def fetch(item: str) -> list[dict]:
     return sorted(out, key=lambda x: x["stem"])
 
 
+def base(stem: str) -> str:
+    """a sub-book's name without its folder"""
+    return stem.rsplit("/", 1)[-1]
+
+
+def key(b: dict) -> str:
+    """scan key of a sub-book: `<item>/<stem>`"""
+    return f"{b['item']}/{b['stem']}"
+
+
 def numbered(cfg: dict, books: list[dict]) -> dict[int, str]:
-    """issue number → stem, for the sub-books matching the magazine's `issue_pattern` (group 1 = number); two scans of
-    one number: the one with more pages"""
-    pat = re.compile(cfg["issue_pattern"])
+    """issue number → scan key, for the sub-books matching the magazine's `issue_pattern` (group 1 = number); two
+    scans of one number: the one with more pages"""
+    pat = re.compile(cfg["issue_pattern"]) if cfg.get("issue_pattern") else None
     out: dict[int, str] = {}
-    pages = {b["stem"]: b["pages"] for b in books}
+    pages = {key(b): b["pages"] for b in books}
     for b in books:
-        m = pat.fullmatch(b["stem"])
+        m = pat.fullmatch(base(b["stem"])) if pat else None
         if m:
             # `number_join`: volume and number groups make one number (Heroes v1 01 → 101)
             n = int(m[1]) * 100 + int(m[2]) if cfg.get("number_join") else int(m[1])
             if n not in out or b["pages"] > pages[out[n]]:
-                out[n] = b["stem"]
+                out[n] = key(b)
     return out
 
 
@@ -54,10 +68,10 @@ def years_only(cfg: dict, nums: dict[int, str]) -> dict[int, list]:
     """Comics (`year_only = true`): a year per issue, no month (month 0). Known years: the pattern's `year` group (the
     year in the file name) and `year_anchors` [[number, year], …] from sources.toml; the others are interpolated
     linearly between the nearest known numbers."""
-    pat = re.compile(cfg["issue_pattern"])
+    pat = re.compile(cfg.get("issue_pattern") or "(?!)")
     known: dict[int, tuple[int, str]] = {}
-    for n, stem in nums.items():
-        m = pat.fullmatch(stem)
+    for n, k in nums.items():
+        m = pat.fullmatch(base(k))
         if m and m.groupdict().get("year"):
             known[n] = (int(m["year"]), "name")
     for n, y in cfg.get("year_anchors", []):
@@ -111,10 +125,15 @@ def special_id(block: int, stem: str) -> int:
     return block * 10_000_000 + 9_000_000 + zlib.crc32(stem.encode("utf-8")) % 1_000_000
 
 
-def parse(cfg: dict, snapshot: Path, dates_file: Path) -> tuple[Catalog, list[tuple[str, str]]]:
-    item = cfg["item"]
-    books = json.loads(snapshot.read_text(encoding="utf-8"))
-    by_stem = {b["stem"]: b for b in books}
+def items(cfg: dict) -> list[str]:
+    return cfg.get("items") or [cfg["item"]]
+
+
+def parse(cfg: dict, snapshot: Path | dict[str, Path], dates_file: Path) -> tuple[Catalog, list[tuple[str, str]]]:
+    snaps = snapshot if isinstance(snapshot, dict) else {cfg["item"]: snapshot}
+    books = [{**b, "item": item} for item, snap in snaps.items() for b in json.loads(snap.read_text(encoding="utf-8"))]
+    by_key = {key(b): b for b in books}
+    curated = {c["stem"]: c for c in cfg.get("books", [])}
     nums = numbered(cfg, books)
     if cfg.get("year_only"):
         dates = {"issues": years_only(cfg, nums), "specials": {}}
@@ -124,7 +143,7 @@ def parse(cfg: dict, snapshot: Path, dates_file: Path) -> tuple[Catalog, list[tu
     specials = re.compile(cfg["special_pattern"]) if cfg.get("special_pattern") else None
     ignore = re.compile(cfg["ignore"]) if cfg.get("ignore") else None  # another series in the same item
     template = cfg.get("title", "{name} #{n}")
-    pat = re.compile(cfg["issue_pattern"])
+    pat = re.compile(cfg.get("issue_pattern") or "(?!)")
     skipped: list[tuple[str, str]] = []
     problems: list[ParseIssue] = []
     issues: list[Issue] = []
@@ -132,8 +151,9 @@ def parse(cfg: dict, snapshot: Path, dates_file: Path) -> tuple[Catalog, list[tu
     def readable(b: dict) -> bool:
         return b["pages"] > 0 and b["ocr"] and b["scandata"]
 
-    for n, stem in sorted(nums.items()):
-        b = by_stem[stem]
+    for n, k in sorted(nums.items()):
+        b = by_key[k]
+        stem = base(b["stem"])
         d = dates["issues"].get(n)
         if not readable(b):
             skipped.append((stem, "no page list or OCR: the reader cannot open it"))
@@ -149,18 +169,20 @@ def parse(cfg: dict, snapshot: Path, dates_file: Path) -> tuple[Catalog, list[tu
         if cfg.get("year_only"):
             title = clean_title(title)
         issue = Issue(year=y, month=mo, title=title, slug=f"{cfg['slug']}-{n:03d}", source_page=0,
-                      ia_identifier=f"{item}/{stem}", number=n)
+                      ia_identifier=k, number=n)
         issue.id = cfg["block"] * 10_000_000 + n * 10
         issue.page_count = b["pages"]
         issues.append(issue)
     for b in books:
-        stem = b["stem"]
-        if stem in nums.values() or (ignore and ignore.search(stem)):
+        stem = base(b["stem"])
+        if key(b) in nums.values() or (ignore and ignore.search(stem)):
             continue
-        if not specials or not specials.search(stem):
+        if stem not in curated and (not specials or not specials.search(stem)):
             skipped.append((stem, "neither a numbered issue nor a listed special"))
             continue
         d = dates["specials"].get(stem)
+        if stem in curated:
+            d = [curated[stem]["year"], 0, "curated"]
         if not d and stem in cfg.get("special_years", {}):
             d = [cfg["special_years"][stem], 0, "anchor"]
         elif not d and cfg.get("year_only") and (m := re.search(r"\((?:19|20)\d\d\)", stem)):
@@ -172,15 +194,16 @@ def parse(cfg: dict, snapshot: Path, dates_file: Path) -> tuple[Catalog, list[tu
         if not readable(b) or not d:
             skipped.append((stem, "no page list or OCR" if not readable(b) else "no date"))
             continue
-        title = special_title(cfg["name"], stem) if not cfg.get("year_only") else clean_title(stem)
+        title = (curated[stem]["title"] if stem in curated else
+                 special_title(cfg["name"], stem) if not cfg.get("year_only") else clean_title(stem))
         issue = Issue(year=d[0], month=d[1], title=title, slug=f"{cfg['slug']}-" + re.sub(r"[^a-z0-9]+", "-", stem.lower()).strip("-"),
-                      source_page=0, ia_identifier=f"{item}/{stem}")
-        issue.id = special_id(cfg["block"], stem)
+                      source_page=0, ia_identifier=key(b))
+        issue.id = special_id(cfg["block"], b["stem"])
         issue.page_count = b["pages"]
         issues.append(issue)
     issues.sort(key=lambda i: (i.year, i.month, i.number is None, i.number or 0, i.title))
     ids = [i.id for i in issues]
     assert len(ids) == len(set(ids)), "duplicate issue ids in a pack"
-    cat = Catalog(magazine_name=cfg["name"], magazine_slug=cfg["slug"], source=f"archive.org item {item} (pack)",
+    cat = Catalog(magazine_name=cfg["name"], magazine_slug=cfg["slug"], source=f"archive.org item{'s' if len(snaps) > 1 else ''} {', '.join(snaps)} (pack)",
                   issues=issues, problems=problems)
     return cat, skipped

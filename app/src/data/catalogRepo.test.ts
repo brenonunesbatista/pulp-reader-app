@@ -152,6 +152,8 @@ describe('magazine card titles', () => {
     expect(titleSize('Galaxy')).toBe('')
     expect(titleSize('Amazing Spider-Man Masterworks')).toBe('long')
     expect(titleSize('Protodimension')).toBe('long')
+    expect(titleSize('Uncanny X-Men')).toBe('') // X-Men stays whole: 5 letters
+    expect(titleSize('The Spectacular Spider-Man')).toBe('long')
     expect(titleSize('Superlongtitleword')).toBe('longer')
   })
 })

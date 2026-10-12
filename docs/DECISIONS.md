@@ -509,3 +509,21 @@ Banca" on *Marooned off Vesta*, which has no scan; the spec adds the "in the cat
   build, so updates install over the existing app and keep user.db.
 - Until the descriptions are reviewed, the published update and the device build include the drafts
   (`--draft-about`, `DRAFT_ABOUT=1`), as the previous build did.
+
+## 2026-10-12 — Phase 13: modern comics classics; packs from several items and folders
+- 7 titles from the user's list (237 issues and books, blocks 116–122), all from the IA's `comics_inbox` uploads.
+  Batman and Daredevil gather their storylines from 8 and 2 items into one card per character (user choice), in story
+  order; Uncanny X-Men joins three items (#1–66, the Dark Phoenix Saga, Days of Future Past).
+- `ia_pack` now takes `items = [...]` (one snapshot per item, all committed) and sub-books in folders
+  ("Batman - Knightfall/Batman - Knightfall Part 01 …"): patterns, titles and slugs use the base name; scan keys stay
+  `<item>/<folder>/<name>`. Unnumbered books get a curated title and story year (`books = [{stem, title, year}]`).
+  The full rebuild left every existing issue (id, title, date, scan) unchanged; 237 added.
+- **Reader**: the IIIF image of a page in a folder is `<item>/<folder>/<name>_jp2.zip/<name>_jp2/<name>_NNNN.jp2` —
+  the zip keeps the folder, its entries only the base name (the full path inside the zip answers 500). Scandata and
+  OCR downloads work with the folder path, with `/` or `%2F`.
+- Years are those of the stories' first publication, not of the digital editions in the file names (Sin City 2010,
+  Knightfall 2000, The Long Halloween 1998 → 1991–1999, 1993–94, 1996).
+- Card titles never break inside a hyphenated word ("Uncanny X-/Men"): such words are kept whole and count as one word
+  when sizing the title.
+- The IA answered 500 for some of these items' files for minutes at a time during the survey (transient; the app
+  retries).

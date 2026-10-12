@@ -73,6 +73,7 @@ export const HIGHLIGHT_HEX: Record<string, string> = { yellow: '#F2B705', red: '
 /** Card titles are set in a condensed display face; a word that would not fit the card's text column (~10 letters at
  *  the full size, ~14 at 'long') gets a smaller size instead of breaking mid-word ("MASTERWORKS", "PROTODIMENSION"). */
 export function titleSize(name: string): '' | 'long' | 'longer' {
-  const longest = Math.max(...name.split(/[\s/-]+/).map((w) => w.length))
+  // a hyphenated word ("X-Men", "Spider-Man") never breaks, so it counts as one word
+  const longest = Math.max(...name.split(/[\s/]+/).map((w) => w.length))
   return longest >= 15 ? 'longer' : longest >= 10 ? 'long' : ''
 }

@@ -44,6 +44,14 @@ the ISFDB (CC BY 4.0). Not covered: Dragon, Dungeon, comics (the ISFDB barely in
   Omnibus vol. 1–2 (`hellboy-omnibus-vol-02-paragens-exoticas`) — not chosen for now. Dime novels not chosen.
 - Not wanted: Casus Belli (FR), Sinkadus (SE), Magia i Miecz (PL), Diplomacy/chess/go zines.
 
+## Phase 13 — modern comics classics (user list 2026-10-12)
+- 🧪 7 titles, 237 issues/books, blocks 116–122: V for Vendetta (10), Spawn #1–99 (11 volumes), Sin City (7 + The Art
+  of Sin City), Uncanny X-Men (#1–66, #125–137, #141–142), The Spectacular Spider-Man #1–100, Batman (Golden Age v1–6,
+  The Dark Knight Returns, Year One, The Cult, A Death in the Family, Knightfall, The Long Halloween, Hush), Daredevil
+  (Born Again, The Man Without Fear). One card per character (user choice). 7 description drafts.
+- Left out: Spider-Man 2099 (IA derived 7 of 81 files: no page lists), Batman: Year One Deluxe (lending only; the open
+  `batman-year-one` has the story), Snowpiercer (only #1 on the IA; user: wait for the full series).
+
 ## Phase 12 — updates without reinstalling (user request 2026-10-12: "Conteúdo + aviso de APK novo")
 - 🧪 12a content over the air: atlas.db (Atlas + magazine descriptions) published in `updates/` of this repo, checked at
   start and in Settings → Updates, verified (size, sha256, schema), swapped without touching user.db or the catalog.

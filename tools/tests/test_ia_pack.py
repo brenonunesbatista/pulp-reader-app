@@ -67,3 +67,23 @@ def test_comics_years_only(tmp_path):
                    "Turok Giant 01": (1966, 0)}
     assert skipped == []
     assert ia_pack.clean_title("37 asterix and the chariot race") == "37 Asterix and the Chariot Race"
+
+
+def test_several_items_folders_and_curated_books(tmp_path):
+    """Phase 13: one title from several items; sub-books in folders; curated titles and years for unnumbered books"""
+    a, b = tmp_path / "a.json", tmp_path / "b.json"
+    a.write_text(json.dumps([book("Uncanny X-Men - 001 (c2c)"), book("Uncanny X-Men - 002 (c2c)")]))
+    b.write_text(json.dumps([book("Saga/Uncanny X-Men 137 (1980) (digital) (Minutemen-Syl3ntBob)"),
+                             book("Saga/God Loves, Man Kills"), book("Saga/Poster", pages=1)]))
+    cfg = {"slug": "uncanny-x-men", "name": "Uncanny X-Men", "items": ["silver", "phoenix"], "block": 119,
+           "year_only": True, "issue_pattern": r"Uncanny X-Men (?:- )?0*(\d+)(?: \((?P<year>\d{4})\))?.*",
+           "year_anchors": [[1, 1963]], "books": [{"stem": "God Loves, Man Kills", "title": "God Loves, Man Kills", "year": 1982}]}
+    cat, skipped = ia_pack.parse(cfg, {"silver": a, "phoenix": b}, tmp_path / "none.json")
+    got = [(i.title, i.year, i.ia_identifier) for i in cat.issues]
+    assert got == [("Uncanny X-Men #1", 1963, "silver/Uncanny X-Men - 001 (c2c)"),
+                   ("Uncanny X-Men #2", 1963, "silver/Uncanny X-Men - 002 (c2c)"),
+                   ("Uncanny X-Men #137", 1980, "phoenix/Saga/Uncanny X-Men 137 (1980) (digital) (Minutemen-Syl3ntBob)"),
+                   ("God Loves, Man Kills", 1982, "phoenix/Saga/God Loves, Man Kills")]
+    assert cat.issues[3].id == ia_pack.special_id(119, "Saga/God Loves, Man Kills")
+    assert [s for s, _ in skipped] == ["Poster"]
+    assert "silver, phoenix" in cat.source

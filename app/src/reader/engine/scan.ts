@@ -17,7 +17,9 @@ export function packPageSvc(item: string, stem: string, leafNum: number, index: 
   if (IIIF_UNSAFE.test(stem)) {
     return `https://archive.org/download/${encodeURIComponent(item)}/page/n${index}_w{w}.jpg?subPrefix=${encodeURIComponent(stem)}`
   }
-  return IIIF_IMAGE + encodeURIComponent(`${item}/${stem}_jp2.zip/${stem}_jp2/${stem}_${String(leafNum).padStart(4, '0')}.jp2`)
+  // sub-books in a folder ("Batman - Knightfall/… Part 01 …"): the zip keeps the folder, its entries only the base name
+  const base = stem.slice(stem.lastIndexOf('/') + 1)
+  return IIIF_IMAGE + encodeURIComponent(`${item}/${stem}_jp2.zip/${base}_jp2/${base}_${String(leafNum).padStart(4, '0')}.jp2`)
 }
 
 /** URL of a page image `width` px wide (≤ the page's full width) from its service */

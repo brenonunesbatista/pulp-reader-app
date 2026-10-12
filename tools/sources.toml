@@ -1207,3 +1207,125 @@ exclude = 'reprint|excerpt|_only|missing|Mighty_Midget|Wheaties|Special_Edition|
 year_only = true
 number_key = 'filmland[_ -]?0*(\d{1,3})(?=\D|19\d\d|$)'
 year_anchors = [[1, 1958], [191, 1983]]
+
+# ---- Phase 13 (user list 2026-10-12): modern classics from the IA's comics_inbox. Several titles gather sub-books of
+# several items (`items`); unnumbered graphic novels get a curated title and story year (`[[magazine.books]]`).
+# Left out: Spider-Man 2099 (the IA derived 7 of its 81 files: no page lists), Batman: Year One Deluxe (lending only),
+# Snowpiercer (only #1 on the IA).
+[[magazine]]
+slug = "v-for-vendetta"
+block = 116
+name = "V for Vendetta"
+category = "comics"
+adapter = "ia_pack"
+item = "VForVendettaComics"
+year_only = true
+issue_pattern = 'V for Vendetta \(vol 0*(\d+) of 10\)'
+year_anchors = [[1, 1988], [10, 1989]]
+
+[[magazine]]
+slug = "spawn"
+block = 117
+name = "Spawn"
+category = "comics"
+adapter = "ia_pack"
+item = "fwbwcc_gmail_01_201708"
+year_only = true
+# eleven volumes of 8–10 issues each ("Spaw1to8", "Spawn9to17" … "Spawn90to99"), numbered by their first issue
+issue_pattern = 'Spawn? ?0*(\d+) ?to ?(?P<last>\d+)'
+title = "{name} #{n}–{last}"
+year_anchors = [[1, 1992], [90, 2000]]
+
+[[magazine]]
+slug = "sin-city"
+block = 118
+name = "Sin City"
+category = "comics"
+adapter = "ia_pack"
+item = "frank-millers-sin-city-vol.-07-hell-and-back-2010-3rd-edition-digital-minutemen-inner-demons"
+year_only = true
+# the file names carry the 2010 edition year; years here are the stories' first publication
+issue_pattern = "Frank Miller's Sin City Vol\\. 0*(\\d+) - (?P<story>.+?) \\(2010\\).*"
+title = "Vol. {n}: {story}"
+year_anchors = [[1, 1991], [2, 1993], [3, 1994], [4, 1996], [5, 1997], [6, 1998], [7, 1999]]
+
+[[magazine.books]]
+stem = "Frank Miller - The Art of Sin City (2002) (digital) (Minutemen-InnerDemons)"
+title = "The Art of Sin City"
+year = 2002
+
+[[magazine]]
+slug = "uncanny-x-men"
+block = 119
+name = "Uncanny X-Men"
+category = "comics"
+adapter = "ia_pack"
+# #1–66 (the Silver Age run), #125–137 (the Dark Phoenix Saga), #141–142 (Days of Future Past)
+items = ["x-men-v1-the-silver-age", "uncanny-x-men-137-1980-digital-minutemen-syl-3nt-bob",
+  "uncanny-x-men-141-1981-digital-minutemen-syl-3nt-ph-d"]
+year_only = true
+issue_pattern = 'Uncanny X-Men (?:- )?0*(\d+)(?: \((?P<year>\d{4})\))?.*'
+year_anchors = [[1, 1963], [66, 1970]]
+
+[[magazine]]
+slug = "spectacular-spider-man"
+block = 120
+name = "The Spectacular Spider-Man"
+category = "comics"
+adapter = "ia_pack"
+item = "SpectacularArchiveFirst100"
+year_only = true
+issue_pattern = 'Spectacular Spider-Man v1 0*(\d+).*'
+year_anchors = [[1, 1976], [100, 1985]]
+
+[[magazine]]
+slug = "batman"
+block = 121
+name = "Batman"
+category = "comics"
+adapter = "ia_pack"
+# one card for the character: collections and storylines from eight items, in story order (year of first publication)
+items = ["batman-the-golden-age-v-01", "batman-year-one", "BatmanTheDarkKnightReturns03of041986", "batman-the-cult-1988",
+  "batman-a-death-in-the-family", "batman-knightfall", "batmanthelonghalloween1998digitalzoneempire",
+  "batman-the-complete-hush-2005-dgtl-hd-zone-empire"]
+year_only = true
+books = [
+  { stem = "Batman - The Golden Age v01", title = "The Golden Age Vol. 1", year = 1939 },
+  { stem = "Batman - The Golden Age v02", title = "The Golden Age Vol. 2", year = 1940 },
+  { stem = "Batman - The Golden Age v03", title = "The Golden Age Vol. 3", year = 1940 },
+  { stem = "Batman - The Golden Age v04", title = "The Golden Age Vol. 4", year = 1941 },
+  { stem = "Batman - The Golden Age v05", title = "The Golden Age Vol. 5", year = 1941 },
+  { stem = "Batman - The Golden Age v06", title = "The Golden Age Vol. 6", year = 1942 },
+  { stem = "Batman - The Dark Knight Returns 01 (of 04) (1986)", title = "The Dark Knight Returns #1", year = 1986 },
+  { stem = "Batman - The Dark Knight Returns 02 (of 04) (1986) (digital) (Minutemen-InnerDemons)", title = "The Dark Knight Returns #2", year = 1986 },
+  { stem = "Batman - The Dark Knight Returns 03 (of 04) (1986)", title = "The Dark Knight Returns #3", year = 1986 },
+  { stem = "Batman - The Dark Knight Returns 04 (of 04) (1986)", title = "The Dark Knight Returns #4", year = 1986 },
+  { stem = "Batman-Year-one", title = "Year One", year = 1987 },
+  { stem = "Batman_ The Cult (1988)", title = "The Cult", year = 1988 },
+  { stem = "Batman - A Death in the Family - Book 1", title = "A Death in the Family, Book 1", year = 1988 },
+  { stem = "Batman - A Death in the Family - Book 2", title = "A Death in the Family, Book 2", year = 1988 },
+  { stem = "Batman - A Death in the Family - Book 3", title = "A Death in the Family, Book 3", year = 1988 },
+  { stem = "Batman - A Death in the Family - Book 4", title = "A Death in the Family, Book 4", year = 1988 },
+  { stem = "Batman - Knightfall Part 01 - Broken Bat (2000) (Digital -) (TheHand-Empire)", title = "Knightfall Part 1: Broken Bat", year = 1993 },
+  { stem = "Batman - Knightfall Part 02 - Who Rules The Night (2000) (Digital -) (TheHand-Empire)", title = "Knightfall Part 2: Who Rules the Night", year = 1993 },
+  { stem = "Batman - Knightfall Part 03 - KnightsEnd (2000) (Digital -) (TheHand-Empire)", title = "Knightfall Part 3: KnightsEnd", year = 1994 },
+  { stem = "Batman - The Long Halloween (1998) (Digital) (Zone-Empire)", title = "The Long Halloween", year = 1996 },
+  { stem = "Batman - The Complete Hush (2005, Dgtl-HD, Zone-Empire)", title = "Hush", year = 2002 },
+]
+
+[[magazine]]
+slug = "daredevil"
+block = 122
+name = "Daredevil"
+category = "comics"
+adapter = "ia_pack"
+items = ["daredevil-born-again", "daredevil-the-man-without-fear-02-of-5-1993-digital-zone-empire"]
+year_only = true
+books = [
+  { stem = "Daredevil - Born Again", title = "Born Again", year = 1986 },
+  { stem = "Daredevil- The Man Without Fear 01 (of 5) (1993) (Digital) (Zone-Empire)", title = "The Man Without Fear #1", year = 1993 },
+  { stem = "Daredevil- The Man Without Fear 02 (of 5) (1993) (Digital) (Zone-Empire)", title = "The Man Without Fear #2", year = 1993 },
+  { stem = "Daredevil- The Man Without Fear 03 (of 5) (1993) (Digital) (Zone-Empire)", title = "The Man Without Fear #3", year = 1993 },
+  { stem = "Daredevil- The Man Without Fear 04 (of 5) (1994) (Digital) (Zone-Empire)", title = "The Man Without Fear #4", year = 1994 },
+  { stem = "Daredevil- The Man Without Fear 05 (of 5) (1994) (Digital) (Zone-Empire)", title = "The Man Without Fear #5", year = 1994 },
+]

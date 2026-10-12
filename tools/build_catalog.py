@@ -27,8 +27,8 @@ from catalog import covers, db, report, sources_report  # noqa: E402
 def write_pack_dates(m: dict, snap: Path, out: Path, pack) -> None:
     """cover dates of a pack's issues and specials, read from their OCR text (tools/catalog/pack_dates.py)"""
     from catalog import pack_dates as pd
-    books = json.loads(snap.read_text(encoding="utf-8"))
-    nums = pack.numbered(m, books)
+    books = [{**b, "item": m["item"]} for b in json.loads(snap.read_text(encoding="utf-8"))]  # dated packs: one item
+    nums = {n: k.split("/", 1)[1] for n, k in pack.numbered(m, books).items()}
     lo, hi = (m["years"][0], 1), (m["years"][1], 12)
     print(f"dating {m['name']}: {len(nums)} numbered issues", flush=True)
     issues = pd.date_issues(m["item"], {n: s for n, s in nums.items()}, lo, hi, log=lambda s: print(s, flush=True))
@@ -99,19 +99,21 @@ def main(argv: list[str] | None = None) -> int:
             meta[f"source:{m['slug']}"] = f"{cat.source} sha256 {hashlib.sha256(snap.read_bytes()).hexdigest()}"
         elif m["adapter"] == "ia_pack":
             pack = importlib.import_module("adapters.ia_pack")
-            snap = ROOT / "sources" / "ia" / f"{m['item']}.json"
-            dates = ROOT / "sources" / "ia" / f"{m['item']}.dates.json"
-            if args.refresh or not snap.exists():
-                snap.parent.mkdir(parents=True, exist_ok=True)
-                snap.write_text(json.dumps(pack.fetch(m["item"]), indent=0, ensure_ascii=False) + "\n",
-                                encoding="utf-8", newline="\n")
+            snaps = {it: ROOT / "sources" / "ia" / f"{it}.json" for it in pack.items(m)}
+            for it, sp in snaps.items():
+                if args.refresh or not sp.exists():
+                    sp.parent.mkdir(parents=True, exist_ok=True)
+                    sp.write_text(json.dumps(pack.fetch(it), indent=0, ensure_ascii=False) + "\n",
+                                  encoding="utf-8", newline="\n")
+            snap = next(iter(snaps.values()))
+            dates = ROOT / "sources" / "ia" / f"{pack.items(m)[0]}.dates.json"
             if not m.get("year_only") and (args.date_packs or not dates.exists()):
                 write_pack_dates(m, snap, dates, pack)
-            cat, skipped = pack.parse(m, snap, dates)
+            cat, skipped = pack.parse(m, snaps, dates)
             parts.append(db.Part(cat, m["category"], {}, m["block"], m.get("spreads", "auto")))
             collections.append((m, cat, {}, skipped))
             meta[f"source:{m['slug']}"] = (f"{cat.source} sha256 "
-                                           f"{hashlib.sha256(snap.read_bytes() + (dates.read_bytes() if dates.exists() else b"")).hexdigest()}")
+                                           f"{hashlib.sha256(b"".join(sp.read_bytes() for sp in snaps.values()) + (dates.read_bytes() if dates.exists() else b"")).hexdigest()}")
         else:
             raise SystemExit(f"unknown adapter {m['adapter']!r} for {m['slug']}")
     names = [p.cat.magazine_name for p in parts]

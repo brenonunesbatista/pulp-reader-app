@@ -21,6 +21,11 @@ describe('pack issues (Phase 8b)', () => {
     expect(sizedImageUrl(packPageSvc(ITEM, STEM, 7, 5), 400, 3000)).toBe(
       `https://archive.org/download/${ITEM}/page/n5_w400.jpg?subPrefix=${encodeURIComponent(STEM)}`)
     expect(sizedImageUrl(packPageSvc(ITEM, STEM, 7, 5), 9999, 3000)).toContain('n5_w3000.jpg')
+    // a sub-book in a folder: the zip keeps the folder, its entries only the base name (Phase 13)
+    const dir = 'Batman - Knightfall', base = 'Batman - Knightfall Part 01 - Broken Bat (2000)'
+    expect(packPageSvc('batman-knightfall', `${dir}/${base}`, 0, 0)).toBe('https://iiif.archive.org/image/iiif/3/' +
+      encodeURIComponent(`batman-knightfall/${dir}/${base}_jp2.zip/${base}_jp2/${base}_0000.jp2`))
+    expect(scanParts(`batman-knightfall/${dir}/${base}`)).toMatchObject({ item: 'batman-knightfall', stem: `${dir}/${base}` })
     expect(coverUrl(`ia:${ITEM}/${STEM}`)).toBe(`https://archive.org/download/${ITEM}/page/n0_w200.jpg?subPrefix=${encodeURIComponent(STEM)}`)
   })
 
