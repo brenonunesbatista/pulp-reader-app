@@ -1,11 +1,12 @@
 # Banca
 
 *A newsstand for pulp magazines.* A personal Android tablet (and phone) app for browsing and reading classic pulp magazines scanned by the
-[Internet Archive](https://archive.org). About 2,900 issues: **Amazing Stories** (1926–1956, 309 issues), **The Magazine of Fantasy
+[Internet Archive](https://archive.org). About 3,800 issues: **Amazing Stories** (1926–1956, 309 issues), **The Magazine of Fantasy
 & Science Fiction** (1949–2007), **Galaxy** (1950–1980), **Fantastic** (1952–1980) and **Rod Serling's The Twilight Zone
-Magazine** (1981–1989), plus the RPG magazines **Dragon** (1976–2013) and **Dungeon** (1986–2013), and 12 comics titles (about 820
+Magazine** (1981–1989), **Asimov's Science Fiction** (1977–2014), the dime-novel weekly **Fame and Fortune
+Weekly** (1905–1928), plus the RPG magazines **Dragon** (1976–2013) and **Dungeon** (1986–2013), and 12 comics titles (about 820
 issues and volumes: Hellblazer, Turok, Conan, Miracleman, Asterix, The Complete Peanuts, Marvel Masterworks and more),
-all readable page by page. The pulp magazines' contents — about 18,000 stories, articles and poems — are searchable
+all readable page by page. The pulp magazines' contents — about 25,000 stories, articles and poems — are searchable
 by title, author, editor, cover artist and translator (Amazing Stories from its reference guide, the others from the
 [ISFDB](https://www.isfdb.org)).
 
@@ -171,7 +172,11 @@ pytest                                                      # catalog tools, fro
    level, contents not indexed yet); 8b ✅ Dragon and Dungeon (issues inside multi-issue "pack" items, dated from their
    OCR); 8c ✅ comics (12 titles, dated by year only; reader option *Two pages side by side: In landscape / Never*, remembered
    per magazine, Peanuts defaults to Never).
-8. 🧪 **Contents from the ISFDB**: story indexes for F&SF, Galaxy, Fantastic and Twilight Zone (1,084 of 1,085 issues).
+8. ✅ **Contents from the ISFDB**: story indexes for F&SF, Galaxy, Fantastic and Twilight Zone (1,084 of 1,085 issues).
+9. 🧪 **More sources**: 10a Asimov's (with ISFDB contents) and Fame and Fortune Weekly; 10b English-language RPG
+   magazines (White Dwarf, Polyhedron, The Space Gamer, Different Worlds, Imagine, Ares, the Traveller magazines, Pegasus,
+   OSR fanzines and more); 10c Brazilian RPG magazines (Dragão Brasil, Dragon Slayer, Tormenta, Lua dos Dragões, Só
+   Aventuras, Troll).
 
 ## Distribution
 

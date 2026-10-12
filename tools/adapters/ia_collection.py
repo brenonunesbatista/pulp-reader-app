@@ -127,11 +127,17 @@ def parse(cfg: dict, snapshot: Path) -> tuple[Catalog, dict[str, list[str]], lis
     """→ catalog, alternates (chosen identifier → other scans), skipped (identifier, reason)."""
     rows = json.loads(snapshot.read_text(encoding="utf-8"))
     exclude = re.compile(cfg["exclude"], re.I) if cfg.get("exclude") else None
+    # `include`: the collection also holds another magazine (listed separately in sources.toml); its items are ignored
+    include = re.compile(cfg["include"], re.I) if cfg.get("include") else None
+    # `number_key`: weekly papers — one issue per number (group 1), not per month
+    number_key = re.compile(cfg["number_key"], re.I) if cfg.get("number_key") else None
     skipped: list[tuple[str, str]] = []
     problems: list[ParseIssue] = []
     slots: dict[tuple[int, int], list[Scan]] = {}
     for row in rows:
         s = parse_scan(row)
+        if include and not (include.search(s.identifier) or include.search(s.title)):
+            continue
         if exclude and (exclude.search(s.identifier) or exclude.search(s.title)):
             skipped.append((s.identifier, "not an issue of the magazine (excluded by pattern)"))
             continue
@@ -142,7 +148,18 @@ def parse(cfg: dict, snapshot: Path) -> tuple[Catalog, dict[str, list[str]], lis
             skipped.append((s.identifier, "no page images + OCR (or lending only): the reader cannot open it"))
             continue
         score(s)
+        if number_key:
+            m = number_key.search(s.identifier) or number_key.search(s.title)
+            if not m:
+                skipped.append((s.identifier, "no issue number"))
+                continue
+            s.number = int(m[1])
+            slots.setdefault((s.number, 0), []).append(s)
+            continue
         slots.setdefault((s.year, s.month), []).append(s)
+
+    if number_key:
+        return _by_number(cfg, slots, skipped, problems)
 
     issues: list[Issue] = []
     alternates: dict[str, list[str]] = {}
@@ -170,6 +187,27 @@ def parse(cfg: dict, snapshot: Path) -> tuple[Catalog, dict[str, list[str]], lis
                 alternates[best.identifier] = [s.identifier for s in group[1:]]
             if best.flags:
                 problems.append(ParseIssue("chosen-scan-flagged", 0, best.identifier, ", ".join(best.flags)))
+    cat = Catalog(magazine_name=cfg["name"], magazine_slug=cfg["slug"], source=f"archive.org collection {cfg['collection']}",
+                  issues=issues, problems=problems)
+    return cat, alternates, skipped
+
+
+def _by_number(cfg: dict, slots: dict, skipped: list, problems: list):
+    """weekly papers: one issue per number; stable id = block × 10M + number × 10 (the date can repeat weekly)"""
+    issues: list[Issue] = []
+    alternates: dict[str, list[str]] = {}
+    for (n, _), group in sorted(slots.items()):
+        group.sort(key=lambda s: (-s.score, s.identifier))
+        best = group[0]
+        issue = Issue(year=best.year, month=best.month, title=f"{cfg['name']} #{n}, {MONTH_NAMES[best.month - 1]} {best.year}",
+                      slug=f"{cfg['slug']}-{n:04d}", source_page=0, ia_identifier=best.identifier, number=n)
+        issue.id = cfg["block"] * 10_000_000 + n * 10
+        issues.append(issue)
+        if len(group) > 1:
+            alternates[best.identifier] = [s.identifier for s in group[1:]]
+        if best.flags:
+            problems.append(ParseIssue("chosen-scan-flagged", 0, best.identifier, ", ".join(best.flags)))
+    issues.sort(key=lambda i: (i.year, i.month, i.number))
     cat = Catalog(magazine_name=cfg["name"], magazine_slug=cfg["slug"], source=f"archive.org collection {cfg['collection']}",
                   issues=issues, problems=problems)
     return cat, alternates, skipped

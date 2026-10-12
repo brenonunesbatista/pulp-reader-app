@@ -1,0 +1,452 @@
+{
+"source": "ISFDB, The Internet Speculative Fiction Database (https://www.isfdb.org), CC BY 4.0",
+"dump": "backup-MySQL-55-2026-10-10.zip",
+"pattern": "^Asimov's SF Adventure Magazine, ",
+"issues": [
+{
+"id": 57358,
+"title": "Asimov's SF Adventure Magazine, Fall 1978",
+"date": "1978-00-00",
+"items": [
+{
+"title": "Adventure!",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "Letter (Asimov's SF Adventure Magazine, Fall 1978)",
+"type": "ESSAY",
+"len": null,
+"page": "8",
+"authors": [
+"Ron Goulart"
+],
+"real": []
+},
+{
+"title": "Letter (Asimov's SF Adventure Magazine, Fall 1978)",
+"type": "ESSAY",
+"len": null,
+"page": "11",
+"authors": [
+"Lin Carter"
+],
+"real": []
+},
+{
+"title": "Captive of the Centaurianess",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "12",
+"authors": [
+"Poul Anderson"
+],
+"real": []
+},
+{
+"title": "Through Time and Space with Ferdinand Feghoot (Asimov's SF Adventure Magazine, Fall 1978)",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "43",
+"authors": [
+"Grendel Briarton"
+],
+"real": [
+"Reginald Bretnor"
+]
+},
+{
+"title": "Bystander",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "44",
+"authors": [
+"Alan Dean Foster"
+],
+"real": []
+},
+{
+"title": "The Test Tube",
+"type": "POEM",
+"len": null,
+"page": "48",
+"authors": [
+"Ray Russell"
+],
+"real": []
+},
+{
+"title": "Where Now Is Thy Brother, Epimetheus?",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "50",
+"authors": [
+"Jesse Peel"
+],
+"real": [
+"Steve Perry"
+]
+},
+{
+"title": "Fair Exchange?",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "56",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "The Stainless Steel Rat Wants You!",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "66",
+"authors": [
+"Harry Harrison"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Paul Alexander"
+],
+"editors": [
+"George H. Scithers"
+]
+},
+{
+"id": 57359,
+"title": "Asimov's SF Adventure Magazine, Fall 1979",
+"date": "1979-00-00",
+"items": [
+{
+"title": "The Boom in Science Fiction",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "Letters (Asimov's SF Adventure Magazine, Fall 1979)",
+"type": "ESSAY",
+"len": null,
+"page": "8",
+"authors": [
+"The Readers"
+],
+"real": []
+},
+{
+"title": "The Jaren",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "10",
+"authors": [
+"Frederick Longbeard"
+],
+"real": [
+"Barry B. Longyear"
+]
+},
+{
+"title": "The Things That Are Gods",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "44",
+"authors": [
+"John Brunner"
+],
+"real": []
+},
+{
+"title": "Media Reviews: Under the Rainbow: Science Fiction in Hollywood",
+"type": "ESSAY",
+"len": null,
+"page": "66",
+"authors": [
+"Craig Miller"
+],
+"real": []
+},
+{
+"title": "Hellhole",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "71",
+"authors": [
+"David Gerrold"
+],
+"real": []
+},
+{
+"title": "The Star Show",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "79",
+"authors": [
+"Barry B. Longyear"
+],
+"real": []
+},
+{
+"title": "Where Do You Get Your Ideas?",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "113",
+"authors": [
+"Mark Ringdalh"
+],
+"real": [
+"Barry B. Longyear"
+]
+}
+],
+"cover_artists": [
+"Stephen Fabian"
+],
+"editors": [
+"George H. Scithers"
+]
+},
+{
+"id": 57360,
+"title": "Asimov's SF Adventure Magazine, Spring 1979",
+"date": "1979-00-00",
+"items": [
+{
+"title": "Adventure in the Sky",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "Letters (Asimov's SF Adventure Magazine, Spring 1979)",
+"type": "ESSAY",
+"len": null,
+"page": "8",
+"authors": [
+"The Readers"
+],
+"real": []
+},
+{
+"title": "Conan the Limmerian",
+"type": "POEM",
+"len": null,
+"page": "14",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Keepersmith",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "16",
+"authors": [
+"Randall Garrett",
+"Vicki Ann Heydron"
+],
+"real": []
+},
+{
+"title": "The Magician's Apprentice",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "35",
+"authors": [
+"Barry B. Longyear"
+],
+"real": []
+},
+{
+"title": "Under the Rainbow: Science Fiction in Hollywood",
+"type": "ESSAY",
+"len": null,
+"page": "55",
+"authors": [
+"Craig Miller"
+],
+"real": []
+},
+{
+"title": "Through Time and Space with Ferdinand Feghoot !!",
+"type": "SHORTFICTION",
+"len": null,
+"page": "63",
+"authors": [
+"Grendel Briarton"
+],
+"real": [
+"Reginald Bretnor"
+]
+},
+{
+"title": "How It Happened",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "64",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "The Casque of Lamont T. Yado",
+"type": "SHORTFICTION",
+"len": null,
+"page": "66",
+"authors": [
+"Victor MilÃ¡n"
+],
+"real": []
+},
+{
+"title": "Longshot",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "71",
+"authors": [
+"Jack C. Haldeman, II"
+],
+"real": []
+},
+{
+"title": "Second Coming",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "75",
+"authors": [
+"L. E. Modesitt, Jr."
+],
+"real": []
+},
+{
+"title": "Starschool",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "80",
+"authors": [
+"Joe Haldeman",
+"Jack C. Haldeman, II"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Paul Alexander"
+],
+"editors": [
+"George H. Scithers"
+]
+},
+{
+"id": 57361,
+"title": "Asimov's SF Adventure Magazine, Summer 1979",
+"date": "1979-00-00",
+"items": [
+{
+"title": "Editorial: The Pre-Scientific Universe",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "The Last Defender of Camelot",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "10",
+"authors": [
+"Roger Zelazny"
+],
+"real": []
+},
+{
+"title": "Ghosts",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "23",
+"authors": [
+"Keith Minnion"
+],
+"real": []
+},
+{
+"title": "Frost and Thunder",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "32",
+"authors": [
+"Randall Garrett"
+],
+"real": []
+},
+{
+"title": "Starschool on Hell",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "44",
+"authors": [
+"Joe Haldeman",
+"Jack C. Haldeman, II"
+],
+"real": []
+},
+{
+"title": "Davidson, Shadowslayer",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "81",
+"authors": [
+"John Kelly"
+],
+"real": []
+},
+{
+"title": "Media Reviews: Under the Rainbow: Science Fiction in Hollywood",
+"type": "ESSAY",
+"len": null,
+"page": "87",
+"authors": [
+"Craig Miller"
+],
+"real": []
+},
+{
+"title": "The Tale of Gorgik",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "92",
+"authors": [
+"Samuel R. Delany"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Paul Alexander"
+],
+"editors": [
+"George H. Scithers"
+]
+}
+]
+}

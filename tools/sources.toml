@@ -263,3 +263,36 @@ year_anchors = [[1, 1961], [2, 1962], [3, 1963], [4, 1964], [5, 1965], [6, 1965]
   [19, 1972], [20, 1973], [21, 1974], [22, 1975], [23, 1976], [24, 1979], [25, 1980], [26, 1981], [27, 1983],
   [28, 1987], [29, 1991], [30, 1996], [31, 2001], [32, 2003], [33, 2005], [34, 2009], [35, 2013], [36, 2015],
   [37, 2017], [38, 2019], [39, 2021], [40, 2023]]
+
+# ---- Phase 10a: more pulp (appended: blocks 20+) ----------------------------------------------------------------------
+[[magazine]]
+slug = "asimovs"
+block = 20
+name = "Asimov's Science Fiction"
+category = "pulp"
+adapter = "ia_collection"
+collection = "asimovmagazine"
+# the collection also holds Asimov's SF Adventure Magazine (its own entry below) and "Isaac Asimov Presents" anthologies
+exclude = 'SF_Adventure|SF Adventure|Presents|Anthology|Best of'
+isfdb = "^(Isaac )?Asimov's Science Fiction( Magazine)?, "
+isfdb_exclude = '\bUK\b|British|Australian'
+
+[[magazine]]
+slug = "asimovs-sf-adventure"
+block = 21
+name = "Asimov's SF Adventure Magazine"
+category = "pulp"
+adapter = "ia_collection"
+collection = "asimovmagazine"
+include = 'SF_Adventure|SF Adventure'
+isfdb = "^Asimov's SF Adventure Magazine, "
+
+[[magazine]]
+slug = "fame-and-fortune-weekly"
+block = 22
+name = "Fame and Fortune Weekly"
+category = "pulp"
+adapter = "ia_collection"
+collection = "fameandfortuneweekly"
+# a dime-novel weekly (Frank Tousey, 1905–1929): one issue per number, several per month
+number_key = 'no\._?(\d+)'

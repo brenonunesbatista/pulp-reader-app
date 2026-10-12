@@ -378,3 +378,14 @@ Banca" on *Marooned off Vesta*, which has no scan; the spec adds the "in the cat
   from a section return to the Atlas; Back on the Atlas leaves the app.
 - *Continue reading* became a shared component (screens/ContinueReading.tsx) shown at the top of the Atlas home (when
   not searching) and of the PULP library; with many magazines its cards now name the magazine.
+
+## 2026-10-12 — Phase 10a: Asimov's, Fame and Fortune Weekly; smaller story index
+- **Asimov's Science Fiction** (`asimovmagazine`, block 20): 419 issues 1977–2014, ISFDB contents for 418 (6,841 items);
+  the collection also holds **Asimov's SF Adventure Magazine** (4 issues 1978–79, block 21, `include` pattern: its own
+  entry, ISFDB contents too) and anthologies (excluded).
+- **Fame and Fortune Weekly** (`fameandfortuneweekly`, block 22): 511 issues 1905–1928. Weekly, so the collection
+  adapter got `number_key` (one issue per number, id = block × 10M + number × 10; titles "#1001, December 1924"). No
+  contents (the ISFDB does not index dime novels).
+- Catalog: 22 magazines, 3,814 issues, 24,857 items, 4,749 people. **story_fts without prefix index**: with 25k rows
+  the '2 3 4' prefix indexes made the catalog 14.6 MB; without them 10.6 MB, and prefix queries take 0.5 ms (PC,
+  5 queries averaged) instead of 0.3 ms.

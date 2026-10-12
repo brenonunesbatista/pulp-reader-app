@@ -16,8 +16,18 @@ Ideas and sources to add later. Items move into a phase brief when they are sche
 | ✅ **8 New sources** — 8a pulp collections verified on the tablet 2026-10-03; 8b packs (Dragon, Dungeon) verified on the tablet 2026-10-06; 8c comics verified on the tablet 2026-10-12 | categories `pulp` / `rpg` / `comics` and the sources listed below | each source = adapter + dedupe + (later) contents |
 
 ## Phase 9 — contents from the ISFDB
-🧪 Built 2026-10-12: F&SF, Galaxy, Fantastic, Twilight Zone issues get their contents, cover artists and editors from
+✅ Verified 2026-10-12: F&SF, Galaxy, Fantastic, Twilight Zone issues get their contents, cover artists and editors from
 the ISFDB (CC BY 4.0). Not covered: Dragon, Dungeon, comics (the ISFDB barely indexes them).
+
+## Phase 10 — more sources (user choice 2026-10-12)
+- 🧪 10a pulp: Asimov's Science Fiction (+ Asimov's SF Adventure Magazine), Fame and Fortune Weekly — built 2026-10-12.
+  Bolsilibros (Spanish) not wanted for now.
+- 10b RPG (EN): White Dwarf, Polyhedron, The Space Gamer, Different Worlds, Imagine, Ares; Journal of the Travellers'
+  Aid Society, Challenge (GDW), Travellers' Digest; Pegasus, Adventure Gaming, Arcane, Gateways, Heroes, The Unspeakable
+  Oath, Other Hands; OSR fanzines (Explosive Runes, Threshold, Protodimension). Survey: tools/spike/rpg_survey.py and the
+  IA collections `gamemagazines`, `gamemagazinesmisc`, `magazine_packs`.
+- 10c RPG (BR): Dragão Brasil, Dragon Slayer, Revista Tormenta, Lua dos Dragões, Só Aventuras, Revista Troll.
+- Not wanted: Casus Belli (FR), Sinkadus (SE), Magia i Miecz (PL), Diplomacy/chess/go zines.
 
 ## Atlas (Explore / Hall) — design notes
 - **What:** an in-app "museum" to *discover*: a timeline (1900s → today) with lanes for magazines, stories, authors,
