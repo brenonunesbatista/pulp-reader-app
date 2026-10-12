@@ -66,7 +66,7 @@ export function Masthead({ section, children }: { section: Section; children?: R
   const compact = useSizeClass() === 'compact'
   return (
     <header className="masthead">
-      <button className="wordmark" onClick={() => nav.reset({ name: 'library' })}>BANCA</button>
+      <button className="wordmark" onClick={() => nav.reset()}>BANCA</button>
       {!compact && <SectionTabs section={section} />}
       {children ?? (
         <button className="mast-search" onClick={() => nav.push({ name: 'search' })}>
@@ -88,10 +88,10 @@ function SectionTabs({ section }: { section: Section }) {
   const nav = useNav()
   return (
     <nav className="tabs">
+      <button className={`tab ${section === 'atlas' ? 'on' : ''}`} onClick={() => nav.reset()}>ATLAS</button>
       <button className={`tab ${section === 'pulp' ? 'on' : ''}`} onClick={() => nav.reset({ name: 'library' })}>PULP</button>
       <button className={`tab ${section === 'rpg' ? 'on' : ''}`} onClick={() => nav.push({ name: 'soon', what: 'rpg' })}>RPG</button>
       <button className={`tab ${section === 'comics' ? 'on' : ''}`} onClick={() => nav.push({ name: 'soon', what: 'comics' })}>COMICS</button>
-      <button className={`tab ${section === 'atlas' ? 'on' : ''}`} onClick={() => nav.reset({ name: 'atlas' })}>ATLAS</button>
     </nav>
   )
 }
@@ -112,14 +112,14 @@ export function SubMasthead({ title, sub, children }: { title?: ReactNode; sub?:
   )
 }
 
-/** Phone bottom navigation (Pulp · RPG · Comics · Atlas · Search). */
+/** Phone bottom navigation (Atlas · Pulp · RPG · Comics · Search). */
 export function BottomNav({ section }: { section: Section }) {
   const nav = useNav()
   const items: { key: Exclude<Section, null>; label: string; icon: Parameters<typeof Icon>[0]['name']; go: () => void }[] = [
+    { key: 'atlas', label: 'ATLAS', icon: 'atlas', go: () => nav.reset() },
     { key: 'pulp', label: 'PULP', icon: 'pulp', go: () => nav.reset({ name: 'library' }) },
     { key: 'rpg', label: 'RPG', icon: 'dice', go: () => nav.push({ name: 'soon', what: 'rpg' }) },
     { key: 'comics', label: 'COMICS', icon: 'comic', go: () => nav.push({ name: 'soon', what: 'comics' }) },
-    { key: 'atlas', label: 'ATLAS', icon: 'atlas', go: () => nav.reset({ name: 'atlas' }) },
     { key: 'search', label: 'SEARCH', icon: 'search', go: () => nav.push({ name: 'search' }) },
   ]
   return (

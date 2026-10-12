@@ -371,3 +371,10 @@ Banca" on *Marooned off Vesta*, which has no scan; the spec adds the "in the cat
   the Archive returned a transient 500 for a djvu.xml during testing.
 - Lint could not run on 2026-10-12: Windows Application Control blocks oxlint's native binary
   (`oxlint.win32-x64-msvc.node`); typecheck and tests pass.
+
+## 2026-10-12 — The Atlas is the home screen (user request)
+- The navigation root is the Atlas (`ROOT` in nav/stack.ts; hash `#/`); the Library moved to the PULP tab (`#/pulp`).
+  Tabs: ATLAS · PULP · RPG · COMICS (phone: Atlas · Pulp · RPG · Comics · Search). The BANCA wordmark and Android Back
+  from a section return to the Atlas; Back on the Atlas leaves the app.
+- *Continue reading* became a shared component (screens/ContinueReading.tsx) shown at the top of the Atlas home (when
+  not searching) and of the PULP library; with many magazines its cards now name the magazine.

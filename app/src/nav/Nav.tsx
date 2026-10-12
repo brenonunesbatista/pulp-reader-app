@@ -5,21 +5,21 @@ import { App as CapApp } from '@capacitor/app'
 import { Capacitor } from '@capacitor/core'
 import { useCallback, useEffect, useLayoutEffect, useMemo, useReducer, useRef, type ReactNode } from 'react'
 import { ActiveContext, NavContext } from './context'
-import { hashToRoute, initialStack, routeToHash, stackReducer, type Entry, type Route } from './stack'
+import { hashToRoute, initialStack, ROOT, routeToHash, stackReducer, type Entry, type Route } from './stack'
 
 export function NavProvider({ render }: { render: (route: Route) => ReactNode }) {
   const [state, dispatch] = useReducer(stackReducer, undefined, () => {
-    // dev reload on a deep link: start with Library underneath so Back works
+    // dev reload on a deep link: start with the home (Atlas) underneath so Back works
     const r = hashToRoute(window.location.hash)
     const s = initialStack()
-    return r.name === 'library' ? s : stackReducer(s, { type: 'push', route: r })
+    return r.name === ROOT.name ? s : stackReducer(s, { type: 'push', route: r })
   })
   const depth = state.entries.length
   const depthRef = useRef(depth)
   useLayoutEffect(() => { depthRef.current = depth }, [depth])
 
   useEffect(() => {
-    history.replaceState({ depth: 1 }, '', routeToHash({ name: 'library' }))
+    history.replaceState({ depth: 1 }, '', routeToHash(ROOT))
     if (depth > 1) history.pushState({ depth }, '', routeToHash(state.entries[depth - 1].route))
     const onPop = () => {
       if (depthRef.current > 1) dispatch({ type: 'pop' })
@@ -51,15 +51,15 @@ export function NavProvider({ render }: { render: (route: Route) => ReactNode })
   const back = useCallback(() => {
     if (depthRef.current > 1) history.back()
   }, [])
-  /** Back to the Library root, then (for another section, e.g. the Atlas) open `route` on top of it, so the hardware
-   *  Back from a section home returns to the Library. */
-  const reset = useCallback((route: Route = { name: 'library' }) => {
-    const open = () => { if (route.name !== 'library') push(route) }
+  /** Back to the home (the Atlas), then (for another section, e.g. the PULP library) open `route` on top of it, so the
+   *  hardware Back from a section home returns to the Atlas. */
+  const reset = useCallback((route: Route = ROOT) => {
+    const open = () => { if (route.name !== ROOT.name) push(route) }
     // drop the stack first; the single popstate fired by history.go(-n) then sees depth 1 and is ignored
     const n = depthRef.current - 1
     if (n <= 0) return open()
     depthRef.current = 1
-    dispatch({ type: 'reset', route: { name: 'library' } })
+    dispatch({ type: 'reset', route: ROOT })
     const afterPop = () => { window.removeEventListener('popstate', afterPop); open() }
     window.addEventListener('popstate', afterPop)
     history.go(-n)

@@ -18,8 +18,9 @@ Built for a Samsung Galaxy Tab A9+ (11", 1920×1200), with phone layouts for the
 ## Features
 
 - **Banca "Newsprint" design**: Paper and Night themes, bundled fonts (Big Shoulders Display + Source Serif 4), tablet
-  masthead with Pulp / RPG / Atlas tabs and a phone bottom navigation. RPG and Atlas are marked *coming soon*.
-- **Library**: magazines by category (pulp & science fiction; RPG magazines and comics on their own tabs) with a
+  masthead with Atlas / Pulp / RPG / Comics tabs and a phone bottom navigation. **The app opens on the Atlas**, with
+  the *Continue reading* shelf on top; the PULP tab is the magazine library.
+- **Library** (PULP tab): magazines by category (pulp & science fiction; RPG magazines and comics on their own tabs) with a
   cover mosaic (upcoming magazines marked *coming soon*), plus a *Continue reading* shelf
   with each issue's progress. Progress can be cleared per issue (× on the shelf, *Clear progress* on the issue page)
   or all at once (Settings → Reading); highlights, bookmarks and downloads are kept.
@@ -48,7 +49,7 @@ Built for a Samsung Galaxy Tab A9+ (11", 1920×1200), with phone layouts for the
 - **Notes** (pen icon in the masthead): every highlight, note and bookmark across issues, grouped by issue with story
   titles and printed page numbers; search, color filter, tap to open the page, trash icon to delete (two taps). **Export to Markdown** (one issue from
   the reader's Notes panel, or everything / the filtered list) through Android's share sheet, or copy to the clipboard.
-- **Atlas** (ATLAS tab): a curated, offline "museum" that links the stories to authors, magazines, themes, film, radio,
+- **Atlas** (home, ATLAS tab): a curated, offline "museum" that links the stories to authors, magazines, themes, film, radio,
   music, visual art and world events. Every text cites its sources; images come from Wikimedia Commons (free licences,
   credited, loaded online) or the catalog's covers.
   - **Home**: the featured path with progress, *Explore next* (recommendations that always say why), recently explored,

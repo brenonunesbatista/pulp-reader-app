@@ -31,7 +31,10 @@ export type StackAction =
   | { type: 'replace'; route: Route }
   | { type: 'reset'; route: Route }
 
-export const initialStack = (route: Route = { name: 'library' }): StackState => ({ entries: [{ key: 0, route }], nextKey: 1 })
+/** the app's home: the Atlas (the Library is the PULP tab) */
+export const ROOT: Route = { name: 'atlas' }
+
+export const initialStack = (route: Route = ROOT): StackState => ({ entries: [{ key: 0, route }], nextKey: 1 })
 
 export function stackReducer(s: StackState, a: StackAction): StackState {
   switch (a.type) {
@@ -49,7 +52,7 @@ export function stackReducer(s: StackState, a: StackAction): StackState {
 /** hash shown in the browser address bar during dev (and restorable on reload) */
 export function routeToHash(r: Route): string {
   switch (r.name) {
-    case 'library': return '#/'
+    case 'library': return '#/pulp'
     case 'magazine': return `#/magazine/${r.id}`
     case 'issue': return `#/issue/${r.id}`
     case 'person': return `#/person/${r.id}`
@@ -58,7 +61,7 @@ export function routeToHash(r: Route): string {
     case 'settings': return '#/settings'
     case 'notes': return '#/notes'
     case 'soon': return `#/soon/${r.what}`
-    case 'atlas': return '#/atlas'
+    case 'atlas': return '#/'
     case 'timeline':
       if (r.saved) return `#/timeline-saved/${r.saved}`
       if (r.subject) return `#/timeline-of/${encodeURIComponent(r.subject)}`
@@ -73,15 +76,16 @@ export function hashToRoute(hash: string): Route {
   const [, name, a, b, c] = hash.replace(/^#/, '').split('/')
   const n = Number(a)
   switch (name) {
-    case 'magazine': return Number.isFinite(n) ? { name, id: n } : { name: 'library' }
-    case 'issue': return Number.isFinite(n) ? { name, id: n } : { name: 'library' }
-    case 'person': return Number.isFinite(n) ? { name, id: n } : { name: 'library' }
+    case 'pulp': return { name: 'library' }
+    case 'magazine': return Number.isFinite(n) ? { name, id: n } : ROOT
+    case 'issue': return Number.isFinite(n) ? { name, id: n } : ROOT
+    case 'person': return Number.isFinite(n) ? { name, id: n } : ROOT
     case 'search': return { name, q: decodeURIComponent(a ?? '') }
     case 'reader': return Number.isFinite(n)
-      ? { name, issueId: n, leaf: b ? Number(b) : undefined, ...(c ? { storyId: Number(c) } : {}) } : { name: 'library' }
+      ? { name, issueId: n, leaf: b ? Number(b) : undefined, ...(c ? { storyId: Number(c) } : {}) } : ROOT
     case 'settings': return { name }
     case 'notes': return { name }
-    case 'soon': return a === 'rpg' || a === 'comics' || a === 'atlas' ? { name, what: a } : { name: 'library' }
+    case 'soon': return a === 'rpg' || a === 'comics' ? { name, what: a } : ROOT
     case 'atlas': return { name }
     case 'timeline': return a ? { name, focus: a } : { name }
     case 'timeline-of': return a ? { name: 'timeline', subject: decodeURIComponent(a) } : { name: 'timeline' }
@@ -89,6 +93,6 @@ export function hashToRoute(hash: string): Route {
     case 'entity': return a ? { name, id: a } : { name: 'atlas' }
     case 'path': return a ? { name, id: a } : { name: 'atlas' }
     case 'want-to': return a === 'read' || a === 'watch' || a === 'listen' || a === 'see' ? { name: 'wantTo', list: a } : { name: 'wantTo' }
-    default: return { name: 'library' }
+    default: return ROOT
   }
 }

@@ -5,6 +5,7 @@ import { useIsActive, useNav } from '../nav/context'
 import { ErrorBox, Loading, Masthead, Screen, SectionHeader } from '../ui/components'
 import { Icon } from '../ui/icons'
 import { useAsync } from '../ui/useAsync'
+import { ContinueReading } from '../screens/ContinueReading'
 import './atlas.css'
 import { LANES, LANE_TOKEN, wantVerb } from './forms'
 import { EntityChip, Picture, RecCard } from './parts'
@@ -65,6 +66,8 @@ export function AtlasHomeScreen() {
             <input id="atlas-search" type="search" placeholder="Search the Atlas — people, stories, films, themes…" value={q}
                    onChange={(e) => setQ(e.target.value)} aria-label="Search the Atlas" />
           </div>
+          {/* the Atlas is the app's home: reading in progress comes first */}
+          {!q.trim() && <ContinueReading />}
           {q.trim() && results.status === 'ok' && (
             <section className="a-sec">
               <div className="a-chips">
