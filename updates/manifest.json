@@ -1,0 +1,14 @@
+{
+  "format": 1,
+  "atlas": {
+    "version": 1791782812,
+    "schema": 2,
+    "url": "atlas.db",
+    "size": 372736,
+    "sha256": "27b6a97f0119e0d4c5b9f82ddd2b15686bca505d776ee1e2e3a1bb2f98c75102",
+    "entities": 57,
+    "paths": 2,
+    "magazines": 95,
+    "published": "2026-10-12T05:26:52Z"
+  }
+}
