@@ -43,19 +43,41 @@ export function parseScandata(xml: string, item: string, stem: string): PageInfo
   return out
 }
 
+async function fromScandata(item: string, stem: string): Promise<PageInfo[]> {
+  const pages = parseScandata(await getDownloadText(item, `${stem}_scandata.xml`), item, stem)
+  if (!pages.length) throw new Error('no pages in scandata')
+  return pages
+}
+
+/** IIIF manifest (2 tries on server errors) */
+async function fromIiif(ident: string): Promise<PageInfo[]> {
+  for (let attempt = 0; ; attempt++) {
+    const r = await fetch(`https://iiif.archive.org/iiif/3/${ident}/manifest.json`)
+    if (r.ok) {
+      const text = await r.text()
+      metrics.addBytes(text.length)
+      const m = JSON.parse(text) as IiifManifest
+      return m.items.map((c) => ({ w: c.width, h: c.height, svc: c.items[0].items[0].body.service[0].id }))
+    }
+    if (r.status < 500 || attempt >= 1) throw new Error(`manifest HTTP ${r.status}`)
+    await new Promise((res) => setTimeout(res, 1500))
+  }
+}
+
+/** Page list of a scan: pack issues from their scandata; plain items from the IIIF manifest, falling back to the
+ *  item's own scandata when the manifest service fails (it answers 500 for some items while the files are fine) */
 export async function fetchManifest(ident: string): Promise<PageInfo[]> {
   const s = scanParts(ident)
-  if (s.pack) {
-    const pages = parseScandata(await getDownloadText(s.item, `${s.stem}_scandata.xml`), s.item, s.stem)
-    if (!pages.length) throw new Error('no pages in scandata')
-    return pages
+  if (s.pack) return fromScandata(s.item, s.stem)
+  try {
+    return await fromIiif(ident)
+  } catch (e) {
+    try {
+      return await fromScandata(ident, ident)
+    } catch {
+      throw e
+    }
   }
-  const r = await fetch(`https://iiif.archive.org/iiif/3/${ident}/manifest.json`)
-  if (!r.ok) throw new Error(`manifest HTTP ${r.status}`)
-  const text = await r.text()
-  metrics.addBytes(text.length)
-  const m = JSON.parse(text) as IiifManifest
-  return m.items.map((c) => ({ w: c.width, h: c.height, svc: c.items[0].items[0].body.service[0].id }))
 }
 
 export async function loadManifest(ident: string, local?: LocalFiles | null): Promise<PageInfo[]> {

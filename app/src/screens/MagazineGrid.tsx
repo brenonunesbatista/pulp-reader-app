@@ -2,6 +2,7 @@ import { UPCOMING } from '../content/upcoming'
 import type { Category, Magazine } from '../data/models'
 import { useNav } from '../nav/context'
 import { Cover, SectionHeader } from '../ui/components'
+import { titleSize } from '../ui/format'
 
 /** One category shelf: its magazines (from the catalog) and the ones still on the way. */
 export function MagazineShelf({ category, magazines }: { category: Category; magazines: Magazine[] }) {
@@ -18,8 +19,7 @@ export function MagazineShelf({ category, magazines }: { category: Category; mag
           <button key={m.id} className="mag-card" onClick={() => nav.push({ name: 'magazine', id: m.id })}>
             <div className="mosaic">{m.covers.map((c) => <Cover key={c} path={c} small />)}</div>
             <div className="info">
-              {/* a single long word ("PROTODIMENSION") gets a smaller size instead of breaking mid-word */}
-              <div className={`title ${Math.max(...m.name.split(/\s+/).map((w) => w.length)) > 11 ? 'long' : ''}`}>{m.name}</div>
+              <div className={`title ${titleSize(m.name)}`}>{m.name}</div>
               <div className="muted small num">{m.firstYear === m.lastYear ? m.firstYear : `${m.firstYear}–${m.lastYear}`}</div>
               <div className="muted small num">{m.issueCount} {m.issueCount === 1 ? 'issue' : 'issues'} · {m.readable} readable</div>
               <span className="tag">OPEN</span>

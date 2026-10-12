@@ -451,3 +451,8 @@ Banca" on *Marooned off Vesta*, which has no scan; the spec adds the "in the cat
 - UI: the Atlas home shows a *Continue reading · n* button (route `reading`, screens/ReadingScreen.tsx) instead of the
   shelf (user request); the About text sits inside the magazine's filter band (the band's negative top margin cut the
   separate box); magazine-card titles with a single word over 11 letters ("PROTODIMENSION") use a smaller size.
+
+## 2026-10-12 — Reader: page list fallback; card titles
+- The IIIF manifest service answered 500 for `explosive_runes-08` (and timed out for others) while the item's files were fine. `fetchManifest` now retries a 5xx once and then builds the page list from the item's own `<id>_scandata.xml` (as for pack issues).
+- Magazine-card titles: `titleSize()` (ui/format.ts) picks a smaller size when the longest word has 10+ letters (MASTERWORKS) or 15+; checked on every card of the PULP, RPG and COMICS tabs at 1280×800 and 375×812 (no word wider than its column).
+

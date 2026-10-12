@@ -2,7 +2,7 @@ import { beforeAll, describe, expect, it } from 'vitest'
 import type { Db } from '../db/types'
 import { memoryDb } from '../db/wasmDb'
 import { migrateUserDb, USER_MIGRATIONS } from '../db/userSchema'
-import { coverUrl, monthYear, shortTitle } from '../ui/format'
+import { coverUrl, monthYear, shortTitle, titleSize } from '../ui/format'
 import { getContents, getIssue, getPersonWorks, getMagazineAbout, listCategories, readerMagazine, listIssues, listMagazines, search } from './catalogRepo'
 import { ftsQuery } from './fts'
 import { addHighlight, deleteHighlight, getPageMap, listBookmarks, listHighlights, savePageMap, setBookmark } from './annotationRepo'
@@ -147,5 +147,14 @@ describe('user db', () => {
     await saveProgress(u, { issueId: 7, page: 4, offsetX: 0.5, offsetY: 0.5, zoom: 1, pageCount: 100 })
     await saveProgress(u, { issueId: 7, page: 5, offsetX: 0.5, offsetY: 0.5, zoom: 1 })
     expect((await getProgress(u, 7))?.pageCount).toBe(100) // kept when a later save does not know it
+  })
+})
+
+describe('magazine card titles', () => {
+  it('shrinks titles whose longest word would not fit', () => {
+    expect(titleSize('Galaxy')).toBe('')
+    expect(titleSize('Amazing Spider-Man Masterworks')).toBe('long')
+    expect(titleSize('Protodimension')).toBe('long')
+    expect(titleSize('Superlongtitleword')).toBe('longer')
   })
 })

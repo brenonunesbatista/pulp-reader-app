@@ -164,7 +164,8 @@ select.chip { appearance: none; padding-right: 30px; background-image: linear-gr
 .mag-card .info { display: flex; flex-direction: column; gap: 5px; min-width: 0; }
 /* titles never overflow the card (a break inside a word is the last resort; see .long in MagazineGrid) */
 .mag-card .title { font: 900 28px/.92 var(--f-display); text-transform: uppercase; overflow-wrap: anywhere; }
-.mag-card .title.long { font-size: 20px; }
+.mag-card .title.long { font-size: 21px; }
+.mag-card .title.longer { font-size: 17px; }
 .mag-card .info { flex: 1; }
 .mag-card .tag { margin-top: auto; align-self: flex-start; font: 800 16px/1 var(--f-display); letter-spacing: .08em; padding: 6px 10px;
   border: 2px solid var(--ink); background: var(--pulp-yellow); color: #2A2118; }
