@@ -1,0 +1,2558 @@
+[
+{
+"identifier": "Interzone107199605",
+"title": "Interzone #107 [1996-05]",
+"date": "1996-05-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone108199606",
+"title": "Interzone #108 [1996-06]",
+"date": "1996-06-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone109199607",
+"title": "Interzone #109 [1996-07]",
+"date": "1996-07-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_001_1982-Spring",
+"title": "Interzone #001 (1982 Spring)",
+"date": null,
+"imagecount": 32,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_001_1982-Spring_SLiV",
+"title": "Interzone 001 (1982 Spring) (SLiV)",
+"date": null,
+"imagecount": 33,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_002_1982-Summer",
+"title": "Interzone #002 (1982 Summer)",
+"date": null,
+"imagecount": 32,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_002_1982-Summer_SLiV",
+"title": "Interzone 002 (1982 Summer) (SLiV)",
+"date": null,
+"imagecount": 33,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_003_1982-Autumn",
+"title": "Interzone #003 (1982 Autumn)",
+"date": null,
+"imagecount": 36,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_003_1982-Autumn_LennyS",
+"title": "Interzone 003 (1982 Autumn) (LennyS)",
+"date": null,
+"imagecount": 37,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_006_1983-Win",
+"title": "Interzone #006 (1983 Win)",
+"date": null,
+"imagecount": 40,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_006_1983-Win_SLiV",
+"title": "Interzone 006 (1983 Win) SLiV",
+"date": null,
+"imagecount": 40,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_007_1984-Spr",
+"title": "Interzone #007 (1984 Spr)",
+"date": null,
+"imagecount": 40,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_007_1984-Spr_SLiV",
+"title": "Interzone 007 (1984 Spr) SLiV",
+"date": null,
+"imagecount": 40,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_023_1988-Spring",
+"title": "Interzone #023 (1988 Spring)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_025_1988-09-10",
+"title": "Interzone #025 (1988 09 10)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_026_1988-11_12",
+"title": "Interzone 026 (1988 11 & 12)",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_027_1989-01-02",
+"title": "Interzone #027 (1989 01 02)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_028_1989-03-04",
+"title": "Interzone #028 (1989 03 04)",
+"date": null,
+"imagecount": 77,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_029_1989-05-06",
+"title": "Interzone #029 (1989 05 06)",
+"date": null,
+"imagecount": 76,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_029_1989-05-06_LennyS-oak",
+"title": "Interzone 029 (1989 05 06) (LennyS oak)",
+"date": null,
+"imagecount": 77,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_030_1989-0708",
+"title": "Interzone #030 (1989 07&08)",
+"date": null,
+"imagecount": 76,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_030_1989-0708_Silver-oak",
+"title": "Interzone 030 (1989 07&08) (Silver oak)",
+"date": null,
+"imagecount": 77,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_031_1989-09-10",
+"title": "Interzone #031 (1989 09 10)",
+"date": null,
+"imagecount": 76,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_031_1989-09-10_Silver-oak",
+"title": "Interzone 031 (1989 09 10) (Silver oak)",
+"date": null,
+"imagecount": 76,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_034_1990-03-04",
+"title": "Interzone #034 (1990 03 04)",
+"date": null,
+"imagecount": 76,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_034_1990-03-04_Silver-oak",
+"title": "Interzone 034 (1990 03 04) (Silver oak)",
+"date": null,
+"imagecount": 77,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_035_1990-05",
+"title": "Interzone #035 (1990 05)",
+"date": null,
+"imagecount": 76,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_035_1990-05_Silver-oak",
+"title": "Interzone 035 (1990 05) (Silver oak)",
+"date": null,
+"imagecount": 76,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_036_1990-06",
+"title": "Interzone #036 (1990 06)",
+"date": null,
+"imagecount": 76,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_036_1990-06_Silver-oak",
+"title": "Interzone 036 (1990 06) (Silver oak)",
+"date": null,
+"imagecount": 77,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_037_1990-07",
+"title": "Interzone #037 (1990 07)",
+"date": null,
+"imagecount": 76,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_037_1990-07_Silver-oak",
+"title": "Interzone 037 (1990 07) (Silver oak)",
+"date": null,
+"imagecount": 77,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_038_1990-08",
+"title": "Interzone #038 (1990 08)",
+"date": null,
+"imagecount": 76,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_038_1990-08_Insert_Silver-oak",
+"title": "Interzone 038 (1990 08) (Insert) (Silver oak)",
+"date": null,
+"imagecount": 25,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_038_1990-08_Silver-oak",
+"title": "Interzone 038 (1990 08) (Silver oak)",
+"date": null,
+"imagecount": 77,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_039_1990-09",
+"title": "Interzone #039 (1990 09)",
+"date": null,
+"imagecount": 76,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_039_1990-09_Silver-oak",
+"title": "Interzone 039 (1990 09) (Silver oak)",
+"date": null,
+"imagecount": 77,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_040_1990-10",
+"title": "Interzone 040 (1990 10)",
+"date": null,
+"imagecount": 76,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_041_1990-11",
+"title": "Interzone #041 (1990 11)",
+"date": null,
+"imagecount": 76,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_041_1990-11_Silver-oak",
+"title": "Interzone 041 (1990 11) (Silver oak)",
+"date": null,
+"imagecount": 77,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_042_1990-12",
+"title": "Interzone #042 (1990 12)",
+"date": null,
+"imagecount": 76,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_042_1990-12_Silver-oak",
+"title": "Interzone 042 (1990 12) (Silver oak)",
+"date": null,
+"imagecount": 77,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_043_1991-01",
+"title": "Interzone #043 (1991 01)",
+"date": null,
+"imagecount": 76,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_043_1991-01_Silver-oak",
+"title": "Interzone 043 (1991 01) (Silver oak)",
+"date": null,
+"imagecount": 77,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_044_1991-02",
+"title": "Interzone #044 (1991 02)",
+"date": null,
+"imagecount": 76,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_044_1991-02_Silver-oak",
+"title": "Interzone 044 (1991 02) (Silver oak)",
+"date": null,
+"imagecount": 77,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_045_1991-03",
+"title": "Interzone #045 (1991 03)",
+"date": null,
+"imagecount": 76,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_045_1991-03_Silver-oak",
+"title": "Interzone 045 (1991 03) (Silver oak)",
+"date": null,
+"imagecount": 77,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_046_1991-04",
+"title": "Interzone #046 (1991 04)",
+"date": null,
+"imagecount": 72,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_046_1991-04_Silver-oak",
+"title": "Interzone 046 (1991 04) (Silver oak)",
+"date": null,
+"imagecount": 73,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_047_1991-05",
+"title": "Interzone #047 (1991 05)",
+"date": null,
+"imagecount": 72,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_047_1991-05_Silver-oak",
+"title": "Interzone 047 (1991 05) (Silver oak)",
+"date": null,
+"imagecount": 73,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_048_1991-06",
+"title": "Interzone #048 (1991 06)",
+"date": null,
+"imagecount": 76,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_048_1991-06_Silver-oak",
+"title": "Interzone 048 (1991 06) (Silver oak)",
+"date": null,
+"imagecount": 77,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_049_1991-07",
+"title": "Interzone #049 (1991 07)",
+"date": null,
+"imagecount": 72,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_049_1991-07_saskia",
+"title": "Interzone 049 (1991 07) (saskia)",
+"date": null,
+"imagecount": 73,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_050_1991-08",
+"title": "Interzone #050 (1991 08)",
+"date": null,
+"imagecount": 76,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_050_1991-08_Silver-oak",
+"title": "Interzone 050 (1991 08) (Silver oak)",
+"date": null,
+"imagecount": 77,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_051_1991-09",
+"title": "Interzone #051 (1991 09)",
+"date": null,
+"imagecount": 76,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_051_1991-09_Silver-oak",
+"title": "Interzone 051 (1991 09) (Silver oak)",
+"date": null,
+"imagecount": 77,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_052_1991-10",
+"title": "Interzone #052 (1991 10)",
+"date": null,
+"imagecount": 72,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_052_1991-10_Silver-oak",
+"title": "Interzone 052 (1991 10) Silver oak",
+"date": null,
+"imagecount": 73,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_053_1991-11",
+"title": "Interzone #053 (1991 11)",
+"date": null,
+"imagecount": 72,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_053_1991-11_Silver-oak",
+"title": "Interzone 053 (1991 11) Silver oak",
+"date": null,
+"imagecount": 73,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_055_1992-01",
+"title": "Interzone #055 (1992 01)",
+"date": null,
+"imagecount": 72,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_055_1992-01_Silver-oak",
+"title": "Interzone 055 (1992 01) Silver oak",
+"date": null,
+"imagecount": 73,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_056_1992-02",
+"title": "Interzone #056 (1992 02)",
+"date": null,
+"imagecount": 73,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_056_1992-02_Gorgon776",
+"title": "Interzone 056 (1992 02) (Gorgon776)",
+"date": null,
+"imagecount": 74,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_057_1992-03",
+"title": "Interzone #057 (1992 03)",
+"date": null,
+"imagecount": 73,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_058_1992-04",
+"title": "Interzone #058 (1992 04)",
+"date": null,
+"imagecount": 76,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_058_1992-04_Silver-oak",
+"title": "Interzone 058 (1992 04) Silver oak",
+"date": null,
+"imagecount": 77,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_059_1992-05",
+"title": "Interzone #059 (1992 05)",
+"date": null,
+"imagecount": 72,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_059_1992-05_Silver-oak",
+"title": "Interzone 059 (1992 05) Silver oak",
+"date": null,
+"imagecount": 73,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_060_1992-06",
+"title": "Interzone 060 (1992 06)",
+"date": null,
+"imagecount": 73,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_061_1992-07",
+"title": "Interzone #061 (1992 07)",
+"date": null,
+"imagecount": 72,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_061_1992-07_Silver-oak",
+"title": "Interzone 061 (1992 07) (Silver oak)",
+"date": null,
+"imagecount": 73,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_062_1992-08",
+"title": "Interzone #062 (1992 08)",
+"date": null,
+"imagecount": 72,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_062_1992-08_Silver-oak",
+"title": "Interzone 062 (1992 08) (Silver oak)",
+"date": null,
+"imagecount": 73,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_063_1992-09",
+"title": "Interzone #063 (1992 09)",
+"date": null,
+"imagecount": 72,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_063_1992-09_Silver-oak",
+"title": "Interzone 063 (1992 09) (Silver oak)",
+"date": null,
+"imagecount": 73,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_064_1992-10",
+"title": "Interzone #064 (1992 10)",
+"date": null,
+"imagecount": 73,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_066_1992-12",
+"title": "Interzone #066 (1992 12)",
+"date": null,
+"imagecount": 72,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_066_1992-12_Silver-oak",
+"title": "Interzone 066 (1992 12) (Silver oak)",
+"date": null,
+"imagecount": 73,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_067_1993-01",
+"title": "Interzone #067 (1993 01)",
+"date": null,
+"imagecount": 72,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_067_1993-01_Silver-oak_v2",
+"title": "Interzone 067 (1993 01) (Silver oak) v2",
+"date": null,
+"imagecount": 73,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_068_1993-02",
+"title": "Interzone #068 (1993 02)",
+"date": null,
+"imagecount": 68,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_068_1993-02_Gorgon",
+"title": "Interzone 068 (1993 02) (Gorgon)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_072_1993-06",
+"title": "Interzone 072 (1993 06)",
+"date": null,
+"imagecount": 73,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_073_1993-07",
+"title": "Interzone #073 (1993 07)",
+"date": null,
+"imagecount": 73,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_074_1993-08_filename_originally_mislabeled_as_73",
+"title": "Interzone 074 1993 08 {filename originally mislabeled as 73}",
+"date": null,
+"imagecount": 73,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_075_1993-09",
+"title": "Interzone #075 (1993 09)",
+"date": null,
+"imagecount": 72,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_076_1993-10",
+"title": "Interzone #076 (1993 10)",
+"date": null,
+"imagecount": 73,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_077_1993-11",
+"title": "Interzone 077 (1993 11)",
+"date": null,
+"imagecount": 73,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_078_1993-12",
+"title": "Interzone #078 (1993 12)",
+"date": null,
+"imagecount": 73,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_079_1994-01",
+"title": "Interzone 079 (1994 01)",
+"date": null,
+"imagecount": 73,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_082_1994-04",
+"title": "Interzone #082 (1994 04)",
+"date": null,
+"imagecount": 73,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_083_1994-05",
+"title": "Interzone #083 (1994 05)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_085_1994-07",
+"title": "Interzone #085 (1994 07)",
+"date": null,
+"imagecount": 73,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_086_1994-08",
+"title": "Interzone #086 (1994 08)",
+"date": null,
+"imagecount": 65,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_087_1994-09",
+"title": "Interzone #087 (1994 09)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_088_1994-10",
+"title": "Interzone #088 (1994 10)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_089_1994-11",
+"title": "Interzone 089 (1994 11)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_090_1994-12",
+"title": "Interzone #090 (1994 12)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_091_1995-01",
+"title": "Interzone #091 (1995 01)",
+"date": null,
+"imagecount": 68,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_091_1995-01_LennyS",
+"title": "Interzone 091 (1995 01) (LennyS)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_093_1995-03",
+"title": "Interzone 093 (1995 03)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_094_1995-04",
+"title": "Interzone 094 (1995 04)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_096_1995-06",
+"title": "Interzone 096 (1995 06)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_097_1995-07",
+"title": "Interzone 097 (1995 07)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_099_1995-09",
+"title": "Interzone 099 (1995 09)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_100_1995-10",
+"title": "Interzone 100 (1995 10)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_105_1996-03",
+"title": "Interzone #105 (1996 03)",
+"date": null,
+"imagecount": 68,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_105_1996-03_LennyS",
+"title": "Interzone 105 (1996 03) (LennyS)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_113_1996-11",
+"title": "Interzone 113 (1996 11)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_122_1997-08",
+"title": "Interzone 122 (1997 08)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_139_1999-01",
+"title": "Interzone #139 (1999 01)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_140_1999-02",
+"title": "Interzone #140 (1999 02)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_142_1999-04",
+"title": "Interzone #142 (1999 04)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_143_1999-05",
+"title": "Interzone #143 (1999 05)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_152_2000-02",
+"title": "Interzone #152 (2000 02)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_156_2000-06",
+"title": "Interzone 156 (2000 06)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_159_2000-09",
+"title": "Interzone #159 (2000 09)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_160_2000-10",
+"title": "Interzone #160 (2000 10)",
+"date": null,
+"imagecount": 68,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_161_2000-11",
+"title": "Interzone #161 (2000 11)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_162_2000-12",
+"title": "Interzone #162 (2000 12)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_163_2001-01",
+"title": "Interzone #163 (2001 01)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_165_2001-03",
+"title": "Interzone #165 (2001 03)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_166_2001-04",
+"title": "Interzone #166 (2001 04)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_175_2002-01",
+"title": "Interzone #175 (2002 01)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_176_2002-02",
+"title": "Interzone #176 (2002 02)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_177_2002-03",
+"title": "Interzone #177 (2002 03)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_178_2002-04",
+"title": "Interzone #178 (2002 04)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_179_2002-05",
+"title": "Interzone #179 (2002 05)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_190_2003-07-08",
+"title": "Interzone #190 (2003 07 08)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_194_2004-09",
+"title": "Interzone #194 (2004 09)",
+"date": null,
+"imagecount": 68,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_194_2004-09_LennyS",
+"title": "Interzone 194 (2004 09) (LennyS)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_198_2005-05-06",
+"title": "Interzone #198 (2005 05 06)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_198_2005-05-06_LennyS",
+"title": "Interzone 198 (2005 05 06) (LennyS)",
+"date": null,
+"imagecount": 70,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_200_2005-10",
+"title": "Interzone #200 (2005 10)",
+"date": null,
+"imagecount": 87,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_200_2005-10_LennyS",
+"title": "Interzone 200 (2005 10) (LennyS)",
+"date": null,
+"imagecount": 88,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_210_2007-06",
+"title": "Interzone 210 (2007 06)",
+"date": null,
+"imagecount": 77,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_214_2008-02",
+"title": "Interzone 214 (2008 02)",
+"date": null,
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_234_2011-05-06",
+"title": "Interzone #234 (2011 05 06)",
+"date": null,
+"imagecount": 72,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_234_2011-05-06_UK_madmaxau",
+"title": "Interzone 234 (2011 05 06) (UK) (madmaxau)",
+"date": null,
+"imagecount": 73,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_Science_Fiction_and_Fantasy_068_1993-02_Gorgon",
+"title": "Interzone Science Fiction and Fantasy 068 1993-02 (Gorgon)",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_Science_Fiction_and_Fantasy_075_1993-09_jpg",
+"title": "Interzone Science Fiction and Fantasy 075 1993-09 jpg",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Interzone_Science_Fiction_and_Fantasy_086_1994-08_jpg_",
+"title": "Interzone Science Fiction and Fantasy 086 1994-08 jpg",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-004-1983-spring",
+"title": "Interzone #004 [1983-Spring]",
+"date": "1983-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-005-1983-autumn",
+"title": "Interzone #005 [1983-Autumn]",
+"date": "1983-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-008-1984-summer",
+"title": "Interzone #008 [1984-Summer]",
+"date": "1984-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-009-1984-autumn",
+"title": "Interzone #009 [1984-Autumn]",
+"date": "1984-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-054-1991-12-bogof-39",
+"title": "Interzone 054 [1991-12] (Bogof39)",
+"date": "1991-12-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-065-1992-11",
+"title": "Interzone 065 [1992-11]",
+"date": "1992-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-092-1995-02-bogof-39",
+"title": "Interzone 092 [1995-02] (Bogof39)",
+"date": "1992-02-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-095-1995-05-bogof-39",
+"title": "Interzone 095 [1995-05] (Bogof39)",
+"date": "1995-05-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-098-1995-08-bogof-39",
+"title": "Interzone 098 [1995-08] (Bogof39)",
+"date": "1995-08-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-101-1995-11-bogof-39",
+"title": "Interzone 101 [1995-11] (Bogof39)",
+"date": "1995-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-102-1995-12-bogof-39",
+"title": "Interzone 102 [1995-12] (Bogof39)",
+"date": "1995-12-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-103-1996-01-bogof-39",
+"title": "Interzone 103 [1996-01] (Bogof39)",
+"date": "1996-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-104-1996-02-bogof-39",
+"title": "Interzone 104 [1996-02] (Bogof39)",
+"date": "1996-02-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-110-1996-08-bogof-39",
+"title": "Interzone 110 [1996-08] (Bogof39)",
+"date": "1996-08-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-111-1996-09-bogof-39",
+"title": "Interzone 111 [1996-09] (Bogof39)",
+"date": "1996-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-115-1997-01-bogof-39",
+"title": "Interzone 115 [1997-01] (Bogof39)",
+"date": "1997-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-116-1997-02-bogof-39",
+"title": "Interzone 116 [1997-02] (Bogof39)",
+"date": "1997-02-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-117-1997-03-bogof-39",
+"title": "Interzone 117 [1997-03] (Bogof39)",
+"date": "1997-03-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-118-1997-04-bogof-39",
+"title": "Interzone 118 [1997-04] (Bogof39)",
+"date": "1997-04-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-119-1997-05-bogof-39",
+"title": "Interzone 119 [1997-05] (Bogof39)",
+"date": "1997-05-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-120-1997-06-bogof-39",
+"title": "Interzone 120 [1997-06] (Bogof39)",
+"date": "1997-06-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-121-1997-07-bogof-39",
+"title": "Interzone 121 [1997-07] (Bogof39)",
+"date": "1997-07-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-123-1997-09-bogof-39",
+"title": "Interzone 123 [1997-09] (Bogof39)",
+"date": "1997-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-124-1997-10-bogof-39",
+"title": "Interzone 124 [1997-10] (Bogof39)",
+"date": "1997-10-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-125-1997-11-bogof-39",
+"title": "Interzone 125 [1997-11] (Bogof39)",
+"date": "1997-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-126-1997-12-bogof-39",
+"title": "Interzone 126 [1997-12] (Bogof39)",
+"date": "1997-12-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-127-1998-01-bogof-39",
+"title": "Interzone 127 [1998-01] (Bogof39)",
+"date": "1998-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-128-1998-02-bogof-39",
+"title": "Interzone 128 [1998-02] (Bogof39)",
+"date": "1998-02-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-129-1998-03-bogof-39",
+"title": "Interzone 129 [1998-03] (Bogof39)",
+"date": "1998-03-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-130-1998-04-bogof-39",
+"title": "Interzone 130 [1998-04] (Bogof39)",
+"date": "1998-04-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-131-1998-05-bogof-39",
+"title": "Interzone 131 [1998-05] (Bogof39)",
+"date": "1998-05-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-132-1998-06-bogof-39",
+"title": "Interzone 132 [1998-06] (Bogof39)",
+"date": "1998-06-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-133-1998-07",
+"title": "Interzone 133 [1998-07]",
+"date": "1998-07-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-134-1998-08-bogof-39",
+"title": "Interzone 134 [1998-08] (Bogof39)",
+"date": "1998-08-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-135-1998-09-bogof-39",
+"title": "Interzone 135 [1998-09] (Bogof39)",
+"date": "1998-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-136-1998-10-bogof-39",
+"title": "Interzone 136 [1998-10] (Bogof39)",
+"date": "1998-10-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-137-1998-11-bogof-39",
+"title": "Interzone 137 [1998-11] (Bogof39)",
+"date": "1998-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-138-1998-12-bogof-39",
+"title": "Interzone 138 [1998-12] (Bogof39)",
+"date": "1998-12-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-141-1999-03-bogof-39",
+"title": "Interzone 141 [1999-03] (Bogof39)",
+"date": "1999-03-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-144-1999-06-bogof-39",
+"title": "Interzone 144 [1999-06] (Bogof39)",
+"date": "1999-06-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-145-1999-07-bogof-39",
+"title": "Interzone 145 [1999-07] (Bogof39)",
+"date": "1999-07-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-146-1999-08-bogof-39",
+"title": "Interzone 146 [1999-08] (Bogof39)",
+"date": "1999-08-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-147-1999-09-bogof-39",
+"title": "Interzone 147 [1999-09] (Bogof39)",
+"date": "1999-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-148-1999-10-bogof-39",
+"title": "Interzone 148 [1999-10] (Bogof39)",
+"date": "1999-10-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-149-1999-11-bogof-39",
+"title": "Interzone 149 [1999-11] (Bogof39)",
+"date": "1999-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-150-1999-12-bogof-39",
+"title": "Interzone 150 [1999-12] (Bogof39)",
+"date": "1999-12-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-151-2000-01-bogof-39",
+"title": "Interzone 151 [2000-01] (Bogof39)",
+"date": "2000-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-153-2000-03-bogof-39",
+"title": "Interzone 153 [2000-03] (Bogof39)",
+"date": "2000-03-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-154-2000-04-bogof-39",
+"title": "Interzone 154 [2000-04] (Bogof39)",
+"date": "2000-04-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-155-2000-05-bogof-39",
+"title": "Interzone 155 [2000-05] (Bogof39)",
+"date": "2000-05-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-157-2000-07-bogof-39",
+"title": "Interzone 157 [2000-07] (Bogof39)",
+"date": "2000-07-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-158-2000-08-bogof-39",
+"title": "Interzone 158 [2000-08] (Bogof39)",
+"date": "2000-08-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-164-2001-02-bogof-39",
+"title": "Interzone 164 [2001-02] (Bogof39)",
+"date": "2001-02-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-167-2001-05-bogof-39",
+"title": "Interzone 167 [2001-05] (Bogof39)",
+"date": "2001-05-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-168-2001-06-bogof-39",
+"title": "Interzone 168 [2001-06] (Bogof39)",
+"date": "2001-06-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-169-2001-07-bogof-39",
+"title": "Interzone 169 [2001-07] (Bogof39)",
+"date": "2001-07-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-170-2001-08-bogof-39",
+"title": "Interzone 170 [2001-08] (Bogof39)",
+"date": "2001-08-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-171-2001-09-bogof-39",
+"title": "Interzone 171 [2001-09] (Bogof39)",
+"date": "2001-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-172-2001-10-bogof-39",
+"title": "Interzone 172 [2001-10] (Bogof39)",
+"date": "2001-10-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-173-2001-11-bogof-39",
+"title": "Interzone 173 [2001-11] (Bogof39)",
+"date": "2001-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-174-2001-12-bogof-39",
+"title": "Interzone 174 [2001-12] (Bogof39)",
+"date": "2001-12-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-180-2002-06-07-bogof-39",
+"title": "Interzone 180 [2002-06-07] (Bogof39)",
+"date": "2002-06-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-181-2002-08-bogof-39",
+"title": "Interzone 181 [2002-08] (Bogof39)",
+"date": "2002-08-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-182-2002-09-bogof-39",
+"title": "Interzone 182 [2002-09] (Bogof39)",
+"date": "2002-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-183-2002-10-bogof-39",
+"title": "Interzone 183 [2002-10] (Bogof39)",
+"date": "2002-12-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-184-2002-11-12-bogof-39",
+"title": "Interzone 184 [2002-11-12] (Bogof39)",
+"date": "2002-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-185-2003-01-bogof-39",
+"title": "Interzone 185 [2003-01] (Bogof39)",
+"date": "2003-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-186-2003-02-bogof-39",
+"title": "Interzone 186 [2003-02] (Bogof39)",
+"date": "2003-02-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-187-2003-03-bogof-39",
+"title": "Interzone 187 [2003-03] (Bogof39)",
+"date": "2003-03-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-188-2003-04-bogof-39",
+"title": "Interzone 188 [2003-04] (Bogof39)",
+"date": "2003-04-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-189-2003-05-06-bogof-39",
+"title": "Interzone 189 [2003-05-06] (Bogof39)",
+"date": "2003-05-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-191-2003-09-bogof-39",
+"title": "Interzone 191 [2003-09] (Bogof39)",
+"date": "2003-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-192-2003-11-12-bogof-39",
+"title": "Interzone 192 [2003-11-12] (Bogof39)",
+"date": "2003-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-193-2004-spring-bogof-39",
+"title": "Interzone 193 [2004-Spring] (Bogof39)",
+"date": "2004-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-195-2004-11-12",
+"title": "Interzone 195 [2004-11-12]",
+"date": "2004-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-196-2005-01-02",
+"title": "Interzone 196 [2005-01-02]",
+"date": "2005-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-197-2005-03-04",
+"title": "Interzone 197 [2005-03-04]",
+"date": "2005-03-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-1982",
+"title": "Interzone (1982 -) Complete Available Issues",
+"date": "1982-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-199-2005-07-08",
+"title": "Interzone 199 [2005-07-08]",
+"date": "2005-07-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-201-2005-11-12",
+"title": "Interzone 201 [2005-11-12]",
+"date": "2005-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-202-2006-01-02",
+"title": "Interzone 202 [2006-02]",
+"date": "2006-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-203-2006-04",
+"title": "Interzone 203 [2006-04]",
+"date": "2006-04-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-204-2006-06",
+"title": "Interzone 204 [2006-06]",
+"date": "2006-06-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-205-2006-08",
+"title": "Interzone 205 [2006-08]",
+"date": "2006-08-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-206-2006-10",
+"title": "Interzone 206 [2006-10]",
+"date": "2006-10-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-207-2006-12",
+"title": "Interzone 207 [2006-12]",
+"date": "2006-12-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-208-2007-02",
+"title": "Interzone 208 [2007-02]",
+"date": "2007-02-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-209-2007-04",
+"title": "Interzone 209 [2007-04]",
+"date": "2007-04-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-211-2007-07-08",
+"title": "Interzone 211 [2007-07-08]",
+"date": "2007-07-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-212-2007-09-10",
+"title": "Interzone 212 [2007-09-10]",
+"date": "2007-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-213-2007-12",
+"title": "Interzone 213 [2007-12]",
+"date": "2007-12-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-215-2008-04",
+"title": "Interzone 215 [2008-04]",
+"date": "2008-04-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-216-2008-06",
+"title": "Interzone 216 [2008-06]",
+"date": "2008-06-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-217-2008-08",
+"title": "Interzone 217 [2008-08]",
+"date": "2008-08-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-218-2008-10",
+"title": "Interzone 218 [2008-10]",
+"date": "2008-10-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-219-2008-12",
+"title": "Interzone 219 [2008-12]",
+"date": "2008-12-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-220-2009-02",
+"title": "Interzone 220 [2009-02]",
+"date": "2009-02-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-221-2009-03-04",
+"title": "Interzone 221 [2009-03-04]",
+"date": "2009-03-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-222-2009-06",
+"title": "Interzone 222 [2009-06]",
+"date": "2009-06-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-223-2009-07-08",
+"title": "Interzone 223 [2009-07-08]",
+"date": "2009-07-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-224-2009-09-10",
+"title": "Interzone 224 [2009-09-10]",
+"date": "2009-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-225-2009-11-12",
+"title": "Interzone 225 [2009-11-12]",
+"date": "2009-12-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-226-2010-01-02",
+"title": "Interzone 226 [2010-01-02]",
+"date": "2010-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-227-2010-03-04",
+"title": "Interzone 227 [2010-03-04]",
+"date": "2010-03-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-228-2010-05-06",
+"title": "Interzone 228 [2010-05-06]",
+"date": "2010-05-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-229-2010-07-08",
+"title": "Interzone 229 [2010-07-08]",
+"date": "2010-07-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-230-2010-09-10",
+"title": "Interzone 230 [2010-09-10]",
+"date": "2010-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-231-2010-11-12",
+"title": "Interzone 231 [2010-11-12]",
+"date": "2010-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-232-2011-01-02",
+"title": "Interzone 232 [2011-01-02]",
+"date": "2011-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-233-2011-03-04",
+"title": "Interzone 233 [2011-03-04]",
+"date": "2011-03-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-235-2011-07-08",
+"title": "Interzone 235 [2011-07-08]",
+"date": "2011-07-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-236-2011-09-10",
+"title": "Interzone 236 [2011-09-10]",
+"date": "2011-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-237-2011-11-12",
+"title": "Interzone 237 [2011-11-12]",
+"date": "2011-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-240-2012-05-06",
+"title": "Interzone 240 [2012-05-06]",
+"date": "2012-05-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-244-2013-01-02",
+"title": "Interzone 244 [2013-01-02]",
+"date": "2013-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-245-2013-03-04",
+"title": "Interzone 245 [2013-03-04]",
+"date": "2013-03-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-246-2013-05-06",
+"title": "Interzone 246 [2013-05-06]",
+"date": "2013-05-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-247-2013-07-08",
+"title": "Interzone 247 [2013-07-08]",
+"date": "2013-07-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-248-2013-09-10",
+"title": "Interzone 248 [2013-09-10]",
+"date": "2013-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-249-2013-11-12",
+"title": "Interzone 249 [2013-11-12]",
+"date": "2013-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-magazine-238-2012-01-02",
+"title": "Interzone 238 [2012-01-02]",
+"date": "2012-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-magazine-239-2012-03-04",
+"title": "Interzone 239 [2012-03-04]",
+"date": "2012-03-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-magazine-241-2012-07-08",
+"title": "Interzone 241 [2012-07-08]",
+"date": "2012-07-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-magazine-242-2012-09-10",
+"title": "Interzone 242 [2012-09-10]",
+"date": "2012-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-magazine-243-2012-11-12",
+"title": "Interzone 243 [2012-11-12]",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-magazine-250-2014-01-02",
+"title": "Interzone 250 [2014-01-02]",
+"date": "2014-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-magazine-251-2014-03-04",
+"title": "Interzone 251 [2014-03-04]",
+"date": "2014-03-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-magazine-252-2014-05-06",
+"title": "Interzone 252 [2014-05-06]",
+"date": "2014-05-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-magazine-253-2014-07-08",
+"title": "Interzone 253 [2014-07-08]",
+"date": "2014-07-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-magazine-254-2014-09-10",
+"title": "Interzone 254 [2014-09-10]",
+"date": "2014-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-magazine-255-2014-11-12",
+"title": "Interzone 255 [2014-11-12]",
+"date": "2014-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-magazine-256-2015-01-02",
+"title": "Interzone 256 [2015-01-02]",
+"date": "2015-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-magazine-257-2015-03-04",
+"title": "Interzone 257 [2015-03-04]",
+"date": "2015-03-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-magazine-258-2015-05-06",
+"title": "Interzone 258 [2015-05-06]",
+"date": "2015-05-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-magazine-259-2015-07-08",
+"title": "Interzone 259 [2015-07-08]",
+"date": "2015-07-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-magazine-260-2015-09-10",
+"title": "Interzone 260 [2015-09-10]",
+"date": "2015-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "interzone-magazine-261-2015-11-12",
+"title": "Interzone 261 [2015-11-12]",
+"date": "2015-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+}
+]

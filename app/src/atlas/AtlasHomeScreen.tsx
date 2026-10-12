@@ -5,7 +5,7 @@ import { useIsActive, useNav } from '../nav/context'
 import { ErrorBox, Loading, Masthead, Screen, SectionHeader } from '../ui/components'
 import { Icon } from '../ui/icons'
 import { useAsync } from '../ui/useAsync'
-import { ContinueReading } from '../screens/ContinueReading'
+import { recentProgress } from '../data/progressRepo'
 import './atlas.css'
 import { LANES, LANE_TOKEN, wantVerb } from './forms'
 import { EntityChip, Picture, RecCard } from './parts'
@@ -25,6 +25,8 @@ export function AtlasHomeScreen() {
   const [suggest, setSuggest] = useState<string | null>(null) // open form with this initial text
   const [tick, setTick] = useState(0)
   const active = useIsActive()
+  // issues in progress: a button to the Continue reading screen (reloaded when the home is shown again)
+  const reading = useAsync(async () => (await recentProgress(user)).length, [user, active])
   const timelines = useAsync(() => listSavedTimelines(user), [user, tick, active])
   const [renaming, setRenaming] = useState<{ id: number; name: string } | null>(null)
   // a search that finds nothing goes to the curator inbox (once the text has been stable for a moment)
@@ -61,13 +63,18 @@ export function AtlasHomeScreen() {
       {ctx.status === 'error' && <ErrorBox error={ctx.error} />}
       {home && (
         <div className="a-home">
-          <div className="a-search">
-            <Icon name="search" size={20} />
-            <input id="atlas-search" type="search" placeholder="Search the Atlas — people, stories, films, themes…" value={q}
-                   onChange={(e) => setQ(e.target.value)} aria-label="Search the Atlas" />
+          <div className="a-top">
+            <div className="a-search">
+              <Icon name="search" size={20} />
+              <input id="atlas-search" type="search" placeholder="Search the Atlas — people, stories, films, themes…" value={q}
+                     onChange={(e) => setQ(e.target.value)} aria-label="Search the Atlas" />
+            </div>
+            {reading.status === 'ok' && reading.data > 0 && (
+              <button className="btn a-continue" onClick={() => nav.push({ name: 'reading' })}>
+                <Icon name="pulp" size={20} />Continue reading <span className="num">· {reading.data}</span>
+              </button>
+            )}
           </div>
-          {/* the Atlas is the app's home: reading in progress comes first */}
-          {!q.trim() && <ContinueReading />}
           {q.trim() && results.status === 'ok' && (
             <section className="a-sec">
               <div className="a-chips">

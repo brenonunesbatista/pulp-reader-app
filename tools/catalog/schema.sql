@@ -61,9 +61,11 @@ CREATE VIRTUAL TABLE issue_fts USING fts5(
   tokenize = 'unicode61 remove_diacritics 2', prefix = '2 3 4');
 -- no prefix index on stories: with ~25,000 rows it tripled the table (14.6 → 10.6 MB catalog) and prefix queries
 -- ("asi*") stay well under 1 ms without it (docs/DECISIONS.md 2026-10-12)
+-- no issue title column (issues have issue_fts) and detail = column (the app only runs prefix-token queries, no
+-- phrases): with ~60,000 rows this keeps the catalog at 21 instead of 25 MB
 CREATE VIRTUAL TABLE story_fts USING fts5(
-  title, series, authors, translators, type_label, issue_title,
-  tokenize = 'unicode61 remove_diacritics 2');
+  title, series, authors, translators, type_label,
+  tokenize = 'unicode61 remove_diacritics 2', detail = column);
 CREATE VIRTUAL TABLE person_fts USING fts5(
   name, roles,
   tokenize = 'unicode61 remove_diacritics 2', prefix = '2 3 4');

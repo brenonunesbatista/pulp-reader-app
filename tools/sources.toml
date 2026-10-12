@@ -599,3 +599,246 @@ year_only = true
 issue_pattern = 'Só Aventuras 0*(\d+)'
 # approximate: solo adventures, "the first special edition of Dragão Brasil" (Trama), late 1990s
 year_anchors = [[1, 1997], [10, 1999]]
+
+# ---- Phase 11b: classic pulps (blocks 60+). ISFDB contents where it indexes them (complete for SF/fantasy
+# magazines, genre stories only for Adventure, Argosy, Blue Book, Popular and Ellery Queen). Exclusions: reference guides
+# (kept for a later contents source), later revivals uploaded under another title, misdated uploads.
+[[magazine]]
+slug = "weird-tales"
+block = 60
+name = "Weird Tales"
+category = "pulp"
+adapter = "ia_collection"
+collection = "weirdtalesmagazine"
+exclude = 'reference-guide|Reference Guide'
+isfdb = '^Weird Tales, '
+isfdb_exclude = '\bUK\b|British|Australian'
+
+[[magazine]]
+slug = "astounding"
+block = 61
+name = "Astounding / Analog"
+category = "pulp"
+adapter = "ia_collection"
+collection = "astoundingstories"
+exclude = 'reference-guide|Reference Guide'
+isfdb = '^(Astounding (Stories( of Super-Science)?|Science[- ]Fiction)|Analog Science[^,]*|Astounding/Analog[^,]*), '
+isfdb_exclude = '\bUK\b|British|Australian'
+
+[[magazine]]
+slug = "startling-stories"
+block = 62
+name = "Startling Stories"
+category = "pulp"
+adapter = "ia_collection"
+collection = "startling_stories"
+exclude = 'reference-guide|Reference Guide|2007|^1944Fall$'
+isfdb = '^Startling Stories, '
+isfdb_exclude = '\bUK\b|British|Australian'
+
+[[magazine]]
+slug = "thrilling-wonder-stories"
+block = 63
+name = "Thrilling Wonder Stories"
+category = "pulp"
+adapter = "ia_collection"
+collection = "thrillingwonderstories"
+exclude = 'reference-guide|Reference Guide'
+isfdb = '^Thrilling Wonder Stories, '
+isfdb_exclude = '\bUK\b|British|Australian'
+
+[[magazine]]
+slug = "planet-stories"
+block = 64
+name = "Planet Stories"
+category = "pulp"
+adapter = "ia_collection"
+collection = "planetstories"
+exclude = 'reference-guide|Reference Guide'
+isfdb = '^Planet Stories, '
+isfdb_exclude = '\bUK\b|British|Australian'
+
+[[magazine]]
+slug = "fantastic-adventures"
+block = 65
+name = "Fantastic Adventures"
+category = "pulp"
+adapter = "ia_collection"
+collection = "fantasticadventures"
+exclude = 'reference-guide|Reference Guide'
+isfdb = '^Fantastic Adventures, '
+isfdb_exclude = '\bUK\b|British|Australian'
+
+[[magazine]]
+slug = "famous-fantastic-mysteries"
+block = 66
+name = "Famous Fantastic Mysteries"
+category = "pulp"
+adapter = "ia_collection"
+collection = "famousfantasticmysteries"
+exclude = 'reference-guide|Reference Guide'
+isfdb = '^Famous Fantastic Mysteries( Combined with Fantastic Novels Magazine)?, '
+isfdb_exclude = '\bUK\b|British|Australian'
+
+[[magazine]]
+slug = "unknown"
+block = 67
+name = "Unknown"
+category = "pulp"
+adapter = "ia_collection"
+collection = "unknownworlds"
+exclude = 'reference-guide|Reference Guide'
+isfdb = '^Unknown( Worlds| Fantasy Fiction)?, '
+isfdb_exclude = '\bUK\b|British|Australian'
+
+[[magazine]]
+slug = "if"
+block = 68
+name = "If"
+category = "pulp"
+adapter = "ia_collection"
+collection = "ifmagazine"
+exclude = 'reference-guide|Reference Guide'
+isfdb = '^(Worlds of )?If, '
+isfdb_exclude = '\bUK\b|British|Australian'
+
+[[magazine]]
+slug = "science-wonder-stories"
+block = 69
+name = "Science Wonder Stories"
+category = "pulp"
+adapter = "ia_collection"
+collection = "sciencewonderstories"
+exclude = 'reference-guide|Reference Guide'
+isfdb = '^Science Wonder Stories, '
+isfdb_exclude = '\bUK\b|British|Australian'
+
+[[magazine]]
+slug = "science-fiction-stories"
+block = 70
+name = "Science Fiction Stories"
+category = "pulp"
+adapter = "ia_collection"
+collection = "sciencefictionstories"
+exclude = 'reference-guide|Reference Guide'
+isfdb = '^(Future Combined with )?Science Fiction Stories, '
+isfdb_exclude = '\bUK\b|British|Australian'
+
+[[magazine]]
+slug = "science-fiction-quarterly"
+block = 71
+name = "Science Fiction Quarterly"
+category = "pulp"
+adapter = "ia_collection"
+collection = "sciencefictionquarterly"
+exclude = 'reference-guide|Reference Guide'
+isfdb = '^Science Fiction Quarterly, '
+isfdb_exclude = '\bUK\b|British|Australian'
+
+[[magazine]]
+slug = "adventure"
+block = 72
+name = "Adventure"
+category = "pulp"
+adapter = "ia_collection"
+collection = "adventuremagazine"
+exclude = 'reference-guide|Reference Guide'
+isfdb = '^Adventure, '
+isfdb_exclude = '\bUK\b|British|Australian'
+
+[[magazine]]
+slug = "argosy"
+block = 73
+name = "Argosy"
+category = "pulp"
+adapter = "ia_collection"
+collection = "argosymagazine"
+exclude = 'reference-guide|Reference Guide|Munsey19300315'
+isfdb = '^(The )?Argosy( Magazine)?, '
+isfdb_exclude = '\bUK\b|British|Australian'
+
+[[magazine]]
+slug = "blue-book"
+block = 74
+name = "Blue Book"
+category = "pulp"
+adapter = "ia_collection"
+collection = "bluebookmagazine"
+exclude = 'reference-guide|Reference Guide'
+isfdb = '^(The )?(Monthly Story )?(Blue ?Book|Bluebook)( Magazine)?( for Men)?, '
+isfdb_exclude = '\bUK\b|British|Australian'
+
+[[magazine]]
+slug = "popular-magazine"
+block = 75
+name = "The Popular Magazine"
+category = "pulp"
+adapter = "ia_collection"
+collection = "popularmagazine"
+exclude = 'reference-guide|Reference Guide'
+isfdb = '^(The )?Popular Magazine, '
+isfdb_exclude = '\bUK\b|British|Australian'
+
+[[magazine]]
+slug = "ellery-queen"
+block = 76
+name = "Ellery Queen's Mystery Magazine"
+category = "pulp"
+adapter = "ia_collection"
+collection = "eleryqueenmagazine"
+exclude = 'reference-guide|Reference Guide'
+isfdb = "^Ellery Queen's Mystery Magazine, "
+isfdb_exclude = '\bUK\b|British|Australian'
+
+[[magazine]]
+slug = "thrilling-detective"
+block = 77
+name = "Thrilling Detective"
+category = "pulp"
+adapter = "ia_collection"
+collection = "thrillingdetective"
+exclude = 'reference-guide|Reference Guide'
+
+[[magazine]]
+slug = "new-worlds"
+block = 78
+name = "New Worlds"
+category = "pulp"
+adapter = "ia_collection"
+collection = "newworldssf"
+exclude = 'reference-guide|Reference Guide'
+isfdb = '^New Worlds( Science Fiction| SF)?, '
+isfdb_exclude = '\bUK\b|British|Australian'
+
+[[magazine]]
+slug = "authentic-science-fiction"
+block = 79
+name = "Authentic Science Fiction"
+category = "pulp"
+adapter = "ia_collection"
+collection = "authenticsciencefiction"
+exclude = 'reference-guide|Reference Guide'
+isfdb = '^Authentic Science Fiction( Monthly)?\b'
+isfdb_exclude = '\bUK\b|British|Australian'
+
+[[magazine]]
+slug = "science-fantasy"
+block = 80
+name = "Science Fantasy"
+category = "pulp"
+adapter = "ia_collection"
+collection = "sciencefantasy"
+exclude = 'reference-guide|Reference Guide'
+isfdb = '^Science Fantasy, '
+isfdb_exclude = '\bUK\b|British|Australian'
+
+[[magazine]]
+slug = "interzone"
+block = 81
+name = "Interzone"
+category = "pulp"
+adapter = "ia_collection"
+collection = "interzonemagazine"
+exclude = 'reference-guide|Reference Guide'
+isfdb = '^Interzone, '
+isfdb_exclude = '\bUK\b|British|Australian'

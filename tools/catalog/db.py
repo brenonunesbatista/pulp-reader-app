@@ -116,12 +116,12 @@ def write(parts: list[Part], categories: list[dict], db_path: Path, cover_paths:
                 series = "; ".join(n[len("series: "):] for n in (s.note or "").split("; ") if n.startswith("series: "))
                 # authors column also gets pseudonym notes ("Eando Binder = Earl Binder & Otto O. Binder")
                 real = " ".join(n for n in (s.note or "").split("; ") if " = " in n)
-                con.execute("INSERT INTO story_fts(rowid, title, series, authors, translators, type_label, issue_title) "
-                            "VALUES (?,?,?,?,?,?,?)", (
+                con.execute("INSERT INTO story_fts(rowid, title, series, authors, translators, type_label) "
+                            "VALUES (?,?,?,?,?,?)", (
                                 story_id, s.title, series,
                                 " ".join(reg.display(_key(c.raw)) for c in s.credits if c.role == "author") + " " + real,
                                 " ".join(reg.display(_key(c.raw)) for c in s.credits if c.role == "translator"),
-                                s.type_label or "", issue.title))
+                                s.type_label or ""))
     con.executemany("INSERT INTO person_fts(rowid, name, roles) VALUES (?,?,?)",
                     [(p, reg.display(k), " ".join(sorted(roles.get(p, set())))) for k, p in person_id.items()])
     con.execute("INSERT INTO story_fts(story_fts) VALUES ('optimize')")

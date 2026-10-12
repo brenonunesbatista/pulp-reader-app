@@ -1,0 +1,5769 @@
+{
+"source": "ISFDB, The Internet Speculative Fiction Database (https://www.isfdb.org), CC BY 4.0",
+"dump": "backup-MySQL-55-2026-10-10.zip",
+"pattern": "^Science Fiction Quarterly, ",
+"issues": [
+{
+"id": 60402,
+"title": "Science Fiction Quarterly, Summer 1940",
+"date": "1940-07-00",
+"items": [
+{
+"title": "The Moon Conquerors (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "4",
+"authors": [
+"R. H. Romans"
+],
+"real": []
+},
+{
+"title": "Space-Ship Derby",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "101",
+"authors": [
+"Milton Kaletsky"
+],
+"real": []
+},
+{
+"title": "Package of Power",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "111",
+"authors": [
+"David C. Cooke"
+],
+"real": []
+},
+{
+"title": "Polar Doom",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "121",
+"authors": [
+"John Coleridge"
+],
+"real": [
+"Otto Binder",
+"Earl Binder"
+]
+},
+{
+"title": "The Gentle Brain",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "130",
+"authors": [
+"Arthur Allport"
+],
+"real": [
+"Raymond Z. Gallun"
+]
+},
+{
+"title": "Life Inside a Wall",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "142",
+"authors": [
+"Harl Vincent"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Jack Binder"
+],
+"editors": [
+"Charles D. Hornig"
+]
+},
+{
+"id": 60405,
+"title": "Science Fiction Quarterly, Winter 1941",
+"date": "1941-01-00",
+"items": [
+{
+"title": "The Shot into Infinity (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "4",
+"authors": [
+"O. W. Gail"
+],
+"real": [
+"Otto Willi Gail"
+]
+},
+{
+"title": "Double Destiny",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "109",
+"authors": [
+"Helen Weinbaum"
+],
+"real": []
+},
+{
+"title": "The Wall of Water",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "129",
+"authors": [
+"Raymond Z. Gallun"
+],
+"real": []
+},
+{
+"title": "Artificial Universe",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "138",
+"authors": [
+"John Coleridge"
+],
+"real": [
+"Otto Binder",
+"Earl Binder"
+]
+}
+],
+"cover_artists": [
+"Frank R. Paul"
+],
+"editors": [
+"Charles D. Hornig"
+]
+},
+{
+"id": 60399,
+"title": "Science Fiction Quarterly, Spring 1941",
+"date": "1941-04-00",
+"items": [
+{
+"title": "Rescue from Venus (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "4",
+"authors": [
+"Ed Earl Repp"
+],
+"real": []
+},
+{
+"title": "Cosmos Eye",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "101",
+"authors": [
+"Martin Pearson"
+],
+"real": [
+"Donald A. Wollheim"
+]
+},
+{
+"title": "Callistan Tomb",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "108",
+"authors": [
+"Paul Dennis Lavond"
+],
+"real": [
+"Frederik Pohl",
+"C. M. Kornbluth"
+]
+},
+{
+"title": "The Life Jewel",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "115",
+"authors": [
+"Oliver Saari"
+],
+"real": []
+},
+{
+"title": "Rocket's Swan Song",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "124",
+"authors": [
+"Vic Phillips"
+],
+"real": []
+},
+{
+"title": "Weapon Out of Time",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "135",
+"authors": [
+"James Blish"
+],
+"real": []
+},
+{
+"title": "Femintown, Mars",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "141",
+"authors": [
+"Clarence Granoski"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank R. Paul"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 60403,
+"title": "Science Fiction Quarterly, Summer 1941",
+"date": "1941-07-00",
+"items": [
+{
+"title": "Tarrano the Conqueror (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "4",
+"authors": [
+"Ray Cummings"
+],
+"real": []
+},
+{
+"title": "Earth Does Not Reply",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "123",
+"authors": [
+"Lawrence Woods"
+],
+"real": [
+"Donald A. Wollheim",
+"John B. Michel"
+]
+},
+{
+"title": "The World on the Edge of the Universe",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "133",
+"authors": [
+"Martin Pearson"
+],
+"real": [
+"Donald A. Wollheim"
+]
+},
+{
+"title": "Path of Empire",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "138",
+"authors": [
+"Hugh Raymond"
+],
+"real": [
+"John B. Michel"
+]
+}
+],
+"cover_artists": [
+"Frank R. Paul"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 60406,
+"title": "Science Fiction Quarterly, Winter 1941-1942",
+"date": "1941-12-00",
+"items": [
+{
+"title": "Into the Fourth Dimension",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "4",
+"authors": [
+"Ray Cummings"
+],
+"real": []
+},
+{
+"title": "Power Plant",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "71",
+"authors": [
+"Lee Gregor"
+],
+"real": [
+"Milton A. Rothman"
+]
+},
+{
+"title": "Ephony's Spectacles",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "79",
+"authors": [
+"Clarence Granoski"
+],
+"real": []
+},
+{
+"title": "Sir Mallory's Magnitude",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "88",
+"authors": [
+"S. D. Gottesman"
+],
+"real": [
+"C. M. Kornbluth"
+]
+},
+{
+"title": "Baby Dreams",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "107",
+"authors": [
+"Allen Warland"
+],
+"real": [
+"Donald A. Wollheim"
+]
+},
+{
+"title": "Caridi Shall Not Die",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "115",
+"authors": [
+"Walter Kubilius"
+],
+"real": []
+},
+{
+"title": "The Year of Uniting",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "124",
+"authors": [
+"Hugh Raymond"
+],
+"real": [
+"John B. Michel"
+]
+},
+{
+"title": "When Anteros Came",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "143",
+"authors": [
+"James Blish"
+],
+"real": []
+},
+{
+"title": "Prime Base (Science Fiction Quarterly, Winter 1941-1942)",
+"type": "ESSAY",
+"len": null,
+"page": "144",
+"authors": [
+"RWL"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+}
+],
+"cover_artists": [
+"Hannes Bok"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 60400,
+"title": "Science Fiction Quarterly, Spring 1942",
+"date": "1942-03-00",
+"items": [
+{
+"title": "The Shadow Girl (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "4",
+"authors": [
+"Ray Cummings"
+],
+"real": []
+},
+{
+"title": "Einstein's Planetoid",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "99",
+"authors": [
+"Paul Dennis Lavond"
+],
+"real": [
+"Frederik Pohl",
+"C. M. Kornbluth",
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Saknarth",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "118",
+"authors": [
+"Millard Verne Gordon"
+],
+"real": [
+"Donald A. Wollheim"
+]
+},
+{
+"title": "Gangway for Homer",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "122",
+"authors": [
+"George R. Hahn"
+],
+"real": []
+},
+{
+"title": "Crisis!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "130",
+"authors": [
+"Cecil Corwin"
+],
+"real": [
+"C. M. Kornbluth"
+]
+},
+{
+"title": "Mission",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "141",
+"authors": [
+"John Hollis Mason"
+],
+"real": []
+},
+{
+"title": "Prime Base (Science Fiction Quarterly, Spring 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "144",
+"authors": [
+"RWL"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+}
+],
+"cover_artists": [
+"Hannes Bok"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 60404,
+"title": "Science Fiction Quarterly, Summer 1942",
+"date": "1942-06-00",
+"items": [
+{
+"title": "The Great Mirror (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "4",
+"authors": [
+"Arthur J. Burks"
+],
+"real": []
+},
+{
+"title": "Up There",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "85",
+"authors": [
+"Martin Pearson"
+],
+"real": [
+"Donald A. Wollheim"
+]
+},
+{
+"title": "Starstone World",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "88",
+"authors": [
+"Hannes Bok"
+],
+"real": []
+},
+{
+"title": "Boomerang",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "138",
+"authors": [
+"Bowen Conway"
+],
+"real": [
+"John B. Michel"
+]
+},
+{
+"title": "Stroke",
+"type": "SHORTFICTION",
+"len": null,
+"page": "142",
+"authors": [
+"John L. Chapman"
+],
+"real": []
+},
+{
+"title": "Prime Base (Science Fiction Quarterly, Summer 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "144",
+"authors": [
+"R. W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Letter (Science Fiction Quarterly, Summer 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "145",
+"authors": [
+"Hugh Raymond"
+],
+"real": [
+"John B. Michel"
+]
+}
+],
+"cover_artists": [
+"John B. Mussachia"
+],
+"editors": [
+"R. W. Lowndes"
+]
+},
+{
+"id": 60377,
+"title": "Science Fiction Quarterly, Fall 1942",
+"date": "1942-09-00",
+"items": [
+{
+"title": "Brigands of the Moon (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "4",
+"authors": [
+"Ray Cummings"
+],
+"real": []
+},
+{
+"title": "Gentlemen - the Queen!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "107",
+"authors": [
+"Bob Tucker"
+],
+"real": [
+"Wilson Tucker"
+]
+},
+{
+"title": "The Hidden Conflict",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "115",
+"authors": [
+"Martin Pearson"
+],
+"real": [
+"Donald A. Wollheim"
+]
+},
+{
+"title": "The Half-Man",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "119",
+"authors": [
+"Basil Wells"
+],
+"real": []
+},
+{
+"title": "Glory Road",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "129",
+"authors": [
+"Hugh Raymond"
+],
+"real": [
+"John B. Michel"
+]
+},
+{
+"title": "Highway",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "139",
+"authors": [
+"Wilfred Owen Morley"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Prime Base (Science Fiction Quarterly, Fall 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "145",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+}
+],
+"cover_artists": [
+"Hannes Bok"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 60407,
+"title": "Science Fiction Quarterly, Winter 1942",
+"date": "1942-12-00",
+"items": [
+{
+"title": "The Far Detour",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "4",
+"authors": [
+"Arthur J. Burks"
+],
+"real": []
+},
+{
+"title": "The Growing Wall",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "54",
+"authors": [
+"David H. Keller"
+],
+"real": [
+"David H. Keller, M.D."
+]
+},
+{
+"title": "Bomb",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "81",
+"authors": [
+"Millard Verne Gordon"
+],
+"real": [
+"Donald A. Wollheim"
+]
+},
+{
+"title": "Wings Across Time",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "82",
+"authors": [
+"Frank Edward Arnold"
+],
+"real": []
+},
+{
+"title": "Lunar Sanctuary",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "114",
+"authors": [
+"Walter R. Preston"
+],
+"real": []
+},
+{
+"title": "Hell in the Village",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "129",
+"authors": [
+"Hugh Raymond"
+],
+"real": [
+"John B. Michel"
+]
+},
+{
+"title": "The Perfect Incinerator",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "139",
+"authors": [
+"Arthur Lambert"
+],
+"real": [
+"Arthur L. Widner, Jr."
+]
+},
+{
+"title": "The Deliverers",
+"type": "SHORTFICTION",
+"len": null,
+"page": "142",
+"authors": [
+"Richard Morrison"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Messenger to Infinity",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "144",
+"authors": [
+"J. Harvey Haggard"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Luros"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 18419,
+"title": "Science Fiction Quarterly, (#2)",
+"date": "1943-00-00",
+"items": [
+{
+"title": "Into the Fourth Dimension",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "1",
+"authors": [
+"Ray Cummings"
+],
+"real": []
+},
+{
+"title": "Power Plant",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "77",
+"authors": [
+"Lee Gregor"
+],
+"real": [
+"Milton A. Rothman"
+]
+},
+{
+"title": "Ephony's Spectacles",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "85",
+"authors": [
+"Clarence Granoski"
+],
+"real": []
+},
+{
+"title": "Sir Mallory's Magnitude",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "94",
+"authors": [
+"S. D. Gottesman"
+],
+"real": [
+"C. M. Kornbluth"
+]
+},
+{
+"title": "Baby Dreams",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "113",
+"authors": [
+"Alan Warland"
+],
+"real": []
+},
+{
+"title": "Caridi Shall Not Die!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "121",
+"authors": [
+"Walter Kubilius"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Hannes Bok"
+],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 44294,
+"title": "Science Fiction Quarterly, (#1)",
+"date": "1943-00-00",
+"items": [
+{
+"title": "The Gentle Brain",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Arthur Allport"
+],
+"real": [
+"Raymond Z. Gallun"
+]
+},
+{
+"title": "Polar Doom",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"John Coleridge"
+],
+"real": [
+"Otto Binder",
+"Earl Binder"
+]
+},
+{
+"title": "Package of Power",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"David C. Cooke"
+],
+"real": []
+},
+{
+"title": "Space-Ship Derby",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Milton Kaletsky"
+],
+"real": []
+},
+{
+"title": "The Moon Conquerors (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "",
+"authors": [
+"R. H. Romans"
+],
+"real": []
+},
+{
+"title": "Life Inside a Wall",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Harl Vincent"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Jack Binder"
+],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 60401,
+"title": "Science Fiction Quarterly, Spring 1943",
+"date": "1943-03-00",
+"items": [
+{
+"title": "Wandl, the Invader (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "4",
+"authors": [
+"Ray Cummings"
+],
+"real": []
+},
+{
+"title": "The Door",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "108",
+"authors": [
+"Clifton B. Kruse"
+],
+"real": []
+},
+{
+"title": "Jake and the Fifth Columnist",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "118",
+"authors": [
+"Arthur G. Stangland"
+],
+"real": []
+},
+{
+"title": "Mission from Arcturus",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "130",
+"authors": [
+"Robert Abernathy"
+],
+"real": []
+},
+{
+"title": "Prime Base (Science Fiction Quarterly, Spring 1943)",
+"type": "ESSAY",
+"len": null,
+"page": "144",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Letter (Science Fiction Quarterly, Spring 1943)",
+"type": "ESSAY",
+"len": null,
+"page": "144",
+"authors": [
+"James Blish"
+],
+"real": []
+},
+{
+"title": "Letter (Science Fiction Quarterly, Spring 1943)",
+"type": "ESSAY",
+"len": null,
+"page": "145",
+"authors": [
+"Mallory Kent"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Letter (Science Fiction Quarterly, Spring 1943)",
+"type": "ESSAY",
+"len": null,
+"page": "145",
+"authors": [
+"Bob Tucker"
+],
+"real": [
+"Wilson Tucker"
+]
+}
+],
+"cover_artists": [
+"Milton Luros"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 60385,
+"title": "Science Fiction Quarterly, May 1951",
+"date": "1951-05-00",
+"items": [
+{
+"title": "No War Tomorrow",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "8",
+"authors": [
+"Wallace West"
+],
+"real": []
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, May 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "31",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Stopwatch on the World",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "32",
+"authors": [
+"Daniel R. Gilgannon"
+],
+"real": []
+},
+{
+"title": "Absolutely No Paradox",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "53",
+"authors": [
+"Lester del Rey"
+],
+"real": []
+},
+{
+"title": "The Deadly Thinkers",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "56",
+"authors": [
+"Wm. Gray Beyer"
+],
+"real": [
+"William Gray Beyer"
+]
+},
+{
+"title": "Righteous Plague",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "75",
+"authors": [
+"Robert Abernathy"
+],
+"real": []
+},
+{
+"title": "Science in Science Fiction: 1. The Biological Story",
+"type": "ESSAY",
+"len": null,
+"page": "89",
+"authors": [
+"James Blish"
+],
+"real": []
+},
+{
+"title": "Atomic Bonanza",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "92",
+"authors": [
+"George O. Smith"
+],
+"real": []
+},
+{
+"title": "Turn Backward O Time!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "102",
+"authors": [
+"Walter Kubilius"
+],
+"real": []
+},
+{
+"title": "A Matter of Frequency",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "111",
+"authors": [
+"William Tenn"
+],
+"real": []
+},
+{
+"title": "Star Bright",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "116",
+"authors": [
+"Bryce Walton"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Luros"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 60370,
+"title": "Science Fiction Quarterly, August 1951",
+"date": "1951-08-00",
+"items": [
+{
+"title": "The Sun Came Up Last Night!",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "8",
+"authors": [
+"Edwin James"
+],
+"real": [
+"James E. Gunn"
+]
+},
+{
+"title": "As I Was Saying ... (Science Fiction Quarterly, August 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "37",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Danger Moon",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "38",
+"authors": [
+"James MacCreigh"
+],
+"real": [
+"Frederik Pohl"
+]
+},
+{
+"title": "Seeds of Insecurity",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "72",
+"authors": [
+"Larry Shaw"
+],
+"real": [
+"Larry T. Shaw"
+]
+},
+{
+"title": "Science in Science Fiction: 2. The Mathematical Story",
+"type": "ESSAY",
+"len": null,
+"page": "83",
+"authors": [
+"James Blish"
+],
+"real": []
+},
+{
+"title": "Readin' 'N' Writhin' (Science Fiction Quarterly, August 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "86",
+"authors": [
+"George O. Smith"
+],
+"real": []
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, August 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "87",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "No More Pencils, No More Books",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "90",
+"authors": [
+"Joquel Kennedy"
+],
+"real": [
+"Joe Kennedy"
+]
+},
+{
+"title": "The Altruist",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "99",
+"authors": [
+"Morton Klass"
+],
+"real": []
+},
+{
+"title": "Second Dawn",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "104",
+"authors": [
+"Arthur C. Clarke"
+],
+"real": []
+},
+{
+"title": "The Reckoning (Science Fiction Quarterly, August 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "117",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+}
+],
+"cover_artists": [
+"Leo Morey"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 60392,
+"title": "Science Fiction Quarterly, November 1951",
+"date": "1951-11-00",
+"items": [
+{
+"title": "We Shall Come Back",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "8",
+"authors": [
+"C. H. Liddell"
+],
+"real": [
+"Henry Kuttner",
+"C. L. Moore"
+]
+},
+{
+"title": "The Black Alarm",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "28",
+"authors": [
+"George O. Smith"
+],
+"real": []
+},
+{
+"title": "The Belt",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "56",
+"authors": [
+"Wallace West"
+],
+"real": []
+},
+{
+"title": "As I Was Saying ... (Science Fiction Quarterly, November 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "67",
+"authors": [
+"The Editor"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Fugue",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "68",
+"authors": [
+"Stephen Marlowe"
+],
+"real": [
+"Milton Lesser"
+]
+},
+{
+"title": "The Wisdom of the Ancients",
+"type": "ESSAY",
+"len": null,
+"page": "84",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "The Way I Saw It (Movie Review)",
+"type": "ESSAY",
+"len": null,
+"page": "93",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Survival of the Fittest",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "94",
+"authors": [
+"Gene L. Henderson"
+],
+"real": []
+},
+{
+"title": "Science in Science Fiction: 3. The Astronomical Story",
+"type": "ESSAY",
+"len": null,
+"page": "111",
+"authors": [
+"James Blish"
+],
+"real": []
+},
+{
+"title": "Fool's Errand",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "114",
+"authors": [
+"Lester del Rey"
+],
+"real": []
+},
+{
+"title": "Reaching for the Moon",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "117",
+"authors": [
+"S. A. Lombino"
+],
+"real": [
+"Evan Hunter"
+]
+},
+{
+"title": "The Reckoning (Science Fiction Quarterly, November 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "119",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, November 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "120",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Milton Luros"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 648114,
+"title": "Science Fiction Quarterly, No. 1",
+"date": "1952-01-00",
+"items": [
+{
+"title": "No War Tomorrow",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "8",
+"authors": [
+"Wallace West"
+],
+"real": []
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, No. 1)",
+"type": "ESSAY",
+"len": null,
+"page": "31",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+},
+{
+"title": "Stopwatch on the World",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "32",
+"authors": [
+"Daniel R. Gilgannon"
+],
+"real": []
+},
+{
+"title": "Absolutely No Paradox",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "53",
+"authors": [
+"Lester del Rey"
+],
+"real": []
+},
+{
+"title": "The Deadly Thinkers",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "56",
+"authors": [
+"William Gray Beyer"
+],
+"real": []
+},
+{
+"title": "Righteous Plague",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "75",
+"authors": [
+"Robert Abernathy"
+],
+"real": []
+},
+{
+"title": "Science in Science Fiction: 1. The Biological Story",
+"type": "ESSAY",
+"len": null,
+"page": "89",
+"authors": [
+"James Blish"
+],
+"real": []
+},
+{
+"title": "Atomic Bonanza",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "92",
+"authors": [
+"George O. Smith"
+],
+"real": []
+},
+{
+"title": "Turn Backward O Time!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "102",
+"authors": [
+"Walter Kubilius"
+],
+"real": []
+},
+{
+"title": "A Matter of Frequency",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "111",
+"authors": [
+"William Tenn"
+],
+"real": []
+},
+{
+"title": "Star Bright",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "116",
+"authors": [
+"Bryce Walton"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Milton Luros"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 60378,
+"title": "Science Fiction Quarterly, February 1952",
+"date": "1952-02-00",
+"items": [
+{
+"title": "Three Worlds in Shadow",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "8",
+"authors": [
+"Joe Gibson"
+],
+"real": []
+},
+{
+"title": "Rogue Princess",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "60",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Communicado",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "88",
+"authors": [
+"Katherine MacLean"
+],
+"real": []
+},
+{
+"title": "Ordeal on Syrtis",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "97",
+"authors": [
+"Milton Lesser"
+],
+"real": []
+},
+{
+"title": "Intervention",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "105",
+"authors": [
+"Michael Sherman"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, February 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "119",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Reckoning (Science Fiction Quarterly, February 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "127",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "As I Was Saying ... (Science Fiction Quarterly, February 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "128",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+}
+],
+"cover_artists": [
+"Milton Luros"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 60386,
+"title": "Science Fiction Quarterly, May 1952",
+"date": "1952-05-00",
+"items": [
+{
+"title": "As I Was Saying ... (Science Fiction Quarterly, May 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "The Shining City",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "10",
+"authors": [
+"Rena M. Vale"
+],
+"real": []
+},
+{
+"title": "Science in Science Fiction: 4. The Psychological Story",
+"type": "ESSAY",
+"len": null,
+"page": "49",
+"authors": [
+"James Blish"
+],
+"real": []
+},
+{
+"title": "When in Doubt, Mutate!",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "54",
+"authors": [
+"E. Hoffmann Price"
+],
+"real": []
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Quarterly, May 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "77",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Extra-Secret Agent",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "78",
+"authors": [
+"H. B. Fyfe"
+],
+"real": []
+},
+{
+"title": "The Luckiest Man Alive!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "96",
+"authors": [
+"William Morrison"
+],
+"real": []
+},
+{
+"title": "We, the People",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "101",
+"authors": [
+"Ward Moore"
+],
+"real": []
+},
+{
+"title": "The Black Magic of Yesterday",
+"type": "ESSAY",
+"len": null,
+"page": "106",
+"authors": [
+"Eugene W. Nelson"
+],
+"real": []
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, May 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "113",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Reckoning (Science Fiction Quarterly, May 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "130",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Milton Luros"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 648455,
+"title": "Science Fiction Quarterly, No. 2",
+"date": "1952-05-00",
+"items": [
+{
+"title": "The Sun Came Up Last Night!",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "8",
+"authors": [
+"Edwin James"
+],
+"real": [
+"James E. Gunn"
+]
+},
+{
+"title": "As I Was Saying... (Science Fiction Quarterly, No. 2)",
+"type": "ESSAY",
+"len": null,
+"page": "37",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Danger Moon",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "38",
+"authors": [
+"James MacCreigh"
+],
+"real": [
+"Frederik Pohl"
+]
+},
+{
+"title": "Seeds of Insecurity",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "72",
+"authors": [
+"Larry Shaw"
+],
+"real": [
+"Larry T. Shaw"
+]
+},
+{
+"title": "Science in Science Fiction: 2. The Mathematical Story",
+"type": "ESSAY",
+"len": null,
+"page": "83",
+"authors": [
+"James Blish"
+],
+"real": []
+},
+{
+"title": "Readin' 'N' Writhin' (Science Fiction Quarterly, No. 2)",
+"type": "ESSAY",
+"len": null,
+"page": "86",
+"authors": [
+"George O. Smith"
+],
+"real": []
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, No. 2)",
+"type": "ESSAY",
+"len": null,
+"page": "87",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "No More Pencils, No More Books",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "90",
+"authors": [
+"Joquel Kennedy"
+],
+"real": [
+"Joe Kennedy"
+]
+},
+{
+"title": "The Altruist",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "99",
+"authors": [
+"Morton Klass"
+],
+"real": []
+},
+{
+"title": "Second Dawn",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "104",
+"authors": [
+"Arthur C. Clarke"
+],
+"real": []
+},
+{
+"title": "The Reckoning (Science Fiction Quarterly, No. 2)",
+"type": "ESSAY",
+"len": null,
+"page": "117",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+}
+],
+"cover_artists": [
+"Leo Morey"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 60371,
+"title": "Science Fiction Quarterly, August 1952",
+"date": "1952-08-00",
+"items": [
+{
+"title": "As I Was Saying ... (Science Fiction Quarterly, August 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, August 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "8",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "All the Answers",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "12",
+"authors": [
+"Rog Phillips"
+],
+"real": []
+},
+{
+"title": "The Seven Securities",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "40",
+"authors": [
+"Hamlin Daly"
+],
+"real": [
+"E. Hoffmann Price"
+]
+},
+{
+"title": "Wild Talents, Inc.",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "68",
+"authors": [
+"Milton Lesser"
+],
+"real": []
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Quarterly, August 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "78",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Goblin Planetoid",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "81",
+"authors": [
+"Vaseleos Garson"
+],
+"real": []
+},
+{
+"title": "Remembered Words (Science Fiction Quarterly, August 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "97",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Mountain of Light",
+"type": "ESSAY",
+"len": null,
+"page": "98",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Welcome",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "103",
+"authors": [
+"Alfred Coppel"
+],
+"real": []
+},
+{
+"title": "Alien Restoration",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "105",
+"authors": [
+"Charles Dye"
+],
+"real": []
+},
+{
+"title": "Silent Partner",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "113",
+"authors": [
+"S. A. Lombino"
+],
+"real": [
+"Evan Hunter"
+]
+},
+{
+"title": "The Reckoning (Science Fiction Quarterly, August 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "130",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Milton Luros"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 648501,
+"title": "Science Fiction Quarterly, No. 3",
+"date": "1952-10-00",
+"items": [
+{
+"title": "Three Worlds in Shadow",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "8",
+"authors": [
+"Joe Gibson"
+],
+"real": []
+},
+{
+"title": "Rogue Princess",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "60",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Ordeal on Syrtis",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "88",
+"authors": [
+"Milton Lesser"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Milton Luros"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 60393,
+"title": "Science Fiction Quarterly, November 1952",
+"date": "1952-11-00",
+"items": [
+{
+"title": "As I Was Saying ... (Science Fiction Quarterly, November 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, November 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "10",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Timeless Ones",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "12",
+"authors": [
+"Eric Frank Russell"
+],
+"real": []
+},
+{
+"title": "The Captive Audience",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "26",
+"authors": [
+"Larry Shaw"
+],
+"real": [
+"Larry T. Shaw"
+]
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Quarterly, November 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "56",
+"authors": [
+"Lester del Rey"
+],
+"real": []
+},
+{
+"title": "Defender of the Faith",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "59",
+"authors": [
+"Alfred Coppel"
+],
+"real": []
+},
+{
+"title": "The Prowler",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "68",
+"authors": [
+"William C. Bailey"
+],
+"real": [
+"John Berryman"
+]
+},
+{
+"title": "Did Science Fiction Predict Atomic Energy?",
+"type": "ESSAY",
+"len": null,
+"page": "81",
+"authors": [
+"Robert A. Madle",
+"Sam Moskowitz"
+],
+"real": []
+},
+{
+"title": "Scent of Danger",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "89",
+"authors": [
+"William Morrison",
+"Harry Nix"
+],
+"real": []
+},
+{
+"title": "Signpost in the Sky",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "101",
+"authors": [
+"W. Malcolm White"
+],
+"real": [
+"Donald A. Wollheim"
+]
+},
+{
+"title": "The Last Robot",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "106",
+"authors": [
+"Richard Terzian"
+],
+"real": []
+},
+{
+"title": "Horatio, the Creator",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "107",
+"authors": [
+"Francis L. Fugate"
+],
+"real": []
+},
+{
+"title": "Remembered Words (Science Fiction Quarterly, November 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "127",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Reckoning (Science Fiction Quarterly, November 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "128",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Milton Luros"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 60379,
+"title": "Science Fiction Quarterly, February 1953",
+"date": "1953-02-00",
+"items": [
+{
+"title": "As I Was Saying ... (Science Fiction Quarterly, February 1953)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, February 1953)",
+"type": "ESSAY",
+"len": null,
+"page": "8",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Green Thumb",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "12",
+"authors": [
+"Poul Anderson"
+],
+"real": []
+},
+{
+"title": "The Four Commandments",
+"type": "SHORTFICTION",
+"len": null,
+"page": "27",
+"authors": [
+"Robert Abernathy"
+],
+"real": []
+},
+{
+"title": "Dugal Was a Spaceman",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "30",
+"authors": [
+"Joe Gibson"
+],
+"real": []
+},
+{
+"title": "Escape Valve",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "59",
+"authors": [
+"Charles Dye"
+],
+"real": []
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Quarterly, February 1953)",
+"type": "ESSAY",
+"len": null,
+"page": "77",
+"authors": [
+"Damon Knight"
+],
+"real": []
+},
+{
+"title": "A Little Knowledge",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "83",
+"authors": [
+"Judith Merril"
+],
+"real": []
+},
+{
+"title": "The Great Charlatans",
+"type": "ESSAY",
+"len": null,
+"page": "95",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Remembered Words (Science Fiction Quarterly, February 1953)",
+"type": "ESSAY",
+"len": null,
+"page": "104",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Aristotle",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "105",
+"authors": [
+"John Christopher"
+],
+"real": []
+},
+{
+"title": "Shoo Fly",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "115",
+"authors": [
+"W. Malcolm White"
+],
+"real": [
+"Donald A. Wollheim"
+]
+},
+{
+"title": "The Reckoning (Science Fiction Quarterly, February 1953)",
+"type": "ESSAY",
+"len": null,
+"page": "130",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"A. Leslie Ross"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 60387,
+"title": "Science Fiction Quarterly, May 1953",
+"date": "1953-05-00",
+"items": [
+{
+"title": "As I Was Saying ... (Science Fiction Quarterly, May 1953)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, May 1953)",
+"type": "ESSAY",
+"len": null,
+"page": "10",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Intermission Time",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "12",
+"authors": [
+"Raymond F. Jones"
+],
+"real": []
+},
+{
+"title": "She Called Me Frankie",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "40",
+"authors": [
+"Robert K. Ottum"
+],
+"real": []
+},
+{
+"title": "The World She Wanted",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "43",
+"authors": [
+"Philip K. Dick"
+],
+"real": []
+},
+{
+"title": "Lifework",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "54",
+"authors": [
+"Robert Abernathy"
+],
+"real": []
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Quarterly, May 1953)",
+"type": "ESSAY",
+"len": null,
+"page": "69",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Edgar Allan Poe - Ancestor",
+"type": "ESSAY",
+"len": null,
+"page": "71",
+"authors": [
+"Robert A. Madle"
+],
+"real": []
+},
+{
+"title": "The Golden Mirage",
+"type": "ESSAY",
+"len": null,
+"page": "75",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "The Mud Puppy",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "82",
+"authors": [
+"William C. Bailey"
+],
+"real": [
+"John Berryman"
+]
+},
+{
+"title": "The Melting Pot (Science Fiction Quarterly, May 1953)",
+"type": "ESSAY",
+"len": null,
+"page": "96",
+"authors": [
+"Calvin Thomas Beck"
+],
+"real": []
+},
+{
+"title": "Time Goes to Now",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "99",
+"authors": [
+"Charles Dye"
+],
+"real": []
+},
+{
+"title": "The Visitors",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "109",
+"authors": [
+"C. H. Liddell"
+],
+"real": [
+"Henry Kuttner",
+"C. L. Moore"
+]
+},
+{
+"title": "Remembered Words (Science Fiction Quarterly, May 1953)",
+"type": "ESSAY",
+"len": null,
+"page": "126",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Reckoning (Science Fiction Quarterly, May 1953)",
+"type": "ESSAY",
+"len": null,
+"page": "130",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Milton Luros"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 60372,
+"title": "Science Fiction Quarterly, August 1953",
+"date": "1953-08-00",
+"items": [
+{
+"title": "As I Was Saying ... (Science Fiction Quarterly, August 1953)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Dreadful Therapy",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "10",
+"authors": [
+"Bryce Walton"
+],
+"real": []
+},
+{
+"title": "Common Time",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "34",
+"authors": [
+"James Blish"
+],
+"real": []
+},
+{
+"title": "Characteristics: Unusual",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "50",
+"authors": [
+"Randall Garrett"
+],
+"real": []
+},
+{
+"title": "Remembered Words (Science Fiction Quarterly, August 1953)",
+"type": "ESSAY",
+"len": null,
+"page": "71",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Quarterly, August 1953)",
+"type": "ESSAY",
+"len": null,
+"page": "72",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Advice from Tomorrow",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "75",
+"authors": [
+"Mack Reynolds"
+],
+"real": []
+},
+{
+"title": "The Evolution of Science Fiction",
+"type": "ESSAY",
+"len": null,
+"page": "85",
+"authors": [
+"Tom Clareson"
+],
+"real": [
+"Thomas D. Clareson"
+]
+},
+{
+"title": "Halt the Blue Star's Rising",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "99",
+"authors": [
+"Milton Lesser"
+],
+"real": []
+},
+{
+"title": "The Melting Pot (Science Fiction Quarterly, August 1953)",
+"type": "ESSAY",
+"len": null,
+"page": "109",
+"authors": [
+"Calvin Thomas Beck"
+],
+"real": []
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, August 1953)",
+"type": "ESSAY",
+"len": null,
+"page": "115",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Reckoning (Science Fiction Quarterly, August 1953)",
+"type": "ESSAY",
+"len": null,
+"page": "130",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"A. Leslie Ross"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 648502,
+"title": "Science Fiction Quarterly, No. 4",
+"date": "1953-08-00",
+"items": [
+{
+"title": "Horatio, the Creator",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "5",
+"authors": [
+"Francis L. Fugate"
+],
+"real": []
+},
+{
+"title": "The Timeless Ones",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "12",
+"authors": [
+"Eric Frank Russell"
+],
+"real": []
+},
+{
+"title": "The Captive Audience",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "26",
+"authors": [
+"Larry Shaw"
+],
+"real": [
+"Larry T. Shaw"
+]
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Quarterly, No. 4)",
+"type": "ESSAY",
+"len": null,
+"page": "57",
+"authors": [
+"Lester del Rey"
+],
+"real": []
+},
+{
+"title": "Defender of the Faith",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "59",
+"authors": [
+"Alfred Coppel"
+],
+"real": []
+},
+{
+"title": "The Prowler",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "68",
+"authors": [
+"William C. Bailey"
+],
+"real": [
+"John Berryman"
+]
+},
+{
+"title": "Did Science Fiction Predict Atomic Energy?",
+"type": "ESSAY",
+"len": null,
+"page": "81",
+"authors": [
+"Robert A. Madle",
+"Sam Moskowitz"
+],
+"real": []
+},
+{
+"title": "Signpost in the Sky",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "89",
+"authors": [
+"W. Malcolm White"
+],
+"real": [
+"Donald A. Wollheim"
+]
+},
+{
+"title": "The Last Robot",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "94",
+"authors": [
+"Richard Terzian"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Milton Luros"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 60394,
+"title": "Science Fiction Quarterly, November 1953",
+"date": "1953-11-00",
+"items": [
+{
+"title": "As I Was Saying ... (Science Fiction Quarterly, November 1953)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, November 1953)",
+"type": "ESSAY",
+"len": null,
+"page": "8",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Irrationals",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "10",
+"authors": [
+"Milton Lesser"
+],
+"real": []
+},
+{
+"title": "Mercury Bill and the Amorous Hunk",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "37",
+"authors": [
+"Charles A. Stearns"
+],
+"real": []
+},
+{
+"title": "The Way I Saw It ... (Science Fiction Quarterly, November 1953)",
+"type": "ESSAY",
+"len": null,
+"page": "45",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Architect of Chaos",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "46",
+"authors": [
+"John Danelaw"
+],
+"real": [
+"Victor Endersby"
+]
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Quarterly, November 1953)",
+"type": "ESSAY",
+"len": null,
+"page": "59",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Curtain in the Sky",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "64",
+"authors": [
+"Charles Dye"
+],
+"real": []
+},
+{
+"title": "The Melting Pot (Science Fiction Quarterly, November 1953)",
+"type": "ESSAY",
+"len": null,
+"page": "68",
+"authors": [
+"Calvin Thomas Beck"
+],
+"real": []
+},
+{
+"title": "The Myth-Makers",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "72",
+"authors": [
+"Bryce Walton"
+],
+"real": []
+},
+{
+"title": "The Reckoning (Science Fiction Quarterly, November 1953)",
+"type": "ESSAY",
+"len": null,
+"page": "98",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Jack Coggins"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 648599,
+"title": "Science Fiction Quarterly, No. 5",
+"date": "1953-12-00",
+"items": [
+{
+"title": "Silent Partner",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "5",
+"authors": [
+"S. A. Lombino"
+],
+"real": [
+"Evan Hunter"
+]
+},
+{
+"title": "Errors Make Perfection!",
+"type": "ESSAY",
+"len": null,
+"page": "10",
+"authors": [
+"A. T. Kedzie"
+],
+"real": []
+},
+{
+"title": "All the Answers",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "12",
+"authors": [
+"Rog Phillips"
+],
+"real": []
+},
+{
+"title": "The Seven Securities",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "40",
+"authors": [
+"Hamlin Daly"
+],
+"real": [
+"E. Hoffmann Price"
+]
+},
+{
+"title": "Wild Talents, Inc.",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "68",
+"authors": [
+"Milton Lesser"
+],
+"real": []
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Quarterly, No. 5)",
+"type": "ESSAY",
+"len": null,
+"page": "78",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Goblin Planetoid",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "81",
+"authors": [
+"Vaseleos Garson"
+],
+"real": []
+},
+{
+"title": "Remembered Words (Science Fiction Quarterly, No. 5)",
+"type": "ESSAY",
+"len": null,
+"page": "97",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Milton Luros"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 649053,
+"title": "Science Fiction Quarterly, No. 6",
+"date": "1954-00-00",
+"items": [
+{
+"title": "Time Goes to Now",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "5",
+"authors": [
+"Charles Dye"
+],
+"real": []
+},
+{
+"title": "Intermission Time",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "12",
+"authors": [
+"Raymond F. Jones"
+],
+"real": []
+},
+{
+"title": "She Called Me Frankie",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "40",
+"authors": [
+"Robert K. Ottum"
+],
+"real": []
+},
+{
+"title": "The World She Wanted",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "43",
+"authors": [
+"Philip K. Dick"
+],
+"real": []
+},
+{
+"title": "Lifework",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "54",
+"authors": [
+"Robert Abernathy"
+],
+"real": []
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Quarterly, No. 6)",
+"type": "ESSAY",
+"len": null,
+"page": "69",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "The Golden Mirage",
+"type": "ESSAY",
+"len": null,
+"page": "75",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "The Mud Puppy",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "82",
+"authors": [
+"William C. Bailey"
+],
+"real": [
+"John Berryman"
+]
+}
+],
+"cover_artists": [
+"Milton Luros"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 649079,
+"title": "Science Fiction Quarterly, No. 7",
+"date": "1954-00-00",
+"items": [
+{
+"title": "It Says Here (Science Fiction Quarterly, No. 7)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Children of Thon",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "8",
+"authors": [
+"Irving E. Cox, Jr."
+],
+"real": []
+},
+{
+"title": "A Transmissible Matter",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "34",
+"authors": [
+"Ray Earl Schmidt"
+],
+"real": []
+},
+{
+"title": "The Stars in Their Courses",
+"type": "ESSAY",
+"len": null,
+"page": "45",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "The Dry Spell",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "52",
+"authors": [
+"Charles E. Fritch"
+],
+"real": []
+},
+{
+"title": "Last Stand of a Space Grenadier",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "57",
+"authors": [
+"David Grinnell"
+],
+"real": [
+"Donald A. Wollheim"
+]
+},
+{
+"title": "The Monster or -- the Monster?",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "63",
+"authors": [
+"Eando Binder"
+],
+"real": [
+"Otto Binder"
+]
+},
+{
+"title": "Remembered Words (Science Fiction Quarterly, No. 7)",
+"type": "ESSAY",
+"len": null,
+"page": "65",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Last Hero",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "68",
+"authors": [
+"Bryce Walton"
+],
+"real": []
+},
+{
+"title": "Audience Reaction",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "74",
+"authors": [
+"Robert F. Young"
+],
+"real": []
+},
+{
+"title": "Communicado",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "88",
+"authors": [
+"Katherine MacLean"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Milton Luros"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 60380,
+"title": "Science Fiction Quarterly, February 1954",
+"date": "1954-02-00",
+"items": [
+{
+"title": "As I Was Saying ... (Science Fiction Quarterly, February 1954)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Children of Thon",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "8",
+"authors": [
+"Irving E. Cox, Jr."
+],
+"real": []
+},
+{
+"title": "A Transmissible Matter",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "34",
+"authors": [
+"Ray Earl Schmidt"
+],
+"real": []
+},
+{
+"title": "The Stars in Their Courses",
+"type": "ESSAY",
+"len": null,
+"page": "45",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "The Dry Spell",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "52",
+"authors": [
+"Charles E. Fritch"
+],
+"real": []
+},
+{
+"title": "Last Stand of a Space Grenadier",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "57",
+"authors": [
+"David Grinnell"
+],
+"real": [
+"Donald A. Wollheim"
+]
+},
+{
+"title": "The Monster or -- the Monster?",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "63",
+"authors": [
+"Eando Binder"
+],
+"real": [
+"Otto Binder"
+]
+},
+{
+"title": "Remembered Words (Science Fiction Quarterly, February 1954)",
+"type": "ESSAY",
+"len": null,
+"page": "65",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Quarterly, February 1954)",
+"type": "ESSAY",
+"len": null,
+"page": "66",
+"authors": [
+"Damon Knight"
+],
+"real": []
+},
+{
+"title": "The Last Hero",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "68",
+"authors": [
+"Bryce Walton"
+],
+"real": []
+},
+{
+"title": "Audience Reaction",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "74",
+"authors": [
+"Robert F. Young"
+],
+"real": []
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, February 1954)",
+"type": "ESSAY",
+"len": null,
+"page": "88",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Reckoning (Science Fiction Quarterly, February 1954)",
+"type": "ESSAY",
+"len": null,
+"page": "98",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Milton Luros"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 60388,
+"title": "Science Fiction Quarterly, May 1954",
+"date": "1954-05-00",
+"items": [
+{
+"title": "As I Was Saying ... (Science Fiction Quarterly, May 1954)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Guthrie Method",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "10",
+"authors": [
+"Raymond Z. Gallun"
+],
+"real": []
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Quarterly, May 1954)",
+"type": "ESSAY",
+"len": null,
+"page": "28",
+"authors": [
+"Damon Knight"
+],
+"real": []
+},
+{
+"title": "Small War",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "29",
+"authors": [
+"Jerome Bixby"
+],
+"real": []
+},
+{
+"title": "Mass for Mixed Voices",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "37",
+"authors": [
+"Charles Beaumont"
+],
+"real": []
+},
+{
+"title": "Inside Science Fiction (Science Fiction Quarterly, May 1954)",
+"type": "ESSAY",
+"len": null,
+"page": "45",
+"authors": [
+"Robert A. Madle"
+],
+"real": []
+},
+{
+"title": "The Day Doom Came",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "48",
+"authors": [
+"Frederick J. Gosche"
+],
+"real": []
+},
+{
+"title": "The Adaptable One",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "64",
+"authors": [
+"Morton Klass"
+],
+"real": []
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, May 1954)",
+"type": "ESSAY",
+"len": null,
+"page": "85",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Reckoning (Science Fiction Quarterly, May 1954)",
+"type": "ESSAY",
+"len": null,
+"page": "98",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Alex Schomburg"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 60373,
+"title": "Science Fiction Quarterly, August 1954",
+"date": "1954-08-00",
+"items": [
+{
+"title": "As I Was Saying ... (Science Fiction Quarterly, August 1954)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Polar Punch",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "8",
+"authors": [
+"Boyd Ellanby"
+],
+"real": [
+"Lyle G. Boyd",
+"William C. Boyd"
+]
+},
+{
+"title": "Earthfall",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "28",
+"authors": [
+"Barry Nelson"
+],
+"real": []
+},
+{
+"title": "The Lost Continents of Fiction",
+"type": "ESSAY",
+"len": null,
+"page": "34",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Five Scotch Story",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "46",
+"authors": [
+"Irving Cox, Jr."
+],
+"real": [
+"Irving E. Cox, Jr."
+]
+},
+{
+"title": "The Watchers",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "53",
+"authors": [
+"Raymond E. Banks"
+],
+"real": []
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Quarterly, August 1954)",
+"type": "ESSAY",
+"len": null,
+"page": "61",
+"authors": [
+"Damon Knight",
+"Robert W. Lowndes",
+"Robert A. Madle"
+],
+"real": [
+"Robert A. Madle",
+"Robert A. W. Lowndes",
+"Damon Knight"
+]
+},
+{
+"title": "T. D. P.",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "66",
+"authors": [
+"Paul Spencer"
+],
+"real": []
+},
+{
+"title": "The Seeker of Titan",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "68",
+"authors": [
+"Anthony K. Van Riper"
+],
+"real": []
+},
+{
+"title": "Trio",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "74",
+"authors": [
+"Winston K. Marks"
+],
+"real": []
+},
+{
+"title": "Rebellion Indicated",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "79",
+"authors": [
+"Gene L. Henderson"
+],
+"real": []
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, August 1954)",
+"type": "ESSAY",
+"len": null,
+"page": "84",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Reckoning (Science Fiction Quarterly, August 1954)",
+"type": "ESSAY",
+"len": null,
+"page": "98",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank Kelly Freas"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 60395,
+"title": "Science Fiction Quarterly, November 1954",
+"date": "1954-11-00",
+"items": [
+{
+"title": "As I Was Saying ... (Science Fiction Quarterly, November 1954)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Moon Dance",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "10",
+"authors": [
+"Wallace West"
+],
+"real": []
+},
+{
+"title": "Change of Color",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "31",
+"authors": [
+"D. A. Jourdan"
+],
+"real": []
+},
+{
+"title": "Voting Machine",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "44",
+"authors": [
+"Jim Harmon"
+],
+"real": []
+},
+{
+"title": "The Reckoning (Science Fiction Quarterly, November 1954)",
+"type": "ESSAY",
+"len": null,
+"page": "50",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Elder Profession",
+"type": "ESSAY",
+"len": null,
+"page": "51",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Desperate Remedy",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "62",
+"authors": [
+"Mack Reynolds"
+],
+"real": []
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, November 1954)",
+"type": "ESSAY",
+"len": null,
+"page": "90",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank Kelly Freas"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 649155,
+"title": "Science Fiction Quarterly, No. 9",
+"date": "1955-00-00",
+"items": [
+{
+"title": "The Green Thumb",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "|01",
+"authors": [
+"Poul Anderson"
+],
+"real": []
+},
+{
+"title": "The Four Commandments",
+"type": "SHORTFICTION",
+"len": null,
+"page": "|02",
+"authors": [
+"Robert Abernathy"
+],
+"real": []
+},
+{
+"title": "Dugal Was a Spaceman",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "|03",
+"authors": [
+"Joe Gibson"
+],
+"real": []
+},
+{
+"title": "Escape Valve",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "|04",
+"authors": [
+"Charles Dye"
+],
+"real": []
+},
+{
+"title": "A Little Knowledge",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "|05",
+"authors": [
+"Judith Merril"
+],
+"real": []
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Quarterly, No. 9)",
+"type": "ESSAY",
+"len": null,
+"page": "|06",
+"authors": [
+"Damon Knight"
+],
+"real": []
+},
+{
+"title": "The Great Charlatans",
+"type": "ESSAY",
+"len": null,
+"page": "|07",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Remembered Words (Science Fiction Quarterly, No. 9)",
+"type": "ESSAY",
+"len": null,
+"page": "|08",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"A. Leslie Ross"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 649980,
+"title": "Science Fiction Quarterly, No. 10",
+"date": "1955-00-00",
+"items": [
+{
+"title": "It Says Here (Science Fiction Quarterly, No. 10)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Guthrie Method",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "10",
+"authors": [
+"Raymond Z. Gallun"
+],
+"real": []
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Quarterly, No. 10)",
+"type": "ESSAY",
+"len": null,
+"page": "28",
+"authors": [
+"Damon Knight"
+],
+"real": []
+},
+{
+"title": "Small War",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "29",
+"authors": [
+"Jerome Bixby"
+],
+"real": []
+},
+{
+"title": "Mass for Mixed Voices",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "37",
+"authors": [
+"Charles Beaumont"
+],
+"real": []
+},
+{
+"title": "Inside Science Fiction (Science Fiction Quarterly, No. 10)",
+"type": "ESSAY",
+"len": null,
+"page": "45",
+"authors": [
+"Robert A. Madle"
+],
+"real": []
+},
+{
+"title": "The Day Doom Came",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "48",
+"authors": [
+"Frederick J. Gosche"
+],
+"real": []
+},
+{
+"title": "The Adaptable One",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "64",
+"authors": [
+"Morton Klass"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Alex Schomburg"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 60381,
+"title": "Science Fiction Quarterly, February 1955",
+"date": "1955-02-00",
+"items": [
+{
+"title": "No Time for Change",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "6",
+"authors": [
+"Charles V. De Vet"
+],
+"real": []
+},
+{
+"title": "The Fission of Mrs. Custer",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "40",
+"authors": [
+"Winston Marks"
+],
+"real": [
+"Winston K. Marks"
+]
+},
+{
+"title": "Inside Science Fiction (Science Fiction Quarterly, February 1955)",
+"type": "ESSAY",
+"len": null,
+"page": "48",
+"authors": [
+"Robert A. Madle"
+],
+"real": []
+},
+{
+"title": "Possession",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "51",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Perfection Is No Trifle",
+"type": "ESSAY",
+"len": null,
+"page": "59",
+"authors": [
+"Jay Tyler"
+],
+"real": []
+},
+{
+"title": "Giant in the Forest",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "63",
+"authors": [
+"Frank Belknap Long"
+],
+"real": []
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Quarterly, February 1955)",
+"type": "ESSAY",
+"len": null,
+"page": "75",
+"authors": [
+"Damon Knight"
+],
+"real": []
+},
+{
+"title": "The Adventurers",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "79",
+"authors": [
+"C. M. Kornbluth"
+],
+"real": []
+},
+{
+"title": "As I Was Saying ... (Science Fiction Quarterly, February 1955)",
+"type": "ESSAY",
+"len": null,
+"page": "83",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, February 1955)",
+"type": "ESSAY",
+"len": null,
+"page": "93",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank Kelly Freas"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 435843,
+"title": "Science Fiction Quarterly, No. 8",
+"date": "1955-02-00",
+"items": [
+{
+"title": "Your Number Is Up!",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6",
+"authors": [
+"John Jakes"
+],
+"real": []
+},
+{
+"title": "The Irrationals",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "10",
+"authors": [
+"Milton Lesser"
+],
+"real": []
+},
+{
+"title": "Mercury Bill and the Amorous Hunk",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "37",
+"authors": [
+"Charles A. Stearns"
+],
+"real": []
+},
+{
+"title": "The Way I Saw It... (Science Fiction Quarterly, No. 8)",
+"type": "ESSAY",
+"len": null,
+"page": "45",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Architect of Chaos",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "46",
+"authors": [
+"John Danelaw"
+],
+"real": [
+"Victor Endersby"
+]
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Quarterly, No. 8)",
+"type": "ESSAY",
+"len": null,
+"page": "59",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Curtain in the Sky",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "64",
+"authors": [
+"Charles Dye"
+],
+"real": []
+},
+{
+"title": "The Melting Pot (Science Fiction Quarterly, No. 8)",
+"type": "ESSAY",
+"len": null,
+"page": "68",
+"authors": [
+"Calvin Thomas Beck"
+],
+"real": []
+},
+{
+"title": "The Myth-Makers",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "73",
+"authors": [
+"Bryce Walton"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Jack Coggins"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 60389,
+"title": "Science Fiction Quarterly, May 1955",
+"date": "1955-05-00",
+"items": [
+{
+"title": "The Eye in the Window",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6",
+"authors": [
+"Sam Merwin, Jr."
+],
+"real": []
+},
+{
+"title": "The Sedulous Apes",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "37",
+"authors": [
+"Dennis Wiegand"
+],
+"real": []
+},
+{
+"title": "Editorial: Limitations of Science Fiction",
+"type": "ESSAY",
+"len": null,
+"page": "47",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "You Risk Your Life",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "49",
+"authors": [
+"Joseph Slotkin"
+],
+"real": []
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Quarterly, May 1955)",
+"type": "ESSAY",
+"len": null,
+"page": "57",
+"authors": [
+"Damon Knight"
+],
+"real": []
+},
+{
+"title": "Gladsome Planet",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "60",
+"authors": [
+"Russ Winterbotham"
+],
+"real": [
+"R. R. Winterbotham"
+]
+},
+{
+"title": "Inside Science Fiction (Science Fiction Quarterly, May 1955)",
+"type": "ESSAY",
+"len": null,
+"page": "65",
+"authors": [
+"Robert A. Madle"
+],
+"real": []
+},
+{
+"title": "The Guzzler",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "68",
+"authors": [
+"Robert Abernathy"
+],
+"real": []
+},
+{
+"title": "The Red and the Green",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "76",
+"authors": [
+"Joe L. Hensley"
+],
+"real": []
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, May 1955)",
+"type": "ESSAY",
+"len": null,
+"page": "83",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Ed Emsh"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 60374,
+"title": "Science Fiction Quarterly, August 1955",
+"date": "1955-08-00",
+"items": [
+{
+"title": "Beyond the Door",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6",
+"authors": [
+"Sam Merwin, Jr."
+],
+"real": []
+},
+{
+"title": "The Taint",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "30",
+"authors": [
+"John Jakes"
+],
+"real": []
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Quarterly, August 1955)",
+"type": "ESSAY",
+"len": null,
+"page": "36",
+"authors": [
+"L. Sprague de Camp",
+"Damon Knight",
+"Robert W. Lowndes"
+],
+"real": [
+"L. Sprague de Camp",
+"Damon Knight",
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Review of nongenre nonfiction _Animals, Myths, and Men_ (Richard Lewinsohn)",
+"type": "ESSAY",
+"len": null,
+"page": "37",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Perfect Discipline",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "43",
+"authors": [
+"Russ Winterbotham"
+],
+"real": [
+"R. R. Winterbotham"
+]
+},
+{
+"title": "It's in the Air",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "47",
+"authors": [
+"Winston Marks"
+],
+"real": [
+"Winston K. Marks"
+]
+},
+{
+"title": "Inside Science Fiction (Science Fiction Quarterly, August 1955)",
+"type": "ESSAY",
+"len": null,
+"page": "56",
+"authors": [
+"Robert A. Madle"
+],
+"real": []
+},
+{
+"title": "Better Than We Know",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "60",
+"authors": [
+"William F. Temple"
+],
+"real": []
+},
+{
+"title": "Editorial: Super Science vs. Pseudo-Science",
+"type": "ESSAY",
+"len": null,
+"page": "68",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Reunion",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "70",
+"authors": [
+"Carter Sprague, III"
+],
+"real": [
+"Sam Merwin, Jr."
+]
+},
+{
+"title": "Index to Volume Three, May 1954-Aug 1955",
+"type": "ESSAY",
+"len": null,
+"page": "78",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, August 1955)",
+"type": "ESSAY",
+"len": null,
+"page": "80",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Ed Emsh"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 60396,
+"title": "Science Fiction Quarterly, November 1955",
+"date": "1955-11-00",
+"items": [
+{
+"title": "Meddler's World",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6",
+"authors": [
+"Theodore Cogswell",
+"Mack Reynolds"
+],
+"real": [
+"Theodore R. Cogswell",
+"Mack Reynolds"
+]
+},
+{
+"title": "Fort Iron",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "34",
+"authors": [
+"Margaret St. Clair"
+],
+"real": []
+},
+{
+"title": "Editorial: \"Entertainment\"",
+"type": "ESSAY",
+"len": null,
+"page": "44",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "The Regenerators",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "46",
+"authors": [
+"Charles A. Stearns"
+],
+"real": []
+},
+{
+"title": "Inside Science Fiction (Science Fiction Quarterly, November 1955)",
+"type": "ESSAY",
+"len": null,
+"page": "66",
+"authors": [
+"Robert A. Madle"
+],
+"real": []
+},
+{
+"title": "Noogles Have to Explain",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "70",
+"authors": [
+"S. S. Boren"
+],
+"real": []
+},
+{
+"title": "Salvage",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "72",
+"authors": [
+"Lee Priestley"
+],
+"real": []
+},
+{
+"title": "Index to Volumes 1 and 2",
+"type": "ESSAY",
+"len": null,
+"page": "76",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, November 1955)",
+"type": "ESSAY",
+"len": null,
+"page": "79",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank Kelly Freas"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 60382,
+"title": "Science Fiction Quarterly, February 1956",
+"date": "1956-02-00",
+"items": [
+{
+"title": "Think No Evil",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6",
+"authors": [
+"Harry Warner, Jr."
+],
+"real": []
+},
+{
+"title": "Editorial: Wonderfulness",
+"type": "ESSAY",
+"len": null,
+"page": "25",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Why Should I Stop?",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "26",
+"authors": [
+"Algis Budrys"
+],
+"real": []
+},
+{
+"title": "So Help Me!",
+"type": "ESSAY",
+"len": null,
+"page": "40",
+"authors": [
+"Quien Sabe?"
+],
+"real": [
+"Harry Bates"
+]
+},
+{
+"title": "Cash Prize Contest (Who Is \"Quien Sabe?\")",
+"type": "ESSAY",
+"len": null,
+"page": "49",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Quarterly, February 1956)",
+"type": "ESSAY",
+"len": null,
+"page": "50",
+"authors": [
+"Damon Knight"
+],
+"real": []
+},
+{
+"title": "Parodies Tossed: A. E. van Vogt's \"Slan\"",
+"type": "POEM",
+"len": null,
+"page": "52",
+"authors": [
+"Randall Garrett"
+],
+"real": []
+},
+{
+"title": "Writers Conference Planned (Milford)",
+"type": "ESSAY",
+"len": null,
+"page": "54",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Honor",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "55",
+"authors": [
+"Richard Wilson"
+],
+"real": []
+},
+{
+"title": "Inside Science Fiction (Science Fiction Quarterly, February 1956)",
+"type": "ESSAY",
+"len": null,
+"page": "62",
+"authors": [
+"Robert A. Madle"
+],
+"real": []
+},
+{
+"title": "Elected",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "66",
+"authors": [
+"George Hudson Smith"
+],
+"real": [
+"George H. Smith"
+]
+},
+{
+"title": "Love Me Again",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "69",
+"authors": [
+"Carol Emshwiller"
+],
+"real": []
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, February 1956)",
+"type": "ESSAY",
+"len": null,
+"page": "77",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank Kelly Freas"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 60390,
+"title": "Science Fiction Quarterly, May 1956",
+"date": "1956-05-00",
+"items": [
+{
+"title": "No Future in This",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6",
+"authors": [
+"Robert Randall"
+],
+"real": [
+"Robert Silverberg",
+"Randall Garrett"
+]
+},
+{
+"title": "One of Them?",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "24",
+"authors": [
+"Robert Abernathy"
+],
+"real": []
+},
+{
+"title": "Editorial: Editor's Choice",
+"type": "ESSAY",
+"len": null,
+"page": "34",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "The Big Hush",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "36",
+"authors": [
+"Irving E. Cox, Jr."
+],
+"real": []
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Quarterly, May 1956)",
+"type": "ESSAY",
+"len": null,
+"page": "49",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "The Munk Hour",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "52",
+"authors": [
+"Basil Wells"
+],
+"real": []
+},
+{
+"title": "The Piece Thing",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "61",
+"authors": [
+"Carol Emshwiller"
+],
+"real": []
+},
+{
+"title": "Oh, You UFO or, the Case for the Frying Pan",
+"type": "POEM",
+"len": null,
+"page": "67",
+"authors": [
+"Richard Wilson"
+],
+"real": []
+},
+{
+"title": "Inside Science Fiction (Science Fiction Quarterly, May 1956)",
+"type": "ESSAY",
+"len": null,
+"page": "68",
+"authors": [
+"Robert A. Madle"
+],
+"real": []
+},
+{
+"title": "The Man Who Left Paradise",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "74",
+"authors": [
+"Russ Winterbotham"
+],
+"real": [
+"R. R. Winterbotham"
+]
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, May 1956)",
+"type": "ESSAY",
+"len": null,
+"page": "80",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Ed Emsh"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 60375,
+"title": "Science Fiction Quarterly, August 1956",
+"date": "1956-08-00",
+"items": [
+{
+"title": "The Time-Lockers",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6",
+"authors": [
+"Wallace West"
+],
+"real": []
+},
+{
+"title": "Editorial: Science Fiction Poetry?",
+"type": "ESSAY",
+"len": null,
+"page": "26",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Wyvernhold",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "27",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "The Golden Ones",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "37",
+"authors": [
+"Charles A. Stearns"
+],
+"real": []
+},
+{
+"title": "Back to Nature",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "48",
+"authors": [
+"Bryce Walton"
+],
+"real": []
+},
+{
+"title": "Science in Science Fiction: I Just can't See It",
+"type": "ESSAY",
+"len": null,
+"page": "56",
+"authors": [
+"Richard H. Macklin, Ph.D."
+],
+"real": []
+},
+{
+"title": "Case Rests",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "63",
+"authors": [
+"Mack Reynolds"
+],
+"real": []
+},
+{
+"title": "Prize Contest Results (Who Is \"Quien Sabe?\")",
+"type": "ESSAY",
+"len": null,
+"page": "68",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Parodies Tossed: Damon Knight's \"Hells Pavement\"",
+"type": "POEM",
+"len": null,
+"page": "69",
+"authors": [
+"Michael Sherman"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Quarterly, August 1956)",
+"type": "ESSAY",
+"len": null,
+"page": "73",
+"authors": [
+"Randall Garrett",
+"Damon Knight",
+"Robert A. W. Lowndes"
+],
+"real": []
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, August 1956)",
+"type": "ESSAY",
+"len": null,
+"page": "80",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Ed Emsh"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 60397,
+"title": "Science Fiction Quarterly, November 1956",
+"date": "1956-11-00",
+"items": [
+{
+"title": "The Last Question",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "Deus Ex Machina",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "16",
+"authors": [
+"Robert Randall"
+],
+"real": [
+"Robert Silverberg",
+"Randall Garrett"
+]
+},
+{
+"title": "Editorial: Hindsight",
+"type": "ESSAY",
+"len": null,
+"page": "34",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Calculated Decision",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "38",
+"authors": [
+"Algis Budrys"
+],
+"real": []
+},
+{
+"title": "Science in Science Fiction: The Two-Way Stretch",
+"type": "ESSAY",
+"len": null,
+"page": "50",
+"authors": [
+"Richard H. Macklin, Ph.D."
+],
+"real": []
+},
+{
+"title": "A Prideful Thing",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "58",
+"authors": [
+"M. C. Pease"
+],
+"real": []
+},
+{
+"title": "Dog Star",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "65",
+"authors": [
+"Mack Reynolds"
+],
+"real": []
+},
+{
+"title": "Inside Science Fiction (Science Fiction Quarterly, November 1956)",
+"type": "ESSAY",
+"len": null,
+"page": "66",
+"authors": [
+"Robert A. Madle"
+],
+"real": []
+},
+{
+"title": "The Little Giant",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "70",
+"authors": [
+"Jackson Barrow"
+],
+"real": []
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, November 1956)",
+"type": "ESSAY",
+"len": null,
+"page": "82",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "In Memoriam: Fletcher Pratt",
+"type": "ESSAY",
+"len": null,
+"page": "96",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+}
+],
+"cover_artists": [
+"Ed Emsh"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 60383,
+"title": "Science Fiction Quarterly, February 1957",
+"date": "1957-02-00",
+"items": [
+{
+"title": "Small Lords",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6",
+"authors": [
+"Frederik Pohl"
+],
+"real": []
+},
+{
+"title": "Children of Fortune",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "20",
+"authors": [
+"D. A. Jourdan"
+],
+"real": []
+},
+{
+"title": "Editorial Bewildered?",
+"type": "ESSAY",
+"len": null,
+"page": "39",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Inauguration",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "41",
+"authors": [
+"Margaret St. Clair"
+],
+"real": []
+},
+{
+"title": "Misadjustment",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "46",
+"authors": [
+"Philip K. Dick"
+],
+"real": []
+},
+{
+"title": "BEMA",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "59",
+"authors": [
+"Wallace West"
+],
+"real": []
+},
+{
+"title": "Science in Science Fiction: The Tie That Binds",
+"type": "ESSAY",
+"len": null,
+"page": "64",
+"authors": [
+"Richard H. Macklin, Ph.D."
+],
+"real": []
+},
+{
+"title": "Inside Science Fiction (Science Fiction Quarterly, February 1957)",
+"type": "ESSAY",
+"len": null,
+"page": "73",
+"authors": [
+"Robert A. Madle"
+],
+"real": []
+},
+{
+"title": "Time to Stop",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "78",
+"authors": [
+"Randall Garrett"
+],
+"real": []
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, February 1957)",
+"type": "ESSAY",
+"len": null,
+"page": "79",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 60391,
+"title": "Science Fiction Quarterly, May 1957",
+"date": "1957-05-00",
+"items": [
+{
+"title": "Quick Freeze",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6",
+"authors": [
+"Robert Silverberg"
+],
+"real": []
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Quarterly, May 1957)",
+"type": "ESSAY",
+"len": null,
+"page": "16",
+"authors": [
+"Jay Tyler"
+],
+"real": []
+},
+{
+"title": "Name Your Tiger",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "17",
+"authors": [
+"Milton Lesser"
+],
+"real": []
+},
+{
+"title": "Cardsharp",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "31",
+"authors": [
+"Donald Franson"
+],
+"real": []
+},
+{
+"title": "The Author's Ordeal",
+"type": "POEM",
+"len": null,
+"page": "34",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "Let's Have Fun",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "37",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "All Around a Pig's Tale",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "46",
+"authors": [
+"Winston K. Marks"
+],
+"real": []
+},
+{
+"title": "Inside Science Fiction (Science Fiction Quarterly, May 1957)",
+"type": "ESSAY",
+"len": null,
+"page": "56",
+"authors": [
+"Robert A. Madle"
+],
+"real": []
+},
+{
+"title": "Second Chance",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "61",
+"authors": [
+"Irving Cox, Jr."
+],
+"real": [
+"Irving E. Cox, Jr."
+]
+},
+{
+"title": "Editorial: How's That Again?",
+"type": "ESSAY",
+"len": null,
+"page": "70",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+},
+{
+"title": "The Stunning Science Fiction Caper",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "74",
+"authors": [
+"Gerald Macdow"
+],
+"real": [
+"Thomas N. Scortia"
+]
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, May 1957)",
+"type": "ESSAY",
+"len": null,
+"page": "77",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 60376,
+"title": "Science Fiction Quarterly, August 1957",
+"date": "1957-08-00",
+"items": [
+{
+"title": "Interference",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6",
+"authors": [
+"Don Berry"
+],
+"real": []
+},
+{
+"title": "Axioms for Everybody",
+"type": "ESSAY",
+"len": null,
+"page": "18",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "The Locus Focus",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "25",
+"authors": [
+"Richard Wilson"
+],
+"real": []
+},
+{
+"title": "Editorial: Many Mansions",
+"type": "ESSAY",
+"len": null,
+"page": "38",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+},
+{
+"title": "En Route to Earth",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "41",
+"authors": [
+"Calvin M. Knox"
+],
+"real": [
+"Robert Silverberg"
+]
+},
+{
+"title": "Consolation Prize",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "47",
+"authors": [
+"D. A. Jourdan"
+],
+"real": []
+},
+{
+"title": "The Attractive Nuisance",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "63",
+"authors": [
+"Theodore L. Thomas"
+],
+"real": []
+},
+{
+"title": "Two-Step for Six Legs",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "77",
+"authors": [
+"Carol Emshwiller"
+],
+"real": []
+},
+{
+"title": "Inside Science Fiction (Science Fiction Quarterly, August 1957)",
+"type": "ESSAY",
+"len": null,
+"page": "82",
+"authors": [
+"Robert A. Madle"
+],
+"real": []
+},
+{
+"title": "A Walk in the Snow",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "83",
+"authors": [
+"Thomas N. Scortia"
+],
+"real": []
+},
+{
+"title": "Science in Science Fiction: The Tie Breakers",
+"type": "ESSAY",
+"len": null,
+"page": "87",
+"authors": [
+"Richard H. Macklin, Ph.D."
+],
+"real": []
+},
+{
+"title": "A Matter of Privacy",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "92",
+"authors": [
+"Tom Purdom"
+],
+"real": []
+},
+{
+"title": "Cassandra",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "100",
+"authors": [
+"Scott Nichols"
+],
+"real": [
+"Thomas N. Scortia"
+]
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, August 1957)",
+"type": "ESSAY",
+"len": null,
+"page": "108",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 60398,
+"title": "Science Fiction Quarterly, November 1957",
+"date": "1957-11-00",
+"items": [
+{
+"title": "Escape to Earth",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6",
+"authors": [
+"Manly Banister"
+],
+"real": []
+},
+{
+"title": "The Conduit",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "34",
+"authors": [
+"Noel Loomis"
+],
+"real": []
+},
+{
+"title": "The Clock Paradox",
+"type": "ESSAY",
+"len": null,
+"page": "72",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "The Shadow Before",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "74",
+"authors": [
+"Paul Janvier"
+],
+"real": [
+"Algis Budrys"
+]
+},
+{
+"title": "A Matter of Taste",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "81",
+"authors": [
+"A. Bertram Chandler"
+],
+"real": []
+},
+{
+"title": "East Is East ...",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "87",
+"authors": [
+"Russ Winterbotham"
+],
+"real": [
+"R. R. Winterbotham"
+]
+},
+{
+"title": "Inside Science Fiction (Science Fiction Quarterly, November 1957)",
+"type": "ESSAY",
+"len": null,
+"page": "91",
+"authors": [
+"Robert A. Madle"
+],
+"real": []
+},
+{
+"title": "Do It Yourself",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "96",
+"authors": [
+"Milton Lesser"
+],
+"real": []
+},
+{
+"title": "Editorial: Story Ratings",
+"type": "ESSAY",
+"len": null,
+"page": "99",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, November 1957)",
+"type": "ESSAY",
+"len": null,
+"page": "104",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 60384,
+"title": "Science Fiction Quarterly, February 1958",
+"date": "1958-02-00",
+"items": [
+{
+"title": "Editorial: Key Question",
+"type": "ESSAY",
+"len": null,
+"page": "5",
+"authors": [
+"Robert A. W. Lowndes",
+"James E. Gunn"
+],
+"real": []
+},
+{
+"title": "We, the Marauders",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "8",
+"authors": [
+"Robert Silverberg"
+],
+"real": []
+},
+{
+"title": "Mating Call",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "71",
+"authors": [
+"Joseph Farrell"
+],
+"real": []
+},
+{
+"title": "The Low and the Mighty",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "76",
+"authors": [
+"Randall Garrett"
+],
+"real": []
+},
+{
+"title": "Looking Ahead",
+"type": "ESSAY",
+"len": null,
+"page": "84",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Kangaroo Court",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "86",
+"authors": [
+"Walter Maneikis"
+],
+"real": []
+},
+{
+"title": "Chip on the Shoulder",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "94",
+"authors": [
+"Charles L. Fontenay"
+],
+"real": []
+},
+{
+"title": "It Says Here (Science Fiction Quarterly, February 1958)",
+"type": "ESSAY",
+"len": null,
+"page": "108",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Reader's Preference Coupon",
+"type": "ESSAY",
+"len": null,
+"page": "116",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+}
+]
+}

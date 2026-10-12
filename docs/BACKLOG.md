@@ -29,11 +29,14 @@ the ISFDB (CC BY 4.0). Not covered: Dragon, Dungeon, comics (the ISFDB barely in
 - ✅ 10c RPG (BR), 2026-10-12: Dragão Brasil (+ Especiais), Dragon Slayer, Revista Tormenta, Lua dos Dragões, Só
   Aventuras. Revista Troll turned out to be Spanish (Club Auryn, 1986–1990): left out.
 ## Phase 11 — magazine descriptions and more sources (user request 2026-10-12)
-- 🧪 11a descriptions: 47 drafts in content/magazines, review page, About band — built 2026-10-12.
-- 11b pulp: classic SF & fantasy (Weird Tales, Astounding, Startling, Planet, Thrilling Wonder, Fantastic Adventures,
+- 🧪 11a descriptions: 69 drafts in content/magazines (47 + the 22 new pulps), review page, About band — waiting for review.
+- 🧪 11b pulp, built 2026-10-12 (22 magazines, 3,198 issues, ~35,000 ISFDB items): classic SF & fantasy (Weird Tales, Astounding, Startling, Planet, Thrilling Wonder, Fantastic Adventures,
   Famous Fantastic Mysteries, Unknown, IF, Science Wonder Stories, Science Fiction Stories, SF Quarterly), adventure &
   mystery (Adventure, Argosy, Blue Book, Popular, Ellery Queen, Thrilling Detective), British (New Worlds, Authentic SF,
   Science Fantasy, Interzone). ISFDB contents where it indexes them. Survey: tools/spike/out/survey11*.json.
+  Later: the IA holds *Adventure*, *Argosy* and *Blue Book* Reference Guides (`adventure-reference-guide`,
+  `argosy-reference-guide`, `the-blue-book-magazine-reference-guide`), probably in the same format as the Amazing
+  Stories guide — a full contents source for the magazines the ISFDB indexes only partly.
 - 11c comics: Golden Age (Fawcett / Captain Marvel, Captain Marvel Adventures, Ace Comics, Super Mystery, Web of
   Mystery, Four Favorites, Bulletman, Crime Must Pay) and horror magazines (Creepy, Eerie, Vampirella, Skywald,
   Famous Monsters of Filmland).

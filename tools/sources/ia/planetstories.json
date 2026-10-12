@@ -1,0 +1,1244 @@
+[
+{
+"identifier": "PlanetStories1940",
+"title": "Planet Stories",
+"date": "1940-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "PlanetStoriesV02N02194303",
+"title": "Planet Stories v02 n02 [1943-03]",
+"date": "1943-03-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "PlanetStoriesV02N121945Fa",
+"title": "Planet Stories v02 n12 [1945-Fall]",
+"date": "1945-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "PlanetStoriesV05N11195303",
+"title": "Planet Stories v05 n11 [1953-03]",
+"date": "1953-03-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "PlanetStoriesV06N03195311",
+"title": "Planet Stories v06 n03 [1953-11]",
+"date": "1953-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "PlanetStoriesV06N081954Fa",
+"title": "Planet Stories v06 n08 [1954-Fall]",
+"date": "1954-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "PlanetStoriesV06N091954Wi",
+"title": "Planet Stories v06 n09 [1954-Winter]",
+"date": "1954-12-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_003_UK_Edition_1950.Pembertons",
+"title": "Planet Stories 003 (UK Edition) (1950.Pembertons)",
+"date": "1950-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_011_New_Zealand_Edition_1953.Pembertons",
+"title": "Planet Stories 011 (New Zealand Edition) (1953.Pembertons)",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_British_Ed._03_1951-01",
+"title": "Planet Stories British Ed. #03 (1951 01)",
+"date": null,
+"imagecount": 68,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_British_Ed._05_1953-06",
+"title": "Planet Stories British Ed. #05 (1953 06)",
+"date": null,
+"imagecount": 70,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_British_Ed._05_1953-06_LennyS-EXciter",
+"title": "Planet Stories British Ed. #05 (1953 06) (LennyS EXciter)",
+"date": null,
+"imagecount": 71,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_British_Ed._06_1953-08",
+"title": "Planet Stories British Ed. #06 (1953 08)",
+"date": null,
+"imagecount": 70,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_British_Ed._06_1953-08_LennyS-EXciter",
+"title": "Planet Stories British Ed. #06 (1953 08) (LennyS EXciter)",
+"date": null,
+"imagecount": 71,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_Canadian_Ed._v03n12_1948-Fall",
+"title": "Planet Stories Canadian Ed. v03n12 (1948 Fall)",
+"date": "1948-01-01",
+"imagecount": 131,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_Canadian_Ed._v03n12_1948-Fall_Gorgon776",
+"title": "Planet Stories Canadian Ed. v03n12 (1948 Fall) (Gorgon776)",
+"date": "1948-01-01",
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_Canadian_Ed._v04n04_1949-Fall",
+"title": "Planet Stories Canadian Ed. v04n04 (1949 Fall)",
+"date": "1949-01-01",
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_Canadian_Ed._v04n04_1949-Fall_Gorgon776",
+"title": "Planet Stories Canadian Ed. v04n04 (1949 Fall) (Gorgon776)",
+"date": "1949-01-01",
+"imagecount": 118,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_New_Zealand_Ed._11_1952-09",
+"title": "Planet Stories New Zealand Ed. #11 (1952 09)",
+"date": null,
+"imagecount": 68,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v01n01_1939-11",
+"title": "Planet Stories v01n01 (1939 11)",
+"date": "1939-11-01",
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v01n01_1939-11.FictionHouseGorgon",
+"title": "Planet Stories v01n01 (1939-11.FictionHouse)(Gorgon)",
+"date": "1939-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v01n02_1940-Spring",
+"title": "Planet Stories v01n02 (1940 Spring)",
+"date": "1940-01-01",
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v01n02_1940-Spring_Microfilm",
+"title": "Planet Stories v01n02 (1940 Spring) (Microfilm)",
+"date": "1940-01-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v01n03_1940-Summer",
+"title": "Planet Stories v01n03 (1940 Summer)",
+"date": "1940-01-01",
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v01n03_1940-Summer_Microfilm",
+"title": "Planet Stories v01n03 (1940 Summer) (Microfilm)",
+"date": "1940-01-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v01n04_1940-Fall",
+"title": "Planet Stories v01n04 (1940 Fall)",
+"date": "1940-01-01",
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v01n04_1940-Fall_Microfilm",
+"title": "Planet Stories v01n04 (1940 Fall) (Microfilm)",
+"date": "1940-01-01",
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v01n05_1940-Winter",
+"title": "Planet Stories v01n05 (1940 Winter)",
+"date": "1940-01-01",
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v01n05_1940-Winter_from_microfilm_sas",
+"title": "Planet Stories v01n05 (1940 Winter) from microfilm (sas)",
+"date": "1940-01-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v01n06_1941-Spring_from_microfilm",
+"title": "Planet Stories v01n06 (1941 Spring) from microfilm",
+"date": "1941-01-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v01n07_1941-Summer_from_microfilm",
+"title": "Planet Stories v01n07 (1941 Summer) from microfilm",
+"date": "1941-01-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v01n08_1941-Fa_jvh-sas_-ibc",
+"title": "Planet Stories v01n08 1941 Fa jvh sas { ibc}",
+"date": "1941-01-01",
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v01n09_1941-Wi_sas",
+"title": "Planet Stories v01n09 [1941 Wi] (sas)",
+"date": "1941-01-01",
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v01n10_1942-Sp_sas",
+"title": "Planet Stories v01n10 [1942 Sp] (sas)",
+"date": "1942-01-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v01n11_1942-Su_sas",
+"title": "Planet Stories v01n11 [1942 Su] (sas)",
+"date": "1942-01-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v01n12_1942-Fa_sas",
+"title": "Planet Stories v01n12 [1942 Fa] (sas)",
+"date": "1942-01-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v02n01_1942-Winter",
+"title": "Planet Stories v02n01 (1942 Winter)",
+"date": "1942-01-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v02n01_1942-Winter_EXciter-dtsg0318",
+"title": "Planet Stories v02n01 (1942 Winter) (EXciter dtsg0318)",
+"date": "1942-01-01",
+"imagecount": 134,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v02n02_1943-03_sas",
+"title": "Planet Stories v02n02 [1943 03] (sas)",
+"date": "1943-03-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v02n03_1943-05_sas",
+"title": "Planet Stories v02n03 [1943 05] (sas)",
+"date": "1943-05-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v02n04_1943-Fall",
+"title": "Planet Stories v02n04 (1943 Fall)",
+"date": "1943-01-01",
+"imagecount": 134,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v02n04_1943-Fall_EXciter-dtsg0318-sas",
+"title": "Planet Stories v02n04 (1943 Fall) (EXciter dtsg0318 sas)",
+"date": "1943-01-01",
+"imagecount": 135,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v02n05_1943-Wi_sas",
+"title": "Planet Stories v02n05 [1943 Wi] (sas)",
+"date": "1943-01-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v02n06_1944-Sp_ppp-sas",
+"title": "Planet Stories v02n06 [1944 Sp] (ppp sas)",
+"date": "1944-01-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v02n06_1944-Spring",
+"title": "Planet Stories v02n06 (1944 Spring)",
+"date": "1944-01-01",
+"imagecount": 119,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v02n07_1944-Summer",
+"title": "Planet Stories v02n07 (1944 Summer)",
+"date": "1944-01-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v02n07_1944-Summer_EXciter-dtsg0318",
+"title": "Planet Stories v02n07 (1944 Summer) (EXciter dtsg0318)",
+"date": "1944-01-01",
+"imagecount": 134,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v02n08_1944-Fall",
+"title": "Planet Stories v02n08 (1944 Fall)",
+"date": "1944-01-01",
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v02n08_1944-Fall.Fiction_HouseAK",
+"title": "Planet Stories v02n08 (1944-Fall.Fiction House)(AK)",
+"date": "1944-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v02n08_1944-Fall_AK",
+"title": "Planet Stories v02n08 (1944 Fall) (AK)",
+"date": "1944-01-01",
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v02n09_1944-Wi_sas",
+"title": "Planet Stories v02n09 (1944 Wi) (sas)",
+"date": "1944-01-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v02n10_1945-Sp_sas",
+"title": "Planet Stories v02n10 [1945 Sp] (sas)",
+"date": "1945-01-01",
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v02n11_1945-Summer",
+"title": "Planet Stories v02n11 (1945 Summer)",
+"date": "1945-01-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v02n11_1945-Summer_EXciter-dtsg0318",
+"title": "Planet Stories v02n11 (1945 Summer) (EXciter dtsg0318)",
+"date": "1945-01-01",
+"imagecount": 134,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v02n12_1945-Fa_sas",
+"title": "Planet Stories v02n12 [1945 Fa] (sas)",
+"date": "1945-01-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v03n02_1946-Spring",
+"title": "Planet Stories v03n02 (1946 Spring)",
+"date": "1946-01-01",
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v03n02_1946-Spring_oak",
+"title": "Planet Stories v03n02 (1946 Spring) (oak)",
+"date": "1946-01-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v03n02_1946-Spring_v1.0_fixed",
+"title": "Planet Stories v03n02 (1946-Spring) (v1.0) (fixed)",
+"date": "1946-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v03n03_1946-Su_sas",
+"title": "Planet Stories v03n03 [1946 Su] (sas)",
+"date": "1946-03-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v03n04_1946-Fall",
+"title": "Planet Stories v03n04 (1946 Fall)",
+"date": "1946-06-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v03n04_1946-Fall_EXciter-dtsg0318",
+"title": "Planet Stories v03n04 (1946 Fall) (EXciter dtsg0318)",
+"date": "1946-06-01",
+"imagecount": 134,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v03n05_1946-Winter",
+"title": "Planet Stories v03n05 (1946 Winter)",
+"date": "1946-09-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v03n05_1946-Winter_EXciter-dtsg0318",
+"title": "Planet Stories v03n05 1946 Winter {EXciter dtsg0318}",
+"date": "1946-09-01",
+"imagecount": 134,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v03n06_1947-Spring",
+"title": "Planet Stories v03n06 (1947 Spring)",
+"date": "1947-01-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v03n06_1947-Spring_Wolfhound",
+"title": "Planet Stories v03n06 (1947 Spring) (Wolfhound)",
+"date": "1947-01-01",
+"imagecount": 134,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v03n07_1947-Summer",
+"title": "Planet Stories v03n07 (1947 Summer)",
+"date": "1947-01-01",
+"imagecount": 134,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v03n07_1947-Summer_Gorgon776",
+"title": "Planet Stories v03n07 (1947 Summer) (Gorgon776)",
+"date": "1947-01-01",
+"imagecount": 135,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v03n08_1947-Fall",
+"title": "Planet Stories v03n08 (1947 Fall)",
+"date": "1947-01-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v03n08_1947-Fall_EXciter-dtsg0318-sas",
+"title": "Planet Stories v03n08 1947 Fall {EXciter dtsg0318 sas}",
+"date": "1947-01-01",
+"imagecount": 134,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v03n09_1947-Wi_sas",
+"title": "Planet Stories v03n09 (1947 Wi) (sas)",
+"date": "1947-01-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v03n10_1948-Spring",
+"title": "Planet Stories v03n10 (1948 Spring)",
+"date": "1948-01-01",
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v03n11_1948-Summer",
+"title": "Planet Stories v03n11 (1948 Summer)",
+"date": "1948-01-01",
+"imagecount": 130,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v03n11_1948-Summer_Missing_ibcbc",
+"title": "Planet Stories v03n11 (1948 Summer) (Missing ibc,bc)",
+"date": "1948-01-01",
+"imagecount": 131,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v04_09_FictionHouse_Nov_1950_oak",
+"title": "Planet Stories v04 09 FictionHouse (Nov 1950) oak",
+"date": "1950-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v04_10_FictionHouse_Jan_1951",
+"title": "Planet Stories v04 10 FictionHouse (Jan 1951)",
+"date": null,
+"imagecount": 0,
+"jp2": false,
+"ocr": false,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v04n01_1948-Winter",
+"title": "Planet Stories v04n01 (1948 Winter)",
+"date": "1948-01-01",
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v04n02_1949-Spring",
+"title": "Planet Stories v04n02 (1949 Spring)",
+"date": "1949-01-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v04n02_1949-Spring_EXciter-dtsg0318-sas",
+"title": "Planet Stories v04n02 (1949 Spring) (EXciter dtsg0318 sas)",
+"date": "1949-01-01",
+"imagecount": 134,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v04n03_1949-Summer",
+"title": "Planet Stories v04n03 (1949 Summer)",
+"date": "1949-01-01",
+"imagecount": 113,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v04n03_1949-Summer_Missing_ifcibcbc_cape1736_edit",
+"title": "Planet Stories v04n03 (1949 Summer) (Missing ifc,ibc,bc) (cape1736 edit)",
+"date": "1949-01-01",
+"imagecount": 114,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v04n04_1949-Fa_sas",
+"title": "Planet Stories v04n04 [1949 Fa] (sas)",
+"date": "1949-01-01",
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v04n05_1949-Winter",
+"title": "Planet Stories v04n05 (1949 Winter)",
+"date": "1949-01-01",
+"imagecount": 116,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v04n05_1949-Winter_ATLPM",
+"title": "Planet Stories v04n05 (1949 Winter) (ATLPM)",
+"date": "1949-01-01",
+"imagecount": 116,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v04n06_1950-Spring",
+"title": "Planet Stories v04n06 (1950 Spring)",
+"date": "1950-01-01",
+"imagecount": 115,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v04n06_1950-Spring_Missing_ifc_cape1736_edit",
+"title": "Planet Stories v04n06 (1950 Spring) (Missing ifc) (cape1736 edit)",
+"date": "1950-01-01",
+"imagecount": 116,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v04n07_1950-Summer",
+"title": "Planet Stories v04n07 (1950 Summer)",
+"date": "1950-01-01",
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v04n07_1950-Summer_Gorgon776.",
+"title": "Planet Stories v04n07 (1950 Summer) (Gorgon776).",
+"date": "1950-01-01",
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v04n08_1950-Fall",
+"title": "Planet Stories v04n08 (1950 Fall)",
+"date": "1950-01-01",
+"imagecount": 115,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v04n08_1950-Fall_oak",
+"title": "Planet Stories v04n08 (1950 Fall) (oak)",
+"date": "1950-01-01",
+"imagecount": 116,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v04n09_1950-11",
+"title": "Planet Stories v04n09 (1950 11)",
+"date": "1950-11-01",
+"imagecount": 116,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v04n09_1950-11_oak",
+"title": "Planet Stories v04n09 (1950 11) (oak)",
+"date": "1950-11-01",
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v04n10_1951-01",
+"title": "Planet Stories v04n10 (1951 01)",
+"date": "1951-01-01",
+"imagecount": 116,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v04n10_1951-01.Fiction_HouseOak",
+"title": "Planet Stories v04n10 (1951-01.Fiction House)(Oak)",
+"date": "1951-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v04n10_1951-01_colour",
+"title": "Planet Stories v04n10 (1951 01) (colour)",
+"date": "1951-01-01",
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v04n11_1951-03",
+"title": "Planet Stories v04n11 (1951 03)",
+"date": "1951-03-01",
+"imagecount": 116,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v04n11_1951-03_Missing_ifc_AK",
+"title": "Planet Stories v04n11 (1951 03) (Missing ifc) (AK)",
+"date": "1951-03-01",
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v04n12_1951-05",
+"title": "Planet Stories v04n12 (1951 05)",
+"date": "1951-05-01",
+"imagecount": 113,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v04n12_1951-05.Fiction_HousecoverlessAKv1.0",
+"title": "Planet Stories v04n12 (1951-05.Fiction House)(coverless)(AKv1.0)",
+"date": "1951-05-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v04n12_1951-05_AK",
+"title": "Planet Stories v04n12 (1951 05) (AK)",
+"date": "1951-05-01",
+"imagecount": 114,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v05n01_1951-07",
+"title": "Planet Stories v05n01 (1951 07)",
+"date": "1951-07-01",
+"imagecount": 116,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v05n01_1951-07.Fiction_HouseOak",
+"title": "Planet Stories v05n01 (1951-07.Fiction House)(Oak)",
+"date": "1951-07-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v05n01_1951-07_oak",
+"title": "Planet Stories v05n01 (1951 07) (oak)",
+"date": "1951-07-01",
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v05n02_1951-09",
+"title": "Planet Stories v05n02 (1951 09)",
+"date": "1951-09-01",
+"imagecount": 116,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v05n03_1951-11",
+"title": "Planet Stories v05n03 (1951 11)",
+"date": "1951-11-01",
+"imagecount": 116,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v05n03_1951-11_jesse-sas",
+"title": "Planet Stories v05n03 (1951 11) (jesse sas)",
+"date": "1951-11-01",
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v05n04_1952-01",
+"title": "Planet Stories v05n04 (1952 01)",
+"date": null,
+"imagecount": 116,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v05n05_1952-03",
+"title": "Planet Stories v05n05 (1952 03)",
+"date": "1952-03-01",
+"imagecount": 101,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v05n05_1952-03_EXciter-dtsg0318_FIXED",
+"title": "Planet Stories v05n05 1952 03 {EXciter dtsg0318} FIXED",
+"date": "1952-03-01",
+"imagecount": 102,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v05n06_1952-05",
+"title": "Planet Stories v05n06 (1952 05)",
+"date": "1952-05-01",
+"imagecount": 116,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v05n07_1952-07",
+"title": "Planet Stories v05n07 (1952 07)",
+"date": "1952-07-01",
+"imagecount": 116,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v05n07_1952-07_ATLPM",
+"title": "Planet Stories v05n07 (1952 07) (ATLPM)",
+"date": "1952-07-01",
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v05n08_1952-09",
+"title": "Planet Stories v05n08 (1952 09)",
+"date": "1952-09-01",
+"imagecount": 116,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v05n09_1952-11",
+"title": "Planet Stories v05n09 (1952 11)",
+"date": "1952-11-01",
+"imagecount": 116,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v05n09_1952-11.FictionHouseGorgon",
+"title": "Planet Stories v05n09 (1952-11.FictionHouse)(Gorgon)",
+"date": "1952-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v05n09_1952-11_colour",
+"title": "Planet Stories v05n09 (1952 11) (colour)",
+"date": "1952-11-01",
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v05n10_1953-01",
+"title": "Planet Stories v05n10 (1953 01)",
+"date": null,
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v05n10_1953-01_EXciter-dtsg0318",
+"title": "Planet Stories v05n10 1953 01 {EXciter dtsg0318}",
+"date": null,
+"imagecount": 118,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v05n12_1953-05_sas",
+"title": "Planet Stories v05n12 [1953 05] (sas)",
+"date": null,
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v06n01_1953-07",
+"title": "Planet Stories v06n01 (1953 07)",
+"date": null,
+"imagecount": 113,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v06n02_1953-09",
+"title": "Planet Stories v06n02 (1953 09)",
+"date": null,
+"imagecount": 118,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v06n04_1954-01",
+"title": "Planet Stories v06n04 (1954 01)",
+"date": "1954-01-01",
+"imagecount": 116,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v06n05_1954-03",
+"title": "Planet Stories v06n05 (1954 03)",
+"date": "1954-03-01",
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v06n05_1954-03_EXciter-dtsg0318",
+"title": "Planet Stories v06n05 1954 03 {EXciter dtsg0318}",
+"date": "1954-03-01",
+"imagecount": 118,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v06n06_1954-05",
+"title": "Planet Stories v06n06 (1954 05)",
+"date": "1954-05-01",
+"imagecount": 116,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v06n07_1954-Summer",
+"title": "Planet Stories v06n07 (1954 Summer)",
+"date": "1954-01-01",
+"imagecount": 100,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v06n07_1954-Summer_ATLPM",
+"title": "Planet Stories v06n07 (1954 Summer) (ATLPM)",
+"date": "1954-01-01",
+"imagecount": 101,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v06n08_1954-Fall",
+"title": "Planet Stories v06n08 (1954 Fall)",
+"date": "1954-01-01",
+"imagecount": 99,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v06n08_1954-Fall_sas",
+"title": "Planet Stories v06n08 (1954 Fall) (sas)",
+"date": "1954-01-01",
+"imagecount": 100,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v06n09_1954-Wi_jvh-sas",
+"title": "Planet Stories v06n09 [1954 Wi] (jvh sas)",
+"date": "1954-01-01",
+"imagecount": 101,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v06n10_1955-Spring",
+"title": "Planet Stories v06n10 (1955 Spring)",
+"date": "1955-01-01",
+"imagecount": 100,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v06n11_1955-Summer",
+"title": "Planet Stories v06n11 (1955 Summer)",
+"date": "1955-01-01",
+"imagecount": 100,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Planet_Stories_v06n11_1955-Summer_cape1736_re-edit",
+"title": "Planet Stories v06n11 (1955 Summer) (cape1736 re edit)",
+"date": "1955-01-01",
+"imagecount": 101,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "planet-stories-v-01-n-04-1940-fall",
+"title": "Planet Stories v01 n04 [1940-Fall]",
+"date": "1940-09-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "planet-stories-v-01-n-05-1940-winter",
+"title": "Planet Stories v01 n05 [1940-Winter]",
+"date": "1940-11-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "planet-stories-v-01-n-06-1941-spring",
+"title": "Planet Stories v01 n06 [1941-Spring]",
+"date": "1941-03-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "planet-stories-v-01-n-07-1941-summer",
+"title": "Planet Stories v01 n07 [1941-Summer]",
+"date": "1941-06-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "planet-stories-v-04-n-03-1949-su",
+"title": "Planet Stories v04 n03 [1949-Summer]",
+"date": "1949-06-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "ps_1954_01",
+"title": "Planet Stories, Jan 1954",
+"date": "1954-01-01",
+"imagecount": 116,
+"jp2": true,
+"ocr": true,
+"restricted": false
+}
+]

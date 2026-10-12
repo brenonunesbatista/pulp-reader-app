@@ -1,0 +1,12001 @@
+{
+"source": "ISFDB, The Internet Speculative Fiction Database (https://www.isfdb.org), CC BY 4.0",
+"dump": "backup-MySQL-55-2026-10-10.zip",
+"pattern": "^Famous Fantastic Mysteries( Combined with Fantastic Novels Magazine)?, ",
+"issues": [
+{
+"id": 58063,
+"title": "Famous Fantastic Mysteries, September-October 1939",
+"date": "1939-09-00",
+"items": [
+{
+"title": "The Moon Pool",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"A. Merritt"
+],
+"real": []
+},
+{
+"title": "Space Station No. 1",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "27",
+"authors": [
+"Manly Wade Wellman"
+],
+"real": []
+},
+{
+"title": "The Whimpus",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "37",
+"authors": [
+"Tod Robbins"
+],
+"real": []
+},
+{
+"title": "Karpen the Jew",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "63",
+"authors": [
+"Robert Neal Leath"
+],
+"real": []
+},
+{
+"title": "The Girl in the Golden Atom",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "75",
+"authors": [
+"Ray Cummings"
+],
+"real": []
+},
+{
+"title": "The Witch-Makers",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "100",
+"authors": [
+"Donald Wandrei"
+],
+"real": []
+},
+{
+"title": "Blind Man's Buff",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "118",
+"authors": [
+"J. U. Giesy"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58048,
+"title": "Famous Fantastic Mysteries, November 1939",
+"date": "1939-11-00",
+"items": [
+{
+"title": "The Conquest of the Moon Pool (Part 1 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"A. Merritt"
+],
+"real": []
+},
+{
+"title": "Golden Atlantis",
+"type": "POEM",
+"len": null,
+"page": "31",
+"authors": [
+"Richard Butler Glaenzer"
+],
+"real": []
+},
+{
+"title": "The World in the Balance",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "32",
+"authors": [
+"J. P. Marshall"
+],
+"real": []
+},
+{
+"title": "The Editors' Page (Famous Fantastic Mysteries, November 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "39",
+"authors": [
+"The Editors"
+],
+"real": []
+},
+{
+"title": "The Moon Metal",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "40",
+"authors": [
+"Garrett P. Serviss"
+],
+"real": []
+},
+{
+"title": "The Man with the Glass Heart",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "75",
+"authors": [
+"George Allan England"
+],
+"real": []
+},
+{
+"title": "Almost Immortal",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "82",
+"authors": [
+"Austin Hall"
+],
+"real": []
+},
+{
+"title": "Fruit of the Forbidden Tree",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "109",
+"authors": [
+"Leslie Burton Blades"
+],
+"real": []
+},
+{
+"title": "The Radiant Enemies",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "118",
+"authors": [
+"R. F. Starzl"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, November 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "125",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, November 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "125|125.1",
+"authors": [
+"L. Robert Tschirky"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, November 1939): Not to Kill Time",
+"type": "ESSAY",
+"len": null,
+"page": "125|125.2",
+"authors": [
+"George E. Stewart"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, November 1939): Suggestions for Future Series",
+"type": "ESSAY",
+"len": null,
+"page": "125|125.3",
+"authors": [
+"William Evans"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, November 1939): Print One Complete Novel",
+"type": "ESSAY",
+"len": null,
+"page": "126|126.1",
+"authors": [
+"Lucille Gales"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, November 1939): Wants Farley's Radio Series",
+"type": "ESSAY",
+"len": null,
+"page": "126|126.2",
+"authors": [
+"Herbert S. Schofield"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, November 1939): Something I Hoped For",
+"type": "ESSAY",
+"len": null,
+"page": "126|126.3",
+"authors": [
+"Lester Anderson"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, November 1939): Knows His \"Fantastics\"",
+"type": "ESSAY",
+"len": null,
+"page": "126|126.4",
+"authors": [
+"L. A. E."
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, November 1939): Wants Cover Illustrated",
+"type": "ESSAY",
+"len": null,
+"page": "127|127.1",
+"authors": [
+"Harold F. Benson"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, November 1939): \"Golden Atom\" Best",
+"type": "ESSAY",
+"len": null,
+"page": "127|127.2",
+"authors": [
+"Lou Miller"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, November 1939): All Right Mr. Frank, Smooth Edges",
+"type": "ESSAY",
+"len": null,
+"page": "127|127.3",
+"authors": [
+"Richard Frank"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, November 1939): Wants Very Old Classics",
+"type": "ESSAY",
+"len": null,
+"page": "128|128.1",
+"authors": [
+"Paul H. Spencer"
+],
+"real": [
+"Paul Spencer"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, November 1939): Shows a Nice Balance",
+"type": "ESSAY",
+"len": null,
+"page": "128|128.2",
+"authors": [
+"A. H. L."
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, November 1939): More of the Same",
+"type": "ESSAY",
+"len": null,
+"page": "128|128.3",
+"authors": [
+"Frank Brooks"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58006,
+"title": "Famous Fantastic Mysteries, December 1939",
+"date": "1939-12-00",
+"items": [
+{
+"title": "The Radio Man (Part 1 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"Ralph Milne Farley"
+],
+"real": []
+},
+{
+"title": "The Diminishing Draft",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "28",
+"authors": [
+"Waldemar Kaempffert"
+],
+"real": []
+},
+{
+"title": "The Lord of Death",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "42",
+"authors": [
+"Homer Eon Flint"
+],
+"real": []
+},
+{
+"title": "The Spirit-Boats",
+"type": "POEM",
+"len": null,
+"page": "77",
+"authors": [
+"Minna Irving"
+],
+"real": []
+},
+{
+"title": "Lights",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "78",
+"authors": [
+"Philip Fisher"
+],
+"real": [
+"Philip M. Fisher"
+]
+},
+{
+"title": "The Conquest of the Moon Pool (Part 2 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "84",
+"authors": [
+"A. Merritt"
+],
+"real": []
+},
+{
+"title": "Who Is Charles Avison?",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "110",
+"authors": [
+"Edison Tesla Marshall"
+],
+"real": [
+"Edison Marshall"
+]
+},
+{
+"title": "The Gravity Experiment",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "118",
+"authors": [
+"J. U. Giesy"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58027,
+"title": "Famous Fantastic Mysteries, January 1940",
+"date": "1940-01-00",
+"items": [
+{
+"title": "On the Brink of 2000",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6",
+"authors": [
+"Garret Smith"
+],
+"real": []
+},
+{
+"title": "Behind the Curtain",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "37",
+"authors": [
+"Francis Stevens"
+],
+"real": []
+},
+{
+"title": "The Radio Man (Part 2 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "48",
+"authors": [
+"Ralph Milne Farley"
+],
+"real": []
+},
+{
+"title": "A Real Sunken City",
+"type": "ESSAY",
+"len": null,
+"page": "64",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Red Germ of Courage",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "65",
+"authors": [
+"R. F. Starzl"
+],
+"real": []
+},
+{
+"title": "Weird Travel Tales: I. A Chat with the Skipper Concerning Clairvoyance",
+"type": "SHORTFICTION",
+"len": null,
+"page": "78",
+"authors": [
+"Bob Davis"
+],
+"real": []
+},
+{
+"title": "An Astral Gentleman",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "80",
+"authors": [
+"Robert Wilbur Lull",
+"Lillian M. Ainsworth"
+],
+"real": []
+},
+{
+"title": "The Conquest of the Moon Pool (Part 3 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "88",
+"authors": [
+"A. Merritt"
+],
+"real": []
+},
+{
+"title": "The \"V\" Force",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "120",
+"authors": [
+"Fred C. Smale"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, January 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "127",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, January 1940): Thanx a Million!",
+"type": "ESSAY",
+"len": null,
+"page": "127|127.1",
+"authors": [
+"David Glazer"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, January 1940): Answering \"L. A. E.\"",
+"type": "ESSAY",
+"len": null,
+"page": "127|127.2",
+"authors": [
+"Lovina S. Robson"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, January 1940): Constructive Criticism",
+"type": "ESSAY",
+"len": null,
+"page": "127|127.3",
+"authors": [
+"Sam Yampolsky"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, January 1940): Likes Cover",
+"type": "ESSAY",
+"len": null,
+"page": "127|127.4",
+"authors": [
+"Charles W. Jarvis"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, January 1940): \"Darkness and Dawn\" Demanded",
+"type": "ESSAY",
+"len": null,
+"page": "127|127.5",
+"authors": [
+"Francis T. Moroff"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, January 1940): A Real Friend",
+"type": "ESSAY",
+"len": null,
+"page": "128|128.1",
+"authors": [
+"Chas. L. Marks"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, January 1940): Second Issue Better",
+"type": "ESSAY",
+"len": null,
+"page": "128|128.2",
+"authors": [
+"Francis Litz"
+],
+"real": [
+"Francis J. Litz"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, January 1940): Ardent Argosy Fan",
+"type": "ESSAY",
+"len": null,
+"page": "128|128.3",
+"authors": [
+"R. L. Francis"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, January 1940): Publish These",
+"type": "ESSAY",
+"len": null,
+"page": "128|128.4",
+"authors": [
+"Louis Goldstone, Jr."
+],
+"real": [
+"Lou Goldstone"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, January 1940): F. F. M. Is Unique",
+"type": "ESSAY",
+"len": null,
+"page": "128|128.5",
+"authors": [
+"Phil McKernan"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58018,
+"title": "Famous Fantastic Mysteries, February 1940",
+"date": "1940-02-00",
+"items": [
+{
+"title": "The Man Who Saved the Earth",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6",
+"authors": [
+"Austin Hall"
+],
+"real": []
+},
+{
+"title": "The Sky Woman",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "33",
+"authors": [
+"Charles B. Stilson"
+],
+"real": []
+},
+{
+"title": "The Conquest of the Moon Pool (Part 4 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "48",
+"authors": [
+"A. Merritt"
+],
+"real": []
+},
+{
+"title": "Son of the Stars",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "70",
+"authors": [
+"Eando Binder"
+],
+"real": [
+"Otto Binder"
+]
+},
+{
+"title": "The Radio Man (Part 3 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "80",
+"authors": [
+"Ralph Milne Farley"
+],
+"real": []
+},
+{
+"title": "The Kiss of Death",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "111",
+"authors": [
+"Laura Withrow"
+],
+"real": []
+},
+{
+"title": "The Plunge of the \"Knupfen\"",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "116",
+"authors": [
+"Leonard Grover"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, February 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "126",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1940): \"Radio Man\" Is Great",
+"type": "ESSAY",
+"len": null,
+"page": "126|126.1",
+"authors": [
+"Walter S. Musil"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1940): About December Issue",
+"type": "ESSAY",
+"len": null,
+"page": "126|126.2",
+"authors": [
+"Leon Blatt"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1940): Farley Fan",
+"type": "ESSAY",
+"len": null,
+"page": "126|126.3",
+"authors": [
+"Francis T. Moroff"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1940): Wants F.F.M. Weekly",
+"type": "ESSAY",
+"len": null,
+"page": "126|126.4",
+"authors": [
+"Robert Berg"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1940): Good Suggestion",
+"type": "ESSAY",
+"len": null,
+"page": "126|126.5",
+"authors": [
+"Sam Yampolsky"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1940): How About Baroturpinol?",
+"type": "ESSAY",
+"len": null,
+"page": "127|127.1",
+"authors": [
+"Patrick Fontaine"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1940): Wants Cover Picture",
+"type": "ESSAY",
+"len": null,
+"page": "127|127.2",
+"authors": [
+"Norman Knudson"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1940): Don't Forget Garrett P. Serviss",
+"type": "ESSAY",
+"len": null,
+"page": "127|127.3",
+"authors": [
+"Richard G. Clark"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1940): \"Moon Pool\" Grand Fun",
+"type": "ESSAY",
+"len": null,
+"page": "128|128.1",
+"authors": [
+"Constance Kraus"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1940): Welcome to F.F.M.",
+"type": "ESSAY",
+"len": null,
+"page": "128|128.2",
+"authors": [
+"Daryl McAllister"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1940): Charmed With Classics",
+"type": "ESSAY",
+"len": null,
+"page": "128|128.3",
+"authors": [
+"Martin Alger"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1940): Likes Interpanetary Yarns",
+"type": "ESSAY",
+"len": null,
+"page": "128|128.4",
+"authors": [
+"Stanley H."
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58041,
+"title": "Famous Fantastic Mysteries, March 1940",
+"date": "1940-03-00",
+"items": [
+{
+"title": "The Blind Spot (Part 1 of ?)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"Austin Hall",
+"Homer Eon Flint"
+],
+"real": []
+},
+{
+"title": "The Editors' Page (Famous Fantastic Mysteries, March 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "41",
+"authors": [
+"The Editors"
+],
+"real": []
+},
+{
+"title": "The Planet Juggler",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "47",
+"authors": [
+"J. George Frederick"
+],
+"real": []
+},
+{
+"title": "Bomb from Beranga",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "69",
+"authors": [
+"Harry Walton"
+],
+"real": []
+},
+{
+"title": "The Conquest of the Moon Pool (Part 5 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "82",
+"authors": [
+"A. Merritt"
+],
+"real": []
+},
+{
+"title": "The Belated Tears of Louis Marcel",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "108",
+"authors": [
+"Perley Poore Sheehan"
+],
+"real": []
+},
+{
+"title": "Who Can Guess?",
+"type": "POEM",
+"len": null,
+"page": "112",
+"authors": [
+"Mary Carolyn Davies"
+],
+"real": []
+},
+{
+"title": "A Place of Monsters",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "113",
+"authors": [
+"Thomas P. Byron"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, March 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "124",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, March 1940): Wants Paul to Do Cover",
+"type": "ESSAY",
+"len": null,
+"page": "125",
+"authors": [
+"Jimmy Taurasi"
+],
+"real": [
+"James V. Taurasi"
+]
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 57989,
+"title": "Famous Fantastic Mysteries, April 1940",
+"date": "1940-04-00",
+"items": [
+{
+"title": "The Devil of the Western Sea",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6",
+"authors": [
+"Philip M. Fisher"
+],
+"real": []
+},
+{
+"title": "Plants That Eat Humans",
+"type": "ESSAY",
+"len": null,
+"page": "11",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Blind Spot (Part 2 of ?)",
+"type": "SERIAL",
+"len": null,
+"page": "34",
+"authors": [
+"Austin Hall",
+"Homer Eon Flint"
+],
+"real": []
+},
+{
+"title": "Weird Travel Tales: II. Tragic Fate of Those Who Sought the Lost Lemon Mine",
+"type": "SHORTFICTION",
+"len": null,
+"page": "64",
+"authors": [
+"Bob Davis"
+],
+"real": []
+},
+{
+"title": "The Beast Plants",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "66",
+"authors": [
+"H. Thompson Rich"
+],
+"real": []
+},
+{
+"title": "Star-Facts",
+"type": "POEM",
+"len": null,
+"page": "77",
+"authors": [
+"Harry Kemp"
+],
+"real": []
+},
+{
+"title": "The Conquest of the Moon Pool (Part 6 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "78",
+"authors": [
+"A. Merritt"
+],
+"real": []
+},
+{
+"title": "Austin Hall",
+"type": "ESSAY",
+"len": null,
+"page": "112",
+"authors": [
+"Austin Hall"
+],
+"real": []
+},
+{
+"title": "Fire Gas",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "113",
+"authors": [
+"Stanton A. Coblentz"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, April 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "124",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank R. Paul"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58047,
+"title": "Famous Fantastic Mysteries, May-June 1940",
+"date": "1940-05-00",
+"items": [
+{
+"title": "Sunken Cities",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6",
+"authors": [
+"Douglas Newton"
+],
+"real": []
+},
+{
+"title": "The Editors' Page (Famous Fantastic Mysteries, May-June 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "29",
+"authors": [
+"The Editors"
+],
+"real": []
+},
+{
+"title": "Sky Worlds",
+"type": "POEM",
+"len": null,
+"page": "30",
+"authors": [
+"Larry B. Farsaci"
+],
+"real": [
+"Larry Farsace"
+]
+},
+{
+"title": "Three Lines of Old French",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "31",
+"authors": [
+"A. Merritt"
+],
+"real": []
+},
+{
+"title": "A. Merritt",
+"type": "ESSAY",
+"len": null,
+"page": "45",
+"authors": [
+"A. Merritt"
+],
+"real": []
+},
+{
+"title": "The Blind Spot (Part 3 of ?)",
+"type": "SERIAL",
+"len": null,
+"page": "46",
+"authors": [
+"Austin Hall",
+"Homer Eon Flint"
+],
+"real": []
+},
+{
+"title": "Raiders of the Air",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "75",
+"authors": [
+"Hubert Kelley",
+"Fred T. Barton"
+],
+"real": []
+},
+{
+"title": "Pegasus",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "78",
+"authors": [
+"Henry Kuttner"
+],
+"real": []
+},
+{
+"title": "South Sea Island Mysteries",
+"type": "ESSAY",
+"len": null,
+"page": "86",
+"authors": [
+"Martin Heflin"
+],
+"real": []
+},
+{
+"title": "A World of Indexed Numbers",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "87",
+"authors": [
+"Will McMorrow"
+],
+"real": []
+},
+{
+"title": "To an Aztec Relic",
+"type": "POEM",
+"len": null,
+"page": "113",
+"authors": [
+"Paul Wilson (II)"
+],
+"real": []
+},
+{
+"title": "Finis",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "116",
+"authors": [
+"Frank Lillie Pollack"
+],
+"real": [
+"Frank Lillie Pollock"
+]
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, May-June 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "123",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, May-June 1940): Collector's Handbook",
+"type": "ESSAY",
+"len": null,
+"page": "125",
+"authors": [
+"Bob Tucker"
+],
+"real": [
+"Wilson Tucker"
+]
+}
+],
+"cover_artists": [
+"Paul"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 57998,
+"title": "Famous Fantastic Mysteries, August 1940",
+"date": "1940-08-00",
+"items": [
+{
+"title": "Darkness and Dawn (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"George Allan England"
+],
+"real": []
+},
+{
+"title": "George Allan England",
+"type": "ESSAY",
+"len": null,
+"page": "79",
+"authors": [
+"George Allan England"
+],
+"real": []
+},
+{
+"title": "The Rebel Soul",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "80",
+"authors": [
+"Austin Hall"
+],
+"real": []
+},
+{
+"title": "The Editor's Page (Famous Fantastic Mysteries, August 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "117",
+"authors": [
+"The Editors"
+],
+"real": []
+},
+{
+"title": "Half Past Twelve in Eternity",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "118",
+"authors": [
+"Robert W. Sneddon"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, August 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "121",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58050,
+"title": "Famous Fantastic Mysteries, October 1940",
+"date": "1940-10-00",
+"items": [
+{
+"title": "The Face in the Abyss",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "6",
+"authors": [
+"A. Merritt"
+],
+"real": []
+},
+{
+"title": "For A. Merritt: \"The Face in the Abyss\"",
+"type": "POEM",
+"len": null,
+"page": "66",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Fungus Isle",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "67",
+"authors": [
+"Philip M. Fisher"
+],
+"real": []
+},
+{
+"title": "Out of the Dark",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "100",
+"authors": [
+"Amabel Redman"
+],
+"real": []
+},
+{
+"title": "The Editors' Page (Famous Fantastic Mysteries, October 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "107",
+"authors": [
+"The Editors"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, October 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "108",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58007,
+"title": "Famous Fantastic Mysteries, December 1940",
+"date": "1940-12-00",
+"items": [
+{
+"title": "The Sun-Makers",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "6",
+"authors": [
+"Will McMorrow"
+],
+"real": []
+},
+{
+"title": "Woman of Ice",
+"type": "POEM",
+"len": null,
+"page": "55",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "The Other Man's Blood",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "56",
+"authors": [
+"Ray Cummings"
+],
+"real": []
+},
+{
+"title": "The Sleep of Ages",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "88",
+"authors": [
+"Stuart Martin"
+],
+"real": []
+},
+{
+"title": "The Devil's Bodyguard",
+"type": "ESSAY",
+"len": null,
+"page": "99",
+"authors": [
+"Clyde Irvine"
+],
+"real": []
+},
+{
+"title": "An Autobiography",
+"type": "ESSAY",
+"len": null,
+"page": "104",
+"authors": [
+"Will McMorrow"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, December 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "105",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1940): We Have Him, in F.N.",
+"type": "ESSAY",
+"len": null,
+"page": "107",
+"authors": [
+"Ray Bradbury"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Paul"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58019,
+"title": "Famous Fantastic Mysteries, February 1941",
+"date": "1941-02-00",
+"items": [
+{
+"title": "The Spot of Life (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"Austin Hall"
+],
+"real": []
+},
+{
+"title": "Hall and Flint",
+"type": "ESSAY",
+"len": null,
+"page": "84",
+"authors": [
+"Phil Richards"
+],
+"real": []
+},
+{
+"title": "The Editors' Page (Famous Fantastic Mysteries, February 1941)",
+"type": "ESSAY",
+"len": null,
+"page": "86",
+"authors": [
+"The Editors"
+],
+"real": []
+},
+{
+"title": "The Ship of Silent Men",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "87",
+"authors": [
+"Philip M. Fisher"
+],
+"real": []
+},
+{
+"title": "\"The People of the Pit\"",
+"type": "POEM",
+"len": null,
+"page": "108",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, February 1941)",
+"type": "ESSAY",
+"len": null,
+"page": "109",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1941): F.F.M. and F.N. at Chicon",
+"type": "ESSAY",
+"len": null,
+"page": "109",
+"authors": [
+"Bob Tucker"
+],
+"real": [
+"Wilson Tucker"
+]
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 57990,
+"title": "Famous Fantastic Mysteries, April 1941",
+"date": "1941-04-00",
+"items": [
+{
+"title": "Claimed (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"Francis Stevens"
+],
+"real": []
+},
+{
+"title": "Venus or Earth?",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "72",
+"authors": [
+"Will McMorrow"
+],
+"real": []
+},
+{
+"title": "Nyaghoggua",
+"type": "POEM",
+"len": null,
+"page": "99",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "The Editors' Page: Important Notice",
+"type": "ESSAY",
+"len": null,
+"page": "100",
+"authors": [
+"The Editors"
+],
+"real": []
+},
+{
+"title": "Evolution",
+"type": "POEM",
+"len": null,
+"page": "101",
+"authors": [
+"Langdon Smith"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, April 1941)",
+"type": "ESSAY",
+"len": null,
+"page": "104",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58031,
+"title": "Famous Fantastic Mysteries Combined with Fantastic Novels Magazine, June 1941",
+"date": "1941-06-00",
+"items": [
+{
+"title": "Beyond the Great Oblivion (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"George Allan England"
+],
+"real": []
+},
+{
+"title": "John Ovington Returns",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "106",
+"authors": [
+"Max Brand"
+],
+"real": []
+},
+{
+"title": "The Whereabouts of Mr. Moses Bailey",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "117",
+"authors": [
+"James B. Nevin"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, June 1941)",
+"type": "ESSAY",
+"len": null,
+"page": "125",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 57999,
+"title": "Famous Fantastic Mysteries Combined with Fantastic Novels Magazine, August 1941",
+"date": "1941-08-00",
+"items": [
+{
+"title": "The Metal Monster (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"A. Merritt"
+],
+"real": []
+},
+{
+"title": "Afraid of His Shadow",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "118",
+"authors": [
+"Dorothy Donnell Calhoun"
+],
+"real": []
+},
+{
+"title": "Through the Time Glass",
+"type": "POEM",
+"len": null,
+"page": "122",
+"authors": [
+"Stanton A. Coblentz"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, August 1941)",
+"type": "ESSAY",
+"len": null,
+"page": "124",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1941): A \"Quarterly,\" Please",
+"type": "ESSAY",
+"len": null,
+"page": "125",
+"authors": [
+"James V. Taurasi"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58051,
+"title": "Famous Fantastic Mysteries Combined with Fantastic Novels Magazine, October 1941",
+"date": "1941-10-00",
+"items": [
+{
+"title": "Palos of the Dog Star Pack (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"J. U. Giesy"
+],
+"real": []
+},
+{
+"title": "The Colour Out of Space",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "98",
+"authors": [
+"H. P. Lovecraft"
+],
+"real": []
+},
+{
+"title": "For Howard Phillips Lovecraft",
+"type": "POEM",
+"len": null,
+"page": "115",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Out of the Desert",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "116",
+"authors": [
+"L. Patrick Greene"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, October 1941)",
+"type": "ESSAY",
+"len": null,
+"page": "126",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, October 1941): Fandom in MIchigan",
+"type": "ESSAY",
+"len": null,
+"page": "126",
+"authors": [
+"E. Everett Evans"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58008,
+"title": "Famous Fantastic Mysteries Combined with Fantastic Novels Magazine, December 1941",
+"date": "1941-12-00",
+"items": [
+{
+"title": "The Afterglow (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"George Allan England"
+],
+"real": []
+},
+{
+"title": "The Lost Garden",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "96",
+"authors": [
+"Max Brand"
+],
+"real": []
+},
+{
+"title": "Crimes of the Year 2000",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "109",
+"authors": [
+"Ray Cummings"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, December 1941)",
+"type": "ESSAY",
+"len": null,
+"page": "120",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1941): New Fan Mag",
+"type": "ESSAY",
+"len": null,
+"page": "123",
+"authors": [
+"James V. Taurasi"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1941): Doc Lowndes Reports the Denver Convention",
+"type": "ESSAY",
+"len": null,
+"page": "124",
+"authors": [
+"Doc Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58020,
+"title": "Famous Fantastic Mysteries Combined with Fantastic Novels Magazine, February 1942",
+"date": "1942-02-00",
+"items": [
+{
+"title": "The Citadel of Fear (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"Francis Stevens"
+],
+"real": []
+},
+{
+"title": "The Super-Race",
+"type": "POEM",
+"len": null,
+"page": "124",
+"authors": [
+"Stanton A. Coblentz"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, February 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "125",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 57991,
+"title": "Famous Fantastic Mysteries Combined with Fantastic Novels Magazine, April 1942",
+"date": "1942-04-00",
+"items": [
+{
+"title": "The Radio Planet (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"Ralph Milne Farley"
+],
+"real": []
+},
+{
+"title": "An Unnatural Feud",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "110",
+"authors": [
+"Norman Douglas"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, April 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "121",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58032,
+"title": "Famous Fantastic Mysteries Combined with Fantastic Novels Magazine, June 1942",
+"date": "1942-06-00",
+"items": [
+{
+"title": "Burn, Witch, Burn! (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"A. Merritt"
+],
+"real": []
+},
+{
+"title": "Beyond the Pole",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "96",
+"authors": [
+"Philip M. Fisher"
+],
+"real": []
+},
+{
+"title": "Fishhead",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "123",
+"authors": [
+"Irvin S. Cobb"
+],
+"real": []
+},
+{
+"title": "Crimes of the Year 2000: No. 2, The Television Alibi",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "129",
+"authors": [
+"Ray Cummings"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, June 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "139",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58029,
+"title": "Famous Fantastic Mysteries Combined with Fantastic Novels Magazine, July 1942",
+"date": "1942-07-00",
+"items": [
+{
+"title": "Polaris-- of the Snows (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"Charles B. Stilson"
+],
+"real": []
+},
+{
+"title": "Serapion (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "78",
+"authors": [
+"Francis Stevens"
+],
+"real": []
+},
+{
+"title": "A. Merritt on Modern Witchcraft",
+"type": "ESSAY",
+"len": null,
+"page": "134",
+"authors": [
+"A. Merritt"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, July 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "137",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58000,
+"title": "Famous Fantastic Mysteries Combined with Fantastic Novels Magazine, August 1942",
+"date": "1942-08-00",
+"items": [
+{
+"title": "Creep, Shadow! (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"A. Merritt"
+],
+"real": []
+},
+{
+"title": "Atlantis",
+"type": "POEM",
+"len": null,
+"page": "114",
+"authors": [
+"Guy Wetmore Carryl"
+],
+"real": []
+},
+{
+"title": "A Roman Resurrection",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "115",
+"authors": [
+"Lee Meriwether"
+],
+"real": []
+},
+{
+"title": "The Outcast",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "130",
+"authors": [
+"E. F. Benson"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, August 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "141",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58059,
+"title": "Famous Fantastic Mysteries Combined with Fantastic Novels Magazine, September 1942",
+"date": "1942-09-00",
+"items": [
+{
+"title": "A Brand New World (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"Ray Cummings"
+],
+"real": []
+},
+{
+"title": "Ariel's Songs",
+"type": "POEM",
+"len": null,
+"page": "113",
+"authors": [
+"William Shakespeare"
+],
+"real": []
+},
+{
+"title": "Wild Wullie, the Waster",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "114",
+"authors": [
+"Tod Robbins"
+],
+"real": []
+},
+{
+"title": "The Horla",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "129",
+"authors": [
+"Guy de Maupassant"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, September 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "138",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, September 1942): Another New Reader!",
+"type": "ESSAY",
+"len": null,
+"page": "138",
+"authors": [
+"Cerad Oliver"
+],
+"real": [
+"Chad Oliver"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, September 1942): \"Ishtar\" Requested",
+"type": "ESSAY",
+"len": null,
+"page": "142",
+"authors": [
+"Joe Hensley"
+],
+"real": [
+"Joe L. Hensley"
+]
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58052,
+"title": "Famous Fantastic Mysteries Combined with Fantastic Novels Magazine, October 1942",
+"date": "1942-10-00",
+"items": [
+{
+"title": "The Elixir of Hate (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"George Allan England"
+],
+"real": []
+},
+{
+"title": "Into the Infinite (Part 1 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "83",
+"authors": [
+"Austin Hall"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, October 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "139",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58049,
+"title": "Famous Fantastic Mysteries Combined with Fantastic Novels Magazine, November 1942",
+"date": "1942-11-00",
+"items": [
+{
+"title": "The Mouthpiece of Zitu (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"J. U. Giesy"
+],
+"real": []
+},
+{
+"title": "Into the Infinite (Part 2 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "107",
+"authors": [
+"Austin Hall"
+],
+"real": []
+},
+{
+"title": "The Demoiselle d'Ys",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "133",
+"authors": [
+"Robert W. Chambers"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, November 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "141",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58009,
+"title": "Famous Fantastic Mysteries Combined with Fantastic Novels Magazine, December 1942",
+"date": "1942-12-00",
+"items": [
+{
+"title": "The Golden City (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"Ralph Milne Farley"
+],
+"real": []
+},
+{
+"title": "Atlantis",
+"type": "POEM",
+"len": null,
+"page": "82",
+"authors": [
+"John James Meehan"
+],
+"real": []
+},
+{
+"title": "The Editor's Page (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "83",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "Into the Infinite (Part 3 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "84",
+"authors": [
+"Austin Hall"
+],
+"real": []
+},
+{
+"title": "To a Comet",
+"type": "POEM",
+"len": null,
+"page": "134",
+"authors": [
+"William Ross Lee"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "136",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "136|136.1",
+"authors": [
+"Bernard Silver"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "136|136.2",
+"authors": [
+"Capt. Nicholas Kane"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "136|136.3",
+"authors": [
+"Arthur Saha"
+],
+"real": [
+"Arthur W. Saha"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "136|136.4",
+"authors": [
+"Tony Raines"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "137|137.1",
+"authors": [
+"Ben Luna, Jr."
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "137|137.2",
+"authors": [
+"Ronald Clyne"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "138|138.1",
+"authors": [
+"Richard S. Hirschfield"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "138|138.2",
+"authors": [
+"Chas W. Wolfe"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "138|138.3",
+"authors": [
+"S. A. McElfresh"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "138|138.4",
+"authors": [
+"John Meyer Cunningham"
+],
+"real": [
+"John Cunningham"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "138|138.5",
+"authors": [
+"Tom Wright"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "139|139.1",
+"authors": [
+"H. C. Koenig"
+],
+"real": [
+"H. Koenig"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "139|139.2",
+"authors": [
+"Mrs. Frank B. Lapi"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942): Cummings First-Rate",
+"type": "ESSAY",
+"len": null,
+"page": "139|139.3",
+"authors": [
+"Chad Oliver"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "139|139.4",
+"authors": [
+"W. Beli"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942): \"Wild Wullie Well Liked\"",
+"type": "ESSAY",
+"len": null,
+"page": "140|140.1",
+"authors": [
+"Bill Blackbeard"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "140|140.2",
+"authors": [
+"Francis T. Laney"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "140|140.3",
+"authors": [
+"Charles Crane"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "141|141.1",
+"authors": [
+"David Miller (II)"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "141|141.2",
+"authors": [
+"Raymond Grumbo"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "141|141.3",
+"authors": [
+"Eli Neiman"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "142|142.1",
+"authors": [
+"Laurence P. Wilson"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "142|142.2",
+"authors": [
+"Mrs. Clyde C. Cole"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "142|142.3",
+"authors": [
+"Mrs. R. L. Shaffer"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "142|142.4",
+"authors": [
+"John Bradford"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "142|142.5",
+"authors": [
+"George M. Spickard"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "142|142.6",
+"authors": [
+"Virgil Utter, Jr."
+],
+"real": [
+"Virgil Utter"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "143|143.1",
+"authors": [
+"Gordon M. Kull"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "143|143.2",
+"authors": [
+"Esther Abernathy"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "144|144.1",
+"authors": [
+"Paul Spencer"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "144|144.2",
+"authors": [
+"Eugene Setchell"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58042,
+"title": "Famous Fantastic Mysteries, March 1943",
+"date": "1943-03-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, March 1943)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Ark of Fire (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "12",
+"authors": [
+"John Hawkins"
+],
+"real": []
+},
+{
+"title": "The Editor's Page (Famous Fantastic Mysteries, March 1943)",
+"type": "ESSAY",
+"len": null,
+"page": "113",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "Into the Infinite (Part 4 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "114",
+"authors": [
+"Austin Hall"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, March 1943): On the Oct. Issue",
+"type": "ESSAY",
+"len": null,
+"page": "141",
+"authors": [
+"Chad Oliver"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, March 1943): Merritt Inspires",
+"type": "ESSAY",
+"len": null,
+"page": "143",
+"authors": [
+"Joe Hensley"
+],
+"real": [
+"Joe L. Hensley"
+]
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58060,
+"title": "Famous Fantastic Mysteries, September 1943",
+"date": "1943-09-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, September 1943)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Iron Star (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "8",
+"authors": [
+"John Taine"
+],
+"real": []
+},
+{
+"title": "The Editor's Page (Famous Fantastic Mysteries, September 1943)",
+"type": "ESSAY",
+"len": null,
+"page": "115",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "Doorway Into Time",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "116",
+"authors": [
+"C. L. Moore"
+],
+"real": []
+},
+{
+"title": "Dwellers in the Mirage",
+"type": "POEM",
+"len": null,
+"page": "128",
+"authors": [
+"Nanek"
+],
+"real": [
+"Virginia Anderson"
+]
+},
+{
+"title": "The Yellow Sign",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "130",
+"authors": [
+"Robert W. Chambers"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58010,
+"title": "Famous Fantastic Mysteries, December 1943",
+"date": "1943-12-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, December 1943)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Three Go Back (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "8",
+"authors": [
+"J. Leslie Mitchell"
+],
+"real": []
+},
+{
+"title": "The Derelict",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "94",
+"authors": [
+"William Hope Hodgson"
+],
+"real": []
+},
+{
+"title": "The Editor's Page (Famous Fantastic Mysteries, December 1943)",
+"type": "ESSAY",
+"len": null,
+"page": "108",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "The Mask",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "109",
+"authors": [
+"Robert W. Chambers"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1943): More \"King in Yellow\" Wanted",
+"type": "ESSAY",
+"len": null,
+"page": "119",
+"authors": [
+"Chad Oliver"
+],
+"real": []
+},
+{
+"title": "King of the Gray Spaces",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "120",
+"authors": [
+"Ray Bradbury"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1943): Requesting \"The Mask\"",
+"type": "ESSAY",
+"len": null,
+"page": "138",
+"authors": [
+"Milt Lesser"
+],
+"real": [
+"Milton Lesser"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1943): No Monsters, Please",
+"type": "ESSAY",
+"len": null,
+"page": "144",
+"authors": [
+"Chad Oliver"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58043,
+"title": "Famous Fantastic Mysteries, March 1944",
+"date": "1944-03-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, March 1944)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, March 1944): A Reader Writes of the Great A. Merritt",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Milt Lesser"
+],
+"real": [
+"Milton Lesser"
+]
+},
+{
+"title": "The Man Who Was Thursday: A Nightmare (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "8",
+"authors": [
+"G. K. Chesterton"
+],
+"real": []
+},
+{
+"title": "A. Merritt (obituary)",
+"type": "ESSAY",
+"len": null,
+"page": "86",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Ghost Pirates (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "88",
+"authors": [
+"William Hope Hodgson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58033,
+"title": "Famous Fantastic Mysteries, June 1944",
+"date": "1944-06-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, June 1944)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Greatest Adventure (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "8",
+"authors": [
+"John Taine"
+],
+"real": []
+},
+{
+"title": "The Editor's Page (Famous Fantastic Mysteries, June 1944)",
+"type": "ESSAY",
+"len": null,
+"page": "88",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "The Wendigo",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "90",
+"authors": [
+"Algernon Blackwood"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1944): Fantasy's Price---F.F.M.",
+"type": "ESSAY",
+"len": null,
+"page": "116",
+"authors": [
+"Chad Oliver"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58061,
+"title": "Famous Fantastic Mysteries, September 1944",
+"date": "1944-09-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, September 1944)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Day of the Brown Horde (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "8",
+"authors": [
+"Richard Tooker"
+],
+"real": []
+},
+{
+"title": "The Postman of Otford",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "108",
+"authors": [
+"Lord Dunsany"
+],
+"real": []
+},
+{
+"title": "The Novel of the White Powder",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "111",
+"authors": [
+"Arthur Machen"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, September 1944): \"Greatest Adventure\" a Classic",
+"type": "ESSAY",
+"len": null,
+"page": "120",
+"authors": [
+"Milt Lesser"
+],
+"real": [
+"Milton Lesser"
+]
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58011,
+"title": "Famous Fantastic Mysteries, December 1944",
+"date": "1944-12-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, December 1944)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Lost Continent (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "10",
+"authors": [
+"Cutcliffe Hyne"
+],
+"real": [
+"C. J. Cutcliffe Hyne"
+]
+},
+{
+"title": "The Highwayman",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "116",
+"authors": [
+"Lord Dunsany"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1944): Liked Sept. Cover",
+"type": "ESSAY",
+"len": null,
+"page": "127",
+"authors": [
+"Chad Oliver"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58044,
+"title": "Famous Fantastic Mysteries, March 1945",
+"date": "1945-03-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, March 1945)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, March 1945): From a Well-Known Author",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"P. Schuyler Miller"
+],
+"real": []
+},
+{
+"title": "The Machine Stops (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "8",
+"authors": [
+"Wayland Smith"
+],
+"real": []
+},
+{
+"title": "Before I Wake ...",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "106",
+"authors": [
+"Henry Kuttner"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, March 1945): A Bit of Criticism",
+"type": "ESSAY",
+"len": null,
+"page": "120",
+"authors": [
+"Chad Oliver"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, March 1945): More Dunsany, Please",
+"type": "ESSAY",
+"len": null,
+"page": "121",
+"authors": [
+"Milt Lesser"
+],
+"real": [
+"Milton Lesser"
+]
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58034,
+"title": "Famous Fantastic Mysteries, June 1945",
+"date": "1945-06-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, June 1945)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1945): \"Machine Stops\" Enchanting",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Chad Oliver"
+],
+"real": []
+},
+{
+"title": "The Boats of the Glen Carrig (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "10",
+"authors": [
+"William Hope Hodgson"
+],
+"real": []
+},
+{
+"title": "Even a Worm (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "78",
+"authors": [
+"J. S. Bradford"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58062,
+"title": "Famous Fantastic Mysteries, September 1945",
+"date": "1945-09-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, September 1945)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Phra the Phoenician (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "8",
+"authors": [
+"Edwin L. Arnold"
+],
+"real": []
+},
+{
+"title": "Heaven Only Knows",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "112",
+"authors": [
+"Joe Archibald"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, September 1945): Keep Long Stories",
+"type": "ESSAY",
+"len": null,
+"page": "122",
+"authors": [
+"Chad Oliver"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58012,
+"title": "Famous Fantastic Mysteries, December 1945",
+"date": "1945-12-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, December 1945)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1945): \"Phra\" Fascinating",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Chad Oliver"
+],
+"real": []
+},
+{
+"title": "The Ancient Allan (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "10",
+"authors": [
+"H. Rider Haggard"
+],
+"real": []
+},
+{
+"title": "The Hashish Man",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "108",
+"authors": [
+"Lord Dunsany"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58021,
+"title": "Famous Fantastic Mysteries, February 1946",
+"date": "1946-02-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, February 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1946): Buffalo Fans, Attention!",
+"type": "ESSAY",
+"len": null,
+"page": "8",
+"authors": [
+"Pvt. Kenneth J. Krueger"
+],
+"real": [
+"Ken Krueger"
+]
+},
+{
+"title": "Before the Dawn (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "10",
+"authors": [
+"John Taine"
+],
+"real": []
+},
+{
+"title": "The House of the Secret (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "60",
+"authors": [
+"Claude FarrÃ¨re"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1946): His Wish Has Come True",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.1",
+"authors": [
+"Edward Wood"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1946): About H. Rider Haggard",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.2",
+"authors": [
+"Stephen Weber"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1946): Call for Help",
+"type": "ESSAY",
+"len": null,
+"page": "128",
+"authors": [
+"Thomas G. L. Cockcroft"
+],
+"real": [
+"T. G. L. Cockcroft"
+]
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 57992,
+"title": "Famous Fantastic Mysteries, April 1946",
+"date": "1946-04-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, April 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Island of Captain Sparrow (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "10",
+"authors": [
+"S. Fowler Wright"
+],
+"real": []
+},
+{
+"title": "The Willows",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "90",
+"authors": [
+"Algernon Blackwood"
+],
+"real": []
+},
+{
+"title": "Roderick's Story",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "116",
+"authors": [
+"E. F. Benson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58035,
+"title": "Famous Fantastic Mysteries, June 1946",
+"date": "1946-06-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, June 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Undying Monster (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "12",
+"authors": [
+"Jessie Douglas Kerruish"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1946): Okinawa Shima---Jan. 28",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.1",
+"authors": [
+"Virgil Finlay"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.2",
+"authors": [
+"John M. Cunningham"
+],
+"real": [
+"John Cunningham"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.3",
+"authors": [
+"Roy Hale"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.4",
+"authors": [
+"Mrs. M. Dominick"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.1",
+"authors": [
+"Arnold Wood"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.2",
+"authors": [
+"Peter Kos"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.3",
+"authors": [
+"Jack Murtagh"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.1",
+"authors": [
+"V. R. Heiner"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.2",
+"authors": [
+"Harold W. Cheney, Jr."
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.3",
+"authors": [
+"A. F. Germeshauser"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.4",
+"authors": [
+"R. H. Malone"
+],
+"real": []
+},
+{
+"title": "The Novel of the Black Seal",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "109",
+"authors": [
+"Arthur Machen"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58001,
+"title": "Famous Fantastic Mysteries, August 1946",
+"date": "1946-08-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, August 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Twenty-Fifth Hour (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "10",
+"authors": [
+"Herbert Best"
+],
+"real": []
+},
+{
+"title": "The Secret of the Growing Gold",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "116",
+"authors": [
+"Bram Stoker"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58053,
+"title": "Famous Fantastic Mysteries, October 1946",
+"date": "1946-10-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, October 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Island of Dr. Moreau (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "8",
+"authors": [
+"H. G. Wells"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, October 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.1",
+"authors": [
+"Tony Raines"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, October 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.2",
+"authors": [
+"Andy Lyon"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, October 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.3",
+"authors": [
+"Roy Hale"
+],
+"real": []
+},
+{
+"title": "Third Person Singular",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "64",
+"authors": [
+"Clemence Dane"
+],
+"real": []
+},
+{
+"title": "Daemon",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "98",
+"authors": [
+"C. L. Moore"
+],
+"real": []
+},
+{
+"title": "The Burial of the Rats",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "112",
+"authors": [
+"Bram Stoker"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, October 1946)",
+"type": "SHORTFICTION",
+"len": null,
+"page": "127",
+"authors": [
+"R. I. Martini"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, October 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "129",
+"authors": [
+"Etheldra Davis"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, October 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "97|97.1",
+"authors": [
+"John M. Cunningham"
+],
+"real": [
+"John Cunningham"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, October 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "97|97.2",
+"authors": [
+"Walter Dunkelberger"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, October 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "97|97.3",
+"authors": [
+"Garvin Berry"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, October 1946): About Undying Monsters",
+"type": "ESSAY",
+"len": null,
+"page": "97|97.4",
+"authors": [
+"Chad Oliver"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, October 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "111|111.1",
+"authors": [
+"Pfc. E. A. Shlivek"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, October 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "111|111.2",
+"authors": [
+"Pvt. Lester Mayer"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, October 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "128|128.1",
+"authors": [
+"Julian Marion Williamson"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, October 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "128|128.2",
+"authors": [
+"Tom Hughes"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, October 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "130|130.1",
+"authors": [
+"J. J. Stamp"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, October 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "130|130.2",
+"authors": [
+"Dan Wilhite"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, October 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "130|130.3",
+"authors": [
+"Lloyd Adams"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58013,
+"title": "Famous Fantastic Mysteries, December 1946",
+"date": "1946-12-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, December 1946)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Unthinkable (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "10",
+"authors": [
+"Francis Sibson"
+],
+"real": [
+"Francis H. Sibson"
+]
+},
+{
+"title": "At the Farmhouse",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "102",
+"authors": [
+"E. F. Benson"
+],
+"real": []
+},
+{
+"title": "And Not in Peace",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "112",
+"authors": [
+"George Whitley"
+],
+"real": [
+"A. Bertram Chandler"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1946): About Twenty-Fifth Hour",
+"type": "ESSAY",
+"len": null,
+"page": "123",
+"authors": [
+"Chad Oliver"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58022,
+"title": "Famous Fantastic Mysteries, February 1947",
+"date": "1947-02-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, February 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Star Rover (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "8",
+"authors": [
+"Jack London"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1947): A Word from Finlay",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.1",
+"authors": [
+"Virgil Finlay"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.2",
+"authors": [
+"R. I. Martini"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.3",
+"authors": [
+"Phil Barker"
+],
+"real": []
+},
+{
+"title": "The Angry Street - a Bad Dream",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "108",
+"authors": [
+"G. K. Chesterton"
+],
+"real": []
+},
+{
+"title": "The Spectre Spiders",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "114",
+"authors": [
+"W. James Wintle"
+],
+"real": [
+"W. J. Wintle"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "127",
+"authors": [
+"Ruby Jessop"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "128",
+"authors": [
+"Mrs. G. L. Dawson"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "128",
+"authors": [
+"J. M. Simmons"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "112|112.1",
+"authors": [
+"Russ Manning"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "112|112.2",
+"authors": [
+"Ben Indick"
+],
+"real": [
+"Ben P. Indick"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "120|120.1",
+"authors": [
+"Gene Hunter"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "120|120.2",
+"authors": [
+"Frederick I. Ordway, III"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "121|121.1",
+"authors": [
+"John M. Cunningham"
+],
+"real": [
+"John Cunningham"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "121|121.2",
+"authors": [
+"J. J. Stamp"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "122|122.1",
+"authors": [
+"David C. Kleinecke"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "122|122.2",
+"authors": [
+"G. E. Fordyce"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "122|122.3",
+"authors": [
+"Vernel Coriell"
+],
+"real": [
+"Vernell Coriell"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "125|125.1",
+"authors": [
+"Lawrence Laub"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "125|125.2",
+"authors": [
+"James W. Ayers"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "126|126.1",
+"authors": [
+"D. W. Lewis"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "126|126.2",
+"authors": [
+"Mrs. Eliot Hermann"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "129|129.1",
+"authors": [
+"Ruth Hallstrom"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "129|129.2",
+"authors": [
+"Roy Hale"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "129|129.3",
+"authors": [
+"John W. Muller"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 57993,
+"title": "Famous Fantastic Mysteries, April 1947",
+"date": "1947-04-00",
+"items": [
+{
+"title": "Allan and the Ice-Gods (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"H. Rider Haggard"
+],
+"real": []
+},
+{
+"title": "Passeur",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "110",
+"authors": [
+"Robert W. Chambers"
+],
+"real": []
+},
+{
+"title": "Prisoner in Time",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "114",
+"authors": [
+"V. E. Thiessen"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, April 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "118",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58036,
+"title": "Famous Fantastic Mysteries, June 1947",
+"date": "1947-06-00",
+"items": [
+{
+"title": "The People of the Ruins (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"Edward Shanks"
+],
+"real": []
+},
+{
+"title": "Caterpillars",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "116",
+"authors": [
+"E. F. Benson"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, June 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "121",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "126",
+"authors": [
+"Pfc. John W. Evans"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "128",
+"authors": [
+"Garvin Berry"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "121|121.1",
+"authors": [
+"Pfc. John M. Cunningham"
+],
+"real": [
+"John Cunningham"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "121|121.2",
+"authors": [
+"J. J. Stamp"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "121|121.3",
+"authors": [
+"Bob Furlong"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "121|121.4",
+"authors": [
+"Oswald Train"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "122|122.1",
+"authors": [
+"R. R. Anger"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "122|122.2",
+"authors": [
+"John Walsh (I)"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "123|123.1",
+"authors": [
+"Rex E. Ward"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "123|123.2",
+"authors": [
+"Joseph F. Dwyer"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "124|124.1",
+"authors": [
+"Chick Derry"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "124|124.2",
+"authors": [
+"Ben Indick"
+],
+"real": [
+"Ben P. Indick"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "124|124.3",
+"authors": [
+"J. R. Murtagh"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "125|125.1",
+"authors": [
+"Jack Roberts"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "125|125.2",
+"authors": [
+"Charles D. Simms"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "127|127.1",
+"authors": [
+"Dewey Allen"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "127|127.2",
+"authors": [
+"Mrs. C. W. Vallette"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "130|130.1",
+"authors": [
+"B. De Revere"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "130|130.2",
+"authors": [
+"D. C. King"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58002,
+"title": "Famous Fantastic Mysteries, August 1947",
+"date": "1947-08-00",
+"items": [
+{
+"title": "Minimum Man or Time to Be Gone (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"Andrew Marvell"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: Howard Phillips Lovecraft - the Outsider",
+"type": "ESSAY",
+"len": null,
+"page": "113",
+"authors": [
+"Neil Austin"
+],
+"real": []
+},
+{
+"title": "Boomerang",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "114",
+"authors": [
+"George Whitley"
+],
+"real": [
+"A. Bertram Chandler"
+]
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, August 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "119",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "About George Whitley",
+"type": "ESSAY",
+"len": null,
+"page": "120",
+"authors": [
+"The Editors"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58054,
+"title": "Famous Fantastic Mysteries, October 1947",
+"date": "1947-10-00",
+"items": [
+{
+"title": "The City of Wonder (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"E. Charles Vivian"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: A. Merritt - the Dwellers in the Mirage",
+"type": "ESSAY",
+"len": null,
+"page": "97",
+"authors": [
+"Neil Austin"
+],
+"real": []
+},
+{
+"title": "The Day of the Deepies",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "98",
+"authors": [
+"Murray Leinster"
+],
+"real": []
+},
+{
+"title": "Death",
+"type": "POEM",
+"len": null,
+"page": "107",
+"authors": [
+"Clarence E. Flynn"
+],
+"real": [
+"Clarence Edwin Flynn"
+]
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, October 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "108",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Dark Waters",
+"type": "POEM",
+"len": null,
+"page": "111",
+"authors": [
+"M. Ludington Cain"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58014,
+"title": "Famous Fantastic Mysteries, December 1947",
+"date": "1947-12-00",
+"items": [
+{
+"title": "The Man Who Went Back (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"Warwick Deeping"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: Robert William Chambers - Maker of Moons\"",
+"type": "ESSAY",
+"len": null,
+"page": "103",
+"authors": [
+"Neil Austin"
+],
+"real": []
+},
+{
+"title": "Atlantis' Exile",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "104",
+"authors": [
+"Cyril Hume"
+],
+"real": []
+},
+{
+"title": "The Horror of the Heights",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "108",
+"authors": [
+"Arthur Conan Doyle"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, December 1947)",
+"type": "ESSAY",
+"len": null,
+"page": "117",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1947): Correction by August Derleth",
+"type": "ESSAY",
+"len": null,
+"page": "118",
+"authors": [
+"August Derleth"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1947): Some Complaints",
+"type": "ESSAY",
+"len": null,
+"page": "127",
+"authors": [
+"Lin Carter"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58023,
+"title": "Famous Fantastic Mysteries, February 1948",
+"date": "1948-02-00",
+"items": [
+{
+"title": "The Peacemaker (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"C. S. Forester"
+],
+"real": []
+},
+{
+"title": "Planet of Sand",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "90",
+"authors": [
+"Murray Leinster"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: Sydney Fowler Wright - Worlds of Wonder\"",
+"type": "ESSAY",
+"len": null,
+"page": "113",
+"authors": [
+"Neil Austin"
+],
+"real": []
+},
+{
+"title": "The Lonesome Place",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "114",
+"authors": [
+"August Derleth"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, February 1948)",
+"type": "ESSAY",
+"len": null,
+"page": "119",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1948): Moskowitz Answers Derleth",
+"type": "ESSAY",
+"len": null,
+"page": "121",
+"authors": [
+"Sam Moskowitz"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1948): Poems Welcome in F.F.M.",
+"type": "ESSAY",
+"len": null,
+"page": "125",
+"authors": [
+"Chad Oliver"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 1066219,
+"title": "Famous Fantastic Mysteries, February 1948",
+"date": "1948-02-00",
+"items": [
+{
+"title": "The Peacemaker (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"C. S. Forester"
+],
+"real": []
+},
+{
+"title": "Planet of Sand",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "90",
+"authors": [
+"Murray Leinster"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: Sydney Fowler Wright - Worlds of Wonder\"",
+"type": "ESSAY",
+"len": null,
+"page": "113",
+"authors": [
+"Neil Austin"
+],
+"real": []
+},
+{
+"title": "The Lonesome Place",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "114",
+"authors": [
+"August Derleth"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, February 1948)",
+"type": "ESSAY",
+"len": null,
+"page": "119",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1948): Moskowitz Answers Derleth",
+"type": "ESSAY",
+"len": null,
+"page": "121",
+"authors": [
+"Sam Moskowitz"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1948): Poems Welcome in F.F.M.",
+"type": "ESSAY",
+"len": null,
+"page": "125",
+"authors": [
+"Chad Oliver"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 57994,
+"title": "Famous Fantastic Mysteries, April 1948",
+"date": "1948-04-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, April 1948)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1948): Deeping's Story Fine",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Lin Carter"
+],
+"real": []
+},
+{
+"title": "City of the Dead (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "8",
+"authors": [
+"Augusta Groner"
+],
+"real": []
+},
+{
+"title": "The Messenger",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "102",
+"authors": [
+"Robert W. Chambers"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: Algernon Blackwood - Pan's Gardener\"",
+"type": "ESSAY",
+"len": null,
+"page": "121",
+"authors": [
+"Neil Austin"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1948): August Derleth Replies",
+"type": "ESSAY",
+"len": null,
+"page": "122",
+"authors": [
+"August Derleth"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 1066220,
+"title": "Famous Fantastic Mysteries, April 1948",
+"date": "1948-04-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, April 1948)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1948): Deeping's Story Fine",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Lin Carter"
+],
+"real": []
+},
+{
+"title": "City of the Dead (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "8",
+"authors": [
+"Augusta Groner"
+],
+"real": []
+},
+{
+"title": "The Messenger",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "102",
+"authors": [
+"Robert W. Chambers"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: Algernon Blackwood - Pan's Gardener\"",
+"type": "ESSAY",
+"len": null,
+"page": "121",
+"authors": [
+"Neil Austin"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1948): August Derleth Replies",
+"type": "ESSAY",
+"len": null,
+"page": "122",
+"authors": [
+"August Derleth"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58037,
+"title": "Famous Fantastic Mysteries, June 1948",
+"date": "1948-06-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, June 1948)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Devil's Spoon (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "8",
+"authors": [
+"Theodora Du Bois"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: Herbert George Wells - World Brain\"",
+"type": "ESSAY",
+"len": null,
+"page": "101",
+"authors": [
+"Neil Austin"
+],
+"real": []
+},
+{
+"title": "The Shadow and the Flash",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "102",
+"authors": [
+"Jack London"
+],
+"real": []
+},
+{
+"title": "Eemanu Grows Up",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "112",
+"authors": [
+"Leslie A. Croutch"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 1066221,
+"title": "Famous Fantastic Mysteries, June 1948",
+"date": "1948-06-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, June 1948)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Devil's Spoon (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "8",
+"authors": [
+"Theodora Du Bois"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: Herbert George Wells - World Brain\"",
+"type": "ESSAY",
+"len": null,
+"page": "101",
+"authors": [
+"Neil Austin"
+],
+"real": []
+},
+{
+"title": "The Shadow and the Flash",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "102",
+"authors": [
+"Jack London"
+],
+"real": []
+},
+{
+"title": "Eemanu Grows Up",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "112",
+"authors": [
+"Leslie A. Croutch"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Virgil Finlay"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58003,
+"title": "Famous Fantastic Mysteries, August 1948",
+"date": "1948-08-00",
+"items": [
+{
+"title": "The Purple Sapphire (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "8",
+"authors": [
+"John Taine"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: Stephen Vincent BenÃ©t",
+"type": "ESSAY",
+"len": null,
+"page": "113",
+"authors": [
+"Neil Austin",
+"William Rose BenÃ©t"
+],
+"real": []
+},
+{
+"title": "The Night Before the End of the World",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "114",
+"authors": [
+"Murray Leinster"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 1066222,
+"title": "Famous Fantastic Mysteries, August 1948",
+"date": "1948-08-00",
+"items": [
+{
+"title": "The Purple Sapphire (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "8",
+"authors": [
+"John Taine"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: Stephen Vincent BenÃ©t",
+"type": "ESSAY",
+"len": null,
+"page": "113",
+"authors": [
+"Neil Austin",
+"William Rose BenÃ©t"
+],
+"real": []
+},
+{
+"title": "The Night Before the End of the World",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "114",
+"authors": [
+"Murray Leinster"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58055,
+"title": "Famous Fantastic Mysteries, October 1948",
+"date": "1948-10-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, October 1948)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, October 1948): Croutch and McNutt Welcome!",
+"type": "ESSAY",
+"len": null,
+"page": "9",
+"authors": [
+"Lin Carter"
+],
+"real": []
+},
+{
+"title": "The Lion's Way (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "10",
+"authors": [
+"C. T. Stoneham"
+],
+"real": []
+},
+{
+"title": "The Women",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "104",
+"authors": [
+"Ray Bradbury"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, October 1948): Praise from Tasmania",
+"type": "ESSAY",
+"len": null,
+"page": "110",
+"authors": [
+"Donald R. Tuck"
+],
+"real": [
+"Donald H. Tuck"
+]
+},
+{
+"title": "The Human Angle",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "112",
+"authors": [
+"William Tenn"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: Edgar Rice Burroughs: Tarzan! Barsoom! Pellucidar!",
+"type": "ESSAY",
+"len": null,
+"page": "117",
+"authors": [
+"Neil Austin"
+],
+"real": []
+},
+{
+"title": "That Low",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "118",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 1066223,
+"title": "Famous Fantastic Mysteries, October 1948",
+"date": "1948-10-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, October 1948)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, October 1948): Croutch and McNutt Welcome!",
+"type": "ESSAY",
+"len": null,
+"page": "9",
+"authors": [
+"Lin Carter"
+],
+"real": []
+},
+{
+"title": "The Lion's Way (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "10",
+"authors": [
+"C. T. Stoneham"
+],
+"real": []
+},
+{
+"title": "The Women",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "104",
+"authors": [
+"Ray Bradbury"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, October 1948): Praise from Tasmania",
+"type": "ESSAY",
+"len": null,
+"page": "110",
+"authors": [
+"Donald R. Tuck"
+],
+"real": [
+"Donald H. Tuck"
+]
+},
+{
+"title": "The Human Angle",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "112",
+"authors": [
+"William Tenn"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: Edgar Rice Burroughs: Tarzan! Barsoom! Pellucidar!",
+"type": "ESSAY",
+"len": null,
+"page": "117",
+"authors": [
+"Neil Austin"
+],
+"real": []
+},
+{
+"title": "That Low",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "118",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58015,
+"title": "Famous Fantastic Mysteries, December 1948",
+"date": "1948-12-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, December 1948)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: Arthur Machen: Inspirator of Lovecraft",
+"type": "ESSAY",
+"len": null,
+"page": "12",
+"authors": [
+"Neil Austin"
+],
+"real": []
+},
+{
+"title": "Nordenholt's Million (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "14",
+"authors": [
+"J. J. Connington"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1948)",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.1",
+"authors": [
+"C. Stewart Metchette"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1948)",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.1",
+"authors": [
+"Bob Strickler"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1948)",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.2",
+"authors": [
+"Michael J. Keenan"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1948)",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.1",
+"authors": [
+"J. P. Guinon"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1948): Liked Benet Feature",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.2",
+"authors": [
+"Chad Oliver"
+],
+"real": []
+},
+{
+"title": "Let Clarence Do It",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "112",
+"authors": [
+"Edward S. Sullivan"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1948)",
+"type": "ESSAY",
+"len": null,
+"page": "127",
+"authors": [
+"Rev. Darrell C. Richardson"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1948)",
+"type": "ESSAY",
+"len": null,
+"page": "129",
+"authors": [
+"Joclaire Busch"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1948)",
+"type": "ESSAY",
+"len": null,
+"page": "128|128.1",
+"authors": [
+"F. A. Newman"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1948)",
+"type": "ESSAY",
+"len": null,
+"page": "128|128.2",
+"authors": [
+"Joseph B. Baker"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 1066217,
+"title": "Famous Fantastic Mysteries, December 1948",
+"date": "1948-12-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, December 1948)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: Arthur Machen: Inspirator of Lovecraft",
+"type": "ESSAY",
+"len": null,
+"page": "12",
+"authors": [
+"Neil Austin"
+],
+"real": []
+},
+{
+"title": "Nordenholt's Million (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "14",
+"authors": [
+"J. J. Connington"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1948)",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.1",
+"authors": [
+"C. Stewart Metchette"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1948)",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.1",
+"authors": [
+"Bob Strickler"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1948)",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.2",
+"authors": [
+"Michael J. Keenan"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1948)",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.1",
+"authors": [
+"J. P. Guinon"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1948): Liked Benet Feature",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.2",
+"authors": [
+"Chad Oliver"
+],
+"real": []
+},
+{
+"title": "Let Clarence Do It",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "112",
+"authors": [
+"Edward S. Sullivan"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1948)",
+"type": "ESSAY",
+"len": null,
+"page": "127",
+"authors": [
+"Rev. Darrell C. Richardson"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1948)",
+"type": "ESSAY",
+"len": null,
+"page": "129",
+"authors": [
+"Joclaire Busch"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1948)",
+"type": "ESSAY",
+"len": null,
+"page": "128|128.1",
+"authors": [
+"F. A. Newman"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1948)",
+"type": "ESSAY",
+"len": null,
+"page": "128|128.2",
+"authors": [
+"Joseph B. Baker"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58024,
+"title": "Famous Fantastic Mysteries, February 1949",
+"date": "1949-02-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, February 1949)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1949): A Memorable Issue",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Chad Oliver"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1949): \"George Whitley\" Replies",
+"type": "ESSAY",
+"len": null,
+"page": "8",
+"authors": [
+"A. Bertram Chandler"
+],
+"real": []
+},
+{
+"title": "Angel Island (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "10",
+"authors": [
+"Inez Haynes Gillmore"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: M. P. Shiel - High Priest of Phantasy",
+"type": "ESSAY",
+"len": null,
+"page": "90",
+"authors": [
+"Neil Austin"
+],
+"real": []
+},
+{
+"title": "The Scarlet Plague",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "92",
+"authors": [
+"Jack London"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 1066224,
+"title": "Famous Fantastic Mysteries, February 1949",
+"date": "1949-02-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, February 1949)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1949): A Memorable Issue",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Chad Oliver"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1949): \"George Whitley\" Replies",
+"type": "ESSAY",
+"len": null,
+"page": "8",
+"authors": [
+"A. Bertram Chandler"
+],
+"real": []
+},
+{
+"title": "Angel Island (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "10",
+"authors": [
+"Inez Haynes Gillmore"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: M. P. Shiel - High Priest of Phantasy",
+"type": "ESSAY",
+"len": null,
+"page": "90",
+"authors": [
+"Neil Austin"
+],
+"real": []
+},
+{
+"title": "The Scarlet Plague",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "92",
+"authors": [
+"Jack London"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 57995,
+"title": "Famous Fantastic Mysteries, April 1949",
+"date": "1949-04-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, April 1949)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Dian of the Lost Land (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "8",
+"authors": [
+"Edison Marshall"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: John Taine - Reaper of the Rainbow",
+"type": "ESSAY",
+"len": null,
+"page": "87",
+"authors": [
+"Neil Austin"
+],
+"real": []
+},
+{
+"title": "Black Butterflies",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "88",
+"authors": [
+"Elmer Brown Mason"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 1066225,
+"title": "Famous Fantastic Mysteries, April 1949",
+"date": "1949-04-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, April 1949)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Dian of the Lost Land (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "8",
+"authors": [
+"Edison Marshall"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: John Taine - Reaper of the Rainbow",
+"type": "ESSAY",
+"len": null,
+"page": "87",
+"authors": [
+"Neil Austin"
+],
+"real": []
+},
+{
+"title": "Black Butterflies",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "88",
+"authors": [
+"Elmer Brown Mason"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58038,
+"title": "Famous Fantastic Mysteries, June 1949",
+"date": "1949-06-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, June 1949)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Popular Films (Famous Fantastic Mysteries, June 1949)",
+"type": "ESSAY",
+"len": null,
+"page": "8",
+"authors": [
+"Ted Palmer"
+],
+"real": []
+},
+{
+"title": "The Purple Cloud (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "10",
+"authors": [
+"M. P. Shiel"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949)",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.1",
+"authors": [
+"Thyril L. Ladd"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: Dunsany - a True Lord of Fantasy",
+"type": "ESSAY",
+"len": null,
+"page": "113",
+"authors": [
+"Neil Austin"
+],
+"real": []
+},
+{
+"title": "Mirror Maze",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "114",
+"authors": [
+"Stanley Mullen"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): Shiel Information",
+"type": "ESSAY",
+"len": null,
+"page": "125",
+"authors": [
+"A. Reynolds Morse"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): Letter from an Author",
+"type": "ESSAY",
+"len": null,
+"page": "127",
+"authors": [
+"Samuel A. Peeples"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): Liked Angel Island",
+"type": "ESSAY",
+"len": null,
+"page": "129",
+"authors": [
+"Mrs. C. W. Vallette"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): Terrific Twins",
+"type": "ESSAY",
+"len": null,
+"page": "123|123.1",
+"authors": [
+"Bill Calabrese"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): Wonderful Epic",
+"type": "ESSAY",
+"len": null,
+"page": "123|123.2",
+"authors": [
+"Shelby Vick"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): Wants Bok",
+"type": "ESSAY",
+"len": null,
+"page": "123|123.3",
+"authors": [
+"Bill Searles"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): New Fan Club",
+"type": "ESSAY",
+"len": null,
+"page": "123|123.4",
+"authors": [
+"Richard Abbott"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): No Unhappy Ending!",
+"type": "ESSAY",
+"len": null,
+"page": "123|123.5",
+"authors": [
+"Bob Farnham"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): About I.H. Gillmore's Yarn",
+"type": "ESSAY",
+"len": null,
+"page": "124|124.1",
+"authors": [
+"Mrs. E. E. Blevins"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): Scarlet Plague Excellent",
+"type": "ESSAY",
+"len": null,
+"page": "124|124.2",
+"authors": [
+"Bennie Jacopetti"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): Tough but Interesting",
+"type": "ESSAY",
+"len": null,
+"page": "124|124.3",
+"authors": [
+"W. Paul Ganley"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): Too Much Love",
+"type": "ESSAY",
+"len": null,
+"page": "128|128.1",
+"authors": [
+"Dan Cohen"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): Rare Books Offered",
+"type": "ESSAY",
+"len": null,
+"page": "128|128.2",
+"authors": [
+"Harold F. Keating"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): Want Back Issues?",
+"type": "ESSAY",
+"len": null,
+"page": "128|128.3",
+"authors": [
+"James D. Sutherland"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): Angel Island a Hit",
+"type": "ESSAY",
+"len": null,
+"page": "130|130.1",
+"authors": [
+"Gordon Stoeckler"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): Guggestions",
+"type": "ESSAY",
+"len": null,
+"page": "130|130.2",
+"authors": [
+"William N. Austin"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 1066226,
+"title": "Famous Fantastic Mysteries, June 1949",
+"date": "1949-06-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, June 1949)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Popular Films (Famous Fantastic Mysteries, June 1949)",
+"type": "ESSAY",
+"len": null,
+"page": "8",
+"authors": [
+"Ted Palmer"
+],
+"real": []
+},
+{
+"title": "The Purple Cloud (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "10",
+"authors": [
+"M. P. Shiel"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949)",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.1",
+"authors": [
+"Thyril L. Ladd"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: Dunsany - a True Lord of Fantasy",
+"type": "ESSAY",
+"len": null,
+"page": "113",
+"authors": [
+"Neil Austin"
+],
+"real": []
+},
+{
+"title": "Mirror Maze",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "114",
+"authors": [
+"Stanley Mullen"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): Shiel Information",
+"type": "ESSAY",
+"len": null,
+"page": "125",
+"authors": [
+"A. Reynolds Morse"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): Letter from an Author",
+"type": "ESSAY",
+"len": null,
+"page": "127",
+"authors": [
+"Samuel A. Peeples"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): Liked Angel Island",
+"type": "ESSAY",
+"len": null,
+"page": "129",
+"authors": [
+"Mrs. C. W. Vallette"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): Terrific Twins",
+"type": "ESSAY",
+"len": null,
+"page": "123|123.1",
+"authors": [
+"Bill Calabrese"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): Wonderful Epic",
+"type": "ESSAY",
+"len": null,
+"page": "123|123.2",
+"authors": [
+"Shelby Vick"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): Wants Bok",
+"type": "ESSAY",
+"len": null,
+"page": "123|123.3",
+"authors": [
+"Bill Searles"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): New Fan Club",
+"type": "ESSAY",
+"len": null,
+"page": "123|123.4",
+"authors": [
+"Richard Abbott"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): No Unhappy Ending!",
+"type": "ESSAY",
+"len": null,
+"page": "123|123.5",
+"authors": [
+"Bob Farnham"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): About I.H. Gillmore's Yarn",
+"type": "ESSAY",
+"len": null,
+"page": "124|124.1",
+"authors": [
+"Mrs. E. E. Blevins"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): Scarlet Plague Excellent",
+"type": "ESSAY",
+"len": null,
+"page": "124|124.2",
+"authors": [
+"Bennie Jacopetti"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): Tough but Interesting",
+"type": "ESSAY",
+"len": null,
+"page": "124|124.3",
+"authors": [
+"W. Paul Ganley"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): Too Much Love",
+"type": "ESSAY",
+"len": null,
+"page": "128|128.1",
+"authors": [
+"Dan Cohen"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): Rare Books Offered",
+"type": "ESSAY",
+"len": null,
+"page": "128|128.2",
+"authors": [
+"Harold F. Keating"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): Want Back Issues?",
+"type": "ESSAY",
+"len": null,
+"page": "128|128.3",
+"authors": [
+"James D. Sutherland"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): Angel Island a Hit",
+"type": "ESSAY",
+"len": null,
+"page": "130|130.1",
+"authors": [
+"Gordon Stoeckler"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1949): Guggestions",
+"type": "ESSAY",
+"len": null,
+"page": "130|130.2",
+"authors": [
+"William N. Austin"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58004,
+"title": "Famous Fantastic Mysteries, August 1949",
+"date": "1949-08-00",
+"items": [
+{
+"title": "Popular Films (Famous Fantastic Mysteries, August 1949)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Ted Palmer"
+],
+"real": []
+},
+{
+"title": "The Valley of Silent Men (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "8",
+"authors": [
+"E. Charles Vivian"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: Clark Ashton Smith - the Star-Treader",
+"type": "ESSAY",
+"len": null,
+"page": "109",
+"authors": [
+"Neil Austin"
+],
+"real": []
+},
+{
+"title": "The Counter Charm",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "110",
+"authors": [
+"Margaret St. Clair"
+],
+"real": []
+},
+{
+"title": "The Three",
+"type": "POEM",
+"len": null,
+"page": "116",
+"authors": [
+"Burnham Eaton"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, August 1949)",
+"type": "ESSAY",
+"len": null,
+"page": "118",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1949): Compliment to Lawrence",
+"type": "ESSAY",
+"len": null,
+"page": "120",
+"authors": [
+"Poul Anderson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 1066227,
+"title": "Famous Fantastic Mysteries, August 1949",
+"date": "1949-08-00",
+"items": [
+{
+"title": "Popular Films (Famous Fantastic Mysteries, August 1949)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Ted Palmer"
+],
+"real": []
+},
+{
+"title": "The Valley of Silent Men (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "8",
+"authors": [
+"E. Charles Vivian"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: Clark Ashton Smith - the Star-Treader",
+"type": "ESSAY",
+"len": null,
+"page": "109",
+"authors": [
+"Neil Austin"
+],
+"real": []
+},
+{
+"title": "The Counter Charm",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "110",
+"authors": [
+"Margaret St. Clair"
+],
+"real": []
+},
+{
+"title": "The Three",
+"type": "POEM",
+"len": null,
+"page": "116",
+"authors": [
+"Burnham Eaton"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, August 1949)",
+"type": "ESSAY",
+"len": null,
+"page": "118",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1949): Compliment to Lawrence",
+"type": "ESSAY",
+"len": null,
+"page": "120",
+"authors": [
+"Poul Anderson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58056,
+"title": "Famous Fantastic Mysteries, October 1949",
+"date": "1949-10-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, October 1949)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "The Starkenden Quest (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "10",
+"authors": [
+"Gilbert Collins"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: Ray Bradbury - the October Man",
+"type": "ESSAY",
+"len": null,
+"page": "119",
+"authors": [
+"Neil Austin"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, October 1949): Lawrence Has \"Poet's Touch\"",
+"type": "ESSAY",
+"len": null,
+"page": "125",
+"authors": [
+"Lin Carter"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 1066228,
+"title": "Famous Fantastic Mysteries, October 1949",
+"date": "1949-10-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, October 1949)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "The Starkenden Quest (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "10",
+"authors": [
+"Gilbert Collins"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: Ray Bradbury - the October Man",
+"type": "ESSAY",
+"len": null,
+"page": "119",
+"authors": [
+"Neil Austin"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, October 1949): Lawrence Has \"Poet's Touch\"",
+"type": "ESSAY",
+"len": null,
+"page": "125",
+"authors": [
+"Lin Carter"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58016,
+"title": "Famous Fantastic Mysteries, December 1949",
+"date": "1949-12-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, December 1949)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "Ogden's Strange Story (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "10",
+"authors": [
+"Edison Marshall"
+],
+"real": []
+},
+{
+"title": "No-Man's-Land",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "82",
+"authors": [
+"John Buchan"
+],
+"real": []
+},
+{
+"title": "What Was It?",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "106",
+"authors": [
+"Fitz-James O'Brien"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: Edgar Allan Poe - the Pit and the Pen - His Centenary",
+"type": "ESSAY",
+"len": null,
+"page": "113",
+"authors": [
+"Neil Austin"
+],
+"real": []
+},
+{
+"title": "Jamieson",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "114",
+"authors": [
+"Margaret St. Clair"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1949): \"The Counter Charm\" Scores",
+"type": "ESSAY",
+"len": null,
+"page": "124",
+"authors": [
+"Chad Oliver"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 1066229,
+"title": "Famous Fantastic Mysteries, December 1949",
+"date": "1949-12-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, December 1949)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "Ogden's Strange Story (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "10",
+"authors": [
+"Edison Marshall"
+],
+"real": []
+},
+{
+"title": "No-Man's-Land",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "82",
+"authors": [
+"John Buchan"
+],
+"real": []
+},
+{
+"title": "What Was It?",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "106",
+"authors": [
+"Fitz-James O'Brien"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: Edgar Allan Poe - the Pit and the Pen - His Centenary",
+"type": "ESSAY",
+"len": null,
+"page": "113",
+"authors": [
+"Neil Austin"
+],
+"real": []
+},
+{
+"title": "Jamieson",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "114",
+"authors": [
+"Margaret St. Clair"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1949): \"The Counter Charm\" Scores",
+"type": "ESSAY",
+"len": null,
+"page": "124",
+"authors": [
+"Chad Oliver"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58025,
+"title": "Famous Fantastic Mysteries, February 1950",
+"date": "1950-02-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, February 1950)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "Morning Star (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "8",
+"authors": [
+"H. Rider Haggard"
+],
+"real": []
+},
+{
+"title": "Strange Occurrence in Clerkenwell",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "108",
+"authors": [
+"Arthur Machen"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: Olaf Stapledon - Odd John's Father",
+"type": "ESSAY",
+"len": null,
+"page": "121",
+"authors": [
+"Neil Austin"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 1066230,
+"title": "Famous Fantastic Mysteries, February 1950",
+"date": "1950-02-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, February 1950)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "Morning Star (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "8",
+"authors": [
+"H. Rider Haggard"
+],
+"real": []
+},
+{
+"title": "Strange Occurrence in Clerkenwell",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "108",
+"authors": [
+"Arthur Machen"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: Olaf Stapledon - Odd John's Father",
+"type": "ESSAY",
+"len": null,
+"page": "121",
+"authors": [
+"Neil Austin"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 57996,
+"title": "Famous Fantastic Mysteries, April 1950",
+"date": "1950-04-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, April 1950)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "The Secret People (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "10",
+"authors": [
+"John Beynon"
+],
+"real": [
+"John Wyndham"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): High Praise",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.1",
+"authors": [
+"Mr. Milton Papayianis, Jr.",
+"Mrs. Milton Papayianis, Jr."
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Wonderful Issue!",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.2",
+"authors": [
+"Harvey Larsen"
+],
+"real": []
+},
+{
+"title": "Guardian Angel",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "98",
+"authors": [
+"Arthur C. Clarke"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: M. R. James - Ghost Writer Number One",
+"type": "ESSAY",
+"len": null,
+"page": "113",
+"authors": [
+"Neil Austin"
+],
+"real": []
+},
+{
+"title": "After the Atom",
+"type": "POEM",
+"len": null,
+"page": "115",
+"authors": [
+"Stanton A. Coblentz"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Magnificent Writer",
+"type": "ESSAY",
+"len": null,
+"page": "114|114.1",
+"authors": [
+"W. Paul Ganley"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): A New Fanzine",
+"type": "ESSAY",
+"len": null,
+"page": "114|114.2",
+"authors": [
+"Morton D. Paley"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Ogden a Classic",
+"type": "ESSAY",
+"len": null,
+"page": "114|114.3",
+"authors": [
+"Calvin Thos. Beck"
+],
+"real": [
+"Calvin Thomas Beck"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Thanking Fantasy Friends",
+"type": "ESSAY",
+"len": null,
+"page": "118|118.1",
+"authors": [
+"J. J. Stamp"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Free-for-All",
+"type": "ESSAY",
+"len": null,
+"page": "118|118.2",
+"authors": [
+"Roy Hale"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Grown-Up Magazine",
+"type": "ESSAY",
+"len": null,
+"page": "119|119.1",
+"authors": [
+"Paul R. Kern"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Intersting Opinions",
+"type": "ESSAY",
+"len": null,
+"page": "119|119.2",
+"authors": [
+"James W. Ayers"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Liked Buchan Story",
+"type": "ESSAY",
+"len": null,
+"page": "119|119.3",
+"authors": [
+"Robert E. Briney"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Kind of Critical",
+"type": "ESSAY",
+"len": null,
+"page": "120|120.1",
+"authors": [
+"Larry 'Bing' Clarke"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Edison Marshall Admirer",
+"type": "ESSAY",
+"len": null,
+"page": "120|120.2",
+"authors": [
+"Terry Carr"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Liked Dec. Short Stories",
+"type": "ESSAY",
+"len": null,
+"page": "121|121.1",
+"authors": [
+"G. M. Howard"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Superb Illustrations",
+"type": "ESSAY",
+"len": null,
+"page": "121|121.2",
+"authors": [
+"Bob Gorton"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Concerning Burroughs",
+"type": "ESSAY",
+"len": null,
+"page": "121|121.3",
+"authors": [
+"V. R. Heiner"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Suggestion",
+"type": "ESSAY",
+"len": null,
+"page": "121|121.4",
+"authors": [
+"Harold F. Keating"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Has Back Issues",
+"type": "ESSAY",
+"len": null,
+"page": "121|121.5",
+"authors": [
+"Joseph Jesensky"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): '49 Ratings",
+"type": "ESSAY",
+"len": null,
+"page": "122|122.1",
+"authors": [
+"David M. Campbell"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Glad to See Haggard",
+"type": "ESSAY",
+"len": null,
+"page": "122|122.2",
+"authors": [
+"Donald V. Allgeier"
+],
+"real": [
+"Donald Allgeier"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Anti-Caveman",
+"type": "ESSAY",
+"len": null,
+"page": "123|123.1",
+"authors": [
+"Howard DeVore"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Suggestions",
+"type": "ESSAY",
+"len": null,
+"page": "123|123.2",
+"authors": [
+"C. Stewart Metchette"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Intersting Observations",
+"type": "ESSAY",
+"len": null,
+"page": "123|123.3",
+"authors": [
+"Bob Barnett"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Liked Ogden",
+"type": "ESSAY",
+"len": null,
+"page": "124|124.1",
+"authors": [
+"Carlysle Gentry"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Top Honors Ours",
+"type": "ESSAY",
+"len": null,
+"page": "124|124.2",
+"authors": [
+"Claude Held"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Likes Masters of Fantasy",
+"type": "ESSAY",
+"len": null,
+"page": "125|125.1",
+"authors": [
+"Wayne F. Hunt"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Back Issues for Sale",
+"type": "ESSAY",
+"len": null,
+"page": "125|125.2",
+"authors": [
+"Mrs. Jewel Zanko"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Complete Sets",
+"type": "ESSAY",
+"len": null,
+"page": "125|125.3",
+"authors": [
+"Louis E. Mazzolla"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Want to Trade?",
+"type": "ESSAY",
+"len": null,
+"page": "125|125.4",
+"authors": [
+"Walter A. 'Coswall' Coslet"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): To the Highest Bidder",
+"type": "ESSAY",
+"len": null,
+"page": "125|125.5",
+"authors": [
+"Rudolph Sukenik"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Collection on Sale",
+"type": "ESSAY",
+"len": null,
+"page": "126|126.1",
+"authors": [
+"Ruth Weinstein"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Back Issue Wanted",
+"type": "ESSAY",
+"len": null,
+"page": "126|126.2",
+"authors": [
+"James Lewis"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Wants More Shiel",
+"type": "ESSAY",
+"len": null,
+"page": "126|126.3",
+"authors": [
+"R. A. Boydston"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): More Science Fiction, Please",
+"type": "ESSAY",
+"len": null,
+"page": "126|126.4",
+"authors": [
+"Danny Hetrick"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 1066231,
+"title": "Famous Fantastic Mysteries, April 1950",
+"date": "1950-04-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, April 1950)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "The Secret People (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "10",
+"authors": [
+"John Beynon"
+],
+"real": [
+"John Wyndham"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): High Praise",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.1",
+"authors": [
+"Mr. Milton Papayianis, Jr.",
+"Mrs. Milton Papayianis, Jr."
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Wonderful Issue!",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.2",
+"authors": [
+"Harvey Larsen"
+],
+"real": []
+},
+{
+"title": "Guardian Angel",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "98",
+"authors": [
+"Arthur C. Clarke"
+],
+"real": []
+},
+{
+"title": "Masters of Fantasy: M. R. James - Ghost Writer Number One",
+"type": "ESSAY",
+"len": null,
+"page": "113",
+"authors": [
+"Neil Austin"
+],
+"real": []
+},
+{
+"title": "After the Atom",
+"type": "POEM",
+"len": null,
+"page": "115",
+"authors": [
+"Stanton A. Coblentz"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Magnificent Writer",
+"type": "ESSAY",
+"len": null,
+"page": "114|114.1",
+"authors": [
+"W. Paul Ganley"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): A New Fanzine",
+"type": "ESSAY",
+"len": null,
+"page": "114|114.2",
+"authors": [
+"Morton D. Paley"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Ogden a Classic",
+"type": "ESSAY",
+"len": null,
+"page": "114|114.3",
+"authors": [
+"Calvin Thos. Beck"
+],
+"real": [
+"Calvin Thomas Beck"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Thanking Fantasy Friends",
+"type": "ESSAY",
+"len": null,
+"page": "118|118.1",
+"authors": [
+"J. J. Stamp"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Free-for-All",
+"type": "ESSAY",
+"len": null,
+"page": "118|118.2",
+"authors": [
+"Roy Hale"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Grown-Up Magazine",
+"type": "ESSAY",
+"len": null,
+"page": "119|119.1",
+"authors": [
+"Paul R. Kern"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Intersting Opinions",
+"type": "ESSAY",
+"len": null,
+"page": "119|119.2",
+"authors": [
+"James W. Ayers"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Liked Buchan Story",
+"type": "ESSAY",
+"len": null,
+"page": "119|119.3",
+"authors": [
+"Robert E. Briney"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Kind of Critical",
+"type": "ESSAY",
+"len": null,
+"page": "120|120.1",
+"authors": [
+"Larry 'Bing' Clarke"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Edison Marshall Admirer",
+"type": "ESSAY",
+"len": null,
+"page": "120|120.2",
+"authors": [
+"Terry Carr"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Liked Dec. Short Stories",
+"type": "ESSAY",
+"len": null,
+"page": "121|121.1",
+"authors": [
+"G. M. Howard"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Superb Illustrations",
+"type": "ESSAY",
+"len": null,
+"page": "121|121.2",
+"authors": [
+"Bob Gorton"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Concerning Burroughs",
+"type": "ESSAY",
+"len": null,
+"page": "121|121.3",
+"authors": [
+"V. R. Heiner"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Suggestion",
+"type": "ESSAY",
+"len": null,
+"page": "121|121.4",
+"authors": [
+"Harold F. Keating"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Has Back Issues",
+"type": "ESSAY",
+"len": null,
+"page": "121|121.5",
+"authors": [
+"Joseph Jesensky"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): '49 Ratings",
+"type": "ESSAY",
+"len": null,
+"page": "122|122.1",
+"authors": [
+"David M. Campbell"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Glad to See Haggard",
+"type": "ESSAY",
+"len": null,
+"page": "122|122.2",
+"authors": [
+"Donald V. Allgeier"
+],
+"real": [
+"Donald Allgeier"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Anti-Caveman",
+"type": "ESSAY",
+"len": null,
+"page": "123|123.1",
+"authors": [
+"Howard DeVore"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Suggestions",
+"type": "ESSAY",
+"len": null,
+"page": "123|123.2",
+"authors": [
+"C. Stewart Metchette"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Intersting Observations",
+"type": "ESSAY",
+"len": null,
+"page": "123|123.3",
+"authors": [
+"Bob Barnett"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Liked Ogden",
+"type": "ESSAY",
+"len": null,
+"page": "124|124.1",
+"authors": [
+"Carlysle Gentry"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Top Honors Ours",
+"type": "ESSAY",
+"len": null,
+"page": "124|124.2",
+"authors": [
+"Claude Held"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Likes Masters of Fantasy",
+"type": "ESSAY",
+"len": null,
+"page": "125|125.1",
+"authors": [
+"Wayne F. Hunt"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Back Issues for Sale",
+"type": "ESSAY",
+"len": null,
+"page": "125|125.2",
+"authors": [
+"Mrs. Jewel Zanko"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Complete Sets",
+"type": "ESSAY",
+"len": null,
+"page": "125|125.3",
+"authors": [
+"Louis E. Mazzolla"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Want to Trade?",
+"type": "ESSAY",
+"len": null,
+"page": "125|125.4",
+"authors": [
+"Walter A. 'Coswall' Coslet"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): To the Highest Bidder",
+"type": "ESSAY",
+"len": null,
+"page": "125|125.5",
+"authors": [
+"Rudolph Sukenik"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Collection on Sale",
+"type": "ESSAY",
+"len": null,
+"page": "126|126.1",
+"authors": [
+"Ruth Weinstein"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Back Issue Wanted",
+"type": "ESSAY",
+"len": null,
+"page": "126|126.2",
+"authors": [
+"James Lewis"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): Wants More Shiel",
+"type": "ESSAY",
+"len": null,
+"page": "126|126.3",
+"authors": [
+"R. A. Boydston"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1950): More Science Fiction, Please",
+"type": "ESSAY",
+"len": null,
+"page": "126|126.4",
+"authors": [
+"Danny Hetrick"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58039,
+"title": "Famous Fantastic Mysteries, June 1950",
+"date": "1950-06-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, June 1950)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "The Adventure of Wyndham Smith (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "12",
+"authors": [
+"S. Fowler Wright"
+],
+"real": []
+},
+{
+"title": "Mrs. Amworth",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "106",
+"authors": [
+"E. F. Benson"
+],
+"real": []
+},
+{
+"title": "The Outsider",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "114",
+"authors": [
+"H. P. Lovecraft"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Saunders"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 1066232,
+"title": "Famous Fantastic Mysteries, June 1950",
+"date": "1950-06-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, June 1950)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "The Adventure of Wyndham Smith (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "12",
+"authors": [
+"S. Fowler Wright"
+],
+"real": []
+},
+{
+"title": "Mrs. Amworth",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "106",
+"authors": [
+"E. F. Benson"
+],
+"real": []
+},
+{
+"title": "The Outsider",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "114",
+"authors": [
+"H. P. Lovecraft"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Saunders"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58005,
+"title": "Famous Fantastic Mysteries, August 1950",
+"date": "1950-08-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, August 1950)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1950): Beynon Enjoyable",
+"type": "ESSAY",
+"len": null,
+"page": "8",
+"authors": [
+"Bob Silverberg"
+],
+"real": [
+"Robert Silverberg"
+]
+},
+{
+"title": "The Time Machine (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "10",
+"authors": [
+"H. G. Wells"
+],
+"real": []
+},
+{
+"title": "Donovan's Brain (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "54",
+"authors": [
+"Curt Siodmak"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Saunders"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 1066233,
+"title": "Famous Fantastic Mysteries, August 1950",
+"date": "1950-08-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, August 1950)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1950): Beynon Enjoyable",
+"type": "ESSAY",
+"len": null,
+"page": "8",
+"authors": [
+"Bob Silverberg"
+],
+"real": [
+"Robert Silverberg"
+]
+},
+{
+"title": "The Time Machine (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "10",
+"authors": [
+"H. G. Wells"
+],
+"real": []
+},
+{
+"title": "Donovan's Brain (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "54",
+"authors": [
+"Curt Siodmak"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Saunders"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58057,
+"title": "Famous Fantastic Mysteries, October 1950",
+"date": "1950-10-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, October 1950)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "The Woman Who Couldn't Die (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "12",
+"authors": [
+"Arthur Stringer"
+],
+"real": []
+},
+{
+"title": "In Planders' Wood",
+"type": "POEM",
+"len": null,
+"page": "84",
+"authors": [
+"M. Ludington Cain"
+],
+"real": []
+},
+{
+"title": "The Weigher of Souls",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "86",
+"authors": [
+"AndrÃ© Maurois"
+],
+"real": []
+},
+{
+"title": "Nor Moon by Night",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "116",
+"authors": [
+"Peter Cartur"
+],
+"real": [
+"Peter Grainger"
+]
+}
+],
+"cover_artists": [
+"De Soto"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 1066234,
+"title": "Famous Fantastic Mysteries, October 1950",
+"date": "1950-10-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, October 1950)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "The Woman Who Couldn't Die (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "12",
+"authors": [
+"Arthur Stringer"
+],
+"real": []
+},
+{
+"title": "In Planders' Wood",
+"type": "POEM",
+"len": null,
+"page": "84",
+"authors": [
+"M. Ludington Cain"
+],
+"real": []
+},
+{
+"title": "The Weigher of Souls",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "86",
+"authors": [
+"AndrÃ© Maurois"
+],
+"real": []
+},
+{
+"title": "Nor Moon by Night",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "116",
+"authors": [
+"Peter Cartur"
+],
+"real": [
+"Peter Grainger"
+]
+}
+],
+"cover_artists": [
+"De Soto"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58028,
+"title": "Famous Fantastic Mysteries, January 1951",
+"date": "1951-01-00",
+"items": [
+{
+"title": "Brood of the Witch-Queen (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "2",
+"authors": [
+"Sax Rohmer"
+],
+"real": []
+},
+{
+"title": "The Disintegration Machine",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "97",
+"authors": [
+"Sir Arthur Conan Doyle"
+],
+"real": [
+"Arthur Conan Doyle"
+]
+},
+{
+"title": "In the Next Issue (Famous Fantastic Mysteries, January 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "102",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "The King of the World",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "105",
+"authors": [
+"A. E. Coppard"
+],
+"real": []
+},
+{
+"title": "The Reader's' Viewpoint (Famous Fantastic Mysteries, January 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "109",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, January 1951): Mr. Moskowitz Explains",
+"type": "ESSAY",
+"len": null,
+"page": "110",
+"authors": [
+"Sam Moskowitz"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 1066235,
+"title": "Famous Fantastic Mysteries, January 1951",
+"date": "1951-01-00",
+"items": [
+{
+"title": "Brood of the Witch-Queen (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "2",
+"authors": [
+"Sax Rohmer"
+],
+"real": []
+},
+{
+"title": "The Disintegration Machine",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "97",
+"authors": [
+"Sir Arthur Conan Doyle"
+],
+"real": [
+"Arthur Conan Doyle"
+]
+},
+{
+"title": "In the Next Issue (Famous Fantastic Mysteries, January 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "102",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "The King of the World",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "105",
+"authors": [
+"A. E. Coppard"
+],
+"real": []
+},
+{
+"title": "The Reader's' Viewpoint (Famous Fantastic Mysteries, January 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "109",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, January 1951): Mr. Moskowitz Explains",
+"type": "ESSAY",
+"len": null,
+"page": "110",
+"authors": [
+"Sam Moskowitz"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58045,
+"title": "Famous Fantastic Mysteries, March 1951",
+"date": "1951-03-00",
+"items": [
+{
+"title": "The Threshold of Fear (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "2",
+"authors": [
+"Arthur J. Rees"
+],
+"real": []
+},
+{
+"title": "The Music of Erich Zann",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "90",
+"authors": [
+"H. P. Lovecraft"
+],
+"real": []
+},
+{
+"title": "The Dancing-Partner",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "95",
+"authors": [
+"Jerome K. Jerome"
+],
+"real": []
+},
+{
+"title": "Golden Apple",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "99",
+"authors": [
+"C. H. Liddell"
+],
+"real": [
+"Henry Kuttner",
+"C. L. Moore"
+]
+},
+{
+"title": "In the Next Issue (Famous Fantastic Mysteries, March 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "107",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "The Reader's' Viewpoint (Famous Fantastic Mysteries, March 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "108",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 1066236,
+"title": "Famous Fantastic Mysteries, March 1951",
+"date": "1951-03-00",
+"items": [
+{
+"title": "The Threshold of Fear (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "2",
+"authors": [
+"Arthur J. Rees"
+],
+"real": []
+},
+{
+"title": "The Music of Erich Zann",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "90",
+"authors": [
+"H. P. Lovecraft"
+],
+"real": []
+},
+{
+"title": "The Dancing-Partner",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "95",
+"authors": [
+"Jerome K. Jerome"
+],
+"real": []
+},
+{
+"title": "Golden Apple",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "99",
+"authors": [
+"C. H. Liddell"
+],
+"real": [
+"Henry Kuttner",
+"C. L. Moore"
+]
+},
+{
+"title": "In the Next Issue (Famous Fantastic Mysteries, March 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "107",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "The Reader's' Viewpoint (Famous Fantastic Mysteries, March 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "108",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58046,
+"title": "Famous Fantastic Mysteries, May 1951",
+"date": "1951-05-00",
+"items": [
+{
+"title": "The Slayer of Souls (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "2",
+"authors": [
+"Robert W. Chambers"
+],
+"real": []
+},
+{
+"title": "In the Next Issue (Famous Fantastic Mysteries, May 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "95",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "Lukundoo",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "96",
+"authors": [
+"Edward Lucas White"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, May 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "105",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 1066237,
+"title": "Famous Fantastic Mysteries, May 1951",
+"date": "1951-05-00",
+"items": [
+{
+"title": "The Slayer of Souls (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "2",
+"authors": [
+"Robert W. Chambers"
+],
+"real": []
+},
+{
+"title": "In the Next Issue (Famous Fantastic Mysteries, May 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "95",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "Lukundoo",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "96",
+"authors": [
+"Edward Lucas White"
+],
+"real": []
+},
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, May 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "105",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58030,
+"title": "Famous Fantastic Mysteries, July 1951",
+"date": "1951-07-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, July 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "The War of the Worlds (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "16",
+"authors": [
+"H. G. Wells"
+],
+"real": []
+},
+{
+"title": "In the Next Issue (Famous Fantastic Mysteries, July 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "83",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "TchÃ©riapin",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "98",
+"authors": [
+"Sax Rohmer"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 1066238,
+"title": "Famous Fantastic Mysteries, July 1951",
+"date": "1951-07-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, July 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "The War of the Worlds (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "16",
+"authors": [
+"H. G. Wells"
+],
+"real": []
+},
+{
+"title": "In the Next Issue (Famous Fantastic Mysteries, July 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "83",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "TchÃ©riapin",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "98",
+"authors": [
+"Sax Rohmer"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58058,
+"title": "Famous Fantastic Mysteries, October 1951",
+"date": "1951-10-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, October 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, October 1951): Fanzine is Expanding",
+"type": "ESSAY",
+"len": null,
+"page": "12",
+"authors": [
+"Bob Silverberg"
+],
+"real": [
+"Robert Silverberg"
+]
+},
+{
+"title": "Rebirth (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "14",
+"authors": [
+"Thomas Calvert McClary"
+],
+"real": []
+},
+{
+"title": "In the Next Issue (Famous Fantastic Mysteries, October 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "75",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Monsieur Seeks a Wife",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "77",
+"authors": [
+"Margaret Irwin"
+],
+"real": []
+},
+{
+"title": "The Man Who Collected Poe",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "90",
+"authors": [
+"Robert Bloch"
+],
+"real": []
+},
+{
+"title": "Golden Atlantis",
+"type": "POEM",
+"len": null,
+"page": "90",
+"authors": [
+"Richard Butler Glaenzer"
+],
+"real": []
+},
+{
+"title": "Nobody's House",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "92",
+"authors": [
+"A. M. Burrage"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 1066239,
+"title": "Famous Fantastic Mysteries, October 1951",
+"date": "1951-10-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, October 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, October 1951): Fanzine is Expanding",
+"type": "ESSAY",
+"len": null,
+"page": "12",
+"authors": [
+"Bob Silverberg"
+],
+"real": [
+"Robert Silverberg"
+]
+},
+{
+"title": "Rebirth (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "14",
+"authors": [
+"Thomas Calvert McClary"
+],
+"real": []
+},
+{
+"title": "In the Next Issue (Famous Fantastic Mysteries, October 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "75",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Monsieur Seeks a Wife",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "77",
+"authors": [
+"Margaret Irwin"
+],
+"real": []
+},
+{
+"title": "The Man Who Collected Poe",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "90",
+"authors": [
+"Robert Bloch"
+],
+"real": []
+},
+{
+"title": "Golden Atlantis",
+"type": "POEM",
+"len": null,
+"page": "90",
+"authors": [
+"Richard Butler Glaenzer"
+],
+"real": []
+},
+{
+"title": "Nobody's House",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "92",
+"authors": [
+"A. M. Burrage"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58017,
+"title": "Famous Fantastic Mysteries, December 1951",
+"date": "1951-12-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, December 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "The Gray Mahatma (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "12",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Enjoyed Wells Issue",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.1",
+"authors": [
+"Hans (Wolf) Nintzel"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Wants More Lovecraft",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.2",
+"authors": [
+"Lin Carter"
+],
+"real": []
+},
+{
+"title": "In the Next Issue (Famous Fantastic Mysteries, December 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "67",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "\"âAnd He Built a Crooked House\"",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "68",
+"authors": [
+"Robert A. Heinlein"
+],
+"real": []
+},
+{
+"title": "The Spirit Boats",
+"type": "POEM",
+"len": null,
+"page": "78",
+"authors": [
+"Minna Irving"
+],
+"real": []
+},
+{
+"title": "The Book",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "80",
+"authors": [
+"Margaret Irwin"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Recommends a Fantasy",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.1",
+"authors": [
+"Fantasy Fiend"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Liked Tcheriapin",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.2",
+"authors": [
+"Jan Romanoff"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Carried Away by Wells",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.3",
+"authors": [
+"William L. Caudill"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Likes Larger F.F.M.",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.4",
+"authors": [
+"Henry D. Barnett"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Back Issues Available",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.5",
+"authors": [
+"Gerry de la Ree"
+],
+"real": []
+},
+{
+"title": "Pickman's Model",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "88",
+"authors": [
+"H. P. Lovecraft"
+],
+"real": []
+},
+{
+"title": "He Didn't Want Soup",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "96",
+"authors": [
+"Paul Ernst"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Lawrence's Fine Cover",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.1",
+"authors": [
+"Lynn A. Hickman"
+],
+"real": [
+"Lynn Hickman"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Asking for Heinlein",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.2",
+"authors": [
+"Dean Wiederhold"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Wants Old F.F.M.s",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.3",
+"authors": [
+"Douglas Mitchell"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Offered for Sale",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.4",
+"authors": [
+"Vaughan Ralf Heiner"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Attracted by Wells' Novel",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.5",
+"authors": [
+"William A. Peck"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Congratulations to F.F.M.",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.6",
+"authors": [
+"Gregg Calkins"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Checking on Jules Verne",
+"type": "ESSAY",
+"len": null,
+"page": "106",
+"authors": [
+"Edward Nickerson"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Praising Lawrence's Work",
+"type": "ESSAY",
+"len": null,
+"page": "95|95.1",
+"authors": [
+"Robert Dennis McNamara"
+],
+"real": [
+"Robert D. McNamarra"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Want Burroughs Books?",
+"type": "ESSAY",
+"len": null,
+"page": "95|95.2",
+"authors": [
+"Thomas E. Durst"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Has Back Issues",
+"type": "ESSAY",
+"len": null,
+"page": "95|95.3",
+"authors": [
+"Jack Marsh"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Want List",
+"type": "ESSAY",
+"len": null,
+"page": "95|95.4",
+"authors": [
+"K. Everett"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Intersting Offer",
+"type": "ESSAY",
+"len": null,
+"page": "95|95.5",
+"authors": [
+"Harold D. Warnke"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Wants Rohmer Listing",
+"type": "ESSAY",
+"len": null,
+"page": "95|95.6",
+"authors": [
+"R. E. Fontinelle"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Disposing of Mags",
+"type": "ESSAY",
+"len": null,
+"page": "95|95.7",
+"authors": [
+"John W. Blackburn"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Back Issues Offered",
+"type": "ESSAY",
+"len": null,
+"page": "105|105.1",
+"authors": [
+"Mrs. Mary B. Spitzer"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Wants Zagat and Taine",
+"type": "ESSAY",
+"len": null,
+"page": "105|105.2",
+"authors": [
+"Dirce S. Archer"
+],
+"real": [
+"Mrs. Dirce Archer"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Want Back Issues?",
+"type": "ESSAY",
+"len": null,
+"page": "105|105.3",
+"authors": [
+"Edward Gentry"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Rohmer Is Tops",
+"type": "ESSAY",
+"len": null,
+"page": "109|109.1",
+"authors": [
+"David Mayne Johnston"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Can You Help?",
+"type": "ESSAY",
+"len": null,
+"page": "109|109.2",
+"authors": [
+"Mrs. Hazel Taylor"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Needs Help",
+"type": "ESSAY",
+"len": null,
+"page": "110|110.1",
+"authors": [
+"George Williams (I)"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Wants Letters",
+"type": "ESSAY",
+"len": null,
+"page": "110|110.2",
+"authors": [
+"Lawrence Long"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Needs Haggard List",
+"type": "ESSAY",
+"len": null,
+"page": "111|111.1",
+"authors": [
+"David Beams"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Criticism",
+"type": "ESSAY",
+"len": null,
+"page": "111|111.2",
+"authors": [
+"B. Barnett"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Correction",
+"type": "ESSAY",
+"len": null,
+"page": "112|112.1",
+"authors": [
+"George X. Basarab"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Wants F.F.M. Issues",
+"type": "ESSAY",
+"len": null,
+"page": "112|112.2",
+"authors": [
+"Elaine A. de Uncein"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Important Announcement",
+"type": "ESSAY",
+"len": null,
+"page": "112|112.3",
+"authors": [
+"Walter Dunkelberger"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 1066240,
+"title": "Famous Fantastic Mysteries, December 1951",
+"date": "1951-12-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, December 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "The Gray Mahatma (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "12",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Enjoyed Wells Issue",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.1",
+"authors": [
+"Hans (Wolf) Nintzel"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Wants More Lovecraft",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.2",
+"authors": [
+"Lin Carter"
+],
+"real": []
+},
+{
+"title": "In the Next Issue (Famous Fantastic Mysteries, December 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "67",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "\"âAnd He Built a Crooked House\"",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "68",
+"authors": [
+"Robert A. Heinlein"
+],
+"real": []
+},
+{
+"title": "The Spirit Boats",
+"type": "POEM",
+"len": null,
+"page": "78",
+"authors": [
+"Minna Irving"
+],
+"real": []
+},
+{
+"title": "The Book",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "80",
+"authors": [
+"Margaret Irwin"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Recommends a Fantasy",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.1",
+"authors": [
+"Fantasy Fiend"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Liked Tcheriapin",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.2",
+"authors": [
+"Jan Romanoff"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Carried Away by Wells",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.3",
+"authors": [
+"William L. Caudill"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Likes Larger F.F.M.",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.4",
+"authors": [
+"Henry D. Barnett"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Back Issues Available",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.5",
+"authors": [
+"Gerry de la Ree"
+],
+"real": []
+},
+{
+"title": "Pickman's Model",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "88",
+"authors": [
+"H. P. Lovecraft"
+],
+"real": []
+},
+{
+"title": "He Didn't Want Soup",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "96",
+"authors": [
+"Paul Ernst"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Lawrence's Fine Cover",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.1",
+"authors": [
+"Lynn A. Hickman"
+],
+"real": [
+"Lynn Hickman"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Asking for Heinlein",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.2",
+"authors": [
+"Dean Wiederhold"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Wants Old F.F.M.s",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.3",
+"authors": [
+"Douglas Mitchell"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Offered for Sale",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.4",
+"authors": [
+"Vaughan Ralf Heiner"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Attracted by Wells' Novel",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.5",
+"authors": [
+"William A. Peck"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Congratulations to F.F.M.",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.6",
+"authors": [
+"Gregg Calkins"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Checking on Jules Verne",
+"type": "ESSAY",
+"len": null,
+"page": "106",
+"authors": [
+"Edward Nickerson"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Praising Lawrence's Work",
+"type": "ESSAY",
+"len": null,
+"page": "95|95.1",
+"authors": [
+"Robert Dennis McNamara"
+],
+"real": [
+"Robert D. McNamarra"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Want Burroughs Books?",
+"type": "ESSAY",
+"len": null,
+"page": "95|95.2",
+"authors": [
+"Thomas E. Durst"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Has Back Issues",
+"type": "ESSAY",
+"len": null,
+"page": "95|95.3",
+"authors": [
+"Jack Marsh"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Want List",
+"type": "ESSAY",
+"len": null,
+"page": "95|95.4",
+"authors": [
+"K. Everett"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Intersting Offer",
+"type": "ESSAY",
+"len": null,
+"page": "95|95.5",
+"authors": [
+"Harold D. Warnke"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Wants Rohmer Listing",
+"type": "ESSAY",
+"len": null,
+"page": "95|95.6",
+"authors": [
+"R. E. Fontinelle"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Disposing of Mags",
+"type": "ESSAY",
+"len": null,
+"page": "95|95.7",
+"authors": [
+"John W. Blackburn"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Back Issues Offered",
+"type": "ESSAY",
+"len": null,
+"page": "105|105.1",
+"authors": [
+"Mrs. Mary B. Spitzer"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Wants Zagat and Taine",
+"type": "ESSAY",
+"len": null,
+"page": "105|105.2",
+"authors": [
+"Dirce S. Archer"
+],
+"real": [
+"Mrs. Dirce Archer"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Want Back Issues?",
+"type": "ESSAY",
+"len": null,
+"page": "105|105.3",
+"authors": [
+"Edward Gentry"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Rohmer Is Tops",
+"type": "ESSAY",
+"len": null,
+"page": "109|109.1",
+"authors": [
+"David Mayne Johnston"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Can You Help?",
+"type": "ESSAY",
+"len": null,
+"page": "109|109.2",
+"authors": [
+"Mrs. Hazel Taylor"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Needs Help",
+"type": "ESSAY",
+"len": null,
+"page": "110|110.1",
+"authors": [
+"George Williams (I)"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Wants Letters",
+"type": "ESSAY",
+"len": null,
+"page": "110|110.2",
+"authors": [
+"Lawrence Long"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Needs Haggard List",
+"type": "ESSAY",
+"len": null,
+"page": "111|111.1",
+"authors": [
+"David Beams"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Criticism",
+"type": "ESSAY",
+"len": null,
+"page": "111|111.2",
+"authors": [
+"B. Barnett"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Correction",
+"type": "ESSAY",
+"len": null,
+"page": "112|112.1",
+"authors": [
+"George X. Basarab"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Wants F.F.M. Issues",
+"type": "ESSAY",
+"len": null,
+"page": "112|112.2",
+"authors": [
+"Elaine A. de Uncein"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, December 1951): Important Announcement",
+"type": "ESSAY",
+"len": null,
+"page": "112|112.3",
+"authors": [
+"Walter Dunkelberger"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58026,
+"title": "Famous Fantastic Mysteries, February 1952",
+"date": "1952-02-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, February 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1952): Needs Help with Index",
+"type": "ESSAY",
+"len": null,
+"page": "12",
+"authors": [
+"Donald B. Day"
+],
+"real": []
+},
+{
+"title": "The Valley of Eyes Unseen (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "16",
+"authors": [
+"Gilbert Collins"
+],
+"real": []
+},
+{
+"title": "In the Next Issue (Famous Fantastic Mysteries, February 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "45",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Blight",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "98",
+"authors": [
+"L. Major Reynolds"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 1066241,
+"title": "Famous Fantastic Mysteries, February 1952",
+"date": "1952-02-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, February 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1952): Needs Help with Index",
+"type": "ESSAY",
+"len": null,
+"page": "12",
+"authors": [
+"Donald B. Day"
+],
+"real": []
+},
+{
+"title": "The Valley of Eyes Unseen (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "16",
+"authors": [
+"Gilbert Collins"
+],
+"real": []
+},
+{
+"title": "In the Next Issue (Famous Fantastic Mysteries, February 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "45",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Blight",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "98",
+"authors": [
+"L. Major Reynolds"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 57997,
+"title": "Famous Fantastic Mysteries, April 1952",
+"date": "1952-04-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, April 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1952): Mundy's Story Rewarding",
+"type": "ESSAY",
+"len": null,
+"page": "8",
+"authors": [
+"Jim Harmon"
+],
+"real": []
+},
+{
+"title": "The Death Maker (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "16",
+"authors": [
+"Austin J. Small"
+],
+"real": []
+},
+{
+"title": "In the Next Issue (Famous Fantastic Mysteries, April 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "95",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The New Sun",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "96",
+"authors": [
+"J. S. Fletcher"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 1066242,
+"title": "Famous Fantastic Mysteries, April 1952",
+"date": "1952-04-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, April 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1952): Mundy's Story Rewarding",
+"type": "ESSAY",
+"len": null,
+"page": "8",
+"authors": [
+"Jim Harmon"
+],
+"real": []
+},
+{
+"title": "The Death Maker (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "16",
+"authors": [
+"Austin J. Small"
+],
+"real": []
+},
+{
+"title": "In the Next Issue (Famous Fantastic Mysteries, April 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "95",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The New Sun",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "96",
+"authors": [
+"J. S. Fletcher"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 58040,
+"title": "Famous Fantastic Mysteries Combined with Fantastic Novels Magazine, June 1952",
+"date": "1952-06-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, June 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "Her Ways Are Death (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "10",
+"authors": [
+"Jack Mann"
+],
+"real": [
+"E. Charles Vivian"
+]
+},
+{
+"title": "To an Aztec Relic",
+"type": "POEM",
+"len": null,
+"page": "91",
+"authors": [
+"Paul Wilson (II)"
+],
+"real": []
+},
+{
+"title": "Gentlemen, Be Seated",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "92",
+"authors": [
+"Robert Heinlein"
+],
+"real": [
+"Robert A. Heinlein"
+]
+},
+{
+"title": "I'll Take Care of You",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "98",
+"authors": [
+"Oliver La Farge"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1952): Fan Vet Convention",
+"type": "ESSAY",
+"len": null,
+"page": "104",
+"authors": [
+"James V. Taurasi"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 1066243,
+"title": "Famous Fantastic Mysteries Combined with Fantastic Novels Magazine, June 1952",
+"date": "1952-06-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, June 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "Her Ways Are Death (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "10",
+"authors": [
+"Jack Mann"
+],
+"real": [
+"E. Charles Vivian"
+]
+},
+{
+"title": "To an Aztec Relic",
+"type": "POEM",
+"len": null,
+"page": "91",
+"authors": [
+"Paul Wilson (II)"
+],
+"real": []
+},
+{
+"title": "Gentlemen, Be Seated",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "92",
+"authors": [
+"Robert Heinlein"
+],
+"real": [
+"Robert A. Heinlein"
+]
+},
+{
+"title": "I'll Take Care of You",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "98",
+"authors": [
+"Oliver La Farge"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1952): Fan Vet Convention",
+"type": "ESSAY",
+"len": null,
+"page": "104",
+"authors": [
+"James V. Taurasi"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 57984,
+"title": "Famous Fantastic Mysteries Combined with Fantastic Novels Magazine, August 1952",
+"date": "1952-08-00",
+"items": [
+{
+"title": "The Reader's' Viewpoint (Famous Fantastic Mysteries, August 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "The White Wolf (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "12",
+"authors": [
+"Franklin Gregory"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1952): A Friend Through the Years",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.1",
+"authors": [
+"Gregg Calkins"
+],
+"real": []
+},
+{
+"title": "The Green Splotches",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "76",
+"authors": [
+"T. S. Stribling"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1952): A Fine Summing-Up",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.1",
+"authors": [
+"Richard Reader"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1952): About Science Fiction in F.F.M.",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.2",
+"authors": [
+"Robert D. McNamara"
+],
+"real": [
+"Robert D. McNamarra"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1952): Enjoyed \"The Death Maker\"",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.3",
+"authors": [
+"Fred Chappelle"
+],
+"real": [
+"Fred Chappell"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1952): ISFCC Announcement",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.1",
+"authors": [
+"Robert P. Hoskins"
+],
+"real": [
+"Robert Hoskins"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1952): Asking for Sax Rohmer",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.2",
+"authors": [
+"Maurice Lubin"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1952): Likes Our Covers",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.3",
+"authors": [
+"Thomas L. McCalvy"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1952): For Servicemen in England",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.4",
+"authors": [
+"David S. Gardner"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1952): Notice to Fans",
+"type": "ESSAY",
+"len": null,
+"page": "112|112.1",
+"authors": [
+"M. McNeil"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1952): Can You Help?",
+"type": "ESSAY",
+"len": null,
+"page": "112|112.2",
+"authors": [
+"A. Pancoe"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1952): Complaint",
+"type": "ESSAY",
+"len": null,
+"page": "112|112.3",
+"authors": [
+"Eugene H. Hornung"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1952): Stupendous!",
+"type": "ESSAY",
+"len": null,
+"page": "113|113.1",
+"authors": [
+"Arlos Beal"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1952): She Makes an Offer!",
+"type": "ESSAY",
+"len": null,
+"page": "113|113.2",
+"authors": [
+"Barbara Witek"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1952): Superb Fantasy",
+"type": "ESSAY",
+"len": null,
+"page": "113|113.3",
+"authors": [
+"Richard Z. Ward"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Saunders"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 1066244,
+"title": "Famous Fantastic Mysteries Combined with Fantastic Novels Magazine, August 1952",
+"date": "1952-08-00",
+"items": [
+{
+"title": "The Reader's' Viewpoint (Famous Fantastic Mysteries, August 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "The White Wolf (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "12",
+"authors": [
+"Franklin Gregory"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1952): A Friend Through the Years",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.1",
+"authors": [
+"Gregg Calkins"
+],
+"real": []
+},
+{
+"title": "The Green Splotches",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "76",
+"authors": [
+"T. S. Stribling"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1952): A Fine Summing-Up",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.1",
+"authors": [
+"Richard Reader"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1952): About Science Fiction in F.F.M.",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.2",
+"authors": [
+"Robert D. McNamara"
+],
+"real": [
+"Robert D. McNamarra"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1952): Enjoyed \"The Death Maker\"",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.3",
+"authors": [
+"Fred Chappelle"
+],
+"real": [
+"Fred Chappell"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1952): ISFCC Announcement",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.1",
+"authors": [
+"Robert P. Hoskins"
+],
+"real": [
+"Robert Hoskins"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1952): Asking for Sax Rohmer",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.2",
+"authors": [
+"Maurice Lubin"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1952): Likes Our Covers",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.3",
+"authors": [
+"Thomas L. McCalvy"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1952): For Servicemen in England",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.4",
+"authors": [
+"David S. Gardner"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1952): Notice to Fans",
+"type": "ESSAY",
+"len": null,
+"page": "112|112.1",
+"authors": [
+"M. McNeil"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1952): Can You Help?",
+"type": "ESSAY",
+"len": null,
+"page": "112|112.2",
+"authors": [
+"A. Pancoe"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1952): Complaint",
+"type": "ESSAY",
+"len": null,
+"page": "112|112.3",
+"authors": [
+"Eugene H. Hornung"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1952): Stupendous!",
+"type": "ESSAY",
+"len": null,
+"page": "113|113.1",
+"authors": [
+"Arlos Beal"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1952): She Makes an Offer!",
+"type": "ESSAY",
+"len": null,
+"page": "113|113.2",
+"authors": [
+"Barbara Witek"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, August 1952): Superb Fantasy",
+"type": "ESSAY",
+"len": null,
+"page": "113|113.3",
+"authors": [
+"Richard Z. Ward"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Saunders"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 57988,
+"title": "Famous Fantastic Mysteries Combined with Fantastic Novels Magazine, October 1952",
+"date": "1952-10-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, October 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, October 1952): World Science-Fiction Convention",
+"type": "ESSAY",
+"len": null,
+"page": "8",
+"authors": [
+"Bea Mahaffey"
+],
+"real": []
+},
+{
+"title": "The Bat Flies Low (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "12",
+"authors": [
+"Sax Rohmer"
+],
+"real": []
+},
+{
+"title": "Thus I Refute Beelzy",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "102",
+"authors": [
+"John Collier"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 57985,
+"title": "Famous Fantastic Mysteries Combined with Fantastic Novels Magazine, December 1952",
+"date": "1952-12-00",
+"items": [
+{
+"title": "The Reader's' Viewpoint (Famous Fantastic Mysteries, December 1952)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "Skull-Face",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "12",
+"authors": [
+"Robert E. Howard"
+],
+"real": []
+},
+{
+"title": "Killdozer!",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "54",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+},
+{
+"title": "The Homecoming",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "86",
+"authors": [
+"Ray Bradbury"
+],
+"real": []
+},
+{
+"title": "The Coat",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "94",
+"authors": [
+"A. E. D. Smith"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 57986,
+"title": "Famous Fantastic Mysteries Combined with Fantastic Novels Magazine, February 1953",
+"date": "1953-02-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, February 1953)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "Full Moon (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "10",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1953): An Excellent Choice",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.1",
+"authors": [
+"Robert E. Briney"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1953): Fleming Hears from an Author",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.1",
+"authors": [
+"Jim Fleming"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1953): Mr. Stribling's Letter to Fleming",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.2",
+"authors": [
+"T. S. Stribling"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1953): Enjoyed Rohmer's Story",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.3",
+"authors": [
+"John C. Denny"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1953): Wants Straight Fantasy",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.4",
+"authors": [
+"Calvin Thos. Beck"
+],
+"real": [
+"Calvin Thomas Beck"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1953): Requesting Information",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.5",
+"authors": [
+"Larry Farsace"
+],
+"real": []
+},
+{
+"title": "Ekrerar of Palorae",
+"type": "POEM",
+"len": null,
+"page": "94",
+"authors": [
+"Louis M. Hobbs"
+],
+"real": []
+},
+{
+"title": "The Eyes of Dromu",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "96",
+"authors": [
+"Cedric R. Mentiplay"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1953): Open Letter to All Readers of Science Fiction and Fantasy",
+"type": "ESSAY",
+"len": null,
+"page": "108",
+"authors": [
+"Fred Goetz"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1953): Needs Haggard Item",
+"type": "ESSAY",
+"len": null,
+"page": "110",
+"authors": [
+"Harold F. Keating"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1953): More Enjoyable Than Ever",
+"type": "ESSAY",
+"len": null,
+"page": "113",
+"authors": [
+"P. H. Malone"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1953): Rohmer Fan",
+"type": "ESSAY",
+"len": null,
+"page": "106|106.1",
+"authors": [
+"John R. Colombo"
+],
+"real": [
+"John Robert Colombo"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1953): Wants More Collier Stories",
+"type": "ESSAY",
+"len": null,
+"page": "106|106.2",
+"authors": [
+"Robert P. Hoskins"
+],
+"real": [
+"Robert Hoskins"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1953): Paging Dirce Archer",
+"type": "ESSAY",
+"len": null,
+"page": "109|109.1",
+"authors": [
+"Mrs. C. W. Vallette"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1953): Not a Jack Mann Fan",
+"type": "ESSAY",
+"len": null,
+"page": "109|109.2",
+"authors": [
+"Dale E. Ridgeway"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1953): Likes Horror-Fantasy",
+"type": "ESSAY",
+"len": null,
+"page": "109|109.3",
+"authors": [
+"Burton Satz"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1953): An Ardent Reader",
+"type": "ESSAY",
+"len": null,
+"page": "111|111.1",
+"authors": [
+"William B. Wilson"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1953): Australia Calling Us",
+"type": "ESSAY",
+"len": null,
+"page": "111|111.2",
+"authors": [
+"Tom A. Cowles"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1953): She Wants a Rare Book",
+"type": "ESSAY",
+"len": null,
+"page": "112|112.1",
+"authors": [
+"Mrs. Jacquelyn Lewis"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, February 1953): Clippings Wanted",
+"type": "ESSAY",
+"len": null,
+"page": "112|112.2",
+"authors": [
+"Hugh Brock"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Saunders"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 57983,
+"title": "Famous Fantastic Mysteries Combined with Fantastic Novels Magazine, April 1953",
+"date": "1953-04-00",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, April 1953)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1953): Fantasy Vet-Convention",
+"type": "ESSAY",
+"len": null,
+"page": "8",
+"authors": [
+"James V. Taurasi"
+],
+"real": []
+},
+{
+"title": "The Wanderer's Necklace (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "12",
+"authors": [
+"H. Rider Haggard"
+],
+"real": []
+},
+{
+"title": "On the Rim of Space",
+"type": "POEM",
+"len": null,
+"page": "92",
+"authors": [
+"Stanton A. Coblentz"
+],
+"real": []
+},
+{
+"title": "The Espadrilles",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "94",
+"authors": [
+"Margaret St. Clair"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, April 1953): \"Thank You\" for F.F.M.",
+"type": "ESSAY",
+"len": null,
+"page": "100",
+"authors": [
+"William F. Nolan"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 57987,
+"title": "Famous Fantastic Mysteries Combined with Fantastic Novels Magazine, June 1953",
+"date": "1953-06-00",
+"items": [
+{
+"title": "The Reader's' Viewpoint (Famous Fantastic Mysteries, June 1953)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"Mary Gnaedinger"
+],
+"real": []
+},
+{
+"title": "Anthem",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "12",
+"authors": [
+"Ayn Rand"
+],
+"real": []
+},
+{
+"title": "Dirge (Aztec)",
+"type": "POEM",
+"len": null,
+"page": "34",
+"authors": [
+"Louis M. Hobbs"
+],
+"real": []
+},
+{
+"title": "The Metamorphosis",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "36",
+"authors": [
+"Franz Kafka"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): New Year's Greeting",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.1",
+"authors": [
+"Harold Billings"
+],
+"real": []
+},
+{
+"title": "Haunted Hostel",
+"type": "POEM",
+"len": null,
+"page": "62",
+"authors": [
+"Emma L'Hommedieu Frost"
+],
+"real": []
+},
+{
+"title": "Worms of the Earth",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "64",
+"authors": [
+"Robert E. Howard"
+],
+"real": []
+},
+{
+"title": "Find the Happy Children",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "78",
+"authors": [
+"Benjamin Ferris"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): Fantasy Vet's Convention",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.1",
+"authors": [
+"Ray Van Houten"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): Liked Full Moon",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.2",
+"authors": [
+"Lyle Kessler"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): The New Index",
+"type": "ESSAY",
+"len": null,
+"page": "8|8.3",
+"authors": [
+"Donald B. Day"
+],
+"real": []
+},
+{
+"title": "Pendulum",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "86",
+"authors": [
+"Ray Bradbury",
+"Henry Hasse"
+],
+"real": []
+},
+{
+"title": "Bernie Goes to Hell",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "92",
+"authors": [
+"Arthur Dekker Savage"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): Remembering the Death Maker",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.1",
+"authors": [
+"Donald Allgeier"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): Philly Convention",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.2",
+"authors": [
+"Dave Hammond"
+],
+"real": [
+"Dave Jenrette"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): 11th World Science Fiction Convention",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.3",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): A Most Wonderful Story",
+"type": "ESSAY",
+"len": null,
+"page": "10|10.4",
+"authors": [
+"Walter Spiegl"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): Annual Midwest Conference",
+"type": "ESSAY",
+"len": null,
+"page": "101|101.1",
+"authors": [
+"Donald E. Ford"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): Mundy in the Movies",
+"type": "ESSAY",
+"len": null,
+"page": "101|101.2",
+"authors": [
+"Irving Glassman"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): Robert Chambers Enthusiast",
+"type": "ESSAY",
+"len": null,
+"page": "101|101.3",
+"authors": [
+"G. Samkofsky"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): Wants Some Humor",
+"type": "ESSAY",
+"len": null,
+"page": "101|101.4",
+"authors": [
+"Tom Condit"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): Back Issues Available",
+"type": "ESSAY",
+"len": null,
+"page": "102|102.1",
+"authors": [
+"L. D. Park"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): Enjoyed Full Moon",
+"type": "ESSAY",
+"len": null,
+"page": "102|102.2",
+"authors": [
+"Mrs. R. W. Hamilton"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): 1952 a Good F.F.M. Year",
+"type": "ESSAY",
+"len": null,
+"page": "102|102.3",
+"authors": [
+"Mrs. Hazel I. Taylor"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): Well Pleased",
+"type": "ESSAY",
+"len": null,
+"page": "102|102.4",
+"authors": [
+"Mr. Lee Kuick"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): Rare Magazines Wanted",
+"type": "ESSAY",
+"len": null,
+"page": "102|102.5",
+"authors": [
+"M. McNeil"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): Can You Help Him?",
+"type": "ESSAY",
+"len": null,
+"page": "103|103.1",
+"authors": [
+"S. C. Brewerton, M.D."
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): For H.R.H. Fans",
+"type": "ESSAY",
+"len": null,
+"page": "103|103.2",
+"authors": [
+"Harold F. Keating"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): Books Available",
+"type": "ESSAY",
+"len": null,
+"page": "104|104.1",
+"authors": [
+"Walter I. Norcott"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): Many Thanks",
+"type": "ESSAY",
+"len": null,
+"page": "104|104.2",
+"authors": [
+"Burton S. Satz"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): Complaint",
+"type": "ESSAY",
+"len": null,
+"page": "106|106.1",
+"authors": [
+"A Grumbler"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): Back Issues Available",
+"type": "ESSAY",
+"len": null,
+"page": "106|106.2",
+"authors": [
+"Howard E. Moore"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): Best Issue of 1952",
+"type": "ESSAY",
+"len": null,
+"page": "106|106.3",
+"authors": [
+"Hillel Handloff"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): For Trade",
+"type": "ESSAY",
+"len": null,
+"page": "107|107.1",
+"authors": [
+"James W. Moore"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): New Reader",
+"type": "ESSAY",
+"len": null,
+"page": "107|107.2",
+"authors": [
+"Mrs. J. M. Schoonover"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): Skull-Face Issue Good",
+"type": "ESSAY",
+"len": null,
+"page": "107|107.3",
+"authors": [
+"Pvt. Glenn Lord"
+],
+"real": [
+"Glenn Lord"
+]
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): Needs Back Issue",
+"type": "ESSAY",
+"len": null,
+"page": "107|107.4",
+"authors": [
+"Mrs. M. C. Wilson"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): Very Enjoyable",
+"type": "ESSAY",
+"len": null,
+"page": "108|108.1",
+"authors": [
+"Paul Mittelbuscher"
+],
+"real": []
+},
+{
+"title": "Letter (Famous Fantastic Mysteries, June 1953): Gees Stories",
+"type": "ESSAY",
+"len": null,
+"page": "108|108.2",
+"authors": [
+"Darrell C. Richardson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence"
+],
+"editors": [
+"Mary Gnaedinger"
+]
+},
+{
+"id": 619800,
+"title": "Famous Fantastic Mysteries, Fall 2016",
+"date": "2016-12-24",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, Fall 2016)",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Kinsman's Curse",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "4",
+"authors": [
+"G. T. Fleming-Roberts"
+],
+"real": []
+},
+{
+"title": "Crawling Madness",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "10",
+"authors": [
+"Arthur Leo Zagat"
+],
+"real": []
+},
+{
+"title": "Hands Beyond the Grave",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "24",
+"authors": [
+"Henry Treat Sperry"
+],
+"real": []
+},
+{
+"title": "Shadow",
+"type": "SHORTFICTION",
+"len": null,
+"page": "33",
+"authors": [
+"Kimberly B. Richardson"
+],
+"real": [
+"Kimberly Richardson"
+]
+},
+{
+"title": "White Moon of Madness",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "37",
+"authors": [
+"Chandler H. Whipple"
+],
+"real": []
+},
+{
+"title": "Daughter of the Snake",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "50",
+"authors": [
+"Frederick C. Davis"
+],
+"real": []
+},
+{
+"title": "Daughter of the Plague",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "63",
+"authors": [
+"Hugh B. Cave"
+],
+"real": []
+},
+{
+"title": "The Ice Maiden",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "76",
+"authors": [
+"John H. Knox"
+],
+"real": []
+},
+{
+"title": "Dead Man's Bride",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "86",
+"authors": [
+"Wyatt Blassingame"
+],
+"real": []
+},
+{
+"title": "Priestess of Pain",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "98",
+"authors": [
+"Paul Ernst"
+],
+"real": []
+},
+{
+"title": "The Devil's Step-Daughters",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "108",
+"authors": [
+"Wayne Rogers"
+],
+"real": []
+}
+],
+"cover_artists": [
+"John Drew"
+],
+"editors": [
+"Matthew Moring"
+]
+},
+{
+"id": 757136,
+"title": "Famous Fantastic Mysteries, Fall 2016",
+"date": "2016-12-30",
+"items": [
+{
+"title": "The Readers' Viewpoint (Famous Fantastic Mysteries, Fall 2016)",
+"type": "ESSAY",
+"len": null,
+"page": "",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Kinsman's Curse",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"G. T. Fleming-Roberts"
+],
+"real": []
+},
+{
+"title": "Crawling Madness",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "",
+"authors": [
+"Arthur Leo Zagat"
+],
+"real": []
+},
+{
+"title": "Hands Beyond the Grave",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "",
+"authors": [
+"Henry Treat Sperry"
+],
+"real": []
+},
+{
+"title": "Shadow",
+"type": "SHORTFICTION",
+"len": null,
+"page": "",
+"authors": [
+"Kimberly B. Richardson"
+],
+"real": [
+"Kimberly Richardson"
+]
+},
+{
+"title": "White Moon of Madness",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "",
+"authors": [
+"Chandler H. Whipple"
+],
+"real": []
+},
+{
+"title": "Daughter of the Snake",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "",
+"authors": [
+"Frederick C. Davis"
+],
+"real": []
+},
+{
+"title": "Daughter of the Plague",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "",
+"authors": [
+"Hugh B. Cave"
+],
+"real": []
+},
+{
+"title": "The Ice Maiden",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "",
+"authors": [
+"John H. Knox"
+],
+"real": []
+},
+{
+"title": "Dead Man's Bride",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "",
+"authors": [
+"Wyatt Blassingame"
+],
+"real": []
+},
+{
+"title": "Priestess of Pain",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "",
+"authors": [
+"Paul Ernst"
+],
+"real": []
+},
+{
+"title": "The Devil's Step-Daughters",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "",
+"authors": [
+"Wayne Rogers"
+],
+"real": []
+}
+],
+"cover_artists": [
+"John Drew"
+],
+"editors": [
+"Matthew Moring"
+]
+},
+{
+"id": 757138,
+"title": "Famous Fantastic Mysteries, Spring 2017",
+"date": "2017-04-09",
+"items": [
+{
+"title": "The Reader's Viewpoint (Famous Fantastic Mysteries, Spring 2017)",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Stone Spook of Grandpa Plott",
+"type": "SHORTFICTION",
+"len": null,
+"page": "4",
+"authors": [
+"Lester Dent"
+],
+"real": []
+},
+{
+"title": "When Ghouls Come Seeking!",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "12",
+"authors": [
+"Ray Cummings"
+],
+"real": []
+},
+{
+"title": "Her LoverâDeath!",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "12",
+"authors": [
+"Wyatt Blassingame"
+],
+"real": []
+},
+{
+"title": "Dance of the Dead",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "35",
+"authors": [
+"Arthur J. Burks"
+],
+"real": []
+},
+{
+"title": "Monster's Pool",
+"type": "SHORTFICTION",
+"len": null,
+"page": "44",
+"authors": [
+"H. M. Appel"
+],
+"real": [
+"Wayne Rogers"
+]
+},
+{
+"title": "Night They Creep",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "49",
+"authors": [
+"Hugh B. Cave"
+],
+"real": []
+},
+{
+"title": "Music of the Damned",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "66",
+"authors": [
+"Francis James"
+],
+"real": []
+},
+{
+"title": "Madman's Circus",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "82",
+"authors": [
+"Paul Ernst"
+],
+"real": []
+},
+{
+"title": "Satan's Sweetheart",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "92",
+"authors": [
+"Monroe Karasik"
+],
+"real": []
+}
+],
+"cover_artists": [
+"H. T. Fisk"
+],
+"editors": [
+"Matthew Moring"
+]
+},
+{
+"id": 757143,
+"title": "Famous Fantastic Mysteries, Spring 2017",
+"date": "2017-04-28",
+"items": [
+{
+"title": "The Reader's Viewpoint (Famous Fantastic Mysteries, Spring 2017)",
+"type": "ESSAY",
+"len": null,
+"page": "",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Stone Spook of Grandpa Plott",
+"type": "SHORTFICTION",
+"len": null,
+"page": "",
+"authors": [
+"Lester Dent"
+],
+"real": []
+},
+{
+"title": "Her LoverâDeath!",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "",
+"authors": [
+"Wyatt Blassingame"
+],
+"real": []
+},
+{
+"title": "When Ghouls Come Seeking!",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "",
+"authors": [
+"Ray Cummings"
+],
+"real": []
+},
+{
+"title": "Dance of the Dead",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "",
+"authors": [
+"Arthur J. Burks"
+],
+"real": []
+},
+{
+"title": "Monster's Pool",
+"type": "SHORTFICTION",
+"len": null,
+"page": "",
+"authors": [
+"H. M. Appel"
+],
+"real": [
+"Wayne Rogers"
+]
+},
+{
+"title": "Night They Creep",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "",
+"authors": [
+"Hugh B. Cave"
+],
+"real": []
+},
+{
+"title": "Music of the Damned",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "",
+"authors": [
+"Francis James"
+],
+"real": []
+},
+{
+"title": "Madman's Circus",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "",
+"authors": [
+"Paul Ernst"
+],
+"real": []
+},
+{
+"title": "Satan's Sweetheart",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Monroe Karasik"
+],
+"real": []
+}
+],
+"cover_artists": [
+"H. T. Fisk"
+],
+"editors": [
+"Matthew Moring"
+]
+}
+]
+}

@@ -36,4 +36,9 @@ def get(url: str, attempts: int = 4) -> Response:
             if e.code not in (429, 500, 502, 503, 504) or i == attempts - 1:
                 raise
             time.sleep(int(e.headers.get("Retry-After") or 2 ** (i + 1)))
+        except (urllib.error.URLError, ConnectionError, TimeoutError):  # connection reset / timeout: retry
+            _last = time.monotonic()
+            if i == attempts - 1:
+                raise
+            time.sleep(2 ** (i + 2))
     raise RuntimeError("unreachable")

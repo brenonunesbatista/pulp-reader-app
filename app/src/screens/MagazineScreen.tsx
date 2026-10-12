@@ -52,8 +52,8 @@ export function MagazineScreen({ id }: { id: number }) {
       {data.status === 'error' && <ErrorBox error={data.error} />}
       {data.status === 'ok' && mag && (
         <>
-          {data.data.about && <MagazineAbout about={data.data.about} />}
           <div className="filter-band">
+            {data.data.about && <MagazineAbout about={data.data.about} />}
             <div className="muted small num">
               {mag.firstYear}–{mag.lastYear} · {mag.issueCount} issues · {mag.readable} readable
               {data.data.editors.length > 0 && <> · Editors {data.data.editors.map((e, i) => (

@@ -1,0 +1,6450 @@
+{
+"source": "ISFDB, The Internet Speculative Fiction Database (https://www.isfdb.org), CC BY 4.0",
+"dump": "backup-MySQL-55-2026-10-10.zip",
+"pattern": "^(Future Combined with )?Science Fiction Stories, ",
+"issues": [
+{
+"id": 253401,
+"title": "Science Fiction Stories, April 1943",
+"date": "1943-04-00",
+"items": [
+{
+"title": "By Popular Request: An Editorial",
+"type": "ESSAY",
+"len": null,
+"page": "10",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Venus Station",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "12",
+"authors": [
+"Arthur Leo Zagat"
+],
+"real": []
+},
+{
+"title": "Murderer's Apprentice",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "34",
+"authors": [
+"Cleve Cartmill"
+],
+"real": []
+},
+{
+"title": "No-Man's-Land of Time",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "45",
+"authors": [
+"Edmond Hamilton"
+],
+"real": []
+},
+{
+"title": "The Millionth Year",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "55",
+"authors": [
+"Martin Pearson"
+],
+"real": [
+"Donald A. Wollheim"
+]
+},
+{
+"title": "The Man Who Could Stand up",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "68",
+"authors": [
+"Carl Selwyn"
+],
+"real": []
+},
+{
+"title": "The Great Secret",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "81",
+"authors": [
+"L. Ron Hubbard"
+],
+"real": []
+},
+{
+"title": "Volluswen",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "86",
+"authors": [
+"Henry Kuttner"
+],
+"real": []
+},
+{
+"title": "Star Comrades",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "95",
+"authors": [
+"Frank Belknap Long"
+],
+"real": []
+},
+{
+"title": "Science Fiction Spotlite",
+"type": "ESSAY",
+"len": null,
+"page": "108",
+"authors": [
+"Julius Unger"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Milton Luros"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 253409,
+"title": "Science Fiction Stories, July 1943",
+"date": "1943-07-00",
+"items": [
+{
+"title": "Dominion",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "10",
+"authors": [
+"Arthur J. Burks"
+],
+"real": []
+},
+{
+"title": "Infiltration",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "43",
+"authors": [
+"Clifford D. Simak"
+],
+"real": []
+},
+{
+"title": "Close to Home (An Editorial)",
+"type": "ESSAY",
+"len": null,
+"page": "54",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Blackout",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "55",
+"authors": [
+"Damon Knight"
+],
+"real": []
+},
+{
+"title": "Problem in Ethics",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "58",
+"authors": [
+"Henry Kuttner"
+],
+"real": []
+},
+{
+"title": "The Man Who Saved New York",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "69",
+"authors": [
+"Ray Cummings"
+],
+"real": []
+},
+{
+"title": "The Stellar Vampires",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "79",
+"authors": [
+"Frank Belknap Long"
+],
+"real": []
+},
+{
+"title": "We Knew It All the Time",
+"type": "ESSAY",
+"len": null,
+"page": "87",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Machine That Changed History",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "88",
+"authors": [
+"Robert Bloch"
+],
+"real": []
+},
+{
+"title": "The Answer Out of Space",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "97",
+"authors": [
+"Grath Waldeyer"
+],
+"real": [
+"Graph Waldeyer"
+]
+}
+],
+"cover_artists": [
+"Milton Luros"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 58397,
+"title": "Future Combined with Science Fiction Stories, May/June 1950",
+"date": "1950-05-00",
+"items": [
+{
+"title": "Dynasty of the Lost",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "8",
+"authors": [
+"George O. Smith"
+],
+"real": []
+},
+{
+"title": "Down to Earth (Future Science Fiction, May/June 1950)",
+"type": "ESSAY",
+"len": null,
+"page": "39",
+"authors": [
+"The Editor"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Nobody Saw the Ship",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "40",
+"authors": [
+"Murray Leinster"
+],
+"real": []
+},
+{
+"title": "The Miniature Menace",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "50",
+"authors": [
+"Frank Belknap Long"
+],
+"real": []
+},
+{
+"title": "Battle of the Unborn",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "65",
+"authors": [
+"James Blish"
+],
+"real": []
+},
+{
+"title": "Parking, Unlimited",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "70",
+"authors": [
+"Noel Loomis"
+],
+"real": []
+},
+{
+"title": "Imitation of Death",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "76",
+"authors": [
+"Lester del Rey"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Earle K. Bergey"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 58394,
+"title": "Future Combined with Science Fiction Stories, July-August 1950",
+"date": "1950-07-00",
+"items": [
+{
+"title": "Earth Needs a Killer",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "8",
+"authors": [
+"Bryce Walton"
+],
+"real": []
+},
+{
+"title": "Be Young Again!",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "28",
+"authors": [
+"Murray Leinster"
+],
+"real": []
+},
+{
+"title": "Martians, Keep Out!",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "45",
+"authors": [
+"Fritz Leiber, Jr."
+],
+"real": [
+"Fritz Leiber"
+]
+},
+{
+"title": "Shadows of Empire",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "57",
+"authors": [
+"Lester del Rey"
+],
+"real": []
+},
+{
+"title": "Two Worlds for One",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "66",
+"authors": [
+"George O. Smith"
+],
+"real": []
+},
+{
+"title": "Barrier of Dread",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "72",
+"authors": [
+"Judith Merril"
+],
+"real": []
+},
+{
+"title": "Today and Tomorrow (Future Science Fiction, July-August 1950)",
+"type": "ESSAY",
+"len": null,
+"page": "81",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Down to Earth (Future Science Fiction, July-August 1950)",
+"type": "ESSAY",
+"len": null,
+"page": "82",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Sky's Still the Limit (an editorial)",
+"type": "ESSAY",
+"len": null,
+"page": "89",
+"authors": [
+"The Editor"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "From the Bookshelf (Future Science Fiction, July-August 1950)",
+"type": "ESSAY",
+"len": null,
+"page": "91",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+}
+],
+"cover_artists": [
+"Earle K. Bergey"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 58400,
+"title": "Future Combined with Science Fiction Stories, September/October 1950",
+"date": "1950-09-00",
+"items": [
+{
+"title": "Wide-Open Planet",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "8",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Flight from Tomorrow",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "36",
+"authors": [
+"H. Beam Piper"
+],
+"real": []
+},
+{
+"title": "Editorial: Beware of \"Tomorrow\"",
+"type": "ESSAY",
+"len": null,
+"page": "50",
+"authors": [
+"The Editor"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Invitation from the Stars",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "51",
+"authors": [
+"Morton Klass"
+],
+"real": []
+},
+{
+"title": "Iteration",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "60",
+"authors": [
+"C. M. Kornbluth"
+],
+"real": []
+},
+{
+"title": "Today and Tomorrow (Future Science Fiction, September/October 1950)",
+"type": "ESSAY",
+"len": null,
+"page": "63",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "The Long Return",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "64",
+"authors": [
+"Poul Anderson"
+],
+"real": []
+},
+{
+"title": "Down to Earth (Future Science Fiction, September/October 1950)",
+"type": "ESSAY",
+"len": null,
+"page": "83",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Future Science Fiction, September/October 1950)",
+"type": "ESSAY",
+"len": null,
+"page": "86",
+"authors": [
+"Marvin Maxwell"
+],
+"real": []
+},
+{
+"title": "Letter (Future Science Fiction, September/October 1950)",
+"type": "ESSAY",
+"len": null,
+"page": "92",
+"authors": [
+"Ralph Bailey"
+],
+"real": []
+},
+{
+"title": "Letter (Future Science Fiction, September/October 1950)",
+"type": "ESSAY",
+"len": null,
+"page": "94",
+"authors": [
+"Calvin Thos. Beck"
+],
+"real": [
+"Calvin Thomas Beck"
+]
+},
+{
+"title": "Letter (Future Science Fiction, September/October 1950)",
+"type": "ESSAY",
+"len": null,
+"page": "95",
+"authors": [
+"Joseph Jesensky"
+],
+"real": []
+},
+{
+"title": "Ratings on the May Issue",
+"type": "ESSAY",
+"len": null,
+"page": "97",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Future Science Fiction, September/October 1950)",
+"type": "ESSAY",
+"len": null,
+"page": "97",
+"authors": [
+"Robert F. Peck"
+],
+"real": []
+},
+{
+"title": "Letter (Future Science Fiction, September/October 1950)",
+"type": "ESSAY",
+"len": null,
+"page": "83|83.1",
+"authors": [
+"Edgar Paul Boyko"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Leo Morey"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 58398,
+"title": "Future Combined with Science Fiction Stories, November 1950",
+"date": "1950-11-00",
+"items": [
+{
+"title": "The World-Mover",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "8",
+"authors": [
+"George O. Smith"
+],
+"real": []
+},
+{
+"title": "The Secret People",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "46",
+"authors": [
+"Damon Knight",
+"James Blish"
+],
+"real": []
+},
+{
+"title": "The Terror",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "62",
+"authors": [
+"Alfred Coppel"
+],
+"real": []
+},
+{
+"title": "Today and Tomorrow (Future Science Fiction, November 1950)",
+"type": "ESSAY",
+"len": null,
+"page": "67",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Moon of Memory",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "68",
+"authors": [
+"Bryce Walton"
+],
+"real": []
+},
+{
+"title": "Day of the Hunters",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "74",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "Caridi Shall Not Die!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "80",
+"authors": [
+"Walter Kubilius"
+],
+"real": []
+},
+{
+"title": "Down to Earth (Future Science Fiction, November 1950)",
+"type": "ESSAY",
+"len": null,
+"page": "89",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Ratings on the July Issue",
+"type": "ESSAY",
+"len": null,
+"page": "97",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "From the Bookshelf (Future Science Fiction, November 1950)",
+"type": "ESSAY",
+"len": null,
+"page": "98",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Milton Luros"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 1070116,
+"title": "Future Combined with Science Fiction Stories, No. 1",
+"date": "1951-00-00",
+"items": [
+{
+"title": "Today and Tomorrow (Future Combined with Science Fiction Stories, No. 1)",
+"type": "ESSAY",
+"len": null,
+"page": "|1",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "What Is \"Evidence\"?",
+"type": "ESSAY",
+"len": null,
+"page": "5",
+"authors": [
+"James Blish"
+],
+"real": []
+},
+{
+"title": "The Genius Beasts",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "8",
+"authors": [
+"James MacCreigh"
+],
+"real": [
+"Frederik Pohl"
+]
+},
+{
+"title": "The Everlasting Exiles",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "38",
+"authors": [
+"Wallace West"
+],
+"real": []
+},
+{
+"title": "Green Man's Grief",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "54",
+"authors": [
+"Richard S. Shaver"
+],
+"real": []
+},
+{
+"title": "Slave Psychology",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "60",
+"authors": [
+"Edwin James"
+],
+"real": [
+"James E. Gunn"
+]
+},
+{
+"title": "Afterthought",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "71",
+"authors": [
+"H. B. Fyfe"
+],
+"real": []
+},
+{
+"title": "The Barbarians",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "75",
+"authors": [
+"William Morrison"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Milton Luros"
+],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 1070159,
+"title": "Future Combined with Science Fiction Stories, No. 2",
+"date": "1951-00-00",
+"items": [
+{
+"title": "Today and Tomorrow (Future Combined with Science Fiction Stories, No. 2)",
+"type": "ESSAY",
+"len": null,
+"page": "|1",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Incomplete Superman",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "8",
+"authors": [
+"Poul Anderson"
+],
+"real": []
+},
+{
+"title": "Age of Prophecy",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "26",
+"authors": [
+"Margaret St. Clair"
+],
+"real": []
+},
+{
+"title": "The Gray Cloud",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "44",
+"authors": [
+"Walter Kubilius"
+],
+"real": []
+},
+{
+"title": "The Last Lunacy",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "53",
+"authors": [
+"Lester del Rey"
+],
+"real": []
+},
+{
+"title": "The Lithium Mountain",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "60",
+"authors": [
+"Noel Loomis"
+],
+"real": []
+},
+{
+"title": "Martian Homecoming",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "70",
+"authors": [
+"Frank Belknap Long"
+],
+"real": []
+},
+{
+"title": "Imitation of Death",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "77",
+"authors": [
+"Lester del Rey"
+],
+"real": []
+},
+{
+"title": "Parking, Unlimited",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "93",
+"authors": [
+"Noel Loomis"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Milton Luros"
+],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 58392,
+"title": "Future Combined with Science Fiction Stories, January 1951",
+"date": "1951-01-00",
+"items": [
+{
+"title": "The Genius Beasts",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "8",
+"authors": [
+"James MacCreigh"
+],
+"real": [
+"Frederik Pohl"
+]
+},
+{
+"title": "The Everlasting Exiles",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "38",
+"authors": [
+"Wallace West"
+],
+"real": []
+},
+{
+"title": "Today and Tomorrow (Future Science Fiction, January 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "53",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Green Man's Grief",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "54",
+"authors": [
+"Richard S. Shaver"
+],
+"real": []
+},
+{
+"title": "Slave Psychology",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "60",
+"authors": [
+"Edwin James"
+],
+"real": [
+"James E. Gunn"
+]
+},
+{
+"title": "Afterthought",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "70",
+"authors": [
+"H. B. Fyfe"
+],
+"real": []
+},
+{
+"title": "The Barbarians",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "75",
+"authors": [
+"William Morrison"
+],
+"real": []
+},
+{
+"title": "Down to Earth (Future Science Fiction, January 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "85",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Ratings on the September Issue (Future Science Fiction, January 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "97",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Milton Luros"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 58395,
+"title": "Future Combined with Science Fiction Stories, March 1951",
+"date": "1951-03-00",
+"items": [
+{
+"title": "Incomplete Superman",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "8",
+"authors": [
+"Poul Anderson"
+],
+"real": []
+},
+{
+"title": "Age of Prophecy",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "26",
+"authors": [
+"Margaret St. Clair"
+],
+"real": []
+},
+{
+"title": "The Gray Cloud",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "44",
+"authors": [
+"Walter Kubilius"
+],
+"real": []
+},
+{
+"title": "Woman's Work Is Never Done!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "51",
+"authors": [
+"Judith Merril"
+],
+"real": []
+},
+{
+"title": "The Last Lunacy",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "52",
+"authors": [
+"Lester del Rey"
+],
+"real": []
+},
+{
+"title": "The Lithium Mountain",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "60",
+"authors": [
+"Noel Loomis"
+],
+"real": []
+},
+{
+"title": "From the Bookshelf (Future Science Fiction, March 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "69",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Martian Homecoming",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "70",
+"authors": [
+"Frank Belknap Long"
+],
+"real": []
+},
+{
+"title": "Today and Tomorrow (Future Science Fiction, March 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "77",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "What Is \"Evidence\"?",
+"type": "ESSAY",
+"len": null,
+"page": "78",
+"authors": [
+"James Blish"
+],
+"real": []
+},
+{
+"title": "Down to Earth (Future Science Fiction, March 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "81",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Ratings on the November Issue",
+"type": "ESSAY",
+"len": null,
+"page": "86",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Milton Luros"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 58396,
+"title": "Future Combined with Science Fiction Stories, May 1951",
+"date": "1951-05-00",
+"items": [
+{
+"title": "Out of the Atomfire",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "8",
+"authors": [
+"Bryce Walton",
+"Ross Rocklynne"
+],
+"real": []
+},
+{
+"title": "Honorable Enemies",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "34",
+"authors": [
+"Poul Anderson"
+],
+"real": []
+},
+{
+"title": "The Awful Weapon",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "50",
+"authors": [
+"Alfred Coppel"
+],
+"real": []
+},
+{
+"title": "From the Bookshelf (Future Science Fiction, May 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "55",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Mind of Tomorrow",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "56",
+"authors": [
+"Lester del Rey"
+],
+"real": []
+},
+{
+"title": "Fun Can Last Forever!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "67",
+"authors": [
+"J. Harvey Haggard"
+],
+"real": []
+},
+{
+"title": "Today and Tomorrow (Future Science Fiction, May 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "73",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "\"A\" As in Android",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "74",
+"authors": [
+"Milton Lesser"
+],
+"real": []
+},
+{
+"title": "Dark Cloud",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "82",
+"authors": [
+"Richard Wilson"
+],
+"real": []
+},
+{
+"title": "Time Killer",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "85",
+"authors": [
+"Charles Dye"
+],
+"real": []
+},
+{
+"title": "Down to Earth (Future Science Fiction, May 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "90",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Ratings on the January Issue",
+"type": "ESSAY",
+"len": null,
+"page": "95",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Leo Morey"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 58393,
+"title": "Future Combined with Science Fiction Stories, July 1951",
+"date": "1951-07-00",
+"items": [
+{
+"title": "Dark Recess",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "8",
+"authors": [
+"George O. Smith"
+],
+"real": []
+},
+{
+"title": "Ultrasonic God",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "36",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "And There Was Light",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "53",
+"authors": [
+"Lester del Rey"
+],
+"real": []
+},
+{
+"title": "Momentum",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "59",
+"authors": [
+"Charles Dye"
+],
+"real": []
+},
+{
+"title": "In the Balance",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "64",
+"authors": [
+"C. S. Youd"
+],
+"real": [
+"John Christopher"
+]
+},
+{
+"title": "Remember the 4th!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "75",
+"authors": [
+"Noel Loomis"
+],
+"real": []
+},
+{
+"title": "Today and Tomorrow (Future Science Fiction, July 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "84",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Down to Earth (Future Science Fiction, July 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "85",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Ratings on the March Issue",
+"type": "ESSAY",
+"len": null,
+"page": "89",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Milton Luros"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 58399,
+"title": "Future Combined with Science Fiction Stories, September 1951",
+"date": "1951-09-00",
+"items": [
+{
+"title": "Genesis",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "8",
+"authors": [
+"H. Beam Piper"
+],
+"real": []
+},
+{
+"title": "This World Must Die!",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "22",
+"authors": [
+"H. B. Fyfe"
+],
+"real": []
+},
+{
+"title": "Elixir",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "38",
+"authors": [
+"James Blish"
+],
+"real": []
+},
+{
+"title": "The Troubadour",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "47",
+"authors": [
+"Peter Michael Sherman"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Today and Tomorrow (Future Science Fiction, September 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "49",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "The So-Called Fourth Dimension",
+"type": "ESSAY",
+"len": null,
+"page": "50",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "From the Bookshelf (Future Science Fiction, September 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "55",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Mask of Peace",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "56",
+"authors": [
+"Edwin James"
+],
+"real": [
+"James E. Gunn"
+]
+},
+{
+"title": "If I Forget Thee, Oh Earth ...",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "66",
+"authors": [
+"Arthur C. Clarke"
+],
+"real": []
+},
+{
+"title": "The Reckoning: May 1951",
+"type": "ESSAY",
+"len": null,
+"page": "69",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Stairway to the Stars",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "70",
+"authors": [
+"Larry Shaw"
+],
+"real": [
+"Larry T. Shaw"
+]
+},
+{
+"title": "Regeneration",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "80",
+"authors": [
+"Charles Dye"
+],
+"real": []
+},
+{
+"title": "Down to Earth (Future Science Fiction, September 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "86",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Milton Luros"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 242925,
+"title": "Future Combined with Science Fiction Stories, November 1951",
+"date": "1951-11-00",
+"items": [
+{
+"title": "Experiment in Genius",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "8",
+"authors": [
+"William F. Temple"
+],
+"real": []
+},
+{
+"title": "Ismail, the Outworlder",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "32",
+"authors": [
+"Manly Wade Wellman"
+],
+"real": []
+},
+{
+"title": "Voices in the Void",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "50",
+"authors": [
+"Milton Lesser"
+],
+"real": []
+},
+{
+"title": "Today and Tomorrow (Future Science Fiction, November 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "65",
+"authors": [
+"The Editor"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "A Secondary First",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "66",
+"authors": [
+"Gene L. Henderson"
+],
+"real": []
+},
+{
+"title": "The Reckoning: July 1951",
+"type": "ESSAY",
+"len": null,
+"page": "75",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Mystic Trance",
+"type": "ESSAY",
+"len": null,
+"page": "76",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "The Way Back",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "82",
+"authors": [
+"Margaret St. Clair"
+],
+"real": []
+},
+{
+"title": "From the Bookshelf (Future Science Fiction, November 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "86",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Down to Earth (Future Science Fiction, November 1951)",
+"type": "ESSAY",
+"len": null,
+"page": "87",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Peter Poulton"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 1070244,
+"title": "Future Combined with Science Fiction Stories, No. 3",
+"date": "1952-00-00",
+"items": [
+{
+"title": "Earth Needs a Killer",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "8",
+"authors": [
+"Bryce Walton"
+],
+"real": []
+},
+{
+"title": "Be Young Again!",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "28",
+"authors": [
+"Murray Leinster"
+],
+"real": []
+},
+{
+"title": "Martians, Keep Out!",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "45",
+"authors": [
+"Fritz Leiber, Jr."
+],
+"real": [
+"Fritz Leiber"
+]
+},
+{
+"title": "Shadows of Empire",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "57",
+"authors": [
+"Lester del Rey"
+],
+"real": []
+},
+{
+"title": "Two Worlds for One",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "66",
+"authors": [
+"George O. Smith"
+],
+"real": []
+},
+{
+"title": "Barrier of Dread",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "72",
+"authors": [
+"Judith Merril"
+],
+"real": []
+},
+{
+"title": "Nobody Saw the Ship",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "81",
+"authors": [
+"Murray Leinster"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Earle K. Bergey"
+],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 1070250,
+"title": "Future Combined with Science Fiction Stories, No. 5",
+"date": "1952-00-00",
+"items": [
+{
+"title": "Today and Tomorrow (Future Combined with Science Fiction Stories, No. 5)",
+"type": "ESSAY",
+"len": null,
+"page": "|1",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Dark Recess",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "8",
+"authors": [
+"George O. Smith"
+],
+"real": []
+},
+{
+"title": "Ultrasonic God",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "36",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "And There Was Light",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "53",
+"authors": [
+"Lester del Rey"
+],
+"real": []
+},
+{
+"title": "Momentum",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "59",
+"authors": [
+"Charles Dye"
+],
+"real": []
+},
+{
+"title": "In the Balance",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "64",
+"authors": [
+"C. S. Youd"
+],
+"real": [
+"John Christopher"
+]
+},
+{
+"title": "Remember the 4th!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "75",
+"authors": [
+"Noel Loomis"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Milton Luros"
+],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 599746,
+"title": "Future Combined with Science Fiction Stories, No. 4",
+"date": "1952-06-00",
+"items": [
+{
+"title": "Out of the Atomfire",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "9",
+"authors": [
+"Bryce Walton",
+"Ross Rocklynne"
+],
+"real": []
+},
+{
+"title": "Honorable Enemies",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "35",
+"authors": [
+"Poul Anderson"
+],
+"real": []
+},
+{
+"title": "Chance Meeting",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "49",
+"authors": [
+"Lee Owens"
+],
+"real": [
+"Lee Owen"
+]
+},
+{
+"title": "The Awful Weapon",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "50",
+"authors": [
+"Alfred Coppel"
+],
+"real": []
+},
+{
+"title": "From the Bookshelf (Future Combined with Science Fiction Stories, No. 4)",
+"type": "ESSAY",
+"len": null,
+"page": "55",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Mind of Tomorrow",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "56",
+"authors": [
+"Lester del Rey"
+],
+"real": []
+},
+{
+"title": "Fun Can Last Forever!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "67",
+"authors": [
+"J. Harvey Haggard"
+],
+"real": []
+},
+{
+"title": "Today and Tomorrow (Future Combined with Science Fiction Stories, No. 4)",
+"type": "ESSAY",
+"len": null,
+"page": "73",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "\"A\" As in Android",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "74",
+"authors": [
+"Milton Lesser"
+],
+"real": []
+},
+{
+"title": "The Hidden Image",
+"type": "ESSAY",
+"len": null,
+"page": "79",
+"authors": [
+"Lester Barrow"
+],
+"real": []
+},
+{
+"title": "Gyro-Bus",
+"type": "ESSAY",
+"len": null,
+"page": "80",
+"authors": [
+"Milton Matthew"
+],
+"real": []
+},
+{
+"title": "The Miniature Menace",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "82",
+"authors": [
+"Frank Belknap Long"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Leo Morey"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 1070283,
+"title": "Future Combined with Science Fiction Stories, No. 8",
+"date": "1953-00-00",
+"items": [
+{
+"title": "Today and Tomorrow (Future Combined with Science Fiction Stories, No. 8)",
+"type": "ESSAY",
+"len": null,
+"page": "|1",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Experiment in Genius",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "8",
+"authors": [
+"William F. Temple"
+],
+"real": []
+},
+{
+"title": "Ismail, the Outworlder",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "32",
+"authors": [
+"Manly Wade Wellman"
+],
+"real": []
+},
+{
+"title": "Voices in the Void",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "50",
+"authors": [
+"Milton Lesser"
+],
+"real": []
+},
+{
+"title": "A Secondary First",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "66",
+"authors": [
+"Gene L. Henderson"
+],
+"real": []
+},
+{
+"title": "The Mystic Trance",
+"type": "ESSAY",
+"len": null,
+"page": "76",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "The Way Back",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "82",
+"authors": [
+"Margaret St. Clair"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Peter Poulton (in error)"
+],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 188761,
+"title": "Science Fiction Stories, #1",
+"date": "1953-06-00",
+"items": [
+{
+"title": "Sentiment, Inc.",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "4",
+"authors": [
+"Poul Anderson"
+],
+"real": []
+},
+{
+"title": "The Way of Decision",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "30",
+"authors": [
+"M. C. Pease"
+],
+"real": []
+},
+{
+"title": "Comet's Burial",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "54",
+"authors": [
+"Raymond Z. Gallun"
+],
+"real": []
+},
+{
+"title": "The Slizzers",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "72",
+"authors": [
+"Jerome Bixby"
+],
+"real": []
+},
+{
+"title": "Slizzers (Letter exchange about story)",
+"type": "ESSAY",
+"len": null,
+"page": "77",
+"authors": [
+"Robert W. Lowndes",
+"Jerome Bixby",
+"Frederik Boles"
+],
+"real": [
+"Robert A. W. Lowndes",
+"Jerome Bixby",
+"Frederik Boles"
+]
+},
+{
+"title": "Ask a Foolish Question",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "81",
+"authors": [
+"Robert Sheckley"
+],
+"real": []
+},
+{
+"title": "Riya's Foundling",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "90",
+"authors": [
+"Algis Budrys"
+],
+"real": []
+},
+{
+"title": "Nine Men in Time",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "99",
+"authors": [
+"Noel Loomis"
+],
+"real": []
+},
+{
+"title": "By Earthlight",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "114",
+"authors": [
+"Bryce Walton"
+],
+"real": []
+},
+{
+"title": "The Natives",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "126",
+"authors": [
+"Katherine MacLean"
+],
+"real": []
+},
+{
+"title": "The Eyes Have It",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "127",
+"authors": [
+"Philip K. Dick"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Alex Schomburg"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 188769,
+"title": "Science Fiction Stories, #2",
+"date": "1954-06-00",
+"items": [
+{
+"title": "In Human Hands",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "4",
+"authors": [
+"Algis Budrys"
+],
+"real": []
+},
+{
+"title": "Peace Agent",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "41",
+"authors": [
+"M. C. Pease"
+],
+"real": []
+},
+{
+"title": "The Turning Wheel",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "68",
+"authors": [
+"Philip K. Dick"
+],
+"real": []
+},
+{
+"title": "To See Ourselves",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "89",
+"authors": [
+"Robert F. Young"
+],
+"real": []
+},
+{
+"title": "Give Away",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "93",
+"authors": [
+"Milton Lesser"
+],
+"real": []
+},
+{
+"title": "And What Remains?",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "105",
+"authors": [
+"Irving E. Cox, Jr."
+],
+"real": []
+},
+{
+"title": "Barrier",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "121",
+"authors": [
+"Theodore R. Cogswell"
+],
+"real": []
+},
+{
+"title": "Husbands, Care and Feeding of",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "125",
+"authors": [
+"Mack Reynolds"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 188821,
+"title": "Science Fiction Stories, January 1955",
+"date": "1955-01-00",
+"items": [
+{
+"title": "The Gift of the Gods",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "4",
+"authors": [
+"Raymond F. Jones"
+],
+"real": []
+},
+{
+"title": "Ripeness",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "45",
+"authors": [
+"M. C. Pease"
+],
+"real": []
+},
+{
+"title": "Inherit the Earth",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "68",
+"authors": [
+"Monroe Schere"
+],
+"real": [
+"Moses Schere"
+]
+},
+{
+"title": "We're All Blushing",
+"type": "ESSAY",
+"len": null,
+"page": "79",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Voyage to Nowhere",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "80",
+"authors": [
+"Wallace West"
+],
+"real": []
+},
+{
+"title": "The Two Sharp Edges",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "89",
+"authors": [
+"Algis Budrys"
+],
+"real": []
+},
+{
+"title": "The Next Time",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "105",
+"authors": [
+"Garda Jamieson"
+],
+"real": []
+},
+{
+"title": "It Should Happen to a Dog",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "110",
+"authors": [
+"Dennis Wiegand"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 188833,
+"title": "Science Fiction Stories, March 1955",
+"date": "1955-03-00",
+"items": [
+{
+"title": "The Pattern",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "4",
+"authors": [
+"Boyd Ellanby"
+],
+"real": [
+"Lyle G. Boyd",
+"William C. Boyd"
+]
+},
+{
+"title": "Caution Advisable",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "53",
+"authors": [
+"Ward Moore"
+],
+"real": []
+},
+{
+"title": "The Ear-Friend",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "62",
+"authors": [
+"R. E. Banks"
+],
+"real": [
+"Raymond E. Banks"
+]
+},
+{
+"title": "Path of Darkness",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "86",
+"authors": [
+"M. C. Pease"
+],
+"real": []
+},
+{
+"title": "Obituary: A. Hyatt Verrill",
+"type": "ESSAY",
+"len": null,
+"page": "101",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Playback",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "102",
+"authors": [
+"Winston K. Marks"
+],
+"real": []
+},
+{
+"title": "Repeat Performance",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "110",
+"authors": [
+"Irving Cox, Jr."
+],
+"real": [
+"Irving E. Cox, Jr."
+]
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 189093,
+"title": "Science Fiction Stories, May 1955",
+"date": "1955-05-00",
+"items": [
+{
+"title": "Last Stand",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "4",
+"authors": [
+"Algis Budrys"
+],
+"real": []
+},
+{
+"title": "Live in Amity",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "36",
+"authors": [
+"D. A. Jourdan"
+],
+"real": []
+},
+{
+"title": "In Working Order",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "55",
+"authors": [
+"Ward Moore"
+],
+"real": []
+},
+{
+"title": "Design in Statistics",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "63",
+"authors": [
+"Irving Cox, Jr."
+],
+"real": [
+"Irving E. Cox, Jr."
+]
+},
+{
+"title": "Telestassis",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "78",
+"authors": [
+"M. C. Pease"
+],
+"real": []
+},
+{
+"title": "Ugly Duckling",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "93",
+"authors": [
+"Barbara Constant"
+],
+"real": []
+},
+{
+"title": "Protective Camouflage",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "106",
+"authors": [
+"Charles V. De Vet"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 189105,
+"title": "Science Fiction Stories, July 1955",
+"date": "1955-07-00",
+"items": [
+{
+"title": "Perfectly Adjusted",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "4",
+"authors": [
+"Gordon R. Dickson"
+],
+"real": []
+},
+{
+"title": "Decoy",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "57",
+"authors": [
+"John Christopher"
+],
+"real": []
+},
+{
+"title": "Editorial: Want Ad",
+"type": "ESSAY",
+"len": null,
+"page": "72",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Saraband in C Sharp Major",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "74",
+"authors": [
+"Eric Frank Russell"
+],
+"real": []
+},
+{
+"title": "Service Call",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "83",
+"authors": [
+"Philip K. Dick"
+],
+"real": []
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Stories, July 1955)",
+"type": "ESSAY",
+"len": null,
+"page": "102",
+"authors": [
+"Damon Knight"
+],
+"real": []
+},
+{
+"title": "The Wilhelm Spot",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "108",
+"authors": [
+"Les Cole"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 189389,
+"title": "Science Fiction Stories, September 1955",
+"date": "1955-09-00",
+"items": [
+{
+"title": "No More Barriers",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "4",
+"authors": [
+"Gordon R. Dickson"
+],
+"real": []
+},
+{
+"title": "Editorial: Trends in Science Fiction",
+"type": "ESSAY",
+"len": null,
+"page": "80",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Farewell, Mr. Ridley",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "84",
+"authors": [
+"Milton Lesser"
+],
+"real": []
+},
+{
+"title": "The Three Spacemen",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "92",
+"authors": [
+"George Hudson Smith"
+],
+"real": [
+"George H. Smith"
+]
+},
+{
+"title": "Day After Fear",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "97",
+"authors": [
+"Sam Merwin, Jr."
+],
+"real": []
+},
+{
+"title": "The Oldest Man in the World",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "106",
+"authors": [
+"Russ Winterbotham"
+],
+"real": [
+"R. R. Winterbotham"
+]
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Stories, September 1955)",
+"type": "ESSAY",
+"len": null,
+"page": "116",
+"authors": [
+"Damon Knight",
+"Robert W. Lowndes"
+],
+"real": [
+"Damon Knight",
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "The Last Word (Science Fiction Stories, September 1955)",
+"type": "ESSAY",
+"len": null,
+"page": "127",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 189393,
+"title": "Science Fiction Stories, November 1955",
+"date": "1955-11-00",
+"items": [
+{
+"title": "Full Cycle",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "4",
+"authors": [
+"Clifford D. Simak"
+],
+"real": []
+},
+{
+"title": "The Idealists",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "48",
+"authors": [
+"Morton Klass"
+],
+"real": []
+},
+{
+"title": "Editorial: Motive and Cue",
+"type": "ESSAY",
+"len": null,
+"page": "63",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Female of the Species",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "66",
+"authors": [
+"Charles V. De Vet"
+],
+"real": []
+},
+{
+"title": "Faery Lands Forlorn",
+"type": "ESSAY",
+"len": null,
+"page": "82",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Crossroad",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "97",
+"authors": [
+"Irving Cox, Jr."
+],
+"real": [
+"Irving E. Cox, Jr."
+]
+},
+{
+"title": "Time's a Gorilla",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "112",
+"authors": [
+"Russ Winterbotham"
+],
+"real": [
+"R. R. Winterbotham"
+]
+},
+{
+"title": "The Last Word (Science Fiction Stories, November 1955)",
+"type": "ESSAY",
+"len": null,
+"page": "121",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Freas"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 189405,
+"title": "Science Fiction Stories, January 1956",
+"date": "1956-01-00",
+"items": [
+{
+"title": "Editorial: The Sociological Story",
+"type": "ESSAY",
+"len": null,
+"page": "1",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "The Last Chance",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "3",
+"authors": [
+"Richard De Mille"
+],
+"real": [
+"Richard deMille"
+]
+},
+{
+"title": "Giants in the Earth",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "6",
+"authors": [
+"James Blish"
+],
+"real": []
+},
+{
+"title": "The Instigators",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "92",
+"authors": [
+"R. E. Banks"
+],
+"real": [
+"Raymond E. Banks"
+]
+},
+{
+"title": "Parodies Tossed: Alfred Bester's \"The Demolished Man\"",
+"type": "POEM",
+"len": null,
+"page": "111",
+"authors": [
+"Randall Garrett"
+],
+"real": []
+},
+{
+"title": "Shrine of Hate",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "115",
+"authors": [
+"George Hudson Smith"
+],
+"real": [
+"George H. Smith"
+]
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Stories, January 1956)",
+"type": "ESSAY",
+"len": null,
+"page": "118",
+"authors": [
+"Damon Knight"
+],
+"real": []
+},
+{
+"title": "Stranger",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "124",
+"authors": [
+"Jim Harmon"
+],
+"real": []
+},
+{
+"title": "The Last Word (Science Fiction Stories, January 1956)",
+"type": "ESSAY",
+"len": null,
+"page": "129",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Science Fiction Stories, January 1956)",
+"type": "ESSAY",
+"len": null,
+"page": "136",
+"authors": [
+"Bob Silverberg"
+],
+"real": [
+"Robert Silverberg"
+]
+}
+],
+"cover_artists": [
+"Freas"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 189409,
+"title": "Science Fiction Stories, March 1956",
+"date": "1956-03-00",
+"items": [
+{
+"title": "Editorial: The Pedalogical Question",
+"type": "ESSAY",
+"len": null,
+"page": "1",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "The Spaceman's Van Gogh",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "3",
+"authors": [
+"Clifford D. Simak"
+],
+"real": []
+},
+{
+"title": "Through a Glass Darkly",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "20",
+"authors": [
+"Milton Lesser"
+],
+"real": []
+},
+{
+"title": "The Mythological Background",
+"type": "ESSAY",
+"len": null,
+"page": "64",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "The Bloomers of Shizar",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "77",
+"authors": [
+"Charles A. Stearns"
+],
+"real": []
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Stories, March 1956)",
+"type": "ESSAY",
+"len": null,
+"page": "93",
+"authors": [
+"Damon Knight"
+],
+"real": []
+},
+{
+"title": "The Vacationer",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "96",
+"authors": [
+"Sam Merwin, Jr."
+],
+"real": []
+},
+{
+"title": "Parodies Tossed: Isaac Asimov's \"The Caves of Steel\"",
+"type": "POEM",
+"len": null,
+"page": "117",
+"authors": [
+"Randall Garrett"
+],
+"real": []
+},
+{
+"title": "Comes the Revolution",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "120",
+"authors": [
+"Donald Franson"
+],
+"real": []
+},
+{
+"title": "The Last Word (Science Fiction Stories, March 1956)",
+"type": "ESSAY",
+"len": null,
+"page": "132",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Science Fiction Stories, March 1956)",
+"type": "ESSAY",
+"len": null,
+"page": "132",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "In Reply to Randall Garrett",
+"type": "POEM",
+"len": null,
+"page": "132",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "Letter (Science Fiction Stories, March 1956)",
+"type": "ESSAY",
+"len": null,
+"page": "133",
+"authors": [
+"Randall Garrett"
+],
+"real": []
+},
+{
+"title": "Letter (Science Fiction Stories, March 1956)",
+"type": "ESSAY",
+"len": null,
+"page": "133",
+"authors": [
+"Alfred Bester"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 189725,
+"title": "Science Fiction Stories, May 1956",
+"date": "1956-05-00",
+"items": [
+{
+"title": "Editorial: Nothing If Not Personal",
+"type": "ESSAY",
+"len": null,
+"page": "1",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Living Space",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "3",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "The Non-Statistical Man",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "18",
+"authors": [
+"Raymond F. Jones"
+],
+"real": []
+},
+{
+"title": "Parodies Tossed: John W. Campbell, Jr.'s \"Who Goes There?\"",
+"type": "POEM",
+"len": null,
+"page": "100",
+"authors": [
+"Randall Garrett"
+],
+"real": []
+},
+{
+"title": "With a Dime on Top of It",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "103",
+"authors": [
+"Algis Budrys"
+],
+"real": []
+},
+{
+"title": "Inside Science Fiction (Science Fiction Stories, May 1956)",
+"type": "ESSAY",
+"len": null,
+"page": "114",
+"authors": [
+"Robert A. Madle"
+],
+"real": []
+},
+{
+"title": "Project Flatty",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "119",
+"authors": [
+"Irving Cox, Jr."
+],
+"real": [
+"Irving E. Cox, Jr."
+]
+},
+{
+"title": "The Dessicator",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "130",
+"authors": [
+"Robert Silverberg"
+],
+"real": []
+},
+{
+"title": "Science Fiction Stories, May 1956",
+"type": "ESSAY",
+"len": null,
+"page": "137",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Science Fiction Stories, May 1956)",
+"type": "ESSAY",
+"len": null,
+"page": "137",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 189745,
+"title": "Science Fiction Stories, July 1956",
+"date": "1956-07-00",
+"items": [
+{
+"title": "Editorial: Notice Taken",
+"type": "ESSAY",
+"len": null,
+"page": "1",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Wapshot's Demon",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "3",
+"authors": [
+"Frederik Pohl"
+],
+"real": []
+},
+{
+"title": "The Third City",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "14",
+"authors": [
+"Bryce Walton"
+],
+"real": []
+},
+{
+"title": "Art-Work",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "46",
+"authors": [
+"James Blish"
+],
+"real": []
+},
+{
+"title": "The Saboteur",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "64",
+"authors": [
+"Randall Garrett"
+],
+"real": []
+},
+{
+"title": "The Stone of the Wise",
+"type": "ESSAY",
+"len": null,
+"page": "80",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "The Secret Weapon of Titipu",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "93",
+"authors": [
+"Ralph Spencer"
+],
+"real": []
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Stories, July 1956)",
+"type": "ESSAY",
+"len": null,
+"page": "103",
+"authors": [
+"Damon Knight"
+],
+"real": []
+},
+{
+"title": "The Lonely One",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "108",
+"authors": [
+"Robert Silverberg"
+],
+"real": []
+},
+{
+"title": "Inside Science Fiction (Science Fiction Stories, July 1956)",
+"type": "ESSAY",
+"len": null,
+"page": "123",
+"authors": [
+"Robert A. Madle"
+],
+"real": []
+},
+{
+"title": "The Last Word (Science Fiction Stories, July 1956)",
+"type": "ESSAY",
+"len": null,
+"page": "128",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Science Fiction Stories, July 1956)",
+"type": "ESSAY",
+"len": null,
+"page": "138",
+"authors": [
+"Randall Garrett"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 189981,
+"title": "Science Fiction Stories, September 1956",
+"date": "1956-09-00",
+"items": [
+{
+"title": "Editorial: What Makes Them Run?",
+"type": "ESSAY",
+"len": null,
+"page": "1",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "The Songs of Summer",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "3",
+"authors": [
+"Robert Silverberg"
+],
+"real": []
+},
+{
+"title": "Inside Science Fiction (Science Fiction Stories, September 1956)",
+"type": "ESSAY",
+"len": null,
+"page": "19",
+"authors": [
+"Robert A. Madle"
+],
+"real": []
+},
+{
+"title": "Galactic Chest",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "20",
+"authors": [
+"Clifford D. Simak"
+],
+"real": []
+},
+{
+"title": "Social Climber",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "46",
+"authors": [
+"Milton Lesser"
+],
+"real": []
+},
+{
+"title": "How to Count on Your Fingers",
+"type": "ESSAY",
+"len": null,
+"page": "85",
+"authors": [
+"Frederik Pohl"
+],
+"real": []
+},
+{
+"title": "Consumership",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "103",
+"authors": [
+"Margaret St. Clair"
+],
+"real": []
+},
+{
+"title": "Parodies Tossed: L. Sprague de Camp's \"Lest Darkness Fall\"",
+"type": "POEM",
+"len": null,
+"page": "112",
+"authors": [
+"Randall Garrett"
+],
+"real": []
+},
+{
+"title": "The Other Army",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "115",
+"authors": [
+"George Hudson Smith"
+],
+"real": [
+"George H. Smith"
+]
+},
+{
+"title": "Co-Incidence",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "121",
+"authors": [
+"Irwin Booth"
+],
+"real": [
+"Edward D. Hoch"
+]
+},
+{
+"title": "The Last Word (Science Fiction Stories, September 1956)",
+"type": "ESSAY",
+"len": null,
+"page": "127",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 189997,
+"title": "Science Fiction Stories, November 1956",
+"date": "1956-11-00",
+"items": [
+{
+"title": "Homecalling",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Judith Merril"
+],
+"real": []
+},
+{
+"title": "Women's Work",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "89",
+"authors": [
+"Murray Leinster"
+],
+"real": []
+},
+{
+"title": "Parodies Tossed: How to Succeed at Science Fiction Without Really Trying",
+"type": "POEM",
+"len": null,
+"page": "110",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "Tools of the Trade",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "112",
+"authors": [
+"Robert Randall"
+],
+"real": [
+"Randall Garrett",
+"Robert Silverberg"
+]
+},
+{
+"title": "The Messiahs",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "121",
+"authors": [
+"Alfred McCoy Andrews"
+],
+"real": []
+},
+{
+"title": "The Stretch",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "127",
+"authors": [
+"Sam Merwin, Jr."
+],
+"real": []
+},
+{
+"title": "Editorial: A Fact Is a Fact is a Fact....",
+"type": "ESSAY",
+"len": null,
+"page": "137",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 190181,
+"title": "Science Fiction Stories, January 1957",
+"date": "1957-01-00",
+"items": [
+{
+"title": "The Unreconstructed M",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"Philip K. Dick"
+],
+"real": []
+},
+{
+"title": "Male Strikebreaker",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "39",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "Bridey Murphy and the Martian Princess",
+"type": "ESSAY",
+"len": null,
+"page": "53",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Godling, Go Home!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "62",
+"authors": [
+"Robert Silverberg"
+],
+"real": []
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Stories, January 1957)",
+"type": "ESSAY",
+"len": null,
+"page": "81",
+"authors": [
+"Randall Garrett"
+],
+"real": []
+},
+{
+"title": "Mission to the Enemy",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "83",
+"authors": [
+"Irving Cox, Jr."
+],
+"real": [
+"Irving E. Cox, Jr."
+]
+},
+{
+"title": "Inside Science Fiction (Science Fiction Stories, January 1957)",
+"type": "ESSAY",
+"len": null,
+"page": "99",
+"authors": [
+"Robert A. Madle"
+],
+"real": []
+},
+{
+"title": "Occupational Risk",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "104",
+"authors": [
+"John Christopher"
+],
+"real": []
+},
+{
+"title": "Review of '200 Miles UpâThe Conquest of the Upper Air' by J. Gordon Vaeth (non-genre)",
+"type": "ESSAY",
+"len": null,
+"page": "121",
+"authors": [
+"Randall Garrett"
+],
+"real": []
+},
+{
+"title": "Lost Love",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "126",
+"authors": [
+"Paul Janvier"
+],
+"real": [
+"Algis Budrys"
+]
+},
+{
+"title": "Editorial: It's More Than Just Trying",
+"type": "ESSAY",
+"len": null,
+"page": "135",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 190185,
+"title": "Science Fiction Stories, March 1957",
+"date": "1957-03-00",
+"items": [
+{
+"title": "Salt Lake Skirmish",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"Richard Royale"
+],
+"real": [
+"unknown"
+]
+},
+{
+"title": "Saturnalia",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "37",
+"authors": [
+"Randall Garrett"
+],
+"real": []
+},
+{
+"title": "The Quest",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "49",
+"authors": [
+"Abraham Stern"
+],
+"real": []
+},
+{
+"title": "Galactic Gamble",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "58",
+"authors": [
+"Eando Binder"
+],
+"real": [
+"Otto Binder"
+]
+},
+{
+"title": "Parodies Tossed: With Reverent Apologies to the Shade of Sir William Gilbert - All the Latest Improvements",
+"type": "POEM",
+"len": null,
+"page": "66",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Dark of the Moon",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "68",
+"authors": [
+"Bryce Walton"
+],
+"real": []
+},
+{
+"title": "To Have and to Hold Not",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "81",
+"authors": [
+"Winston K. Marks"
+],
+"real": []
+},
+{
+"title": "Editorial: Communication Problem",
+"type": "ESSAY",
+"len": null,
+"page": "95",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "The Downfall of Alchemy",
+"type": "ESSAY",
+"len": null,
+"page": "105",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Tempus Non Fugit",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "116",
+"authors": [
+"Gordon R. Dickson"
+],
+"real": []
+},
+{
+"title": "The Last Word (Science Fiction Stories, March 1957)",
+"type": "ESSAY",
+"len": null,
+"page": "135",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Science Fiction Stories, March 1957)",
+"type": "ESSAY",
+"len": null,
+"page": "135",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Letter (Science Fiction Stories, March 1957)",
+"type": "ESSAY",
+"len": null,
+"page": "137",
+"authors": [
+"Lin Carter"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 190221,
+"title": "Science Fiction Stories, May 1957",
+"date": "1957-05-00",
+"items": [
+{
+"title": "Sunrise on Mercury",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "2",
+"authors": [
+"Calvin M. Knox"
+],
+"real": [
+"Robert Silverberg"
+]
+},
+{
+"title": "The Demancipator",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "16",
+"authors": [
+"G. C. Edmondson"
+],
+"real": []
+},
+{
+"title": "Zoological Specimen",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "23",
+"authors": [
+"A. Bertram Chandler"
+],
+"real": []
+},
+{
+"title": "Editorial: Prophecy",
+"type": "ESSAY",
+"len": null,
+"page": "45",
+"authors": [
+"Robert W. Lowndes"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Fulfillment",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "49",
+"authors": [
+"Thomas N. Scortia"
+],
+"real": []
+},
+{
+"title": "The Last Word (Science Fiction Stories, May 1957)",
+"type": "ESSAY",
+"len": null,
+"page": "62",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Science Fiction Stories, May 1957)",
+"type": "ESSAY",
+"len": null,
+"page": "62",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "The Innocents' Refuge",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "63",
+"authors": [
+"Theodore L. Thomas"
+],
+"real": []
+},
+{
+"title": "Inside Science Fiction (Science Fiction Stories, May 1957)",
+"type": "ESSAY",
+"len": null,
+"page": "67",
+"authors": [
+"Robert A. Madle"
+],
+"real": []
+},
+{
+"title": "Extra Space Perception",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "72",
+"authors": [
+"Russ Winterbotham"
+],
+"real": [
+"R. R. Winterbotham"
+]
+},
+{
+"title": "The Janus City",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "104",
+"authors": [
+"Irving Cox, Jr."
+],
+"real": [
+"Irving E. Cox, Jr."
+]
+},
+{
+"title": "Pleasure Orbit",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "121",
+"authors": [
+"Winston K. Marks"
+],
+"real": []
+},
+{
+"title": "Hunting Machine",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "133",
+"authors": [
+"Carol Emshwiller"
+],
+"real": []
+},
+{
+"title": "Index to Volume 7",
+"type": "ESSAY",
+"len": null,
+"page": "140",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert W. Lowndes"
+]
+},
+{
+"id": 190225,
+"title": "Science Fiction Stories, July 1957",
+"date": "1957-07-00",
+"items": [
+{
+"title": "The Disappearing Man",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "4",
+"authors": [
+"Theodore L. Thomas"
+],
+"real": []
+},
+{
+"title": "Editorial: Not Both Ways",
+"type": "ESSAY",
+"len": null,
+"page": "34",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+},
+{
+"title": "Neutral Planet",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "39",
+"authors": [
+"Robert Silverberg"
+],
+"real": []
+},
+{
+"title": "The Disinherited",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "54",
+"authors": [
+"Irving Cox, Jr."
+],
+"real": [
+"Irving E. Cox, Jr."
+]
+},
+{
+"title": "Femmequin 973",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "69",
+"authors": [
+"Fritz Leiber"
+],
+"real": []
+},
+{
+"title": "Golden Boy",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "81",
+"authors": [
+"Winston K. Marks"
+],
+"real": []
+},
+{
+"title": "The Gardener",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "94",
+"authors": [
+"Raymond F. Jones"
+],
+"real": []
+},
+{
+"title": "Gag Rule",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "110",
+"authors": [
+"Thomas N. Scortia"
+],
+"real": []
+},
+{
+"title": "The Last Word (Science Fiction Stories, July 1957)",
+"type": "ESSAY",
+"len": null,
+"page": "120",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Science Fiction Stories, July 1957)",
+"type": "ESSAY",
+"len": null,
+"page": "120",
+"authors": [
+"Thomas Purdom"
+],
+"real": [
+"Tom Purdom"
+]
+}
+],
+"cover_artists": [
+"Freas"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 190389,
+"title": "Science Fiction Stories, September 1957",
+"date": "1957-09-00",
+"items": [
+{
+"title": "The Return from Troy",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "4",
+"authors": [
+"Russ Winterbotham"
+],
+"real": [
+"R. R. Winterbotham"
+]
+},
+{
+"title": "Genius Loci",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "17",
+"authors": [
+"Thomas N. Scortia"
+],
+"real": []
+},
+{
+"title": "His Head in the Clouds",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "66",
+"authors": [
+"Calvin M. Knox"
+],
+"real": [
+"Robert Silverberg"
+]
+},
+{
+"title": "Compulsions",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "80",
+"authors": [
+"Peter Stom"
+],
+"real": []
+},
+{
+"title": "Editorial: Job for a Superman",
+"type": "ESSAY",
+"len": null,
+"page": "95",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+},
+{
+"title": "The Principle",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "100",
+"authors": [
+"A. Bertram Chandler"
+],
+"real": []
+},
+{
+"title": "Inside Science Fiction (Science Fiction Stories, September 1957)",
+"type": "ESSAY",
+"len": null,
+"page": "107",
+"authors": [
+"Robert A. Madle"
+],
+"real": []
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Stories, September 1957)",
+"type": "ESSAY",
+"len": null,
+"page": "112",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Just Rub a Lamp",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "117",
+"authors": [
+"Theodore L. Thomas"
+],
+"real": []
+},
+{
+"title": "The Last Word (Science Fiction Stories, September 1957)",
+"type": "ESSAY",
+"len": null,
+"page": "121",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 190393,
+"title": "Science Fiction Stories, November 1957",
+"date": "1957-11-00",
+"items": [
+{
+"title": "Quest",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6",
+"authors": [
+"Manly Banister"
+],
+"real": []
+},
+{
+"title": "Early Bird",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "22",
+"authors": [
+"Eric Frank Russell"
+],
+"real": []
+},
+{
+"title": "Why?",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "56",
+"authors": [
+"Robert Silverberg"
+],
+"real": []
+},
+{
+"title": "Editorial: Quis Custodiet",
+"type": "ESSAY",
+"len": null,
+"page": "69",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+},
+{
+"title": "Delay - Temporary",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "74",
+"authors": [
+"Charles V. DeVet"
+],
+"real": [
+"Charles V. De Vet"
+]
+},
+{
+"title": "Audition",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "91",
+"authors": [
+"Robert Arnett"
+],
+"real": [
+"unknown"
+]
+},
+{
+"title": "Pursuit",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "102",
+"authors": [
+"Ron Smith"
+],
+"real": []
+},
+{
+"title": "The Heirs",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "104",
+"authors": [
+"Irving Cox, Jr."
+],
+"real": [
+"Irving E. Cox, Jr."
+]
+},
+{
+"title": "The Last Word (Science Fiction Stories, November 1957)",
+"type": "ESSAY",
+"len": null,
+"page": "119",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 190521,
+"title": "Science Fiction Stories, January 1958",
+"date": "1958-01-00",
+"items": [
+{
+"title": "Prime Commandment",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6",
+"authors": [
+"Calvin M. Knox"
+],
+"real": [
+"Robert Silverberg"
+]
+},
+{
+"title": "Editorial: Freedom?",
+"type": "ESSAY",
+"len": null,
+"page": "17",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+},
+{
+"title": "The Wild Ones",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "20",
+"authors": [
+"Tom Godwin"
+],
+"real": []
+},
+{
+"title": "The Better Egg",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "61",
+"authors": [
+"Dick Hetschel"
+],
+"real": []
+},
+{
+"title": "Death Wish",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "84",
+"authors": [
+"Nicholas G. Lordi"
+],
+"real": []
+},
+{
+"title": "Oh, That Lost Sense of Wonder!",
+"type": "POEM",
+"len": null,
+"page": "103",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "Inside Science Fiction (Science Fiction Stories, January 1958)",
+"type": "ESSAY",
+"len": null,
+"page": "104",
+"authors": [
+"Robert A. Madle"
+],
+"real": []
+},
+{
+"title": "Dangerous Weapon",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "110",
+"authors": [
+"Donald Franson"
+],
+"real": []
+},
+{
+"title": "The Last Word (Science Fiction Stories, January 1958)",
+"type": "ESSAY",
+"len": null,
+"page": "119",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 190529,
+"title": "Science Fiction Stories, March 1958",
+"date": "1958-03-00",
+"items": [
+{
+"title": "Far from Somewhere",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6",
+"authors": [
+"Randall Garrett"
+],
+"real": []
+},
+{
+"title": "The Time for Delusion",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "30",
+"authors": [
+"Donald Franson"
+],
+"real": []
+},
+{
+"title": "Editorial: Theory and Practice",
+"type": "ESSAY",
+"len": null,
+"page": "60",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+},
+{
+"title": "The Jolly Boys",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "63",
+"authors": [
+"Walter Maneikis"
+],
+"real": []
+},
+{
+"title": "Inside Science Fiction (Science Fiction Stories, March 1958)",
+"type": "ESSAY",
+"len": null,
+"page": "76",
+"authors": [
+"Robert A. Madle"
+],
+"real": []
+},
+{
+"title": "Science Article: The Littlest",
+"type": "ESSAY",
+"len": null,
+"page": "77",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "Fluorocarbons Are Here to Stay!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "92",
+"authors": [
+"Donald E. Westlake"
+],
+"real": []
+},
+{
+"title": "The Winning Hand",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "100",
+"authors": [
+"William Moeller"
+],
+"real": []
+},
+{
+"title": "Paradox Lost",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "106",
+"authors": [
+"Brent Howell"
+],
+"real": []
+},
+{
+"title": "Robots' Gambit",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "113",
+"authors": [
+"Richard Wilson"
+],
+"real": []
+},
+{
+"title": "The Reckoning (Reader's Poll November, 1957 issue)",
+"type": "ESSAY",
+"len": null,
+"page": "122",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Last Word (Science Fiction Stories, March 1958)",
+"type": "ESSAY",
+"len": null,
+"page": "123",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Freas"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 191201,
+"title": "Science Fiction Stories, May 1958",
+"date": "1958-05-00",
+"items": [
+{
+"title": "Author, Author! (Science Fiction Stories, May 1958)",
+"type": "ESSAY",
+"len": null,
+"page": "5",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Tower of Zanid (Part 1 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Editorial: Disciplined Imagination",
+"type": "ESSAY",
+"len": null,
+"page": "53",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+},
+{
+"title": "Satellites in Fact and Fiction",
+"type": "ESSAY",
+"len": null,
+"page": "54",
+"authors": [
+"Richard H. Macklin, Ph.D."
+],
+"real": []
+},
+{
+"title": "The Reckoning:January, 1958 (Science Fiction Stories, May 1958)",
+"type": "ESSAY",
+"len": null,
+"page": "68",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Invasion Vanguard",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "69",
+"authors": [
+"T. D. Bethlen"
+],
+"real": [
+"Robert Silverberg"
+]
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Stories, May 1958)",
+"type": "ESSAY",
+"len": null,
+"page": "77",
+"authors": [
+"Damon Knight"
+],
+"real": []
+},
+{
+"title": "Postman's Holiday",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "84",
+"authors": [
+"Charles V. De Vet"
+],
+"real": []
+},
+{
+"title": "Research Team",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "112",
+"authors": [
+"Don Hinkle"
+],
+"real": []
+},
+{
+"title": "The Logical Life",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "117",
+"authors": [
+"Charles E. Fritch"
+],
+"real": []
+},
+{
+"title": "The Last Word (Science Fiction Stories, May 1958)",
+"type": "ESSAY",
+"len": null,
+"page": "121",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Science Fiction Stories, May 1958)",
+"type": "ESSAY",
+"len": null,
+"page": "121",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Letter (Science Fiction Stories, May 1958)",
+"type": "ESSAY",
+"len": null,
+"page": "122",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 191205,
+"title": "Science Fiction Stories, June 1958",
+"date": "1958-06-00",
+"items": [
+{
+"title": "Author, Author! (Science Fiction Stories, June 1958)",
+"type": "ESSAY",
+"len": null,
+"page": "5",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Sound of the Wind",
+"type": "SHORTFICTION",
+"len": null,
+"page": "6",
+"authors": [
+"Theodore L. Thomas"
+],
+"real": []
+},
+{
+"title": "Constabulary Duty",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "49",
+"authors": [
+"Calvin M. Knox"
+],
+"real": [
+"Robert Silverberg"
+]
+},
+{
+"title": "Mirror",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "58",
+"authors": [
+"Ralph Spencer"
+],
+"real": []
+},
+{
+"title": "Editorial: You and I",
+"type": "ESSAY",
+"len": null,
+"page": "71",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+},
+{
+"title": "Lullaby",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "75",
+"authors": [
+"Arthur Zirul"
+],
+"real": []
+},
+{
+"title": "The Tower of Zanid (Part 2 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "80",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Stories, June 1958)",
+"type": "ESSAY",
+"len": null,
+"page": "113",
+"authors": [
+"Damon Knight"
+],
+"real": []
+},
+{
+"title": "The Last Word (Science Fiction Stories, June 1958)",
+"type": "ESSAY",
+"len": null,
+"page": "119",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Index to Volume 8",
+"type": "ESSAY",
+"len": null,
+"page": "128",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Freas"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 191321,
+"title": "Science Fiction Stories, July 1958",
+"date": "1958-07-00",
+"items": [
+{
+"title": "Author, Author! (Science Fiction Stories, July 1958)",
+"type": "ESSAY",
+"len": null,
+"page": "5",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Underground Front",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6",
+"authors": [
+"Leroy B. Haugsraud",
+"Dale R. Smith"
+],
+"real": [
+"Leroy B. Haugsrud",
+"Dale R. Smith"
+]
+},
+{
+"title": "The Moon - Good Night!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "53",
+"authors": [
+"Mack Richards"
+],
+"real": []
+},
+{
+"title": "Last Voyage",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "66",
+"authors": [
+"Gordon R. Dickson"
+],
+"real": []
+},
+{
+"title": "The Reckoning: March, 1958 (Science Fiction Stories, July 1958)",
+"type": "ESSAY",
+"len": null,
+"page": "81",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Tower of Zanid (Part 3 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "82",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Hello, Terra Central!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "117",
+"authors": [
+"George H. Smith"
+],
+"real": []
+},
+{
+"title": "A Certain Answer",
+"type": "POEM",
+"len": null,
+"page": "118",
+"authors": [
+"Robert Randall"
+],
+"real": [
+"Robert Silverberg",
+"Randall Garrett"
+]
+},
+{
+"title": "Editorial: Those Letter Columns",
+"type": "ESSAY",
+"len": null,
+"page": "120",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+},
+{
+"title": "Just Desserts",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "123",
+"authors": [
+"Irving Fang"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 191325,
+"title": "Science Fiction Stories, August 1958",
+"date": "1958-08-00",
+"items": [
+{
+"title": "Author, Author! (Science Fiction Stories, August 1958)",
+"type": "ESSAY",
+"len": null,
+"page": "5",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Little Brother",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6",
+"authors": [
+"D. A. Jourdan"
+],
+"real": []
+},
+{
+"title": "Editorial: Windows on Ignorance",
+"type": "ESSAY",
+"len": null,
+"page": "35",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+},
+{
+"title": "The Reckoning: May, 1958 (Science Fiction Stories, August 1958)",
+"type": "ESSAY",
+"len": null,
+"page": "39",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Four",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "40",
+"authors": [
+"Calvin M. Knox"
+],
+"real": [
+"Robert Silverberg"
+]
+},
+{
+"title": "The Successors",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "51",
+"authors": [
+"A. Bertram Chandler"
+],
+"real": []
+},
+{
+"title": "Age of Miracles",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "59",
+"authors": [
+"Watson Parker"
+],
+"real": []
+},
+{
+"title": "The Tower of Zanid (Part 4 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "68",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "The Last Word (Science Fiction Stories, August 1958)",
+"type": "ESSAY",
+"len": null,
+"page": "125",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Freas"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 191541,
+"title": "Science Fiction Stories, September 1958",
+"date": "1958-09-00",
+"items": [
+{
+"title": "Editorial: Refinement",
+"type": "ESSAY",
+"len": null,
+"page": "5",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+},
+{
+"title": "The Destroyers",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6",
+"authors": [
+"Theodore L. Thomas"
+],
+"real": []
+},
+{
+"title": "The Avengers",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "36",
+"authors": [
+"Thomas N. Scortia"
+],
+"real": []
+},
+{
+"title": "Fourth Factor",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "48",
+"authors": [
+"Brian W. Aldiss"
+],
+"real": []
+},
+{
+"title": "Inside Science Fiction (Science Fiction Stories, September 1958)",
+"type": "ESSAY",
+"len": null,
+"page": "71",
+"authors": [
+"Robert A. Madle"
+],
+"real": []
+},
+{
+"title": "Star Ways",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "75",
+"authors": [
+"Joe L. Hensley"
+],
+"real": []
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Stories, September 1958)",
+"type": "ESSAY",
+"len": null,
+"page": "90",
+"authors": [
+"Calvin M. Knox",
+"Jay Tyler"
+],
+"real": [
+"Robert Silverberg",
+"Jay Tyler"
+]
+},
+{
+"title": "The Outcasts",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "95",
+"authors": [
+"George H. Smith"
+],
+"real": []
+},
+{
+"title": "The Last Word (Science Fiction Stories, September 1958)",
+"type": "ESSAY",
+"len": null,
+"page": "113",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+},
+{
+"title": "The Reckoning: May 1959 (Science Fiction Stories, September 1958)",
+"type": "ESSAY",
+"len": null,
+"page": "123",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 191557,
+"title": "Science Fiction Stories, November 1958",
+"date": "1958-11-00",
+"items": [
+{
+"title": "Riddle of the Deadly Paradise",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6",
+"authors": [
+"Charles Long"
+],
+"real": [
+"Frank Belknap Long"
+]
+},
+{
+"title": "Do You Know Your Physicists? (Quiz Feature)",
+"type": "ESSAY",
+"len": null,
+"page": "45",
+"authors": [
+"Joseph C. Stacey"
+],
+"real": []
+},
+{
+"title": "The Sun Stood Still",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "46",
+"authors": [
+"Maurice Vaisberg, M.D."
+],
+"real": []
+},
+{
+"title": "The Isolationists",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "90",
+"authors": [
+"George Osborne"
+],
+"real": [
+"Robert Silverberg"
+]
+},
+{
+"title": "Editorial: Fair Warning",
+"type": "ESSAY",
+"len": null,
+"page": "102",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+},
+{
+"title": "The Tomb",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "108",
+"authors": [
+"Diane Detzer"
+],
+"real": [
+"Adam Lukens"
+]
+},
+{
+"title": "The Reckoning: June, 1958 (Science Fiction Stories, November 1958)",
+"type": "ESSAY",
+"len": null,
+"page": "123",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Cyril Kornbluth (Obituary)",
+"type": "ESSAY",
+"len": null,
+"page": "125",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+},
+{
+"title": "The Last Word (Science Fiction Stories, November 1958)",
+"type": "ESSAY",
+"len": null,
+"page": "128",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 192181,
+"title": "Science Fiction Stories, January 1959",
+"date": "1959-01-00",
+"items": [
+{
+"title": "Caduceus Wild (Part 1 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"Ward Moore",
+"Robert Bradford"
+],
+"real": []
+},
+{
+"title": "Perfect Marriage",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "74",
+"authors": [
+"George H. Smith"
+],
+"real": []
+},
+{
+"title": "The Cyclops Gun",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "79",
+"authors": [
+"Stanley H. Siegel"
+],
+"real": []
+},
+{
+"title": "The Anaheim Disease",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "92",
+"authors": [
+"Margaret St. Clair"
+],
+"real": []
+},
+{
+"title": "Editorial The Futuristic Detective",
+"type": "ESSAY",
+"len": null,
+"page": "102",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+},
+{
+"title": "Make a Prison",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "108",
+"authors": [
+"Lawrence Block"
+],
+"real": []
+},
+{
+"title": "Inside Science Fiction (Science Fiction Stories, January 1959)",
+"type": "ESSAY",
+"len": null,
+"page": "112",
+"authors": [
+"Robert A. Madle"
+],
+"real": []
+},
+{
+"title": "The Reckoning: July, 1958 (Science Fiction Stories, January 1959)",
+"type": "ESSAY",
+"len": null,
+"page": "117",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Reckoning: August, 1958 (Science Fiction Stories, January 1959)",
+"type": "ESSAY",
+"len": null,
+"page": "118",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Last Word (Science Fiction Stories, January 1959)",
+"type": "ESSAY",
+"len": null,
+"page": "118",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+},
+{
+"title": "Letter (Science Fiction Stories, January 1959)",
+"type": "ESSAY",
+"len": null,
+"page": "120",
+"authors": [
+"Fritz Leiber",
+"Earl Kemp",
+"F. L. Light"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 192185,
+"title": "Science Fiction Stories, February 1959",
+"date": "1959-02-00",
+"items": [
+{
+"title": "Delivery Guaranteed",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6",
+"authors": [
+"Calvin M. Knox"
+],
+"real": [
+"Robert Silverberg"
+]
+},
+{
+"title": "Editorial: Let the Reader Beware",
+"type": "ESSAY",
+"len": null,
+"page": "24",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+},
+{
+"title": "Dreamboat",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "27",
+"authors": [
+"A. Bertram Chandler"
+],
+"real": []
+},
+{
+"title": "Paradox Lost",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "56",
+"authors": [
+"George H. Smith"
+],
+"real": []
+},
+{
+"title": "Caduceus Wild (Part 2 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "60",
+"authors": [
+"Ward Moore",
+"Robert Bradford"
+],
+"real": []
+},
+{
+"title": "The Last Unicorns",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "123",
+"authors": [
+"Edward D. Hoch"
+],
+"real": []
+},
+{
+"title": "The Reckoning: September, 1958 (Science Fiction Stories, February 1959)",
+"type": "ESSAY",
+"len": null,
+"page": "125",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Last Word (Science Fiction Stories, February 1959)",
+"type": "ESSAY",
+"len": null,
+"page": "127",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 192213,
+"title": "Science Fiction Stories, March 1959",
+"date": "1959-03-00",
+"items": [
+{
+"title": "Project Starlight",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6",
+"authors": [
+"Kate Wilhelm"
+],
+"real": []
+},
+{
+"title": "Spaceman's Delight",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "37",
+"authors": [
+"A. Bertram Chandler"
+],
+"real": []
+},
+{
+"title": "Editorial: Experiment",
+"type": "ESSAY",
+"len": null,
+"page": "47",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+},
+{
+"title": "Time Bomb",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "50",
+"authors": [
+"Joseph Farrell"
+],
+"real": []
+},
+{
+"title": "The Smoke of Last Rites",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "61",
+"authors": [
+"George W. Maki"
+],
+"real": []
+},
+{
+"title": "Caduceus Wild (Part 3 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "68",
+"authors": [
+"Ward Moore",
+"Robert Bradford"
+],
+"real": []
+},
+{
+"title": "The Reckoning: November, (Science Fiction Stories, March 1959)",
+"type": "ESSAY",
+"len": null,
+"page": "114",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Last Word (Science Fiction Stories, March 1959)",
+"type": "ESSAY",
+"len": null,
+"page": "115",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh",
+"Virgil Finlay",
+"Orban"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 192221,
+"title": "Science Fiction Stories, May 1959",
+"date": "1959-05-00",
+"items": [
+{
+"title": "There's No Place Like Space",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6",
+"authors": [
+"Robert Silverberg"
+],
+"real": []
+},
+{
+"title": "Utility Girl",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "24",
+"authors": [
+"Basil Wells"
+],
+"real": []
+},
+{
+"title": "Android, Kill for Me!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "42",
+"authors": [
+"Kate Wilhelm"
+],
+"real": []
+},
+{
+"title": "Here, Kitty Kitty",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "49",
+"authors": [
+"Kit Reed"
+],
+"real": []
+},
+{
+"title": "Weapon Master",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "57",
+"authors": [
+"A. L. Caramine"
+],
+"real": []
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Stories, May 1959)",
+"type": "ESSAY",
+"len": null,
+"page": "63",
+"authors": [
+"Calvin M. Knox"
+],
+"real": [
+"Robert Silverberg"
+]
+},
+{
+"title": "Caduceus Wild (Part 4 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "69",
+"authors": [
+"Ward Moore",
+"Robert Bradford"
+],
+"real": []
+},
+{
+"title": "The Reckoning: January, 1959 (Science Fiction Stories, May 1959)",
+"type": "ESSAY",
+"len": null,
+"page": "117",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Last Word (Science Fiction Stories, May 1959)",
+"type": "ESSAY",
+"len": null,
+"page": "118",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Science Fiction Stories, May 1959)",
+"type": "ESSAY",
+"len": null,
+"page": "119",
+"authors": [
+"Murray King"
+],
+"real": []
+},
+{
+"title": "Letter (Science Fiction Stories, May 1959)",
+"type": "ESSAY",
+"len": null,
+"page": "121",
+"authors": [
+"Alma Hill"
+],
+"real": []
+},
+{
+"title": "Letter (Science Fiction Stories, May 1959)",
+"type": "ESSAY",
+"len": null,
+"page": "124",
+"authors": [
+"J. Martin Graetsz"
+],
+"real": []
+},
+{
+"title": "Letter (Science Fiction Stories, May 1959)",
+"type": "ESSAY",
+"len": null,
+"page": "118|118.1",
+"authors": [
+"F. M. Busby"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 192621,
+"title": "Science Fiction Stories, July 1959",
+"date": "1959-07-00",
+"items": [
+{
+"title": "The Bare Facts",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6",
+"authors": [
+"George H. Smith"
+],
+"real": []
+},
+{
+"title": "Night of the Robots",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "16",
+"authors": [
+"Allen Wilder"
+],
+"real": [
+"John Jakes"
+]
+},
+{
+"title": "Beyond the Snake Planet",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "31",
+"authors": [
+"Bill Wesley"
+],
+"real": []
+},
+{
+"title": "Twist of the Century (A Fable of Futurity)",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "62",
+"authors": [
+"Donald Franson"
+],
+"real": []
+},
+{
+"title": "Heap Big Medicine",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "75",
+"authors": [
+"Robert Silverberg"
+],
+"real": []
+},
+{
+"title": "Building Nine",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "99",
+"authors": [
+"J. Martin Graetz"
+],
+"real": []
+},
+{
+"title": "Alien Cornucopia",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "113",
+"authors": [
+"Walt Liebscher"
+],
+"real": []
+},
+{
+"title": "The Reckoning: February, 1959 (Science Fiction Stories, July 1959)",
+"type": "ESSAY",
+"len": null,
+"page": "114",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Reckoning: March, 1959 (Science Fiction Stories, July 1959)",
+"type": "ESSAY",
+"len": null,
+"page": "114",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Last Word (Science Fiction Stories, July 1959)",
+"type": "ESSAY",
+"len": null,
+"page": "115",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+},
+{
+"title": "Editorial: Something Happens ...",
+"type": "ESSAY",
+"len": null,
+"page": "117",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Kelly Freas"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 192625,
+"title": "Science Fiction Stories, September 1959",
+"date": "1959-09-00",
+"items": [
+{
+"title": "End As an Explorer",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6",
+"authors": [
+"Jim Harmon"
+],
+"real": []
+},
+{
+"title": "Editorial: Who's to Blame",
+"type": "ESSAY",
+"len": null,
+"page": "29",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+},
+{
+"title": "To Err Is Inhuman",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "30",
+"authors": [
+"Marion Zimmer Bradley"
+],
+"real": []
+},
+{
+"title": "Eye of the Beholder",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "45",
+"authors": [
+"Robert Silverberg"
+],
+"real": []
+},
+{
+"title": "Special City",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "61",
+"authors": [
+"Jackson Barrow"
+],
+"real": []
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Stories, September 1959)",
+"type": "ESSAY",
+"len": null,
+"page": "94",
+"authors": [
+"Calvin M. Knox"
+],
+"real": [
+"Robert Silverberg"
+]
+},
+{
+"title": "Blow That Horn of Plenty",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "100",
+"authors": [
+"Wallace West"
+],
+"real": []
+},
+{
+"title": "The Reckoning: May, 1959 (Science Fiction Stories, September 1959)",
+"type": "ESSAY",
+"len": null,
+"page": "115",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Last Word (Science Fiction Stories, September 1959)",
+"type": "ESSAY",
+"len": null,
+"page": "116",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh",
+"Kelly Freas"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 192709,
+"title": "Science Fiction Stories, November 1959",
+"date": "1959-11-00",
+"items": [
+{
+"title": "The Impossible Intelligence",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6",
+"authors": [
+"Robert Silverberg"
+],
+"real": []
+},
+{
+"title": "On Departments",
+"type": "ESSAY",
+"len": null,
+"page": "23",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Missile, Missile, Who's Got the Missile? (Quiz)",
+"type": "ESSAY",
+"len": null,
+"page": "24",
+"authors": [
+"Joseph Stacey"
+],
+"real": [
+"Joseph C. Stacey"
+]
+},
+{
+"title": "The Hunted Ones",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "25",
+"authors": [
+"Mack Reynolds"
+],
+"real": []
+},
+{
+"title": "Luck, Inc.",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "49",
+"authors": [
+"Jim Harmon"
+],
+"real": []
+},
+{
+"title": "No Star Shall Fall",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "70",
+"authors": [
+"Wilfred Owen Morley"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Readin' and Writhin' (Science Fiction Stories, November 1959)",
+"type": "ESSAY",
+"len": null,
+"page": "78",
+"authors": [
+"Calvin M. Knox"
+],
+"real": [
+"Robert Silverberg"
+]
+},
+{
+"title": "The Great Mutation",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "79",
+"authors": [
+"Talmage Powell"
+],
+"real": []
+},
+{
+"title": "A Little Knowledge",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "91",
+"authors": [
+"Charles V. De Vet"
+],
+"real": []
+},
+{
+"title": "For Sale--Super Ears",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "109",
+"authors": [
+"Louise Hodgson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Ed Emshwiller"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 193165,
+"title": "Science Fiction Stories, January 1960",
+"date": "1960-01-00",
+"items": [
+{
+"title": "The Coffin Ship",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6",
+"authors": [
+"Bill Wesley"
+],
+"real": []
+},
+{
+"title": "Editorial: The Plot, the Plot!",
+"type": "ESSAY",
+"len": null,
+"page": "23",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+},
+{
+"title": "Day of the Glacier",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "24",
+"authors": [
+"R. A. Lafferty"
+],
+"real": []
+},
+{
+"title": "Puritan Planet",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "37",
+"authors": [
+"Carol Emshwiller"
+],
+"real": []
+},
+{
+"title": "Once in a Blue Moon",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "48",
+"authors": [
+"Norman L. Knight"
+],
+"real": []
+},
+{
+"title": "The Reckoning: September, 1959 (Science Fiction Stories, January 1960)",
+"type": "ESSAY",
+"len": null,
+"page": "115",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Last Word (Science Fiction Stories, January 1960)",
+"type": "ESSAY",
+"len": null,
+"page": "115",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Rudolph Belarski"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 193361,
+"title": "Science Fiction Stories, March 1960",
+"date": "1960-03-00",
+"items": [
+{
+"title": "Artery of Fire",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "6",
+"authors": [
+"Thomas N. Scortia"
+],
+"real": []
+},
+{
+"title": "The Hands",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "77",
+"authors": [
+"Venard McLaughlin"
+],
+"real": []
+},
+{
+"title": "The Reckoning: November, 1959 (Science Fiction Stories, March 1960)",
+"type": "ESSAY",
+"len": null,
+"page": "88",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "UFObia",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "89",
+"authors": [
+"Kate Wilhelm"
+],
+"real": []
+},
+{
+"title": "A Matter of Philosophy",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "103",
+"authors": [
+"Wilfred Owen Morley"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Washington Slept Here",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "108",
+"authors": [
+"Hugh Raymond"
+],
+"real": [
+"John B. Michel"
+]
+},
+{
+"title": "The Editor's Page",
+"type": "ESSAY",
+"len": null,
+"page": "130",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"id": 193365,
+"title": "Science Fiction Stories, May 1960",
+"date": "1960-05-00",
+"items": [
+{
+"title": "The Corianis Disaster",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "6",
+"authors": [
+"Murray Leinster"
+],
+"real": []
+},
+{
+"title": "Editorial: Make It New",
+"type": "ESSAY",
+"len": null,
+"page": "55",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+},
+{
+"title": "This Year and No Other",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "62",
+"authors": [
+"David Grinnell"
+],
+"real": [
+"Donald A. Wollheim"
+]
+},
+{
+"title": "The Living Urn",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "72",
+"authors": [
+"Kate Wilhelm"
+],
+"real": []
+},
+{
+"title": "\"The Principle\", revisited",
+"type": "ESSAY",
+"len": null,
+"page": "81",
+"authors": [
+"A. Bertram Chandler"
+],
+"real": []
+},
+{
+"title": "Travelers Far and Wee",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "84",
+"authors": [
+"Donald E. Westlake"
+],
+"real": []
+},
+{
+"title": "Parodies Tossed: Immortality, C. O. D.",
+"type": "POEM",
+"len": null,
+"page": "88",
+"authors": [
+"Bret Hooper"
+],
+"real": []
+},
+{
+"title": "The Alien Vibration",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "92",
+"authors": [
+"Hannes Bok"
+],
+"real": []
+},
+{
+"title": "The Reckoning: January, 1960 (Science Fiction Stories, May 1960)",
+"type": "ESSAY",
+"len": null,
+"page": "107",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Last Word (Science Fiction Stories, May 1960)",
+"type": "ESSAY",
+"len": null,
+"page": "108",
+"authors": [
+"Robert A. W. Lowndes"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Kelly Freas"
+],
+"editors": [
+"Robert A. W. Lowndes"
+]
+}
+]
+}

@@ -1,0 +1,884 @@
+[
+{
+"identifier": "Science_Fantasy_01v01_1950-Summer",
+"title": "Science Fantasy #01v01 (1950 Summer)",
+"date": "1950-01-01",
+"imagecount": 102,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_02v01_1950-1951-Winter",
+"title": "Science Fantasy #02v01 (1950 1951 Winter)",
+"date": "1950-01-01",
+"imagecount": 102,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_03v01_1951-1952-Winter",
+"title": "Science Fantasy #03v01 (1951 1952 Winter)",
+"date": "1951-01-01",
+"imagecount": 100,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_04v02_1952-Spr",
+"title": "Science Fantasy #04v02 (1952 Spr)",
+"date": "1952-01-01",
+"imagecount": 102,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_10v04_1954-09",
+"title": "Science Fantasy #10v04 (1954 09)",
+"date": null,
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_11v04_1954-12",
+"title": "Science Fantasy #11v04 (1954 12)",
+"date": null,
+"imagecount": 135,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_13v05_1955-04",
+"title": "Science Fantasy #13v05 (1955 04)",
+"date": null,
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_16v06_1955-11",
+"title": "Science Fantasy #16v06 (1955 11)",
+"date": null,
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_27v09_1958-02",
+"title": "Science Fantasy #27v09 (1958 02)",
+"date": null,
+"imagecount": 134,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_28v10_1958-04",
+"title": "Science Fantasy #28v10 (1958 04)",
+"date": null,
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_32v11_1958-12",
+"title": "Science Fantasy #32v11 (1958 12)",
+"date": null,
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_34v12_1959-04",
+"title": "Science Fantasy #34v12 (1959 04)",
+"date": "1959-04-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_40v14_1960-04",
+"title": "Science Fantasy #40v14 (1960 04)",
+"date": null,
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_42v14_1960-08",
+"title": "Science Fantasy #42v14 (1960 08)",
+"date": null,
+"imagecount": 116,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_47v16_1961-06-07",
+"title": "Science Fantasy #47v16 (1961 06 07)",
+"date": null,
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_48v16_1961-08",
+"title": "Science Fantasy #48v16 (1961 08)",
+"date": null,
+"imagecount": 116,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_53v18_1962-06",
+"title": "Science Fantasy #53v18 (1962 06)",
+"date": null,
+"imagecount": 116,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_55v19_1962-10",
+"title": "Science Fantasy #55v19 (1962 10)",
+"date": null,
+"imagecount": 116,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_56v19_1962-12",
+"title": "Science Fantasy #56v19 (1962 12)",
+"date": null,
+"imagecount": 118,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_58v20_1963-04",
+"title": "Science Fantasy #58v20 (1963 04)",
+"date": null,
+"imagecount": 116,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_60v20_1963-08",
+"title": "Science Fantasy #60v20 (1963 08)",
+"date": null,
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_65v22_1964-06-07",
+"title": "Science Fantasy #65v22 (1964 06 07)",
+"date": null,
+"imagecount": 134,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_66v22_1964-07-08",
+"title": "Science Fantasy #66v22 (1964 07 08)",
+"date": null,
+"imagecount": 134,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_67v22_1964-09-10",
+"title": "Science Fantasy #67v22 (1964 09 10)",
+"date": null,
+"imagecount": 131,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_68v22_1964-12-1965-01",
+"title": "Science Fantasy #68v22 (1964 12 1965 01)",
+"date": null,
+"imagecount": 131,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_69v23_1965-01-02",
+"title": "Science Fantasy #69v23 (1965 01 02)",
+"date": null,
+"imagecount": 131,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_70v23_1965-03",
+"title": "Science Fantasy #70v23 (1965 03)",
+"date": null,
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_71v23_1965-04",
+"title": "Science Fantasy #71v23 (1965 04)",
+"date": null,
+"imagecount": 131,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_72v24_1965-05",
+"title": "Science Fantasy #72v24 (1965 05)",
+"date": null,
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_73v24_1965-06",
+"title": "Science Fantasy #73v24 (1965 06)",
+"date": null,
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_74v24_1965-07",
+"title": "Science Fantasy #74v24 (1965 07)",
+"date": null,
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_75v24_1965-08",
+"title": "Science Fantasy #75v24 (1965 08)",
+"date": null,
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_76v24_1965-09",
+"title": "Science Fantasy #76v24 (1965 09)",
+"date": null,
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_77v24_1965-10",
+"title": "Science Fantasy #77v24 (1965 10)",
+"date": null,
+"imagecount": 134,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_78v24_1965-11",
+"title": "Science Fantasy #78v24 (1965 11)",
+"date": null,
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_79v24_1965-12",
+"title": "Science Fantasy #79v24 (1965 12)",
+"date": null,
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_80v24_1966-01",
+"title": "Science Fantasy #80v24 (1966 01)",
+"date": null,
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_81v24_1966-02",
+"title": "Science Fantasy #81v24 (1966 02)",
+"date": null,
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_American_Ed._v01n04_1971-Spring_aMouse",
+"title": "Science Fantasy American Ed. v01n04 (1971 Spring) (aMouse)",
+"date": null,
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_Canadian_Ed._12v04_1955-04",
+"title": "Science Fantasy Canadian Ed. #12v04 (1955 04)",
+"date": null,
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_Canadian_Ed._12v04_1955-04_Gorgon776",
+"title": "Science Fantasy Canadian Ed. #12v04 (1955 04) (Gorgon776)",
+"date": null,
+"imagecount": 134,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_Canadian_Ed._49v17_1961-10-11",
+"title": "Science Fantasy Canadian Ed. #49v17 (1961 10 11)",
+"date": null,
+"imagecount": 116,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_Canadian_Ed._49v17_1961-10-11_dtsg0318",
+"title": "Science Fantasy Canadian Ed. #49v17 (1961 10 11) (dtsg0318)",
+"date": null,
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v01n01_1950-Summer_SLiV",
+"title": "Science Fantasy v01n01 (1950 Summer) (SLiV)",
+"date": "1950-01-01",
+"imagecount": 103,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v01n02_1950-1951-Winter_SLiV",
+"title": "Science Fantasy v01n02 (1950 1951 Winter) (SLiV)",
+"date": "1950-01-01",
+"imagecount": 103,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v01n03_1951-1952-Winter",
+"title": "Science Fantasy v01n03 (1951 1952 Winter)",
+"date": "1951-01-01",
+"imagecount": 101,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v02n04_1952-Spring_SLiV",
+"title": "Science Fantasy v02n04 (1952 Spring) (SLiV)",
+"date": "1952-01-01",
+"imagecount": 102,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v03n08_1954-05_Bogof39-slpn",
+"title": "Science Fantasy v03n08 1954 05 (Bogof39 slpn)",
+"date": null,
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v03n09_1954_DaisyChainsaw",
+"title": "Science Fantasy v03n09 (1954) (DaisyChainsaw)",
+"date": null,
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v04n10_1954-09",
+"title": "Science Fantasy v04n10 (1954 09)",
+"date": null,
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v04n11_1954-12_SLiV",
+"title": "Science Fantasy v04n11 (1954 12) (SLiV)",
+"date": null,
+"imagecount": 136,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v05n13_1955-04_AK",
+"title": "Science Fantasy v05n13 (1955 04) (AK)",
+"date": null,
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v05n13_1955AK",
+"title": "Science Fantasy v05n13 (1955)(AK)",
+"date": null,
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v05n14_1955-06_Bogof39-slpn",
+"title": "Science Fantasy v05n14 1955 06 (Bogof39 slpn)",
+"date": "1955-06-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v06n16_1955-11_SLiV",
+"title": "Science Fantasy v06n16 (1955 11) (SLiV)",
+"date": "1955-11-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v07n19_1956-08_Bogof39-slpn",
+"title": "Science Fantasy v07n19 1956 08 (Bogof39 slpn)",
+"date": "1956-08-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v08n22_1957-04_Bogof39-slpn",
+"title": "Science Fantasy v08n22 1957 04 (Bogof39 slpn)",
+"date": "1957-04-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v09n27_1958-02_SLiV",
+"title": "Science Fantasy v09n27 (1958 02) (SLiV)",
+"date": null,
+"imagecount": 135,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v10n28_1958-04_SLiV",
+"title": "Science Fantasy v10n28 (1958 04) (SLiV)",
+"date": null,
+"imagecount": 134,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v10n30_1958-08_Bogof39-slpn",
+"title": "Science Fantasy v10n30 1958 08 (Bogof39 slpn)",
+"date": null,
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v11n32_1958-12_AK",
+"title": "Science Fantasy v11n32 (1958 12) (AK)",
+"date": null,
+"imagecount": 134,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v12n34_1959-04_AK",
+"title": "Science Fantasy v12n34 (1959 04) (AK)",
+"date": "1959-04-01",
+"imagecount": 134,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v13n38_1959-12_Bogof39-slpn",
+"title": "Science Fantasy v13n38 1959 12 (Bogof39 slpn)",
+"date": "1959-12-01",
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v13n39_1960-02_Bogof39-slpn",
+"title": "Science Fantasy v13n39 1960 02 (Bogof39 slpn)",
+"date": null,
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v14n40_1960-04_AK",
+"title": "Science Fantasy v14n40 (1960 04) (AK)",
+"date": null,
+"imagecount": 118,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v14nv42_1960-08",
+"title": "Science Fantasy v14nv42 (1960 08)",
+"date": null,
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v15n45_1961-02_Bogof39-slpn",
+"title": "Science Fantasy v15n45 1961 02 (Bogof39 slpn)",
+"date": null,
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v16n47_1961-06-07_SLiV",
+"title": "Science Fantasy v16n47 (1961 06 07) SLiV",
+"date": null,
+"imagecount": 118,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v16n48_1961-08_dtsg0318",
+"title": "Science Fantasy v16n48 (1961 08) (dtsg0318)",
+"date": null,
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v17n49_1961-10_dtsg0318",
+"title": "Science Fantasy v17n49 (1961 10) (dtsg0318)",
+"date": null,
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v17n50_1961-12_Bogof39-slpn",
+"title": "Science Fantasy v17n50 1961 12 (Bogof39 slpn)",
+"date": null,
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v18n53_1962-06_AK",
+"title": "Science Fantasy v18n53 (1962 06) (AK)",
+"date": null,
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v18n54_1962-08_Bogof39-slpn",
+"title": "Science Fantasy v18n54 1962 08 (Bogof39 slpn)",
+"date": null,
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v19n55_1962-10_AK",
+"title": "Science Fantasy v19n55 (1962 10) (AK)",
+"date": null,
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v19n56_1962-12_SLiV",
+"title": "Science Fantasy v19n56 (1962 12) (SLiV)",
+"date": null,
+"imagecount": 119,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v19n57_1963-02_Bogof39-slpn",
+"title": "Science Fantasy v19n57 1963 02 (Bogof39 slpn)",
+"date": null,
+"imagecount": 116,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v20n58_1963-04_AK",
+"title": "Science Fantasy v20n58 (1963 04) (AK)",
+"date": null,
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v20n60_1963-08_SLiV",
+"title": "Science Fantasy v20n60 (1963 08) (SLiV)",
+"date": null,
+"imagecount": 118,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v21n62_1963-12_Bogof39-slpn",
+"title": "Science Fantasy v21n62 (1963 12) (Bogof39 slpn)",
+"date": null,
+"imagecount": 116,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v21n63_1964-02_Bogof39-slpn",
+"title": "Science Fantasy v21n63 (1964 02) (Bogof39 slpn)",
+"date": null,
+"imagecount": 117,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v22n64_1964-04_Bogof39-slpn",
+"title": "Science Fantasy v22n64 (1964 04) (Bogof39 slpn)",
+"date": null,
+"imagecount": 128,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v22n65_June-July_1964",
+"title": "Science Fantasy v22n65 (June July 1964)",
+"date": null,
+"imagecount": 135,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v22n66_1964-07-08_SLiV",
+"title": "Science Fantasy v22n66 (1964 07 08) (SLiV)",
+"date": null,
+"imagecount": 135,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v22n67_1964-09-10_SLiV",
+"title": "Science Fantasy v22n67 (1964 09 10) (SLiV)",
+"date": null,
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v22n68_1964-12-1965-01_SLiV",
+"title": "Science Fantasy v22n68 (1964 12 1965 01) (SLiV)",
+"date": null,
+"imagecount": 131,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v23n69_1965-01-02_SliV",
+"title": "Science Fantasy v23n69 (1965 01 02) (SliV)",
+"date": null,
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v23n70_1965-03_SLiV",
+"title": "Science Fantasy v23n70 (1965 03) (SLiV)",
+"date": null,
+"imagecount": 134,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v23n71_1965-04_SLiV",
+"title": "Science Fantasy v23n71 (1965 04) (SLiV)",
+"date": null,
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v24n72_1965-05_SLiV",
+"title": "Science Fantasy v24n72 (1965 05) (SLiV)",
+"date": null,
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v24n73_1965-06_SLiV",
+"title": "Science Fantasy v24n73 (1965 06) (SLiV)",
+"date": null,
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v24n74_1965-07_SLiV",
+"title": "Science Fantasy v24n74 (1965 07) (SLiV)",
+"date": null,
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v24n75_1965-08_SLiV",
+"title": "Science Fantasy v24n75 (1965 08) (SLiV)",
+"date": null,
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v24n76_1965-09_SLiV",
+"title": "Science Fantasy v24n76 (1965 09) (SLiV)",
+"date": null,
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v24n77_1965-10_SLiV",
+"title": "Science Fantasy v24n77 (1965 10) (SLiV)",
+"date": null,
+"imagecount": 135,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v24n78_1965-11_SLiV",
+"title": "Science Fantasy v24n78 (1965 11) (SLiV)",
+"date": null,
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v24n79_1965-12_SLiV",
+"title": "Science Fantasy v24n79 (1965 12) (SLiV)",
+"date": null,
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v24n80_1966-01_SLiV",
+"title": "Science Fantasy v24n80 (1966 01) (SLiV)",
+"date": null,
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Science_Fantasy_v24n81_1966-02_SLiV",
+"title": "Science Fantasy v24n81 (1966 02) (SLiV)",
+"date": null,
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+}
+]

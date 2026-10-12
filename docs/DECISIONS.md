@@ -434,3 +434,20 @@ Banca" on *Marooned off Vesta*, which has no scan; the spec adds the "in the cat
   ships drafts for a preview build.
 - App: an *About* band on the magazine page (facts line, text with italics and citation marks, "In the Atlas" when
   linked, collapsible sources opening in the browser).
+
+## 2026-10-12 — Phase 11b: classic pulps; UI fixes
+- 22 magazines, blocks 60–81, 3,198 issues: Weird Tales, Astounding/Analog, Startling, Thrilling Wonder, Planet Stories,
+  Fantastic Adventures, Famous Fantastic Mysteries, Unknown, If, Science Wonder Stories, Science Fiction Stories,
+  Science Fiction Quarterly, Adventure, Argosy, Blue Book, The Popular Magazine, Ellery Queen's Mystery Magazine,
+  Thrilling Detective, New Worlds, Authentic SF, Science Fantasy, Interzone (pulpmagazinearchive sub-collections).
+  Excluded per pattern: the *Reference Guides* (kept for a future contents source), a 2007 Startling revival, two
+  misdated uploads. Later revivals that are the same title stay (Weird Tales 1973–1988, Bluebook for Men 1960s).
+- ISFDB contents: complete for the SF/fantasy magazines (e.g. Astounding 426/426, Weird Tales 305/308, If 174/174),
+  partial for the general-fiction pulps that the ISFDB indexes only for genre stories (Argosy 133/241, Blue Book
+  187/282, Adventure 82/349, Popular 41/262, Ellery Queen 22/61). Catalog: 69 magazines, 7,921 issues, 59,507 items.
+- **Size**: story_fts now has no issue_title column (issue titles are searched by issue_fts) and `detail = column`
+  (the app runs prefix-token queries only, no phrases): 25.1 → 21.0 MB. `catalog/ia.py` also retries connection resets.
+- 22 more description drafts (all source URLs checked).
+- UI: the Atlas home shows a *Continue reading · n* button (route `reading`, screens/ReadingScreen.tsx) instead of the
+  shelf (user request); the About text sits inside the magazine's filter band (the band's negative top margin cut the
+  separate box); magazine-card titles with a single word over 11 letters ("PROTODIMENSION") use a smaller size.

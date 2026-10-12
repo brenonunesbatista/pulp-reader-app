@@ -8,6 +8,7 @@ export type Route =
   | { name: 'reader'; issueId: number; leaf?: number; storyId?: number }
   | { name: 'settings' }
   | { name: 'notes' }
+  | { name: 'reading' }
   | { name: 'soon'; what: 'rpg' | 'comics' | 'atlas' }
   | { name: 'atlas' }
   | { name: 'timeline'; focus?: string; subject?: string; saved?: number }
@@ -60,6 +61,7 @@ export function routeToHash(r: Route): string {
     case 'reader': return `#/reader/${r.issueId}/${r.leaf ?? ''}${r.storyId ? `/${r.storyId}` : ''}`
     case 'settings': return '#/settings'
     case 'notes': return '#/notes'
+    case 'reading': return '#/reading'
     case 'soon': return `#/soon/${r.what}`
     case 'atlas': return '#/'
     case 'timeline':
@@ -85,6 +87,7 @@ export function hashToRoute(hash: string): Route {
       ? { name, issueId: n, leaf: b ? Number(b) : undefined, ...(c ? { storyId: Number(c) } : {}) } : ROOT
     case 'settings': return { name }
     case 'notes': return { name }
+    case 'reading': return { name }
     case 'soon': return a === 'rpg' || a === 'comics' ? { name, what: a } : ROOT
     case 'atlas': return { name }
     case 'timeline': return a ? { name, focus: a } : { name }

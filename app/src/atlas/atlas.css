@@ -290,3 +290,8 @@
 .a-addtl { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 10px; border: 2px solid var(--edge); background: var(--surface); }
 .a-addtl .a-rel { flex-basis: 100%; }
 .a-addtl .chip.on { background: var(--pulp-yellow); color: #2A2118; }
+
+/* home: search + Continue reading button on one row (wraps on phones) */
+.a-top { display: flex; gap: 12px; align-items: stretch; flex-wrap: wrap; }
+.a-top .a-search { flex: 1 1 320px; }
+.a-continue { flex: 0 0 auto; display: inline-flex; gap: 8px; align-items: center; white-space: nowrap; }

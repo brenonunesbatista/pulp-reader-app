@@ -1,0 +1,2810 @@
+{
+"source": "ISFDB, The Internet Speculative Fiction Database (https://www.isfdb.org), CC BY 4.0",
+"dump": "backup-MySQL-55-2026-10-10.zip",
+"pattern": "^Adventure, ",
+"issues": [
+{
+"id": 290922,
+"title": "Adventure, December 1910",
+"date": "1910-12-00",
+"items": [
+{
+"title": "The Sword Edge of Chance",
+"type": "SHORTFICTION",
+"len": null,
+"page": "|1",
+"authors": [
+"T. Donovan Bayley"
+],
+"real": []
+},
+{
+"title": "The Bodkin of Menopteris",
+"type": "SHORTFICTION",
+"len": null,
+"page": "|2",
+"authors": [
+"Reginald Schroeder"
+],
+"real": []
+}
+],
+"cover_artists": [
+"J. G. Sommer"
+],
+"editors": [
+"Trumbull White"
+]
+},
+{
+"id": 299179,
+"title": "Adventure, March 1911",
+"date": "1911-03-00",
+"items": [
+{
+"title": "The Informal Execution of Soupbone Pew",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "902",
+"authors": [
+"Damon Runyon"
+],
+"real": []
+}
+],
+"cover_artists": [
+"M. Leone Bracker"
+],
+"editors": [
+"Trumbull White"
+]
+},
+{
+"id": 309273,
+"title": "Adventure, April 1911",
+"date": "1911-04-00",
+"items": [
+{
+"title": "The Mystery of the \"Anne-Marie Petersen\"",
+"type": "SHORTFICTION",
+"len": null,
+"page": "",
+"authors": [
+"Muriel Pollexfen"
+],
+"real": []
+},
+{
+"title": "Prester John (Part 2 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "",
+"authors": [
+"John Buchan"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Dan Smith (1865-1934)"
+],
+"editors": [
+"Trumbull White"
+]
+},
+{
+"id": 308677,
+"title": "Adventure, May 1911",
+"date": "1911-05-00",
+"items": [
+{
+"title": "The Sleep: A Story, and Adventure in the Future",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Owen Oliver"
+],
+"real": []
+},
+{
+"title": "The Stolen Navy",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Muriel Pollexfen"
+],
+"real": []
+},
+{
+"title": "Prester John (Part 3 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "",
+"authors": [
+"John Buchan"
+],
+"real": []
+}
+],
+"cover_artists": [
+"M. Leone Bracker"
+],
+"editors": [
+"Trumbull White"
+]
+},
+{
+"id": 308678,
+"title": "Adventure, June 1911",
+"date": "1911-06-00",
+"items": [
+{
+"title": "The Seeds of Destruction",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "229",
+"authors": [
+"Muriel Pollexfen"
+],
+"real": []
+},
+{
+"title": "Prester John (Part 4 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "301",
+"authors": [
+"John Buchan"
+],
+"real": []
+},
+{
+"title": "The Awkening: A Story",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "335",
+"authors": [
+"Owen Oliver"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Dan Smith (1865-1934)"
+],
+"editors": [
+"Trumbull White"
+]
+},
+{
+"id": 309274,
+"title": "Adventure, July 1911",
+"date": "1911-07-00",
+"items": [
+{
+"title": "The House in the Deep Shadow",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Muriel Pollexfen"
+],
+"real": []
+},
+{
+"title": "The Albatross",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"William Hope Hodgson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Harry Townsend"
+],
+"editors": [
+"Trumbull White"
+]
+},
+{
+"id": 309275,
+"title": "Adventure, August 1911",
+"date": "1911-08-00",
+"items": [
+{
+"title": "The Conjuror of the Clouds",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Muriel Pollexfen"
+],
+"real": []
+},
+{
+"title": "The Phantom Battery",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"P. E. Cowen"
+],
+"editors": [
+"Trumbull White"
+]
+},
+{
+"id": 309276,
+"title": "Adventure, September 1911",
+"date": "1911-09-00",
+"items": [
+{
+"title": "Black Magic: A Tale of the Wisdom of Witless Dick",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "869",
+"authors": [
+"H. C. Bailey"
+],
+"real": []
+},
+{
+"title": "The Fox's Earth",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "916",
+"authors": [
+"Muriel Pollexfen"
+],
+"real": []
+}
+],
+"cover_artists": [
+"F. Foster Lincoln"
+],
+"editors": [
+"Trumbull White"
+]
+},
+{
+"id": 1087446,
+"title": "Adventure, December 1911",
+"date": "1911-12-00",
+"items": [
+{
+"title": "The Marriage of Kettle (Part 1 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "191",
+"authors": [
+"C. J. Cutcliffe Hyne"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lejaren Hiller"
+],
+"editors": [
+"Trumbull White"
+]
+},
+{
+"id": 1087447,
+"title": "Adventure, January 1912",
+"date": "1912-01-00",
+"items": [
+{
+"title": "The Marriage of Kettle (Part 2 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "381",
+"authors": [
+"C. J. Cutcliffe Hyne"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Anton Otto Fischer"
+],
+"editors": [
+"Trumbull White"
+]
+},
+{
+"id": 1087448,
+"title": "Adventure, February 1912",
+"date": "1912-02-00",
+"items": [
+{
+"title": "The Marriage of Kettle (Part 3 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "571",
+"authors": [
+"C. J. Cutcliffe Hyne"
+],
+"real": []
+}
+],
+"cover_artists": [
+"David Robinson"
+],
+"editors": [
+"Trumbull White"
+]
+},
+{
+"id": 1087449,
+"title": "Adventure, March 1912",
+"date": "1912-03-00",
+"items": [
+{
+"title": "The Marriage of Kettle (Part 4 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "761",
+"authors": [
+"C. J. Cutcliffe Hyne"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lejaren Hiller"
+],
+"editors": [
+"Trumbull White"
+]
+},
+{
+"id": 1087450,
+"title": "Adventure, April 1912",
+"date": "1912-04-00",
+"items": [
+{
+"title": "The Marriage of Kettle (Part 5 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "951",
+"authors": [
+"C. J. Cutcliffe Hyne"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Anton Otto Fischer"
+],
+"editors": [
+"Trumbull White"
+]
+},
+{
+"id": 1087451,
+"title": "Adventure, May 1912",
+"date": "1912-05-00",
+"items": [
+{
+"title": "The Marriage of Kettle (Part 6 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "33",
+"authors": [
+"C. J. Cutcliffe Hyne"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Harry Townsend"
+],
+"editors": [
+"Trumbull White"
+]
+},
+{
+"id": 1087452,
+"title": "Adventure, June 1912",
+"date": "1912-06-00",
+"items": [
+{
+"title": "The Marriage of Kettle (Part 7 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "296",
+"authors": [
+"C. J. Cutcliffe Hyne"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Anton Otto Fischer"
+],
+"editors": [
+"Trumbull White"
+]
+},
+{
+"id": 1059616,
+"title": "Adventure, February 1914",
+"date": "1914-02-00",
+"items": [
+{
+"title": "The Abduction Club",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "3",
+"authors": [
+"Arthur B. Reeve"
+],
+"real": []
+},
+{
+"title": "Letter (Adventure, February 1914)",
+"type": "ESSAY",
+"len": null,
+"page": "220",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Ruth Eastman"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 291071,
+"title": "Adventure, August 1914",
+"date": "1914-08-00",
+"items": [
+{
+"title": "The Ultimate Inheritors",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "177",
+"authors": [
+"Berg Bellair"
+],
+"real": []
+}
+],
+"cover_artists": [
+"W. J. Enright"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 1059765,
+"title": "Adventure, December 1914",
+"date": "1914-12-00",
+"items": [
+{
+"title": "The Stolen War-Secret",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "3",
+"authors": [
+"Arthur B. Reeve"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Paul Wilhelmi"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 677815,
+"title": "Adventure, January 1915",
+"date": "1915-01-00",
+"items": [
+{
+"title": "The Adventurers (Part 1 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "",
+"authors": [
+"Arthur A. Nelson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"H. George Brandt"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 677816,
+"title": "Adventure, February 1915",
+"date": "1915-02-00",
+"items": [
+{
+"title": "The Adventurers (Part 2 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "",
+"authors": [
+"Arthur A. Nelson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Sidney H. Riesenberg"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 677817,
+"title": "Adventure, March 1915",
+"date": "1915-03-00",
+"items": [
+{
+"title": "The Adventurers (Part 3 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "",
+"authors": [
+"Arthur A. Nelson"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 677818,
+"title": "Adventure, April 1915",
+"date": "1915-04-00",
+"items": [
+{
+"title": "The Adventurers (Part 4 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "",
+"authors": [
+"Arthur A. Nelson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Hibberd V. B. Kline"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 589377,
+"title": "Adventure, October 18, 1919",
+"date": "1919-10-18",
+"items": [
+{
+"title": "The Pearls of Paruki",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "61",
+"authors": [
+"J. Allan Dunn"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Hibberd V. B. Kline"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 310281,
+"title": "Adventure, January 3 1920",
+"date": "1920-01-03",
+"items": [
+{
+"title": "The Green Splotches",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "3",
+"authors": [
+"T. S. Stribling"
+],
+"real": []
+}
+],
+"cover_artists": [
+"H. Tedlie"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 302104,
+"title": "Adventure, March 3, 1920",
+"date": "1920-03-03",
+"items": [
+{
+"title": "The Second Fall",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "55",
+"authors": [
+"S. B. H. Hurst"
+],
+"real": []
+}
+],
+"cover_artists": [
+"William Hurd Lawrence"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 589369,
+"title": "Adventure, October 3, 1920",
+"date": "1920-10-03",
+"items": [
+{
+"title": "The Tapir",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "106",
+"authors": [
+"Arthur O. Friel"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Charles Durant"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 290924,
+"title": "Adventure, January 18, 1921",
+"date": "1921-01-18",
+"items": [
+{
+"title": "The City of Baal",
+"type": "SHORTFICTION",
+"len": null,
+"page": "",
+"authors": [
+"Charles Beadle"
+],
+"real": []
+}
+],
+"cover_artists": [
+"W. C. Tuttle"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 648966,
+"title": "Adventure, March 3, 1921",
+"date": "1921-03-03",
+"items": [
+{
+"title": "The Temple of the Ten",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "134",
+"authors": [
+"H. Bedford-Jones",
+"W. C. Robertson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"James Reynolds (1884-1956)"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 298877,
+"title": "Adventure, August 18, 1921",
+"date": "1921-08-18",
+"items": [
+{
+"title": "The Electric Horse",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "97",
+"authors": [
+"Crosbie Garstin"
+],
+"real": []
+}
+],
+"cover_artists": [
+"John Held, Jr."
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 423757,
+"title": "Adventure, November 10 1921",
+"date": "1921-11-10",
+"items": [
+{
+"title": "The Adventure of El-Karak",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "3",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"H. C. Murphy"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 310282,
+"title": "Adventure, January 30, 1922",
+"date": "1922-01-30",
+"items": [
+{
+"title": "The Web of the Sun",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "3",
+"authors": [
+"T. S. Stribling"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Arthur Schwieder"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 308028,
+"title": "Adventure, September 10, 1922",
+"date": "1922-09-10",
+"items": [
+{
+"title": "Moses and Mrs. Aintree (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "3",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"James McKell"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 677668,
+"title": "Adventure, October 10, 1922",
+"date": "1922-10-10",
+"items": [
+{
+"title": "Khufu's Real Tomb (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Edgar F. Wittmack"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 423766,
+"title": "Adventure, November 10 1922",
+"date": "1922-11-10",
+"items": [
+{
+"title": "The Gray Mahatma (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"James C. McKell"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 589197,
+"title": "Adventure, December 20, 1922",
+"date": "1922-12-20",
+"items": [
+{
+"title": "Pirates' Gold",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"A. L. Ripley"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 423768,
+"title": "Adventure, March 20 1923",
+"date": "1923-03-20",
+"items": [
+{
+"title": "The Nine Unknown (Part 1 of 5)",
+"type": "SERIAL",
+"len": null,
+"page": "60",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"James C. McKell"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 423769,
+"title": "Adventure, March 30, 1923",
+"date": "1923-03-30",
+"items": [
+{
+"title": "The Nine Unknown (Part 2 of 5)",
+"type": "SERIAL",
+"len": null,
+"page": "87",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"H. C. Murphy"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 423770,
+"title": "Adventure, April 10 1923",
+"date": "1923-04-10",
+"items": [
+{
+"title": "The Nine Unknown (Part 3 of 5)",
+"type": "SERIAL",
+"len": null,
+"page": "85",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"A. L. Ripley"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 423771,
+"title": "Adventure, April 20 1923",
+"date": "1923-04-20",
+"items": [
+{
+"title": "The Nine Unknown (Part 4 of 5)",
+"type": "SERIAL",
+"len": null,
+"page": "126",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"James C. McKell"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 423767,
+"title": "Adventure, April 30 1923",
+"date": "1923-04-30",
+"items": [
+{
+"title": "The Nine Unknown (Part 5 of 5)",
+"type": "SERIAL",
+"len": null,
+"page": "117",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"A. L. Ripley"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 1055766,
+"title": "Adventure, November 10, 1923",
+"date": "1923-11-10",
+"items": [
+{
+"title": "The Intarsia Box",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "",
+"authors": [
+"Henry S. Whitehead"
+],
+"real": []
+}
+],
+"cover_artists": [
+"A. L. Ripley"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 345106,
+"title": "Adventure, October 10, 1924",
+"date": "1924-10-10",
+"items": [
+{
+"title": "Om (Part 1 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "53",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"F. Harbaugh"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 345107,
+"title": "Adventure, October 20, 1924",
+"date": "1924-10-20",
+"items": [
+{
+"title": "Om (Part 2 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "104",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"A. L. Ripley"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 345108,
+"title": "Adventure, October 30, 1924",
+"date": "1924-10-30",
+"items": [
+{
+"title": "Om (Part 3 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "108",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"F. Eltonhead"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 1029754,
+"title": "Adventure, November 10, 1924",
+"date": "1924-11-10",
+"items": [
+{
+"title": "Om (Part 4 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "100",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"J. W. Schlaikjer"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 1029755,
+"title": "Adventure, November 20, 1924",
+"date": "1924-11-20",
+"items": [
+{
+"title": "Om (Part 5 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "73",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Neil O'Keefe"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 1029756,
+"title": "Adventure, November 30, 1924",
+"date": "1924-11-30",
+"items": [
+{
+"title": "Om (Part 6 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "130",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Richard H. Rodger"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 1029769,
+"title": "Adventure, February 10, 1925",
+"date": "1925-02-10",
+"items": [
+{
+"title": "Tros of Samothrace",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "3",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"A. L. Ripley"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 1029772,
+"title": "Adventure, April 10, 1925",
+"date": "1925-04-10",
+"items": [
+{
+"title": "The Enemy of Rome",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "3",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"A. L. Ripley"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 1029773,
+"title": "Adventure, June 10, 1925",
+"date": "1925-06-10",
+"items": [
+{
+"title": "Prisoners of War",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "3",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"A. L. Ripley"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 1029774,
+"title": "Adventure, August 20, 1925",
+"date": "1925-08-20",
+"items": [
+{
+"title": "Hostages to Luck",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"H. L. Murphy"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 1029775,
+"title": "Adventure, October 10, 1925",
+"date": "1925-10-10",
+"items": [
+{
+"title": "Admiral of Caesar's Fleet",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"G. C. Delano"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 1029776,
+"title": "Adventure, December 10, 1925",
+"date": "1925-12-10",
+"items": [
+{
+"title": "The Dancing Girl of Gades",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "3",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"A. L. Ripley"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 1029793,
+"title": "Adventure, February 10, 1926",
+"date": "1926-02-10",
+"items": [
+{
+"title": "The Messenger of Destiny (Part 1 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "66",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"H. C. Murphy"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 1029794,
+"title": "Adventure, February 20, 1926",
+"date": "1926-02-20",
+"items": [
+{
+"title": "The Messenger of Destiny (Part 2 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "104",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"H. C. Murphy"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 1029795,
+"title": "Adventure, February 28, 1926",
+"date": "1926-02-28",
+"items": [
+{
+"title": "The Messenger of Destiny (Part 3 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "114",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Jay Weaver"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 310283,
+"title": "Adventure, April 8, 1926",
+"date": "1926-04-08",
+"items": [
+{
+"title": "Christ in Chicago",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"T. S. Stribling"
+],
+"real": []
+}
+],
+"cover_artists": [
+"D. Cammerota"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 345093,
+"title": "Adventure, June 8, 1926",
+"date": "1926-06-08",
+"items": [
+{
+"title": "Ramsden (Part 1 of 5)",
+"type": "SERIAL",
+"len": null,
+"page": "37",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+},
+{
+"title": "Letter: The Camp-Fire (introducing Ramsden)",
+"type": "ESSAY",
+"len": null,
+"page": "178",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"A. L. Ripley"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 271393,
+"title": "Adventure, June 23, 1926",
+"date": "1926-06-23",
+"items": [
+{
+"title": "The Forging",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "67",
+"authors": [
+"Arthur D. Howden Smith"
+],
+"real": []
+},
+{
+"title": "The Unknown Element",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "100",
+"authors": [
+"M. J. Phillips"
+],
+"real": []
+},
+{
+"title": "Ramsden (Part 2 of 5)",
+"type": "SERIAL",
+"len": null,
+"page": "112",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"H. C. Murphy"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 345095,
+"title": "Adventure, July 8, 1926",
+"date": "1926-07-08",
+"items": [
+{
+"title": "Ramsden (Part 3 of 5)",
+"type": "SERIAL",
+"len": null,
+"page": "114",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"James C. McKell"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 345097,
+"title": "Adventure, July 23, 1926",
+"date": "1926-07-23",
+"items": [
+{
+"title": "The Slave of Marathon",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "69",
+"authors": [
+"Arthur D. Howden Smith"
+],
+"real": []
+},
+{
+"title": "Ramsden (Part 4 of 5)",
+"type": "SERIAL",
+"len": null,
+"page": "115",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"H. C. Murphy"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 345098,
+"title": "Adventure, August 8, 1926",
+"date": "1926-08-08",
+"items": [
+{
+"title": "The Shield",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "1",
+"authors": [
+"Harold Lamb"
+],
+"real": []
+},
+{
+"title": "Ramsden (Part 5 of 5)",
+"type": "SERIAL",
+"len": null,
+"page": "108",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Gerard C. Delano"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 1055736,
+"title": "Adventure, August 23, 1926",
+"date": "1926-08-23",
+"items": [
+{
+"title": "A Trooper of the Thessalians",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "74",
+"authors": [
+"Arthur D. Howden Smith"
+],
+"real": []
+}
+],
+"cover_artists": [
+"A. L. Ripley"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 1055732,
+"title": "Adventure, September 23, 1926",
+"date": "1926-09-23",
+"items": [
+{
+"title": "Durandal",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Harold Lamb"
+],
+"real": []
+}
+],
+"cover_artists": [
+"W. F. Soare"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 1055729,
+"title": "Adventure, October 23, 1926",
+"date": "1926-10-23",
+"items": [
+{
+"title": "The Falling Star (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "132",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 1055737,
+"title": "Adventure, November 8, 1926",
+"date": "1926-11-08",
+"items": [
+{
+"title": "Hanno's Sword",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "170",
+"authors": [
+"Arthur D. Howden Smith"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 1055739,
+"title": "Adventure, December 31, 1926",
+"date": "1926-12-31",
+"items": [
+{
+"title": "The Last Legion",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "170",
+"authors": [
+"Arthur D. Howden Smith"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 1055733,
+"title": "Adventure, January 15, 1927",
+"date": "1927-01-15",
+"items": [
+{
+"title": "The Sea of the Ravens",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "132",
+"authors": [
+"Harold Lamb"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 1055753,
+"title": "Adventure, February 1, 1927",
+"date": "1927-02-01",
+"items": [
+{
+"title": "Sunset",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "25",
+"authors": [
+"Sidney Herschel Small"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 1055740,
+"title": "Adventure, February 15, 1927",
+"date": "1927-02-15",
+"items": [
+{
+"title": "The Rider from the Desert",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "",
+"authors": [
+"Arthur D. Howden Smith"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 1055768,
+"title": "Adventure, April 1, 1927",
+"date": "1927-04-01",
+"items": [
+{
+"title": "The Were-Tiger",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "42",
+"authors": [
+"Lyman Bryson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Rockwell Kent"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 1055741,
+"title": "Adventure, April 15, 1927",
+"date": "1927-04-15",
+"items": [
+{
+"title": "Thord's Wooing",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "40",
+"authors": [
+"Arthur D. Howden Smith"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Rockwell Kent"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 1055734,
+"title": "Adventure, May 1, 1927",
+"date": "1927-05-01",
+"items": [
+{
+"title": "Rusudan",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "84",
+"authors": [
+"Harold Lamb"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Rockwell Kent"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 1055742,
+"title": "Adventure, June 15, 1927",
+"date": "1927-06-15",
+"items": [
+{
+"title": "The Gritti Luck",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "",
+"authors": [
+"Arthur D. Howden Smith"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Rockwell Kent"
+],
+"editors": [
+"Arthur Sullivant Hoffman"
+]
+},
+{
+"id": 276000,
+"title": "Adventure, May 15 1928",
+"date": "1928-05-15",
+"items": [
+{
+"title": "In The Year 2000 (Part 1 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "2",
+"authors": [
+"Arthur O. Friel"
+],
+"real": []
+}
+],
+"cover_artists": [
+"H. C. Murphy"
+],
+"editors": [
+"Anthony M. Rud"
+]
+},
+{
+"id": 276001,
+"title": "Adventure, June 01 1928",
+"date": "1928-06-01",
+"items": [
+{
+"title": "In The Year 2000 (Part 2 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "60",
+"authors": [
+"Arthur O. Friel"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Duncan McMillan"
+],
+"editors": [
+"Anthony M. Rud"
+]
+},
+{
+"id": 276002,
+"title": "Adventure, June 15 1928",
+"date": "1928-06-15",
+"items": [
+{
+"title": "In The Year 2000 (Part 3 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "74",
+"authors": [
+"Arthur O. Friel"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Colcord Heurlin"
+],
+"editors": [
+"Anthony M. Rud"
+]
+},
+{
+"id": 1055727,
+"title": "Adventure, August 15, 1929",
+"date": "1929-08-15",
+"items": [
+{
+"title": "Boots: A Story of the Sierra of Peru",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "124",
+"authors": [
+"Murray Leinster"
+],
+"real": []
+}
+],
+"cover_artists": [
+"William Reusswig"
+],
+"editors": [
+"Anthony M. Rud"
+]
+},
+{
+"id": 310284,
+"title": "Adventure, June 1, 1930",
+"date": "1930-06-01",
+"items": [
+{
+"title": "Red Wine",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "3",
+"authors": [
+"L. G. Blochman"
+],
+"real": [
+"Lawrence G. Blochman"
+]
+},
+{
+"title": "Mogglesby",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "60",
+"authors": [
+"T. S. Stribling"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Hubert Rogers"
+],
+"editors": [
+"A. A. Proctor"
+]
+},
+{
+"id": 345135,
+"title": "Adventure, November 15, 1930",
+"date": "1930-11-15",
+"items": [
+{
+"title": "King of the World (Part 1 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "1",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Hubert Rogers"
+],
+"editors": [
+"A. A. Proctor"
+]
+},
+{
+"id": 345137,
+"title": "Adventure, December 1, 1930",
+"date": "1930-12-01",
+"items": [
+{
+"title": "King of the World (Part 2 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"H. M. Bonnell"
+],
+"editors": [
+"A. A. Proctor"
+]
+},
+{
+"id": 345138,
+"title": "Adventure, December 15, 1930",
+"date": "1930-12-15",
+"items": [
+{
+"title": "King of the World (Part 3 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "78",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Gerard C. Delano"
+],
+"editors": [
+"A. A. Proctor"
+]
+},
+{
+"id": 345140,
+"title": "Adventure, January 1, 1931",
+"date": "1931-01-01",
+"items": [
+{
+"title": "King of the World (Part 4 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Lawrence N. Wilbur"
+],
+"editors": [
+"A. A. Proctor"
+]
+},
+{
+"id": 345142,
+"title": "Adventure, January 15, 1931",
+"date": "1931-01-15",
+"items": [
+{
+"title": "King of the World (Part 5 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Fred T. Everett"
+],
+"editors": [
+"A. A. Proctor"
+]
+},
+{
+"id": 345143,
+"title": "Adventure, February 1, 1931",
+"date": "1931-02-01",
+"items": [
+{
+"title": "King of the World (Part 6 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Dominic Cammerota"
+],
+"editors": [
+"A. A. Proctor"
+]
+},
+{
+"id": 345144,
+"title": "Adventure, February 15, 1931",
+"date": "1931-02-15",
+"items": [
+{
+"title": "Beauseant Goes Forward",
+"type": "ESSAY",
+"len": null,
+"page": "53",
+"authors": [
+"Harold Lamb"
+],
+"real": []
+},
+{
+"title": "King of the World (Part 7 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "69",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Gerard C. Delano"
+],
+"editors": [
+"A. A. Proctor"
+]
+},
+{
+"id": 1055726,
+"title": "Adventure, May 1, 1931",
+"date": "1931-05-01",
+"items": [
+{
+"title": "Black Flag",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Remington Schuyler"
+],
+"editors": [
+"A. A. Proctor"
+]
+},
+{
+"id": 711324,
+"title": "Adventure, July 15, 1931",
+"date": "1931-07-15",
+"items": [
+{
+"title": "The Black Beast",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "",
+"authors": [
+"Henry S. Whitehead"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Gerard C. Delano"
+],
+"editors": [
+"A. A. Proctor"
+]
+},
+{
+"id": 711325,
+"title": "Adventure, July 15, 1932",
+"date": "1932-07-15",
+"items": [
+{
+"title": "Seven Turns in a Hangman's Rope",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "148",
+"authors": [
+"Henry S. Whitehead"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Hubert Rogers"
+],
+"editors": [
+"A. A. Proctor"
+]
+},
+{
+"id": 1076059,
+"title": "Adventure, January 1, 1935",
+"date": "1935-01-01",
+"items": [
+{
+"title": "Pecos Bill",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "54",
+"authors": [
+"Edward O'Reilly"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Walter M. Baumhofer"
+],
+"editors": [
+"Howard V. L. Bloomfield"
+]
+},
+{
+"id": 1076060,
+"title": "Adventure, January 15, 1935",
+"date": "1935-01-15",
+"items": [
+{
+"title": "Pecos Bill's Wedding",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "25",
+"authors": [
+"Edward O'Reilly"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Stockton Mulford"
+],
+"editors": [
+"Howard V. L. Bloomfield"
+]
+},
+{
+"id": 1076065,
+"title": "Adventure, February 1, 1935",
+"date": "1935-02-01",
+"items": [
+{
+"title": "Pecos Bill Goes Hunting",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "68",
+"authors": [
+"Edward O'Reilly"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Walter M. Baumhofer"
+],
+"editors": [
+"Howard V. L. Bloomfield"
+]
+},
+{
+"id": 1076067,
+"title": "Adventure, February 15, 1935",
+"date": "1935-02-15",
+"items": [
+{
+"title": "Pecos Bill â Man of Might",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "84",
+"authors": [
+"Edward O'Reilly"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Walter M. Baumhofer"
+],
+"editors": [
+"Howard V. L. Bloomfield"
+]
+},
+{
+"id": 1029796,
+"title": "Adventure, May 1, 1935",
+"date": "1935-05-01",
+"items": [
+{
+"title": "Battle Stations!",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"John Newton Howitt"
+],
+"editors": [
+"Howard V. L. Bloomfield"
+]
+},
+{
+"id": 1029797,
+"title": "Adventure, June 15, 1935",
+"date": "1935-06-15",
+"items": [
+{
+"title": "Cleopatra's Promise",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"W. Baumhofer"
+],
+"editors": [
+"Howard V. L. Bloomfield"
+]
+},
+{
+"id": 638655,
+"title": "Adventure, August 15, 1935",
+"date": "1935-08-15",
+"items": [
+{
+"title": "The Purple Pirate",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Walter M. Baumhofer"
+],
+"editors": [
+"Howard V. L. Bloomfield"
+]
+},
+{
+"id": 1029798,
+"title": "Adventure, October 1, 1935",
+"date": "1935-10-01",
+"items": [
+{
+"title": "Fleets of Fire",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"Talbot Mundy"
+],
+"real": []
+},
+{
+"title": "He Walked to War",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "105",
+"authors": [
+"L. Ron Hubbard"
+],
+"real": []
+},
+{
+"title": "Letter (Adventure, October 1, 1935)",
+"type": "ESSAY",
+"len": null,
+"page": "|116",
+"authors": [
+"L. Ron Hubbard"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Walter M. Baumhofer"
+],
+"editors": [
+"Howard V. L. Bloomfield"
+]
+},
+{
+"id": 356736,
+"title": "Adventure, January 1936",
+"date": "1936-01-00",
+"items": [
+{
+"title": "On Account of a Woman",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"Theodore Roscoe"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Hubert Rogers"
+],
+"editors": [
+"Howard V. L. Bloomfield"
+]
+},
+{
+"id": 638654,
+"title": "Adventure, August 1936",
+"date": "1936-08-00",
+"items": [
+{
+"title": "Keeper of the Gate",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "",
+"authors": [
+"Harold Lamb"
+],
+"real": []
+}
+],
+"cover_artists": [
+"David Berger"
+],
+"editors": [
+"Howard V. L. Bloomfield"
+]
+},
+{
+"id": 1055769,
+"title": "Adventure, September 1936",
+"date": "1936-09-05",
+"items": [
+{
+"title": "Mr. Tidwell, Gunner",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "97",
+"authors": [
+"L. Ron Hubbard"
+],
+"real": []
+}
+],
+"cover_artists": [
+"A. M. Simpkin"
+],
+"editors": [
+"Howard V. L. Bloomfield"
+]
+},
+{
+"id": 318324,
+"title": "Adventure, April 1937",
+"date": "1937-04-00",
+"items": [
+{
+"title": "Derelict",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "112",
+"authors": [
+"Hugh B. Cave"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Hubert Rogers"
+],
+"editors": [
+"Howard V. L. Bloomfield"
+]
+},
+{
+"id": 1055735,
+"title": "Adventure, January 1939",
+"date": "1939-01-00",
+"items": [
+{
+"title": "Four Lashes an Hour",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Johnston McCulley"
+],
+"real": []
+}
+],
+"cover_artists": [
+"William F. Soare"
+],
+"editors": [
+"Howard V. L. Bloomfield"
+]
+},
+{
+"id": 1092468,
+"title": "Adventure, April 1939",
+"date": "1939-04-00",
+"items": [
+{
+"title": "Suicide Club",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "109",
+"authors": [
+"O. B. Myers"
+],
+"real": []
+}
+],
+"cover_artists": [
+"William F. Soare"
+],
+"editors": [
+"Howard V. L. Bloomfield"
+]
+},
+{
+"id": 300752,
+"title": "Adventure, September 1940",
+"date": "1940-09-00",
+"items": [
+{
+"title": "Drum Patrols",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "52",
+"authors": [
+"Joel Townsley Rogers"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Stockton Mulford"
+],
+"editors": [
+"Howard V. L. Bloomfield"
+]
+},
+{
+"id": 704233,
+"title": "Adventure, September 1943",
+"date": "1943-09-00",
+"items": [
+{
+"title": "Tomorrow Is Forever",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "150",
+"authors": [
+"Hugh B. Cave"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Maurice Bower"
+],
+"editors": [
+"Kenneth S. White"
+]
+},
+{
+"id": 708625,
+"title": "Adventure, September 1944",
+"date": "1944-09-00",
+"items": [
+{
+"title": "Graven Image",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "131",
+"authors": [
+"E. Hoffmann Price"
+],
+"real": []
+}
+],
+"cover_artists": [
+"L. Sterne Stevens"
+],
+"editors": [
+"Kenneth S. White"
+]
+},
+{
+"id": 703303,
+"title": "Adventure, February 1945",
+"date": "1945-02-00",
+"items": [
+{
+"title": "The Pink Caterpillar",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Anthony Boucher"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Maurice Bower"
+],
+"editors": [
+"Kenneth S. White"
+]
+},
+{
+"id": 881874,
+"title": "Adventure, March 1946",
+"date": "1946-03-00",
+"items": [
+{
+"title": "O'Brien and Obrenov",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "38",
+"authors": [
+"Philip JosÃ© Farmer"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Griffith Foxley"
+],
+"editors": [
+"Kenneth S. White"
+]
+},
+{
+"id": 417612,
+"title": "Adventure, February 1949",
+"date": "1949-02-00",
+"items": [
+{
+"title": "Posted Missing",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "39",
+"authors": [
+"Bill Adams (1879-1953)"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Charles Dye"
+],
+"editors": [
+"Kendall W. Goodwyn"
+]
+},
+{
+"id": 300753,
+"title": "Adventure, February 1955",
+"date": "1955-02-00",
+"items": [
+{
+"title": "Drum Patrols",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Joel Townsley Rogers"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank McCarthy"
+],
+"editors": [
+"Alden H. Norton"
+]
+},
+{
+"id": 1055725,
+"title": "Adventure, October 1956",
+"date": "1956-10-00",
+"items": [
+{
+"title": "The Reckless Ones",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "40",
+"authors": [
+"Arthur C. Clarke"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Mort Kunstler"
+],
+"editors": [
+"Alden H. Norton"
+]
+},
+{
+"id": 1055767,
+"title": "Adventure, August 1961",
+"date": "1961-08-00",
+"items": [
+{
+"title": "The Man Who Couldn't Die",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Gardner F. Fox"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Victor Prezio"
+],
+"editors": [
+"Alden H. Norton"
+]
+},
+{
+"id": 1055765,
+"title": "Adventure, October 1961",
+"date": "1961-10-00",
+"items": [
+{
+"title": "The Hunted",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Rick Rubin"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Victor Prezio"
+],
+"editors": [
+"Alden H. Norton"
+]
+},
+{
+"id": 1055745,
+"title": "Adventure, April 1966",
+"date": "1966-04-00",
+"items": [
+{
+"title": "Killer of the Cave",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Gene Preen"
+],
+"real": [
+"Gil Paust"
+]
+}
+],
+"cover_artists": [
+"Shannon Stirnweis"
+],
+"editors": [
+"Peter Hill Gannett"
+]
+}
+]
+}

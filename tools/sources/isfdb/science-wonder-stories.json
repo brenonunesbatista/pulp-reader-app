@@ -1,0 +1,2337 @@
+{
+"source": "ISFDB, The Internet Speculative Fiction Database (https://www.isfdb.org), CC BY 4.0",
+"dump": "backup-MySQL-55-2026-10-10.zip",
+"pattern": "^Science Wonder Stories, ",
+"issues": [
+{
+"id": 60498,
+"title": "Science Wonder Stories, June 1929",
+"date": "1929-06-00",
+"items": [
+{
+"title": "Science Wonder Stories",
+"type": "ESSAY",
+"len": null,
+"page": "5",
+"authors": [
+"Hugo Gernsback"
+],
+"real": []
+},
+{
+"title": "The Reign of the Ray (Part 1 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"Irvin Lester",
+"Fletcher Pratt"
+],
+"real": [
+"Fletcher Pratt"
+]
+},
+{
+"title": "The Diamond Maker",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "34",
+"authors": [
+"H. G. Wells"
+],
+"real": []
+},
+{
+"title": "Warriors of Space",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "38",
+"authors": [
+"J. P. Marshall"
+],
+"real": []
+},
+{
+"title": "The Marble Virgin",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "52",
+"authors": [
+"Kennie McDowd"
+],
+"real": []
+},
+{
+"title": "The Threat of the Robot",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "62",
+"authors": [
+"David H. Keller, M.D."
+],
+"real": []
+},
+{
+"title": "The Making of Misty Isle",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "74",
+"authors": [
+"Stanton A. Coblentz"
+],
+"real": []
+},
+{
+"title": "What Is Your Knowledge of Science? (Science Wonder Stories, June 1929)",
+"type": "ESSAY",
+"len": null,
+"page": "82",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Science News of the Month (Science Wonder Stories, June 1929)",
+"type": "ESSAY",
+"len": null,
+"page": "84",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "What Science Fiction Means to Me (Without Fiction There Cannot Be Fact)",
+"type": "ESSAY",
+"len": null,
+"page": "90",
+"authors": [
+"R. P. Tooker"
+],
+"real": [
+"Richard Tooker"
+]
+},
+{
+"title": "The Reader Speaks (Science Wonder Stories, June 1929)",
+"type": "ESSAY",
+"len": null,
+"page": "91",
+"authors": [
+"various"
+],
+"real": []
+},
+{
+"title": "Letter (Admires Real Fighter)",
+"type": "ESSAY",
+"len": null,
+"page": "93",
+"authors": [
+"Ed Earl Repp"
+],
+"real": []
+},
+{
+"title": "Book Reviews (Science Wonder Stories, June 1929)",
+"type": "ESSAY",
+"len": null,
+"page": "96",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "What Science Fiction Means to Me",
+"type": "ESSAY",
+"len": null,
+"page": "89|89.1",
+"authors": [
+"various"
+],
+"real": []
+},
+{
+"title": "What Science Fiction Means to Me (Tremendous Contribution to Civilization)",
+"type": "ESSAY",
+"len": null,
+"page": "89|89.2",
+"authors": [
+"Jack Williamson"
+],
+"real": []
+},
+{
+"title": "What Science Fiction Means to Me (A Scientist-Author Speaks)",
+"type": "ESSAY",
+"len": null,
+"page": "89|89.3",
+"authors": [
+"Edward E. Smith, Ph.D."
+],
+"real": [
+"Edward E. Smith"
+]
+}
+],
+"cover_artists": [
+"Paul"
+],
+"editors": [
+"Hugo Gernsback"
+]
+},
+{
+"id": 60497,
+"title": "Science Wonder Stories, July 1929",
+"date": "1929-07-00",
+"items": [
+{
+"title": "The Wonders of Gravitation",
+"type": "ESSAY",
+"len": null,
+"page": "101",
+"authors": [
+"Hugo Gernsback"
+],
+"real": []
+},
+{
+"title": "The Alien Intelligence (Part 1 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "102",
+"authors": [
+"Jack Williamson"
+],
+"real": []
+},
+{
+"title": "The Reign of the Ray (Part 2 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "120",
+"authors": [
+"Irvin Lester",
+"Fletcher Pratt"
+],
+"real": [
+"Fletcher Pratt"
+]
+},
+{
+"title": "The Boneless Horror",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "132",
+"authors": [
+"David H. Keller, M.D."
+],
+"real": []
+},
+{
+"title": "The Menace from Below",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "142",
+"authors": [
+"Harl Vincent"
+],
+"real": []
+},
+{
+"title": "The Problems of Space Flying (Part 1 of 3)",
+"type": "ESSAY",
+"len": null,
+"page": "170",
+"authors": [
+"Captain Hermann Noordung, A.D., M.E."
+],
+"real": [
+"Capt. Hermann Noordung"
+]
+},
+{
+"title": "Science News of the Month (Science Wonder Stories, July 1929)",
+"type": "ESSAY",
+"len": null,
+"page": "180",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "What Science Fiction Means to Me",
+"type": "ESSAY",
+"len": null,
+"page": "186",
+"authors": [
+"The Editor"
+],
+"real": [
+"Hugo Gernsback"
+]
+},
+{
+"title": "The Reader Speaks (Science Wonder Stories, July 1929)",
+"type": "ESSAY",
+"len": null,
+"page": "188",
+"authors": [
+"The Editor"
+],
+"real": [
+"Hugo Gernsback"
+]
+},
+{
+"title": "Letter (Science Wonder Stories, July 1929): What Is the Earth's Real Movement?",
+"type": "ESSAY",
+"len": null,
+"page": "189",
+"authors": [
+"J. A. Ulan"
+],
+"real": []
+},
+{
+"title": "The Gift of the Master Mentality",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "186|186.1",
+"authors": [
+"Tom Olog"
+],
+"real": []
+},
+{
+"title": "An Escape from the Monotony of Life",
+"type": "ESSAY",
+"len": null,
+"page": "186|186.2",
+"authors": [
+"James P. Marshall"
+],
+"real": [
+"J. P. Marshall"
+]
+},
+{
+"title": "Directing the Way to Truth",
+"type": "ESSAY",
+"len": null,
+"page": "186|186.3",
+"authors": [
+"Michael Hnatko"
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, July 1929): Nothing Wrong With It",
+"type": "ESSAY",
+"len": null,
+"page": "188|188.1",
+"authors": [
+"Jerome Levine"
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, July 1929): Some Frank Suggestions",
+"type": "ESSAY",
+"len": null,
+"page": "188|188.2",
+"authors": [
+"Curtis Taylor (I)"
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, July 1929): An Old Friend",
+"type": "ESSAY",
+"len": null,
+"page": "188|188.3",
+"authors": [
+"G. B. Young"
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, July 1929): Prefers Science Fiction to Boys",
+"type": "ESSAY",
+"len": null,
+"page": "188|188.4",
+"authors": [
+"Geraldine Compton"
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, July 1929): We Feel the Responsibility",
+"type": "ESSAY",
+"len": null,
+"page": "188|188.5",
+"authors": [
+"Bernard B. Melton"
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, July 1929): Questions Making of Protoplasm",
+"type": "ESSAY",
+"len": null,
+"page": "188|188.6",
+"authors": [
+"Alfred Greenky"
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, July 1929): Questions Infinite Speed",
+"type": "ESSAY",
+"len": null,
+"page": "190|190.1",
+"authors": [
+"John W. Campbell, Jr."
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, July 1929): Likes Pure Fiction",
+"type": "ESSAY",
+"len": null,
+"page": "190|190.2",
+"authors": [
+"W. A. F."
+],
+"real": []
+},
+{
+"title": "Problems of Instinct and Intelligence (review)",
+"type": "ESSAY",
+"len": null,
+"page": "191|191.1",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Witchery of Wasps (review)",
+"type": "ESSAY",
+"len": null,
+"page": "191|191.3",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Discovery of the Earth (review)",
+"type": "ESSAY",
+"len": null,
+"page": "191|191.4",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank R. Paul"
+],
+"editors": [
+"Hugo Gernsback"
+]
+},
+{
+"id": 60493,
+"title": "Science Wonder Stories, August 1929",
+"date": "1929-08-00",
+"items": [
+{
+"title": "The Wonders of Space",
+"type": "ESSAY",
+"len": null,
+"page": "197",
+"authors": [
+"Hugo Gernsback"
+],
+"real": []
+},
+{
+"title": "The Moon Beasts",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "198",
+"authors": [
+"William P. Locke"
+],
+"real": []
+},
+{
+"title": "The Radium Pool (Part 1 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "218",
+"authors": [
+"Ed Earl Repp"
+],
+"real": []
+},
+{
+"title": "The Eternal Man",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "230",
+"authors": [
+"D. D. Sharp"
+],
+"real": []
+},
+{
+"title": "The Alien Intelligence (Part 2 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "234",
+"authors": [
+"Jack Williamson"
+],
+"real": []
+},
+{
+"title": "The Feminine Metamorphosis",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "246",
+"authors": [
+"David H. Keller, M.D."
+],
+"real": []
+},
+{
+"title": "The Problems of Space Flying (Part 2 of 3)",
+"type": "ESSAY",
+"len": null,
+"page": "264",
+"authors": [
+"Captain Hermann Noordung, A.D., M.E."
+],
+"real": [
+"Capt. Hermann Noordung"
+]
+},
+{
+"title": "Science News of the Month (Science Wonder Stories, August 1929)",
+"type": "ESSAY",
+"len": null,
+"page": "275",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "What Science Means to Me",
+"type": "ESSAY",
+"len": null,
+"page": "279",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Reader Speaks (Science Wonder Stories, August 1929)",
+"type": "ESSAY",
+"len": null,
+"page": "280",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Book Reviews (Science Wonder Stories, August 1929)",
+"type": "ESSAY",
+"len": null,
+"page": "287",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Story of Humanity",
+"type": "ESSAY",
+"len": null,
+"page": "279|279.1",
+"authors": [
+"F. P. Swiggett, Jr."
+],
+"real": []
+},
+{
+"title": "The Perfect Entertainment",
+"type": "ESSAY",
+"len": null,
+"page": "279|279.2",
+"authors": [
+"J. Roy Chapman"
+],
+"real": []
+},
+{
+"title": "Crosses the Chasm of Impossibility",
+"type": "ESSAY",
+"len": null,
+"page": "279|279.3",
+"authors": [
+"Al Browne"
+],
+"real": []
+},
+{
+"title": "Brighter and More Intense Life",
+"type": "ESSAY",
+"len": null,
+"page": "279|279.4",
+"authors": [
+"Nicholas Micibrocky"
+],
+"real": []
+},
+{
+"title": "A New Language of Optimism",
+"type": "ESSAY",
+"len": null,
+"page": "279|279.5",
+"authors": [
+"James O. Walker"
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, August 1929): Mr. Marshall Speaks",
+"type": "ESSAY",
+"len": null,
+"page": "280|280.1",
+"authors": [
+"James P. Marshall"
+],
+"real": [
+"J. P. Marshall"
+]
+},
+{
+"title": "Letter (Science Wonder Stories, August 1929): Mr. MacDowd Defends \"The Marble Virgin\"",
+"type": "ESSAY",
+"len": null,
+"page": "280|280.2",
+"authors": [
+"Kennie MacDowd"
+],
+"real": [
+"Kennie McDowd"
+]
+},
+{
+"title": "At Home Among the Atoms (review)",
+"type": "ESSAY",
+"len": null,
+"page": "287|287.1",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Life of the White Ant (review)",
+"type": "ESSAY",
+"len": null,
+"page": "287|287.2",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank R. Paul"
+],
+"editors": [
+"Hugo Gernsback"
+]
+},
+{
+"id": 60503,
+"title": "Science Wonder Stories, September 1929",
+"date": "1929-09-00",
+"items": [
+{
+"title": "Next Month (Science Wonder Stories, September 1929)",
+"type": "ESSAY",
+"len": null,
+"page": "290",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Hidden Wonders",
+"type": "ESSAY",
+"len": null,
+"page": "293",
+"authors": [
+"Hugo Gernsback"
+],
+"real": []
+},
+{
+"title": "The Human Termites (Part 1 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "294",
+"authors": [
+"David H. Keller, M.D."
+],
+"real": []
+},
+{
+"title": "The Cubic City",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "316",
+"authors": [
+"Louis Tucker"
+],
+"real": []
+},
+{
+"title": "The Onslaught from Venus",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "326",
+"authors": [
+"Frank Phillips"
+],
+"real": [
+"Philip Francis Nowlan"
+]
+},
+{
+"title": "The Radium Pool (Part 2 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "344",
+"authors": [
+"Ed Earl Repp"
+],
+"real": []
+},
+{
+"title": "The Problems of Space Flying (Part 3 of 3)",
+"type": "ESSAY",
+"len": null,
+"page": "361",
+"authors": [
+"Captain Hermann Noordung, A.D., M.E."
+],
+"real": [
+"Capt. Hermann Noordung"
+]
+},
+{
+"title": "Science News of the Month (Science Wonder Stories, September 1929)",
+"type": "ESSAY",
+"len": null,
+"page": "370",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Reader Speaks (Science Wonder Stories, September 1929)",
+"type": "ESSAY",
+"len": null,
+"page": "374",
+"authors": [
+"The Editor"
+],
+"real": [
+"Hugo Gernsback"
+]
+},
+{
+"title": "Letter (Science Wonder Stories, September 1929): Why Is Uranus Neglected?",
+"type": "ESSAY",
+"len": null,
+"page": "377",
+"authors": [
+"Harold Hood"
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, September 1929): Religion and Science Compatible",
+"type": "ESSAY",
+"len": null,
+"page": "378",
+"authors": [
+"L. E. Foltz"
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, September 1929): Don't Do It Again",
+"type": "ESSAY",
+"len": null,
+"page": "379",
+"authors": [
+"Lester Anderson"
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, September 1929): Mr. Pratt Not Anti-Soviet",
+"type": "ESSAY",
+"len": null,
+"page": "382",
+"authors": [
+"Fletcher Pratt"
+],
+"real": []
+},
+{
+"title": "Review of nongenre nonfiction Alexander Graham Bell by Catherine Mackenzie",
+"type": "ESSAY",
+"len": null,
+"page": "383",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, September 1929): The Jury Brings Its Verdict",
+"type": "ESSAY",
+"len": null,
+"page": "374|374.1",
+"authors": [
+"Frank Kelly"
+],
+"real": [
+"Frank K. Kelly"
+]
+},
+{
+"title": "Letter (Science Wonder Stories, September 1929): Why Is There Heat and Light Through a Vacuum",
+"type": "ESSAY",
+"len": null,
+"page": "374|374.2",
+"authors": [
+"Hymand D. Kaidor"
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, September 1929): Does Not Favor Forum",
+"type": "ESSAY",
+"len": null,
+"page": "374|374.3",
+"authors": [
+"Jack Darrow"
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, September 1929): A Thorough Classification",
+"type": "ESSAY",
+"len": null,
+"page": "375|375.1",
+"authors": [
+"Theodore Engel"
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, September 1929): Mr. Pratt Reviews \"Warriors of Space\"",
+"type": "ESSAY",
+"len": null,
+"page": "375|375.2",
+"authors": [
+"Fletcher Pratt"
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, September 1929): Mr. Pratt Reviews \"Warriors of Space\" (response)",
+"type": "ESSAY",
+"len": null,
+"page": "375|375.3",
+"authors": [
+"Samuel G. Barton"
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, September 1929): Once Called Science Fiction \"Brainstorms\"",
+"type": "ESSAY",
+"len": null,
+"page": "375|375.4",
+"authors": [
+"C. N. Cooke"
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, September 1929): From Harl Vincent",
+"type": "ESSAY",
+"len": null,
+"page": "376|376.1",
+"authors": [
+"Harl Vincent"
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, September 1929): On Lifiting the Leviathan",
+"type": "ESSAY",
+"len": null,
+"page": "376|376.2",
+"authors": [
+"J. S. Bain"
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, September 1929): Descirbes Science Correspondence Club",
+"type": "ESSAY",
+"len": null,
+"page": "376|376.3",
+"authors": [
+"Leonard May"
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, September 1929): Universe Large Enough for Him",
+"type": "ESSAY",
+"len": null,
+"page": "376|376.4",
+"authors": [
+"Earl Valet"
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, September 1929): Baffles His Friends on Science Knowledge",
+"type": "ESSAY",
+"len": null,
+"page": "380|380.1",
+"authors": [
+"Sidney Rishen"
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, September 1929): From a Prize Winner",
+"type": "ESSAY",
+"len": null,
+"page": "380|380.2",
+"authors": [
+"F. P. Swiggert, Jr."
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, September 1929): Terrible!",
+"type": "ESSAY",
+"len": null,
+"page": "381|381.1",
+"authors": [
+"De Vere Shillito"
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, September 1929): From the LOver of Astronomy",
+"type": "ESSAY",
+"len": null,
+"page": "381|381.2",
+"authors": [
+"Joseph Fox"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank R. Paul"
+],
+"editors": [
+"Hugo Gernsback"
+]
+},
+{
+"id": 60502,
+"title": "Science Wonder Stories, October 1929",
+"date": "1929-10-00",
+"items": [
+{
+"title": "Wonders of Speed",
+"type": "ESSAY",
+"len": null,
+"page": "389",
+"authors": [
+"Hugo Gernsback"
+],
+"real": []
+},
+{
+"title": "The Metal World",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "390",
+"authors": [
+"Ed Earl Repp"
+],
+"real": []
+},
+{
+"title": "The Ancient Brain",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "400",
+"authors": [
+"A. G. Stangland"
+],
+"real": [
+"Arthur G. Stangland"
+]
+},
+{
+"title": "The Human Termites (Part 2 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "410",
+"authors": [
+"David H. Keller, M.D."
+],
+"real": []
+},
+{
+"title": "Into the Subconscious",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "426",
+"authors": [
+"Ray Avery Myers"
+],
+"real": []
+},
+{
+"title": "Eros to Earth",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "436",
+"authors": [
+"Walter Kateley"
+],
+"real": []
+},
+{
+"title": "What Is Your Knowledge of Science? (Science Wonder Stories, October 1929)",
+"type": "ESSAY",
+"len": null,
+"page": "447",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "In Two Worlds",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "448",
+"authors": [
+"Edward E. Chappelow"
+],
+"real": []
+},
+{
+"title": "Science News of the Month (Science Wonder Stories, October 1929)",
+"type": "ESSAY",
+"len": null,
+"page": "460",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Science Questions and Answers (Science Wonder Stories, October 1929)",
+"type": "ESSAY",
+"len": null,
+"page": "464",
+"authors": [
+"various"
+],
+"real": []
+},
+{
+"title": "The Reader Speaks (Science Wonder Stories, October 1929)",
+"type": "ESSAY",
+"len": null,
+"page": "467",
+"authors": [
+"various"
+],
+"real": []
+},
+{
+"title": "Letter (Attention Mr. Maloire!)",
+"type": "ESSAY",
+"len": null,
+"page": "470",
+"authors": [
+"Frank K. Kelly"
+],
+"real": []
+},
+{
+"title": "Letter (A Search for a Brick-Bat)",
+"type": "ESSAY",
+"len": null,
+"page": "476",
+"authors": [
+"Raymond A. Palmer"
+],
+"real": []
+},
+{
+"title": "Book Reviews (Science Wonder Stories, October 1929)",
+"type": "ESSAY",
+"len": null,
+"page": "479",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Paul"
+],
+"editors": [
+"Hugo Gernsback"
+]
+},
+{
+"id": 60501,
+"title": "Science Wonder Stories, November 1929",
+"date": "1929-11-00",
+"items": [
+{
+"title": "$300.00 Prize Story Contest",
+"type": "ESSAY",
+"len": null,
+"page": "485",
+"authors": [
+"Hugo Gernsback"
+],
+"real": []
+},
+{
+"title": "The Phantom Teleview",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "486",
+"authors": [
+"Bob Olsen"
+],
+"real": []
+},
+{
+"title": "The Killing Flash",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "496",
+"authors": [
+"Hugo Gernsback"
+],
+"real": []
+},
+{
+"title": "The Stellar Missile",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "498",
+"authors": [
+"Ed Earl Repp"
+],
+"real": []
+},
+{
+"title": "The Gold Triumvirate",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "514",
+"authors": [
+"Walter Kateley"
+],
+"real": []
+},
+{
+"title": "The Space Dwellers",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "522",
+"authors": [
+"Raymond Gallun"
+],
+"real": [
+"Raymond Z. Gallun"
+]
+},
+{
+"title": "The Human Termites (Part 3 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "530",
+"authors": [
+"David H. Keller, M.D."
+],
+"real": []
+},
+{
+"title": "The Green Intelligence",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "550",
+"authors": [
+"Harley S. Aldinger"
+],
+"real": []
+},
+{
+"title": "Science News of the Month (Science Wonder Stories, November 1929)",
+"type": "ESSAY",
+"len": null,
+"page": "558",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Science Questions and Answers (Science Wonder Stories, November 1929)",
+"type": "ESSAY",
+"len": null,
+"page": "562",
+"authors": [
+"various"
+],
+"real": []
+},
+{
+"title": "Letter (Tribute to Mr. Repp)",
+"type": "ESSAY",
+"len": null,
+"page": "569",
+"authors": [
+"Jerome Siegel"
+],
+"real": []
+},
+{
+"title": "Book Reviews (Science Wonder Stories, November 1929)",
+"type": "ESSAY",
+"len": null,
+"page": "575",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "My Little Martian Sweetheart",
+"type": "POEM",
+"len": null,
+"page": "495|495.1",
+"authors": [
+"The Planet Prince"
+],
+"real": [
+"J. Harvey Haggard"
+]
+},
+{
+"title": "What Is Your Knowledge of Science? (Science Wonder Stories, November 1929)",
+"type": "ESSAY",
+"len": null,
+"page": "495|495.2",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Has Pity for Critics)",
+"type": "ESSAY",
+"len": null,
+"page": "563|562.2",
+"authors": [
+"George M. Ulysses"
+],
+"real": [
+"Ulysses George Mihalakis"
+]
+},
+{
+"title": "The Reader Speaks (Science Wonder Stories, November 1929)",
+"type": "ESSAY",
+"len": null,
+"page": "563|563.1",
+"authors": [
+"various"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank R. Paul"
+],
+"editors": [
+"Hugo Gernsback"
+]
+},
+{
+"id": 60494,
+"title": "Science Wonder Stories, December 1929",
+"date": "1929-12-00",
+"items": [
+{
+"title": "The Wonders of Interstellar Flight",
+"type": "ESSAY",
+"len": null,
+"page": "581",
+"authors": [
+"Hugo Gernsback"
+],
+"real": []
+},
+{
+"title": "The Conquerors (Part 1 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "582",
+"authors": [
+"David H. Keller, M.D."
+],
+"real": []
+},
+{
+"title": "The Rocket Comes to the Front Page",
+"type": "ESSAY",
+"len": null,
+"page": "600",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Time Oscillator",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "602",
+"authors": [
+"Henry F. Kirkham"
+],
+"real": []
+},
+{
+"title": "What Is Your Knowledge of Science? (Science Wonder Stories, December 1929)",
+"type": "ESSAY",
+"len": null,
+"page": "617",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Radiation of the Chinese Vegetable",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "618",
+"authors": [
+"C. Sterling Gleason"
+],
+"real": []
+},
+{
+"title": "The Super Velocitor",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "624",
+"authors": [
+"S. C. Carpenter"
+],
+"real": []
+},
+{
+"title": "Life in the Cosmos",
+"type": "ESSAY",
+"len": null,
+"page": "635",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Lost Martian",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "636",
+"authors": [
+"Henry Harbers"
+],
+"real": []
+},
+{
+"title": "Science News of the Month (Science Wonder Stories, December 1929)",
+"type": "ESSAY",
+"len": null,
+"page": "652",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Science Questions and Answers (Science Wonder Stories, December 1929)",
+"type": "ESSAY",
+"len": null,
+"page": "656",
+"authors": [
+"various"
+],
+"real": []
+},
+{
+"title": "The Reader Speaks (Science Wonder Stories, December 1929)",
+"type": "ESSAY",
+"len": null,
+"page": "657",
+"authors": [
+"various"
+],
+"real": []
+},
+{
+"title": "Letter (O. Henry Ending Disappointment)",
+"type": "ESSAY",
+"len": null,
+"page": "667",
+"authors": [
+"Walter Dennis"
+],
+"real": []
+},
+{
+"title": "Book Reviews (Science Wonder Stories, December 1929)",
+"type": "ESSAY",
+"len": null,
+"page": "671",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (An Open Letter from Ed Earl Repp)",
+"type": "ESSAY",
+"len": null,
+"page": "668|668.1",
+"authors": [
+"Ed Earl Repp"
+],
+"real": []
+},
+{
+"title": "Letter (The Mood of an Evening)",
+"type": "ESSAY",
+"len": null,
+"page": "668|668.2",
+"authors": [
+"Ulysses George, Jr."
+],
+"real": [
+"Ulysses George Mihalakis"
+]
+}
+],
+"cover_artists": [
+"Frank R. Paul"
+],
+"editors": [
+"Hugo Gernsback"
+]
+},
+{
+"id": 60496,
+"title": "Science Wonder Stories, January 1930",
+"date": "1930-01-00",
+"items": [
+{
+"title": "Wonders of Other Worlds",
+"type": "ESSAY",
+"len": null,
+"page": "677",
+"authors": [
+"Hugo Gernsback"
+],
+"real": []
+},
+{
+"title": "The Fitzgerald Contraction",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "678",
+"authors": [
+"Miles J. Breuer, M.D."
+],
+"real": []
+},
+{
+"title": "The Red Dimension",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "696",
+"authors": [
+"Ed Earl Repp"
+],
+"real": []
+},
+{
+"title": "The Vapor Intelligence",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "702",
+"authors": [
+"Jack Barnette"
+],
+"real": []
+},
+{
+"title": "The Conquerors (Part 2 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "708",
+"authors": [
+"David H. Keller, M.D."
+],
+"real": []
+},
+{
+"title": "What Is Your Knowledge of Science? (Science Wonder Stories, January 1930)",
+"type": "ESSAY",
+"len": null,
+"page": "745",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Science News of the Month (Science Wonder Stories, January 1930)",
+"type": "ESSAY",
+"len": null,
+"page": "747",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Science Questions and Answers (Science Wonder Stories, January 1930)",
+"type": "ESSAY",
+"len": null,
+"page": "751",
+"authors": [
+"various"
+],
+"real": []
+},
+{
+"title": "The Reader Speaks (Science Wonder Stories, January 1930)",
+"type": "ESSAY",
+"len": null,
+"page": "752",
+"authors": [
+"various"
+],
+"real": []
+},
+{
+"title": "Letter (The Human Being Makes His Own)",
+"type": "ESSAY",
+"len": null,
+"page": "763",
+"authors": [
+"Anthony Pelcher"
+],
+"real": []
+},
+{
+"title": "Book Reviews (Science Wonder Stories, January 1930)",
+"type": "ESSAY",
+"len": null,
+"page": "767",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Fundamental Error Contest: Prize Letters",
+"type": "ESSAY",
+"len": null,
+"page": "746|746.1",
+"authors": [
+"various"
+],
+"real": []
+},
+{
+"title": "Letter (Race Memory Has No Record of Death) (prize winner)",
+"type": "ESSAY",
+"len": null,
+"page": "746|746.2",
+"authors": [
+"Jack Williamson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank R. Paul"
+],
+"editors": [
+"Hugo Gernsback"
+]
+},
+{
+"id": 60495,
+"title": "Science Wonder Stories, February 1930",
+"date": "1930-02-00",
+"items": [
+{
+"title": "Can Man Free Himself from Gravity?",
+"type": "ESSAY",
+"len": null,
+"page": "773",
+"authors": [
+"Hugo Gernsback"
+],
+"real": []
+},
+{
+"title": "A Rescue from Jupiter (Part 1 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "774",
+"authors": [
+"Gawain Edwards"
+],
+"real": []
+},
+{
+"title": "What Is Your Knowledge of Science? (Science Wonder Stories, February 1930)",
+"type": "ESSAY",
+"len": null,
+"page": "787",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Can Man Free Himself from Gravity?",
+"type": "ESSAY",
+"len": null,
+"page": "788",
+"authors": [
+"Dr. Th. Wolff"
+],
+"real": []
+},
+{
+"title": "Response: Limit of 400 Kilometers Is Wrong",
+"type": "ESSAY",
+"len": null,
+"page": "789",
+"authors": [
+"Professor R. H. Goddard"
+],
+"real": [
+"R. H. Goddard"
+]
+},
+{
+"title": "Streamers of Death",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "790",
+"authors": [
+"Henrik Dahl Juve"
+],
+"real": []
+},
+{
+"title": "The Land of the Bipos",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "806",
+"authors": [
+"Francis Flagg"
+],
+"real": []
+},
+{
+"title": "The World of a Hundred Men",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "818",
+"authors": [
+"Walter Kateley"
+],
+"real": []
+},
+{
+"title": "Science News of the Month (Science Wonder Stories, February 1930)",
+"type": "ESSAY",
+"len": null,
+"page": "843",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Science Questions and Answers (Science Wonder Stories, February 1930)",
+"type": "ESSAY",
+"len": null,
+"page": "847",
+"authors": [
+"various"
+],
+"real": []
+},
+{
+"title": "The Reader Speaks (Science Wonder Stories, February 1930)",
+"type": "ESSAY",
+"len": null,
+"page": "848",
+"authors": [
+"various"
+],
+"real": []
+},
+{
+"title": "Letter (The Author Speaks)",
+"type": "ESSAY",
+"len": null,
+"page": "856",
+"authors": [
+"Walter Kateley"
+],
+"real": []
+},
+{
+"title": "Book Reviews (Science Wonder Stories, February 1930)",
+"type": "ESSAY",
+"len": null,
+"page": "863",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Response: Would Wish to Have It Restored",
+"type": "ESSAY",
+"len": null,
+"page": "841|841.1",
+"authors": [
+"Professor Samuel G. Barton"
+],
+"real": []
+},
+{
+"title": "Response: The Possibility of Aviation Would Be Destroyed",
+"type": "ESSAY",
+"len": null,
+"page": "841|841.2",
+"authors": [
+"Dr. Clyde Fisher"
+],
+"real": []
+},
+{
+"title": "Response: The Answer in the Action of Molecules",
+"type": "ESSAY",
+"len": null,
+"page": "842|842.1",
+"authors": [
+"Professor A. L. Fitch"
+],
+"real": []
+},
+{
+"title": "Response: The Equivalent of Perpetual Motion",
+"type": "ESSAY",
+"len": null,
+"page": "842|842.2",
+"authors": [
+"Professor Donald H. Menzel"
+],
+"real": [
+"Donald H. Menzel"
+]
+},
+{
+"title": "Response: Nothing Points to Its Failure or Realization",
+"type": "ESSAY",
+"len": null,
+"page": "842|842.3",
+"authors": [
+"Prof. C. Irwin Palmer"
+],
+"real": []
+},
+{
+"title": "Response: Gravitation Has Been Overcome",
+"type": "ESSAY",
+"len": null,
+"page": "842|842.4",
+"authors": [
+"Professor James Byrnie Shaw"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank R. Paul"
+],
+"editors": [
+"Hugo Gernsback"
+]
+},
+{
+"id": 60499,
+"title": "Science Wonder Stories, March 1930",
+"date": "1930-03-00",
+"items": [
+{
+"title": "Next Month (Science Wonder Stories, March 1930)",
+"type": "ESSAY",
+"len": null,
+"page": "866",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Results of the $300.00 Prize Contest",
+"type": "ESSAY",
+"len": null,
+"page": "869",
+"authors": [
+"Hugo Gernsback"
+],
+"real": []
+},
+{
+"title": "Before the Asteroids",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "870",
+"authors": [
+"Harl Vincent"
+],
+"real": []
+},
+{
+"title": "The Color of Space",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "892",
+"authors": [
+"Charles R. Tanner"
+],
+"real": []
+},
+{
+"title": "The Relics from the Earth",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "894",
+"authors": [
+"John Pierce"
+],
+"real": [
+"John R. Pierce"
+]
+},
+{
+"title": "The Manuscript . . Found in the Desert",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "895",
+"authors": [
+"Frank J. Brueckel, Jr."
+],
+"real": []
+},
+{
+"title": "Raiders from Space",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "896",
+"authors": [
+"Harold A. Lower"
+],
+"real": []
+},
+{
+"title": "The Mystery Metal",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "898",
+"authors": [
+"H. James",
+"Maurice James"
+],
+"real": []
+},
+{
+"title": "The Insatiable Entity",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "902",
+"authors": [
+"Harold S. Sykes"
+],
+"real": []
+},
+{
+"title": "A Rescue from Jupiter (Part 2 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "910",
+"authors": [
+"Gawain Edwards"
+],
+"real": []
+},
+{
+"title": "Professor Diel's Ray",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "926",
+"authors": [
+"Frank J. Brueckel, Jr."
+],
+"real": []
+},
+{
+"title": "Science News of the Month (Science Wonder Stories, March 1930)",
+"type": "ESSAY",
+"len": null,
+"page": "935",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Science Questions and Answers (Science Wonder Stories, March 1930)",
+"type": "ESSAY",
+"len": null,
+"page": "939",
+"authors": [
+"various"
+],
+"real": []
+},
+{
+"title": "The Reader Speaks (Science Wonder Stories, March 1930)",
+"type": "ESSAY",
+"len": null,
+"page": "940",
+"authors": [
+"The Editor"
+],
+"real": [
+"Hugo Gernsback"
+]
+},
+{
+"title": "Letter (Science Wonder Stories, March 1930): A Reply to Mr. Taylor",
+"type": "ESSAY",
+"len": null,
+"page": "951",
+"authors": [
+"Allen Glasser"
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, March 1930): More Short Stories",
+"type": "ESSAY",
+"len": null,
+"page": "954",
+"authors": [
+"O. L. Beckwith"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank R. Paul"
+],
+"editors": [
+"Hugo Gernsback"
+]
+},
+{
+"id": 60492,
+"title": "Science Wonder Stories, April 1930",
+"date": "1930-04-00",
+"items": [
+{
+"title": "The Wonders of Stellar Space",
+"type": "ESSAY",
+"len": null,
+"page": "965",
+"authors": [
+"Hugo Gernsback"
+],
+"real": []
+},
+{
+"title": "The Evening Star (Part 1 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "966",
+"authors": [
+"David H. Keller, M.D."
+],
+"real": []
+},
+{
+"title": "The Falling Planetoid",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "986",
+"authors": [
+"I. R. Nathanson"
+],
+"real": [
+"Isaac R. Nathanson"
+]
+},
+{
+"title": "The Return to Subterrania",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "992",
+"authors": [
+"Harl Vincent"
+],
+"real": []
+},
+{
+"title": "Cosmic Trash",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1014",
+"authors": [
+"Bob Olsen"
+],
+"real": []
+},
+{
+"title": "The Day of Judgement",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1015",
+"authors": [
+"Victor A. Endersby"
+],
+"real": [
+"Victor Endersby"
+]
+},
+{
+"title": "The Menace from the Skies",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1016",
+"authors": [
+"A. G. Stangland"
+],
+"real": [
+"Arthur G. Stangland"
+]
+},
+{
+"title": "An Adventure in Time",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "1018",
+"authors": [
+"Francis Flagg"
+],
+"real": []
+},
+{
+"title": "Science News of the Month (Science Wonder Stories, April 1930)",
+"type": "ESSAY",
+"len": null,
+"page": "1038",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Science Questions and Answers (Science Wonder Stories, April 1930)",
+"type": "ESSAY",
+"len": null,
+"page": "1040",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, April 1930): Time Traveling and Reincarnation",
+"type": "ESSAY",
+"len": null,
+"page": "1042",
+"authors": [
+"Allen Glasser"
+],
+"real": []
+},
+{
+"title": "The Reader Speaks (Science Wonder Stories, April 1930)",
+"type": "ESSAY",
+"len": null,
+"page": "1042",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Letter (Science Wonder Stories, April 1930): Dr. Keller's Answer",
+"type": "ESSAY",
+"len": null,
+"page": "1049",
+"authors": [
+"David H. Keller"
+],
+"real": [
+"David H. Keller, M.D."
+]
+},
+{
+"title": "Letter (Science Wonder Stories, April 1930): The Atom",
+"type": "ESSAY",
+"len": null,
+"page": "1051",
+"authors": [
+"Victor A. Endersby"
+],
+"real": [
+"Victor Endersby"
+]
+},
+{
+"title": "Book Reviews (Science Wonder Stories, April 1930)",
+"type": "ESSAY",
+"len": null,
+"page": "1053",
+"authors": [
+"uncredited"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank R. Paul"
+],
+"editors": [
+"Hugo Gernsback"
+]
+},
+{
+"id": 60500,
+"title": "Science Wonder Stories, May 1930",
+"date": "1930-05-00",
+"items": [
+{
+"title": "Science Fiction Week",
+"type": "ESSAY",
+"len": null,
+"page": "1061",
+"authors": [
+"Hugo Gernsback"
+],
+"real": []
+},
+{
+"title": "Gulf Stream Gold",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1062",
+"authors": [
+"Ed Earl Repp"
+],
+"real": []
+},
+{
+"title": "What Is Your Knowledge of Science? (Science Wonder Stories, May 1930)",
+"type": "ESSAY",
+"len": null,
+"page": "1075",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Infinite Brain",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1076",
+"authors": [
+"John C. Campbell"
+],
+"real": [
+"John Scott Campbell"
+]
+},
+{
+"title": "The Day of the Beast",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1094",
+"authors": [
+"D. D. Sharp"
+],
+"real": []
+},
+{
+"title": "The City of the Living Dead",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "1100",
+"authors": [
+"Laurence Manning",
+"Fletcher Pratt"
+],
+"real": []
+},
+{
+"title": "The Evening Star (Part 2 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "1108",
+"authors": [
+"David H. Keller, M.D."
+],
+"real": []
+},
+{
+"title": "The Horrible Transformation",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1130",
+"authors": [
+"J. Stallworth Daniels"
+],
+"real": []
+},
+{
+"title": "Science Questions and Answers (Science Wonder Stories, May 1930)",
+"type": "ESSAY",
+"len": null,
+"page": "1138",
+"authors": [
+"various"
+],
+"real": []
+},
+{
+"title": "Science News of the Month (Science Wonder Stories, May 1930)",
+"type": "ESSAY",
+"len": null,
+"page": "1146",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Book Reviews (Science Wonder Stories, May 1930)",
+"type": "ESSAY",
+"len": null,
+"page": "1149",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Reader Speaks (Science Wonder Stories, May 1930)",
+"type": "ESSAY",
+"len": null,
+"page": "1139|1139.1",
+"authors": [
+"various"
+],
+"real": []
+},
+{
+"title": "Letter (The Scienceers) (Science Wonder Stories, May 1930)",
+"type": "ESSAY",
+"len": null,
+"page": "1139|1139.2",
+"authors": [
+"Allen Glasser"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank R. Paul"
+],
+"editors": [
+"Hugo Gernsback"
+]
+}
+]
+}

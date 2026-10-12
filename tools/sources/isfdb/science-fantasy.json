@@ -1,0 +1,6505 @@
+{
+"source": "ISFDB, The Internet Speculative Fiction Database (https://www.isfdb.org), CC BY 4.0",
+"dump": "backup-MySQL-55-2026-10-10.zip",
+"pattern": "^Science Fantasy, ",
+"issues": [
+{
+"id": 60235,
+"title": "Science Fantasy, Vol. 3, No. 7",
+"date": "1954-03-00",
+"items": [
+{
+"title": "The Pattern of Science Fiction",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"John Wyndham"
+],
+"real": []
+},
+{
+"title": "Seek Earthmen No More",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "5",
+"authors": [
+"Francis G. Rayer"
+],
+"real": []
+},
+{
+"title": "Death Sentence",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "38",
+"authors": [
+"William Vine"
+],
+"real": [
+"John Christopher"
+]
+},
+{
+"title": "Stranger from Space",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "45",
+"authors": [
+"Eugene Lees"
+],
+"real": []
+},
+{
+"title": "Beggars All",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "60",
+"authors": [
+"J. T. M'Intosh"
+],
+"real": [
+"J. T. McIntosh"
+]
+},
+{
+"title": "The Trojan Way",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "86",
+"authors": [
+"Francis Richardson"
+],
+"real": []
+},
+{
+"title": "Detective Story",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "102",
+"authors": [
+"J. F. Burke"
+],
+"real": [
+"John Burke"
+]
+},
+{
+"title": "Unfortunate Purchase",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "115",
+"authors": [
+"E. C. Tubb"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Gerard Quinn"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60236,
+"title": "Science Fantasy, May 1954",
+"date": "1954-05-00",
+"items": [
+{
+"title": "Guest Editorial: Science into Fantasy (Science Fantasy, May 1954)",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"Wilson Tucker"
+],
+"real": []
+},
+{
+"title": "Tomorrow",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6",
+"authors": [
+"E. C. Tubb"
+],
+"real": []
+},
+{
+"title": "The Shimmering Tree",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "42",
+"authors": [
+"Margaret Lowe"
+],
+"real": []
+},
+{
+"title": "Space Prize",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "55",
+"authors": [
+"Francis G. Rayer"
+],
+"real": []
+},
+{
+"title": "Once Upon a Time",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "63",
+"authors": [
+"Jonathan F. Burke"
+],
+"real": [
+"John Burke"
+]
+},
+{
+"title": "Take a Letter",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "79",
+"authors": [
+"P. W. Cutler"
+],
+"real": []
+},
+{
+"title": "Dawn of Peace Eternal",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "92",
+"authors": [
+"John Ashcroft"
+],
+"real": []
+},
+{
+"title": "The Conquerors",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "106",
+"authors": [
+"Lan Wright"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Gerard Quinn"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60237,
+"title": "Science Fantasy, July 1954",
+"date": "1954-07-00",
+"items": [
+{
+"title": "Something New Wanted ...",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"J. T. McIntosh"
+],
+"real": []
+},
+{
+"title": "This Precious Stone",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6",
+"authors": [
+"H. J. Murdoch"
+],
+"real": [
+"J. T. McIntosh"
+]
+},
+{
+"title": "Criminal Record",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "54",
+"authors": [
+"Brian W. Aldiss"
+],
+"real": []
+},
+{
+"title": "Six of One ...",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "63",
+"authors": [
+"A. Bertram Chandler"
+],
+"real": []
+},
+{
+"title": "Occupational Hazard",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "72",
+"authors": [
+"E. C. Tubb"
+],
+"real": []
+},
+{
+"title": "Last Man on Mars",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "85",
+"authors": [
+"W. P. Cockcroft"
+],
+"real": []
+},
+{
+"title": "Family Secret",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "95",
+"authors": [
+"Arthur Coster"
+],
+"real": [
+"Richard deMille"
+]
+},
+{
+"title": "Haven",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "107",
+"authors": [
+"Peter Hawkins"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Gerard Quinn"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60238,
+"title": "Science Fantasy, September 1954",
+"date": "1954-09-00",
+"items": [
+{
+"title": "Five into Four",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"J. T. McIntosh"
+],
+"real": []
+},
+{
+"title": "Bitter Sweet",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "31",
+"authors": [
+"E. C. Tubb"
+],
+"real": []
+},
+{
+"title": "Zone of Youth",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "39",
+"authors": [
+"Martin Jordan"
+],
+"real": []
+},
+{
+"title": "The Chronoclasm",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "50",
+"authors": [
+"John Wyndham"
+],
+"real": []
+},
+{
+"title": "Dark Summer",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "70",
+"authors": [
+"Francis G. Rayer"
+],
+"real": []
+},
+{
+"title": "Stone and Crystal",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "88",
+"authors": [
+"John Ashcroft"
+],
+"real": []
+},
+{
+"title": "Unborn of Earth",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "98",
+"authors": [
+"Les Cole"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Partridge"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60239,
+"title": "Science Fantasy, December 1954",
+"date": "1954-12-00",
+"items": [
+{
+"title": "Standard Style",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"William F. Temple"
+],
+"real": []
+},
+{
+"title": "Live for Ever",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6",
+"authors": [
+"J. T. McIntosh"
+],
+"real": []
+},
+{
+"title": "Where's the Matter?",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "32",
+"authors": [
+"Richard Rowland"
+],
+"real": []
+},
+{
+"title": "I Hear You Calling",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "43",
+"authors": [
+"Eric Frank Russell"
+],
+"real": []
+},
+{
+"title": "The Tooth",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "48",
+"authors": [
+"G. Gordon Dewey"
+],
+"real": []
+},
+{
+"title": "The Enemy Within Us",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "64",
+"authors": [
+"E. C. Tubb"
+],
+"real": []
+},
+{
+"title": "The Mailman",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "81",
+"authors": [
+"Joseph Slotkin"
+],
+"real": []
+},
+{
+"title": "Co-Efficiency Zero",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "92",
+"authors": [
+"Francis G. Rayer"
+],
+"real": []
+},
+{
+"title": "First Trip",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "106",
+"authors": [
+"Sydney J. Bounds"
+],
+"real": []
+},
+{
+"title": "Dimple",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "117",
+"authors": [
+"John Kippax"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Gerard Quinn"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60240,
+"title": "Science Fantasy, February 1955",
+"date": "1955-02-00",
+"items": [
+{
+"title": "Guest Editorial: What's the Difference? (Science Fantasy, February 1955)",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"Alfred Bester"
+],
+"real": []
+},
+{
+"title": "The Wrong Track",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6",
+"authors": [
+"George Whitley"
+],
+"real": [
+"A. Bertram Chandler"
+]
+},
+{
+"title": "The Dragon",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "40",
+"authors": [
+"Alan Barclay"
+],
+"real": []
+},
+{
+"title": "The Last Day of Summer",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "55",
+"authors": [
+"E. C. Tubb"
+],
+"real": []
+},
+{
+"title": "Auto-Fiction Ltd.",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "63",
+"authors": [
+"Wanless Gardener"
+],
+"real": []
+},
+{
+"title": "Eternity",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "84",
+"authors": [
+"William F. Temple"
+],
+"real": []
+},
+{
+"title": "Free Will",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "112",
+"authors": [
+"Dal Stivens"
+],
+"real": []
+},
+{
+"title": "Breathing Space",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "116",
+"authors": [
+"Brian W. Aldiss"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Gerard Quinn"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60241,
+"title": "Science Fantasy, April 1955",
+"date": "1955-04-00",
+"items": [
+{
+"title": "Ever Been to Uranus?",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"Jonathan Burke"
+],
+"real": [
+"John Burke"
+]
+},
+{
+"title": "In a Misty Light",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6",
+"authors": [
+"Richard Varne"
+],
+"real": []
+},
+{
+"title": "Late",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "58",
+"authors": [
+"A. Bertram Chandler"
+],
+"real": []
+},
+{
+"title": "Poor Henry",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "68",
+"authors": [
+"E. C. Tubb"
+],
+"real": []
+},
+{
+"title": "Smoothies Are Wanted",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "76",
+"authors": [
+"E. R. James"
+],
+"real": []
+},
+{
+"title": "Mossendew's Martian",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "97",
+"authors": [
+"John Kippax"
+],
+"real": []
+},
+{
+"title": "The Adjusters",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "106",
+"authors": [
+"Jonathan Burke"
+],
+"real": [
+"John Burke"
+]
+},
+{
+"title": "Pass the Salt",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "122",
+"authors": [
+"Helen M. Urban"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Gerard Quinn"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60242,
+"title": "Science Fantasy, June 1955",
+"date": "1955-06-00",
+"items": [
+{
+"title": "Follow My Leader",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"E. C. Tubb"
+],
+"real": []
+},
+{
+"title": "Sheamus",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6",
+"authors": [
+"Martin Jordan"
+],
+"real": []
+},
+{
+"title": "Special Delivery",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "48",
+"authors": [
+"John Kippax"
+],
+"real": []
+},
+{
+"title": "Reluctant Hero",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "61",
+"authors": [
+"Gavin Neal"
+],
+"real": [
+"unknown"
+]
+},
+{
+"title": "Agent",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "73",
+"authors": [
+"E. C. Tubb"
+],
+"real": []
+},
+{
+"title": "Psi No More",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "80",
+"authors": [
+"Kenneth Bulmer"
+],
+"real": []
+},
+{
+"title": "Hilda",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "94",
+"authors": [
+"H. B. Hickey"
+],
+"real": []
+},
+{
+"title": "My Brother's Wife",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "98",
+"authors": [
+"Wilson Tucker"
+],
+"real": []
+},
+{
+"title": "Double Act",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "110",
+"authors": [
+"Howard Lee McCarey"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Gerard Quinn"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60243,
+"title": "Science Fantasy, September 1955",
+"date": "1955-09-00",
+"items": [
+{
+"title": "Dear Editor (Science Fantasy, September 1955)",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"The Readers"
+],
+"real": []
+},
+{
+"title": "The Talisman",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6",
+"authors": [
+"John Brunner"
+],
+"real": []
+},
+{
+"title": "The Dogs of Hannoie",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "34",
+"authors": [
+"Douglas West"
+],
+"real": [
+"E. C. Tubb"
+]
+},
+{
+"title": "The Job Is Ended",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "41",
+"authors": [
+"Wilson Tucker"
+],
+"real": []
+},
+{
+"title": "Dear Ghost",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "63",
+"authors": [
+"Alan Guthrie"
+],
+"real": [
+"E. C. Tubb"
+]
+},
+{
+"title": "No Future in It",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "80",
+"authors": [
+"Keith Woodcott"
+],
+"real": [
+"John Brunner"
+]
+},
+{
+"title": "Birthday Present",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "89",
+"authors": [
+"Charles E. Fritch"
+],
+"real": []
+},
+{
+"title": "The Predators",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "95",
+"authors": [
+"E. C. Tubb"
+],
+"real": []
+},
+{
+"title": "Dynasty of One",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "123",
+"authors": [
+"James White"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Gerard Quinn"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60244,
+"title": "Science Fantasy, November 1955",
+"date": "1955-11-00",
+"items": [
+{
+"title": "The Wager",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "3",
+"authors": [
+"E. C. Tubb"
+],
+"real": []
+},
+{
+"title": "Death Do Us Part",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "37",
+"authors": [
+"John Brunner"
+],
+"real": []
+},
+{
+"title": "Hounded Down",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "50",
+"authors": [
+"John Kippax"
+],
+"real": []
+},
+{
+"title": "The Mindworm",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "63",
+"authors": [
+"C. M. Kornbluth"
+],
+"real": []
+},
+{
+"title": "The Editor Regrets...",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "75",
+"authors": [
+"Duncan Lamont"
+],
+"real": []
+},
+{
+"title": "Heart's Desire",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "84",
+"authors": [
+"Niall Wilde"
+],
+"real": [
+"Eric Frank Russell"
+]
+},
+{
+"title": "Uncle Buno",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "89",
+"authors": [
+"William F. Temple"
+],
+"real": []
+},
+{
+"title": "It's a Good Life",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "111",
+"authors": [
+"Jerome Bixby"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Gerard Quinn"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60245,
+"title": "Science Fantasy, February 1956",
+"date": "1956-02-00",
+"items": [
+{
+"title": "Non-Stop",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"Brian W. Aldiss"
+],
+"real": []
+},
+{
+"title": "Proof Negative",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "39",
+"authors": [
+"Trevor Staines"
+],
+"real": [
+"John Brunner"
+]
+},
+{
+"title": "Connection Completed",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "44",
+"authors": [
+"Judith Merril"
+],
+"real": []
+},
+{
+"title": "Uncle Clem and Them Martians",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "54",
+"authors": [
+"John Mantley"
+],
+"real": []
+},
+{
+"title": "Louey",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "68",
+"authors": [
+"Alan Barclay"
+],
+"real": []
+},
+{
+"title": "The Biggest Game",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "82",
+"authors": [
+"Keith Woodcott"
+],
+"real": [
+"John Brunner"
+]
+},
+{
+"title": "To Touch the Stars",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "94",
+"authors": [
+"Joseph Slotkin"
+],
+"real": []
+},
+{
+"title": "The Man Who Played the Blues",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "122",
+"authors": [
+"John Brunner"
+],
+"real": []
+},
+{
+"title": "Syllabus",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "141",
+"authors": [
+"Len Shaw"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Gerard Quinn"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60246,
+"title": "Science Fantasy, May 1956",
+"date": "1956-05-00",
+"items": [
+{
+"title": "This Rough Magic",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "3",
+"authors": [
+"John Brunner"
+],
+"real": []
+},
+{
+"title": "Wishes Three",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "61",
+"authors": [
+"Lan Wright"
+],
+"real": []
+},
+{
+"title": "Guinevere for Everybody",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "67",
+"authors": [
+"Jack Williamson"
+],
+"real": []
+},
+{
+"title": "Fair Weather Friend",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "83",
+"authors": [
+"John Kippax"
+],
+"real": []
+},
+{
+"title": "The Failed Men",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "96",
+"authors": [
+"Brian W. Aldiss"
+],
+"real": []
+},
+{
+"title": "Beast of the Field",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "110",
+"authors": [
+"Dan Morgan"
+],
+"real": []
+},
+{
+"title": "First Man in the Moon",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "117",
+"authors": [
+"Peter Phillips"
+],
+"real": []
+},
+{
+"title": "Head First",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "120",
+"authors": [
+"Julian Frey"
+],
+"real": [
+"John Kippax"
+]
+}
+],
+"cover_artists": [
+"Terry"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60247,
+"title": "Science Fantasy, August 1956",
+"date": "1956-08-00",
+"items": [
+{
+"title": "The Climbing Wave",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Marion Zimmer Bradley"
+],
+"real": []
+},
+{
+"title": "The Unharmonious Word",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "61",
+"authors": [
+"A. Bertram Chandler"
+],
+"real": []
+},
+{
+"title": "When Gabriel ...",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "67",
+"authors": [
+"John Brunner"
+],
+"real": []
+},
+{
+"title": "Stair Trick",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "75",
+"authors": [
+"Mildred Clingerman"
+],
+"real": []
+},
+{
+"title": "Too Perfect",
+"type": "SHORTFICTION",
+"len": null,
+"page": "80",
+"authors": [
+"E. R. James"
+],
+"real": []
+},
+{
+"title": "Tiles",
+"type": "SHORTFICTION",
+"len": null,
+"page": "84",
+"authors": [
+"Mike Nevard"
+],
+"real": []
+},
+{
+"title": "Breathing Space",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "88",
+"authors": [
+"Alan Guthrie"
+],
+"real": [
+"E. C. Tubb"
+]
+},
+{
+"title": "The Coffee Pot",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "120",
+"authors": [
+"Joseph Slotkin"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Gerard Quinn"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60248,
+"title": "Science Fantasy, December 1956",
+"date": "1956-12-00",
+"items": [
+{
+"title": "A Time to Rend",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"John Brunner"
+],
+"real": []
+},
+{
+"title": "Cut and Come Again",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "50",
+"authors": [
+"John Kippax"
+],
+"real": []
+},
+{
+"title": "Prima Belladonna",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "63",
+"authors": [
+"J. G. Ballard"
+],
+"real": []
+},
+{
+"title": "Mistaken Identity",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "76",
+"authors": [
+"D. W. R. Hill"
+],
+"real": [
+"E. C. Tubb"
+]
+},
+{
+"title": "With Esmond in Mind",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "83",
+"authors": [
+"Brian W. Aldiss"
+],
+"real": []
+},
+{
+"title": "Random Power",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "96",
+"authors": [
+"Sydney J. Bounds"
+],
+"real": []
+},
+{
+"title": "Friend of the Family",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "100",
+"authors": [
+"Richard Wilson"
+],
+"real": []
+},
+{
+"title": "Rain, Rain, Go Away",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "115",
+"authors": [
+"Harlan Ellison"
+],
+"real": []
+},
+{
+"title": "Herma",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "122",
+"authors": [
+"John Boland"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Gerard Quinn"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60249,
+"title": "Science Fantasy, February 1957",
+"date": "1957-02-00",
+"items": [
+{
+"title": "The Kingdoms of the World",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "3",
+"authors": [
+"John Brunner"
+],
+"real": []
+},
+{
+"title": "A Fine Day for Dying",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "50",
+"authors": [
+"E. C. Tubb"
+],
+"real": []
+},
+{
+"title": "Finegan Begin Again",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "57",
+"authors": [
+"John Kippax"
+],
+"real": []
+},
+{
+"title": "Meeting Mr. Ipusido",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "67",
+"authors": [
+"Sture Lonnerstrand"
+],
+"real": [
+"Sture LÃ¶nnerstrand"
+]
+},
+{
+"title": "No Gimmick",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "73",
+"authors": [
+"Brian W. Aldiss"
+],
+"real": []
+},
+{
+"title": "The Maze",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "88",
+"authors": [
+"A. Bertram Chandler"
+],
+"real": []
+},
+{
+"title": "Special Pleading",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "105",
+"authors": [
+"Phillip Martyn"
+],
+"real": [
+"E. C. Tubb"
+]
+},
+{
+"title": "Alienation of Affection",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "111",
+"authors": [
+"John Tomerlin"
+],
+"real": []
+},
+{
+"title": "Vanishing Trick",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "121",
+"authors": [
+"Lan Wright"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Gerard Quinn"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60250,
+"title": "Science Fantasy, April 1957",
+"date": "1957-04-00",
+"items": [
+{
+"title": "It's Cold Outside",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"Richard Wilson"
+],
+"real": []
+},
+{
+"title": "The Bells of Acheron",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "40",
+"authors": [
+"E. C. Tubb"
+],
+"real": []
+},
+{
+"title": "Bargain from Brunswick",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "49",
+"authors": [
+"John Wyndham"
+],
+"real": []
+},
+{
+"title": "The Black Crucible",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "62",
+"authors": [
+"John Mantley"
+],
+"real": []
+},
+{
+"title": "The Principle",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "98",
+"authors": [
+"Bertram Chandler"
+],
+"real": [
+"A. Bertram Chandler"
+]
+},
+{
+"title": "The Hybrid Queen",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "105",
+"authors": [
+"E. D. Campbell"
+],
+"real": []
+},
+{
+"title": "Incident",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "125",
+"authors": [
+"K. E. Smith"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Jose Rubios"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60251,
+"title": "Science Fantasy, June 1957",
+"date": "1957-06-00",
+"items": [
+{
+"title": "The Daymakers",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"Peter Hawkins"
+],
+"real": []
+},
+{
+"title": "Mobile",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "35",
+"authors": [
+"J. G. Ballard"
+],
+"real": []
+},
+{
+"title": "After Eddie",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "50",
+"authors": [
+"John Kippax"
+],
+"real": []
+},
+{
+"title": "Galactic Year",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "60",
+"authors": [
+"E. R. James"
+],
+"real": []
+},
+{
+"title": "Let's Be Frank",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "84",
+"authors": [
+"Brian W. Aldiss"
+],
+"real": []
+},
+{
+"title": "Ad Infinitum",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "93",
+"authors": [
+"E. C. Tubb"
+],
+"real": []
+},
+{
+"title": "Living? Try Death!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "101",
+"authors": [
+"Justin Blake"
+],
+"real": [
+"John Bowen"
+]
+},
+{
+"title": "The Green Car",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "105",
+"authors": [
+"William F. Temple"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Jose Rubios"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60252,
+"title": "Science Fantasy, August 1957",
+"date": "1957-08-00",
+"items": [
+{
+"title": "Plague",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"Robert Presslie"
+],
+"real": []
+},
+{
+"title": "Flowers of the Forest",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "34",
+"authors": [
+"Brian W. Aldiss"
+],
+"real": []
+},
+{
+"title": "Peter Preserved",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "45",
+"authors": [
+"Jonathan Burke"
+],
+"real": [
+"John Burke"
+]
+},
+{
+"title": "The Ubiquitous You",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "54",
+"authors": [
+"Richard Wilson"
+],
+"real": []
+},
+{
+"title": "The Trouble with Them",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "72",
+"authors": [
+"Bertram Chandler"
+],
+"real": [
+"A. Bertram Chandler"
+]
+},
+{
+"title": "The Man with Talent",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "88",
+"authors": [
+"Robert Silverberg"
+],
+"real": []
+},
+{
+"title": "Blind Chance",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "101",
+"authors": [
+"Margaret Lowe"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Jose Rubios"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60253,
+"title": "Science Fantasy, October 1957",
+"date": "1957-10-00",
+"items": [
+{
+"title": "Reason for Living",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"Kenneth Bulmer"
+],
+"real": []
+},
+{
+"title": "How to Win Friends",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "48",
+"authors": [
+"Bertram Chandler"
+],
+"real": [
+"A. Bertram Chandler"
+]
+},
+{
+"title": "Solid Beat",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "61",
+"authors": [
+"John Kippax"
+],
+"real": []
+},
+{
+"title": "Straight from the Horse's Mouth",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "75",
+"authors": [
+"John Boland"
+],
+"real": []
+},
+{
+"title": "Bored to Death",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "81",
+"authors": [
+"John Brody"
+],
+"real": []
+},
+{
+"title": "Comeback",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "100",
+"authors": [
+"Robert Presslie"
+],
+"real": []
+},
+{
+"title": "Hidden Talent",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "110",
+"authors": [
+"Robert Silverberg"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Jose Rubios"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60254,
+"title": "Science Fantasy, December 1957",
+"date": "1957-12-00",
+"items": [
+{
+"title": "Lungfish",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"John Brunner"
+],
+"real": []
+},
+{
+"title": "The Tie That Binds",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "39",
+"authors": [
+"George Whitley"
+],
+"real": [
+"A. Bertram Chandler"
+]
+},
+{
+"title": "Wednesday's Child",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "48",
+"authors": [
+"William Tenn"
+],
+"real": []
+},
+{
+"title": "Time Out for Tomorrow",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "68",
+"authors": [
+"Richard Wilson"
+],
+"real": []
+},
+{
+"title": "Criffle-Shaped",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "80",
+"authors": [
+"Edward Mackin"
+],
+"real": []
+},
+{
+"title": "Send Him Victorious",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "91",
+"authors": [
+"John Kippax"
+],
+"real": []
+},
+{
+"title": "The Wire Tappers",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "103",
+"authors": [
+"John Boland"
+],
+"real": []
+},
+{
+"title": "Ghost",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "115",
+"authors": [
+"Bertram Chandler"
+],
+"real": [
+"A. Bertram Chandler"
+]
+}
+],
+"cover_artists": [
+"Brian Lewis"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60255,
+"title": "Science Fantasy, February 1958",
+"date": "1958-02-00",
+"items": [
+{
+"title": "Valley Beyond Time",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Robert Silverberg"
+],
+"real": []
+},
+{
+"title": "Judas Danced",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "44",
+"authors": [
+"Brian W. Aldiss"
+],
+"real": []
+},
+{
+"title": "Drog",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "58",
+"authors": [
+"John Rackham"
+],
+"real": [
+"John T. Phillifent"
+]
+},
+{
+"title": "Dial 'O' for Operator",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "69",
+"authors": [
+"Robert Presslie"
+],
+"real": []
+},
+{
+"title": "Headnoises",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "88",
+"authors": [
+"Leonard Hildebrand"
+],
+"real": []
+},
+{
+"title": "Me, Myself and I",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "93",
+"authors": [
+"John Kippax"
+],
+"real": []
+},
+{
+"title": "The Converts",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "120",
+"authors": [
+"A. Bertram Chandler"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Brian Lewis"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60256,
+"title": "Science Fantasy, April 1958",
+"date": "1958-04-00",
+"items": [
+{
+"title": "Web of the Norns",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Harry Harrison",
+"Katherine MacLean"
+],
+"real": []
+},
+{
+"title": "The Locusts",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "59",
+"authors": [
+"R. Whitfield Young"
+],
+"real": []
+},
+{
+"title": "An Affair of Gravity",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "75",
+"authors": [
+"Edward Mackin"
+],
+"real": []
+},
+{
+"title": "Return Visit",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "89",
+"authors": [
+"E. C. Tubb"
+],
+"real": []
+},
+{
+"title": "The Carp That Once...",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "107",
+"authors": [
+"Brian W. Aldiss"
+],
+"real": []
+},
+{
+"title": "Out of Control",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "112",
+"authors": [
+"Kenneth Bulmer"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Brian Lewis"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60257,
+"title": "Science Fantasy, June 1958",
+"date": "1958-06-00",
+"items": [
+{
+"title": "Earth Is But a Star",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"John Brunner"
+],
+"real": []
+},
+{
+"title": "What Happened to Lodwick",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "81",
+"authors": [
+"Clifford C. Reed"
+],
+"real": []
+},
+{
+"title": "Blighted Profile",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "93",
+"authors": [
+"Brian W. Aldiss"
+],
+"real": []
+},
+{
+"title": "The Champ",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "103",
+"authors": [
+"Robert Presslie"
+],
+"real": []
+},
+{
+"title": "Fresh Guy",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "114",
+"authors": [
+"E. C. Tubb"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Brian Lewis"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60258,
+"title": "Science Fantasy, August 1958",
+"date": "1958-08-00",
+"items": [
+{
+"title": "Destiny Incorporated",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"John Kippax"
+],
+"real": []
+},
+{
+"title": "Little Jimmy",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "39",
+"authors": [
+"Lester del Rey"
+],
+"real": []
+},
+{
+"title": "Thermometer",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "54",
+"authors": [
+"Max Shrimpton"
+],
+"real": []
+},
+{
+"title": "The New Folks at Home",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "68",
+"authors": [
+"Jonathan Burke"
+],
+"real": [
+"John Burke"
+]
+},
+{
+"title": "Wishing Stone",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "83",
+"authors": [
+"Francis G. Rayer"
+],
+"real": []
+},
+{
+"title": "Life Size",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "98",
+"authors": [
+"Julian Frey"
+],
+"real": [
+"John Kippax"
+]
+},
+{
+"title": "A Small House",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "107",
+"authors": [
+"John W. Ashton"
+],
+"real": []
+},
+{
+"title": "Smile, Please!",
+"type": "ESSAY",
+"len": null,
+"page": "116",
+"authors": [
+"Brian W. Aldiss"
+],
+"real": []
+},
+{
+"title": "A Sense of Proportion",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "119",
+"authors": [
+"Clifford C. Reed"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Brian Lewis"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60259,
+"title": "Science Fantasy, October 1958",
+"date": "1958-10-00",
+"items": [
+{
+"title": "The Bones of Shosun",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Kenneth Bulmer"
+],
+"real": []
+},
+{
+"title": "The Graveyard Reader",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "62",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+},
+{
+"title": "Chaotics",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "75",
+"authors": [
+"Edward Mackin"
+],
+"real": []
+},
+{
+"title": "No Strings Attached",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "88",
+"authors": [
+"Lester del Rey"
+],
+"real": []
+},
+{
+"title": "The Misfit",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "100",
+"authors": [
+"Clifford C. Reed"
+],
+"real": []
+},
+{
+"title": "Arm of the Law",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "112",
+"authors": [
+"Harry Harrison"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Brian Lewis"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60260,
+"title": "Science Fantasy, December 1958",
+"date": "1958-12-00",
+"items": [
+{
+"title": "City of the Tiger",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"John Brunner"
+],
+"real": []
+},
+{
+"title": "Who Steals My Purse...",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "45",
+"authors": [
+"Clifford C. Reed"
+],
+"real": []
+},
+{
+"title": "The Man Who Never Forgot",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "60",
+"authors": [
+"Robert Silverberg"
+],
+"real": []
+},
+{
+"title": "The Underside",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "75",
+"authors": [
+"A. Bertram Chandler"
+],
+"real": []
+},
+{
+"title": "Beware!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "87",
+"authors": [
+"E. C. Tubb"
+],
+"real": []
+},
+{
+"title": "Limits",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "96",
+"authors": [
+"Arthur Sellings"
+],
+"real": []
+},
+{
+"title": "Ladies' Man",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "103",
+"authors": [
+"Robert Presslie"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Brian Lewis"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60261,
+"title": "Science Fantasy, February 1959",
+"date": "1959-02-00",
+"items": [
+{
+"title": "Super City (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "2",
+"authors": [
+"Richard Wilson"
+],
+"real": []
+},
+{
+"title": "Sweet Smell of Success",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "80",
+"authors": [
+"Clifford C. Reed"
+],
+"real": []
+},
+{
+"title": "UtopiasâA Few Years Later",
+"type": "ESSAY",
+"len": null,
+"page": "92",
+"authors": [
+"Eugene Lees"
+],
+"real": []
+},
+{
+"title": "Call of the Wild",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "100",
+"authors": [
+"John Kippax"
+],
+"real": []
+},
+{
+"title": "Intangibles, Inc.",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "110",
+"authors": [
+"Brian W. Aldiss"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Brian Lewis"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60262,
+"title": "Science Fantasy, April 1959",
+"date": "1959-04-00",
+"items": [
+{
+"title": "The Whole Man",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"John Brunner"
+],
+"real": []
+},
+{
+"title": "Nulook",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "63",
+"authors": [
+"John Rackham"
+],
+"real": [
+"John T. Phillifent"
+]
+},
+{
+"title": "The Sons of Frankenstein",
+"type": "ESSAY",
+"len": null,
+"page": "76",
+"authors": [
+"Sam Moskowitz"
+],
+"real": []
+},
+{
+"title": "The Lady Was Jazz",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "87",
+"authors": [
+"John Kippax"
+],
+"real": []
+},
+{
+"title": "Can Do",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "105",
+"authors": [
+"George Whitley"
+],
+"real": [
+"A. Bertram Chandler"
+]
+},
+{
+"title": "Are You an Android?",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "109",
+"authors": [
+"Brian W. Aldiss"
+],
+"real": []
+},
+{
+"title": "The Diagnoser",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "114",
+"authors": [
+"Edward Mackin"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Brian Lewis"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60263,
+"title": "Science Fantasy, June 1959",
+"date": "1959-06-00",
+"items": [
+{
+"title": "200 Years to Christmas",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"J. T. McIntosh"
+],
+"real": []
+},
+{
+"title": "Space-Time for Springers",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "68",
+"authors": [
+"Fritz Leiber"
+],
+"real": []
+},
+{
+"title": "Fortune's Fool",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "80",
+"authors": [
+"Brian W. Aldiss"
+],
+"real": []
+},
+{
+"title": "AtlantisâA New Theory",
+"type": "ESSAY",
+"len": null,
+"page": "89",
+"authors": [
+"Arthur R. Weir, D.Sc."
+],
+"real": [
+"Arthur D. Weir"
+]
+},
+{
+"title": "Guiding Hand...",
+"type": "ESSAY",
+"len": null,
+"page": "97",
+"authors": [
+"John Carnell"
+],
+"real": []
+},
+{
+"title": "The Songs of Distant Earth",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "99",
+"authors": [
+"Arthur C. Clarke"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Brian Lewis"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60264,
+"title": "Science Fantasy, August 1959",
+"date": "1959-08-00",
+"items": [
+{
+"title": "Echo in the Skull",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "4",
+"authors": [
+"John Brunner"
+],
+"real": []
+},
+{
+"title": "The Long Eureka",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "78",
+"authors": [
+"Arthur Sellings"
+],
+"real": []
+},
+{
+"title": "Studies in Science Fiction 2: Arthur Conan Doyle",
+"type": "ESSAY",
+"len": null,
+"page": "92",
+"authors": [
+"Sam Moskowitz"
+],
+"real": []
+},
+{
+"title": "Somebody Wants You",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "105",
+"authors": [
+"E. C. Tubb"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Brian Lewis"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60265,
+"title": "Science Fantasy, November 1959",
+"date": "1959-11-00",
+"items": [
+{
+"title": "Castle of Vengeance",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Kenneth Bulmer"
+],
+"real": []
+},
+{
+"title": "Time Trap",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "54",
+"authors": [
+"Edward Mackin"
+],
+"real": []
+},
+{
+"title": "Studies in Science Fiction 3: H. G. Wells",
+"type": "ESSAY",
+"len": null,
+"page": "72",
+"authors": [
+"Sam Moskowitz"
+],
+"real": []
+},
+{
+"title": "The Window",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "83",
+"authors": [
+"E. C. Tubb"
+],
+"real": []
+},
+{
+"title": "Curse Strings",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "93",
+"authors": [
+"John Rackham"
+],
+"real": [
+"John T. Phillifent"
+]
+},
+{
+"title": "Strokie",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "103",
+"authors": [
+"Alan Anderson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Brian Lewis"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60266,
+"title": "Science Fantasy, December 1959",
+"date": "1959-12-00",
+"items": [
+{
+"title": "Enchanter's Encounter",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "4",
+"authors": [
+"E. C. Tubb"
+],
+"real": []
+},
+{
+"title": "Magic Ingredient",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "33",
+"authors": [
+"William F. Temple"
+],
+"real": []
+},
+{
+"title": "Now: Zero",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "61",
+"authors": [
+"J. G. Ballard"
+],
+"real": []
+},
+{
+"title": "Who Was Here?",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "74",
+"authors": [
+"Alan Barclay"
+],
+"real": []
+},
+{
+"title": "Studies in Science Fiction 4: Edgar Allan Poe",
+"type": "ESSAY",
+"len": null,
+"page": "88",
+"authors": [
+"Sam Moskowitz"
+],
+"real": []
+},
+{
+"title": "The Warm Man",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "101",
+"authors": [
+"Robert Silverberg"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Brian Lewis"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60267,
+"title": "Science Fantasy, February 1960",
+"date": "1960-02-00",
+"items": [
+{
+"title": "The Sound-Sweep",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"J. G. Ballard"
+],
+"real": []
+},
+{
+"title": "The Ship from Home",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "40",
+"authors": [
+"J. T. McIntosh"
+],
+"real": []
+},
+{
+"title": "Not a Sparrow Falls",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "72",
+"authors": [
+"W. T. Webb"
+],
+"real": [
+"William Thomas Webb"
+]
+},
+{
+"title": "Suspect Halo",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "84",
+"authors": [
+"Clifford C. Reed"
+],
+"real": []
+},
+{
+"title": "Studies in Science Fiction 5: Cyrano de Bergerac",
+"type": "ESSAY",
+"len": null,
+"page": "99",
+"authors": [
+"Sam Moskowitz"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Jarr"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60268,
+"title": "Science Fantasy, April 1960",
+"date": "1960-04-00",
+"items": [
+{
+"title": "Strange Highway",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Kenneth Bulmer"
+],
+"real": []
+},
+{
+"title": "Faceless Card",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "52",
+"authors": [
+"Brian W. Aldiss"
+],
+"real": []
+},
+{
+"title": "Trading Post",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "70",
+"authors": [
+"Edward Mackin"
+],
+"real": []
+},
+{
+"title": "Studies in Science Fiction 6: The Marvellous A. Merritt",
+"type": "ESSAY",
+"len": null,
+"page": "86",
+"authors": [
+"Sam Moskowitz"
+],
+"real": []
+},
+{
+"title": "Too Bad!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "102",
+"authors": [
+"E. C. Tubb"
+],
+"real": []
+},
+{
+"title": "Book Review (Science Fantasy, April 1960)",
+"type": "ESSAY",
+"len": null,
+"page": "112",
+"authors": [
+"Leslie Flood"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Brian Lewis"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60269,
+"title": "Science Fantasy, June 1960",
+"date": "1960-06-00",
+"items": [
+{
+"title": "The Gaudy Shadows",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"John Brunner"
+],
+"real": []
+},
+{
+"title": "Counterpart",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "52",
+"authors": [
+"Robert Silverberg"
+],
+"real": []
+},
+{
+"title": "Stage-Struck!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "84",
+"authors": [
+"Brian W. Aldiss"
+],
+"real": []
+},
+{
+"title": "Studies in Science Fiction 7: Edgar Rice Burroughs",
+"type": "ESSAY",
+"len": null,
+"page": "98",
+"authors": [
+"Sam Moskowitz"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Brian Lewis"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60270,
+"title": "Science Fantasy, August 1960",
+"date": "1960-08-00",
+"items": [
+{
+"title": "Planet on Probation",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"J. T. McIntosh"
+],
+"real": []
+},
+{
+"title": "Imprint of Chaos",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "41",
+"authors": [
+"John Brunner"
+],
+"real": []
+},
+{
+"title": "Deities, Inc.",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "85",
+"authors": [
+"Leroy B. Haugsrud",
+"Dale R. Smith"
+],
+"real": []
+},
+{
+"title": "The Dryad-Tree",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "103",
+"authors": [
+"Thomas Burnett Swann"
+],
+"real": []
+},
+{
+"title": "Editorial... (Science Fantasy, August 1960)",
+"type": "ESSAY",
+"len": null,
+"page": "111",
+"authors": [
+"John Carnell"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Brian Lewis"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60271,
+"title": "Science Fantasy, October 1960",
+"date": "1960-10-00",
+"items": [
+{
+"title": "Beyond the Silver Sky",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Kenneth Bulmer"
+],
+"real": []
+},
+{
+"title": "Stardust",
+"type": "POEM",
+"len": null,
+"page": "63",
+"authors": [
+"Alan Lindsey"
+],
+"real": []
+},
+{
+"title": "The Last World of Mr. Goddard",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "67",
+"authors": [
+"J. G. Ballard"
+],
+"real": []
+},
+{
+"title": "Studies in Science Fiction 8: Jules Verne",
+"type": "ESSAY",
+"len": null,
+"page": "83",
+"authors": [
+"Sam Moskowitz"
+],
+"real": []
+},
+{
+"title": "Expectation",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "96",
+"authors": [
+"Richard Graham"
+],
+"real": []
+},
+{
+"title": "The First Decade",
+"type": "ESSAY",
+"len": null,
+"page": "107",
+"authors": [
+"Kenneth Johns"
+],
+"real": [
+"Kenneth Bulmer",
+"John Newman"
+]
+}
+],
+"cover_artists": [
+"Brian Lewis"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60272,
+"title": "Science Fantasy, December 1960",
+"date": "1960-12-00",
+"items": [
+{
+"title": "All the Devils in Hell",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"John Brunner"
+],
+"real": []
+},
+{
+"title": "The Black Cat's Paw",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "49",
+"authors": [
+"John Rackham"
+],
+"real": [
+"John T. Phillifent"
+]
+},
+{
+"title": "The Painter",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "86",
+"authors": [
+"Thomas Burnett Swann"
+],
+"real": []
+},
+{
+"title": "Studies in Science Fiction 9: H. P. Lovecraft (Science Fantasy, December 1960)",
+"type": "ESSAY",
+"len": null,
+"page": "96",
+"authors": [
+"Sam Moskowitz"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Jarr"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60273,
+"title": "Science Fantasy, February 1961",
+"date": "1961-02-00",
+"items": [
+{
+"title": "The Map Country",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Kenneth Bulmer"
+],
+"real": []
+},
+{
+"title": "Studio 5, the Stars",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "69",
+"authors": [
+"J. G. Ballard"
+],
+"real": []
+},
+{
+"title": "Studies in Science Fiction 10: Fitz-James O'Brien",
+"type": "ESSAY",
+"len": null,
+"page": "104",
+"authors": [
+"Sam Moskowitz"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Brian Lewis"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60274,
+"title": "Science Fantasy, April 1961",
+"date": "1961-04-00",
+"items": [
+{
+"title": "Need",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+},
+{
+"title": "Behind the Cloud",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "55",
+"authors": [
+"Edward Mackin"
+],
+"real": []
+},
+{
+"title": "Displaced Person",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "79",
+"authors": [
+"Lee Harding"
+],
+"real": []
+},
+{
+"title": "Karel Capek",
+"type": "ESSAY",
+"len": null,
+"page": "100",
+"authors": [
+"Sam Moskowitz"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Brian Lewis"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60275,
+"title": "Science Fantasy, June 1961",
+"date": "1961-06-00",
+"items": [
+{
+"title": "The Dreaming City",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"Michael Moorcock"
+],
+"real": []
+},
+{
+"title": "Blood Offering",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "33",
+"authors": [
+"John Kippax"
+],
+"real": []
+},
+{
+"title": "Valley of the Rainbirds",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "49",
+"authors": [
+"W. T. Webb"
+],
+"real": [
+"William Thomas Webb"
+]
+},
+{
+"title": "Studies in Science Fiction: 11. Stanley G. Weinbaum",
+"type": "ESSAY",
+"len": null,
+"page": "59",
+"authors": [
+"Sam Moskowitz"
+],
+"real": []
+},
+{
+"title": "The Veil of Isis",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "74",
+"authors": [
+"John Rackham"
+],
+"real": [
+"John T. Phillifent"
+]
+}
+],
+"cover_artists": [
+"Brian Lewis"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60276,
+"title": "Science Fantasy, August 1961",
+"date": "1961-08-00",
+"items": [
+{
+"title": "The Analysts",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"John Brunner"
+],
+"real": []
+},
+{
+"title": "Mr F. Is Mr F.",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "39",
+"authors": [
+"J. G. Ballard"
+],
+"real": []
+},
+{
+"title": "Studies in Science Fiction 13: Olaf Stapledon",
+"type": "ESSAY",
+"len": null,
+"page": "57",
+"authors": [
+"Sam Moskowitz"
+],
+"real": []
+},
+{
+"title": "Sacrificial",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "72",
+"authors": [
+"Lee Harding"
+],
+"real": []
+},
+{
+"title": "The Food Goes in the Top",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "94",
+"authors": [
+"Will Worthington"
+],
+"real": [
+"Will Mohler"
+]
+},
+{
+"title": "Parky",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "106",
+"authors": [
+"David Rome"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Brian Lewis"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60277,
+"title": "Science Fantasy, October/November 1961",
+"date": "1961-10-00",
+"items": [
+{
+"title": "While the Gods Laugh",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"Michael Moorcock"
+],
+"real": []
+},
+{
+"title": "Reflection of the Truth",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "34",
+"authors": [
+"John Kippax"
+],
+"real": []
+},
+{
+"title": "The Seventh Stair",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "48",
+"authors": [
+"Frank Brandon"
+],
+"real": [
+"Kenneth Bulmer"
+]
+},
+{
+"title": "Studies in Science Fiction 14: Philip Wylie",
+"type": "ESSAY",
+"len": null,
+"page": "75",
+"authors": [
+"Sam Moskowitz"
+],
+"real": []
+},
+{
+"title": "Heinrich",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "92",
+"authors": [
+"Wallace West"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Gerard Quinn"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60278,
+"title": "Science Fantasy, December 1961",
+"date": "1961-12-00",
+"items": [
+{
+"title": "Ankh",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"John Rackham"
+],
+"real": [
+"John T. Phillifent"
+]
+},
+{
+"title": "Still Centre",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "59",
+"authors": [
+"Edward Mackin"
+],
+"real": []
+},
+{
+"title": "A Cure for Mr. Kelsy",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "80",
+"authors": [
+"Leroy B. Haugsrud"
+],
+"real": []
+},
+{
+"title": "50th Issue",
+"type": "ESSAY",
+"len": null,
+"page": "94",
+"authors": [
+"John Carnell"
+],
+"real": []
+},
+{
+"title": "Studies in Science Fiction 15: Shiel and Heard",
+"type": "ESSAY",
+"len": null,
+"page": "95",
+"authors": [
+"Sam Moskowitz"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Gerard Quinn"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60279,
+"title": "Science Fantasy, February 1962",
+"date": "1962-02-00",
+"items": [
+{
+"title": "The Stealer of Souls",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"Michael Moorcock"
+],
+"real": []
+},
+{
+"title": "The Legend",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "42",
+"authors": [
+"W. T. Webb"
+],
+"real": [
+"William Thomas Webb"
+]
+},
+{
+"title": "The Big Sound",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "94",
+"authors": [
+"P. F. Woods"
+],
+"real": [
+"Barrington J. Bayley"
+]
+},
+{
+"title": "Ouef Du Coq",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "104",
+"authors": [
+"John Brunner"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Gerard Quinn"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60280,
+"title": "Science Fantasy, April 1962",
+"date": "1962-04-00",
+"items": [
+{
+"title": "Father of Lies",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"John Brunner"
+],
+"real": []
+},
+{
+"title": "Where Is the Bird of Fire?",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "58",
+"authors": [
+"Thomas Burnett Swann"
+],
+"real": []
+},
+{
+"title": "The Problem",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "106",
+"authors": [
+"Rhoda Nunes",
+"Claude Nunes"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Gerard Quinn"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60281,
+"title": "Science Fantasy, June 1962",
+"date": "1962-06-00",
+"items": [
+{
+"title": "The Eternal Champion",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Michael Moorcock"
+],
+"real": []
+},
+{
+"title": "The Watch-Towers",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "51",
+"authors": [
+"J. G. Ballard"
+],
+"real": []
+},
+{
+"title": "Under the Lemonade Hat",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "79",
+"authors": [
+"Edward Mackin"
+],
+"real": []
+},
+{
+"title": "The Man Who Knew Grodnik",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "103",
+"authors": [
+"Theodore R. Cogswell"
+],
+"real": []
+},
+{
+"title": "Book Reviews (Science Fantasy, June 1962)",
+"type": "ESSAY",
+"len": null,
+"page": "112",
+"authors": [
+"John Carnell"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Gerard Quinn"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60282,
+"title": "Science Fantasy, August 1962",
+"date": "1962-08-00",
+"items": [
+{
+"title": "Perilous Portal",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Frank Brandon"
+],
+"real": [
+"Kenneth Bulmer"
+]
+},
+{
+"title": "Kings in Darkness",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "59",
+"authors": [
+"Michael Moorcock"
+],
+"real": [
+"Michael Moorcock",
+"James Cawthorn"
+]
+},
+{
+"title": "Hat Trick",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "88",
+"authors": [
+"Colin Denbigh"
+],
+"real": []
+},
+{
+"title": "Beginner's Luck",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "100",
+"authors": [
+"Steve Hall"
+],
+"real": []
+},
+{
+"title": "Book Reviews (Science Fantasy, August 1962)",
+"type": "ESSAY",
+"len": null,
+"page": "110",
+"authors": [
+"John Carnell"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Gerard Quinn"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60231,
+"title": "Science Fantasy, October 1962",
+"date": "1962-10-00",
+"items": [
+{
+"title": "Matrix",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Brian W. Aldiss"
+],
+"real": []
+},
+{
+"title": "The Flame Bringers",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "40",
+"authors": [
+"Michael Moorcock"
+],
+"real": []
+},
+{
+"title": "The Sudden Wings",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "71",
+"authors": [
+"Thomas Burnett Swann"
+],
+"real": []
+},
+{
+"title": "Weekend Trip",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "92",
+"authors": [
+"Steve Hall"
+],
+"real": []
+},
+{
+"title": "Love Is a Relative Thing",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "101",
+"authors": [
+"Stephen Cook"
+],
+"real": []
+},
+{
+"title": "Book Reviews (Science Fantasy, October 1962)",
+"type": "ESSAY",
+"len": null,
+"page": "112",
+"authors": [
+"John Carnell"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Jim Cawthorne"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60283,
+"title": "Science Fantasy, December 1962",
+"date": "1962-12-00",
+"items": [
+{
+"title": "Fire and Ice",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"John Rackham"
+],
+"real": [
+"John T. Phillifent"
+]
+},
+{
+"title": "To Rescue Tanelorn ...",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "55",
+"authors": [
+"Michael Moorcock"
+],
+"real": []
+},
+{
+"title": "Dead End",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "83",
+"authors": [
+"Philip E. High"
+],
+"real": []
+},
+{
+"title": "Discontinuity",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "98",
+"authors": [
+"Russ Markham"
+],
+"real": [
+"Steve Hall"
+]
+},
+{
+"title": "Film Review: The Premature Burial",
+"type": "ESSAY",
+"len": null,
+"page": "108",
+"authors": [
+"John Carnell"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60284,
+"title": "Science Fantasy, February 1963",
+"date": "1963-02-00",
+"items": [
+{
+"title": "Some Lapse of Time",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"John Brunner"
+],
+"real": []
+},
+{
+"title": "Out of Character",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "58",
+"authors": [
+"Steve Hall"
+],
+"real": []
+},
+{
+"title": "Mobius Trip",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "86",
+"authors": [
+"Edward Mackin"
+],
+"real": []
+},
+{
+"title": "Inside",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "107",
+"authors": [
+"David Rome"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Gerard Quinn"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60285,
+"title": "Science Fantasy, April 1963",
+"date": "1963-04-00",
+"items": [
+{
+"title": "The Greater Conqueror",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"Michael Moorcock"
+],
+"real": []
+},
+{
+"title": "The Seventeenth Summer",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "43",
+"authors": [
+"K. W. Bennett"
+],
+"real": []
+},
+{
+"title": "Hole in the Dyke",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "90",
+"authors": [
+"Steve Hall"
+],
+"real": []
+},
+{
+"title": "The Mind of Young Crandle",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "101",
+"authors": [
+"Hugh Christopher"
+],
+"real": []
+},
+{
+"title": "Book Reviews (Science Fantasy, April 1963)",
+"type": "ESSAY",
+"len": null,
+"page": "111",
+"authors": [
+"John Carnell"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60226,
+"title": "Science Fantasy, June 1963",
+"date": "1963-06-00",
+"items": [
+{
+"title": "Dead God's Homecoming",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Michael Moorcock"
+],
+"real": []
+},
+{
+"title": "What You Don't Know",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "47",
+"authors": [
+"John Rackham"
+],
+"real": [
+"John T. Phillifent"
+]
+},
+{
+"title": "Minus One",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "75",
+"authors": [
+"J. G. Ballard"
+],
+"real": []
+},
+{
+"title": "All My Yesterdays",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "87",
+"authors": [
+"Lee Harding"
+],
+"real": []
+},
+{
+"title": "The Wall Game",
+"type": "ESSAY",
+"len": null,
+"page": "110",
+"authors": [
+"John Carnell"
+],
+"real": []
+},
+{
+"title": "The Wall Game - Easter Convention Report",
+"type": "ESSAY",
+"len": null,
+"page": "110",
+"authors": [
+"John Carnell"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Gerard Quinn"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60286,
+"title": "Science Fantasy, August 1963",
+"date": "1963-08-00",
+"items": [
+{
+"title": "Editorial (Science Fantasy, August 1963)",
+"type": "ESSAY",
+"len": null,
+"page": "|0.1",
+"authors": [
+"John Carnell"
+],
+"real": []
+},
+{
+"title": "The Dolphin and the Deep",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Thomas Burnett Swann"
+],
+"real": []
+},
+{
+"title": "Mervyn Peake: An Appreciation",
+"type": "ESSAY",
+"len": null,
+"page": "53",
+"authors": [
+"Michael Moorcock"
+],
+"real": []
+},
+{
+"title": "Same Time, Same Place",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "57",
+"authors": [
+"Mervyn Peake"
+],
+"real": []
+},
+{
+"title": "The Hades Business",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "66",
+"authors": [
+"Terry Pratchett"
+],
+"real": []
+},
+{
+"title": "Party Piece",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "77",
+"authors": [
+"Steve Hall"
+],
+"real": []
+},
+{
+"title": "With Clean Hands",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "86",
+"authors": [
+"John Rackham"
+],
+"real": [
+"John T. Phillifent"
+]
+}
+],
+"cover_artists": [
+"Gerard Quinn"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60232,
+"title": "Science Fantasy, October 1963",
+"date": "1963-10-00",
+"items": [
+{
+"title": "Black Sword's Brothers",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Michael Moorcock"
+],
+"real": []
+},
+{
+"title": "Danse Macabre",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "46",
+"authors": [
+"Mervyn Peake"
+],
+"real": []
+},
+{
+"title": "The Jung at Heart",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "56",
+"authors": [
+"Edward Mackin"
+],
+"real": []
+},
+{
+"title": "Aspects of Fantasy: 1. Introduction",
+"type": "ESSAY",
+"len": null,
+"page": "78",
+"authors": [
+"Michael Moorcock"
+],
+"real": []
+},
+{
+"title": "Three of a Kind",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "85",
+"authors": [
+"Steve Hall"
+],
+"real": []
+},
+{
+"title": "Film Review: Jason and the Argonauts (Science Fantasy, October 1963)",
+"type": "ESSAY",
+"len": null,
+"page": "111",
+"authors": [
+"John Carnell"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60287,
+"title": "Science Fantasy, December 1963",
+"date": "1963-12-00",
+"items": [
+{
+"title": "Skeleton Crew",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Brian W. Aldiss"
+],
+"real": []
+},
+{
+"title": "Dial SCH 1828",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "95",
+"authors": [
+"Gweneth Penn-Bull"
+],
+"real": []
+},
+{
+"title": "Aspects of Fantasy: 2. The Floodgates of the Unconscious",
+"type": "ESSAY",
+"len": null,
+"page": "102",
+"authors": [
+"Michael Moorcock"
+],
+"real": []
+},
+{
+"title": "Reader's Letters (Science Fantasy, December 1963)",
+"type": "ESSAY",
+"len": null,
+"page": "110",
+"authors": [
+"The Readers"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60288,
+"title": "Science Fantasy, February 1964",
+"date": "1964-02-00",
+"items": [
+{
+"title": "The Murex",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"Thomas Burnett Swann"
+],
+"real": []
+},
+{
+"title": "Sad Giant's Shield",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "35",
+"authors": [
+"Michael Moorcock"
+],
+"real": []
+},
+{
+"title": "Time of Passage",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "85",
+"authors": [
+"J. G. Ballard"
+],
+"real": []
+},
+{
+"title": "Aspects of Fantasy: 3. Figures of Faust",
+"type": "ESSAY",
+"len": null,
+"page": "97",
+"authors": [
+"Michael Moorcock"
+],
+"real": []
+},
+{
+"title": "Scissors",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "105",
+"authors": [
+"Sydney J. Bounds"
+],
+"real": []
+}
+],
+"cover_artists": [
+"James Cawthorn"
+],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60289,
+"title": "Science Fantasy, April 1964",
+"date": "1964-04-00",
+"items": [
+{
+"title": "Doomed Lord's Passing",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Michael Moorcock"
+],
+"real": []
+},
+{
+"title": "The Deep Fix",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "47",
+"authors": [
+"James Colvin"
+],
+"real": [
+"Michael Moorcock"
+]
+},
+{
+"title": "The Face of Mark Fenton",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "100",
+"authors": [
+"W. T. Webb"
+],
+"real": [
+"William Thomas Webb"
+]
+},
+{
+"title": "The New Country",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "109",
+"authors": [
+"John Baxter"
+],
+"real": []
+},
+{
+"title": "Aspects of Fantasy: 4. Conclusion",
+"type": "ESSAY",
+"len": null,
+"page": "116",
+"authors": [
+"Michael Moorcock"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"John Carnell"
+]
+},
+{
+"id": 60227,
+"title": "Science Fantasy, June-July 1964",
+"date": "1964-06-00",
+"items": [
+{
+"title": "Editorial (Science Fantasy, June-July 1964)",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"Kyril Bonfiglioli"
+],
+"real": []
+},
+{
+"title": "\"Science Fantasy\"",
+"type": "POEM",
+"len": null,
+"page": "4",
+"authors": [
+"Peter Levi"
+],
+"real": []
+},
+{
+"title": "Pink Plastic Gods",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "5",
+"authors": [
+"Brian Aldiss"
+],
+"real": [
+"Brian W. Aldiss"
+]
+},
+{
+"title": "The Contraption",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "22",
+"authors": [
+"Kenneth Bulmer"
+],
+"real": []
+},
+{
+"title": "Blast Off",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "55",
+"authors": [
+"uncredited"
+],
+"real": [
+"Kyril Bonfiglioli"
+]
+},
+{
+"title": "Competition: For Professional Scientists Only",
+"type": "ESSAY",
+"len": null,
+"page": "59",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Lazarus",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "60",
+"authors": [
+"Jael Cracken"
+],
+"real": [
+"Brian W. Aldiss"
+]
+},
+{
+"title": "Unauthorised Persons",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "79",
+"authors": [
+"John Runciman"
+],
+"real": [
+"Brian W. Aldiss"
+]
+},
+{
+"title": "Matchbox",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "113",
+"authors": [
+"Peter Bradley (I)"
+],
+"real": []
+},
+{
+"title": "The Great Chan",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "125",
+"authors": [
+"Archie Potts"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Roger Harris"
+],
+"editors": [
+"Kyril Bonfiglioli"
+]
+},
+{
+"id": 60290,
+"title": "Science Fantasy, July-August 1964",
+"date": "1964-07-00",
+"items": [
+{
+"title": "Editorial (Science Fantasy, July-August 1964)",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"Kyril Bonfiglioli"
+],
+"real": []
+},
+{
+"title": "A Case of Identity",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "4",
+"authors": [
+"Kenneth Bulmer"
+],
+"real": []
+},
+{
+"title": "God Killer",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "21",
+"authors": [
+"John Rackham"
+],
+"real": [
+"John T. Phillifent"
+]
+},
+{
+"title": "The Poachers",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "31",
+"authors": [
+"James Rathbone"
+],
+"real": [
+"James Parkhill-Rathbone"
+]
+},
+{
+"title": "Building Blocks",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "61",
+"authors": [
+"David Beech"
+],
+"real": []
+},
+{
+"title": "Dear Aunty",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "72",
+"authors": [
+"Daphne Castell"
+],
+"real": []
+},
+{
+"title": "A Dish of Devils",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "87",
+"authors": [
+"James Goddard"
+],
+"real": []
+},
+{
+"title": "No Moon To-night!",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "92",
+"authors": [
+"John Runciman"
+],
+"real": [
+"Brian W. Aldiss"
+]
+},
+{
+"title": "Unto All Generations",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "118",
+"authors": [
+"Paul Jents"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Roger Harris"
+],
+"editors": [
+"Kyril Bonfiglioli"
+]
+},
+{
+"id": 60291,
+"title": "Science Fantasy, September-October 1964",
+"date": "1964-09-00",
+"items": [
+{
+"title": "Editorial (Science Fantasy, September-October 1964)",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"Kyril Bonfiglioli"
+],
+"real": []
+},
+{
+"title": "The Blue Monkeys (Part 1 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "4",
+"authors": [
+"Thomas Burnett Swann"
+],
+"real": []
+},
+{
+"title": "Period of Gestation",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "39",
+"authors": [
+"Thom Keyes"
+],
+"real": []
+},
+{
+"title": "Anita",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "49",
+"authors": [
+"Keith Roberts"
+],
+"real": []
+},
+{
+"title": "Dummy Run",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "66",
+"authors": [
+"Colin Hume"
+],
+"real": []
+},
+{
+"title": "As Easy As A. B. C.",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "71",
+"authors": [
+"Rudyard Kipling"
+],
+"real": []
+},
+{
+"title": "Symbiote",
+"type": "SHORTFICTION",
+"len": null,
+"page": "101",
+"authors": [
+"George Rigg"
+],
+"real": []
+},
+{
+"title": "Escapism",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "103",
+"authors": [
+"Keith Roberts"
+],
+"real": []
+},
+{
+"title": "Love Feast",
+"type": "SHORTFICTION",
+"len": null,
+"page": "127",
+"authors": [
+"Johnny Byrne"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Kyril Bonfiglioli"
+]
+},
+{
+"id": 60220,
+"title": "Science Fantasy, December 1964 & January 1965",
+"date": "1964-12-00",
+"items": [
+{
+"title": "Introduction (Science Fantasy, December 1964 & January 1965)",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"Kyril Bonfiglioli"
+],
+"real": []
+},
+{
+"title": "The Blue Monkeys (Part 2 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "4",
+"authors": [
+"Thomas Burnett Swann"
+],
+"real": []
+},
+{
+"title": "Room with a Skew",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "49",
+"authors": [
+"John Rackham"
+],
+"real": [
+"John T. Phillifent"
+]
+},
+{
+"title": "E. J. Carnell - a Quick Look",
+"type": "ESSAY",
+"len": null,
+"page": "61",
+"authors": [
+"Harry Harrison"
+],
+"real": []
+},
+{
+"title": "The Charm",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "64",
+"authors": [
+"Keith Roberts"
+],
+"real": []
+},
+{
+"title": "Not Me, Not Amos Cabot!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "80",
+"authors": [
+"Harry Harrison"
+],
+"real": []
+},
+{
+"title": "The Madman",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "89",
+"authors": [
+"Alistair Bevan"
+],
+"real": [
+"Keith Roberts"
+]
+},
+{
+"title": "Joik",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "104",
+"authors": [
+"Ernest Hill"
+],
+"real": []
+},
+{
+"title": "One of Those Days",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "123",
+"authors": [
+"Charles Platt"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Roger Harris"
+],
+"editors": [
+"Kyril Bonfiglioli"
+]
+},
+{
+"id": 60224,
+"title": "Science Fantasy, January-February 1965",
+"date": "1965-01-00",
+"items": [
+{
+"title": "Editorial (Science Fantasy, January-February 1965)",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"Kyril Bonfiglioli"
+],
+"real": []
+},
+{
+"title": "Present from the Past",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "4",
+"authors": [
+"Douglas Davis"
+],
+"real": []
+},
+{
+"title": "The Empathy Machine",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "15",
+"authors": [
+"Langdon Jones"
+],
+"real": []
+},
+{
+"title": "Harvest",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "38",
+"authors": [
+"Johnny Byrne"
+],
+"real": []
+},
+{
+"title": "Petros",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "45",
+"authors": [
+"Philip Wordley"
+],
+"real": []
+},
+{
+"title": "Flight of Fancy",
+"type": "SHORTFICTION",
+"len": null,
+"page": "54",
+"authors": [
+"Keith Roberts"
+],
+"real": []
+},
+{
+"title": "Only the Best",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "56",
+"authors": [
+"Patricia Hocknell"
+],
+"real": []
+},
+{
+"title": "The Island",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "64",
+"authors": [
+"Roger Jones"
+],
+"real": []
+},
+{
+"title": "The Typewriter",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "75",
+"authors": [
+"Alistair Bevan"
+],
+"real": [
+"Keith Roberts"
+]
+},
+{
+"title": "The Blue Monkeys (Part 3 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "85",
+"authors": [
+"Thomas Burnett Swann"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Keith Roberts"
+],
+"editors": [
+"Kyril Bonfiglioli"
+]
+},
+{
+"id": 60228,
+"title": "Science Fantasy, March 1965",
+"date": "1965-03-00",
+"items": [
+{
+"title": "Editorial (Science Fantasy, March 1965)",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"Kyril Bonfiglioli"
+],
+"real": []
+},
+{
+"title": "The Outcast",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "3",
+"authors": [
+"Harry Harrison"
+],
+"real": []
+},
+{
+"title": "Song of the Syren",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "31",
+"authors": [
+"Robert Wells"
+],
+"real": []
+},
+{
+"title": "Moriarty",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "61",
+"authors": [
+"Philip Wordley"
+],
+"real": []
+},
+{
+"title": "Bring Back a Life",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "73",
+"authors": [
+"John Rackham"
+],
+"real": [
+"John T. Phillifent"
+]
+},
+{
+"title": "The Jennifer",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "97",
+"authors": [
+"Keith Roberts"
+],
+"real": []
+},
+{
+"title": "A Cave in the Hills",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "109",
+"authors": [
+"R. W. Mackelworth"
+],
+"real": []
+},
+{
+"title": "Hunt a Wild Dream (part 1 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "122",
+"authors": [
+"D. R. Heywood"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Agosta Morol"
+],
+"editors": [
+"Kyril Bonfiglioli"
+]
+},
+{
+"id": 60218,
+"title": "Science Fantasy, April 1965",
+"date": "1965-04-00",
+"items": [
+{
+"title": "Editorial (Science Fantasy, April 1965)",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"Kyril Bonfiglioli"
+],
+"real": []
+},
+{
+"title": "Man in His Time",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "5",
+"authors": [
+"Brian Aldiss"
+],
+"real": [
+"Brian W. Aldiss"
+]
+},
+{
+"title": "The War at Foxhanger",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "33",
+"authors": [
+"Keith Roberts"
+],
+"real": []
+},
+{
+"title": "The Chicken Switch",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "44",
+"authors": [
+"Elleston Trevor"
+],
+"real": []
+},
+{
+"title": "Susan",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "62",
+"authors": [
+"Alistair Bevan"
+],
+"real": [
+"Keith Roberts"
+]
+},
+{
+"title": "The Excursion",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "76",
+"authors": [
+"B. N. Ball"
+],
+"real": [
+"Brian Ball"
+]
+},
+{
+"title": "Over and Out",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "117",
+"authors": [
+"George Hay"
+],
+"real": []
+},
+{
+"title": "Hunt a Wild Dream (part 2 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "119",
+"authors": [
+"D. R. Heywood"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Kyril Bonfiglioli"
+]
+},
+{
+"id": 60229,
+"title": "Science Fantasy, May 1965",
+"date": "1965-05-00",
+"items": [
+{
+"title": "Editorial (Science Fantasy, May 1965)",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"Kyril Bonfiglioli"
+],
+"real": []
+},
+{
+"title": "The Impossible Smile (Part 1 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "5",
+"authors": [
+"Jael Cracken"
+],
+"real": [
+"Brian W. Aldiss"
+]
+},
+{
+"title": "The Middle Earth",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "44",
+"authors": [
+"Keith Roberts"
+],
+"real": []
+},
+{
+"title": "Housel",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "56",
+"authors": [
+"Alan Burns"
+],
+"real": []
+},
+{
+"title": "Vashti",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "75",
+"authors": [
+"Thomas Burnett Swann"
+],
+"real": []
+},
+{
+"title": "Timmy and the Angel",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "117",
+"authors": [
+"Philip Wordley"
+],
+"real": []
+}
+],
+"cover_artists": [
+"K. Roberts"
+],
+"editors": [
+"Kyril Bonfiglioli"
+]
+},
+{
+"id": 60292,
+"title": "Science Fantasy, June 1965",
+"date": "1965-06-00",
+"items": [
+{
+"title": "Editorial (Science Fantasy, June 1965)",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"Kyril Bonfiglioli"
+],
+"real": []
+},
+{
+"title": "The Impossible Smile (Part 2 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "5",
+"authors": [
+"Jael Cracken"
+],
+"real": [
+"Brian W. Aldiss"
+]
+},
+{
+"title": "Great & Small",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "45",
+"authors": [
+"G. L. Lack"
+],
+"real": []
+},
+{
+"title": "Ploop",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "56",
+"authors": [
+"Ron Pritchett"
+],
+"real": []
+},
+{
+"title": "Peace on Earth",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "61",
+"authors": [
+"Paul Jents"
+],
+"real": []
+},
+{
+"title": "Deterrent",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "66",
+"authors": [
+"Alistair Bevan"
+],
+"real": [
+"Keith Roberts"
+]
+},
+{
+"title": "A Pleasure Shared",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "73",
+"authors": [
+"Brian W. Aldiss"
+],
+"real": []
+},
+{
+"title": "Prisoner",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "87",
+"authors": [
+"Patricia Hocknell"
+],
+"real": []
+},
+{
+"title": "In Reason's Ear",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "90",
+"authors": [
+"Pippin Graham"
+],
+"real": [
+"Hilary Bailey"
+]
+},
+{
+"title": "Xenophilia",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "123",
+"authors": [
+"Thom Keyes"
+],
+"real": []
+}
+],
+"cover_artists": [
+"K. Roberts"
+],
+"editors": [
+"Kyril Bonfiglioli"
+]
+},
+{
+"id": 250770,
+"title": "Science Fantasy, July 1965",
+"date": "1965-07-00",
+"items": [
+{
+"title": "Editorial (Science Fantasy, July 1965)",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"Kyril Bonfiglioli"
+],
+"real": []
+},
+{
+"title": "The Furies (Part 1 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "4",
+"authors": [
+"Keith Roberts"
+],
+"real": []
+},
+{
+"title": "A Distorting Mirror",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "101",
+"authors": [
+"R. W. Mackelworth"
+],
+"real": []
+},
+{
+"title": "The Door",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "120",
+"authors": [
+"Alistair Bevan"
+],
+"real": [
+"Keith Roberts"
+]
+},
+{
+"title": "The Criminal",
+"type": "SHORTFICTION",
+"len": null,
+"page": "126",
+"authors": [
+"Johnny Byrne"
+],
+"real": []
+}
+],
+"cover_artists": [
+"K. Roberts"
+],
+"editors": [
+"Kyril Bonfiglioli"
+]
+},
+{
+"id": 60219,
+"title": "Science Fantasy, August 1965",
+"date": "1965-08-00",
+"items": [
+{
+"title": "Editorial (Science Fantasy, August 1965)",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"Kyril Bonfiglioli"
+],
+"real": []
+},
+{
+"title": "The Desolator",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "4",
+"authors": [
+"Eric C. Williams"
+],
+"real": []
+},
+{
+"title": "Chemotopia",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "14",
+"authors": [
+"Ernest Hill"
+],
+"real": []
+},
+{
+"title": "Idiot's Lantern",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "25",
+"authors": [
+"Keith Roberts"
+],
+"real": []
+},
+{
+"title": "Paradise for a Punter",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "39",
+"authors": [
+"Clifford C. Reed"
+],
+"real": []
+},
+{
+"title": "A Way with Animals",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "47",
+"authors": [
+"John Rackham"
+],
+"real": [
+"John T. Phillifent"
+]
+},
+{
+"title": "Grinnel",
+"type": "SHORTFICTION",
+"len": null,
+"page": "58",
+"authors": [
+"Dikk Richardson"
+],
+"real": []
+},
+{
+"title": "The Furies (Part 2 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "60",
+"authors": [
+"Keith Roberts"
+],
+"real": []
+}
+],
+"cover_artists": [
+"K. Roberts"
+],
+"editors": [
+"Kyril Bonfiglioli"
+]
+},
+{
+"id": 60234,
+"title": "Science Fantasy, September 1965",
+"date": "1965-09-00",
+"items": [
+{
+"title": "Instead of an Editorial (Science Fantasy, September 1965)",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"Brian W. Aldiss"
+],
+"real": []
+},
+{
+"title": "Boomerang",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "4",
+"authors": [
+"E. C. Tubb"
+],
+"real": []
+},
+{
+"title": "Coming-of-Age Day",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "13",
+"authors": [
+"A. K. Jorgensson"
+],
+"real": []
+},
+{
+"title": "Temptation for the Leader",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "26",
+"authors": [
+"R. W. Mackelworth"
+],
+"real": []
+},
+{
+"title": "At Last, the True Story of Frankenstein",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "42",
+"authors": [
+"Harry Harrison"
+],
+"real": []
+},
+{
+"title": "Sule Skerry",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "49",
+"authors": [
+"Rob Sproat"
+],
+"real": []
+},
+{
+"title": "The Jobbers",
+"type": "SHORTFICTION",
+"len": null,
+"page": "65",
+"authors": [
+"Johnny Byrne"
+],
+"real": []
+},
+{
+"title": "Omega and Alpha",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "68",
+"authors": [
+"Robert Cheetham"
+],
+"real": []
+},
+{
+"title": "The Furies (Part 3 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "74",
+"authors": [
+"Keith Roberts"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Kyril Bonfiglioli"
+]
+},
+{
+"id": 60233,
+"title": "Science Fantasy, October 1965",
+"date": "1965-10-00",
+"items": [
+{
+"title": "Editorial (Science Fantasy, October 1965)",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"J. Parkhill-Rathbone"
+],
+"real": [
+"James Parkhill-Rathbone"
+]
+},
+{
+"title": "The Weirwoods (Part 1 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "4",
+"authors": [
+"Thomas Burnett Swann"
+],
+"real": []
+},
+{
+"title": "Ragtime",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "76",
+"authors": [
+"Pamela Adams"
+],
+"real": []
+},
+{
+"title": "Green Goblins Yet",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "84",
+"authors": [
+"W. Price"
+],
+"real": []
+},
+{
+"title": "State of Mind",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "91",
+"authors": [
+"E. C. Tubb"
+],
+"real": []
+},
+{
+"title": "The Foreigner",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "99",
+"authors": [
+"Johnny Byrne"
+],
+"real": []
+},
+{
+"title": "Goodnight, Sweet Prince",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "107",
+"authors": [
+"Philip Wordley"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Agosta Morol"
+],
+"editors": [
+"Kyril Bonfiglioli"
+]
+},
+{
+"id": 60230,
+"title": "Science Fantasy, November 1965",
+"date": "1965-11-00",
+"items": [
+{
+"title": "Editorial: SF or Not SF? A Letter from a Reader",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"Brian M. Stableford"
+],
+"real": [
+"Brian Stableford"
+]
+},
+{
+"title": "The Day of the Doomed King",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "5",
+"authors": [
+"Brian Aldiss"
+],
+"real": [
+"Brian W. Aldiss"
+]
+},
+{
+"title": "The Saga of Sid",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "20",
+"authors": [
+"Ernest Hill"
+],
+"real": []
+},
+{
+"title": "Beyond Time's Aegis",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "39",
+"authors": [
+"Brian Craig"
+],
+"real": [
+"Brian Stableford",
+"Craig A. Mackintosh"
+]
+},
+{
+"title": "The Wall",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "72",
+"authors": [
+"Josephine Saxton"
+],
+"real": []
+},
+{
+"title": "Yesterdays' Gardens",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "79",
+"authors": [
+"Johnny Byrne"
+],
+"real": []
+},
+{
+"title": "The Weirwoods (Part 2 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "84",
+"authors": [
+"Thomas Burnett Swann"
+],
+"real": []
+},
+{
+"title": "Letter from a Reader",
+"type": "ESSAY",
+"len": null,
+"page": "127",
+"authors": [
+"Kenneth F. Slater"
+],
+"real": [
+"Ken Slater"
+]
+}
+],
+"cover_artists": [
+"K. Roberts"
+],
+"editors": [
+"Kyril Bonfiglioli"
+]
+},
+{
+"id": 60221,
+"title": "Science Fantasy, December 1965",
+"date": "1965-12-00",
+"items": [
+{
+"title": "Editorial (Science Fantasy, December 1965)",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"Kyril Bonfiglioli"
+],
+"real": []
+},
+{
+"title": "Plague from Space (Part 1 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "4",
+"authors": [
+"Harry Harrison"
+],
+"real": []
+},
+{
+"title": "As Others See Us",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "61",
+"authors": [
+"E. C. Tubb"
+],
+"real": []
+},
+{
+"title": "A Question of Culture",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "71",
+"authors": [
+"Richard A. Gordon"
+],
+"real": [
+"Stuart Gordon"
+]
+},
+{
+"title": "Democratic Autocracy",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "82",
+"authors": [
+"Ernest Hill"
+],
+"real": []
+},
+{
+"title": "Cleaner than Clean",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "102",
+"authors": [
+"R. W. Mackelworth"
+],
+"real": []
+},
+{
+"title": "Passenger",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "112",
+"authors": [
+"Alan Burns"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Keith Roberts"
+],
+"editors": [
+"Kyril Bonfiglioli"
+]
+},
+{
+"id": 60223,
+"title": "Science Fantasy, January 1966",
+"date": "1966-01-00",
+"items": [
+{
+"title": "Editorial (Science Fantasy, January 1966)",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"Kyril Bonfiglioli"
+],
+"real": []
+},
+{
+"title": "The God-Birds of Glentallach",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "5",
+"authors": [
+"John Rackham"
+],
+"real": [
+"John T. Phillifent"
+]
+},
+{
+"title": "Sealed Capsule",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "40",
+"authors": [
+"Edward Mackin"
+],
+"real": []
+},
+{
+"title": "\"In Vino Veritas\"",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "57",
+"authors": [
+"E. C. Tubb"
+],
+"real": []
+},
+{
+"title": "The Satyrian Games",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "64",
+"authors": [
+"D. J. Gibbs"
+],
+"real": []
+},
+{
+"title": "For One of These",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "83",
+"authors": [
+"Daphne Castell"
+],
+"real": []
+},
+{
+"title": "Plague from Space (Part 2 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "100",
+"authors": [
+"Harry Harrison"
+],
+"real": []
+}
+],
+"cover_artists": [
+"K. Roberts"
+],
+"editors": [
+"Kyril Bonfiglioli"
+]
+},
+{
+"id": 250771,
+"title": "Science Fantasy, February 1966",
+"date": "1966-02-00",
+"items": [
+{
+"title": "Editorial (Science Fantasy, February 1966)",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"Kyril Bonfiglioli"
+],
+"real": []
+},
+{
+"title": "Ballad from a Bottle",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "4",
+"authors": [
+"Hugh Simmonds"
+],
+"real": []
+},
+{
+"title": "The Warp and the Woof-Woof",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "16",
+"authors": [
+"John Brunner"
+],
+"real": []
+},
+{
+"title": "Marina",
+"type": "SHORTFICTION",
+"len": null,
+"page": "27",
+"authors": [
+"John Harrison"
+],
+"real": [
+"M. John Harrison"
+]
+},
+{
+"title": "Our Man in 1900",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "34",
+"authors": [
+"Paul Jents"
+],
+"real": []
+},
+{
+"title": "Sing Me No Sorrows",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "47",
+"authors": [
+"E. C. Tubb"
+],
+"real": []
+},
+{
+"title": "Plague from Space (Part 3 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "56",
+"authors": [
+"Harry Harrison"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Keith Roberts"
+],
+"editors": [
+"Kyril Bonfiglioli"
+]
+},
+{
+"id": 302077,
+"title": "Science Fantasy, Fall 1970",
+"date": "1970-10-00",
+"items": [
+{
+"title": "The Dreaming Jewels (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "4",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+},
+{
+"title": "Fido",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "88",
+"authors": [
+"Mack Reynolds"
+],
+"real": []
+},
+{
+"title": "\"A Nickel Saved ...\"",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "96",
+"authors": [
+"Robert W. Krepps"
+],
+"real": []
+},
+{
+"title": "The Mechanical Genius",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "102",
+"authors": [
+"Gilbert Grant"
+],
+"real": []
+},
+{
+"title": "The Bottle",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "112",
+"authors": [
+"Guy Archette"
+],
+"real": [
+"Chester S. Geier"
+]
+},
+{
+"title": "Null F",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "122",
+"authors": [
+"Peter Worth"
+],
+"real": [
+"Rog Phillips"
+]
+}
+],
+"cover_artists": [
+"Robert Gibson Jones"
+],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 302078,
+"title": "Science Fantasy, Winter 1971",
+"date": "1971-01-00",
+"items": [
+{
+"title": "The Magyar Killer",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"Sandy Miller"
+],
+"real": []
+},
+{
+"title": "The Quest in Time",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "4",
+"authors": [
+"Edmond Hamilton"
+],
+"real": []
+},
+{
+"title": "Your Number Is Up!",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "44",
+"authors": [
+"John Jakes"
+],
+"real": []
+},
+{
+"title": "Blow-Hard Test",
+"type": "ESSAY",
+"len": null,
+"page": "59",
+"authors": [
+"A. T. Kedzie"
+],
+"real": []
+},
+{
+"title": "A Science Paradox",
+"type": "ESSAY",
+"len": null,
+"page": "59",
+"authors": [
+"Pete Bogg"
+],
+"real": []
+},
+{
+"title": "The Wandering Swordsmen",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "60",
+"authors": [
+"William P. McGivern"
+],
+"real": []
+},
+{
+"title": "Who's That Knocking at My Door?",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "76",
+"authors": [
+"S. M. Tenneshaw"
+],
+"real": [
+"Milton Lesser"
+]
+},
+{
+"title": "Shadow for Sale",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "90",
+"authors": [
+"Chester S. Geier"
+],
+"real": []
+},
+{
+"title": "The Violin String",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "103",
+"authors": [
+"Henry Hasse"
+],
+"real": []
+},
+{
+"title": "Wave Plotter!",
+"type": "ESSAY",
+"len": null,
+"page": "115",
+"authors": [
+"Sandy Miller"
+],
+"real": []
+},
+{
+"title": "The Brain That Lost Its Head",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "116",
+"authors": [
+"Alfred Coppel"
+],
+"real": []
+},
+{
+"title": "The Lunatic Fringe",
+"type": "ESSAY",
+"len": null,
+"page": "121",
+"authors": [
+"Salem Lane"
+],
+"real": []
+},
+{
+"title": "Night Caller",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "122",
+"authors": [
+"Jack Sharkey"
+],
+"real": []
+},
+{
+"title": "The Vanishing Doctor",
+"type": "ESSAY",
+"len": null,
+"page": "131",
+"authors": [
+"Charles Recour"
+],
+"real": [
+"Henry Bott"
+]
+}
+],
+"cover_artists": [
+"Johnny Bruck"
+],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 302079,
+"title": "Science Fantasy, Spring 1971",
+"date": "1971-04-00",
+"items": [
+{
+"title": "Strange Cults",
+"type": "ESSAY",
+"len": null,
+"page": "2",
+"authors": [
+"Sandy Miller"
+],
+"real": []
+},
+{
+"title": "Medusa Was a Lady!",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "4",
+"authors": [
+"William Tenn"
+],
+"real": []
+},
+{
+"title": "The Lazy Way",
+"type": "ESSAY",
+"len": null,
+"page": "51",
+"authors": [
+"L. A. Burt"
+],
+"real": []
+},
+{
+"title": "One Guitar",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "52",
+"authors": [
+"Sam Merwin, Jr."
+],
+"real": []
+},
+{
+"title": "You Take the High Road",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "64",
+"authors": [
+"Stephen Marlowe"
+],
+"real": [
+"Milton Lesser"
+]
+},
+{
+"title": "There's No Way Out!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "74",
+"authors": [
+"William P. McGivern"
+],
+"real": []
+},
+{
+"title": "The Girl in the Golden Wig",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "82",
+"authors": [
+"Chester S. Geier"
+],
+"real": []
+},
+{
+"title": "Checkmate to Demos",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "102",
+"authors": [
+"H. B. Hickey"
+],
+"real": []
+},
+{
+"title": "Witness for the Defense",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "120",
+"authors": [
+"Paul W. Fairman"
+],
+"real": []
+},
+{
+"title": "He Knew All the Answers",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "126",
+"authors": [
+"Dallas Ross"
+],
+"real": [
+"Mack Reynolds"
+]
+}
+],
+"cover_artists": [
+"Johnny Bruck"
+],
+"editors": [
+"uncredited"
+]
+}
+]
+}

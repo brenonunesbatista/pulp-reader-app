@@ -9,7 +9,7 @@ import { Icon } from '../ui/icons'
 import { useAsync } from '../ui/useAsync'
 
 /** "Continue reading" shelf (Atlas home and the PULP library): issues with progress, newest first; × forgets one. */
-export function ContinueReading() {
+export function ContinueReading({ title = 'Continue reading', empty }: { title?: string | null; empty?: string } = {}) {
   const { catalog, user } = useDb()
   const nav = useNav()
   const active = useIsActive()
@@ -33,10 +33,11 @@ export function ContinueReading() {
     await deleteProgress(user, issueId)
     setCleared((n) => n + 1)
   }
-  if (shelf.status !== 'ok' || shelf.data.length === 0) return null
+  if (shelf.status !== 'ok') return null
+  if (shelf.data.length === 0) return empty ? <p className="muted">{empty}</p> : null
   return (
     <section style={{ marginBottom: 36 }}>
-      <SectionHeader title="Continue reading" />
+      {title && <SectionHeader title={title} />}
       <div className="shelf">
         {shelf.data.map(({ issue, progress, story, pageCount }) => (
           <div key={issue.id} className="shelf-slot">

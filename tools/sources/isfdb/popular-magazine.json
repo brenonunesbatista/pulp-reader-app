@@ -1,0 +1,1546 @@
+{
+"source": "ISFDB, The Internet Speculative Fiction Database (https://www.isfdb.org), CC BY 4.0",
+"dump": "backup-MySQL-55-2026-10-10.zip",
+"pattern": "^(The )?Popular Magazine, ",
+"issues": [
+{
+"id": 297017,
+"title": "Popular Magazine, February 1904",
+"date": "1904-02-00",
+"items": [
+{
+"title": "At Jupiter's Call",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "32",
+"authors": [
+"R. H. Farnham"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 652589,
+"title": "Popular Magazine, January 1905",
+"date": "1905-01-00",
+"items": [
+{
+"title": "Ayesha: The Further History of She-Who-Must-Be-Obeyed (Part 1 of 8)",
+"type": "SERIAL",
+"len": null,
+"page": "1",
+"authors": [
+"H. Rider Haggard"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 652590,
+"title": "Popular Magazine, February 1905",
+"date": "1905-02-00",
+"items": [
+{
+"title": "Ayesha: The Further History of She-Who-Must-Be-Obeyed (Part 2 of 8)",
+"type": "SERIAL",
+"len": null,
+"page": "3",
+"authors": [
+"H. Rider Haggard"
+],
+"real": []
+},
+{
+"title": "The Crowning Victory (Part 1 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "45",
+"authors": [
+"H. G. Wells"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 652591,
+"title": "Popular Magazine, March 1905",
+"date": "1905-03-00",
+"items": [
+{
+"title": "Ayesha: The Further History of She-Who-Must-Be-Obeyed (Part 3 of 8)",
+"type": "SERIAL",
+"len": null,
+"page": "3",
+"authors": [
+"H. Rider Haggard"
+],
+"real": []
+},
+{
+"title": "The Crowning Victory (Part 2 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "104",
+"authors": [
+"H. G. Wells"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 652592,
+"title": "Popular Magazine, April 1905",
+"date": "1905-04-00",
+"items": [
+{
+"title": "Ayesha: The Further History of She-Who-Must-Be-Obeyed (Part 4 of 8)",
+"type": "SERIAL",
+"len": null,
+"page": "19",
+"authors": [
+"H. Rider Haggard"
+],
+"real": []
+},
+{
+"title": "The Crowning Victory (Part 3 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "177",
+"authors": [
+"H. G. Wells"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 652593,
+"title": "Popular Magazine, May 1905",
+"date": "1905-05-00",
+"items": [
+{
+"title": "Ayesha: The Further History of She-Who-Must-Be-Obeyed (Part 5 of 8)",
+"type": "SERIAL",
+"len": null,
+"page": "57",
+"authors": [
+"H. Rider Haggard"
+],
+"real": []
+},
+{
+"title": "The Crowning Victory (Part 4 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "178",
+"authors": [
+"H. G. Wells"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 652594,
+"title": "Popular Magazine, June 1905",
+"date": "1905-06-00",
+"items": [
+{
+"title": "Ayesha: The Further History of She-Who-Must-Be-Obeyed (Part 6 of 8)",
+"type": "SERIAL",
+"len": null,
+"page": "62",
+"authors": [
+"H. Rider Haggard"
+],
+"real": []
+},
+{
+"title": "The Crowning Victory (Part 5 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "174",
+"authors": [
+"H. G. Wells"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 652595,
+"title": "Popular Magazine, July 1905",
+"date": "1905-07-00",
+"items": [
+{
+"title": "Ayesha: The Further History of She-Who-Must-Be-Obeyed (Part 7 of 8)",
+"type": "SERIAL",
+"len": null,
+"page": "68",
+"authors": [
+"H. Rider Haggard"
+],
+"real": []
+},
+{
+"title": "The Crowning Victory (Part 6 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "145",
+"authors": [
+"H. G. Wells"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 652596,
+"title": "Popular Magazine, August 1905",
+"date": "1905-08-00",
+"items": [
+{
+"title": "Ayesha: The Further History of She-Who-Must-Be-Obeyed (Part 8 of 8)",
+"type": "SERIAL",
+"len": null,
+"page": "126",
+"authors": [
+"H. Rider Haggard"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 289036,
+"title": "Popular Magazine, February 1906",
+"date": "1906-02-00",
+"items": [
+{
+"title": "The Sound Machine",
+"type": "SHORTFICTION",
+"len": null,
+"page": "",
+"authors": [
+"Everard Jack Appleton"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 289037,
+"title": "Popular Magazine, May 1907",
+"date": "1907-05-00",
+"items": [
+{
+"title": "A Problem in Motion",
+"type": "SHORTFICTION",
+"len": null,
+"page": "",
+"authors": [
+"Everard Jack Appleton"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 311258,
+"title": "Popular Magazine, July 1908",
+"date": "1908-07-00",
+"items": [
+{
+"title": "Hearts and Diamonds (Part 1 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "160",
+"authors": [
+"Francis Whitlock"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 311259,
+"title": "Popular Magazine, August 1908",
+"date": "1908-08-00",
+"items": [
+{
+"title": "Hearts and Diamonds (Part 2 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "146",
+"authors": [
+"Francis Whitlock"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 685043,
+"title": "The Popular Magazine, March 1909",
+"date": "1909-03-00",
+"items": [
+{
+"title": "The Land of the Lost (Part 1 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "119",
+"authors": [
+"Roy Norton"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 685045,
+"title": "The Popular Magazine, April 1909",
+"date": "1909-04-00",
+"items": [
+{
+"title": "The Land of the Lost (Part 2 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "141",
+"authors": [
+"Roy Norton"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 685047,
+"title": "The Popular Magazine, May 1909",
+"date": "1909-05-00",
+"items": [
+{
+"title": "The Land of the Lost (Part 3 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "106",
+"authors": [
+"Roy Norton"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 685048,
+"title": "The Popular Magazine, June 1909",
+"date": "1909-06-00",
+"items": [
+{
+"title": "The Land of the Lost (Part 4 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "196",
+"authors": [
+"Roy Norton"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 685050,
+"title": "The Popular Magazine, July 1909",
+"date": "1909-07-00",
+"items": [
+{
+"title": "The Land of the Lost (Part 5 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "182",
+"authors": [
+"Roy Norton"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 307248,
+"title": "The Popular Magazine, August 1909",
+"date": "1909-08-00",
+"items": [
+{
+"title": "The Land of the Lost (Part 6 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "179",
+"authors": [
+"Roy Norton"
+],
+"real": []
+},
+{
+"title": "The Sun Victim",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "221",
+"authors": [
+"Rene Mansfield"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 298874,
+"title": "The Popular Magazine, March 1, 1910",
+"date": "1910-03-01",
+"items": [
+{
+"title": "In the Wake of the Weather Cloth",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "212",
+"authors": [
+"Mayn Clew Garnett"
+],
+"real": [
+"T. Jenkins Hains"
+]
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 309501,
+"title": "The Popular Magazine, April 15, 1910",
+"date": "1910-04-15",
+"items": [
+{
+"title": "A Matter of Induction",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "109",
+"authors": [
+"Morgan Robertson"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 701517,
+"title": "The Popular Magazine, October 15, 1910",
+"date": "1910-10-15",
+"items": [
+{
+"title": "The City of Dread (Part 1 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "57",
+"authors": [
+"Stewart Edward White"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 701518,
+"title": "The Popular Magazine, November 1, 1910",
+"date": "1910-11-01",
+"items": [
+{
+"title": "The City of Dread (Part 2 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "88",
+"authors": [
+"Stewart Edward White"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 701519,
+"title": "The Popular Magazine, November 15, 1910",
+"date": "1910-11-15",
+"items": [
+{
+"title": "The City of Dread (Part 3 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "115",
+"authors": [
+"Stewart Edward White"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 692951,
+"title": "The Popular Magazine, January 15, 1911",
+"date": "1911-01-15",
+"items": [
+{
+"title": "Over the Border",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "96",
+"authors": [
+"Morgan Robertson"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 1059367,
+"title": "The Popular Magazine, May 1, 1912",
+"date": "1912-05-01",
+"items": [
+{
+"title": "The Green-Goods King",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "1",
+"authors": [
+"Arthur B. Reeve"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Hibberd V. B. Kline"
+],
+"editors": [
+"Charles Agnew MacLean"
+]
+},
+{
+"id": 1059370,
+"title": "The Popular Magazine, July 1, 1912",
+"date": "1912-07-01",
+"items": [
+{
+"title": "The Treasure Vault",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "1",
+"authors": [
+"Arthur B. Reeve"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Griswold Tyng"
+],
+"editors": [
+"Charles Agnew MacLean"
+]
+},
+{
+"id": 298437,
+"title": "The Popular Magazine, November 1, 1912",
+"date": "1912-11-00",
+"items": [
+{
+"title": "The Secret Exploits of Paul Darraq, III: The Flying Eye",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "99",
+"authors": [
+"Jacques Futrelle"
+],
+"real": []
+}
+],
+"cover_artists": [
+"N. C. Wyeth"
+],
+"editors": [
+"Charles Agnew MacLean"
+]
+},
+{
+"id": 1059460,
+"title": "The Popular Magazine, April 1, 1913",
+"date": "1913-04-01",
+"items": [
+{
+"title": "The Death Thought (Part 1 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "123",
+"authors": [
+"Arthur B. Reeve"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Harvey T. Dunn"
+],
+"editors": [
+"Charles Agnew MacLean"
+]
+},
+{
+"id": 1059461,
+"title": "The Popular Magazine, April 15, 1913",
+"date": "1913-04-15",
+"items": [
+{
+"title": "The Death Thought (Part 2 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "180",
+"authors": [
+"Arthur B. Reeve"
+],
+"real": []
+}
+],
+"cover_artists": [
+"S. M. Arthurs"
+],
+"editors": [
+"Charles Agnew MacLean"
+]
+},
+{
+"id": 695633,
+"title": "The Popular Magazine, May 15, 1913",
+"date": "1913-05-15",
+"items": [
+{
+"title": "The Destroyer (Part 1 of 5)",
+"type": "SERIAL",
+"len": null,
+"page": "88",
+"authors": [
+"Burton E. Stevenson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Henry Reuterdahl"
+],
+"editors": [
+"Charles Agnew MacLean"
+]
+},
+{
+"id": 695634,
+"title": "The Popular Magazine, June 1, 1913",
+"date": "1913-06-01",
+"items": [
+{
+"title": "The Destroyer (Part 2 of 5)",
+"type": "SERIAL",
+"len": null,
+"page": "143",
+"authors": [
+"Burton E. Stevenson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank E. Schoonover"
+],
+"editors": [
+"Charles Agnew MacLean"
+]
+},
+{
+"id": 695635,
+"title": "The Popular Magazine, June 15, 1913",
+"date": "1913-06-15",
+"items": [
+{
+"title": "The Destroyer (Part 3 of 5)",
+"type": "SERIAL",
+"len": null,
+"page": "112",
+"authors": [
+"Burton E. Stevenson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"W. Herbert Dunton"
+],
+"editors": [
+"Charles Agnew MacLean"
+]
+},
+{
+"id": 695636,
+"title": "The Popular Magazine, July 1, 1913",
+"date": "1913-07-01",
+"items": [
+{
+"title": "The Destroyer (Part 4 of 5)",
+"type": "SERIAL",
+"len": null,
+"page": "126",
+"authors": [
+"Burton E. Stevenson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"George Wharton Edwards"
+],
+"editors": [
+"Charles Agnew MacLean"
+]
+},
+{
+"id": 695637,
+"title": "The Popular Magazine, July 15, 1913",
+"date": "1913-07-15",
+"items": [
+{
+"title": "The Destroyer (Part 5 of 5)",
+"type": "SERIAL",
+"len": null,
+"page": "165",
+"authors": [
+"Burton E. Stevenson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Hibberd V. B. Kline"
+],
+"editors": [
+"Charles Agnew MacLean"
+]
+},
+{
+"id": 1059591,
+"title": "The Popular Magazine, January 1, 1914",
+"date": "1914-01-01",
+"items": [
+{
+"title": "The Scientific Gunman (Part 1 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "191",
+"authors": [
+"Arthur B. Reeve"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Oliver Kemp"
+],
+"editors": [
+"Charles Agnew MacLean"
+]
+},
+{
+"id": 1059606,
+"title": "The Popular Magazine, January 15, 1914",
+"date": "1914-01-15",
+"items": [
+{
+"title": "The Scientific Gunman (Part 2 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "185",
+"authors": [
+"Arthur B. Reeve"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Griswold Tyng"
+],
+"editors": [
+"Charles Agnew MacLean"
+]
+},
+{
+"id": 1059666,
+"title": "The Popular Magazine, May 1, 1914",
+"date": "1914-05-01",
+"items": [
+{
+"title": "The Terrorists (Part 1 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "98",
+"authors": [
+"Arthur B. Reeve"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Joseph Francis Kernan"
+],
+"editors": [
+"Charles Agnew MacLean"
+]
+},
+{
+"id": 1059714,
+"title": "The Popular Magazine, May 15, 1914",
+"date": "1914-05-15",
+"items": [
+{
+"title": "The Terrorists (Part 2 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "197",
+"authors": [
+"Arthur B. Reeve"
+],
+"real": []
+}
+],
+"cover_artists": [
+"H. T. Dunn"
+],
+"editors": [
+"Charles Agnew MacLean"
+]
+},
+{
+"id": 662533,
+"title": "The Popular Magazine, September 15, 1914",
+"date": "1914-09-15",
+"items": [
+{
+"title": "Out of the Miocene (Part 1 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "88",
+"authors": [
+"John Charles Beecham"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Charles Agnew MacLean"
+]
+},
+{
+"id": 290928,
+"title": "The Popular Magazine, October 1, 1914",
+"date": "1914-10-01",
+"items": [
+{
+"title": "Out of the Miocene (Part 2 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "141",
+"authors": [
+"John Charles Beecham"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Charles Agnew MacLean"
+]
+},
+{
+"id": 290926,
+"title": "The Popular Magazine, October 7, 1914",
+"date": "1914-10-07",
+"items": [
+{
+"title": "Albrecht von Geierberg's Mind",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "140",
+"authors": [
+"Wolcott LeClear Beard"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Charles Agnew MacLean"
+]
+},
+{
+"id": 303249,
+"title": "The Popular Magazine, February 23, 1915",
+"date": "1915-02-23",
+"items": [
+{
+"title": "The Millennium Engine",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "87",
+"authors": [
+"Leavitt Ashley Knight"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 303247,
+"title": "The Popular Magazine, February 7, 1917",
+"date": "1917-02-07",
+"items": [
+{
+"title": "The Forgotten Land",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "217",
+"authors": [
+"H. H. Knibbs"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 305752,
+"title": "Popular Magazine, October 20, 1917",
+"date": "1917-10-20",
+"items": [
+{
+"title": "His Eminence, the Devil",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "1",
+"authors": [
+"Francis Lynde"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 309650,
+"title": "Popular Magazine, November 7, 1917",
+"date": "1917-11-07",
+"items": [
+{
+"title": "Over There (Part 1 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "158",
+"authors": [
+"Henry C. Rowland"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 309651,
+"title": "Popular Magazine, November 20, 1917",
+"date": "1917-11-20",
+"items": [
+{
+"title": "Over There (Part 2 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "",
+"authors": [
+"Henry C. Rowland"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 699857,
+"title": "The Popular Magazine, August 7, 1919",
+"date": "1919-08-07",
+"items": [
+{
+"title": "The Green Rust (Part 1 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "115",
+"authors": [
+"Edgar Wallace"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 699858,
+"title": "The Popular Magazine, August 20, 1919",
+"date": "1919-08-20",
+"items": [
+{
+"title": "The Green Rust (Part 2 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "",
+"authors": [
+"Edgar Wallace"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 699859,
+"title": "The Popular Magazine, September 7, 1919",
+"date": "1919-09-07",
+"items": [
+{
+"title": "The Green Rust (Part 3 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "116",
+"authors": [
+"Edgar Wallace"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 308539,
+"title": "Popular Magazine, September 20, 1919",
+"date": "1919-09-20",
+"items": [
+{
+"title": "The Glyphs",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "1",
+"authors": [
+"Roy Norton"
+],
+"real": []
+},
+{
+"title": "The Green Rust (Part 4 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "149",
+"authors": [
+"Edgar Wallace"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 308543,
+"title": "Popular Magazine, November 7, 1919",
+"date": "1919-11-07",
+"items": [
+{
+"title": "The Secret City (Part 1 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "92",
+"authors": [
+"Roy Norton"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 308542,
+"title": "Popular Magazine, November 20, 1919",
+"date": "1919-11-20",
+"items": [
+{
+"title": "The Secret City (Part 2 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "",
+"authors": [
+"Roy Norton"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 308541,
+"title": "Popular Magazine, December 7, 1919",
+"date": "1919-12-07",
+"items": [
+{
+"title": "The Secret City (Part 3 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "",
+"authors": [
+"Roy Norton"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 699862,
+"title": "The Popular Magazine, October 7, 1921",
+"date": "1921-10-07",
+"items": [
+{
+"title": "The Day of Uniting (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "1",
+"authors": [
+"Edgar Wallace"
+],
+"real": []
+}
+],
+"cover_artists": [
+"D. C. Hutchison"
+],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 589199,
+"title": "The Popular Magazine, November 7, 1922",
+"date": "1922-11-07",
+"items": [
+{
+"title": "Under the Flame Trees",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "157",
+"authors": [
+"H. de Vere Stacpoole"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 894661,
+"title": "The Popular Magazine, September 7, 1925",
+"date": "1925-09-07",
+"items": [
+{
+"title": "The Adam Chaser (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "1",
+"authors": [
+"B. M. Bower"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 306288,
+"title": "Popular Magazine, January 7, 1928",
+"date": "1928-01-07",
+"items": [
+{
+"title": "The Last Atlantide (Part 4 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "102",
+"authors": [
+"Fred MacIsaac"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 306289,
+"title": "The Popular Magazine, January 14, 1928",
+"date": "1928-01-14",
+"items": [
+{
+"title": "The Last Atlantide (Part 5 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "86",
+"authors": [
+"Fred MacIsaac"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 306290,
+"title": "The Popular Magazine, January 21, 1928",
+"date": "1928-01-21",
+"items": [
+{
+"title": "The Last Atlantide (Part 6 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "103",
+"authors": [
+"Fred MacIsaac"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 993949,
+"title": "The Popular Magazine, April 28, 1928",
+"date": "1928-04-28",
+"items": [
+{
+"title": "The Sky Buccaneers",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Will McMorrow"
+],
+"real": []
+}
+],
+"cover_artists": [
+"George H. Wert"
+],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 305754,
+"title": "Popular Magazine, First February Number, 1930",
+"date": "1930-02-00",
+"items": [
+{
+"title": "The Earthquakers",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Francis Lynde"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 309694,
+"title": "The Popular Magazine, Second August Number 1930",
+"date": "1930-08-00",
+"items": [
+{
+"title": "Morgo the Mighty (Part 1 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "1",
+"authors": [
+"Sean O'Larkin"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Howard V. Brown"
+],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 407369,
+"title": "The Popular Magazine, First September Number 1930",
+"date": "1930-09-00",
+"items": [
+{
+"title": "Stop-Over in Hades",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Fred MacIsaac"
+],
+"real": []
+},
+{
+"title": "Morgo the Mighty (Part 2 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "52",
+"authors": [
+"Sean O'Larkin"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Howard V. Brown"
+],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 407401,
+"title": "The Popular Magazine, Second September Number 1930",
+"date": "1930-09-00",
+"items": [
+{
+"title": "Morgo the Mighty (Part 3 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "98",
+"authors": [
+"Sean O'Larkin"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Stockton Mulford"
+],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 308601,
+"title": "Popular Magazine, First October Number 1930",
+"date": "1930-10-00",
+"items": [
+{
+"title": "Morgo the Mighty (Part 4 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "",
+"authors": [
+"Sean O'Larkin"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of The Popular Magazine"
+]
+},
+{
+"id": 295919,
+"title": "The Popular Magazine, First December Number 1930",
+"date": "1930-12-00",
+"items": [
+{
+"title": "The Man from Space",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "",
+"authors": [
+"Charles Willard Diffin"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Howard V. Brown"
+],
+"editors": [
+"Editors of The Popular Magazine"
+]
+}
+]
+}

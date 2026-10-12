@@ -1,0 +1,8557 @@
+{
+"source": "ISFDB, The Internet Speculative Fiction Database (https://www.isfdb.org), CC BY 4.0",
+"dump": "backup-MySQL-55-2026-10-10.zip",
+"pattern": "^Unknown( Worlds| Fantasy Fiction)?, ",
+"issues": [
+{
+"id": 61849,
+"title": "Unknown, March 1939",
+"date": "1939-03-00",
+"items": [
+{
+"title": "Unknown (Unknown, March 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "5",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Of Things Beyond (Unknown, March 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Sinister Barrier (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "9",
+"authors": [
+"Eric Frank Russell"
+],
+"real": []
+},
+{
+"title": "Author's Note (Sinister Barrier)",
+"type": "ESSAY",
+"len": null,
+"page": "9",
+"authors": [
+"Eric Frank Russell"
+],
+"real": []
+},
+{
+"title": "Who Wants Power?",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "95",
+"authors": [
+"Mona Farnsworth"
+],
+"real": []
+},
+{
+"title": "Dark Vision",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "107",
+"authors": [
+"Frank Belknap Long"
+],
+"real": []
+},
+{
+"title": "Trouble with Water",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "117",
+"authors": [
+"H. L. Gold"
+],
+"real": []
+},
+{
+"title": "\"Where Angels Fear ...\"",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "131",
+"authors": [
+"Manly Wade Wellman"
+],
+"real": []
+},
+{
+"title": "Closed Doors",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "137",
+"authors": [
+"A. B. L. Macfadyen, Jr."
+],
+"real": [
+"A. Macfadyen, Jr."
+]
+},
+{
+"title": "Death Sentence",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "151",
+"authors": [
+"Robert Moore Williams"
+],
+"real": []
+}
+],
+"cover_artists": [
+"H. W. Scott"
+],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 61843,
+"title": "Unknown, April 1939",
+"date": "1939-04-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown, April 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "The Ultimate Adventure",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "9",
+"authors": [
+"L. Ron Hubbard"
+],
+"real": []
+},
+{
+"title": "You Thought Me Dead",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "63",
+"authors": [
+"William G. Bogart"
+],
+"real": []
+},
+{
+"title": "The Changeling",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "73",
+"authors": [
+"Arthur J. Burks"
+],
+"real": []
+},
+{
+"title": "Death Time",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "101",
+"authors": [
+"D. M. Bricker"
+],
+"real": []
+},
+{
+"title": "Strange Gateway",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "113",
+"authors": [
+"E. Hoffmann Price"
+],
+"real": []
+},
+{
+"title": "\"Silent Area\"",
+"type": "ESSAY",
+"len": null,
+"page": "124",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "\"Divide and Rule!\" (Part 1 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "125",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Strange Worlds",
+"type": "ESSAY",
+"len": null,
+"page": "160",
+"authors": [
+"Don A. Stuart"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+}
+],
+"cover_artists": [
+"Graves Gladney"
+],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 61850,
+"title": "Unknown, May 1939",
+"date": "1939-05-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown, May 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Returned from Hell",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "9",
+"authors": [
+"Steve Fisher"
+],
+"real": []
+},
+{
+"title": "The Missing Ocean",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "47",
+"authors": [
+"H. W. Guernsey"
+],
+"real": [
+"Howard Wandrei"
+]
+},
+{
+"title": "Danger in the Dark",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "59",
+"authors": [
+"L. Ron Hubbard"
+],
+"real": []
+},
+{
+"title": "The Cloak",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "75",
+"authors": [
+"Robert Bloch"
+],
+"real": []
+},
+{
+"title": "Disbelief",
+"type": "ESSAY",
+"len": null,
+"page": "86",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "The Piping Death",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "87",
+"authors": [
+"Robert Moore Williams"
+],
+"real": []
+},
+{
+"title": "Whatever",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "97",
+"authors": [
+"Mona Farnsworth"
+],
+"real": []
+},
+{
+"title": "Divide and Rule! (Part 2 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "105",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "- - - And Having Writ - - - (Unknown, May 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "155",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Letter (Unknown, May 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "161",
+"authors": [
+"Robert A. Graham"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, May 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "155|155.1",
+"authors": [
+"J. J. Johnston"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, May 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "155|155.2",
+"authors": [
+"John V. Baltadonis"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, May 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "156|156.1",
+"authors": [
+"Alan R. Carpenter"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, May 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "156|156.2",
+"authors": [
+"N. S. Hoffard"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, May 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "156|156.3",
+"authors": [
+"Seymour Liff"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, May 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "156|156.4",
+"authors": [
+"Willard Hawley"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, May 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "157|157.1",
+"authors": [
+"R. M. Williams"
+],
+"real": [
+"Robert Moore Williams"
+]
+},
+{
+"title": "Letter (Unknown, May 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "157|157.2",
+"authors": [
+"Samuel Gordon"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, May 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "158|158.1",
+"authors": [
+"Bill Hibbs"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, May 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "158|158.2",
+"authors": [
+"Donn Brazier"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, May 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "159|159.1",
+"authors": [
+"Russell A. Leadabrand"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, May 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "159|159.2",
+"authors": [
+"Charles Cottrell"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, May 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "160|160.1",
+"authors": [
+"The Neophyte"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, May 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "160|160.2",
+"authors": [
+"Marie Dietrich"
+],
+"real": []
+}
+],
+"cover_artists": [
+"H. W. Scott"
+],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 61848,
+"title": "Unknown, June 1939",
+"date": "1939-06-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown, June 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Flame Winds (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "9",
+"authors": [
+"Norvell W. Page"
+],
+"real": []
+},
+{
+"title": "The Right Ear of Malchus",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "67",
+"authors": [
+"J. Allan Dunn"
+],
+"real": []
+},
+{
+"title": "Don't Go Haunting",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "73",
+"authors": [
+"Robert Coley"
+],
+"real": [
+"Howard Wandrei"
+]
+},
+{
+"title": "The Summons",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "89",
+"authors": [
+"Don Evans"
+],
+"real": []
+},
+{
+"title": "The Gnarly Man",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "97",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "- - - And Having Writ - - - (Unknown, June 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "112",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Letter (Unknown, June 1939): \"Psychologically Sophisticated Mythology\" Sounds About Right",
+"type": "ESSAY",
+"len": null,
+"page": "114",
+"authors": [
+"Charles Hidley"
+],
+"real": []
+},
+{
+"title": "Parole",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "115",
+"authors": [
+"Thomas Calvert McClary"
+],
+"real": []
+},
+{
+"title": "The Hexer",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "121",
+"authors": [
+"H. W. Guernsey"
+],
+"real": [
+"Howard Wandrei"
+]
+},
+{
+"title": "Letter (Unknown, June 1939): The Book-Length Novels WIll Be Continued",
+"type": "ESSAY",
+"len": null,
+"page": "112|112.1",
+"authors": [
+"Jack Darrow"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, June 1939): Hm-m-mâ164 pages counting the back cover.",
+"type": "ESSAY",
+"len": null,
+"page": "112|112.2",
+"authors": [
+"Langley Searles"
+],
+"real": [
+"A. Langley Searles"
+]
+},
+{
+"title": "Letter (Unknown, June 1939): Hubbard's \"Slaves of Sleep\" Coming Next Month",
+"type": "ESSAY",
+"len": null,
+"page": "113|113.1",
+"authors": [
+"Dale Tarr"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, June 1939): Artists and Model Stories?",
+"type": "ESSAY",
+"len": null,
+"page": "113|113.2",
+"authors": [
+"Robert Jackson (I)"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, June 1939): It sounds unpleasant to put this way",
+"type": "ESSAY",
+"len": null,
+"page": "113|113.3",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+}
+],
+"cover_artists": [
+"H. W. Scott"
+],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 61847,
+"title": "Unknown, July 1939",
+"date": "1939-07-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown, July 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.2",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "The Elemental",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "80",
+"authors": [
+"Frank Belknap Long, Jr."
+],
+"real": [
+"Frank Belknap Long"
+]
+},
+{
+"title": "Nothing in the Rules",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "90",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Slaves of Sleep (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "9|9.2",
+"authors": [
+"L. Ron Hubbard"
+],
+"real": []
+},
+{
+"title": "Way Station",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "110",
+"authors": [
+"Herb Weiss"
+],
+"real": []
+},
+{
+"title": "The Joker",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "116",
+"authors": [
+"Mona Farnsworth"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, July 1939): Hm-m-mâThey Would Do Well As the Ghouls at That!",
+"type": "ESSAY",
+"len": null,
+"page": "127",
+"authors": [
+"Arthur L. Widner, Jr."
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, July 1939): Virgil Finlay coming up!",
+"type": "ESSAY",
+"len": null,
+"page": "128",
+"authors": [
+"T. Moulton"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, July 1939): We said Unknown was gonna be differentâand we meant it!",
+"type": "ESSAY",
+"len": null,
+"page": "129",
+"authors": [
+"Russell M. Wood"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, July 1939): \"Slaves of Sleep\" isn't exactly a gentle fairy story, though.",
+"type": "ESSAY",
+"len": null,
+"page": "130",
+"authors": [
+"Thomas Gardner"
+],
+"real": [
+"Thomas S. Gardner"
+]
+},
+{
+"title": "To Drive Men Wild",
+"type": "ESSAY",
+"len": null,
+"page": "162",
+"authors": [
+"Arthur McCann"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "- - - And Having Writ - - - (Unknown, July 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "126|126.2",
+"authors": [
+"uncredited"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Letter (Unknown, July 1939): \"âsome like apples, some like inionsâ\"",
+"type": "ESSAY",
+"len": null,
+"page": "126|126.3",
+"authors": [
+"Lyman H. Martin"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, July 1939): Price was accurateâtry page 123, 2nd paragraph, April issue",
+"type": "ESSAY",
+"len": null,
+"page": "126|126.4",
+"authors": [
+"Jack F. Speer"
+],
+"real": [
+"Jack Speer"
+]
+},
+{
+"title": "Letter (Unknown, July 1939): Articles: Pro. I've spoken to Eric Frank Russell about one",
+"type": "ESSAY",
+"len": null,
+"page": "127|127.2",
+"authors": [
+"Ernest W. Gschwender"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, July 1939): Mona Farnsworth said she knew the woman who was the model for \"The Duchess.\"",
+"type": "ESSAY",
+"len": null,
+"page": "127|127.3",
+"authors": [
+"Frederick Morgan"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, July 1939): \"The Moving Finger\" slugs a typewriter key these days",
+"type": "ESSAY",
+"len": null,
+"page": "128|128.2",
+"authors": [
+"Ray Douglas Bradbury"
+],
+"real": [
+"Ray Bradbury"
+]
+},
+{
+"title": "Letter (Unknown, July 1939): We're in a kind of tough position you know. No one ever ran a magazine like Unknown before, and only by what you readers say of the stories we offer can we know what we should give you. Comments pro and con are equally wanted-",
+"type": "ESSAY",
+"len": null,
+"page": "129|129.2",
+"authors": [
+"Ned French"
+],
+"real": []
+}
+],
+"cover_artists": [
+"H. W. Scott"
+],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 61844,
+"title": "Unknown, August 1939",
+"date": "1939-08-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown, August 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "The Ghoul (complete novel)",
+"type": "SERIAL",
+"len": null,
+"page": "9",
+"authors": [
+"L. Ron Hubbard"
+],
+"real": []
+},
+{
+"title": "Don't Dream",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "75",
+"authors": [
+"Donald Wandrei"
+],
+"real": []
+},
+{
+"title": "Forsaking All Others",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "89",
+"authors": [
+"Lester del Rey"
+],
+"real": []
+},
+{
+"title": "Two Sought Adventure",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "99",
+"authors": [
+"Fritz Leiber, Jr."
+],
+"real": [
+"Fritz Leiber"
+]
+},
+{
+"title": "The Misguided Halo",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "125",
+"authors": [
+"Henry Kuttner"
+],
+"real": []
+},
+{
+"title": "- - - And Having Writ - - - (Unknown, August 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "137",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Letter (Unknown, August 1939): Well, of Course It's Your Business Too",
+"type": "ESSAY",
+"len": null,
+"page": "140",
+"authors": [
+"Charles Drew"
+],
+"real": []
+},
+{
+"title": "Returned from Hell?",
+"type": "ESSAY",
+"len": null,
+"page": "142",
+"authors": [
+"L. S. de Camp"
+],
+"real": [
+"L. Sprague de Camp"
+]
+},
+{
+"title": "Letter (Unknown, August 1939): Unknown Club for Clevelanders",
+"type": "ESSAY",
+"len": null,
+"page": "137|137.1",
+"authors": [
+"Allen R. Baker"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, August 1939): From the Author of \"Strange Gateway.\"",
+"type": "ESSAY",
+"len": null,
+"page": "137|137.2",
+"authors": [
+"E. Hoffmann Price"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, August 1939): Tadamona Wasn't Susceptible to FireâIt Was the Ligth of the Flares That Destroyed Him",
+"type": "ESSAY",
+"len": null,
+"page": "137|137.3",
+"authors": [
+"John J. Hall"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, August 1939): Pure Indictive Scienceâ",
+"type": "ESSAY",
+"len": null,
+"page": "138|138.1",
+"authors": [
+"Sri Ira Hensley"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, August 1939): De Camp and H. L. Gold Cooperate on Next Month's Long \"None But Lucifer.\"",
+"type": "ESSAY",
+"len": null,
+"page": "138|138.2",
+"authors": [
+"Jerry Bixby"
+],
+"real": [
+"Jerome Bixby"
+]
+},
+{
+"title": "Letter (Unknown, August 1939): Exerciseâfor Body and Mind",
+"type": "ESSAY",
+"len": null,
+"page": "138|138.3",
+"authors": [
+"Leslie Turner"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, August 1939): When Greek Meets Greek!",
+"type": "ESSAY",
+"len": null,
+"page": "139|139.1",
+"authors": [
+"R. M. MacAlpin"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, August 1939): WellâHow Would You End \"The Hexer\"?",
+"type": "ESSAY",
+"len": null,
+"page": "139|139.2",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Graves Gladney"
+],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 61853,
+"title": "Unknown, September 1939",
+"date": "1939-09-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown, September 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "5",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "None But Lucifer (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "9",
+"authors": [
+"H. L. Gold",
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Danger: Quicksand",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "79",
+"authors": [
+"H. W. Guernsey"
+],
+"real": [
+"Howard Wandrei"
+]
+},
+{
+"title": "Caliph of Yafri",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "91",
+"authors": [
+"Silaki Ali Hassan"
+],
+"real": [
+"Ulysses George Mihalakis"
+]
+},
+{
+"title": "The Coppersmith",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "110",
+"authors": [
+"Lester del Rey"
+],
+"real": []
+},
+{
+"title": "Portrait",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "121",
+"authors": [
+"Ray Cummings"
+],
+"real": []
+},
+{
+"title": "Over the Border",
+"type": "ESSAY",
+"len": null,
+"page": "129",
+"authors": [
+"Eric Frank Russell"
+],
+"real": []
+},
+{
+"title": "\"âAnd Having Writâ\" (Unknown, September 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "141",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Letter (Unknown, September 1939): July's Untrimmed Edges Were Due Not to Economy, But to Depth of Back-Cover Ad That Month. Trimming WOuld Have Cropped the Advertising Space, and Hence Had to Be Omitted That Month",
+"type": "ESSAY",
+"len": null,
+"page": "142",
+"authors": [
+"Langley Searles"
+],
+"real": [
+"A. Langley Searles"
+]
+},
+{
+"title": "Letter (Unknown, September 1939): Report on July, 1939 Unknown",
+"type": "ESSAY",
+"len": null,
+"page": "143",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, September 1939): Weight? But Why Worry? It Was Fantasy, Not Science-Fiction",
+"type": "ESSAY",
+"len": null,
+"page": "141|141.1",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+}
+],
+"cover_artists": [
+"H. W. Scott"
+],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 1131061,
+"title": "Unknown, September 1939",
+"date": "1939-09-00",
+"items": [
+{
+"title": "None But Lucifer (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "2",
+"authors": [
+"H. L. Gold",
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Danger: Quicksand",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "81",
+"authors": [
+"H. W. Guernsey"
+],
+"real": [
+"Howard Wandrei"
+]
+},
+{
+"title": "Portrait",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "91",
+"authors": [
+"Ray Cummings"
+],
+"real": []
+}
+],
+"cover_artists": [
+"H. W. Scott"
+],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 61852,
+"title": "Unknown, October 1939",
+"date": "1939-10-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown, October 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "The Elder Gods",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "9",
+"authors": [
+"Don A. Stuart"
+],
+"real": [
+"John W. Campbell, Jr.",
+"Arthur J. Burks"
+]
+},
+{
+"title": "The Dawn of Reason",
+"type": "POEM",
+"len": null,
+"page": "66",
+"authors": [
+"James H. Beard"
+],
+"real": []
+},
+{
+"title": "Dreams May Come",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "67",
+"authors": [
+"H. Warner Munn"
+],
+"real": []
+},
+{
+"title": "A God in a Garden",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "75",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+},
+{
+"title": "Anything",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "89",
+"authors": [
+"Philip St. John"
+],
+"real": [
+"Lester del Rey"
+]
+},
+{
+"title": "- - - And Having Writ - - - (Unknown, October 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "100",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Letter (Unknown, October 1939): \"Comments on Yoga\"",
+"type": "ESSAY",
+"len": null,
+"page": "102",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Blue and Silver Brocade",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "103",
+"authors": [
+"Dorothy Quick"
+],
+"real": []
+},
+{
+"title": "The Enchanted Weekend",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "115",
+"authors": [
+"John MacCormac"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, October 1939): Five-Issue Summary",
+"type": "ESSAY",
+"len": null,
+"page": "100|100.1",
+"authors": [
+"Donald V. Allgeier"
+],
+"real": [
+"Donald Allgeier"
+]
+},
+{
+"title": "Letter (Unknown, October 1939): Slave of \"Slaves of Sleep\"?",
+"type": "ESSAY",
+"len": null,
+"page": "101|101.1",
+"authors": [
+"P. P. Phillips, Jr."
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, October 1939): \"What Happened to the Victor?\"",
+"type": "ESSAY",
+"len": null,
+"page": "101|101.2",
+"authors": [
+"R. M. Williams"
+],
+"real": [
+"Robert Moore Williams"
+]
+},
+{
+"title": "Letter (Unknown, October 1939): How Do You LIke Stein's Cover?",
+"type": "ESSAY",
+"len": null,
+"page": "101|101.3",
+"authors": [
+"Louis Kuslan"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, October 1939): DeCamp's Working on Another Tale of Anachronism.",
+"type": "ESSAY",
+"len": null,
+"page": "101|101.4",
+"authors": [
+"T. Bruce Yerke"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Modest Stein"
+],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 1131062,
+"title": "Unknown, October 1939",
+"date": "1939-10-00",
+"items": [
+{
+"title": "The Elder Gods",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Don A. Stuart"
+],
+"real": [
+"John W. Campbell, Jr.",
+"Arthur J. Burks"
+]
+},
+{
+"title": "Dreams May Come",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "59",
+"authors": [
+"H. Warner Munn"
+],
+"real": []
+},
+{
+"title": "A God in a Garden",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "66",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+},
+{
+"title": "Anything",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "78",
+"authors": [
+"Philip St. John"
+],
+"real": [
+"Lester del Rey"
+]
+},
+{
+"title": "Blue and Silver Brocade",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "87",
+"authors": [
+"Dorothy Quick"
+],
+"real": []
+}
+],
+"cover_artists": [
+"H. W. Scott (in error)"
+],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 61851,
+"title": "Unknown, November 1939",
+"date": "1939-11-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown, November 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Sons of the Bear-God (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "9",
+"authors": [
+"Norvell W. Page"
+],
+"real": []
+},
+{
+"title": "Day Off",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "79",
+"authors": [
+"H. L. Gold"
+],
+"real": []
+},
+{
+"title": "The Bronze Door",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "90",
+"authors": [
+"Raymond Chandler"
+],
+"real": []
+},
+{
+"title": "The Monocle",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "107",
+"authors": [
+"H. W. Guernsey"
+],
+"real": [
+"Howard Wandrei"
+]
+},
+{
+"title": "The Question Is Answered",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "133",
+"authors": [
+"Stewart Toland"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Graves Gladney"
+],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 653722,
+"title": "Unknown, November 1939",
+"date": "1939-11-00",
+"items": [
+{
+"title": "Sons of the Bear-God (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "2",
+"authors": [
+"Norvell W. Page"
+],
+"real": []
+},
+{
+"title": "Day Off",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "87",
+"authors": [
+"H. L. Gold"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Graves Gladney"
+],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 61845,
+"title": "Unknown, December 1939",
+"date": "1939-12-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown, December 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Lest Darkness Fall (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "9",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Five Fathoms of Pearls",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "88",
+"authors": [
+"James H. Beard"
+],
+"real": []
+},
+{
+"title": "Vanderdecken",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "96",
+"authors": [
+"Frederick Engelhardt"
+],
+"real": []
+},
+{
+"title": "Time-Travel Happens!",
+"type": "ESSAY",
+"len": null,
+"page": "112",
+"authors": [
+"A. M. Phillips"
+],
+"real": []
+},
+{
+"title": "Review of the nonfiction book \"The Story of Prophecy\" by Henry James Forman",
+"type": "ESSAY",
+"len": null,
+"page": "121",
+"authors": [
+"M. Lieberman"
+],
+"real": []
+},
+{
+"title": "Johnny on the Spot",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "123",
+"authors": [
+"Frank Belknap Long, Jr."
+],
+"real": [
+"Frank Belknap Long"
+]
+},
+{
+"title": "- - -And Having Writ- - - (Unknown, December 1939)",
+"type": "ESSAY",
+"len": null,
+"page": "126",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Letter (Unknown, December 1939): Read \"Doubled in Brass\"âEllowman's Comeback",
+"type": "ESSAY",
+"len": null,
+"page": "129",
+"authors": [
+"Mrs. H. Beaskey"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, December 1939): Naturally the Shorts Improve. We're Training a New Group of Authors in a New Style",
+"type": "ESSAY",
+"len": null,
+"page": "126|126.1",
+"authors": [
+"Frank Holby"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, December 1939): Heh, Heh! The Gun WIll Jam!",
+"type": "ESSAY",
+"len": null,
+"page": "126|126.2",
+"authors": [
+"Seymour Liff"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, December 1939): \"âSome Like It Hotâ\"",
+"type": "ESSAY",
+"len": null,
+"page": "127|127.1",
+"authors": [
+"Charles Burbee, Jr."
+],
+"real": [
+"Charles Burbee"
+]
+},
+{
+"title": "Letter (Unknown, December 1939): The \"Jr.\" On the End of His Name Is the Answer",
+"type": "ESSAY",
+"len": null,
+"page": "127|127.2",
+"authors": [
+"Richard H. Jamison"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, December 1939): Unknown Uses Any Type, Any Style of Story, So It Fulfills the Requirement \"It Must Entertain.\"",
+"type": "ESSAY",
+"len": null,
+"page": "127|127.3",
+"authors": [
+"Ralph C. Hamilton"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, December 1939): Report!",
+"type": "ESSAY",
+"len": null,
+"page": "128|128.1",
+"authors": [
+"C. H. Chandler"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, December 1939): On the Presentation of Odd Facts",
+"type": "ESSAY",
+"len": null,
+"page": "128|128.2",
+"authors": [
+"Damon Knight"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, December 1939): We Point With Some Pride to One Other Item Regarding \"None But Lucifer\": Perfect Timing!",
+"type": "ESSAY",
+"len": null,
+"page": "128|128.3",
+"authors": [
+"Eric Williams"
+],
+"real": [
+"Eric C. Williams"
+]
+}
+],
+"cover_artists": [
+"Cartier"
+],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 1131065,
+"title": "Unknown, December 1939",
+"date": "1939-12-00",
+"items": [
+{
+"title": "Lest Darkness Fall (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "2",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Edd Cartier"
+],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 61846,
+"title": "Unknown, January 1940",
+"date": "1940-01-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown, January 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "5",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "- - -And Having Writ- - - (Unknown, January 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Soldiers of the Black Goat",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "9",
+"authors": [
+"Marian O'Hearn"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, January 1940): How Did You LIke Catier's Cover?",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.1",
+"authors": [
+"Norman Knudson"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, January 1940): WellâAsia Has Lots of Territory",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.2",
+"authors": [
+"P. S. Miller"
+],
+"real": [
+"P. Schuyler Miller"
+]
+},
+{
+"title": "Letter (Unknown, January 1940): OuchâBut We Still Like Criticism",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.3",
+"authors": [
+"Langley Searles"
+],
+"real": [
+"A. Langley Searles"
+]
+},
+{
+"title": "Look About You",
+"type": "POEM",
+"len": null,
+"page": "70",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+},
+{
+"title": "Swamp Train",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "71",
+"authors": [
+"Harry Walton"
+],
+"real": []
+},
+{
+"title": "The Sea Thing",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "81",
+"authors": [
+"A. E. van Vogt"
+],
+"real": []
+},
+{
+"title": "Doubled in Brass",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "107",
+"authors": [
+"Lester del Rey"
+],
+"real": []
+},
+{
+"title": "It Happens Twice at Least",
+"type": "ESSAY",
+"len": null,
+"page": "119",
+"authors": [
+"Willy Ley"
+],
+"real": []
+},
+{
+"title": "On the Knees of the Gods (Part 1 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "131",
+"authors": [
+"J. Allan Dunn"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, January 1940): âand the introspectionists ran the Inquisition; it isn't the method, it's the animal that uses it",
+"type": "ESSAY",
+"len": null,
+"page": "129|129.1",
+"authors": [
+"Frank Russell"
+],
+"real": [
+"Eric Frank Russell"
+]
+},
+{
+"title": "Letter (Unknown, January 1940): Mr. MacCormac, We Understand, May Now Be Engaged in Operating the Wrong Kind of \"Typewriter.\" He's a Canadian",
+"type": "ESSAY",
+"len": null,
+"page": "129|129.2",
+"authors": [
+"D. R. Johnson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"H. W. Scott"
+],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 1131078,
+"title": "Unknown, January 1940",
+"date": "1940-01-00",
+"items": [
+{
+"title": "Soldiers of the Black Goat",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Marian O'Hearn"
+],
+"real": []
+},
+{
+"title": "Doubled in Brass",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "60",
+"authors": [
+"Lester del Rey"
+],
+"real": []
+},
+{
+"title": "On the Knees of the Gods (Part 1 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "72",
+"authors": [
+"J. Allan Dunn"
+],
+"real": []
+}
+],
+"cover_artists": [
+"H. W. Scott"
+],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 61820,
+"title": "Unknown Fantasy Fiction, February 1940",
+"date": "1940-02-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown, February 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "5",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "- - -And Having Writ- - - (Unknown, February 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Death's Deputy (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "9",
+"authors": [
+"L. Ron Hubbard"
+],
+"real": []
+},
+{
+"title": "Lurani",
+"type": "POEM",
+"len": null,
+"page": "55",
+"authors": [
+"Paul Dennis Lavond"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+},
+{
+"title": "Call of Duty",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "56",
+"authors": [
+"Laurence Bour, Jr."
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, February 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "6|6.1",
+"authors": [
+"David G. Markham"
+],
+"real": []
+},
+{
+"title": "The Wisdom of an Ass",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "67",
+"authors": [
+"Silaki Ali Hassan"
+],
+"real": [
+"Ulysses George Mihalakis"
+]
+},
+{
+"title": "The Psychomorph",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "89",
+"authors": [
+"E. A. Grosser"
+],
+"real": []
+},
+{
+"title": "On the Knees of the Gods (Part 2 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "99",
+"authors": [
+"J. Allan Dunn"
+],
+"real": []
+},
+{
+"title": "When It Was Moonlight",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "124",
+"authors": [
+"Manly Wade Wellman"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, February 1940): Guernsey Has a Nice One Coming Up",
+"type": "ESSAY",
+"len": null,
+"page": "122|122.1",
+"authors": [
+"Don Johnson"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, February 1940): He Must Like De Camp",
+"type": "ESSAY",
+"len": null,
+"page": "122|122.2",
+"authors": [
+"Stanley Wells"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, February 1940): WellâThat Was Supposed to Be the Long Arm of the Past Snatching Martin Padway",
+"type": "ESSAY",
+"len": null,
+"page": "123|123.1",
+"authors": [
+"Thomas R. Myers"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, February 1940): Heh-Heh! He Doesn't Realize the Magazine's Shown Him What He'd LIke to Be and Do But Can't!",
+"type": "ESSAY",
+"len": null,
+"page": "123|123.2",
+"authors": [
+"J. Dean"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, February 1940): WellâHubbard's Back Again",
+"type": "ESSAY",
+"len": null,
+"page": "123|123.3",
+"authors": [
+"John Kay"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Ed. Cartier"
+],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 1131079,
+"title": "Unknown, February 1940",
+"date": "1940-02-00",
+"items": [
+{
+"title": "Death's Deputy (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "2",
+"authors": [
+"L. Ron Hubbard"
+],
+"real": []
+},
+{
+"title": "Call of Duty",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "66",
+"authors": [
+"Laurence Bour, Jr."
+],
+"real": []
+},
+{
+"title": "On the Knees of the Gods (Part 2 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "77",
+"authors": [
+"J. Allan Dunn"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Edd Cartier"
+],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 61825,
+"title": "Unknown Fantasy Fiction, March 1940",
+"date": "1940-03-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown, March 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "The Reign of Wizardry (Part 1 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "9",
+"authors": [
+"Jack Williamson"
+],
+"real": []
+},
+{
+"title": "The Drug That Kills the Soul",
+"type": "ESSAY",
+"len": null,
+"page": "62",
+"authors": [
+"Edward Podolsky"
+],
+"real": []
+},
+{
+"title": "Philtered Power",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "63",
+"authors": [
+"Malcolm Jameson"
+],
+"real": []
+},
+{
+"title": "The Black Farm",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "75",
+"authors": [
+"H. W. Guernsey"
+],
+"real": [
+"Howard Wandrei"
+]
+},
+{
+"title": "The Living Ghost",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "93",
+"authors": [
+"E. A. Grosser"
+],
+"real": []
+},
+{
+"title": "Gateway",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "104",
+"authors": [
+"Robert Arthur"
+],
+"real": []
+},
+{
+"title": "\"Derm Fool\"",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "114",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+},
+{
+"title": "On the Knees of the Gods (Part 3 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "125",
+"authors": [
+"J. Allan Dunn"
+],
+"real": []
+},
+{
+"title": "A Few Notes on the Reliability of Newspaper Clippings Without Additional Remarks About Charles Fort and Others",
+"type": "ESSAY",
+"len": null,
+"page": "156",
+"authors": [
+"Willy Ley"
+],
+"real": []
+},
+{
+"title": "- - -And Having Writ- - - (Unknown, March 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "159",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Letter (Unknown, March 1940): There's an Article Coming in Astounding That Suggests Reasons for Astrology!",
+"type": "ESSAY",
+"len": null,
+"page": "161",
+"authors": [
+"Ray D. Bradbury"
+],
+"real": [
+"Ray Bradbury"
+]
+},
+{
+"title": "Letter (Unknown, March 1940): The Longest Was \"Slaves of Sleep.\" The New Type Threw You Off",
+"type": "ESSAY",
+"len": null,
+"page": "159|159.1",
+"authors": [
+"Norman Knudson"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, March 1940): Maybe the \"Visitors\" Will Collect a Few Depth Bombs by Mistake Now!",
+"type": "ESSAY",
+"len": null,
+"page": "159|159.2",
+"authors": [
+"Franklyn Brady"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, March 1940): Incidentally, \"Pipes of Pan\" Will Appear in Unknown Shortlyâ",
+"type": "ESSAY",
+"len": null,
+"page": "160|160.1",
+"authors": [
+"R. Alverez del Rey"
+],
+"real": [
+"Lester del Rey"
+]
+},
+{
+"title": "Letter (Unknown, March 1940): Blackball for \"Black Goat.\"",
+"type": "ESSAY",
+"len": null,
+"page": "160|160.2",
+"authors": [
+"Dan E. Anderson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Ed. Cartier (in error)"
+],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 1131080,
+"title": "Unknown, March 1940",
+"date": "1940-03-00",
+"items": [
+{
+"title": "Philtered Power",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "2",
+"authors": [
+"Malcolm Jameson"
+],
+"real": []
+},
+{
+"title": "The Black Farm",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "16",
+"authors": [
+"H. W. Guernsey"
+],
+"real": [
+"Howard Wandrei"
+]
+},
+{
+"title": "The Living Ghost",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "35",
+"authors": [
+"E. A. Grosser"
+],
+"real": []
+},
+{
+"title": "Gateway",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "46",
+"authors": [
+"Robert Arthur"
+],
+"real": []
+},
+{
+"title": "\"Derm Fool\"",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "57",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+},
+{
+"title": "On the Knees of the Gods (Part 3 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "70",
+"authors": [
+"J. Allan Dunn"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Edd Cartier (in error)"
+],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 61815,
+"title": "Unknown Fantasy Fiction, April 1940",
+"date": "1940-04-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown, April 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "The Indigestible Triton",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "9",
+"authors": [
+"RenÃ© Lafayette"
+],
+"real": [
+"L. Ron Hubbard"
+]
+},
+{
+"title": "The African Trick",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "81",
+"authors": [
+"H. W. Guernsey"
+],
+"real": [
+"Howard Wandrei"
+]
+},
+{
+"title": "All Is Illusion",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "95",
+"authors": [
+"Henry Kuttner"
+],
+"real": [
+"Henry Kuttner",
+"C. L. Moore"
+]
+},
+{
+"title": "He Shuttles",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "113",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+},
+{
+"title": "The Reign of Wizardry (Part 2 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "129",
+"authors": [
+"Jack Williamson"
+],
+"real": []
+},
+{
+"title": "- - -And Having Writ- - - (Unknown, April 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "159",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Letter (Unknown, April 1940): He Got a Bonus!",
+"type": "ESSAY",
+"len": null,
+"page": "160",
+"authors": [
+"Bob Tucker"
+],
+"real": [
+"Wilson Tucker"
+]
+},
+{
+"title": "Letter (Unknown, April 1940): Clay Specifically Asked Destruction to Withdraw His Protection; Destruction Did",
+"type": "ESSAY",
+"len": null,
+"page": "161",
+"authors": [
+"Seymour Liff"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, April 1940): Keep It Up? We're Planning on Growing As We Go!",
+"type": "ESSAY",
+"len": null,
+"page": "162",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, April 1940): We Apologize to Salem and You Readers. Mr. Baer Is Quite Right. It Has Been Suggested That One Reason the Salem People Did Not Follow European Custom Was That Their Near, and Unloved Neighbors, the Indians, Went in for Burnings. Hence, They Didn't",
+"type": "ESSAY",
+"len": null,
+"page": "159|159.1",
+"authors": [
+"Frank L. Baer"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, April 1940): Ratings for the Year. Do You Agree?",
+"type": "ESSAY",
+"len": null,
+"page": "159|159.2",
+"authors": [
+"Harry A. Stern"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Edd Cartier"
+],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 1131081,
+"title": "Unknown, April 1940",
+"date": "1940-04-00",
+"items": [
+{
+"title": "The Indigestible Triton",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"RenÃ© Lafayette"
+],
+"real": [
+"L. Ron Hubbard"
+]
+},
+{
+"title": "The African Trick",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "58",
+"authors": [
+"H. W. Guernsey"
+],
+"real": [
+"Howard Wandrei"
+]
+},
+{
+"title": "All Is Illusion",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "68",
+"authors": [
+"Henry Kuttner"
+],
+"real": [
+"Henry Kuttner",
+"C. L. Moore"
+]
+}
+],
+"cover_artists": [
+"Edd Cartier"
+],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 61826,
+"title": "Unknown Fantasy Fiction, May 1940",
+"date": "1940-05-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown, May 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "The Roaring Trumpet",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "9",
+"authors": [
+"L. Sprague de Camp",
+"Fletcher Pratt"
+],
+"real": []
+},
+{
+"title": "Mad Hatter",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "78",
+"authors": [
+"Winston K. Marks"
+],
+"real": []
+},
+{
+"title": "Well of the Angels",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "91",
+"authors": [
+"E. Hoffmann Price"
+],
+"real": []
+},
+{
+"title": "The Pipes of Pan",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "110",
+"authors": [
+"Lester del Rey"
+],
+"real": []
+},
+{
+"title": "Eighty Percent",
+"type": "ESSAY",
+"len": null,
+"page": "122",
+"authors": [
+"Willy Ley"
+],
+"real": []
+},
+{
+"title": "The Reign of Wizardry (Part 3 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "130",
+"authors": [
+"Jack Williamson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"M. Isip"
+],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 1131082,
+"title": "Unknown, May 1940",
+"date": "1940-05-00",
+"items": [
+{
+"title": "The Roaring Trumpet",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"L. Sprague de Camp",
+"Fletcher Pratt"
+],
+"real": []
+},
+{
+"title": "Mad Hatter",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "55",
+"authors": [
+"Winston K. Marks"
+],
+"real": []
+},
+{
+"title": "Well of the Angels",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "65",
+"authors": [
+"E. Hoffmann Price"
+],
+"real": []
+}
+],
+"cover_artists": [
+"M. Isip"
+],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 61823,
+"title": "Unknown Fantasy Fiction, June 1940",
+"date": "1940-06-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown, June 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "But Without Horns",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "9",
+"authors": [
+"Norvell W. Page"
+],
+"real": []
+},
+{
+"title": "The Kraken",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "82",
+"authors": [
+"Frederick Engelhardt"
+],
+"real": []
+},
+{
+"title": "Transparent Stuff",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "97",
+"authors": [
+"Dorothy Quick"
+],
+"real": []
+},
+{
+"title": "The Man from Nowhere",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "112",
+"authors": [
+"Frank Belknap Long, Jr."
+],
+"real": [
+"Frank Belknap Long"
+]
+},
+{
+"title": "Dying Tramp",
+"type": "POEM",
+"len": null,
+"page": "124",
+"authors": [
+"Edgar Daniel Kramer"
+],
+"real": []
+},
+{
+"title": "Master Gerald of Cambray",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "125",
+"authors": [
+"Nat Schachner"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Cartier"
+],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 1131083,
+"title": "Unknown, June 1940",
+"date": "1940-06-00",
+"items": [
+{
+"title": "But Without Horns",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Norvell W. Page"
+],
+"real": []
+},
+{
+"title": "The Kraken",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "59",
+"authors": [
+"Frederick Engelhardt"
+],
+"real": []
+},
+{
+"title": "The Man from Nowhere",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "71",
+"authors": [
+"Frank Belknap Long, Jr."
+],
+"real": [
+"Frank Belknap Long"
+]
+}
+],
+"cover_artists": [
+"Edd Cartier"
+],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 61822,
+"title": "Unknown, July 1940",
+"date": "1940-07-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown, July 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "5",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Fear (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "9",
+"authors": [
+"L. Ron Hubbard"
+],
+"real": []
+},
+{
+"title": "Spontaneous Frogation",
+"type": "ESSAY",
+"len": null,
+"page": "83",
+"authors": [
+"Eric Frank Russell"
+],
+"real": []
+},
+{
+"title": "The Dream",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "84",
+"authors": [
+"Jane Rice"
+],
+"real": []
+},
+{
+"title": "Fisherman's Luck",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "102",
+"authors": [
+"Frank Belknap Long"
+],
+"real": []
+},
+{
+"title": "The Flayed Wolf",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "112",
+"authors": [
+"P. Schuyler Miller"
+],
+"real": []
+},
+{
+"title": "The Spark of Allah (Part 1 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "129",
+"authors": [
+"Marian O'Hearn"
+],
+"real": []
+},
+{
+"title": "- - - And Having Writ - - - (Unknown, July 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "159",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Letter (Unknown, July 1940): Ah, Yes, We Finished a Yearâ",
+"type": "ESSAY",
+"len": null,
+"page": "159",
+"authors": [
+"Ronald Harmer"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, July 1940): Even Infallible Editors Make Mistakes. Yea, Verily, Isip, not Cartier, did the March Cover!",
+"type": "ESSAY",
+"len": null,
+"page": "162",
+"authors": [
+"Frank Parker (II)"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, July 1940): Yep, Shea's Out Looking for More Trouble!",
+"type": "ESSAY",
+"len": null,
+"page": "160|160.1",
+"authors": [
+"Charles Hidley"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, July 1940): People Don't Think AlikeâUnless Made to by a Dictator. So We'll Go on Having Differences of Opinion, Please!",
+"type": "ESSAY",
+"len": null,
+"page": "160|160.2",
+"authors": [
+"William Reina"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, July 1940): \"Fear\" Make Epic No. 4?",
+"type": "ESSAY",
+"len": null,
+"page": "161|161.1",
+"authors": [
+"Charles F. Ksanda"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, July 1940): Now You Know His WishesâFigure a Better Answer!",
+"type": "ESSAY",
+"len": null,
+"page": "161|161.2",
+"authors": [
+"Charles R. G. Rowe"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 1131084,
+"title": "Unknown, July 1940",
+"date": "1940-07-00",
+"items": [
+{
+"title": "Fear (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "2",
+"authors": [
+"L. Ron Hubbard"
+],
+"real": []
+},
+{
+"title": "The Dream",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "55",
+"authors": [
+"Jane Rice"
+],
+"real": []
+},
+{
+"title": "The Flayed Wolf",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "68",
+"authors": [
+"P. Schuyler Miller"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 61817,
+"title": "Unknown, August 1940",
+"date": "1940-08-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown, August 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "The Mathematics of Magic",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "9",
+"authors": [
+"L. Sprague de Camp",
+"Fletcher Pratt"
+],
+"real": []
+},
+{
+"title": "Tombi Sink",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "84",
+"authors": [
+"J. Vale Downie"
+],
+"real": []
+},
+{
+"title": "It",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "97",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+},
+{
+"title": "All Roads",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "118",
+"authors": [
+"Mona Farnsworth"
+],
+"real": []
+},
+{
+"title": "The Spark of Allah (Part 2 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "131",
+"authors": [
+"Marian O'Hearn"
+],
+"real": []
+},
+{
+"title": "- - - And Having Writ - - - (Unknown, August 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "160",
+"authors": [
+"various"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, August 1940): RememberâAccident Prones Are Not Hubbard's Invention; They Do Exist!",
+"type": "ESSAY",
+"len": null,
+"page": "161",
+"authors": [
+"George M. Aylesworth"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, August 1940): Review of the Year",
+"type": "ESSAY",
+"len": null,
+"page": "160|160.1",
+"authors": [
+"E. P. Pope"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, August 1940): Legends of Cape Cod Wanted",
+"type": "ESSAY",
+"len": null,
+"page": "162|162.1",
+"authors": [
+"Allan Keniston, Jr."
+],
+"real": [
+"Allan G. Keniston"
+]
+},
+{
+"title": "Letter (Unknown, August 1940): Re: Fantasy and Vegetables in the March Unknown",
+"type": "ESSAY",
+"len": null,
+"page": "162|162.2",
+"authors": [
+"Ernest M. Smola"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 359969,
+"title": "Unknown, August 1940",
+"date": "1940-08-00",
+"items": [
+{
+"title": "The Mathematics of Magic",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"L. Sprague de Camp",
+"Fletcher Pratt"
+],
+"real": []
+},
+{
+"title": "Tombi Sink",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "57",
+"authors": [
+"J. Vale Downie"
+],
+"real": []
+},
+{
+"title": "It",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "67",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 61829,
+"title": "Unknown Fantasy Fiction, September 1940",
+"date": "1940-09-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown, September 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "5",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "The Devil Makes the Law",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "9",
+"authors": [
+"Robert A. Heinlein"
+],
+"real": []
+},
+{
+"title": "The Extra Bricklayer",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "85",
+"authors": [
+"A. M. Phillips"
+],
+"real": []
+},
+{
+"title": "The Hardwood Pile",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "100",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Watch That Window!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "122",
+"authors": [
+"L. Joe Fohn"
+],
+"real": []
+},
+{
+"title": "The Spark of Allah (Part 3 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "134",
+"authors": [
+"Marian O'Hearn"
+],
+"real": []
+},
+{
+"title": "- - - And Having Writ - - - (Unknown, September 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "156",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Letter (Unknown, September 1940): They Both Agree It Was a Yarn to Read, Though!",
+"type": "ESSAY",
+"len": null,
+"page": "157",
+"authors": [
+"Norman Knudson"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, September 1940): She Took Convincing!",
+"type": "ESSAY",
+"len": null,
+"page": "159",
+"authors": [
+"Cece Cook Garges"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, September 1940): \"On the Reliability of Newspaper Clippings\"",
+"type": "ESSAY",
+"len": null,
+"page": "162",
+"authors": [
+"Eric Frank Russell"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, September 1940): Hm-m-mâSeems Like They Can Still \"Fight Back with Every Weapon Used Against Them.\"",
+"type": "ESSAY",
+"len": null,
+"page": "156|156.1",
+"authors": [
+"Marian O'Hearn"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, September 1940): Kuttner Is a Ardent Devotee of Thorne Smith. It Was not a Steal; Kuttner Is Simply Trying to Write Some of the Stories Smith Might Have, Had He Lived Longer",
+"type": "ESSAY",
+"len": null,
+"page": "158|158.1",
+"authors": [
+"W. Bovill"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, September 1940): The Original Tree of Life, of Course",
+"type": "ESSAY",
+"len": null,
+"page": "158|158.2",
+"authors": [
+"Mary Evelyn Rogers"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, September 1940): RosesâCOmplete with a Thorn or Two",
+"type": "ESSAY",
+"len": null,
+"page": "160|160.1",
+"authors": [
+"Joseph Gilbert"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, September 1940): Ley Was Mainly Suggesting That Reports Needed Careful Weighing. Just Look at Current War Reports!",
+"type": "ESSAY",
+"len": null,
+"page": "160|160.2",
+"authors": [
+"David G. Markham"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, September 1940): We're Trying for Those Readersâ",
+"type": "ESSAY",
+"len": null,
+"page": "161|161.1",
+"authors": [
+"L. Crutchfield"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, September 1940): Maybe Isip Did All His Fishing in the PhilippinesâHis Home",
+"type": "ESSAY",
+"len": null,
+"page": "161|161.2",
+"authors": [
+"Allan Keniston, Jr."
+],
+"real": [
+"Allan G. Keniston"
+]
+}
+],
+"cover_artists": [],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 1131085,
+"title": "Unknown, September 1940",
+"date": "1940-09-00",
+"items": [
+{
+"title": "The Devil Makes the Law",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Robert A. Heinlein"
+],
+"real": []
+},
+{
+"title": "The Extra Bricklayer",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "50",
+"authors": [
+"A. M. Phillips"
+],
+"real": []
+},
+{
+"title": "The Hardwood Pile",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "61",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Watch That Window!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "75",
+"authors": [
+"L. Joe Fohn"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 61828,
+"title": "Unknown, October 1940",
+"date": "1940-10-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown, October 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "5",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "The Wheels of If",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "9",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "The Haters",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "70",
+"authors": [
+"Donald A. Wollheim"
+],
+"real": []
+},
+{
+"title": "Fruit of Knowledge",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "73",
+"authors": [
+"C. L. Moore"
+],
+"real": []
+},
+{
+"title": "The Devil's Rescue",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "99",
+"authors": [
+"L. Ron Hubbard"
+],
+"real": []
+},
+{
+"title": "Warm, Dark Places",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "114",
+"authors": [
+"Horace L. Gold"
+],
+"real": [
+"H. L. Gold"
+]
+},
+{
+"title": "Prowler",
+"type": "POEM",
+"len": null,
+"page": "128",
+"authors": [
+"Frances Hall"
+],
+"real": []
+},
+{
+"title": "The Tommyknocker (Part 1 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "129",
+"authors": [
+"Thomas Calvert McClary"
+],
+"real": []
+},
+{
+"title": "The Tommyknocker (Part 1 of 2) [3]",
+"type": "SHORTFICTION",
+"len": null,
+"page": "143",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "- - - And Having Writ - - - (Unknown, October 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "155",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Letter (Unknown, October 1940): Pity Ye Ed! \"Some Like It Cold, Some Like It Hot, Some Like Itâ\" If You Readers'll Just Agree on It, I'll Give You What You Want!",
+"type": "ESSAY",
+"len": null,
+"page": "157",
+"authors": [
+"R. B. Kimball"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, October 1940): Maybe We Ought to Retitle the Book \"Escape\"?",
+"type": "ESSAY",
+"len": null,
+"page": "158",
+"authors": [
+"Herbert F. Lowe"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, October 1940): The Interior Is Changing, Too, You Notice",
+"type": "ESSAY",
+"len": null,
+"page": "155|155.1",
+"authors": [
+"Lawrence Miller (I)"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, October 1940): Yah! Then We'll Go Work on Them!",
+"type": "ESSAY",
+"len": null,
+"page": "155|155.2",
+"authors": [
+"Bob Tucker"
+],
+"real": [
+"Wilson Tucker"
+]
+},
+{
+"title": "Letter (Unknown, October 1940): Unknown Frays More Quickly Because, Unlike Most Magazines, It Has 160 Pages",
+"type": "ESSAY",
+"len": null,
+"page": "155|155.3",
+"authors": [
+"Gerald H. Adams"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, October 1940): We Like Variety, Though!",
+"type": "ESSAY",
+"len": null,
+"page": "156|156.1",
+"authors": [
+"Charles Hidley"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, October 1940): Hubbard Spends a Month PlanningâThen Needs Little Revising. He Can Then Make You Feel a Nightmare Like \"Fear\" Was Too Logical!",
+"type": "ESSAY",
+"len": null,
+"page": "156|156.2",
+"authors": [
+"Joseph Gilbert"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, October 1940): Welcome to the Fold",
+"type": "ESSAY",
+"len": null,
+"page": "159|159.1",
+"authors": [
+"Fred Senour"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, October 1940): Ron Hubbard's Back Next Month",
+"type": "ESSAY",
+"len": null,
+"page": "159|159.2",
+"authors": [
+"D. B. Thompson"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, October 1940): SorryâMay '39 Unknowns Are All Gone. Maybe a Reader Has One to Offer",
+"type": "ESSAY",
+"len": null,
+"page": "159|159.3",
+"authors": [
+"J. F. Nowlin"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, October 1940): De Camp's Muttering About Further Adventures of Shea and Chalmers",
+"type": "ESSAY",
+"len": null,
+"page": "160|160.1",
+"authors": [
+"Paul Carter"
+],
+"real": [
+"Paul A. Carter"
+]
+},
+{
+"title": "Letter (Unknown, October 1940): ButâThat's What Astounding Science-Fiction Is for! Unknown's Not Intended for Anything But Fantasy",
+"type": "ESSAY",
+"len": null,
+"page": "160|160.2",
+"authors": [
+"Irving Kirshbaum"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, October 1940): We're After Stories Continuously",
+"type": "ESSAY",
+"len": null,
+"page": "160|160.3",
+"authors": [
+"John W. Bell"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, October 1940): Soothing Worlds! Thankee!",
+"type": "ESSAY",
+"len": null,
+"page": "161|161.1",
+"authors": [
+"Iris Halderman"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, October 1940): We Like Varietyâand a Nice, Quiet Shudder Over Something We Aren't Faced with Is One Variety of Escape!",
+"type": "ESSAY",
+"len": null,
+"page": "161|161.2",
+"authors": [
+"Mrs. Frank Carr"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 1131086,
+"title": "Unknown, October 1940",
+"date": "1940-10-00",
+"items": [
+{
+"title": "The Wheels of If",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "The Haters",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "41",
+"authors": [
+"Donald A. Wollheim"
+],
+"real": []
+},
+{
+"title": "Fruit of Knowledge",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "43",
+"authors": [
+"C. L. Moore"
+],
+"real": []
+},
+{
+"title": "The Devil's Rescue",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "61",
+"authors": [
+"L. Ron Hubbard"
+],
+"real": []
+},
+{
+"title": "Warm, Dark Places",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "70",
+"authors": [
+"Horace L. Gold"
+],
+"real": [
+"H. L. Gold"
+]
+},
+{
+"title": "Prowler",
+"type": "POEM",
+"len": null,
+"page": "80",
+"authors": [
+"Frances Hall"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 61827,
+"title": "Unknown Fantasy Fiction, November 1940",
+"date": "1940-11-00",
+"items": [
+{
+"title": "The Gods Gil Made",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "68",
+"authors": [
+"Ross Rocklynne"
+],
+"real": []
+},
+{
+"title": "Cargo",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "82",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+},
+{
+"title": "Typewriter in the Sky (Part 1 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "9|9.2",
+"authors": [
+"L. Ron Hubbard"
+],
+"real": []
+},
+{
+"title": "Cartwright's Camera",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "104",
+"authors": [
+"Nelson S. Bond"
+],
+"real": []
+},
+{
+"title": "The Bleak Shore",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "111",
+"authors": [
+"Fritz Leiber"
+],
+"real": []
+},
+{
+"title": "Are You There?",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "120",
+"authors": [
+"Mona Farnsworth"
+],
+"real": []
+},
+{
+"title": "The Tommyknocker (Part 2 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "131",
+"authors": [
+"Thomas Calvert McClary"
+],
+"real": []
+},
+{
+"title": "- - - And Having Writ - - - (Unknown Fantasy Fiction, November 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "156",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Letter (Unknown Fantasy Fiction, November 1940): Picturing \"Fantasy\" Is Like Trying to Draw \"Loyalty\" or \"Thought\"",
+"type": "ESSAY",
+"len": null,
+"page": "157",
+"authors": [
+"Raymond E. Ripa"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown Fantasy Fiction, November 1940): New Term for the Use of Art Criticsâ\"Gwup\"!",
+"type": "ESSAY",
+"len": null,
+"page": "158",
+"authors": [
+"Caleb Northrup"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown Fantasy Fiction, November 1940): Phooey on Werewolves, from Wolverine",
+"type": "ESSAY",
+"len": null,
+"page": "160",
+"authors": [
+"Bill Brudy"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown Fantasy Fiction, November 1940): Hm-m-mâYou Mean Unknown Needs More \"It,\" So to Speak?",
+"type": "ESSAY",
+"len": null,
+"page": "161",
+"authors": [
+"Wally Frisvold"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown Fantasy Fiction, November 1940): \"Symbol Is Not Referenced\" Means Simply That a Symbol Is Not the Thing It Refers toâa Map Is Not the Territory It Represents. And Thanks for the \"Jingle\"",
+"type": "ESSAY",
+"len": null,
+"page": "156|156.1",
+"authors": [
+"R. B. Kimball"
+],
+"real": []
+},
+{
+"title": "Unknown",
+"type": "POEM",
+"len": null,
+"page": "156|156.2",
+"authors": [
+"R. B. Kimball"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown Fantasy Fiction, November 1940): Probably If de Camp and Pratt Knew Details of the Spells They'd Patent, Not Write About Them!",
+"type": "ESSAY",
+"len": null,
+"page": "156|156.3",
+"authors": [
+"Charles Hidley"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 1131087,
+"title": "Unknown, November 1940",
+"date": "1940-11-00",
+"items": [
+{
+"title": "Master Gerald of Cambray",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"Nat Schachner"
+],
+"real": []
+},
+{
+"title": "The Gods Gil Made",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "27",
+"authors": [
+"Ross Rocklynne"
+],
+"real": []
+},
+{
+"title": "Cargo",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "38",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+},
+{
+"title": "Cartwright's Camera",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "53",
+"authors": [
+"Nelson S. Bond"
+],
+"real": []
+},
+{
+"title": "The Bleak Shore",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "58",
+"authors": [
+"Fritz Leiber"
+],
+"real": []
+},
+{
+"title": "Are You There?",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "64",
+"authors": [
+"Mona Farnsworth"
+],
+"real": []
+},
+{
+"title": "All Roads",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "72",
+"authors": [
+"Mona Farnsworth"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 61819,
+"title": "Unknown, December 1940",
+"date": "1940-12-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown, December 1940)",
+"type": "ESSAY",
+"len": null,
+"page": "5",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Darker Than You Think",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "9",
+"authors": [
+"Jack Williamson"
+],
+"real": []
+},
+{
+"title": "Threshold",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "92",
+"authors": [
+"Henry Kuttner"
+],
+"real": []
+},
+{
+"title": "Two for a Bargain",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "104",
+"authors": [
+"Dorothy Quick"
+],
+"real": []
+},
+{
+"title": "Black Cats",
+"type": "POEM",
+"len": null,
+"page": "126",
+"authors": [
+"Cristel Hastings"
+],
+"real": []
+},
+{
+"title": "Typewriter in the Sky (Part 2 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "127",
+"authors": [
+"L. Ron Hubbard"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 653721,
+"title": "Unknown, December 1940",
+"date": "1940-12-00",
+"items": [
+{
+"title": "Darker Than You Think",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Jack Williamson"
+],
+"real": []
+},
+{
+"title": "Threshold",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "55",
+"authors": [
+"Henry Kuttner"
+],
+"real": []
+},
+{
+"title": "Two for a Bargain",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "64",
+"authors": [
+"Dorothy Quick"
+],
+"real": []
+},
+{
+"title": "Black Cats",
+"type": "POEM",
+"len": null,
+"page": "80",
+"authors": [
+"Cristel Hastings"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 61821,
+"title": "Unknown Fantasy Fiction, February 1941",
+"date": "1941-02-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown Fantasy Fiction, February 1941)",
+"type": "ESSAY",
+"len": null,
+"page": "5",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "The Mislaid Charm",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "9",
+"authors": [
+"A. M. Phillips"
+],
+"real": []
+},
+{
+"title": "The Ultimate Egoist",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "57",
+"authors": [
+"E. Hunter Waldo"
+],
+"real": [
+"Theodore Sturgeon"
+]
+},
+{
+"title": "Fiction",
+"type": "POEM",
+"len": null,
+"page": "70",
+"authors": [
+"Alan Grant (?-)"
+],
+"real": []
+},
+{
+"title": "The Crossroads",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "71",
+"authors": [
+"L. Ron Hubbard"
+],
+"real": []
+},
+{
+"title": "Doubled and Redoubled",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "87",
+"authors": [
+"Malcolm Jameson"
+],
+"real": []
+},
+{
+"title": "Shottle Bop",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "100",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+},
+{
+"title": "Carillon of Skulls",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "122",
+"authors": [
+"Philip James"
+],
+"real": [
+"Lester del Rey",
+"James H. Beard"
+]
+},
+{
+"title": "Oscar",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "136",
+"authors": [
+"Cleve Cartmill"
+],
+"real": []
+},
+{
+"title": "The Professor's Hobby",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "140",
+"authors": [
+"Robert Arthur"
+],
+"real": []
+},
+{
+"title": "- - - And Having Writ - - - (Unknown Fantasy Fiction, February 1941)",
+"type": "ESSAY",
+"len": null,
+"page": "159",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Letter (Unknown Fantasy Fiction, February 1941): Actually, Heinlein's Original Title Was \"Magic, Inc.\" We Had to Change It Because \"Magic\" Constituted Part of the Preceding Novel, \"The Mathematics of Magic.\" Heinlein's Vocabulary of Magical Terms Is Authentic, His Other Words Accepted Colloquialisms",
+"type": "ESSAY",
+"len": null,
+"page": "160",
+"authors": [
+"R. B. Kimball"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown Fantasy Fiction, February 1941): Late Comer to the Fold",
+"type": "ESSAY",
+"len": null,
+"page": "162",
+"authors": [
+"Eugene V. Walter"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown Fantasy Fiction, February 1941): \"The Meeting Will Come to Orderâ\"",
+"type": "ESSAY",
+"len": null,
+"page": "159|159.1",
+"authors": [
+"Ray Bradbury"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 1131089,
+"title": "Unknown, February 1941",
+"date": "1941-02-00",
+"items": [
+{
+"title": "The Mislaid Charm",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"A. M. Phillips"
+],
+"real": []
+},
+{
+"title": "Doubled and Redoubled",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "30",
+"authors": [
+"Malcolm Jameson"
+],
+"real": []
+},
+{
+"title": "Fiction",
+"type": "POEM",
+"len": null,
+"page": "38",
+"authors": [
+"Alan Grant (?-)"
+],
+"real": []
+},
+{
+"title": "Shottle Bop",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "39",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+},
+{
+"title": "Oscar",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "53",
+"authors": [
+"Cleve Cartmill"
+],
+"real": []
+},
+{
+"title": "The Professor's Hobby",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "55",
+"authors": [
+"Robert Arthur"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 61816,
+"title": "Unknown Fantasy Fiction, April 1941",
+"date": "1941-04-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown Fantasy Fiction, April 1941)",
+"type": "ESSAY",
+"len": null,
+"page": "5",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "The Castle of Iron",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "9",
+"authors": [
+"L. Sprague de Camp",
+"Fletcher Pratt"
+],
+"real": []
+},
+{
+"title": "They",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "84",
+"authors": [
+"Robert A. Heinlein"
+],
+"real": []
+},
+{
+"title": "Over the River",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "96",
+"authors": [
+"P. Schuyler Miller"
+],
+"real": []
+},
+{
+"title": "The Haunt",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "106",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+},
+{
+"title": "A Length of Rope",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "120",
+"authors": [
+"Chester S. Geier"
+],
+"real": []
+},
+{
+"title": "The Forbidden Trail",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "130",
+"authors": [
+"Jane Rice"
+],
+"real": []
+},
+{
+"title": "- - - And Having Writ - - - (Unknown Fantasy Fiction, April 1941)",
+"type": "ESSAY",
+"len": null,
+"page": "159",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Letter (Unknown Fantasy Fiction, April 1941): More of Harold Shea Coming Up",
+"type": "ESSAY",
+"len": null,
+"page": "161",
+"authors": [
+"Bob Camden"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown Fantasy Fiction, April 1941): Hubbard's Working on Another Novel",
+"type": "ESSAY",
+"len": null,
+"page": "162",
+"authors": [
+"C. Hidley"
+],
+"real": [
+"Charles Hidley"
+]
+},
+{
+"title": "Letter (Unknown Fantasy Fiction, April 1941): The Steam Bug Will Bite You If You Don't Watch Out!",
+"type": "ESSAY",
+"len": null,
+"page": "159|159.1",
+"authors": [
+"Wynne M. Trenholm"
+],
+"real": [
+"Wynne M. Trenholme"
+]
+}
+],
+"cover_artists": [],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 61824,
+"title": "Unknown Fantasy Fiction, June 1941",
+"date": "1941-06-00",
+"items": [
+{
+"title": "The Irish \"Puck\"",
+"type": "ESSAY",
+"len": null,
+"page": "5",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "The Fountain",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "9",
+"authors": [
+"Nelson S. Bond"
+],
+"real": []
+},
+{
+"title": "Not According to Dante",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "59",
+"authors": [
+"Malcolm Jameson"
+],
+"real": []
+},
+{
+"title": "The Crest of the Wave",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "71",
+"authors": [
+"Jane Rice"
+],
+"real": []
+},
+{
+"title": "The Howling Tower",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "90",
+"authors": [
+"Fritz Leiber"
+],
+"real": []
+},
+{
+"title": "The Shape of Desire",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "101",
+"authors": [
+"Cleve Cartmill"
+],
+"real": []
+},
+{
+"title": "Yesterday Was Monday",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "112",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+},
+{
+"title": "Joshua",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "126",
+"authors": [
+"R. Creighton Buck"
+],
+"real": []
+},
+{
+"title": "Nightmare Island",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "132",
+"authors": [
+"E. Waldo Hunter"
+],
+"real": [
+"Theodore Sturgeon"
+]
+},
+{
+"title": "- - - And Having Writ - - - (Unknown Fantasy Fiction, June 1941)",
+"type": "ESSAY",
+"len": null,
+"page": "159",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Letter (Unknown Fantasy Fiction, June 1941): Carollian Spirit?",
+"type": "ESSAY",
+"len": null,
+"page": "161",
+"authors": [
+"Murray L. Lesser"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown Fantasy Fiction, June 1941): Do I Like Humor? Remember \"Enchanted Weekend,\" \"Indigestible Triton\"? I Don't Get Enough Because Humor Is Far Harder to Write",
+"type": "ESSAY",
+"len": null,
+"page": "159|159.1",
+"authors": [
+"Bob Tucker"
+],
+"real": [
+"Wilson Tucker"
+]
+},
+{
+"title": "Letter (Unknown Fantasy Fiction, June 1941): C'est La Guerreâand Economic Bans from England, Canada, Australia, and New Zealand. As Long As the Rand Gold Mines Hold Out, We Ought to Have South Africa, Though",
+"type": "ESSAY",
+"len": null,
+"page": "159|159.2",
+"authors": [
+"James Causey, Jr."
+],
+"real": [
+"James Causey"
+]
+},
+{
+"title": "Letter (Unknown Fantasy Fiction, June 1941)",
+"type": "ESSAY",
+"len": null,
+"page": "160|160.1",
+"authors": [
+"M. Eli Harlib"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown Fantasy Fiction, June 1941): Unknown, Invading New Literary Fields, Has a Habit of Finding New Authors, Remember",
+"type": "ESSAY",
+"len": null,
+"page": "160|160.2",
+"authors": [
+"Joseph Gilbert"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 359957,
+"title": "Unknown, July 1941",
+"date": "1941-07-00",
+"items": [
+{
+"title": "The Castle of Iron",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"L. Sprague de Camp",
+"Fletcher Pratt"
+],
+"real": []
+},
+{
+"title": "Over the River",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "45",
+"authors": [
+"P. Schuyler Miller"
+],
+"real": []
+},
+{
+"title": "The Haunt",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "51",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+},
+{
+"title": "A Length of Rope",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "59",
+"authors": [
+"Chester S. Geier"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 61818,
+"title": "Unknown, August 1941",
+"date": "1941-08-00",
+"items": [
+{
+"title": "The Case of the Friendly Corpse",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "9",
+"authors": [
+"L. Ron Hubbard"
+],
+"real": []
+},
+{
+"title": "The Road Beyond",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "81",
+"authors": [
+"Norman A. Daniels"
+],
+"real": []
+},
+{
+"title": "The Devil We Know",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "90",
+"authors": [
+"Henry Kuttner"
+],
+"real": []
+},
+{
+"title": "Mr. Jinx",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "107",
+"authors": [
+"Robert Arthur"
+],
+"real": []
+},
+{
+"title": "Armageddon",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "119",
+"authors": [
+"Fredric Brown"
+],
+"real": []
+},
+{
+"title": "Take My Drum to England",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "124",
+"authors": [
+"Nelson S. Bond"
+],
+"real": []
+},
+{
+"title": "The Golden Egg",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "132",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+},
+{
+"title": "- - - And Having Writ - - - (Unknown, August 1941)",
+"type": "ESSAY",
+"len": null,
+"page": "146",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Letter (Unknown, August 1941): Like Bitters in a Good Drink, Unknown Puts a Bit More Kick in Living",
+"type": "ESSAY",
+"len": null,
+"page": "147",
+"authors": [
+"Mary Evelyn Rogers"
+],
+"real": []
+},
+{
+"title": "Even the Angels",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "151",
+"authors": [
+"Malcolm Jameson"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, August 1941): Waldo Sort of Forgot Whether He'd Put the \"HUnter\" Before or After \"Waldo\" and We Forgot to Check. Hence the Discrepancy of Name on \"The Ultimate Egoist\" and \"Nightmare Island\"",
+"type": "ESSAY",
+"len": null,
+"page": "146|146.1",
+"authors": [
+"E. Hunter Waldo Hunter"
+],
+"real": [
+"Theodore Sturgeon"
+]
+},
+{
+"title": "Letter (Unknown, August 1941): Sir, You Exaggerate!",
+"type": "ESSAY",
+"len": null,
+"page": "146|146.2",
+"authors": [
+"Louis Russell Chauvenet"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, August 1941): Hm-m-mâBut What Was in the Bottle?",
+"type": "ESSAY",
+"len": null,
+"page": "148|148.1",
+"authors": [
+"R. B. Kimball"
+],
+"real": []
+},
+{
+"title": "A Thought",
+"type": "POEM",
+"len": null,
+"page": "148|148.2",
+"authors": [
+"R. B. Kimball"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, August 1941): Canada's Banned Many Magazine Imports to Save U. S. Foreign Exchange",
+"type": "ESSAY",
+"len": null,
+"page": "148|148.3",
+"authors": [
+"Ronald Harmer"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 61840,
+"title": "Unknown Worlds, October 1941",
+"date": "1941-10-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown Worlds, October 1941)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "The Land of Unreason (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "8",
+"authors": [
+"L. Sprague de Camp",
+"Fletcher Pratt"
+],
+"real": []
+},
+{
+"title": "No News Today",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "59",
+"authors": [
+"Cleve Cartmill"
+],
+"real": []
+},
+{
+"title": "A Good Knight's Work",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "66",
+"authors": [
+"Robert Bloch"
+],
+"real": []
+},
+{
+"title": "Prescience",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "76",
+"authors": [
+"Nelson S. Bond"
+],
+"real": []
+},
+{
+"title": "Finger! Finger!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "81",
+"authors": [
+"Margaret Ronan"
+],
+"real": []
+},
+{
+"title": "Borrowed Glory",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "85",
+"authors": [
+"L. Ron Hubbard"
+],
+"real": []
+},
+{
+"title": "On a Limb",
+"type": "ESSAY",
+"len": null,
+"page": "92",
+"authors": [
+"Anthony Boucher"
+],
+"real": []
+},
+{
+"title": "Smoke Ghost",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "100",
+"authors": [
+"Fritz Leiber, Jr."
+],
+"real": [
+"Fritz Leiber"
+]
+},
+{
+"title": "A Gnome There Was",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "108",
+"authors": [
+"Henry Kuttner"
+],
+"real": [
+"Henry Kuttner",
+"C. L. Moore"
+]
+},
+{
+"title": "On Books of Magic",
+"type": "ESSAY",
+"len": null,
+"page": "121",
+"authors": [
+"Orval Graves"
+],
+"real": []
+},
+{
+"title": "The Dolphin's Doubloons",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "122",
+"authors": [
+"Silaki Ali Hassan"
+],
+"real": [
+"Ulysses George Mihalakis"
+]
+}
+],
+"cover_artists": [],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 61834,
+"title": "Unknown Worlds, December 1941",
+"date": "1941-12-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown Worlds, December 1941)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Bit of Tapestry",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "9",
+"authors": [
+"Cleve Cartmill"
+],
+"real": []
+},
+{
+"title": "Occupation: Demigod",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "60",
+"authors": [
+"Nelson S. Bond"
+],
+"real": []
+},
+{
+"title": "Brat",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "69",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+},
+{
+"title": "Snulbug",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "78",
+"authors": [
+"Anthony Boucher"
+],
+"real": []
+},
+{
+"title": "The House",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "85",
+"authors": [
+"Jane Rice"
+],
+"real": []
+},
+{
+"title": "\"With a Blunt Instrument\"",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "97",
+"authors": [
+"Eric Frank Russell"
+],
+"real": []
+},
+{
+"title": "Hereafter, Inc.",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "106",
+"authors": [
+"Lester del Rey"
+],
+"real": []
+},
+{
+"title": "Czech Interlude",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "114",
+"authors": [
+"Vic Phillips"
+],
+"real": []
+},
+{
+"title": "Mr. Arson",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "116",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Book Review (Unknown Worlds, December 1941)",
+"type": "ESSAY",
+"len": null,
+"page": "130",
+"authors": [
+"J. W. C., Jr."
+],
+"real": [
+"John W. Campbell, Jr."
+]
+}
+],
+"cover_artists": [],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 61836,
+"title": "Unknown Worlds, February 1942",
+"date": "1942-02-00",
+"items": [
+{
+"title": "The Undesired Princess (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "7",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Etaoin Shrdlu",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "67",
+"authors": [
+"Fredric Brown"
+],
+"real": []
+},
+{
+"title": "The Shoes",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "78",
+"authors": [
+"Robert Bloch"
+],
+"real": []
+},
+{
+"title": "He Didn't Like Cats",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "83",
+"authors": [
+"L. Ron Hubbard"
+],
+"real": []
+},
+{
+"title": "The Refugees",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "92",
+"authors": [
+"Frank Belknap Long"
+],
+"real": []
+},
+{
+"title": "The Sunken Land",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "97",
+"authors": [
+"Fritz Leiber, Jr."
+],
+"real": [
+"Fritz Leiber"
+]
+},
+{
+"title": "In His Own Image",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "106",
+"authors": [
+"Malcolm Jameson"
+],
+"real": []
+},
+{
+"title": "Book Review (Unknown Worlds, February 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "112",
+"authors": [
+"J. Wellington Wells"
+],
+"real": [
+"L. Sprague de Camp"
+]
+},
+{
+"title": "Design for Dreaming",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "113",
+"authors": [
+"Henry Kuttner"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 1131092,
+"title": "Unknown Worlds, March 1942",
+"date": "1942-03-00",
+"items": [
+{
+"title": "Etaoin Shrdlu",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "2",
+"authors": [
+"Fredric Brown"
+],
+"real": []
+},
+{
+"title": "He Didn't Like Cats",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "13",
+"authors": [
+"L. Ron Hubbard"
+],
+"real": []
+},
+{
+"title": "The Refugees",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "21",
+"authors": [
+"Frank Belknap Long"
+],
+"real": []
+},
+{
+"title": "The Sunken Land",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "26",
+"authors": [
+"Fritz Leiber, Jr."
+],
+"real": [
+"Fritz Leiber"
+]
+},
+{
+"title": "In His Own Image",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "35",
+"authors": [
+"Malcolm Jameson"
+],
+"real": []
+},
+{
+"title": "Design for Dreaming",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "40",
+"authors": [
+"Henry Kuttner"
+],
+"real": []
+},
+{
+"title": "The Golden Egg",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "55",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 61830,
+"title": "Unknown Worlds, April 1942",
+"date": "1942-04-00",
+"items": [
+{
+"title": "The Science of Magic",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Prelude to Armageddon",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "8",
+"authors": [
+"Cleve Cartmill"
+],
+"real": []
+},
+{
+"title": "Jesus Shoes",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "65",
+"authors": [
+"Allan R. Bosworth"
+],
+"real": []
+},
+{
+"title": "The Compleat Werewolf",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "68",
+"authors": [
+"Anthony Boucher"
+],
+"real": []
+},
+{
+"title": "The Room",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "93",
+"authors": [
+"L. Ron Hubbard"
+],
+"real": []
+},
+{
+"title": "Census Taker",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "100",
+"authors": [
+"Frank Belknap Long"
+],
+"real": []
+},
+{
+"title": "âAnd Having Writâ (Unknown Worlds, April 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "106",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Book Review (Unknown Worlds, April 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "108",
+"authors": [
+"Anthony Boucher"
+],
+"real": []
+},
+{
+"title": "Pobby",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "110",
+"authors": [
+"Jane Rice"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown Worlds, April 1942): Edd Cartier Is in the Army. Wonder If He's Doing Camouflage Designed to Make the Enemy Sleepless Via the Nightmare Route?",
+"type": "ESSAY",
+"len": null,
+"page": "106|106.1",
+"authors": [
+"Vincent Sullivan"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown Worlds, April 1942): You Can Get \"The Roaring Trumpet\" and a Modified \"Mathematics of Magic\" by de Camp and Pratt in Book FOrm Now",
+"type": "ESSAY",
+"len": null,
+"page": "106|106.2",
+"authors": [
+"Simpson M. Ritter"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown Worlds, April 1942): That \"Something\" Is Nightmares, Perhaps?",
+"type": "ESSAY",
+"len": null,
+"page": "106|106.3",
+"authors": [
+"Leroy Yerxa"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown Worlds, April 1942): The \"Finger\" Got Jammed in the Crowding of New Issues and Had to Stop Writing a While",
+"type": "ESSAY",
+"len": null,
+"page": "107|107.1",
+"authors": [
+"Paul Carter"
+],
+"real": [
+"Paul A. Carter"
+]
+},
+{
+"title": "Letter (Unknown Worlds, April 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "107|107.2",
+"authors": [
+"Lyon Sprague de Camp"
+],
+"real": [
+"L. Sprague de Camp"
+]
+}
+],
+"cover_artists": [],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 61838,
+"title": "Unknown Worlds, June 1942",
+"date": "1942-06-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown, June 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Solomon's Stone (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "8",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Grab Bags Are Dangerous",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "66",
+"authors": [
+"Frank Belknap Long"
+],
+"real": []
+},
+{
+"title": "Tomorrow",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "73",
+"authors": [
+"Robert Arthur"
+],
+"real": []
+},
+{
+"title": "The Ghost of Me",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "82",
+"authors": [
+"Anthony Boucher"
+],
+"real": []
+},
+{
+"title": "The Idol of the Flies",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "90",
+"authors": [
+"Jane Rice"
+],
+"real": []
+},
+{
+"title": "The Old Ones Hear",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "101",
+"authors": [
+"Malcolm Jameson"
+],
+"real": []
+},
+{
+"title": "On Books of Magic and Prophecy",
+"type": "ESSAY",
+"len": null,
+"page": "105",
+"authors": [
+"various"
+],
+"real": []
+},
+{
+"title": "The Key of Solomon the King",
+"type": "ESSAY",
+"len": null,
+"page": "105",
+"authors": [
+"Orval Graves"
+],
+"real": []
+},
+{
+"title": "Concerning Nostradamus and Co.",
+"type": "ESSAY",
+"len": null,
+"page": "106",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Broken Limbs: A Survey of the Nostradamus Crop",
+"type": "ESSAY",
+"len": null,
+"page": "107",
+"authors": [
+"Anthony Boucher"
+],
+"real": []
+},
+{
+"title": "Review of the Nonfiction Work \"Nostradamus: The Man Who Saw Through Time\" by Lee McCann",
+"type": "ESSAY",
+"len": null,
+"page": "109",
+"authors": [
+"J. Wellington Wells"
+],
+"real": [
+"L. Sprague de Camp"
+]
+},
+{
+"title": "Al Haddon's Lamp",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "110",
+"authors": [
+"Nelson S. Bond"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 1131097,
+"title": "Unknown Worlds, June 1942",
+"date": "1942-06-00",
+"items": [
+{
+"title": "Grab Bags Are Dangerous",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "2",
+"authors": [
+"Frank Belknap Long"
+],
+"real": []
+},
+{
+"title": "Tomorrow",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "10",
+"authors": [
+"Robert Arthur"
+],
+"real": []
+},
+{
+"title": "The Ghost of Me",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "19",
+"authors": [
+"Anthony Boucher"
+],
+"real": []
+},
+{
+"title": "The Idol of the Flies",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "26",
+"authors": [
+"Jane Rice"
+],
+"real": []
+},
+{
+"title": "Al Haddon's Lamp",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "37",
+"authors": [
+"Nelson S. Bond"
+],
+"real": []
+},
+{
+"title": "The Old Ones Hear",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "54",
+"authors": [
+"Malcolm Jameson"
+],
+"real": []
+},
+{
+"title": "The Room",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "58",
+"authors": [
+"L. Ron Hubbard"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 61832,
+"title": "Unknown Worlds, August 1942",
+"date": "1942-08-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown, August 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Hell Is Forever",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "8",
+"authors": [
+"Alfred Bester"
+],
+"real": []
+},
+{
+"title": "The Jumper",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "46",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": [
+"Theodore Sturgeon",
+"James H. Beard"
+]
+},
+{
+"title": "Everything's Jake",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "54",
+"authors": [
+"John Hawkins"
+],
+"real": []
+},
+{
+"title": "The Ghost",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "61",
+"authors": [
+"A. E. van Vogt"
+],
+"real": []
+},
+{
+"title": "The Hill and the Hole",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "78",
+"authors": [
+"Fritz Leiber, Jr."
+],
+"real": [
+"Fritz Leiber"
+]
+},
+{
+"title": "Fighters Never Quit",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "84",
+"authors": [
+"Malcolm Jameson"
+],
+"real": []
+},
+{
+"title": "The Wisdom of the East",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "90",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Step Into My Garden",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "98",
+"authors": [
+"Frank Belknap Long"
+],
+"real": []
+},
+{
+"title": "The Bargain",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "107",
+"authors": [
+"Cleve Cartmill"
+],
+"real": []
+},
+{
+"title": "Though Poppies Grow",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "115",
+"authors": [
+"Lester del Rey"
+],
+"real": []
+},
+{
+"title": "Sine Pace",
+"type": "POEM",
+"len": null,
+"page": "130",
+"authors": [
+"Edith Borden Greer"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 61841,
+"title": "Unknown Worlds, October 1942",
+"date": "1942-10-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown, October 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "The Unpleasant Profession of Jonathan Hoag",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "9",
+"authors": [
+"John Riverside"
+],
+"real": [
+"Robert A. Heinlein"
+]
+},
+{
+"title": "The Frog",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "59",
+"authors": [
+"P. Schuyler Miller"
+],
+"real": []
+},
+{
+"title": "Magician's Dinner",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "65",
+"authors": [
+"Jane Rice"
+],
+"real": []
+},
+{
+"title": "Letter to an Invisible Woman",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "79",
+"authors": [
+"Hannes Bok"
+],
+"real": []
+},
+{
+"title": "Are You Run-Down, Tiredâ",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "82",
+"authors": [
+"Babette Rosmond Lake"
+],
+"real": [
+"Babette Rosmond",
+"Leonard M. Lake"
+]
+},
+{
+"title": "The New One",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "86",
+"authors": [
+"Fredric Brown"
+],
+"real": []
+},
+{
+"title": "And I, One Life Too Late",
+"type": "POEM",
+"len": null,
+"page": "96",
+"authors": [
+"Ruth Stewart Schenley"
+],
+"real": []
+},
+{
+"title": "The Lie",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "97",
+"authors": [
+"Richard Louis"
+],
+"real": []
+},
+{
+"title": "The Darkest Path",
+"type": "POEM",
+"len": null,
+"page": "99",
+"authors": [
+"Arte Harbison"
+],
+"real": []
+},
+{
+"title": "The Goddess' Legacy",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "100",
+"authors": [
+"Malcolm Jameson"
+],
+"real": []
+},
+{
+"title": "Contemplation",
+"type": "POEM",
+"len": null,
+"page": "108",
+"authors": [
+"Marvin Miller"
+],
+"real": []
+},
+{
+"title": "- - - And Having Writ - - - (Unknown, October 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "109",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Compliments of the Author",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "111",
+"authors": [
+"Henry Kuttner"
+],
+"real": [
+"Henry Kuttner",
+"C. L. Moore"
+]
+},
+{
+"title": "Letter (Unknown, October 1942): Maybe Nostradamus Was Talking About an English Prime Minister of 2491?",
+"type": "ESSAY",
+"len": null,
+"page": "109|109.1",
+"authors": [
+"Robert J. Black"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, October 1942): We Make Mistakes Just as Slick as Anybody Eleseâand We Forget to Make Sure the Census of Stories Checked the Contents Page",
+"type": "ESSAY",
+"len": null,
+"page": "109|109.2",
+"authors": [
+"Walter Bornack"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, October 1942): That Hatred Hasn't Been \"Long Sleeping\"âIt Just Took a Cat Nap",
+"type": "ESSAY",
+"len": null,
+"page": "110|110.1",
+"authors": [
+"George Mather"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, October 1942): If You Want Back Issues of Unknown Worlds, Write Us, and If We Can't Supply You, We May Be Able to Tell You Where to Get Them",
+"type": "ESSAY",
+"len": null,
+"page": "110|110.2",
+"authors": [
+"Marijane Wingo"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 1131098,
+"title": "Unknown Worlds, October 1942",
+"date": "1942-10-00",
+"items": [
+{
+"title": "Magician's Dinner",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"Jane Rice"
+],
+"real": []
+},
+{
+"title": "The Frog",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "16",
+"authors": [
+"P. Schuyler Miller"
+],
+"real": []
+},
+{
+"title": "Letter to an Invisible Woman",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "24",
+"authors": [
+"Hannes Bok"
+],
+"real": []
+},
+{
+"title": "Compliments of the Author",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "28",
+"authors": [
+"Henry Kuttner"
+],
+"real": [
+"Henry Kuttner",
+"C. L. Moore"
+]
+},
+{
+"title": "The New One",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "45",
+"authors": [
+"Fredric Brown"
+],
+"real": []
+},
+{
+"title": "Contemplation",
+"type": "POEM",
+"len": null,
+"page": "53",
+"authors": [
+"Marvin Miller"
+],
+"real": []
+},
+{
+"title": "The Lie",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "54",
+"authors": [
+"Richard Louis"
+],
+"real": []
+},
+{
+"title": "The Goddess' Legacy",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "56",
+"authors": [
+"Malcolm Jameson"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 61835,
+"title": "Unknown Worlds, December 1942",
+"date": "1942-12-00",
+"items": [
+{
+"title": "Of Things Beyond: Aeronautical Pixies",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "The Sorcerer's Ship (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "9",
+"authors": [
+"Hannes Bok"
+],
+"real": []
+},
+{
+"title": "Watch Dog",
+"type": "POEM",
+"len": null,
+"page": "70",
+"authors": [
+"Frances Hall"
+],
+"real": []
+},
+{
+"title": "Transients Only",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "71",
+"authors": [
+"Mary MacGregor"
+],
+"real": [
+"Malcolm Jameson"
+]
+},
+{
+"title": "The Golden Age",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "82",
+"authors": [
+"Elmer Ransom"
+],
+"real": []
+},
+{
+"title": "The Wall",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "90",
+"authors": [
+"Robert Arthur"
+],
+"real": []
+},
+{
+"title": "The Hag SÃ©leen",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "96",
+"authors": [
+"Theodore Sturgeon",
+"James H. Beard"
+],
+"real": []
+},
+{
+"title": "It Will Come to You",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "106",
+"authors": [
+"Frank Belknap Long"
+],
+"real": []
+},
+{
+"title": "Book Review",
+"type": "ESSAY",
+"len": null,
+"page": "110",
+"authors": [
+"Anthony Boucher"
+],
+"real": []
+},
+{
+"title": "- - - And Having Writ - - - (Unknown, December 1942)",
+"type": "ESSAY",
+"len": null,
+"page": "111",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "The Elixir",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "114",
+"authors": [
+"Jane Rice"
+],
+"real": []
+},
+{
+"title": "Review of a Book of Prophecy from Egyptians to Hitler by John Cournos",
+"type": "ESSAY",
+"len": null,
+"page": "110|110.1",
+"authors": [
+"Anthony Boucher"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, October 1942): That Was No Accident!",
+"type": "ESSAY",
+"len": null,
+"page": "111|111.1",
+"authors": [
+"Damon King"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, October 1942): Disagreement on \"Poppies.\" Yesâ",
+"type": "ESSAY",
+"len": null,
+"page": "112|112.1",
+"authors": [
+"E. Everett Evans"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, October 1942): âAnd, No",
+"type": "ESSAY",
+"len": null,
+"page": "112|112.2",
+"authors": [
+"Harry Jenkins, Jr."
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, October 1942): Calling Mr. Phillip Haag! Sorry for That Slip. And If There Was Bribery, I'll Bet It Was With Tin, Not Gold! You Can't Make Linotype Metal with Gold!",
+"type": "ESSAY",
+"len": null,
+"page": "112|112.3",
+"authors": [
+"Anthony Boucher"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 61837,
+"title": "Unknown Worlds, February 1943",
+"date": "1943-02-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown Worlds, February 1943)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Wet Magic",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "9",
+"authors": [
+"Henry Kuttner"
+],
+"real": []
+},
+{
+"title": "The Ka of Kor-Sethon",
+"type": "POEM",
+"len": null,
+"page": "33",
+"authors": [
+"Hannes Bok"
+],
+"real": []
+},
+{
+"title": "Thieves' House",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "34",
+"authors": [
+"Fritz Leiber, Jr."
+],
+"real": [
+"Fritz Leiber"
+]
+},
+{
+"title": "The Angelic Angleworm",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "49",
+"authors": [
+"Fredric Brown"
+],
+"real": []
+},
+{
+"title": "The Ultimate Wish",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "71",
+"authors": [
+"E. M. Hull"
+],
+"real": [
+"E. Mayne Hull"
+]
+},
+{
+"title": "No Graven Image",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "79",
+"authors": [
+"Cleve Cartmill"
+],
+"real": []
+},
+{
+"title": "Guardian",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "102",
+"authors": [
+"Michael Corbin"
+],
+"real": [
+"Cleve Cartmill"
+]
+},
+{
+"title": "The Hat Trick",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "110",
+"authors": [
+"Felix Graham"
+],
+"real": [
+"Fredric Brown"
+]
+},
+{
+"title": "The Witch",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "118",
+"authors": [
+"A. E. van Vogt"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown Worlds, February 1943): Review of 1942",
+"type": "ESSAY",
+"len": null,
+"page": "130",
+"authors": [
+"Paul Carter"
+],
+"real": [
+"Paul A. Carter"
+]
+},
+{
+"title": "- - - And Having Writ - - - (Unknown Worlds, February 1943)",
+"type": "ESSAY",
+"len": null,
+"page": "114|114.1",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Letter (Unknown Worlds, February 1943): Bok's Just Getting into the Swing of Authorship",
+"type": "ESSAY",
+"len": null,
+"page": "114|114.2",
+"authors": [
+"Harry E. Mongold"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown Worlds, February 1943): We'll Scare You Again Sometimeâ",
+"type": "ESSAY",
+"len": null,
+"page": "114|114.3",
+"authors": [
+"John Hollis Mason"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown Worlds, February 1943): We Wuz Wrongâand She Wuz Robbed!",
+"type": "ESSAY",
+"len": null,
+"page": "115|115.1",
+"authors": [
+"Mary MacGregor"
+],
+"real": [
+"Malcolm Jameson"
+]
+},
+{
+"title": "Letter (Unknown Worlds, February 1943): Cartier's in the Army. And THose Way-Back Issues of Unknown May Be Found in Secondhand Magazine Stores, or Bought from Dealers Like Julius Unger, 1702 Dahill Road, Brooklyn, New York",
+"type": "ESSAY",
+"len": null,
+"page": "115|115.2",
+"authors": [
+"Alan W. Furber, Jr."
+],
+"real": []
+},
+{
+"title": "On Books of Magic (Unknown Worlds, February 1943)",
+"type": "ESSAY",
+"len": null,
+"page": "116|116.1",
+"authors": [
+"J. Wellington Wells"
+],
+"real": [
+"L. Sprague de Camp"
+]
+}
+],
+"cover_artists": [],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 359958,
+"title": "Unknown Worlds, February 1943",
+"date": "1943-02-00",
+"items": [
+{
+"title": "Transients Only",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "2",
+"authors": [
+"Mary MacGregor"
+],
+"real": [
+"Malcolm Jameson"
+]
+},
+{
+"title": "The Golden Age",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "14",
+"authors": [
+"Elmer Ransom"
+],
+"real": []
+},
+{
+"title": "The Wall",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "21",
+"authors": [
+"Robert Arthur"
+],
+"real": []
+},
+{
+"title": "The Hag SÃ¨leen",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "27",
+"authors": [
+"Theodore Sturgeon",
+"James H. Beard"
+],
+"real": []
+},
+{
+"title": "It Will Come to You",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "36",
+"authors": [
+"Frank Belknap Long"
+],
+"real": []
+},
+{
+"title": "The Elixir",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "39",
+"authors": [
+"Jane Rice"
+],
+"real": []
+},
+{
+"title": "The Bargain",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "52",
+"authors": [
+"Cleve Cartmill"
+],
+"real": []
+},
+{
+"title": "The Hill and the Hole",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "59",
+"authors": [
+"Fritz Leiber, Jr."
+],
+"real": [
+"Fritz Leiber"
+]
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 61831,
+"title": "Unknown Worlds, April 1943",
+"date": "1943-04-00",
+"items": [
+{
+"title": "New Order",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Conjure Wife (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "9",
+"authors": [
+"Fritz Leiber, Jr."
+],
+"real": [
+"Fritz Leiber"
+]
+},
+{
+"title": "The Golden Bridle",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "79",
+"authors": [
+"Jane Rice"
+],
+"real": []
+},
+{
+"title": "The Giftie Gien",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "94",
+"authors": [
+"Malcolm Jameson"
+],
+"real": []
+},
+{
+"title": "Book Review (Unknown Worlds, April 1943)",
+"type": "ESSAY",
+"len": null,
+"page": "103",
+"authors": [
+"Anthony Boucher",
+"Langley Searles"
+],
+"real": [
+"Anthony Boucher",
+"A. Langley Searles"
+]
+},
+{
+"title": "No Greater Love",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "105",
+"authors": [
+"Henry Kuttner"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 1131101,
+"title": "Unknown Worlds, May 1943",
+"date": "1943-05-00",
+"items": [
+{
+"title": "Wet Magic",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Henry Kuttner"
+],
+"real": []
+},
+{
+"title": "The Angelic Angleworm",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "28",
+"authors": [
+"Fredric Brown"
+],
+"real": []
+},
+{
+"title": "The Witch",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "50",
+"authors": [
+"A. E. van Vogt"
+],
+"real": []
+},
+{
+"title": "The Hat Trick",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "61",
+"authors": [
+"Felix Graham"
+],
+"real": [
+"Fredric Brown"
+]
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 61839,
+"title": "Unknown Worlds, June 1943",
+"date": "1943-06-00",
+"items": [
+{
+"title": "Of Things Beyond: Gremlins Breed Fast",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Wheesht!",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "9",
+"authors": [
+"Cleve Cartmill"
+],
+"real": []
+},
+{
+"title": "The Wishes We Make",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "35",
+"authors": [
+"E. Mayne Hull"
+],
+"real": []
+},
+{
+"title": "Blind Alley",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "48",
+"authors": [
+"Malcolm Jameson"
+],
+"real": []
+},
+{
+"title": "A Bargain in Bodies",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "71",
+"authors": [
+"Moses Schere"
+],
+"real": []
+},
+{
+"title": "Sriberdegibit",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "81",
+"authors": [
+"Anthony Boucher"
+],
+"real": []
+},
+{
+"title": "The Rabbit and the Rat",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "102",
+"authors": [
+"Robert Arthur"
+],
+"real": []
+},
+{
+"title": "The Devil Is Not Mocked",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "115",
+"authors": [
+"Manly Wade Wellman"
+],
+"real": []
+},
+{
+"title": "Eight Ball",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "120",
+"authors": [
+"Hugh Raymond"
+],
+"real": [
+"John B. Michel"
+]
+},
+{
+"title": "The Green-Eyed Monster",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "126",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+},
+{
+"title": "The Hounds of Kalimar",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "138",
+"authors": [
+"P. Schuyler Miller"
+],
+"real": []
+},
+{
+"title": "Book Reviews (Unknown, June 1943)",
+"type": "ESSAY",
+"len": null,
+"page": "156",
+"authors": [
+"Anthony Boucher"
+],
+"real": []
+},
+{
+"title": "Prophets and Critics",
+"type": "ESSAY",
+"len": null,
+"page": "156",
+"authors": [
+"Anthony Boucher"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 61833,
+"title": "Unknown Worlds, August 1943",
+"date": "1943-08-00",
+"items": [
+{
+"title": "Of Things Beyond (Unknown, August 1943)",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Hell Hath Fury",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "9",
+"authors": [
+"Cleve Cartmill"
+],
+"real": []
+},
+{
+"title": "Conscience, Ltd.",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "70",
+"authors": [
+"Jack Williamson"
+],
+"real": []
+},
+{
+"title": "Heaven Is What You Make It",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "85",
+"authors": [
+"Malcolm Jameson"
+],
+"real": []
+},
+{
+"title": "The Bones",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "107",
+"authors": [
+"Theodore Sturgeon",
+"James H. Beard"
+],
+"real": []
+},
+{
+"title": "One Man's Harp",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "120",
+"authors": [
+"Babette Rosmond"
+],
+"real": []
+},
+{
+"title": "They Bite",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "127",
+"authors": [
+"Anthony Boucher"
+],
+"real": []
+},
+{
+"title": "âAnd Having Writâ (Unknown, August 1943)",
+"type": "ESSAY",
+"len": null,
+"page": "136",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Letter (Unknown, August 1943): That Does Seem to Make Prophecy Difficult!",
+"type": "ESSAY",
+"len": null,
+"page": "137",
+"authors": [
+"Willy Ley"
+],
+"real": []
+},
+{
+"title": "Greenface",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "140",
+"authors": [
+"James H. Schmitz"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, August 1943): With Nostradamus, to Translate Is to Interpret. A True \"Literal\" Translation Is Impossible, Just as Slang Can't Be Translated",
+"type": "ESSAY",
+"len": null,
+"page": "136|136.1",
+"authors": [
+"D. C. King"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, August 1943): Maybe You'll Like Cortmill's \"Wheesht!\" Tooâ",
+"type": "ESSAY",
+"len": null,
+"page": "138|138.1",
+"authors": [
+"Phil Bronson"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown, August 1943): We'll Scare You Yet!",
+"type": "ESSAY",
+"len": null,
+"page": "138|138.2",
+"authors": [
+"Harry J. Yeidel"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 61842,
+"title": "Unknown Worlds, October 1943",
+"date": "1943-10-00",
+"items": [
+{
+"title": "Of Things Beyond: \"âIn Small Boxes\"",
+"type": "ESSAY",
+"len": null,
+"page": "6",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "The Book of Ptath (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "9",
+"authors": [
+"A. E. van Vogt"
+],
+"real": []
+},
+{
+"title": "The Refugee",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "111",
+"authors": [
+"Jane Rice"
+],
+"real": []
+},
+{
+"title": "The Patient",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "121",
+"authors": [
+"E. Mayne Hull"
+],
+"real": []
+},
+{
+"title": "Fido",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "125",
+"authors": [
+"Chester S. Geier"
+],
+"real": []
+},
+{
+"title": "Change",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "135",
+"authors": [
+"Roby Wentz"
+],
+"real": []
+},
+{
+"title": "Clean-Up",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "145",
+"authors": [
+"Cleve Cartmill"
+],
+"real": []
+},
+{
+"title": "âAnd Having Writâ (Unknown Worlds, October 1943)",
+"type": "ESSAY",
+"len": null,
+"page": "160",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+},
+{
+"title": "Letter (Unknown Worlds, October 1943): From Tony Boucher",
+"type": "ESSAY",
+"len": null,
+"page": "160|160.1",
+"authors": [
+"Anthony Boucher"
+],
+"real": []
+},
+{
+"title": "Letter (Unknown Worlds, October 1943): Helicopters Are More Reliable, Anyway",
+"type": "ESSAY",
+"len": null,
+"page": "160|160.2",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"John W. Campbell, Jr."
+]
+},
+{
+"id": 1131102,
+"title": "Unknown Worlds, October 1943",
+"date": "1943-10-00",
+"items": [
+{
+"title": "The Wishes We Make",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "2",
+"authors": [
+"E. Mayne Hull"
+],
+"real": []
+},
+{
+"title": "Blind Alley",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "12",
+"authors": [
+"Malcolm Jameson"
+],
+"real": []
+},
+{
+"title": "A Bargain in Bodies",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "29",
+"authors": [
+"Moses Schere"
+],
+"real": []
+},
+{
+"title": "The Devil Is Not Mocked",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "36",
+"authors": [
+"Manly Wade Wellman"
+],
+"real": []
+},
+{
+"title": "And I, One Life Too Late",
+"type": "POEM",
+"len": null,
+"page": "39",
+"authors": [
+"Ruth Stewart Schenley"
+],
+"real": []
+},
+{
+"title": "Sriberdegibit",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "40",
+"authors": [
+"Anthony Boucher"
+],
+"real": []
+},
+{
+"title": "Contemplation",
+"type": "POEM",
+"len": null,
+"page": "54",
+"authors": [
+"Marvin Miller"
+],
+"real": []
+},
+{
+"title": "The Rabbit and the Rat",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "55",
+"authors": [
+"Robert Arthur"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 1131109,
+"title": "Unknown Worlds, Autumn 1944",
+"date": "1944-00-00",
+"items": [
+{
+"title": "Wheesht!",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"Cleve Cartmill"
+],
+"real": []
+},
+{
+"title": "Eight Ball",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "22",
+"authors": [
+"Hugh Raymond"
+],
+"real": [
+"John B. Michel"
+]
+},
+{
+"title": "The Green-Eyed Monster",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "25",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+},
+{
+"title": "The Hounds of Kalimar",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "34",
+"authors": [
+"P. Schuyler Miller"
+],
+"real": []
+},
+{
+"title": "Heaven Is What You Make It",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "45",
+"authors": [
+"Malcolm Jameson"
+],
+"real": []
+},
+{
+"title": "Armageddon",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "61",
+"authors": [
+"Fredric Brown"
+],
+"real": []
+},
+{
+"title": "The Ka of Kor-Sethon",
+"type": "POEM",
+"len": null,
+"page": "64",
+"authors": [
+"Hannes Bok"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 1131104,
+"title": "Unknown Worlds, January 1944",
+"date": "1944-01-00",
+"items": [
+{
+"title": "Hell Hath Fury",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Cleve Cartmill"
+],
+"real": []
+},
+{
+"title": "One Man's Harp",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "49",
+"authors": [
+"Babette Rosmond"
+],
+"real": []
+},
+{
+"title": "Conscience, Ltd.",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "53",
+"authors": [
+"Jack Williamson"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 1131107,
+"title": "Unknown Worlds, May 1944",
+"date": "1944-05-00",
+"items": [
+{
+"title": "The Refugee",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "2",
+"authors": [
+"Jane Rice"
+],
+"real": []
+},
+{
+"title": "The Patient",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "9",
+"authors": [
+"E. Mayne Hull"
+],
+"real": []
+},
+{
+"title": "Change",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "12",
+"authors": [
+"Roby Wentz"
+],
+"real": []
+},
+{
+"title": "Fido",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "19",
+"authors": [
+"Chester S. Geier"
+],
+"real": []
+},
+{
+"title": "Clean-Up",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "26",
+"authors": [
+"Cleve Cartmill"
+],
+"real": []
+},
+{
+"title": "The Bones",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "35",
+"authors": [
+"Theodore Sturgeon",
+"James H. Beard"
+],
+"real": []
+},
+{
+"title": "Watch Dog",
+"type": "POEM",
+"len": null,
+"page": "43",
+"authors": [
+"Frances Hall"
+],
+"real": []
+},
+{
+"title": "They Bite",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "44",
+"authors": [
+"Anthony Boucher"
+],
+"real": []
+},
+{
+"title": "Greenface",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "50",
+"authors": [
+"James H. Schmitz"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 359735,
+"title": "Unknown Worlds, Autumn 1945",
+"date": "1945-00-00",
+"items": [
+{
+"title": "Pobby",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"Jane Rice"
+],
+"real": []
+},
+{
+"title": "The Compleat Werewolf",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "21",
+"authors": [
+"Anthony Boucher"
+],
+"real": []
+},
+{
+"title": "The Ultimate Wish",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "45",
+"authors": [
+"E. M. Hull"
+],
+"real": [
+"E. Mayne Hull"
+]
+},
+{
+"title": "Guardian",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "52",
+"authors": [
+"Michael Corbin"
+],
+"real": [
+"Cleve Cartmill"
+]
+},
+{
+"title": "Even the Angels",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "59",
+"authors": [
+"Malcolm Jameson"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 359736,
+"title": "Unknown Worlds, Winter 1945",
+"date": "1945-00-00",
+"items": [
+{
+"title": "The Road Beyond",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "2",
+"authors": [
+"Norman A. Daniels"
+],
+"real": []
+},
+{
+"title": "The Devil We Know",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "8",
+"authors": [
+"Henry Kuttner"
+],
+"real": []
+},
+{
+"title": "The Shoes",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "19",
+"authors": [
+"Robert Bloch"
+],
+"real": []
+},
+{
+"title": "The Wisdom of the East",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "24",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Step Into My Garden",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "31",
+"authors": [
+"Frank Belknap Long"
+],
+"real": []
+},
+{
+"title": "The Giftie Gien",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "39",
+"authors": [
+"Malcolm Jameson"
+],
+"real": []
+},
+{
+"title": "The Firing Line",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "46",
+"authors": [
+"George O. Smith"
+],
+"real": []
+},
+{
+"title": "Robots and Planes",
+"type": "ESSAY",
+"len": null,
+"page": "63",
+"authors": [
+"The Editor"
+],
+"real": [
+"John W. Campbell, Jr."
+]
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 1131113,
+"title": "Unknown Worlds, Spring 1945",
+"date": "1945-00-00",
+"items": [
+{
+"title": "Thieves' House",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"Fritz Leiber, Jr."
+],
+"real": [
+"Fritz Leiber"
+]
+},
+{
+"title": "No Graven Image",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "17",
+"authors": [
+"Cleve Cartmill"
+],
+"real": []
+},
+{
+"title": "The Jumper",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "40",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": [
+"Theodore Sturgeon",
+"James H. Beard"
+]
+},
+{
+"title": "The Ghost",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "48",
+"authors": [
+"A. E. van Vogt"
+],
+"real": []
+},
+{
+"title": "Sine Pace",
+"type": "POEM",
+"len": null,
+"page": "64",
+"authors": [
+"Edith Borden Greer"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 1131123,
+"title": "Unknown Worlds, Summer 1946",
+"date": "1946-00-00",
+"items": [
+{
+"title": "The Unpleasant Profession of Jonathan Hoag",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"John Riverside"
+],
+"real": [
+"Robert A. Heinlein"
+]
+},
+{
+"title": "Mr. Jinx",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "56",
+"authors": [
+"Robert Arthur"
+],
+"real": []
+},
+{
+"title": "The Darkest Path",
+"type": "POEM",
+"len": null,
+"page": "61",
+"authors": [
+"Arte Harbison"
+],
+"real": []
+},
+{
+"title": "Jesus Shoes",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "62",
+"authors": [
+"Allan R. Bosworth"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 1131124,
+"title": "Unknown Worlds, Winter 1946",
+"date": "1946-00-00",
+"items": [
+{
+"title": "The Land of Unreason (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "2",
+"authors": [
+"L. Sprague de Camp",
+"Fletcher Pratt"
+],
+"real": []
+},
+{
+"title": "Finger! Finger!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "61",
+"authors": [
+"Margaret Ronan"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 359751,
+"title": "Unknown Worlds, Spring 1947",
+"date": "1947-00-00",
+"items": [
+{
+"title": "The Case of the Friendly Corpse",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"L. Ron Hubbard"
+],
+"real": []
+},
+{
+"title": "Take My Drum to England",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "45",
+"authors": [
+"Nelson S. Bond"
+],
+"real": []
+},
+{
+"title": "No News Today",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "50",
+"authors": [
+"Cleve Cartmill"
+],
+"real": []
+},
+{
+"title": "The Dolphin's Doubloons",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "57",
+"authors": [
+"Silaki Ali Hassan"
+],
+"real": [
+"Ulysses George Mihalakis"
+]
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 359956,
+"title": "Unknown Worlds, Summer 1947",
+"date": "1947-00-00",
+"items": [
+{
+"title": "The Fountain",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Nelson S. Bond"
+],
+"real": []
+},
+{
+"title": "The Howling Tower",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "31",
+"authors": [
+"Fritz Leiber"
+],
+"real": []
+},
+{
+"title": "Not According to Dante",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "38",
+"authors": [
+"Malcolm Jameson"
+],
+"real": []
+},
+{
+"title": "The Shape of Desire",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "46",
+"authors": [
+"Cleve Cartmill"
+],
+"real": []
+},
+{
+"title": "Yesterday Was Monday",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "53",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+},
+{
+"title": "Joshua",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "61",
+"authors": [
+"R. Creighton Buck"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 359973,
+"title": "Unknown Worlds, Winter 1947",
+"date": "1947-00-00",
+"items": [
+{
+"title": "Swamp Train",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "2",
+"authors": [
+"Harry Walton"
+],
+"real": []
+},
+{
+"title": "The Sea Thing",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "9",
+"authors": [
+"A. E. van Vogt"
+],
+"real": []
+},
+{
+"title": "The Crest of the Wave",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "24",
+"authors": [
+"Jane Rice"
+],
+"real": []
+},
+{
+"title": "Nightmare Island",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "37",
+"authors": [
+"E. Waldo Hunter"
+],
+"real": [
+"Theodore Sturgeon"
+]
+},
+{
+"title": "The Wisdom of an Ass",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "51",
+"authors": [
+"Silaki Ali Hassan"
+],
+"real": [
+"Ulysses George Mihalakis"
+]
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 359976,
+"title": "Unknown Worlds, Spring 1948",
+"date": "1948-00-00",
+"items": [
+{
+"title": "He Shuttles",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "2",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+},
+{
+"title": "The Psychomorph",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "11",
+"authors": [
+"E. A. Grosser"
+],
+"real": []
+},
+{
+"title": "When It Was Moonlight",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "18",
+"authors": [
+"Manly Wade Wellman"
+],
+"real": []
+},
+{
+"title": "Well of the Angels",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "25",
+"authors": [
+"E. Hoffmann Price"
+],
+"real": []
+},
+{
+"title": "The Pipes of Pan",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "37",
+"authors": [
+"Lester del Rey"
+],
+"real": []
+},
+{
+"title": "The Kraken",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "45",
+"authors": [
+"Frederick Engelhardt"
+],
+"real": []
+},
+{
+"title": "Transparent Stuff",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "55",
+"authors": [
+"Dorothy Quick"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 359978,
+"title": "Unknown Worlds, Summer 1948",
+"date": "1948-00-00",
+"items": [
+{
+"title": "Bit of Tapestry",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"Cleve Cartmill"
+],
+"real": []
+},
+{
+"title": "Occupation: Demigod",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "49",
+"authors": [
+"Nelson S. Bond"
+],
+"real": []
+},
+{
+"title": "\"With a Blunt Instrument\"",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "57",
+"authors": [
+"Eric Frank Russell"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 359985,
+"title": "Unknown Worlds, Winter 1948",
+"date": "1948-00-00",
+"items": [
+{
+"title": "The Enchanted Week-End",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "2",
+"authors": [
+"John MacCormac"
+],
+"real": []
+},
+{
+"title": "Caliph of Yafri",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "28",
+"authors": [
+"Silaki Ali Hassan"
+],
+"real": [
+"Ulysses George Mihalakis"
+]
+},
+{
+"title": "The Dawn of Reason",
+"type": "POEM",
+"len": null,
+"page": "40",
+"authors": [
+"James H. Beard"
+],
+"real": []
+},
+{
+"title": "The Coppersmith",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "41",
+"authors": [
+"Lester del Rey"
+],
+"real": []
+},
+{
+"title": "The House",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "47",
+"authors": [
+"Jane Rice"
+],
+"real": []
+},
+{
+"title": "Snulbug",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "58",
+"authors": [
+"Anthony Boucher"
+],
+"real": []
+},
+{
+"title": "Lurani",
+"type": "POEM",
+"len": null,
+"page": "64",
+"authors": [
+"Paul Dennis Lavond"
+],
+"real": [
+"Robert A. W. Lowndes"
+]
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 359964,
+"title": "Unknown Worlds, Winter 1949",
+"date": "1949-00-00",
+"items": [
+{
+"title": "The Ultimate Egoist",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "3",
+"authors": [
+"E. Hunter Waldo"
+],
+"real": [
+"Theodore Sturgeon"
+]
+},
+{
+"title": "The Crossroads",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "12",
+"authors": [
+"L. Ron Hubbard"
+],
+"real": []
+},
+{
+"title": "Carillon of Skulls",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "23",
+"authors": [
+"Philip James"
+],
+"real": [
+"Lester del Rey",
+"James H. Beard"
+]
+},
+{
+"title": "They",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "31",
+"authors": [
+"Robert Heinlein"
+],
+"real": [
+"Robert A. Heinlein"
+]
+},
+{
+"title": "The Forbidden Trail",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "39",
+"authors": [
+"Jane Rice"
+],
+"real": []
+},
+{
+"title": "The Hexer",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "54",
+"authors": [
+"H. W. Guernsey"
+],
+"real": [
+"Howard Wandrei"
+]
+},
+{
+"title": "The Summons",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "60",
+"authors": [
+"Don Evans"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 359988,
+"title": "Unknown Worlds, Spring 1949",
+"date": "1949-00-00",
+"items": [
+{
+"title": "The Golden Bridle",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"Jane Rice"
+],
+"real": []
+},
+{
+"title": "No Greater Love",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "14",
+"authors": [
+"Henry Kuttner"
+],
+"real": []
+},
+{
+"title": "A Good Knight's Work",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "31",
+"authors": [
+"Robert Bloch"
+],
+"real": []
+},
+{
+"title": "Sine Pace",
+"type": "POEM",
+"len": null,
+"page": "40",
+"authors": [
+"Edith Borden Greer"
+],
+"real": []
+},
+{
+"title": "Mr. Arson",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "41",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Hereafter, Inc.",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "50",
+"authors": [
+"Lester del Rey"
+],
+"real": []
+},
+{
+"title": "Brat",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "56",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+},
+{
+"title": "Czech Interlude",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "63",
+"authors": [
+"Vic Phillips"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+},
+{
+"id": 359990,
+"title": "Unknown Worlds, Summer 1949",
+"date": "1949-00-00",
+"items": [
+{
+"title": "Solomon's Stone (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "2",
+"authors": [
+"L. Sprague de Camp"
+],
+"real": []
+},
+{
+"title": "Fisherman's Luck",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "56",
+"authors": [
+"Frank Belknap Long"
+],
+"real": []
+},
+{
+"title": "Prescience",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "61",
+"authors": [
+"Nelson S. Bond"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"uncredited"
+]
+}
+]
+}

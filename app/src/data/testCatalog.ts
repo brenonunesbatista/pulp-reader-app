@@ -43,14 +43,13 @@ export async function testCatalog(): Promise<Db> {
       (1, 'Amazing Stories', 'Amazing Stories, April 1926', '1926', 'April', 'Frank R. Paul', 'Hugo Gernsback'),
       (2, 'Amazing Stories', 'Amazing Stories, November 1932', '1932', 'November', 'Leo Morey', ''),
       (3, 'Amazing Stories', 'Amazing Stories, March 1940', '1940', 'March', 'Frank R. Paul', '');
-    INSERT INTO story_fts (rowid, title, series, authors, translators, type_label, issue_title) VALUES
-      (1, 'A New Sort of Magazine', '', 'Hugo Gernsback', '', 'editorial', 'Amazing Stories, April 1926'),
-      (2, 'Off on a Comet', '', 'Jules Verne', 'Ellen E. Frewer', 'novel', 'Amazing Stories, April 1926'),
-      (3, 'The New Accelerator', '', 'H. G. Wells', '', 'short story', 'Amazing Stories, April 1926'),
-      (4, 'Doctor Hackensaw''s Secrets', '', 'Clement Fezandié', '', 'short story', 'Amazing Stories, November 1932'),
-      (5, 'The First Martian', '', 'Eando Binder Eando Binder = Earl Binder & Otto O. Binder', '', 'novelette',
-       'Amazing Stories, March 1940'),
-      (6, 'The Time Machine Returns', '', 'H. G. Wells', '', 'short story', 'Amazing Stories, March 1940');
+    INSERT INTO story_fts (rowid, title, series, authors, translators, type_label) VALUES
+      (1, 'A New Sort of Magazine', '', 'Hugo Gernsback', '', 'editorial'),
+      (2, 'Off on a Comet', '', 'Jules Verne', 'Ellen E. Frewer', 'novel'),
+      (3, 'The New Accelerator', '', 'H. G. Wells', '', 'short story'),
+      (4, 'Doctor Hackensaw''s Secrets', '', 'Clement Fezandié', '', 'short story'),
+      (5, 'The First Martian', '', 'Eando Binder Eando Binder = Earl Binder & Otto O. Binder', '', 'novelette'),
+      (6, 'The Time Machine Returns', '', 'H. G. Wells', '', 'short story');
     INSERT INTO person_fts (rowid, name, roles) VALUES (1, 'Clement Fezandié', 'author'), (2, 'Ellen E. Frewer', 'translator'),
       (3, 'Frank R. Paul', 'cover artist'), (4, 'H. G. Wells', 'author'), (5, 'Hugo Gernsback', 'author editor'),
       (6, 'Jules Verne', 'author'), (7, 'Eando Binder', 'author'), (8, 'Leo Morey', 'cover artist');

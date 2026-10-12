@@ -1,0 +1,7714 @@
+{
+"source": "ISFDB, The Internet Speculative Fiction Database (https://www.isfdb.org), CC BY 4.0",
+"dump": "backup-MySQL-55-2026-10-10.zip",
+"pattern": "^Ellery Queen's Mystery Magazine, ",
+"issues": [
+{
+"id": 290328,
+"title": "Ellery Queen's Mystery Magazine, January 1944",
+"date": "1944-01-00",
+"items": [
+{
+"title": "The Witness for the Prosecution",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "18",
+"authors": [
+"Agatha Christie"
+],
+"real": []
+},
+{
+"title": "No CorpseâNo Murder",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "36",
+"authors": [
+"P. C. Wren"
+],
+"real": []
+},
+{
+"title": "The Hound",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "51",
+"authors": [
+"William Faulkner"
+],
+"real": []
+},
+{
+"title": "The Flying Death",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "66",
+"authors": [
+"Samuel Hopkins Adams"
+],
+"real": []
+},
+{
+"title": "The Djinn Murder",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "98",
+"authors": [
+"Fredric Brown"
+],
+"real": []
+},
+{
+"title": "The Waters of Oblivion",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "111",
+"authors": [
+"S. Weir Mitchell"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Salter"
+],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 618878,
+"title": "Ellery Queen's Mystery Magazine, March 1945",
+"date": "1945-03-00",
+"items": [
+{
+"title": "The Case of the Emerald Sky",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Eric Ambler"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 376661,
+"title": "Ellery Queen's Mystery Magazine, May 1945",
+"date": "1945-05-00",
+"items": [
+{
+"title": "The Stripper",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "52",
+"authors": [
+"H. H. Holmes"
+],
+"real": [
+"Anthony Boucher"
+]
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 416271,
+"title": "Ellery Queen's Mystery Magazine, November 1945",
+"date": "1945-11-00",
+"items": [
+{
+"title": "Karmesin, Murderer",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "47",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+},
+{
+"title": "Karmesin, Jewel Thief",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "53",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+},
+{
+"title": "The Blind Spot",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "57",
+"authors": [
+"Barry Perowne"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 299720,
+"title": "Ellery Queen's Mystery Magazine, February 1946",
+"date": "1946-02-00",
+"items": [
+{
+"title": "The Necklace",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Jack Moffitt"
+],
+"real": []
+},
+{
+"title": "Like Count Palmieri",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Anthony Boucher"
+],
+"real": []
+},
+{
+"title": "Cummings Monk",
+"type": "SHORTFICTION",
+"len": null,
+"page": "",
+"authors": [
+"M. P. Shiel"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 295448,
+"title": "Ellery Queen's Mystery Magazine, July 1946",
+"date": "1946-07-00",
+"items": [
+{
+"title": "Chinoiserie",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "",
+"authors": [
+"Helen McCloy"
+],
+"real": []
+},
+{
+"title": "The Man Who Shot the Fox",
+"type": "SHORTFICTION",
+"len": null,
+"page": "",
+"authors": [
+"G. K. Chesterton"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 377246,
+"title": "Ellery Queen's Mystery Magazine, May 1947",
+"date": "1947-05-00",
+"items": [
+{
+"title": "Don't Look Behind You",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Fredric Brown"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 299178,
+"title": "Ellery Queen's Mystery Magazine, November 1947",
+"date": "1947-11-00",
+"items": [
+{
+"title": "The House in Goblin Wood",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "",
+"authors": [
+"Carter Dickson"
+],
+"real": [
+"John Dickson Carr"
+]
+},
+{
+"title": "The Tangible Illusion",
+"type": "SHORTFICTION",
+"len": null,
+"page": "",
+"authors": [
+"C. Daly King"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 675371,
+"title": "Ellery Queen's Mystery Magazine, December 1947",
+"date": "1947-12-00",
+"items": [
+{
+"title": "Karmesin, Swindler",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "32|1",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+},
+{
+"title": "Karmesin, Criminal Lawyer",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "37|2",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+},
+{
+"title": "The Amateur of Crime",
+"type": "SHORTFICTION",
+"len": null,
+"page": "66|3",
+"authors": [
+"Stephen Vincent BenÃ©t"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 675346,
+"title": "Ellery Queen's Mystery Magazine, April 1948",
+"date": "1948-04-00",
+"items": [
+{
+"title": "The Snout",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "40",
+"authors": [
+"Edward Lucas White"
+],
+"real": []
+},
+{
+"title": "The Five of Swords",
+"type": "SHORTFICTION",
+"len": null,
+"page": "81",
+"authors": [
+"G. K. Chesterton"
+],
+"real": []
+},
+{
+"title": "Karmesin, Bank Robber",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 297735,
+"title": "Ellery Queen's Mystery Magazine, May 1948",
+"date": "1948-05-00",
+"items": [
+{
+"title": "The Specialty of the House",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "65",
+"authors": [
+"Stanley Ellin"
+],
+"real": []
+},
+{
+"title": "A Quatrain of Ling Tai Fu's",
+"type": "SHORTFICTION",
+"len": null,
+"page": "94",
+"authors": [
+"Donn Byrne"
+],
+"real": []
+},
+{
+"title": "The Man Who Disappeared",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "106",
+"authors": [
+"L. T. Meade",
+"Robert Eustace"
+],
+"real": []
+},
+{
+"title": "Death Sentence",
+"type": "SHORTFICTION",
+"len": null,
+"page": "121",
+"authors": [
+"Miriam Allen deFord"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 410615,
+"title": "Ellery Queen's Mystery Magazine, August 1948",
+"date": "1948-08-00",
+"items": [
+{
+"title": "The Debt Collector",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "42",
+"authors": [
+"Maurice Level"
+],
+"real": []
+},
+{
+"title": "The Coupon",
+"type": "SHORTFICTION",
+"len": null,
+"page": "47",
+"authors": [
+"Karel Čapek"
+],
+"real": []
+},
+{
+"title": "Being a Murderer Myself",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "89",
+"authors": [
+"Arthur Williams"
+],
+"real": [
+"A. Williams"
+]
+},
+{
+"title": "The Garden of Forking Paths",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "102",
+"authors": [
+"Jorge Luis Borges"
+],
+"real": []
+},
+{
+"title": "The Night Reveals",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "121",
+"authors": [
+"Cornell Woolrich"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 675378,
+"title": "Ellery Queen's Mystery Magazine, May 1949",
+"date": "1949-05-00",
+"items": [
+{
+"title": "Beyond the Sea of Death",
+"type": "SHORTFICTION",
+"len": null,
+"page": "40|1",
+"authors": [
+"Miriam Allen deFord"
+],
+"real": []
+},
+{
+"title": "Karmesin, Con Man",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "110|2",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+},
+{
+"title": "The Problem Club",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "115|3",
+"authors": [
+"Barry Pain"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 676708,
+"title": "Ellery Queen's Mystery Magazine, July 1949",
+"date": "1949-07-00",
+"items": [
+{
+"title": "Dirge",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "57|1",
+"authors": [
+"Hector Bolitho"
+],
+"real": []
+},
+{
+"title": "Karmesin, Blackmailer",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "65|2",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+},
+{
+"title": "Floor, Please",
+"type": "SHORTFICTION",
+"len": null,
+"page": "71|3",
+"authors": [
+"Stephen Vincent BenÃ©t"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 332453,
+"title": "Ellery Queen's Mystery Magazine, August 1949",
+"date": "1949-08-00",
+"items": [
+{
+"title": "Crisis, 1999",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "12|1",
+"authors": [
+"Fredric Brown"
+],
+"real": []
+},
+{
+"title": "Query",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "49|2",
+"authors": [
+"Austin J. Small"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 677138,
+"title": "Ellery Queen's Mystery Magazine, August 1950",
+"date": "1950-08-00",
+"items": [
+{
+"title": "\"I Murdered a Man\"",
+"type": "SHORTFICTION",
+"len": null,
+"page": "17|1",
+"authors": [
+"Miriam Allen deFord"
+],
+"real": []
+},
+{
+"title": "Natural Selection",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "74|2",
+"authors": [
+"Gilbert Thomas"
+],
+"real": []
+},
+{
+"title": "Karmesin, Racketeer",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "123|3",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 300116,
+"title": "Ellery Queen's Mystery Magazine, June 1951",
+"date": "1951-06-00",
+"items": [
+{
+"title": "The Man Whose Wishes Came True",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"C. S. Forester"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 325953,
+"title": "Ellery Queen's Mystery Magazine, November 1951",
+"date": "1951-11-00",
+"items": [
+{
+"title": "Fool's Mate",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "3|1",
+"authors": [
+"Stanley Ellin"
+],
+"real": []
+},
+{
+"title": "It Wouldn't Be Fair",
+"type": "SHORTFICTION",
+"len": null,
+"page": "42|2",
+"authors": [
+"Jack Finney"
+],
+"real": []
+},
+{
+"title": "A Deal in Ostriches",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "106|3",
+"authors": [
+"H. G. Wells"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 377241,
+"title": "Ellery Queen's Mystery Magazine, December 1952",
+"date": "1952-12-00",
+"items": [
+{
+"title": "Morte d'Alain: An Unrecorded Idyll of the King",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "74",
+"authors": [
+"Maxey Brooke"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 300846,
+"title": "Ellery Queen's Mystery Magazine, April 1954",
+"date": "1954-04-00",
+"items": [
+{
+"title": "Triple Cross",
+"type": "SHORTFICTION",
+"len": null,
+"page": "34|1",
+"authors": [
+"John D. MacDonald"
+],
+"real": []
+},
+{
+"title": "Peters, Detective",
+"type": "SHORTFICTION",
+"len": null,
+"page": "46|2",
+"authors": [
+"Eden Phillpotts"
+],
+"real": []
+},
+{
+"title": "April Fool",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "65|3",
+"authors": [
+"Mark Van Doren"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 305262,
+"title": "Ellery Queen's Mystery Magazine, June 1954",
+"date": "1954-06-00",
+"items": [
+{
+"title": "The Whole Town's Sleeping",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "3|1",
+"authors": [
+"Ray Bradbury"
+],
+"real": []
+},
+{
+"title": "The Master of Mystery",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "42|2",
+"authors": [
+"Jack London"
+],
+"real": []
+},
+{
+"title": "The Fortune Teller",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "51|3",
+"authors": [
+"Karel Capek"
+],
+"real": [
+"Karel Čapek"
+]
+},
+{
+"title": "The Day of the Last Rock Fight",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "65|4",
+"authors": [
+"Joseph Whitehill"
+],
+"real": []
+},
+{
+"title": "At Midnight, in the Month of June",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "134|5",
+"authors": [
+"Ray Bradbury"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Dirone Photography"
+],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 298522,
+"title": "Ellery Queen's Mystery Magazine, September 1954",
+"date": "1954-09-00",
+"items": [
+{
+"title": "The Unexpected",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "81|1",
+"authors": [
+"Jack London"
+],
+"real": []
+},
+{
+"title": "You Know What, Teacher?",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "134|2",
+"authors": [
+"Zenna Henderson"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 359370,
+"title": "Ellery Queen's Mystery Magazine, May 1955",
+"date": "1955-05-00",
+"items": [
+{
+"title": "The Gentleman Caller",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "81|1",
+"authors": [
+"Veronica Parker Johns"
+],
+"real": []
+},
+{
+"title": "The Seeds of Murder",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "108|2",
+"authors": [
+"John F. Suter"
+],
+"real": []
+},
+{
+"title": "The Fog on Pemble Green",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "124|3",
+"authors": [
+"Shirley Barker"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Salter"
+],
+"editors": [
+"Ellery Queen"
+]
+},
+{
+"id": 699963,
+"title": "Ellery Queen's Mystery Magazine, June 1955",
+"date": "1955-06-00",
+"items": [
+{
+"title": "The Case of Mr. Pelham",
+"type": "SHORTFICTION",
+"len": null,
+"page": "50|1",
+"authors": [
+"Anthony Armstrong (1897-1976)"
+],
+"real": []
+},
+{
+"title": "Killers Three: The Perfect Crime",
+"type": "SHORTFICTION",
+"len": null,
+"page": "65|2",
+"authors": [
+"Fredric Brown"
+],
+"real": []
+},
+{
+"title": "Morte d'Espier",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "76|3",
+"authors": [
+"Maxey Brooke"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Ellery Queen"
+]
+},
+{
+"id": 865032,
+"title": "Ellery Queen's Mystery Magazine, July 1955",
+"date": "1955-07-00",
+"items": [
+{
+"title": "Markheim",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "45",
+"authors": [
+"Robert Louis Stevenson"
+],
+"real": []
+},
+{
+"title": "The Letter",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "65",
+"authors": [
+"Fredric Brown"
+],
+"real": []
+},
+{
+"title": "Make Westing",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "66",
+"authors": [
+"Jack London"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Ellery Queen"
+]
+},
+{
+"id": 706141,
+"title": "Ellery Queen's Mystery Magazine, October 1956",
+"date": "1956-10-00",
+"items": [
+{
+"title": "The Secret Darkness",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "67",
+"authors": [
+"Davis Grubb"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 332412,
+"title": "Ellery Queen's Mystery Magazine, April 1957",
+"date": "1957-04-00",
+"items": [
+{
+"title": "The Necessity of His Condition",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6|1",
+"authors": [
+"Avram Davidson"
+],
+"real": []
+},
+{
+"title": "The Girl I Left Behind Me",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "69|2",
+"authors": [
+"Muriel Spark"
+],
+"real": []
+},
+{
+"title": "Country Caper",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "92|3",
+"authors": [
+"Robert Sheckley"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 702998,
+"title": "Ellery Queen's Mystery Magazine, June 1957",
+"date": "1957-06-00",
+"items": [
+{
+"title": "Dig That Crazy Grave!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "118",
+"authors": [
+"Robert Bloch"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 1044673,
+"title": "Ellery Queen's Mystery Magazine, July 1957",
+"date": "1957-07-00",
+"items": [
+{
+"title": "The Mayor Calls His Family",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "27",
+"authors": [
+"Manly Wade Wellman"
+],
+"real": []
+},
+{
+"title": "Macagony's Fist",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "85",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Kelly Freas"
+],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 381697,
+"title": "Ellery Queen's Mystery Magazine, October 1957",
+"date": "1957-10-00",
+"items": [
+{
+"title": "Crime in Rhyme",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "20|1",
+"authors": [
+"Robert Bloch"
+],
+"real": []
+},
+{
+"title": "Walking Alone",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "102|2",
+"authors": [
+"Miriam Allen deFord"
+],
+"real": []
+},
+{
+"title": "Malice in Wonderland",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "114|3",
+"authors": [
+"Rufus King"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 441900,
+"title": "Ellery Queen's Mystery Magazine, November 1957",
+"date": "1957-11-00",
+"items": [
+{
+"title": "Sock Finish",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "15|1",
+"authors": [
+"Robert Bloch"
+],
+"real": []
+},
+{
+"title": "Wages of Crime",
+"type": "SHORTFICTION",
+"len": null,
+"page": "82|2",
+"authors": [
+"Dashiell Hammett"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 604957,
+"title": "Ellery Queen's Mystery Magazine, December 1957",
+"date": "1957-12-00",
+"items": [
+{
+"title": "Agree - or Die",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "5|1",
+"authors": [
+"Rufus King"
+],
+"real": []
+},
+{
+"title": "Personal Interview",
+"type": "SHORTFICTION",
+"len": null,
+"page": "30|2",
+"authors": [
+"Henry Slesar"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 597524,
+"title": "Ellery Queen's Mystery Magazine, February 1958",
+"date": "1958-02-00",
+"items": [
+{
+"title": "The Searching Cats",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "40|1",
+"authors": [
+"Frances Lockridge",
+"Richard Lockridge"
+],
+"real": []
+},
+{
+"title": "Hush-a-Bye, My Baby",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "69|2",
+"authors": [
+"Anton Chekhov"
+],
+"real": [
+"Антон Чехов"
+]
+},
+{
+"title": "The Martian Crown Jewels",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "74|3",
+"authors": [
+"Poul Anderson"
+],
+"real": []
+},
+{
+"title": "The Smell of Big Time",
+"type": "SHORTFICTION",
+"len": null,
+"page": "116|4",
+"authors": [
+"Paul W. Fairman"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 441920,
+"title": "Ellery Queen's Mystery Magazine, April 1958",
+"date": "1958-04-00",
+"items": [
+{
+"title": "Doors in the Mind",
+"type": "SHORTFICTION",
+"len": null,
+"page": "51|1",
+"authors": [
+"Alan E. Nourse"
+],
+"real": []
+},
+{
+"title": "Is Betsy Blake Still Alive?",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "86|2",
+"authors": [
+"Robert Bloch"
+],
+"real": []
+},
+{
+"title": "Object Lesson",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "101|3",
+"authors": [
+"Ellery Queen"
+],
+"real": [
+"Frederic Dannay",
+"Manfred Bennington Lee"
+]
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 354715,
+"title": "Ellery Queen's Mystery Magazine, October 1958",
+"date": "1958-10-00",
+"items": [
+{
+"title": "The Child Watcher",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "57|1",
+"authors": [
+"Ernest Harrison"
+],
+"real": []
+},
+{
+"title": "The Town Where No One Got Off",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "108|2",
+"authors": [
+"Ray Bradbury"
+],
+"real": []
+},
+{
+"title": "Thou Still Unravished Bride",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "119|3",
+"authors": [
+"Avram Davidson"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 381452,
+"title": "Ellery Queen's Mystery Magazine, February 1959",
+"date": "1959-02-00",
+"items": [
+{
+"title": "Karmesin and the Crown Jewels",
+"type": "SHORTFICTION",
+"len": null,
+"page": "36|1",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+},
+{
+"title": "The Dive People",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "45|2",
+"authors": [
+"Avram Davidson"
+],
+"real": []
+},
+{
+"title": "The Man in the Passage",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "79|3",
+"authors": [
+"G. K. Chesterton"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 707328,
+"title": "Ellery Queen's Mystery Magazine, April 1959",
+"date": "1959-04-00",
+"items": [
+{
+"title": "What Was in the Box?",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "43|1",
+"authors": [
+"Richard Matheson"
+],
+"real": []
+},
+{
+"title": "The Murder of George Washington",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "48|2",
+"authors": [
+"Richard M. Gordon"
+],
+"real": []
+},
+{
+"title": "Anniversary Gift",
+"type": "SHORTFICTION",
+"len": null,
+"page": "50|3",
+"authors": [
+"John Collier"
+],
+"real": []
+},
+{
+"title": "Best Mysteries of the Month (Ellery Queen's Mystery Magazine, April 1959)",
+"type": "ESSAY",
+"len": null,
+"page": "67|4",
+"authors": [
+"Anthony Boucher"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 441901,
+"title": "Ellery Queen's Mystery Magazine, May 1959",
+"date": "1959-05-00",
+"items": [
+{
+"title": "Show Biz",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "28|1",
+"authors": [
+"Robert Bloch"
+],
+"real": []
+},
+{
+"title": "Jealousy Is the Devil",
+"type": "SHORTFICTION",
+"len": null,
+"page": "33|2",
+"authors": [
+"Agatha Christie"
+],
+"real": []
+},
+{
+"title": "Doctor's Orders",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "86|3",
+"authors": [
+"John F. Suter"
+],
+"real": []
+},
+{
+"title": "The Greatest Monster of Them All",
+"type": "SHORTFICTION",
+"len": null,
+"page": "88|4",
+"authors": [
+"Bryce Walton"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 673893,
+"title": "Ellery Queen's Mystery Magazine, October 1959",
+"date": "1959-10-00",
+"items": [
+{
+"title": "Murder Is a Public Matter",
+"type": "SHORTFICTION",
+"len": null,
+"page": "21|1",
+"authors": [
+"Ross Macdonald"
+],
+"real": []
+},
+{
+"title": "Open Verdict",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "123|2",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 297100,
+"title": "Ellery Queen's Mystery Magazine, December 1959",
+"date": "1959-12-00",
+"items": [
+{
+"title": "State of Assassination",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "50|1",
+"authors": [
+"Poul Anderson"
+],
+"real": []
+},
+{
+"title": "The Naked Man in the Elephant House",
+"type": "SHORTFICTION",
+"len": null,
+"page": "68|2",
+"authors": [
+"Edgar Pangborn"
+],
+"real": []
+},
+{
+"title": "The Straw Man",
+"type": "SHORTFICTION",
+"len": null,
+"page": "81|3",
+"authors": [
+"Melville Davisson Post"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 270318,
+"title": "Ellery Queen's Mystery Magazine, July 1960",
+"date": "1960-07-00",
+"items": [
+{
+"title": "Crime on Mars",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "107",
+"authors": [
+"Arthur C. Clarke"
+],
+"real": []
+},
+{
+"title": "The Thief Who Played Dead",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "118",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 333333,
+"title": "Ellery Queen's Mystery Magazine, October 1960",
+"date": "1960-10-00",
+"items": [
+{
+"title": "The Symbolic Logic of Murder",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "94|1",
+"authors": [
+"John Reese"
+],
+"real": []
+},
+{
+"title": "Wally the Optimistic Op",
+"type": "SHORTFICTION",
+"len": null,
+"page": "110|2",
+"authors": [
+"Paul W. Fairman"
+],
+"real": []
+},
+{
+"title": "The Ultimate Clue",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "129",
+"authors": [
+"Anthony Boucher"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 732506,
+"title": "Ellery Queen's Mystery Magazine, February 1961",
+"date": "1961-02-00",
+"items": [
+{
+"title": "Out of the Darkness",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "58",
+"authors": [
+"Gordon R. Dickson"
+],
+"real": []
+},
+{
+"title": "The Dead Do Not Come Back",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "67",
+"authors": [
+"Jack London"
+],
+"real": []
+},
+{
+"title": "The Man in the Next Cell",
+"type": "SHORTFICTION",
+"len": null,
+"page": "108",
+"authors": [
+"Henry Slesar"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Emsh"
+],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 332417,
+"title": "Ellery Queen's Mystery Magazine, March 1961",
+"date": "1961-03-00",
+"items": [
+{
+"title": "The Chinese Puzzle Box",
+"type": "SHORTFICTION",
+"len": null,
+"page": "120|1",
+"authors": [
+"Agatha Christie"
+],
+"real": []
+},
+{
+"title": "Where Do You Live, Queen Esther?",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "128|2",
+"authors": [
+"Avram Davidson"
+],
+"real": []
+},
+{
+"title": "The Door Without a Key",
+"type": "SHORTFICTION",
+"len": null,
+"page": "151|3",
+"authors": [
+"Norman Daniels"
+],
+"real": [
+"Norman A. Daniels"
+]
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 732507,
+"title": "Ellery Queen's Mystery Magazine, June 1961",
+"date": "1961-06-00",
+"items": [
+{
+"title": "The Affair at Lahore Cantonment",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "5",
+"authors": [
+"Avram Davidson"
+],
+"real": []
+},
+{
+"title": "Of Time and Eustace Weaver",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "17",
+"authors": [
+"Fredric Brown"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 732508,
+"title": "Ellery Queen's Mystery Magazine, July 1961",
+"date": "1961-07-00",
+"items": [
+{
+"title": "Callahan's Hat",
+"type": "SHORTFICTION",
+"len": null,
+"page": "45|1",
+"authors": [
+"Norman Daniels"
+],
+"real": [
+"Norman A. Daniels"
+]
+},
+{
+"title": "The Policeman and the Lamp",
+"type": "SHORTFICTION",
+"len": null,
+"page": "55|2",
+"authors": [
+"Maurice Procter"
+],
+"real": []
+},
+{
+"title": "Wally and the Autograph Collector",
+"type": "SHORTFICTION",
+"len": null,
+"page": "84|3",
+"authors": [
+"Paul W. Fairman"
+],
+"real": []
+},
+{
+"title": "The Dirty Detail",
+"type": "SHORTFICTION",
+"len": null,
+"page": "104|4",
+"authors": [
+"Henry Slesar"
+],
+"real": []
+},
+{
+"title": "The Silver Mask",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "110|5",
+"authors": [
+"Hugh Walpole"
+],
+"real": []
+},
+{
+"title": "Music to Murder By",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "122|6",
+"authors": [
+"Lloyd Biggle, Jr."
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 381443,
+"title": "Ellery Queen's Mystery Magazine, August 1961",
+"date": "1961-08-00",
+"items": [
+{
+"title": "Best Mysteries of the Month (Ellery Queen's Mystery Magazine, August 1961)",
+"type": "ESSAY",
+"len": null,
+"page": "95",
+"authors": [
+"Anthony Boucher"
+],
+"real": []
+},
+{
+"title": "The Haunted Woodshed",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "110",
+"authors": [
+"Harold R. Daniels"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 732509,
+"title": "Ellery Queen's Mystery Magazine, September 1961",
+"date": "1961-09-00",
+"items": [
+{
+"title": "Traveller from an Antique Land",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "114",
+"authors": [
+"Avram Davidson"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 732414,
+"title": "Ellery Queen's Mystery Magazine, October 1961",
+"date": "1961-10-00",
+"items": [
+{
+"title": "The Man Who Looked Like Napoleon",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "124",
+"authors": [
+"Robert Bloch"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 377037,
+"title": "Ellery Queen's Mystery Magazine, June 1962",
+"date": "1962-06-00",
+"items": [
+{
+"title": "In the Confessional",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "5|1",
+"authors": [
+"Alice Scanlan Reach"
+],
+"real": []
+},
+{
+"title": "The Sin of Madame Phloi",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "94|2",
+"authors": [
+"Lilian Jackson Braun"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 675035,
+"title": "Ellery Queen's Mystery Magazine, July 1962",
+"date": "1962-07-00",
+"items": [
+{
+"title": "A Deal in Overcoats",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 676858,
+"title": "Ellery Queen's Mystery Magazine, September 1962",
+"date": "1962-09-00",
+"items": [
+{
+"title": "The Unkillable Man",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "35",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+},
+{
+"title": "Mr. Justice",
+"type": "SHORTFICTION",
+"len": null,
+"page": "61",
+"authors": [
+"Henry Slesar"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 299182,
+"title": "Ellery Queen's Mystery Magazine, November 1962",
+"date": "1962-11-00",
+"items": [
+{
+"title": "The Question My Son Asked",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "5",
+"authors": [
+"Stanley Ellin"
+],
+"real": []
+},
+{
+"title": "The Time Hercule Poirot Failed",
+"type": "SHORTFICTION",
+"len": null,
+"page": "13",
+"authors": [
+"Agatha Christie"
+],
+"real": []
+},
+{
+"title": "Death in His Eyes",
+"type": "SHORTFICTION",
+"len": null,
+"page": "53",
+"authors": [
+"Lloyd Biggle, Jr."
+],
+"real": []
+},
+{
+"title": "Father Keough's Decision",
+"type": "SHORTFICTION",
+"len": null,
+"page": "82",
+"authors": [
+"Norman Daniels"
+],
+"real": [
+"Norman A. Daniels"
+]
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 381458,
+"title": "Ellery Queen's Mystery Magazine, January 1963",
+"date": "1963-01-00",
+"items": [
+{
+"title": "By the Scruff of the Soul",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6",
+"authors": [
+"Dorothy Salisbury Davis"
+],
+"real": []
+},
+{
+"title": "Wally and the Country Cousin",
+"type": "SHORTFICTION",
+"len": null,
+"page": "87",
+"authors": [
+"Paul W. Fairman"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 332416,
+"title": "Ellery Queen's Mystery Magazine, December 1963",
+"date": "1963-12-00",
+"items": [
+{
+"title": "Including Goodbye",
+"type": "SHORTFICTION",
+"len": null,
+"page": "51|1",
+"authors": [
+"Paul W. Fairman"
+],
+"real": []
+},
+{
+"title": "The Price of a Charm; or, The Lineaments of Gratified Desire",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "67|2",
+"authors": [
+"Avram Davidson"
+],
+"real": []
+},
+{
+"title": "Phut Phat Concentrates",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "71|3",
+"authors": [
+"Lilian Jackson Braun"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 358793,
+"title": "Ellery Queen's Mystery Magazine, February 1964",
+"date": "1964-02-00",
+"items": [
+{
+"title": "The Blizzard Murder Case",
+"type": "SHORTFICTION",
+"len": null,
+"page": "15|1",
+"authors": [
+"Philip Wylie"
+],
+"real": []
+},
+{
+"title": "The Shop That Exchanged Evils",
+"type": "SHORTFICTION",
+"len": null,
+"page": "54|2",
+"authors": [
+"Lord Dunsany"
+],
+"real": []
+},
+{
+"title": "Holdup Ã  la Carte",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "67|3",
+"authors": [
+"Theodore Sturgeon"
+],
+"real": []
+},
+{
+"title": "You Never Believe Me",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "91|4",
+"authors": [
+"Davis Grubb"
+],
+"real": []
+},
+{
+"title": "The Perfect Time for the Perfect Crime",
+"type": "SHORTFICTION",
+"len": null,
+"page": "112|5",
+"authors": [
+"Edward D. Hoch"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 332414,
+"title": "Ellery Queen's Mystery Magazine, April 1964",
+"date": "1964-04-00",
+"items": [
+{
+"title": "The Sailing Club",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "44|1",
+"authors": [
+"David Ely"
+],
+"real": []
+},
+{
+"title": "Federal Offense",
+"type": "SHORTFICTION",
+"len": null,
+"page": "65|2",
+"authors": [
+"Henry Slesar"
+],
+"real": []
+},
+{
+"title": "The Cobblestones of Saratoga Street",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "67|3",
+"authors": [
+"Avram Davidson"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 383019,
+"title": "Ellery Queen's Mystery Magazine, May 1964",
+"date": "1964-05-00",
+"items": [
+{
+"title": "Unfinished Business",
+"type": "SHORTFICTION",
+"len": null,
+"page": "63|1",
+"authors": [
+"Steve Allen"
+],
+"real": []
+},
+{
+"title": "Tarzan, Jungle Detective",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "67|2",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+},
+{
+"title": "The Horse That Wasn't for Sale",
+"type": "SHORTFICTION",
+"len": null,
+"page": "91|3",
+"authors": [
+"Henry Slesar"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 678103,
+"title": "Ellery Queen's Mystery Magazine, August 1964",
+"date": "1964-08-00",
+"items": [
+{
+"title": "Honor Among Thieves",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6|1",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+},
+{
+"title": "A Quiet Room with a View",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "79|2",
+"authors": [
+"Avram Davidson"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 677387,
+"title": "Ellery Queen's Mystery Magazine, November 1964",
+"date": "1964-11-00",
+"items": [
+{
+"title": "The Great Alma Mater Mystery",
+"type": "SHORTFICTION",
+"len": null,
+"page": "17|1",
+"authors": [
+"Lloyd Biggle, Jr."
+],
+"real": []
+},
+{
+"title": "Karmesin Takes Pen in Hand",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "33|2",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+},
+{
+"title": "Why, Benny, Why?",
+"type": "SHORTFICTION",
+"len": null,
+"page": "114|3",
+"authors": [
+"Fredric Brown"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 954593,
+"title": "Ellery Queen's Mystery Magazine, March 1965",
+"date": "1965-03-00",
+"items": [
+{
+"title": "The Day the Thaw Came to 127",
+"type": "SHORTFICTION",
+"len": null,
+"page": "6",
+"authors": [
+"Stanley Ellin"
+],
+"real": []
+},
+{
+"title": "The Geometry of the Skirt",
+"type": "SHORTFICTION",
+"len": null,
+"page": "15",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+},
+{
+"title": "The Poison Necklace",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "91",
+"authors": [
+"Miriam Allen deFord"
+],
+"real": []
+},
+{
+"title": "Best Mysteries of 1964",
+"type": "ESSAY",
+"len": null,
+"page": "99",
+"authors": [
+"Anthony Boucher"
+],
+"real": []
+},
+{
+"title": "The Gun with Wings",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "117",
+"authors": [
+"Rex Stout"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 297347,
+"title": "Ellery Queen's Mystery Magazine, June 1965",
+"date": "1965-06-00",
+"items": [
+{
+"title": "The Indian Diamond Mystery",
+"type": "SHORTFICTION",
+"len": null,
+"page": "67|1",
+"authors": [
+"Arthur Porges"
+],
+"real": []
+},
+{
+"title": "Unc Solves Flix Flap",
+"type": "SHORTFICTION",
+"len": null,
+"page": "90|2",
+"authors": [
+"John Jakes"
+],
+"real": []
+},
+{
+"title": "I Always Do What Teddy Says",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "100|3",
+"authors": [
+"Harry Harrison"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 1000303,
+"title": "Ellery Queen's Mystery Magazine, July 1965",
+"date": "1965-07-00",
+"items": [
+{
+"title": "The Haunted Typewriter",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "12",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+},
+{
+"title": "A Matter of Pink Elephants",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "19",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+},
+{
+"title": "The Night of the Gran Baile Mascara",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "36",
+"authors": [
+"Whit Burnett"
+],
+"real": []
+},
+{
+"title": "The Safety Match",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "82",
+"authors": [
+"Anton Chekhov"
+],
+"real": [
+"Антон Чехов"
+]
+},
+{
+"title": "The Key to the Situation",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "114",
+"authors": [
+"Lloyd Biggle, Jr."
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 381699,
+"title": "Ellery Queen's Mystery Magazine, September 1965",
+"date": "1965-09-00",
+"items": [
+{
+"title": "Unc Probes Pickle Plot",
+"type": "SHORTFICTION",
+"len": null,
+"page": "17|1",
+"authors": [
+"John Jakes"
+],
+"real": []
+},
+{
+"title": "The Mystery of the Fulton Documents",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "28|2",
+"authors": [
+"Michael Harrison"
+],
+"real": []
+},
+{
+"title": "The \"Supernatural\" Murder",
+"type": "SHORTFICTION",
+"len": null,
+"page": "67|3",
+"authors": [
+"Agatha Christie"
+],
+"real": []
+},
+{
+"title": "To Reach the Sea",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "99|4",
+"authors": [
+"Monica Dickens"
+],
+"real": []
+},
+{
+"title": "The Peppermint-Striped Goodbye",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "134|5",
+"authors": [
+"Ron Goulart"
+],
+"real": []
+},
+{
+"title": "The Restorer of Balance",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "139|6",
+"authors": [
+"Avram Davidson"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 673645,
+"title": "Ellery Queen's Mystery Magazine, January 1966",
+"date": "1966-01-00",
+"items": [
+{
+"title": "Karmesin and the Hamlet Promptbook",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "21|1",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+},
+{
+"title": "Unc Foils Show Foe",
+"type": "SHORTFICTION",
+"len": null,
+"page": "33|2",
+"authors": [
+"John Jakes"
+],
+"real": []
+},
+{
+"title": "Time to Murder",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "47|3",
+"authors": [
+"J. N. Williamson"
+],
+"real": []
+},
+{
+"title": "The Number of the Beast",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "78|4",
+"authors": [
+"Fritz Leiber"
+],
+"real": []
+},
+{
+"title": "The Scientist and the Wife Killer",
+"type": "SHORTFICTION",
+"len": null,
+"page": "112|5",
+"authors": [
+"Arthur Porges"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 298868,
+"title": "Ellery Queen's Mystery Magazine, February 1966",
+"date": "1966-02-00",
+"items": [
+{
+"title": "Hercule Poirot and the Broken Mirror",
+"type": "SHORTFICTION",
+"len": null,
+"page": "6|1",
+"authors": [
+"Agatha Christie"
+],
+"real": []
+},
+{
+"title": "The Odor of Melting",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "41|2",
+"authors": [
+"Edward D. Hoch"
+],
+"real": []
+},
+{
+"title": "The Coconut Trial",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "131|3",
+"authors": [
+"Don Knowlton"
+],
+"real": []
+},
+{
+"title": "The Problem Solver and the Hostage",
+"type": "SHORTFICTION",
+"len": null,
+"page": "136|4",
+"authors": [
+"Christopher Anvil"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 432596,
+"title": "Ellery Queen's Mystery Magazine, April 1966",
+"date": "1966-04-00",
+"items": [
+{
+"title": "Circumstantial Evidence",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "45",
+"authors": [
+"Saki"
+],
+"real": []
+},
+{
+"title": "Many Happy Returns",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "62",
+"authors": [
+"Hugh B. Cave"
+],
+"real": []
+},
+{
+"title": "The Corsican Ordeal of Miss X",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "114",
+"authors": [
+"Bertrand Russell"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 313656,
+"title": "Ellery Queen's Mystery Magazine, June 1966",
+"date": "1966-06-00",
+"items": [
+{
+"title": "Death of an Old-Fashioned Girl",
+"type": "SHORTFICTION",
+"len": null,
+"page": "6|1",
+"authors": [
+"Stanley Ellin"
+],
+"real": []
+},
+{
+"title": "In Compartment 813",
+"type": "SHORTFICTION",
+"len": null,
+"page": "36|2",
+"authors": [
+"Arthur Porges"
+],
+"real": []
+},
+{
+"title": "The Lonely Habit",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "121|3",
+"authors": [
+"Brian W. Aldiss"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 441954,
+"title": "Ellery Queen's Mystery Magazine, October 1966",
+"date": "1966-10-00",
+"items": [
+{
+"title": "Tactical Exercise",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "24|1",
+"authors": [
+"Evelyn Waugh"
+],
+"real": []
+},
+{
+"title": "Life in Our Time",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "35|2",
+"authors": [
+"Robert Bloch"
+],
+"real": []
+},
+{
+"title": "Time Is the Illusion",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "99|3",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 298737,
+"title": "Ellery Queen's Mystery Magazine, February 1967",
+"date": "1967-02-00",
+"items": [
+{
+"title": "The Twelfth Statue",
+"type": "SHORTFICTION",
+"len": null,
+"page": "6|1",
+"authors": [
+"Stanley Ellin"
+],
+"real": []
+},
+{
+"title": "Fair's Fair",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "45|2",
+"authors": [
+"Jane Speed"
+],
+"real": []
+},
+{
+"title": "Specimen of the Week",
+"type": "SHORTFICTION",
+"len": null,
+"page": "84|3",
+"authors": [
+"R. Bretnor"
+],
+"real": [
+"Reginald Bretnor"
+]
+},
+{
+"title": "The Scientist and the Multiple Murder",
+"type": "SHORTFICTION",
+"len": null,
+"page": "127|4",
+"authors": [
+"Arthur Porges"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 897337,
+"title": "Ellery Queen's Mystery Magazine, March 1967",
+"date": "1967-03-00",
+"items": [
+{
+"title": "The Yellow Wallpaper",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "38|1",
+"authors": [
+"Charlotte Perkins Gilman"
+],
+"real": []
+},
+{
+"title": "The Strange Adventure of Charles Homer",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "109|2",
+"authors": [
+"Frank Sisk"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 296660,
+"title": "Ellery Queen's Mystery Magazine, April 1967",
+"date": "1967-04-00",
+"items": [
+{
+"title": "The Living Dead",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "31|1",
+"authors": [
+"Robert Bloch"
+],
+"real": []
+},
+{
+"title": "The Spy Who Came Out of the Night",
+"type": "SHORTFICTION",
+"len": null,
+"page": "37|2",
+"authors": [
+"Edward D. Hoch"
+],
+"real": []
+},
+{
+"title": "The Voice in the Inner Ear",
+"type": "SHORTFICTION",
+"len": null,
+"page": "125|3",
+"authors": [
+"H. R. Wakefield"
+],
+"real": [
+"H. Russell Wakefield"
+]
+},
+{
+"title": "The Problem Solver and the Burned Letter",
+"type": "SHORTFICTION",
+"len": null,
+"page": "142|4",
+"authors": [
+"Christopher Anvil"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 1107881,
+"title": "Ellery Queen's Mystery Magazine, June 1967",
+"date": "1967-06-00",
+"items": [
+{
+"title": "A Game Played in the Twilight",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "26",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+},
+{
+"title": "The Memory Bank",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "61",
+"authors": [
+"Avram Davidson"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 1036838,
+"title": "Ellery Queen's Mystery Magazine, June 1968",
+"date": "1968-06-00",
+"items": [
+{
+"title": "The Deadlier Weapon",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "91",
+"authors": [
+"Larry Niven"
+],
+"real": []
+},
+{
+"title": "The Ambiguities of Lo Yeing Pai",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "148",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 441955,
+"title": "Ellery Queen's Mystery Magazine, August 1968",
+"date": "1968-08-00",
+"items": [
+{
+"title": "The Spy Who Read Latin",
+"type": "SHORTFICTION",
+"len": null,
+"page": "28|1",
+"authors": [
+"Edward D. Hoch"
+],
+"real": []
+},
+{
+"title": "A Theme for Hyacinth",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "41|2",
+"authors": [
+"Julian Symons"
+],
+"real": []
+},
+{
+"title": "The Gods Are Not Mocked",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "146|3",
+"authors": [
+"Robert Bloch"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 300847,
+"title": "Ellery Queen's Mystery Magazine, January 1969",
+"date": "1969-01-00",
+"items": [
+{
+"title": "Howdunit: Every Fifth Man",
+"type": "SHORTFICTION",
+"len": null,
+"page": "7|1",
+"authors": [
+"Edward D. Hoch"
+],
+"real": []
+},
+{
+"title": "Whodunit: Murder Offstage",
+"type": "SHORTFICTION",
+"len": null,
+"page": "11|2",
+"authors": [
+"Edward D. Hoch"
+],
+"real": []
+},
+{
+"title": "Whydunit: The Nile Cat",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "14|3",
+"authors": [
+"Edward D. Hoch"
+],
+"real": []
+},
+{
+"title": "The Empty Birdhouse",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "34|4",
+"authors": [
+"Patricia Highsmith"
+],
+"real": []
+},
+{
+"title": "The Importance of Trifles",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "116|5",
+"authors": [
+"Avram Davidson"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 677013,
+"title": "Ellery Queen's Mystery Magazine, March 1969",
+"date": "1969-03-00",
+"items": [
+{
+"title": "The Affair at 7 Rue de Mâ",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "40|1",
+"authors": [
+"John Steinbeck"
+],
+"real": []
+},
+{
+"title": "A Star for a Warrior",
+"type": "SHORTFICTION",
+"len": null,
+"page": "52|2",
+"authors": [
+"Manly Wade Wellman"
+],
+"real": []
+},
+{
+"title": "Karmesin and the Trismagistus Formula",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "112|3",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 305260,
+"title": "Ellery Queen's Mystery Magazine, October 1969",
+"date": "1969-10-00",
+"items": [
+{
+"title": "The Moment of Decision",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6|1",
+"authors": [
+"Stanley Ellin"
+],
+"real": []
+},
+{
+"title": "The Necessity of His Condition",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "54|2",
+"authors": [
+"Avram Davidson"
+],
+"real": []
+},
+{
+"title": "Needle in the Heart",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "131|3",
+"authors": [
+"Richard Matheson"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 300853,
+"title": "Ellery Queen's Mystery Magazine, November 1969",
+"date": "1969-11-00",
+"items": [
+{
+"title": "One Drop of Blood",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "48|1",
+"authors": [
+"Cornell Woolrich"
+],
+"real": []
+},
+{
+"title": "A Crazy Way to Make a Living",
+"type": "SHORTFICTION",
+"len": null,
+"page": "70|2",
+"authors": [
+"Ed Dumonte"
+],
+"real": []
+},
+{
+"title": "The Man Who Spoke in Rhyme",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "81|3",
+"authors": [
+"Ray Russell"
+],
+"real": []
+},
+{
+"title": "The Spy and the Calendar Network",
+"type": "SHORTFICTION",
+"len": null,
+"page": "112|4",
+"authors": [
+"Edward D. Hoch"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 677170,
+"title": "Ellery Queen's Mystery Magazine, January 1970",
+"date": "1970-01-00",
+"items": [
+{
+"title": "Acres of Bread",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "72|1",
+"authors": [
+"Ray Russell"
+],
+"real": []
+},
+{
+"title": "Karmesin the Fixer",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "119|2",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 354712,
+"title": "Ellery Queen's Mystery Magazine, April 1970",
+"date": "1970-04-00",
+"items": [
+{
+"title": "Dead and Gone",
+"type": "SHORTFICTION",
+"len": null,
+"page": "75|1",
+"authors": [
+"Joan Fleming"
+],
+"real": []
+},
+{
+"title": "The Nature of the Thing",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "80|2",
+"authors": [
+"Patricia Highsmith"
+],
+"real": []
+},
+{
+"title": "The Cop and the Anthem",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "95|3",
+"authors": [
+"O. Henry"
+],
+"real": []
+},
+{
+"title": "Mr. Tomorrow",
+"type": "SHORTFICTION",
+"len": null,
+"page": "137|4",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 898015,
+"title": "Ellery Queen's Mystery Magazine, May 1970",
+"date": "1970-05-00",
+"items": [
+{
+"title": "Mrs. Twiller Takes a Trip",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "18",
+"authors": [
+"Lael J. Littke"
+],
+"real": [
+"Lael Littke"
+]
+},
+{
+"title": "A Problem of Numbers",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "88",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 362072,
+"title": "Ellery Queen's Mystery Magazine, October 1970",
+"date": "1970-10-00",
+"items": [
+{
+"title": "Don't Be Frightened",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "23|1",
+"authors": [
+"Celia Fremlin"
+],
+"real": []
+},
+{
+"title": "Dr. Ox Will Die at Midnight",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "36|2",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+},
+{
+"title": "Manhattan Nights' Entertainment",
+"type": "SHORTFICTION",
+"len": null,
+"page": "42|3",
+"authors": [
+"Avram Davidson"
+],
+"real": []
+},
+{
+"title": "They Never Even See Me",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "127|4",
+"authors": [
+"J. N. Williamson"
+],
+"real": []
+},
+{
+"title": "Murder, 1986",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "142|5",
+"authors": [
+"P. D. James"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 299192,
+"title": "Ellery Queen's Mystery Magazine, November 1970",
+"date": "1970-11-00",
+"items": [
+{
+"title": "Kindly Dig Your Grave",
+"type": "SHORTFICTION",
+"len": null,
+"page": "6|1",
+"authors": [
+"Stanley Ellin"
+],
+"real": []
+},
+{
+"title": "Beyond Sleep",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "106|2",
+"authors": [
+"Barry N. Malzberg"
+],
+"real": []
+},
+{
+"title": "Desert Pickup",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "129|3",
+"authors": [
+"Richard Laymon"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 374559,
+"title": "Ellery Queen's Mystery Magazine, February 1971",
+"date": "1971-02-00",
+"items": [
+{
+"title": "Death Out of Season",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Mary Barrett"
+],
+"real": []
+},
+{
+"title": "Falling Object",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"William Brittain"
+],
+"real": [
+"Bill Brittain"
+]
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 304671,
+"title": "Ellery Queen's Mystery Magazine, June 1971",
+"date": "1971-06-00",
+"items": [
+{
+"title": "\"Enfants Terribles\"",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "53",
+"authors": [
+"R. A. Lafferty"
+],
+"real": []
+},
+{
+"title": "The Real Shape of the Coast",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "115",
+"authors": [
+"John Lutz"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 332411,
+"title": "Ellery Queen's Mystery Magazine, August 1971",
+"date": "1971-08-00",
+"items": [
+{
+"title": "The Trefoil Company",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "69",
+"authors": [
+"Avram Davidson"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 302100,
+"title": "Ellery Queen's Mystery Magazine, December 1971",
+"date": "1971-12-00",
+"items": [
+{
+"title": "Report on a Broken Bridge",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "46|1",
+"authors": [
+"Dennis O'Neil"
+],
+"real": []
+},
+{
+"title": "Agony Column",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "105|2",
+"authors": [
+"Barry N. Malzberg"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 316073,
+"title": "Ellery Queen's Mystery Magazine, January 1972",
+"date": "1972-01-00",
+"items": [
+{
+"title": "The Acquisitive Chuckle",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "How Could He Do It?",
+"type": "SHORTFICTION",
+"len": null,
+"page": "66",
+"authors": [
+"Avram Davidson"
+],
+"real": []
+},
+{
+"title": "Grandfather and the Little Bone",
+"type": "SHORTFICTION",
+"len": null,
+"page": "118",
+"authors": [
+"Lloyd Biggle, Jr."
+],
+"real": []
+},
+{
+"title": "Turnabout",
+"type": "SHORTFICTION",
+"len": null,
+"page": "138",
+"authors": [
+"Miriam Allen deFord"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 380407,
+"title": "Ellery Queen's Mystery Magazine, February 1972",
+"date": "1972-02-00",
+"items": [
+{
+"title": "Gideon and the Chestnut Vendor",
+"type": "SHORTFICTION",
+"len": null,
+"page": "20|1",
+"authors": [
+"John Creasey"
+],
+"real": []
+},
+{
+"title": "The Island of Bright Birds",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "109|2",
+"authors": [
+"John Christopher"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 302096,
+"title": "Ellery Queen's Mystery Magazine, April 1972",
+"date": "1972-04-00",
+"items": [
+{
+"title": "Cornell",
+"type": "SHORTFICTION",
+"len": null,
+"page": "121",
+"authors": [
+"Barry N. Malzberg"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 316074,
+"title": "Ellery Queen's Mystery Magazine, July 1972",
+"date": "1972-07-00",
+"items": [
+{
+"title": "Pick-Up on the Dover Road",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6|1",
+"authors": [
+"Julian Symons"
+],
+"real": []
+},
+{
+"title": "The Phony Ph.D.",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "17|2",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "Rookie Cop",
+"type": "SHORTFICTION",
+"len": null,
+"page": "50|3",
+"authors": [
+"Avram Davidson"
+],
+"real": []
+},
+{
+"title": "The Forbidden Word",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "53|4",
+"authors": [
+"R. L. Stevens"
+],
+"real": [
+"Edward D. Hoch"
+]
+},
+{
+"title": "The Haunted Portrait",
+"type": "SHORTFICTION",
+"len": null,
+"page": "128|5",
+"authors": [
+"Lawrence Treat"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 299629,
+"title": "Ellery Queen's Mystery Magazine, August 1972",
+"date": "1972-08-00",
+"items": [
+{
+"title": "The Other Side of the Wall",
+"type": "SHORTFICTION",
+"len": null,
+"page": "6|1",
+"authors": [
+"Stanley Ellin"
+],
+"real": []
+},
+{
+"title": "Number One Suspect",
+"type": "SHORTFICTION",
+"len": null,
+"page": "17|2",
+"authors": [
+"Miriam Allen deFord"
+],
+"real": []
+},
+{
+"title": "A Chess Problem",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "24|3",
+"authors": [
+"Agatha Christie"
+],
+"real": []
+},
+{
+"title": "A Kind of Madness",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "36|4",
+"authors": [
+"Anthony Boucher"
+],
+"real": []
+},
+{
+"title": "The Deadly Man",
+"type": "SHORTFICTION",
+"len": null,
+"page": "55|5",
+"authors": [
+"Horace Gold"
+],
+"real": [
+"H. L. Gold"
+]
+},
+{
+"title": "Death in the Dressing Room",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "76|6",
+"authors": [
+"John Dickson Carr"
+],
+"real": []
+},
+{
+"title": "The Dripping",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "113|7",
+"authors": [
+"David Morrell"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 316075,
+"title": "Ellery Queen's Mystery Magazine, October 1972",
+"date": "1972-10-00",
+"items": [
+{
+"title": "The Man Who Never Told a Lie",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 296688,
+"title": "Ellery Queen's Mystery Magazine, December 1972",
+"date": "1972-12-00",
+"items": [
+{
+"title": "The Matchbook Collector",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "57|1",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "A Puff of Orange Smoke",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "71|2",
+"authors": [
+"Lael J. Littke"
+],
+"real": [
+"Lael Littke"
+]
+},
+{
+"title": "The Plastic Jungle",
+"type": "SHORTFICTION",
+"len": null,
+"page": "125|3",
+"authors": [
+"Joyce Harrington"
+],
+"real": []
+},
+{
+"title": "The Last Wizard",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "136|4",
+"authors": [
+"Avram Davidson"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 316076,
+"title": "Ellery Queen's Mystery Magazine, March 1973",
+"date": "1973-03-00",
+"items": [
+{
+"title": "The Biological Clock",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "39",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "The Gold Medal Caper",
+"type": "SHORTFICTION",
+"len": null,
+"page": "145",
+"authors": [
+"Ron Goulart"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 376250,
+"title": "Ellery Queen's Mystery Magazine, April 1973",
+"date": "1973-04-00",
+"items": [
+{
+"title": "A Judicious Half Inch",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "13|1",
+"authors": [
+"Ursula Curtiss"
+],
+"real": []
+},
+{
+"title": "See How They Run",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "121|2",
+"authors": [
+"Robert Bloch"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 316077,
+"title": "Ellery Queen's Mystery Magazine, May 1973",
+"date": "1973-05-00",
+"items": [
+{
+"title": "The Obvious Factor",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "The Inelegant Conspiracy",
+"type": "SHORTFICTION",
+"len": null,
+"page": "51",
+"authors": [
+"Miriam Allen deFord"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 316078,
+"title": "Ellery Queen's Mystery Magazine, July 1973",
+"date": "1973-07-00",
+"items": [
+{
+"title": "The Pointing Finger",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "34",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 305247,
+"title": "Ellery Queen's Mystery Magazine, August 1973",
+"date": "1973-08-00",
+"items": [
+{
+"title": "Murder in Green",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "61",
+"authors": [
+"Miriam Allen deFord"
+],
+"real": []
+},
+{
+"title": "The Shooting of Curly Dan; or, The Gandy Dancers' Lament",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "109",
+"authors": [
+"John Lutz"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 298864,
+"title": "Ellery Queen's Mystery Magazine, September 1973",
+"date": "1973-09-00",
+"items": [
+{
+"title": "A Warning to Miss Earth",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6|1",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "The Pencil",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "20|2",
+"authors": [
+"Edmund Crispin"
+],
+"real": []
+},
+{
+"title": "The Laughing Chef",
+"type": "SHORTFICTION",
+"len": null,
+"page": "35|3",
+"authors": [
+"Ron Goulart"
+],
+"real": []
+},
+{
+"title": "Coyote Street",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "67|4",
+"authors": [
+"Gary Brandner"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 305245,
+"title": "Ellery Queen's Mystery Magazine, December 1973",
+"date": "1973-12-00",
+"items": [
+{
+"title": "The Corruption of Officer Avakadian",
+"type": "SHORTFICTION",
+"len": null,
+"page": "6|1",
+"authors": [
+"Stanley Ellin"
+],
+"real": []
+},
+{
+"title": "The Prisoner",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "26|2",
+"authors": [
+"Edward Wellen"
+],
+"real": []
+},
+{
+"title": "Garden of Evil",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "78|3",
+"authors": [
+"Carol Cail"
+],
+"real": []
+},
+{
+"title": "The Six Suspects",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "119|4",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "Proof of Guilt",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "150|5",
+"authors": [
+"Bill Pronzini"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 315991,
+"title": "Ellery Queen's Mystery Magazine, March 1974",
+"date": "1974-03-00",
+"items": [
+{
+"title": "When No Man Pursueth",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 315993,
+"title": "Ellery Queen's Mystery Magazine, May 1974",
+"date": "1974-05-00",
+"items": [
+{
+"title": "Quicker Than the Eye",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "The Half-Invisible Man",
+"type": "SHORTFICTION",
+"len": null,
+"page": "133",
+"authors": [
+"Bill Pronzini",
+"Jeffrey Wallmann"
+],
+"real": [
+"Bill Pronzini",
+"Jeffrey M. Wallmann"
+]
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 316071,
+"title": "Ellery Queen's Mystery Magazine, September 1974",
+"date": "1974-09-00",
+"items": [
+{
+"title": "All in the Way You Read It",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 307448,
+"title": "Ellery Queen's Mystery Magazine, December 1974",
+"date": "1974-12-00",
+"items": [
+{
+"title": "Confessions of an American Cigarette Smoker",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "26",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "Roadside Pickup",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "60",
+"authors": [
+"Richard Laymon"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 365519,
+"title": "Ellery Queen's Mystery Magazine, February 1975",
+"date": "1975-02-00",
+"items": [
+{
+"title": "Blood Money",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "35|1",
+"authors": [
+"Phyllis Ann Karr"
+],
+"real": []
+},
+{
+"title": "Eyewitnesses",
+"type": "SHORTFICTION",
+"len": null,
+"page": "58|2",
+"authors": [
+"Miriam Allen deFord"
+],
+"real": []
+},
+{
+"title": "St. Bartholomew's Day",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "67|3",
+"authors": [
+"Edmund Crispin"
+],
+"real": []
+},
+{
+"title": "The Magic Carpet",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "106|4",
+"authors": [
+"Celia Fremlin"
+],
+"real": []
+},
+{
+"title": "Adrian Mulliner's Greatest Triumph",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "130|5",
+"authors": [
+"P. G. Wodehouse"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 316072,
+"title": "Ellery Queen's Mystery Magazine, March 1975",
+"date": "1975-03-00",
+"items": [
+{
+"title": "Hercule Poirot in the Year 2010",
+"type": "SHORTFICTION",
+"len": null,
+"page": "34|1",
+"authors": [
+"Jon L. Breen"
+],
+"real": []
+},
+{
+"title": "The One and Only East",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "119|2",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 320095,
+"title": "Ellery Queen's Mystery Magazine, July 1975",
+"date": "1975-07-00",
+"items": [
+{
+"title": "Little Note Nor Long Remember",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "37",
+"authors": [
+"Henry T. Parry"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 307449,
+"title": "Ellery Queen's Mystery Magazine, September 1975",
+"date": "1975-09-00",
+"items": [
+{
+"title": "Mr. Strang Picks Up the Pieces",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "78|1",
+"authors": [
+"William Brittain"
+],
+"real": [
+"Bill Brittain"
+]
+},
+{
+"title": "Paying Joe Back",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "95|2",
+"authors": [
+"Richard Laymon"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 307427,
+"title": "Ellery Queen's Mystery Magazine, December 1975",
+"date": "1975-12-00",
+"items": [
+{
+"title": "Meeting in the Park",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "59",
+"authors": [
+"Ruth Rendell"
+],
+"real": []
+},
+{
+"title": "American Gothic",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "71",
+"authors": [
+"M. A. Lyon"
+],
+"real": []
+},
+{
+"title": "Out of the Woods",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "133",
+"authors": [
+"Richard Laymon"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 307450,
+"title": "Ellery Queen's Mystery Magazine, February 1976",
+"date": "1976-02-00",
+"items": [
+{
+"title": "A Good Cigar Is a Smoke",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "112",
+"authors": [
+"Richard Laymon"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 320318,
+"title": "Ellery Queen's Mystery Magazine, March 1976",
+"date": "1976-03-00",
+"items": [
+{
+"title": "You Can't Be Too Careful",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6|1",
+"authors": [
+"Ruth Rendell"
+],
+"real": []
+},
+{
+"title": "Crazy Old Lady",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "30|2",
+"authors": [
+"Avram Davidson"
+],
+"real": []
+},
+{
+"title": "A Most Unusual Murder",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "84|3",
+"authors": [
+"Robert Bloch"
+],
+"real": []
+},
+{
+"title": "The Pond",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "126|4",
+"authors": [
+"Patricia Highsmith"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 315973,
+"title": "Ellery Queen's Mystery Magazine, May 1976",
+"date": "1976-05-00",
+"items": [
+{
+"title": "His First Bow",
+"type": "SHORTFICTION",
+"len": null,
+"page": "98|1",
+"authors": [
+"Craig Strete"
+],
+"real": []
+},
+{
+"title": "The Cross of Lorraine",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "115|2",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "The Problem of the Locked Caboose",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "141|3",
+"authors": [
+"Edward D. Hoch"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 298623,
+"title": "Ellery Queen's Mystery Magazine, June 1976",
+"date": "1976-06-00",
+"items": [
+{
+"title": "Problems Solved",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "37|1",
+"authors": [
+"Bill Pronzini",
+"Barry N. Malzberg"
+],
+"real": []
+},
+{
+"title": "A Tale Told at Dusk",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "66|2",
+"authors": [
+"Jack Kelly"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 315970,
+"title": "Ellery Queen's Mystery Magazine, August 1976",
+"date": "1976-08-00",
+"items": [
+{
+"title": "The Tercentenary Incident",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "39",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "Cry Havoc",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "69",
+"authors": [
+"Davis Grubb"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 315974,
+"title": "Ellery Queen's Mystery Magazine, November 1976",
+"date": "1976-11-00",
+"items": [
+{
+"title": "A Case of Income-Tax Fraud",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 334292,
+"title": "Ellery Queen's Mystery Magazine, December 1976",
+"date": "1976-12-00",
+"items": [
+{
+"title": "Sweet Fever",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "16",
+"authors": [
+"Bill Pronzini"
+],
+"real": []
+},
+{
+"title": "The Great Dormitory Mystery",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "71",
+"authors": [
+"S. N. Farber"
+],
+"real": [
+"Sharon N. Farber"
+]
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 315975,
+"title": "Ellery Queen's Mystery Magazine, April 1977",
+"date": "1977-04-00",
+"items": [
+{
+"title": "The Sports Page",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "67",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 298735,
+"title": "Ellery Queen's Mystery Magazine, July 1977",
+"date": "1977-07-00",
+"items": [
+{
+"title": "The Thirteenth Day of Christmas",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "33|1",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "If Big Brother Says So",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "58|2",
+"authors": [
+"Alice Rudoski"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 348680,
+"title": "Ellery Queen's Mystery Magazine, September 1977",
+"date": "1977-09-00",
+"items": [
+{
+"title": "Trip Out on Red Lizzie",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "88|7",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+},
+{
+"title": "A Glowing Future",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "131|13",
+"authors": [
+"Ruth Rendell"
+],
+"real": []
+},
+{
+"title": "The Problem of the Country Inn",
+"type": "SHORTFICTION",
+"len": null,
+"page": "139|14",
+"authors": [
+"Edward D. Hoch"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 298736,
+"title": "Ellery Queen's Mystery Magazine, December 1977",
+"date": "1977-12-00",
+"items": [
+{
+"title": "The Family Circle",
+"type": "SHORTFICTION",
+"len": null,
+"page": "6|1",
+"authors": [
+"Stanley Ellin"
+],
+"real": []
+},
+{
+"title": "The Accident Epidemic",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "59|2",
+"authors": [
+"Reginald Bretnor"
+],
+"real": []
+},
+{
+"title": "The Thing Waiting Outside",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "87|3",
+"authors": [
+"Barbara Williamson"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 298622,
+"title": "Ellery Queen's Mystery Magazine, May 1978",
+"date": "1978-05-00",
+"items": [
+{
+"title": "The Men Who Read Isaac Asimov",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "11|1",
+"authors": [
+"Bill Brittain"
+],
+"real": []
+},
+{
+"title": "The Next Day",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "22|2",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "I Can't Help Saying Goodbye",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "38|3",
+"authors": [
+"Ann Mackenzie"
+],
+"real": []
+},
+{
+"title": "Death at the Excelsior",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "58|4",
+"authors": [
+"P. G. Wodehouse"
+],
+"real": []
+},
+{
+"title": "Business Must Be Picking Up",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "109|5",
+"authors": [
+"Avram Davidson"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 334288,
+"title": "Ellery Queen's Mystery Magazine, June 1978",
+"date": "1978-06-00",
+"items": [
+{
+"title": "Strangers in the Fog",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6",
+"authors": [
+"Bill Pronzini"
+],
+"real": []
+},
+{
+"title": "The Adventure of the Blind Alley",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "103",
+"authors": [
+"Edward Wellen"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 1068905,
+"title": "Ellery Queen's Mystery Magazine, January 1979",
+"date": "1979-01-00",
+"items": [
+{
+"title": "The Day of the Bookmobile",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "53",
+"authors": [
+"Patricia McGerr"
+],
+"real": []
+},
+{
+"title": "Crooked Bone",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "89",
+"authors": [
+"Gerald Kersh"
+],
+"real": []
+},
+{
+"title": "The Mulligan Stew",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "112",
+"authors": [
+"Donald E. Westlake"
+],
+"real": []
+},
+{
+"title": "Ninety-Nine Clop Clop",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "130",
+"authors": [
+"Ron Goulart"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 315976,
+"title": "Ellery Queen's Mystery Magazine, March 1979",
+"date": "1979-03-00",
+"items": [
+{
+"title": "A Matter of Irrelevance",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "77",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "Grocery List",
+"type": "SHORTFICTION",
+"len": null,
+"page": "111",
+"authors": [
+"Gina Haldane"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 315977,
+"title": "Ellery Queen's Mystery Magazine, June 1979",
+"date": "1979-06-00",
+"items": [
+{
+"title": "None So Blind",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "126",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 315978,
+"title": "Ellery Queen's Mystery Magazine, August 1979",
+"date": "1979-08-00",
+"items": [
+{
+"title": "To the Barest",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "41",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 320321,
+"title": "Ellery Queen's Mystery Magazine, September 1979",
+"date": "1979-09-00",
+"items": [
+{
+"title": "Black Wind",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "62",
+"authors": [
+"Bill Pronzini"
+],
+"real": []
+},
+{
+"title": "The Marked Man",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "120",
+"authors": [
+"David Ely"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 298734,
+"title": "Ellery Queen's Mystery Magazine, March 10, 1980",
+"date": "1980-03-10",
+"items": [
+{
+"title": "Please, No Strawberries",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "43",
+"authors": [
+"Hayes Wilson"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 381450,
+"title": "Ellery Queen's Mystery Magazine, June 30, 1980",
+"date": "1980-06-30",
+"items": [
+{
+"title": "A Case of Coincidence",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "5|1",
+"authors": [
+"Ruth Rendell"
+],
+"real": []
+},
+{
+"title": "The Man Who Pretended to Like Baseball",
+"type": "SHORTFICTION",
+"len": null,
+"page": "33|2",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "The Edinburgh Landlady",
+"type": "POEM",
+"len": null,
+"page": "99|3",
+"authors": [
+"Aubrey Davidson"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 298738,
+"title": "Ellery Queen's Mystery Magazine, June 1982",
+"date": "1982-06-00",
+"items": [
+{
+"title": "A Hell of a Story",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "125",
+"authors": [
+"H. R. F. Keating"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 321120,
+"title": "Ellery Queen's Mystery Magazine, February 1983",
+"date": "1983-02-00",
+"items": [
+{
+"title": "Loopy",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6",
+"authors": [
+"Ruth Rendell"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 320127,
+"title": "Ellery Queen's Mystery Magazine, May 1983",
+"date": "1983-05-00",
+"items": [
+{
+"title": "Custer's Ghost",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6",
+"authors": [
+"Clark Howard"
+],
+"real": []
+},
+{
+"title": "A Monday in April",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "32",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 301730,
+"title": "Ellery Queen's Mystery Magazine, October 1983",
+"date": "1983-10-00",
+"items": [
+{
+"title": "The Theft of the Halloween Pumpkin",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6",
+"authors": [
+"Edward D. Hoch"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 598850,
+"title": "Ellery Queen's Mystery Magazine, November 1983",
+"date": "1983-11-00",
+"items": [
+{
+"title": "The Summer Holiday",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "5",
+"authors": [
+"Celia Fremlin"
+],
+"real": []
+},
+{
+"title": "The Unclean Spirit",
+"type": "SHORTFICTION",
+"len": null,
+"page": "16",
+"authors": [
+"John F. Suter"
+],
+"real": []
+},
+{
+"title": "Cauldron Boil, Cauldron Bubble",
+"type": "SHORTFICTION",
+"len": null,
+"page": "35",
+"authors": [
+"George Baxt"
+],
+"real": []
+},
+{
+"title": "Design for Dying",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "50",
+"authors": [
+"Anthony Boucher"
+],
+"real": []
+},
+{
+"title": "Return to the OK Corral",
+"type": "SHORTFICTION",
+"len": null,
+"page": "124",
+"authors": [
+"Clark Howard"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 320320,
+"title": "Ellery Queen's Mystery Magazine, June 1984",
+"date": "1984-06-00",
+"items": [
+{
+"title": "The Tin Man",
+"type": "SHORTFICTION",
+"len": null,
+"page": "82|1",
+"authors": [
+"Henry Slesar"
+],
+"real": []
+},
+{
+"title": "Fatal Corner",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "120|2",
+"authors": [
+"Patricia McGerr"
+],
+"real": []
+},
+{
+"title": "Belladonna",
+"type": "POEM",
+"len": null,
+"page": "163|3",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "Botulism",
+"type": "POEM",
+"len": null,
+"page": "163|4",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "Curare",
+"type": "POEM",
+"len": null,
+"page": "163|5",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 559875,
+"title": "Ellery Queen's Mystery Magazine, July 1984",
+"date": "1984-07-00",
+"items": [
+{
+"title": "The Polygon from Alpha Centauri",
+"type": "SHORTFICTION",
+"len": null,
+"page": "136",
+"authors": [
+"James Powell"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 598915,
+"title": "Ellery Queen's Mystery Magazine, March 1987",
+"date": "1987-03-00",
+"items": [
+{
+"title": "The Snatched Purse",
+"type": "SHORTFICTION",
+"len": null,
+"page": "4",
+"authors": [
+"Isaac Asimov"
+],
+"real": []
+},
+{
+"title": "Summer in the Country",
+"type": "SHORTFICTION",
+"len": null,
+"page": "90",
+"authors": [
+"Nell Lamburn"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Robert Barnard"
+],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 862711,
+"title": "Ellery Queen's Mystery Magazine, July 1988",
+"date": "1988-07-00",
+"items": [
+{
+"title": "The Murderers' Circle",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "4",
+"authors": [
+"Reginald Bretnor"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Eleanor Sullivan"
+]
+},
+{
+"id": 353919,
+"title": "Ellery Queen's Mystery Magazine, February 1989",
+"date": "1989-02-00",
+"items": [
+{
+"title": "The Curious Incident",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "108",
+"authors": [
+"James Sallis"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 335020,
+"title": "Ellery Queen's Mystery Magazine, March 1989",
+"date": "1989-03-00",
+"items": [
+{
+"title": "Placebo",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "50",
+"authors": [
+"Andrew Vachss"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 345601,
+"title": "Ellery Queen's Mystery Magazine, June 1989",
+"date": "1989-06-00",
+"items": [
+{
+"title": "I Saw Robert Johnson",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "56",
+"authors": [
+"James Sallis"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 353923,
+"title": "Ellery Queen's Mystery Magazine, April 1990",
+"date": "1990-04-00",
+"items": [
+{
+"title": "White Alligator",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "54|1",
+"authors": [
+"Andrew Henry Vachss"
+],
+"real": [
+"Andrew Vachss"
+]
+},
+{
+"title": "The Need",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "130|2",
+"authors": [
+"James Sallis"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 626246,
+"title": "Ellery Queen's Mystery Magazine, September 1990",
+"date": "1990-09-00",
+"items": [
+{
+"title": "The Man Who Knew Belle Starr",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "60|1",
+"authors": [
+"Richard Bausch"
+],
+"real": []
+},
+{
+"title": "Elvis Lives",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "111|2",
+"authors": [
+"Lynne Barrett"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 297516,
+"title": "Ellery Queen's Mystery Magazine, December 1990",
+"date": "1990-12-00",
+"items": [
+{
+"title": "Jane Doe #112",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "89",
+"authors": [
+"Harlan Ellison"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 346614,
+"title": "Ellery Queen's Mystery Magazine, February 1992",
+"date": "1992-02-00",
+"items": [
+{
+"title": "The Oblong Room",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "22",
+"authors": [
+"Edward D. Hoch"
+],
+"real": []
+},
+{
+"title": "Dark Possessions",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "34",
+"authors": [
+"James Powell"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 331286,
+"title": "Ellery Queen's Mystery Magazine, April 1992",
+"date": "1992-04-00",
+"items": [
+{
+"title": "Schroeder's Stepfather",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "4",
+"authors": [
+"Joyce Carol Oates"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 320317,
+"title": "Ellery Queen's Mystery Magazine, October 1992",
+"date": "1992-10-00",
+"items": [
+{
+"title": "Howler",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "110",
+"authors": [
+"Jo Bannister"
+],
+"real": []
+},
+{
+"title": "This Church Is Open",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "123",
+"authors": [
+"Robert Campbell"
+],
+"real": []
+},
+{
+"title": "Chocolate",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "144",
+"authors": [
+"Leslie Meier"
+],
+"real": []
+},
+{
+"title": "A Salesman's Tale",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "209",
+"authors": [
+"David Dean"
+],
+"real": []
+},
+{
+"title": "The Model",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "243",
+"authors": [
+"Joyce Carol Oates"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 334287,
+"title": "Ellery Queen's Mystery Magazine, November 1992",
+"date": "1992-11-00",
+"items": [
+{
+"title": "Liar's Dice",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "132",
+"authors": [
+"Bill Pronzini"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 334291,
+"title": "Ellery Queen's Mystery Magazine, March 1994",
+"date": "1994-03-00",
+"items": [
+{
+"title": "A Taste of Paradise",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "12",
+"authors": [
+"Bill Pronzini"
+],
+"real": []
+},
+{
+"title": "Hunk",
+"type": "SHORTFICTION",
+"len": null,
+"page": "86",
+"authors": [
+"Ed Gorman"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 331289,
+"title": "Ellery Queen's Mystery Magazine, June 1994",
+"date": "1994-06-00",
+"items": [
+{
+"title": "Posthumous",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "102",
+"authors": [
+"Joyce Carol Oates"
+],
+"real": []
+},
+{
+"title": "Bombed",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "140",
+"authors": [
+"Peter Sellers"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 334290,
+"title": "Ellery Queen's Mystery Magazine, September 1994",
+"date": "1994-09-00",
+"items": [
+{
+"title": "Out of the Depths",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "140",
+"authors": [
+"Bill Pronzini"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 618876,
+"title": "Ellery Queen's Mystery Magazine, Mid December 1995",
+"date": "1995-12-15",
+"items": [
+{
+"title": "Franken Kat",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "4",
+"authors": [
+"Doug Allyn"
+],
+"real": []
+},
+{
+"title": "Breakout for Mistletoe Five",
+"type": "SHORTFICTION",
+"len": null,
+"page": "68",
+"authors": [
+"James Powell"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 309125,
+"title": "Ellery Queen's Mystery Magazine, April 1996",
+"date": "1996-04-00",
+"items": [
+{
+"title": "Dogwalker",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "54",
+"authors": [
+"Richard A. Lupoff"
+],
+"real": []
+},
+{
+"title": "Christ's Tears",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "106",
+"authors": [
+"Kate Wilhelm"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 334289,
+"title": "Ellery Queen's Mystery Magazine, November 1996",
+"date": "1996-11-00",
+"items": [
+{
+"title": "The Closing Circle",
+"type": "SHORTFICTION",
+"len": null,
+"page": "44",
+"authors": [
+"Ed Gorman"
+],
+"real": []
+},
+{
+"title": "The Monster",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "80",
+"authors": [
+"Bill Pronzini"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 331285,
+"title": "Ellery Queen's Mystery Magazine, January 1997",
+"date": "1997-01-00",
+"items": [
+{
+"title": "The Sky-Blue Ball",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "25",
+"authors": [
+"Joyce Carol Oates"
+],
+"real": []
+},
+{
+"title": "The Christmas Kitten",
+"type": "SHORTFICTION",
+"len": null,
+"page": "32",
+"authors": [
+"Ed Gorman"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 334293,
+"title": "Ellery Queen's Mystery Magazine, May 2000",
+"date": "2000-05-00",
+"items": [
+{
+"title": "I Think I Will Not Hang Myself Today",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "48",
+"authors": [
+"Bill Pronzini"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 428774,
+"title": "Ellery Queen's Mystery Magazine, February 2003",
+"date": "2003-02-00",
+"items": [
+{
+"title": "A Piece of the City",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "42",
+"authors": [
+"Andrew Vachss"
+],
+"real": []
+},
+{
+"title": "Remodeling",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "102",
+"authors": [
+"Kristine Kathryn Rusch"
+],
+"real": []
+},
+{
+"title": "Stately Homes and the Invisible Giant",
+"type": "SHORTFICTION",
+"len": null,
+"page": "122",
+"authors": [
+"Arthur Porges"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 437098,
+"title": "Ellery Queen's Mystery Magazine, February 2009",
+"date": "2009-02-00",
+"items": [
+{
+"title": "Clowntown Pajamas",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "69",
+"authors": [
+"James Powell"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 437093,
+"title": "Ellery Queen's Mystery Magazine, March-April 2009",
+"date": "2009-03-00",
+"items": [
+{
+"title": "Comeback",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "56",
+"authors": [
+"Ed Gorman"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 437086,
+"title": "Ellery Queen's Mystery Magazine, May 2009",
+"date": "2009-05-00",
+"items": [
+{
+"title": "667, Evil and Then Some",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "58",
+"authors": [
+"Marilyn Todd"
+],
+"real": []
+}
+],
+"cover_artists": [
+"W. F. Soare"
+],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 438506,
+"title": "Ellery Queen's Mystery Magazine, September-October 2009",
+"date": "2009-09-00",
+"items": [
+{
+"title": "Julius Katz",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "4",
+"authors": [
+"Dave Zeltserman"
+],
+"real": []
+},
+{
+"title": "City in Fog",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "70",
+"authors": [
+"John Morgan Wilson"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 437097,
+"title": "Ellery Queen's Mystery Magazine, December 2009",
+"date": "2009-12-00",
+"items": [
+{
+"title": "Gone Missing",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "51",
+"authors": [
+"Ryan Daff"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 437095,
+"title": "Ellery Queen's Mystery Magazine, September-October 2010",
+"date": "2010-09-00",
+"items": [
+{
+"title": "The Divergent Man",
+"type": "SHORTFICTION",
+"len": null,
+"page": "33",
+"authors": [
+"Marc R. Soto"
+],
+"real": []
+},
+{
+"title": "Legend?",
+"type": "POEM",
+"len": null,
+"page": "67",
+"authors": [
+"Jane Paynter"
+],
+"real": []
+},
+{
+"title": "Beersheba",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "148",
+"authors": [
+"Joyce Carol Oates"
+],
+"real": []
+},
+{
+"title": "Archie's Been Framed",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "177",
+"authors": [
+"Dave Zeltserman"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 437083,
+"title": "Ellery Queen's Mystery Magazine, January 2011",
+"date": "2011-01-00",
+"items": [
+{
+"title": "Snowman Stew",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "79",
+"authors": [
+"James Powell"
+],
+"real": []
+},
+{
+"title": "The Advent Reunion",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "104",
+"authors": [
+"Andrew Klavan"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 437296,
+"title": "Ellery Queen's Mystery Magazine, May 2011",
+"date": "2011-05-00",
+"items": [
+{
+"title": "Normal",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "93",
+"authors": [
+"Donna Andrews"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Tom Roberts"
+],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 437298,
+"title": "Ellery Queen's Mystery Magazine, June 2011",
+"date": "2011-06-00",
+"items": [
+{
+"title": "Two Dwarves and Eight Chained Ourang-Outangs",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "104",
+"authors": [
+"Eric Cline"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 437051,
+"title": "Ellery Queen's Mystery Magazine, September-October 2011",
+"date": "2011-09-00",
+"items": [
+{
+"title": "Vampire Slayer Murdered in Key West",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "101",
+"authors": [
+"Michael Haskins"
+],
+"real": []
+},
+{
+"title": "A Hostage Situation",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "172",
+"authors": [
+"Dave Zeltserman"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 437048,
+"title": "Ellery Queen's Mystery Magazine, March-April 2013",
+"date": "2013-03-00",
+"items": [
+{
+"title": "When Mourning Stirs the House",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "101",
+"authors": [
+"Gary A. Mitchell"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 437082,
+"title": "Ellery Queen's Mystery Magazine, May 2013",
+"date": "2013-05-00",
+"items": [
+{
+"title": "Archie Solves the Case",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "2",
+"authors": [
+"Dave Zeltserman"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 423950,
+"title": "Ellery Queen's Mystery Magazine, September-October 2013",
+"date": "2013-09-00",
+"items": [
+{
+"title": "Mummy Darling",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "74",
+"authors": [
+"Maurizio de Giovanni"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 429231,
+"title": "Ellery Queen's Mystery Magazine, December 2013",
+"date": "2013-12-00",
+"items": [
+{
+"title": "Jack and the Devil",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "49",
+"authors": [
+"David Dean"
+],
+"real": []
+},
+{
+"title": "The Wolfram Hunters",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "63",
+"authors": [
+"Edward D. Hoch"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 437085,
+"title": "Ellery Queen's Mystery Magazine, January 2014",
+"date": "2014-01-00",
+"items": [
+{
+"title": "Heaven Knows",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "43",
+"authors": [
+"Marilyn Todd"
+],
+"real": []
+},
+{
+"title": "Blunt Instruments",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "88",
+"authors": [
+"James Powell"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 437049,
+"title": "Ellery Queen's Mystery Magazine, March-April 2014",
+"date": "2014-03-00",
+"items": [
+{
+"title": "Julius Katz and a Tangled Webb",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "37",
+"authors": [
+"Dave Zeltserman"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 439529,
+"title": "Ellery Queen's Mystery Magazine, May 2014",
+"date": "2014-05-00",
+"items": [
+{
+"title": "The Theft of the Clown Jules",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "79",
+"authors": [
+"James Powell"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 444168,
+"title": "Ellery Queen's Mystery Magazine, June 2014",
+"date": "2014-06-00",
+"items": [
+{
+"title": "Julius Accused",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "2",
+"authors": [
+"Dave Zeltserman"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 503450,
+"title": "Ellery Queen's Mystery Magazine, March-April 2015",
+"date": "2015-03-00",
+"items": [
+{
+"title": "Julius Katz and the Case of Exploding Wine",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "70",
+"authors": [
+"Dave Zeltserman"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Janet Hutchings"
+]
+},
+{
+"id": 511880,
+"title": "Ellery Queen's Mystery Magazine, June 2015",
+"date": "2015-06-00",
+"items": [
+{
+"title": "The Postmen",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "74",
+"authors": [
+"James Warner"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Janet Hutchings"
+]
+},
+{
+"id": 1051860,
+"title": "Ellery Queen's Mystery Magazine, July 2015",
+"date": "2015-07-00",
+"items": [
+{
+"title": "Gun Accident: An Investigation",
+"type": "SHORTFICTION",
+"len": null,
+"page": "2",
+"authors": [
+"Joyce Carol Oates"
+],
+"real": []
+},
+{
+"title": "The Walking Path",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "35",
+"authors": [
+"David Dean"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Denzorr"
+],
+"editors": [
+"Janet Hutchings"
+]
+},
+{
+"id": 530507,
+"title": "Ellery Queen's Mystery Magazine, September-October 2015",
+"date": "2015-10-00",
+"items": [
+{
+"title": "Lady of the Night",
+"type": "POEM",
+"len": null,
+"page": "141",
+"authors": [
+"Jane Smith"
+],
+"real": []
+},
+{
+"title": "Petrified",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "181",
+"authors": [
+"Marilyn Todd"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Janet Hutchings"
+]
+},
+{
+"id": 544787,
+"title": "Ellery Queen's Mystery Magazine, December 2015",
+"date": "2015-12-00",
+"items": [
+{
+"title": "Julius Katz and the Giftwrapped Murder",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "2",
+"authors": [
+"Dave Zeltserman"
+],
+"real": []
+},
+{
+"title": "The Spider",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "39",
+"authors": [
+"Kōga Saburō"
+],
+"real": [
+"甲賀三郎"
+]
+}
+],
+"cover_artists": [
+"Marilena Perilli"
+],
+"editors": [
+"Janet Hutchings"
+]
+},
+{
+"id": 551260,
+"title": "Ellery Queen's Mystery Magazine, January 2016",
+"date": "2016-01-00",
+"items": [
+{
+"title": "To Kill a Rocking Horse",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "65",
+"authors": [
+"James Powell"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 562868,
+"title": "Ellery Queen's Mystery Magazine, March-April 2016",
+"date": "2016-03-00",
+"items": [
+{
+"title": "Big Momma",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "18",
+"authors": [
+"Joyce Carol Oates"
+],
+"real": []
+},
+{
+"title": "The Woman in the Briefcase",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "113",
+"authors": [
+"Joseph D'Agnese"
+],
+"real": []
+},
+{
+"title": "Dispositions",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "150",
+"authors": [
+"James Sallis"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 567457,
+"title": "Ellery Queen's Mystery Magazine, May 2016",
+"date": "2016-05-00",
+"items": [
+{
+"title": "The Garden of Forking Paths",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "2",
+"authors": [
+"Jorge Luis Borges"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 584836,
+"title": "Ellery Queen's Mystery Magazine, September-October 2016",
+"date": "2016-09-00",
+"items": [
+{
+"title": "The Specialty of the House",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "3",
+"authors": [
+"Stanley Ellin"
+],
+"real": []
+},
+{
+"title": "The Crawl Space",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "20",
+"authors": [
+"Joyce Carol Oates"
+],
+"real": []
+},
+{
+"title": "Small Chances",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "95",
+"authors": [
+"Charlaine Harris"
+],
+"real": []
+},
+{
+"title": "Archie on Loan",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "180",
+"authors": [
+"Dave Zeltserman"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 590676,
+"title": "Ellery Queen's Mystery Magazine, November 2016",
+"date": "2016-11-00",
+"items": [
+{
+"title": "EQMM's First Critics",
+"type": "ESSAY",
+"len": null,
+"page": "17",
+"authors": [
+"Jon L. Breen"
+],
+"real": []
+},
+{
+"title": "A Kind of Madness",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "87",
+"authors": [
+"Anthony Boucher"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 595595,
+"title": "Ellery Queen's Mystery Magazine, December 2016",
+"date": "2016-12-00",
+"items": [
+{
+"title": "Ghosts of Bunker Hill",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "88",
+"authors": [
+"Paul D. Marks"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 598471,
+"title": "Ellery Queen's Mystery Magazine, January-February 2017",
+"date": "2017-01-00",
+"items": [
+{
+"title": "The Twelve Days of Dunwich",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "39",
+"authors": [
+"Barbara Nadel"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 608066,
+"title": "Ellery Queen's Mystery Magazine, March-April 2017",
+"date": "2017-03-00",
+"items": [
+{
+"title": "Cramer in Trouble",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "153",
+"authors": [
+"Dave Zeltserman"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 623195,
+"title": "Ellery Queen's Mystery Magazine, July-August 2017",
+"date": "2017-07-00",
+"items": [
+{
+"title": "Banana Triangle Six",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "57",
+"authors": [
+"Louis Bayard"
+],
+"real": []
+},
+{
+"title": "Night Crossing",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "129",
+"authors": [
+"Marilyn Todd"
+],
+"real": []
+},
+{
+"title": "Julius Katz and the Terminated Agent",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "131",
+"authors": [
+"Dave Zeltserman"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 633208,
+"title": "Ellery Queen's Mystery Magazine, September-October 2017",
+"date": "2017-09-00",
+"items": [
+{
+"title": "e-Golem",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "15",
+"authors": [
+"S. J. Rozan"
+],
+"real": []
+},
+{
+"title": "Bunker Hill Blues",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "97",
+"authors": [
+"Paul D. Marks"
+],
+"real": []
+},
+{
+"title": "Matti",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "112",
+"authors": [
+"Iris Leister"
+],
+"real": []
+},
+{
+"title": "Phantomwise: 1972",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "158",
+"authors": [
+"Joyce Carol Oates"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Christine Marie Larson"
+],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 690890,
+"title": "Ellery Queen's Mystery Magazine, November-December 2018",
+"date": "2018-11-00",
+"items": [
+{
+"title": "Downton Shabby",
+"type": "POEM",
+"len": null,
+"page": "132",
+"authors": [
+"Marilyn Todd"
+],
+"real": []
+},
+{
+"title": "Long Slow Dance Through the Passage of Time",
+"type": "SHORTFICTION",
+"len": null,
+"page": "147",
+"authors": [
+"Marilyn Todd"
+],
+"real": []
+},
+{
+"title": "Archie for Hire",
+"type": "SHORTFICTION",
+"len": null,
+"page": "168",
+"authors": [
+"Dave Zeltserman"
+],
+"real": []
+}
+],
+"cover_artists": [
+"The Red Dress"
+],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 720118,
+"title": "Ellery Queen's Mystery Magazine, July-August 2019",
+"date": "2019-07-00",
+"items": [
+{
+"title": "Heat",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "56",
+"authors": [
+"Trey Dowell"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Simon Prades"
+],
+"editors": [
+"Janet Hutchings"
+]
+},
+{
+"id": 728843,
+"title": "Ellery Queen's Mystery Magazine, September-October 2019",
+"date": "2019-09-00",
+"items": [
+{
+"title": "School of Hard Rocks",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "115",
+"authors": [
+"Marilyn Todd"
+],
+"real": []
+},
+{
+"title": "Julius Katz and the Belvedere Club",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "151",
+"authors": [
+"Dave Zeltserman"
+],
+"real": []
+},
+{
+"title": "Figs",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "189",
+"authors": [
+"James Sallis"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Stefania Infante"
+],
+"editors": [
+"Janet Hutchings"
+]
+},
+{
+"id": 823140,
+"title": "Ellery Queen's Mystery Magazine, January-February 2021",
+"date": "2021-01-00",
+"items": [
+{
+"title": "Analogue",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "112",
+"authors": [
+"Rob Osler"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 846341,
+"title": "Ellery Queen's Mystery Magazine, July-August 2021",
+"date": "2021-07-00",
+"items": [
+{
+"title": "Bone Marrow Dance",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "19",
+"authors": [
+"Joyce Carol Oates"
+],
+"real": []
+},
+{
+"title": "Julius Katz and the Two Cousins",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "97",
+"authors": [
+"Dave Zeltserman"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 863003,
+"title": "Ellery Queen's Mystery Magazine, September-October 2021",
+"date": "2021-09-00",
+"items": [
+{
+"title": "DNF",
+"type": "SHORTFICTION",
+"len": null,
+"page": "9",
+"authors": [
+"Kristine Kathryn Rusch"
+],
+"real": []
+},
+{
+"title": "Trick or Treat",
+"type": "SHORTFICTION",
+"len": null,
+"page": "69",
+"authors": [
+"Jane Jakeman"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 900690,
+"title": "Ellery Queen's Mystery Magazine, March-April 2022",
+"date": "2022-03-00",
+"items": [
+{
+"title": "33 Clues into the Disappearance of My Sister",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "158",
+"authors": [
+"Joyce Carol Oates"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 916467,
+"title": "Ellery Queen's Mystery Magazine, September/October 2022",
+"date": "2022-09-00",
+"items": [
+{
+"title": "The Wraith of Bunker Hill",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"Paul D. Marks"
+],
+"real": []
+},
+{
+"title": "No Peace for the Wicked",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "55",
+"authors": [
+"Martin Edwards"
+],
+"real": []
+},
+{
+"title": "The Skeleton Rides a Horse",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "105",
+"authors": [
+"Leigh Perry"
+],
+"real": [
+"Toni L. P. Kelner"
+]
+},
+{
+"title": "The Edinburgh Vampire",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "170",
+"authors": [
+"Jane Jakeman"
+],
+"real": []
+}
+],
+"cover_artists": [
+"123rf"
+],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 929558,
+"title": "Ellery Queen's Mystery Magazine, November-December 2022",
+"date": "2022-11-00",
+"items": [
+{
+"title": "Archie Smith: International Spy",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "11",
+"authors": [
+"Dave Zeltserman"
+],
+"real": []
+},
+{
+"title": "Marginalia",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "31",
+"authors": [
+"Simon Brett"
+],
+"real": []
+},
+{
+"title": "A Ghost for Marcy's Garden",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "93",
+"authors": [
+"W. W. Mauck"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 944198,
+"title": "Ellery Queen's Mystery Magazine, March-April 2023",
+"date": "2023-03-00",
+"items": [
+{
+"title": "Mrs. Hyde",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "2",
+"authors": [
+"David Dean"
+],
+"real": []
+},
+{
+"title": "The Jury Box (Ellery Queen's, March-April 2023)",
+"type": "ESSAY",
+"len": null,
+"page": "18",
+"authors": [
+"Steve Steinbock"
+],
+"real": []
+},
+{
+"title": "The Sleeper of Coldwreath",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "57",
+"authors": [
+"Tom Mead"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 950814,
+"title": "Ellery Queen's Mystery Magazine, May-June 2023",
+"date": "2023-05-00",
+"items": [
+{
+"title": "The Wendigo's Spell",
+"type": "SHORTFICTION",
+"len": null,
+"page": "40",
+"authors": [
+"Paul Halter"
+],
+"real": []
+},
+{
+"title": "Chalk",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "146",
+"authors": [
+"Bill Pronzini"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 962990,
+"title": "Ellery Queen's Mystery Magazine, July-August 2023",
+"date": "2023-07-00",
+"items": [
+{
+"title": "Crown vs. Marchland",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "29",
+"authors": [
+"David Dean"
+],
+"real": []
+},
+{
+"title": "Martin, the Novelist",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "51",
+"authors": [
+"Marcel AymÃ©"
+],
+"real": []
+},
+{
+"title": "Her Upstairs",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "131",
+"authors": [
+"Michael Z. Lewin"
+],
+"real": []
+},
+{
+"title": "Archie's Been Stolen!",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "162",
+"authors": [
+"Dave Zeltserman"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 999512,
+"title": "Ellery Queen's Mystery Magazine, January-February 2024",
+"date": "2024-01-00",
+"items": [
+{
+"title": "The Carfax Lunatic Society",
+"type": "SHORTFICTION",
+"len": null,
+"page": "49",
+"authors": [
+"David Dean"
+],
+"real": []
+},
+{
+"title": "The Problem of the Vanishing Sopranos",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "176",
+"authors": [
+"Erica Obey"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 1005852,
+"title": "Ellery Queen's Mystery Magazine, March-April 2024",
+"date": "2024-03-00",
+"items": [
+{
+"title": "The Jury Box (Ellery Queen's, March-April 2024)",
+"type": "ESSAY",
+"len": null,
+"page": "30",
+"authors": [
+"Steve Steinbock"
+],
+"real": []
+},
+{
+"title": "A Second Opinion",
+"type": "SHORTFICTION",
+"len": null,
+"page": "137",
+"authors": [
+"Fernando Santos de Oliveira"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Shutterstock"
+],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 1020861,
+"title": "Ellery Queen's Mystery Magazine, July-August 2024",
+"date": "2024-07-00",
+"items": [
+{
+"title": "Shall I Be Mother?",
+"type": "SHORTFICTION",
+"len": null,
+"page": "92",
+"authors": [
+"David Dean"
+],
+"real": []
+},
+{
+"title": "An Ounce of Prevention",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "151",
+"authors": [
+"Twist Phelan"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 1031004,
+"title": "Ellery Queen's Mystery Magazine, September-October 2024",
+"date": "2024-09-00",
+"items": [
+{
+"title": "Knock-Knock",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "29",
+"authors": [
+"Sarah Hilary"
+],
+"real": []
+},
+{
+"title": "Rosabelle",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "49",
+"authors": [
+"Kate Hohl"
+],
+"real": []
+},
+{
+"title": "The Gaslight Sonata",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "61",
+"authors": [
+"Richard Helms"
+],
+"real": []
+},
+{
+"title": "Gannets and Ghouls",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "83",
+"authors": [
+"Sue Parman"
+],
+"real": []
+},
+{
+"title": "The Jews on Elm Street",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "95",
+"authors": [
+"Anna Stolley Persky"
+],
+"real": []
+},
+{
+"title": "Not All Hauntings Are by Ghosts",
+"type": "SHORTFICTION",
+"len": null,
+"page": "157",
+"authors": [
+"Robin Kirman"
+],
+"real": []
+},
+{
+"title": "Cadere ex Stellae",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "168",
+"authors": [
+"Pat Black"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Editors of Ellery Queen's Mystery Magazine"
+]
+},
+{
+"id": 1039831,
+"title": "Ellery Queen's Mystery Magazine, January-February 2025",
+"date": "2025-01-00",
+"items": [
+{
+"title": "Kanab Noon",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Manon Wogahn"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Janet Hutchings",
+"Jackie Sherbow"
+]
+},
+{
+"id": 1045399,
+"title": "Ellery Queen's Mystery Magazine, January-February 2025",
+"date": "2025-01-00",
+"items": [
+{
+"title": "Kanab Noon",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "95",
+"authors": [
+"Manon Wogahn"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Janet Hutchings",
+"Jackie Sherbow"
+]
+},
+{
+"id": 1054609,
+"title": "Ellery Queen's Mystery Magazine, March-April 2025",
+"date": "2025-03-00",
+"items": [
+{
+"title": "Aswarby Hall",
+"type": "SHORTFICTION",
+"len": null,
+"page": "7",
+"authors": [
+"David Dean"
+],
+"real": []
+},
+{
+"title": "The Jury Box (Ellery Queen's Mystery Magazine, March-April 2025)",
+"type": "ESSAY",
+"len": null,
+"page": "29",
+"authors": [
+"Steve Steinbock"
+],
+"real": []
+},
+{
+"title": "A Long Time Till Morning",
+"type": "SHORTFICTION",
+"len": null,
+"page": "99",
+"authors": [
+"Andrew Klavan"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Shutterstock"
+],
+"editors": [
+"Janet Hutchings",
+"Jackie Sherbow"
+]
+},
+{
+"id": 1061443,
+"title": "Ellery Queen's Mystery Magazine, May-June 2025",
+"date": "2025-05-00",
+"items": [
+{
+"title": "The Portrait of Adrian Whyte",
+"type": "SHORTFICTION",
+"len": null,
+"page": "19",
+"authors": [
+"David Dean"
+],
+"real": []
+},
+{
+"title": "Shamus & Buster",
+"type": "SHORTFICTION",
+"len": null,
+"page": "127",
+"authors": [
+"Paul Ryan O'Conner"
+],
+"real": []
+},
+{
+"title": "The Dead Detective's Affair",
+"type": "SHORTFICTION",
+"len": null,
+"page": "160",
+"authors": [
+"Cirilo Lemos"
+],
+"real": [
+"Cirilo S. Lemos"
+]
+},
+{
+"title": "We Don't Say Mexico",
+"type": "SHORTFICTION",
+"len": null,
+"page": "173",
+"authors": [
+"Linda Niehoff"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Thitiwat.Day"
+],
+"editors": [
+"Janet Hutchings",
+"Jackie Sherbow"
+]
+},
+{
+"id": 1104357,
+"title": "Ellery Queen's Mystery Magazine, September-October 2025",
+"date": "2025-09-00",
+"items": [
+{
+"title": "The Summer People",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "92",
+"authors": [
+"Rebecca Turkewitz"
+],
+"real": []
+},
+{
+"title": "Julius Katz and the Dented Fender",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "106",
+"authors": [
+"Dave Zeltserman"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Shutterstock"
+],
+"editors": [
+"Janet Hutchings",
+"Jackie Sherbow"
+]
+},
+{
+"id": 1106891,
+"title": "Ellery Queen's Mystery Magazine, November-December 2025",
+"date": "2025-11-00",
+"items": [
+{
+"title": "Ever Heard of a Black Crow's Visit That Didn't End in Death?",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "50",
+"authors": [
+"Kasimma"
+],
+"real": []
+},
+{
+"title": "The Human Form Divine",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "58",
+"authors": [
+"O'Neil De Noux"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Jakub Krechowicz"
+],
+"editors": [
+"Janet Hutchings",
+"Jackie Sherbow"
+]
+},
+{
+"id": 1116603,
+"title": "Ellery Queen's Mystery Magazine, January-February 2026",
+"date": "2026-01-00",
+"items": [
+{
+"title": "Skeleton Crew",
+"type": "SHORTFICTION",
+"len": null,
+"page": "160",
+"authors": [
+"V. G. Burke"
+],
+"real": []
+}
+],
+"cover_artists": [
+"CreativeStory"
+],
+"editors": [
+"Jackie Sherbow"
+]
+}
+]
+}

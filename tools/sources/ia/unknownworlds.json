@@ -1,0 +1,533 @@
+[
+{
+"identifier": "UnknownV02N06194002",
+"title": "Unknown v02n06 [1940-02]",
+"date": "1940-02-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "UnknownV03N01194003",
+"title": "Unknown v03n01 [1940-03]",
+"date": "1940-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "UnknownV03N02194004",
+"title": "Unknown v03n02 [1940-04]",
+"date": "1940-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_201509",
+"title": "Unknown",
+"date": "1940-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_British_Ed._New_Series_v03n12_1948-Spring",
+"title": "Unknown British Ed. New Series v03n12 (1948 Spring)",
+"date": "1948-01-01",
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_British_Ed._v02n03_1939-11",
+"title": "Unknown British Ed. v02n03 (1939 11)",
+"date": "1939-11-01",
+"imagecount": 99,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_British_Ed._v02n03_1939-11_Missing_ibcbc",
+"title": "Unknown British Ed. v02n03 (1939 11) (Missing ibc,bc)",
+"date": "1939-11-01",
+"imagecount": 99,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_British_Ed._v04n04_1940-12",
+"title": "Unknown British Ed. v04n04 (1940 12)",
+"date": "1940-12-01",
+"imagecount": 84,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_British_Ed._v04n04_1940-12_bogof39-slpn",
+"title": "Unknown British Ed. v04n04 (1940 12) (bogof39 slpn)",
+"date": "1940-12-01",
+"imagecount": 84,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_Worlds_British_Ed._New_Series_v03n12_1948-Spring_SLiV",
+"title": "Unknown Worlds British Ed. New Series v03n12 (1948 Spring) (SLiV)",
+"date": "1948-01-01",
+"imagecount": 69,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_Worlds_v07n02_1943-08.Street_and_Smith",
+"title": "Unknown Worlds v07n02 (1943-08.Street and Smith)",
+"date": "1943-08-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v01n01_1939-03",
+"title": "Unknown v01n01 (1939 03)",
+"date": "1939-03-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v01n02_1939-04_SLiV",
+"title": "Unknown v01n02 (1939 04) (SLiV)",
+"date": "1939-04-01",
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v01n03_1939-05_unz.org-sas",
+"title": "Unknown v01n03 (1939 05) (unz.org sas)",
+"date": "1939-05-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v01n04_1939-06_unz.org",
+"title": "Unknown v01n04 (1939 06) (unz.org)",
+"date": "1939-06-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v01n05_1939-07_ufikus-DPP",
+"title": "Unknown v01n05 (1939 07) (ufikus DPP)",
+"date": "1939-07-01",
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v01n06_1939-08_JvH-slpn",
+"title": "Unknown v01n06 (1939 08) (JvH slpn)",
+"date": "1939-08-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v02n01_1939-09_unz.org",
+"title": "Unknown v02n01 (1939 09) (unz.org)",
+"date": "1939-09-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v02n02_1939-10_unz.org",
+"title": "Unknown v02n02 (1939 10) (unz.org)",
+"date": "1939-10-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v02n03_1939-11_PDF_unz.org",
+"title": "Unknown v02n03 (1939 11) (PDF) (unz.org)",
+"date": "1939-11-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v02n04_1939-12_unz.org",
+"title": "Unknown v02n04 (1939 12) (unz.org)",
+"date": "1939-12-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v02n05_1940-01_unz.org",
+"title": "Unknown v02n05 (1940 01) (unz.org)",
+"date": "1940-01-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v02n06_1940-02_unz.org",
+"title": "Unknown v02n06 (1940 02) (unz.org)",
+"date": "1940-02-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v03n01_1940-03_unz.org",
+"title": "Unknown v03n01 (1940 03) (unz.org)",
+"date": "1940-03-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v03n02_1940-04_unz.org-sas",
+"title": "Unknown v03n02 (1940 04) (unz.org sas)",
+"date": "1940-04-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v03n03_1940-05",
+"title": "Unknown v03n03 (1940 05)",
+"date": "1940-05-01",
+"imagecount": 166,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v03n03_1940-05.Street_and_Smith",
+"title": "Unknown v03n03 (1940-05.Street and Smith)",
+"date": "1940-05-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v03n04_1940-06_unz.org",
+"title": "Unknown v03n04 (1940 06) (unz.org)",
+"date": "1940-06-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v03n05_1940-07_slpn",
+"title": "Unknown v03n05 (1940 07) (slpn)",
+"date": "1940-07-01",
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v03n06_1940-08_unz.org",
+"title": "Unknown v03n06 (1940 08) (unz.org)",
+"date": "1940-08-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v04n01_1940-09_unz.org",
+"title": "Unknown v04n01 (1940 09) (unz.org)",
+"date": "1940-09-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v04n02_1940-10_Anon.Malefactor",
+"title": "Unknown v04n02 (1940 10) (Anon.Malefactor)",
+"date": "1940-10-01",
+"imagecount": 166,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v04n03_1940-11",
+"title": "Unknown v04n03 (1940 11)",
+"date": "1940-11-01",
+"imagecount": 166,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v04n04_1940-12_EXciter-Robb",
+"title": "Unknown v04n04 1940 12 EXciter Robb",
+"date": "1940-12-01",
+"imagecount": 166,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v04n05_1941-02_Anon_Malefactor",
+"title": "Unknown v04n05 (1941 02) (Anon Malefactor)",
+"date": "1941-02-01",
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v04n06_1941-04_PDF_unz.org",
+"title": "Unknown v04n06 (1941 04) (PDF) (unz.org)",
+"date": "1941-04-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v05n01_1941-06_PDF_unz.org",
+"title": "Unknown v05n01 (1941 06) (PDF) (unz.org)",
+"date": "1941-06-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v05n02_1941-08_SLiV",
+"title": "Unknown v05n02 (1941 08) SLiV",
+"date": "1941-08-01",
+"imagecount": 165,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v05n03_1941-10_PDF_unz.org",
+"title": "Unknown v05n03 (1941 10) (PDF) (unz.org)",
+"date": "1941-10-01",
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v05n04_1941-12_PDF_unz.org",
+"title": "Unknown v05n04 (1941 12) (PDF) (unz.org)",
+"date": "1941-12-01",
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v05n05_1942-02_slpn",
+"title": "Unknown v05n05 (1942 02) (slpn)",
+"date": "1942-02-01",
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v05n06_1942-04_SLiV",
+"title": "Unknown v05n06 (1942 04) SLiV",
+"date": "1942-04-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v06n01_1942-06",
+"title": "Unknown v06n01 (1942 06)",
+"date": "1942-06-01",
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v06n02_1942-08_ufikus-DPP",
+"title": "Unknown v06n02 (1942 08) (ufikus DPP)",
+"date": "1942-08-01",
+"imagecount": 133,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v06n03_1942-10_PDF_unz.org",
+"title": "Unknown v06n03 (1942 10) (PDF) (unz.org)",
+"date": "1942-10-01",
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v06n04_1942-12_PDF_unz.org",
+"title": "Unknown v06n04 (1942 12) (PDF) (unz.org)",
+"date": "1942-12-01",
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v06n05_1943-02_slpn",
+"title": "Unknown v06n05 (1943 02) (slpn)",
+"date": "1943-02-01",
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v06n06_1943-04_PDF_unz.org",
+"title": "Unknown v06n06 (1943 04) (PDF) (unz.org)",
+"date": "1943-04-01",
+"imagecount": 132,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v07n01_1943-06_PDF_unz.org",
+"title": "Unknown v07n01 (1943 06) (PDF) (unz.org)",
+"date": "1943-06-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v07n02_1943-08",
+"title": "Unknown v07n02 (1943 08)",
+"date": "1943-08-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Unknown_v07n03_1943-10_PDF_unz.org",
+"title": "Unknown v07n03 (1943 10) (PDF) (unz.org)",
+"date": "1943-10-01",
+"imagecount": 164,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "unknown-worlds-v-05-n-03-1941-10",
+"title": "Unknown Worlds October 1941",
+"date": "1941-10-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "unknown-worlds-v-05-n-04-1941-12",
+"title": "Unknown Worlds December 1941",
+"date": "1941-12-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "unknown-worlds-v-06-n-01-1942-06",
+"title": "Unknown Worlds June 1942",
+"date": "1942-06-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "unknown-worlds-v-06-n-03-1942-10",
+"title": "Unknown Worlds October 1942",
+"date": "1942-10-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "unknown-worlds-v-06-n-04-1942-12",
+"title": "Unknown Worlds December 1942",
+"date": "1942-12-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "unknown-worlds-v-06-n-06-1943-04",
+"title": "Unknown Worlds April 1943",
+"date": "1943-04-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "unknown-worlds-v-07-n-03-1943-10",
+"title": "Unknown Worlds October 1943",
+"date": "1943-10-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "unknownv07n01194306",
+"title": "Unknown v07 n01 [1943-06]",
+"date": "1943-06-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+}
+]

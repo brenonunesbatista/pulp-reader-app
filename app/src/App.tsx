@@ -12,6 +12,7 @@ import { ComingSoonScreen } from './screens/ComingSoonScreen'
 import { IssueScreen } from './screens/IssueScreen'
 import { LibraryScreen } from './screens/LibraryScreen'
 import { MagazineScreen } from './screens/MagazineScreen'
+import { ReadingScreen } from './screens/ReadingScreen'
 import { NotesScreen } from './screens/NotesScreen'
 import { PersonScreen } from './screens/PersonScreen'
 import { SearchScreen } from './screens/SearchScreen'
@@ -28,6 +29,7 @@ function screenFor(r: Route) {
     case 'reader': return <ReaderScreen issueId={r.issueId} leaf={r.leaf} storyId={r.storyId} />
     case 'settings': return <SettingsScreen />
     case 'notes': return <NotesScreen />
+    case 'reading': return <ReadingScreen />
     case 'soon': return r.what === 'atlas' ? <AtlasHomeScreen /> : <ComingSoonScreen what={r.what} />
     case 'atlas': return <AtlasHomeScreen />
     case 'timeline': return <TimelineScreen focus={r.focus} subject={r.subject} saved={r.saved} />

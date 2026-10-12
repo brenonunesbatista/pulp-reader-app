@@ -162,7 +162,10 @@ select.chip { appearance: none; padding-right: 30px; background-image: linear-gr
 .mag-card:disabled { opacity: .55; cursor: default; }
 .mag-card .mosaic { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; width: 168px; flex-shrink: 0; }
 .mag-card .info { display: flex; flex-direction: column; gap: 5px; min-width: 0; }
-.mag-card .title { font: 900 28px/.92 var(--f-display); text-transform: uppercase; }
+/* titles never overflow the card (a break inside a word is the last resort; see .long in MagazineGrid) */
+.mag-card .title { font: 900 28px/.92 var(--f-display); text-transform: uppercase; overflow-wrap: anywhere; }
+.mag-card .title.long { font-size: 20px; }
+.mag-card .info { flex: 1; }
 .mag-card .tag { margin-top: auto; align-self: flex-start; font: 800 16px/1 var(--f-display); letter-spacing: .08em; padding: 6px 10px;
   border: 2px solid var(--ink); background: var(--pulp-yellow); color: #2A2118; }
 .mag-card .tag.soon { background: var(--bg); color: var(--ink); }
@@ -314,8 +317,9 @@ select.chip { appearance: none; padding-right: 30px; background-image: linear-gr
 .inbox-list .txt { display: flex; flex-direction: column; }
 
 /* magazine "About" band (screens/MagazineAbout.tsx) */
-.mag-about { max-width: 860px; margin: 4px 0 18px; padding: 12px 16px; border: 2px solid var(--edge); background: var(--surface); }
-.mag-about p { margin: 6px 0; font: 17px/1.5 var(--f-text); }
+/* first block of the magazine's filter band (same surface), separated from the facts and filters by a rule */
+.mag-about { max-width: 900px; padding: 2px 0 12px; border-bottom: 1.5px dashed var(--rule); }
+.mag-about p { margin: 6px 0; font: 17px/1.5 var(--f-text); color: var(--ink); }
 .mag-about .facts { margin-bottom: 4px; }
 .mag-about .row { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-top: 8px; }
 .mag-about .cite { font-size: 11px; color: var(--pulp-red); margin-left: 1px; }

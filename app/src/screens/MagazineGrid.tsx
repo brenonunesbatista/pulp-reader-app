@@ -18,7 +18,8 @@ export function MagazineShelf({ category, magazines }: { category: Category; mag
           <button key={m.id} className="mag-card" onClick={() => nav.push({ name: 'magazine', id: m.id })}>
             <div className="mosaic">{m.covers.map((c) => <Cover key={c} path={c} small />)}</div>
             <div className="info">
-              <div className="title">{m.name}</div>
+              {/* a single long word ("PROTODIMENSION") gets a smaller size instead of breaking mid-word */}
+              <div className={`title ${Math.max(...m.name.split(/\s+/).map((w) => w.length)) > 11 ? 'long' : ''}`}>{m.name}</div>
               <div className="muted small num">{m.firstYear === m.lastYear ? m.firstYear : `${m.firstYear}–${m.lastYear}`}</div>
               <div className="muted small num">{m.issueCount} {m.issueCount === 1 ? 'issue' : 'issues'} · {m.readable} readable</div>
               <span className="tag">OPEN</span>

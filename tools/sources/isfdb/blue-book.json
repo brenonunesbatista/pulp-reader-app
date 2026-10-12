@@ -1,0 +1,9681 @@
+{
+"source": "ISFDB, The Internet Speculative Fiction Database (https://www.isfdb.org), CC BY 4.0",
+"dump": "backup-MySQL-55-2026-10-10.zip",
+"pattern": "^(The )?(Monthly Story )?(Blue ?Book|Bluebook)( Magazine)?( for Men)?, ",
+"issues": [
+{
+"id": 291821,
+"title": "The Monthly Story Blue Book Magazine, September 1906",
+"date": "1906-09-00",
+"items": [
+{
+"title": "The Lung Machine",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1011",
+"authors": [
+"Norman H. Crowell"
+],
+"real": []
+},
+{
+"title": "The Great Ray Experiment",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1020",
+"authors": [
+"James S. Boyd"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Gustavus C. Widney"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 1034143,
+"title": "The Monthly Story Blue Book Magazine, October 1906",
+"date": "1906-10-00",
+"items": [
+{
+"title": "Benson's Scientific Hobby",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1164",
+"authors": [
+"H. E. Thompson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Alice Beach Lane"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 1034251,
+"title": "The Monthly Story Blue Book Magazine, November 1906",
+"date": "1906-11-00",
+"items": [
+{
+"title": "Pugsby's Manufacture of Diamonds",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "172",
+"authors": [
+"A. W. Busbridge"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Gustavus C. Widney"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 288283,
+"title": "The Monthly Story Blue Book Magazine, December 1906",
+"date": "1906-12-00",
+"items": [
+{
+"title": "An Assisted Evolution",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "311",
+"authors": [
+"R. F. Adams",
+"J. A. Tiffany"
+],
+"real": []
+},
+{
+"title": "A Curly Gray Hair",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "347",
+"authors": [
+"Annie Payne Ader"
+],
+"real": []
+},
+{
+"title": "An Inter-Planetary Rupture",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "371",
+"authors": [
+"Frank L. Packard"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 1034521,
+"title": "The Monthly Story Blue Book Magazine, January 1907",
+"date": "1907-01-00",
+"items": [
+{
+"title": "The Reflected City",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "529",
+"authors": [
+"Arthur Edmondston"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 1034759,
+"title": "The Monthly Story Blue Book Magazine, February 1907",
+"date": "1907-02-00",
+"items": [
+{
+"title": "The Queen's Anklet",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "695",
+"authors": [
+"Helen Tompkins"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 1035382,
+"title": "The Monthly Story Blue Book Magazine, March 1907",
+"date": "1907-03-00",
+"items": [
+{
+"title": "Beyond the Great Wall",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1027",
+"authors": [
+"J. Gordon Smith"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 294690,
+"title": "The Blue Book Magazine, May 1907",
+"date": "1907-05-00",
+"items": [
+{
+"title": "A Self-Inflicted Vengeance",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "89",
+"authors": [
+"Gilbert P. Coleman"
+],
+"real": []
+}
+],
+"cover_artists": [
+"J. N. E. Marchand"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 310841,
+"title": "The Blue Book Magazine, June 1907",
+"date": "1907-06-00",
+"items": [
+{
+"title": "The Odyle",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "257",
+"authors": [
+"Charles Edmonds Walk"
+],
+"real": []
+}
+],
+"cover_artists": [
+"J. N. E. Marchand"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 308078,
+"title": "The Blue Book Magazine, July 1907",
+"date": "1907-07-00",
+"items": [
+{
+"title": "The Hugmetite Airship",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "580",
+"authors": [
+"Frank Lovell Nelson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"J. N. E. Marchand"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 670615,
+"title": "The Blue Book Magazine, August 1907",
+"date": "1907-08-00",
+"items": [
+{
+"title": "More News of the Homebird",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "758",
+"authors": [
+"William Hope Hodgson"
+],
+"real": []
+},
+{
+"title": "The Eye Witness",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "795",
+"authors": [
+"Allen G. Miller"
+],
+"real": []
+},
+{
+"title": "The Ivory God",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "840",
+"authors": [
+"J. S. Fletcher"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 299722,
+"title": "The Blue Book Magazine, September 1907",
+"date": "1907-09-00",
+"items": [
+{
+"title": "The Terror of the Water-Tank",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "987",
+"authors": [
+"William Hope Hodgson"
+],
+"real": []
+},
+{
+"title": "A Geological Crime",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1028",
+"authors": [
+"Barton W. Currie"
+],
+"real": []
+},
+{
+"title": "In the Balance-Room",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1105",
+"authors": [
+"Ashby Ford"
+],
+"real": []
+}
+],
+"cover_artists": [
+"J. N. E. Marchand"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 291822,
+"title": "The Blue Book Magazine, November 1907",
+"date": "1907-11-00",
+"items": [
+{
+"title": "The Gravitat",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "118",
+"authors": [
+"Joseph A. Boyd"
+],
+"real": []
+},
+{
+"title": "The Voice in the Night",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "136",
+"authors": [
+"William Hope Hodgson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"J. N. E. Marchand"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 1037202,
+"title": "The Blue Book Magazine, January 1908",
+"date": "1908-01-00",
+"items": [
+{
+"title": "The Honesty-Pill",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "541",
+"authors": [
+"Harry B. Allyn"
+],
+"real": []
+}
+],
+"cover_artists": [
+"J. N. E. Marchand"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 310060,
+"title": "The Blue Book Magazine, March 1908",
+"date": "1908-03-00",
+"items": [
+{
+"title": "Bagley's Inter-Planet Skyrocket",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1016",
+"authors": [
+"Howard Dwight Smiley"
+],
+"real": []
+},
+{
+"title": "The Noble Experiment",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1050",
+"authors": [
+"George Wetherill Earl, Jr."
+],
+"real": []
+}
+],
+"cover_artists": [
+"J. N. E. Marchand"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 1038731,
+"title": "The Blue Book Magazine, July 1908",
+"date": "1908-07-00",
+"items": [
+{
+"title": "The Red God",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "481",
+"authors": [
+"Fred Jackson"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 311307,
+"title": "The Blue Book Magazine, September 1908",
+"date": "1908-09-00",
+"items": [
+{
+"title": "Queen of the Sky",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1103",
+"authors": [
+"Frank H. Williams"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 1039777,
+"title": "The Blue Book Magazine, November 1908",
+"date": "1908-11-00",
+"items": [
+{
+"title": "At the Mercy of the Enemy",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "33",
+"authors": [
+"Johnston McCulley"
+],
+"real": []
+},
+{
+"title": "The Man from the Desert",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "85",
+"authors": [
+"Herman Da Costa"
+],
+"real": []
+},
+{
+"title": "The Water of Revelation",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "137",
+"authors": [
+"Capt. George Wycherly Kaye"
+],
+"real": [
+"George Wycherly Kaye"
+]
+}
+],
+"cover_artists": [],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 1039815,
+"title": "The Blue Book Magazine, December 1908",
+"date": "1908-12-00",
+"items": [
+{
+"title": "An Electrical Resurrection",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "405",
+"authors": [
+"Paul H. Woodruff"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 291642,
+"title": "The Blue Book Magazine, January 1909",
+"date": "1909-01-00",
+"items": [
+{
+"title": "The Destroyer",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "565",
+"authors": [
+"Leighton Osmun"
+],
+"real": []
+},
+{
+"title": "Science and the Girl",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "627",
+"authors": [
+"Emily Calvin Blake"
+],
+"real": []
+},
+{
+"title": "To the End of Space",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "651",
+"authors": [
+"Norman H. Crowell"
+],
+"real": []
+}
+],
+"cover_artists": [
+"J. N. E. Marchand"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 311412,
+"title": "The Blue Book Magazine, March 1909",
+"date": "1909-03-00",
+"items": [
+{
+"title": "The Light",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1059",
+"authors": [
+"Paul H. Woodruff"
+],
+"real": []
+},
+{
+"title": "The Man Who Stopped Hostilities",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1096",
+"authors": [
+"Patrick Vaux"
+],
+"real": []
+},
+{
+"title": "The Hawkins Safety-Safe",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1104",
+"authors": [
+"Edgar Franklin"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 422837,
+"title": "The Blue Book Magazine, April 1909",
+"date": "1909-04-00",
+"items": [
+{
+"title": "The Hawkins Super-Piano",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1227",
+"authors": [
+"Edgar Franklin"
+],
+"real": []
+},
+{
+"title": "The Bones in the Cave",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1321",
+"authors": [
+"Edwin L. Sabin"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 297024,
+"title": "The Blue Book Magazine, May 1909",
+"date": "1909-05-00",
+"items": [
+{
+"title": "The Hawkins Aquatent",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "79",
+"authors": [
+"Edgar Franklin"
+],
+"real": []
+},
+{
+"title": "The Blue Aero Intervenes",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "191",
+"authors": [
+"Bruce Farson"
+],
+"real": []
+},
+{
+"title": "The Man Who Lost His Shadow",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "200",
+"authors": [
+"Birdsall Briscoe"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 1046221,
+"title": "The Blue Book Magazine, July 1909",
+"date": "1909-07-00",
+"items": [
+{
+"title": "The Moving Finger",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "602",
+"authors": [
+"Helen Tompkins"
+],
+"real": []
+}
+],
+"cover_artists": [
+"J. N. E. Marchand"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 297251,
+"title": "The Blue Book Magazine, September 1909",
+"date": "1909-09-00",
+"items": [
+{
+"title": "On the East Shore",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "985",
+"authors": [
+"Bruce Farson"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 1046849,
+"title": "The Blue Book Magazine, November 1909",
+"date": "1909-11-00",
+"items": [
+{
+"title": "Adventures of an Errant Soul",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "143",
+"authors": [
+"Christine Catrevas"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 1046850,
+"title": "The Blue Book Magazine, December 1909",
+"date": "1909-12-00",
+"items": [
+{
+"title": "The Ladder of Remembrance",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "295",
+"authors": [
+"Dr. George F. Butler",
+"Herbert Ilsley"
+],
+"real": []
+}
+],
+"cover_artists": [
+"J. N. E. Marchand"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 302741,
+"title": "The Blue Book Magazine, January 1910",
+"date": "1910-01-00",
+"items": [
+{
+"title": "The Road to Chester",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "573",
+"authors": [
+"Crittenden Marriott"
+],
+"real": []
+},
+{
+"title": "The Hydrogen People",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "622",
+"authors": [
+"George Wycherly Kaye"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 1047459,
+"title": "The Blue Book Magazine, February 1910",
+"date": "1910-02-00",
+"items": [
+{
+"title": "Afraid",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "815",
+"authors": [
+"Bruce Farson"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 309460,
+"title": "The Blue Book Magazine, March 1910",
+"date": "1910-03-00",
+"items": [
+{
+"title": "The Girl in the Tower",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "929",
+"authors": [
+"Fremont Rider"
+],
+"real": []
+},
+{
+"title": "The Opium Flower",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "998",
+"authors": [
+"Charles D. Cameron"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 296525,
+"title": "The Blue Book Magazine, May 1910",
+"date": "1910-05-00",
+"items": [
+{
+"title": "The Current Locker",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "97",
+"authors": [
+"William Harold Durham"
+],
+"real": []
+},
+{
+"title": "White Sorcery",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "118",
+"authors": [
+"Alice Cameron"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 1049932,
+"title": "The Blue Book Magazine, June 1910",
+"date": "1910-06-00",
+"items": [
+{
+"title": "Salt on the Comet's Tail",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "406",
+"authors": [
+"Will Livingston Agnew"
+],
+"real": []
+}
+],
+"cover_artists": [
+"J. N. E. Marchand"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 1049931,
+"title": "The Blue Book Magazine, July 1910",
+"date": "1910-07-00",
+"items": [
+{
+"title": "The Germ Ghost",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "645",
+"authors": [
+"Herbert Ilsley"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 307787,
+"title": "The Blue Book Magazine, November 1910",
+"date": "1910-11-00",
+"items": [
+{
+"title": "A Matter of Brains",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "83",
+"authors": [
+"Alfred S. Mitchell"
+],
+"real": []
+},
+{
+"title": "Concerning Aaron-Artics",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "138",
+"authors": [
+"Leo Crane"
+],
+"real": []
+}
+],
+"cover_artists": [
+"J. N. E. Marchand"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 296530,
+"title": "The Blue Book Magazine, December 1910",
+"date": "1910-12-00",
+"items": [
+{
+"title": "The Phonographic Apartment",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "327",
+"authors": [
+"R. O. Eastman"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 288463,
+"title": "The Blue Book Magazine, January 1911",
+"date": "1911-01-00",
+"items": [
+{
+"title": "The Secret of the Goalanda",
+"type": "SHORTFICTION",
+"len": null,
+"page": "472",
+"authors": [
+"Will Livingston Agnew"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 299531,
+"title": "The Blue Book Magazine, February 1911",
+"date": "1911-02-00",
+"items": [
+{
+"title": "The Crimes of the Conscience Machine",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "713",
+"authors": [
+"Lloyd Kenyon Jones"
+],
+"real": []
+},
+{
+"title": "Devil Island",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "780",
+"authors": [
+"Arthur Henry Gooden"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 293421,
+"title": "The Blue Book Magazine, March 1911",
+"date": "1911-03-00",
+"items": [
+{
+"title": "Love and the Ages",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1063",
+"authors": [
+"Charles D. Cameron"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 295054,
+"title": "The Blue Book Magazine, April 1911",
+"date": "1911-04-00",
+"items": [
+{
+"title": "Duty",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1194",
+"authors": [
+"Joseph W. Cox"
+],
+"real": []
+},
+{
+"title": "The Unseen Hand",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1252",
+"authors": [
+"J. A. Tiffany"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 306983,
+"title": "The Blue Book Magazine, June 1911",
+"date": "1911-06-00",
+"items": [
+{
+"title": "The Man Who Guessed Right",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "327",
+"authors": [
+"J. Albert Mallory"
+],
+"real": []
+},
+{
+"title": "The Man Who Lived Again",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "401",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+},
+{
+"title": "The Lost Invention",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "440",
+"authors": [
+"Edward B. Waterworth"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Jan Attol"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 302866,
+"title": "The Blue Book Magazine, July 1911",
+"date": "1911-07-00",
+"items": [
+{
+"title": "The Errand of Death",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "543",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+},
+{
+"title": "A Triumph Over Space",
+"type": "SHORTFICTION",
+"len": null,
+"page": "635",
+"authors": [
+"Philip R. Kellar"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 648370,
+"title": "The Blue Book Magazine, August 1911",
+"date": "1911-08-00",
+"items": [
+{
+"title": "The Hawkins Security Cell",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "737",
+"authors": [
+"Edgar Franklin"
+],
+"real": []
+},
+{
+"title": "The Thrall of the Past",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "820",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+},
+{
+"title": "The Cloud Scout",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "844",
+"authors": [
+"Hugh C. Weir"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Jan Attol"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 648372,
+"title": "The Blue Book Magazine, September 1911",
+"date": "1911-09-00",
+"items": [
+{
+"title": "On a Matter of Life and Death",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1076",
+"authors": [
+"Hugh C. Weir"
+],
+"real": []
+},
+{
+"title": "The Sunken Memory",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1112",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Jan Attol"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 303619,
+"title": "The Blue Book Magazine, October 1911",
+"date": "1911-10-00",
+"items": [
+{
+"title": "Jones' Crime Antidote",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1237",
+"authors": [
+"Herman A. Landon"
+],
+"real": []
+},
+{
+"title": "The \"Sending\"",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1249",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+},
+{
+"title": "The Adventure of the Stolen Circus",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1306",
+"authors": [
+"Hugh C. Weir"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Malcolm Strauss"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 648374,
+"title": "The Blue Book Magazine, November 1911",
+"date": "1911-11-00",
+"items": [
+{
+"title": "The Sorcerer of Arjuzanx",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "196",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+},
+{
+"title": "His Word",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "210",
+"authors": [
+"Joseph W. Cox"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Malcolm Strauss"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 294892,
+"title": "The Blue Book Magazine, December 1911",
+"date": "1911-12-00",
+"items": [
+{
+"title": "The Billion-Dollar Cargo",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "299",
+"authors": [
+"William Wallace Cook"
+],
+"real": []
+},
+{
+"title": "The Shadow Behind the Throne",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "319",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Malcolm Strauss"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 294893,
+"title": "The Blue Book Magazine, January 1912",
+"date": "1912-01-00",
+"items": [
+{
+"title": "The Number \"13\"",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "549",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+},
+{
+"title": "The Conflagrations of Cardway",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "592",
+"authors": [
+"Lloyd Kenyon Jones"
+],
+"real": []
+},
+{
+"title": "The Man Who Forgot",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "608",
+"authors": [
+"William Wallace Cook"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 294894,
+"title": "The Blue Book Magazine, February 1912",
+"date": "1912-02-00",
+"items": [
+{
+"title": "The Steel Cylinder",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "741",
+"authors": [
+"William Wallace Cook"
+],
+"real": []
+},
+{
+"title": "The Mystery of Castle Kremenz",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "868",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Malcolm Strauss"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 294895,
+"title": "The Blue Book Magazine, March 1912",
+"date": "1912-03-00",
+"items": [
+{
+"title": "The Banded Scarab",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "997",
+"authors": [
+"Duffield Osborne"
+],
+"real": []
+},
+{
+"title": "The Supreme Test",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1076",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+},
+{
+"title": "The Infernal Machine",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1114",
+"authors": [
+"William Wallace Cook"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Malcolm Strauss"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 294896,
+"title": "The Blue Book Magazine, April 1912",
+"date": "1912-04-00",
+"items": [
+{
+"title": "The Voice in the Clouds",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1213",
+"authors": [
+"William Wallace Cook"
+],
+"real": []
+},
+{
+"title": "The Hour of Eleven",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1324",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 294897,
+"title": "The Blue Book Magazine, May 1912",
+"date": "1912-05-00",
+"items": [
+{
+"title": "The Fortieth Milestone",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "155",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+},
+{
+"title": "The Psychograph",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "192",
+"authors": [
+"William Wallace Cook"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Henry Hutt"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 307395,
+"title": "The Blue Book Magazine, September 1912",
+"date": "1912-09-00",
+"items": [
+{
+"title": "Cloud City",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "929",
+"authors": [
+"Crittenden Marriott"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Henry Hutt"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 307396,
+"title": "The Blue Book Magazine, January 1913",
+"date": "1913-01-00",
+"items": [
+{
+"title": "The Wine of Anubis",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "481",
+"authors": [
+"Crittenden Marriott"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Henry Hutt"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 648381,
+"title": "The Blue Book Magazine, February 1913",
+"date": "1913-02-00",
+"items": [
+{
+"title": "The Betrayer of Secrets",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "796",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+}
+],
+"cover_artists": [
+"J. Knowles Hare, Jr."
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 648382,
+"title": "The Blue Book Magazine, March 1913",
+"date": "1913-03-00",
+"items": [
+{
+"title": "The Smile of the Black Virgin",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1108",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+}
+],
+"cover_artists": [
+"J. Knowles Hare, Jr."
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 648384,
+"title": "The Blue Book Magazine, April 1913",
+"date": "1913-04-00",
+"items": [
+{
+"title": "The Voice from the Other World",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1232",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+},
+{
+"title": "Hand o'God",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1262",
+"authors": [
+"Frank Condon"
+],
+"real": []
+}
+],
+"cover_artists": [
+"J. Knowles Hare, Jr."
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 648385,
+"title": "The Blue Book Magazine, May 1913",
+"date": "1913-05-00",
+"items": [
+{
+"title": "The Giant Sloth",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "162",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Henry Hutt"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 648386,
+"title": "The Blue Book Magazine, June 1913",
+"date": "1913-06-00",
+"items": [
+{
+"title": "The Woman Who Found Herself",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "420",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Henry Hutt"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 648388,
+"title": "The Blue Book Magazine, July 1913",
+"date": "1913-07-00",
+"items": [
+{
+"title": "The Man Who Was Three Years Ago",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "420",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Henry Hutt"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 1061214,
+"title": "The Blue Book Magazine, August 1913",
+"date": "1913-08-00",
+"items": [
+{
+"title": "The Blue Lizard (Part 1 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "673",
+"authors": [
+"James Francis Dwyer"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Henry Hutt"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 1061215,
+"title": "The Blue Book Magazine, September 1913",
+"date": "1913-09-00",
+"items": [
+{
+"title": "The Blue Lizard (Part 2 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "881",
+"authors": [
+"James Francis Dwyer"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Henry Hutt"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 1061216,
+"title": "The Blue Book Magazine, October 1913",
+"date": "1913-10-00",
+"items": [
+{
+"title": "The Cyanogen Affair",
+"type": "SHORTFICTION",
+"len": null,
+"page": "1127",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+},
+{
+"title": "The Blue Lizard (Part 3 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "1148",
+"authors": [
+"James Francis Dwyer"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Hamilton King"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 1061217,
+"title": "The Blue Book Magazine, November 1913",
+"date": "1913-11-00",
+"items": [
+{
+"title": "The Seven-Oaks Tunnel Enigma",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "33",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+},
+{
+"title": "The Blue Lizard (Part 4 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "106",
+"authors": [
+"James Francis Dwyer"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Henry Hutt"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 1056493,
+"title": "The Blue Book Magazine, December 1913",
+"date": "1913-12-00",
+"items": [
+{
+"title": "The Night Horror",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "282",
+"authors": [
+"George Allan England"
+],
+"real": []
+},
+{
+"title": "The Society Murder Bureau",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "316",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+},
+{
+"title": "The Blue Lizard (Part 5 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "346",
+"authors": [
+"James Francis Dwyer"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Henry Hutt"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 1064209,
+"title": "The Blue Book Magazine, January 1914",
+"date": "1914-01-00",
+"items": [
+{
+"title": "The Blue Lizard (Part 6 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "514",
+"authors": [
+"James Francis Dwyer"
+],
+"real": []
+},
+{
+"title": "The Secret of the Radium Maker",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "534",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Henry Hutt"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 1064210,
+"title": "The Blue Book Magazine, February 1914",
+"date": "1914-02-00",
+"items": [
+{
+"title": "The Vanishing Gold",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "705",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+},
+{
+"title": "The Blue Lizard (Part 7 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "806",
+"authors": [
+"James Francis Dwyer"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Henry Hutt"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 1066779,
+"title": "The Blue Book Magazine, March 1914",
+"date": "1914-03-00",
+"items": [
+{
+"title": "The Invisible Bullet",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "957",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Henry Hutt"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 1066778,
+"title": "The Blue Book Magazine, April 1914",
+"date": "1914-04-00",
+"items": [
+{
+"title": "The Rough Fist of Reason",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1175",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Henry Hutt"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 1067857,
+"title": "The Blue Book Magazine, May 1914",
+"date": "1914-05-00",
+"items": [
+{
+"title": "The Three Ends of the Thread",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "131",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 1067858,
+"title": "The Blue Book Magazine, June 1914",
+"date": "1914-06-00",
+"items": [
+{
+"title": "The Empty Flask",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "329",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Henry Hutt"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 1070189,
+"title": "The Blue Book Magazine, July 1914",
+"date": "1914-07-00",
+"items": [
+{
+"title": "The Secret Analysis",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "493",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+},
+{
+"title": "The Lady and the Elixir",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "646",
+"authors": [
+"Magda Frances West"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Henry Hutt"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 1073929,
+"title": "The Blue Book Magazine, August 1914",
+"date": "1914-08-00",
+"items": [
+{
+"title": "The Mystery of Box 218",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "739",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+}
+],
+"cover_artists": [
+"William Van Dresser"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 1073930,
+"title": "The Blue Book Magazine, September 1914",
+"date": "1914-09-00",
+"items": [
+{
+"title": "The Last Man",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "929",
+"authors": [
+"Ellis Parker Butler"
+],
+"real": []
+},
+{
+"title": "The Secret of the Tower House",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "1003",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Henry Hutt"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 418063,
+"title": "The Blue Book Magazine, November 1914",
+"date": "1914-11-00",
+"items": [
+{
+"title": "The Bride of the Sun (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "172",
+"authors": [
+"Gaston Leroux"
+],
+"real": []
+}
+],
+"cover_artists": [
+"William Van Dresser"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 311588,
+"title": "The Blue Book Magazine, December 1914",
+"date": "1914-12-00",
+"items": [
+{
+"title": "The Magnificent Story of the Great Red Island",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "297",
+"authors": [
+"Harris Merton Lyon"
+],
+"real": []
+},
+{
+"title": "The Three Henry Clarks",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "312",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Archie Gunn"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 1081808,
+"title": "The Blue Book Magazine, January 1915",
+"date": "1915-01-00",
+"items": [
+{
+"title": "The Disappearance of Mr. Holsworthy",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "604",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Archie Gunn"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 647939,
+"title": "The Blue Book Magazine, February 1915",
+"date": "1915-02-00",
+"items": [
+{
+"title": "The Ivory Child (Part 1 of 8)",
+"type": "SERIAL",
+"len": null,
+"page": "721",
+"authors": [
+"H. Rider Haggard"
+],
+"real": []
+},
+{
+"title": "Cleansing Fire",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "814",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+},
+{
+"title": "The Wilderness Trail",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "888",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Henry Hutt"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 647940,
+"title": "The Blue Book Magazine, March 1915",
+"date": "1915-03-00",
+"items": [
+{
+"title": "The Ivory Child (Part 2 of 8)",
+"type": "SERIAL",
+"len": null,
+"page": "978",
+"authors": [
+"H. Rider Haggard"
+],
+"real": []
+},
+{
+"title": "The Message of the Tide",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1045",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+}
+],
+"cover_artists": [
+"William Van Dresser"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 647942,
+"title": "The Blue Book Magazine, April 1915",
+"date": "1915-04-00",
+"items": [
+{
+"title": "The Ivory Child (Part 3 of 8)",
+"type": "SERIAL",
+"len": null,
+"page": "1212",
+"authors": [
+"H. Rider Haggard"
+],
+"real": []
+},
+{
+"title": "The Princess Suil-Dubh",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1281",
+"authors": [
+"Seumas MacManus"
+],
+"real": []
+},
+{
+"title": "At the Edge of the World",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "1392",
+"authors": [
+"George Allan England"
+],
+"real": []
+}
+],
+"cover_artists": [
+"B. Lichtmann"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 647944,
+"title": "The Blue Book Magazine, May 1915",
+"date": "1915-05-00",
+"items": [
+{
+"title": "The Ivory Child (Part 4 of 8)",
+"type": "SERIAL",
+"len": null,
+"page": "66",
+"authors": [
+"H. Rider Haggard"
+],
+"real": []
+}
+],
+"cover_artists": [
+"William Van Dresser"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 647945,
+"title": "The Blue Book Magazine, June 1915",
+"date": "1915-06-00",
+"items": [
+{
+"title": "The Ivory Child (Part 5 of 8)",
+"type": "SERIAL",
+"len": null,
+"page": "332",
+"authors": [
+"H. Rider Haggard"
+],
+"real": []
+}
+],
+"cover_artists": [
+"B. Lichtman"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 647947,
+"title": "The Blue Book Magazine, July 1915",
+"date": "1915-07-00",
+"items": [
+{
+"title": "The Ivory Child (Part 6 of 8)",
+"type": "SERIAL",
+"len": null,
+"page": "556",
+"authors": [
+"H. Rider Haggard"
+],
+"real": []
+}
+],
+"cover_artists": [
+"B. Lichtman"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 647948,
+"title": "The Blue Book Magazine, August 1915",
+"date": "1915-08-00",
+"items": [
+{
+"title": "The Ivory Child (Part 7 of 8)",
+"type": "SERIAL",
+"len": null,
+"page": "860",
+"authors": [
+"H. Rider Haggard"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Z. P. Nikolaki"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 647949,
+"title": "The Blue Book Magazine, September 1915",
+"date": "1915-09-00",
+"items": [
+{
+"title": "The Ivory Child (Part 8 of 8)",
+"type": "SERIAL",
+"len": null,
+"page": "1062",
+"authors": [
+"H. Rider Haggard"
+],
+"real": []
+}
+],
+"cover_artists": [
+"B. Lichtman"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 1087469,
+"title": "The Blue Book Magazine, October 1915",
+"date": "1915-10-00",
+"items": [
+{
+"title": "The Well of the World's End",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1293",
+"authors": [
+"Seumas MacManus"
+],
+"real": []
+}
+],
+"cover_artists": [
+"B. Lichtman"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 1056494,
+"title": "The Blue Book Magazine, June 1916",
+"date": "1916-06-00",
+"items": [
+{
+"title": "The Pigtail of Hi-Wing-Ho",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "296",
+"authors": [
+"Sax Rohmer"
+],
+"real": []
+}
+],
+"cover_artists": [
+"J. Knowles Hare, Jr."
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 382973,
+"title": "The Blue Book Magazine, September 1916",
+"date": "1916-09-00",
+"items": [
+{
+"title": "The New Stories of \"Tarzan\"",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "986",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frederick Duncan"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 382974,
+"title": "The Blue Book Magazine, October 1916",
+"date": "1916-10-00",
+"items": [
+{
+"title": "The Capture of Tarzan",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1210",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"R. Fraundorf"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 382975,
+"title": "The Blue Book Magazine, November 1916",
+"date": "1916-11-00",
+"items": [
+{
+"title": "The Fight for the Balu",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "14",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+},
+{
+"title": "The Howland Oysteroids",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "56",
+"authors": [
+"John Amid"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Z. P. Nikolaki"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 378347,
+"title": "The Blue Book Magazine, December 1916",
+"date": "1916-12-00",
+"items": [
+{
+"title": "The God of Tarzan",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "274",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Z. P. Nikolaki"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 382984,
+"title": "The Blue Book Magazine, January 1917",
+"date": "1917-01-00",
+"items": [
+{
+"title": "Tarzan and the Black Boy",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "515",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Archie Gunn"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 382986,
+"title": "The Blue Book Magazine, February 1917",
+"date": "1917-02-00",
+"items": [
+{
+"title": "The Witch-Doctor Seeks Vengeance",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "744",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"B. Lichtman"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 382987,
+"title": "The Blue Book Magazine, March 1917",
+"date": "1917-03-00",
+"items": [
+{
+"title": "The End of Bukawai",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "984",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Z. P. Nikolaki"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 382988,
+"title": "The Blue Book Magazine, April 1917",
+"date": "1917-04-00",
+"items": [
+{
+"title": "The Lion",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1211",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Archie Gunn"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 382989,
+"title": "The Blue Book Magazine, May 1917",
+"date": "1917-05-00",
+"items": [
+{
+"title": "The Nightmare",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "19",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+},
+{
+"title": "The Wish Fairy's Work",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "94",
+"authors": [
+"Albert Payson Terhune"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Z. P. Nikolaki"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 382990,
+"title": "The Blue Book Magazine, June 1917",
+"date": "1917-06-00",
+"items": [
+{
+"title": "The Battle for Teeka",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "257",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Z. P. Nikolaki"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 382991,
+"title": "The Blue Book Magazine, July 1917",
+"date": "1917-07-00",
+"items": [
+{
+"title": "A Jungle Joke",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "432",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Hamilton King"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 382985,
+"title": "The Blue Book Magazine, August 1917",
+"date": "1917-08-00",
+"items": [
+{
+"title": "Tarzan Rescues the Moon",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "624",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Z. P. Nikolaki"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 1095616,
+"title": "The Blue Book Magazine, March 1918",
+"date": "1918-03-00",
+"items": [
+{
+"title": "The Oakdale Affair (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "912",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frederick Duncan"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 647955,
+"title": "The Blue Book Magazine, August 1918",
+"date": "1918-08-00",
+"items": [
+{
+"title": "The Land That Time Forgot (complete novel)",
+"type": "SERIAL",
+"len": null,
+"page": "718",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Hamilton King"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 1101022,
+"title": "The Blue Book Magazine, September 1918",
+"date": "1918-09-00",
+"items": [
+{
+"title": "The Terrible Derelict",
+"type": "SHORTFICTION",
+"len": null,
+"page": "144",
+"authors": [
+"William Hope Hodgson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank H. Desch"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 662597,
+"title": "The Blue Book Magazine, October 1918",
+"date": "1918-10-00",
+"items": [
+{
+"title": "The People That Time Forgot (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "174",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Z. P. Nikolaki"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 662602,
+"title": "The Blue Book Magazine, December 1918",
+"date": "1918-12-00",
+"items": [
+{
+"title": "Out of Time's Abyss (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "174",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"M. S. Musselman"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 1104394,
+"title": "The Blue Book Magazine, January 1919",
+"date": "1919-01-00",
+"items": [
+{
+"title": "The Man Who Died",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "138",
+"authors": [
+"Alden W. Welch"
+],
+"real": []
+}
+],
+"cover_artists": [
+"F. Earl Christy"
+],
+"editors": [
+"Ray Long"
+]
+},
+{
+"id": 603260,
+"title": "The Blue Book Magazine, March 1919",
+"date": "1919-03-00",
+"items": [
+{
+"title": "The Hatchetman",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "60",
+"authors": [
+"Achmed Abdullah"
+],
+"real": []
+}
+],
+"cover_artists": [
+"W. H. D. Koerner"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 307620,
+"title": "The Blue Book Magazine, August 1919",
+"date": "1919-08-00",
+"items": [
+{
+"title": "The Flying Lion",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "100",
+"authors": [
+"Edison Marshall"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Gayle Hoskins"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 1106694,
+"title": "The Blue Book Magazine, September 1919",
+"date": "1919-09-00",
+"items": [
+{
+"title": "The Radium-Seekers",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "150",
+"authors": [
+"Frank Dupree"
+],
+"real": []
+}
+],
+"cover_artists": [
+"W. B. King"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 773586,
+"title": "The Blue Book Magazine, October 1919",
+"date": "1919-10-00",
+"items": [
+{
+"title": "The Son of the Wild Things",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "94",
+"authors": [
+"Edison Marshall"
+],
+"real": []
+}
+],
+"cover_artists": [
+"J. Allen St. John"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 773585,
+"title": "The Blue Book Magazine, November 1919",
+"date": "1919-11-00",
+"items": [
+{
+"title": "The Serpent City",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "37",
+"authors": [
+"Edison Marshall"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank Stick"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 1109345,
+"title": "The Blue Book Magazine, January 1920",
+"date": "1920-01-00",
+"items": [
+{
+"title": "From a Frontiersman's Diary: The Eyes of Buddha",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "77",
+"authors": [
+"Edison Marshall"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Ralph Pallen Coleman"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 603254,
+"title": "The Blue Book Magazine, April 1920",
+"date": "1920-04-00",
+"items": [
+{
+"title": "The Incubus",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "41",
+"authors": [
+"Achmed Abdullah"
+],
+"real": []
+}
+],
+"cover_artists": [
+"J. Allen St. John"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 1112748,
+"title": "The Blue Book Magazine, May 1920",
+"date": "1920-05-00",
+"items": [
+{
+"title": "The Last Neanderthal",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "142",
+"authors": [
+"Prosper Buranelli"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Karl Edwin Harriman"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 648955,
+"title": "The Blue Book Magazine, August 1920",
+"date": "1920-08-00",
+"items": [
+{
+"title": "The Brazen Peacock (Part 1 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "1",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+},
+{
+"title": "The Widow's Hand",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "41",
+"authors": [
+"Edison Marshall"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Ralph Pallen Coleman"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 648956,
+"title": "The Blue Book Magazine, September 1920",
+"date": "1920-09-00",
+"items": [
+{
+"title": "The Brazen Peacock (Part 2 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "82",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Ralph Pallen Coleman"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 589394,
+"title": "The Blue Book Magazine, October 1920",
+"date": "1920-10-00",
+"items": [
+{
+"title": "Coin of the Dead",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "61",
+"authors": [
+"Lemuel L. de Bra"
+],
+"real": []
+},
+{
+"title": "The Brazen Peacock (Part 3 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "90",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"J. Allen St. John"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 1118244,
+"title": "The Blue Book Magazine, November 1920",
+"date": "1920-11-00",
+"items": [
+{
+"title": "The Second Life of Monsieur the Devil",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "160",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Ralph Pallen Coleman"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 1120864,
+"title": "The Blue Book Magazine, May 1921",
+"date": "1921-05-00",
+"items": [
+{
+"title": "The Blot of Ink",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "86",
+"authors": [
+"J. B. Harris-Burland"
+],
+"real": [
+"Harris Burland"
+]
+}
+],
+"cover_artists": [
+"Donald Humphreys"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 1120865,
+"title": "The Blue Book Magazine, September 1921",
+"date": "1921-09-00",
+"items": [
+{
+"title": "A Matter of Efficiency",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "130",
+"authors": [
+"Ray Cummings"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Donald Strong Humphreys"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 307621,
+"title": "The Blue Book Magazine, November 1921",
+"date": "1921-11-00",
+"items": [
+{
+"title": "The Great Prince Shan (Part 1 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "1",
+"authors": [
+"E. Phillips Oppenheim"
+],
+"real": []
+},
+{
+"title": "The Devil of the Picuris",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "129",
+"authors": [
+"Edwin L. Sabin"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 685286,
+"title": "The Blue Book Magazine, December 1921",
+"date": "1921-12-00",
+"items": [
+{
+"title": "The Great Prince Shan (Part 2 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "90",
+"authors": [
+"E. Phillips Oppenheim"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 685288,
+"title": "The Blue Book Magazine, January 1922",
+"date": "1922-01-00",
+"items": [
+{
+"title": "The Great Prince Shan (Part 3 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "114",
+"authors": [
+"E. Phillips Oppenheim"
+],
+"real": []
+},
+{
+"title": "The Strange Case of Alan Corwin",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "160",
+"authors": [
+"George L. Knapp"
+],
+"real": []
+}
+],
+"cover_artists": [
+"J. Allen St. John"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 1127347,
+"title": "The Blue Book Magazine, April 1922",
+"date": "1922-04-00",
+"items": [
+{
+"title": "The Curse of Hui Pa'o",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "136",
+"authors": [
+"Lemuel L. de Bra"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 1056456,
+"title": "The Blue Book Magazine, June 1922",
+"date": "1922-06-00",
+"items": [
+{
+"title": "The Valley of Never-Come-Back",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "1",
+"authors": [
+"Beatrice Grimshaw"
+],
+"real": []
+},
+{
+"title": "A Bowl of Rice",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "56",
+"authors": [
+"Lemuel L. de Bra"
+],
+"real": []
+}
+],
+"cover_artists": [
+"J. Allen St. John"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 1077968,
+"title": "The Blue Book Magazine, March 1923",
+"date": "1923-03-00",
+"items": [
+{
+"title": "Spoor of the Beast",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "78",
+"authors": [
+"L. Patrick Greene"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Haskell Coffin"
+],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 1077984,
+"title": "The Blue Book Magazine, September 1925",
+"date": "1925-09-00",
+"items": [
+{
+"title": "Tembo Wanculu",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "146",
+"authors": [
+"Hugh Thomason"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Karl Edwin Harriman"
+]
+},
+{
+"id": 381077,
+"title": "The Blue Book Magazine, December 1927",
+"date": "1927-12-00",
+"items": [
+{
+"title": "Tarzan, Lord of the Jungle (Part 1 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Edwin Balmer"
+]
+},
+{
+"id": 381078,
+"title": "The Blue Book Magazine, January 1928",
+"date": "1928-01-00",
+"items": [
+{
+"title": "Tarzan, Lord of the Jungle (Part 2 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "12",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"J. Allen St. John"
+],
+"editors": [
+"Edwin Balmer"
+]
+},
+{
+"id": 381079,
+"title": "The Blue Book Magazine, February 1928",
+"date": "1928-02-00",
+"items": [
+{
+"title": "Tarzan, Lord of the Jungle (Part 3 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "78",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Edwin Balmer"
+]
+},
+{
+"id": 381080,
+"title": "The Blue Book Magazine, March 1928",
+"date": "1928-03-00",
+"items": [
+{
+"title": "Tarzan, Lord of the Jungle (Part 4 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "40",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Edwin Balmer"
+]
+},
+{
+"id": 381076,
+"title": "The Blue Book Magazine, April 1928",
+"date": "1928-04-00",
+"items": [
+{
+"title": "Tarzan, Lord of the Jungle (Part 5 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "52",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+},
+{
+"title": "The Queen of Hell",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "154",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Edwin Balmer"
+]
+},
+{
+"id": 381075,
+"title": "The Blue Book Magazine, May 1928",
+"date": "1928-05-00",
+"items": [
+{
+"title": "Tarzan, Lord of the Jungle (Part 6 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "98",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Edwin Balmer"
+]
+},
+{
+"id": 356802,
+"title": "The Blue Book Magazine, October 1928",
+"date": "1928-10-00",
+"items": [
+{
+"title": "Tarzan and the Lost Empire (Part 1 of 5)",
+"type": "SERIAL",
+"len": null,
+"page": "7",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank Hoban"
+],
+"editors": [
+"Edwin Balmer"
+]
+},
+{
+"id": 356803,
+"title": "The Blue Book Magazine, November 1928",
+"date": "1928-11-00",
+"items": [
+{
+"title": "Tarzan and the Lost Empire (Part 2 of 5)",
+"type": "SERIAL",
+"len": null,
+"page": "",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank Hoban"
+],
+"editors": [
+"Edwin Balmer"
+]
+},
+{
+"id": 356804,
+"title": "The Blue Book Magazine, December 1928",
+"date": "1928-12-00",
+"items": [
+{
+"title": "Tarzan and the Lost Empire (Part 3 of 5)",
+"type": "SERIAL",
+"len": null,
+"page": "",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank Hoban"
+],
+"editors": [
+"Edwin Balmer"
+]
+},
+{
+"id": 356805,
+"title": "The Blue Book Magazine, January 1929",
+"date": "1929-01-00",
+"items": [
+{
+"title": "Tarzan and the Lost Empire (Part 4 of 5)",
+"type": "SERIAL",
+"len": null,
+"page": "",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank Hoban"
+],
+"editors": [
+"Edwin Balmer"
+]
+},
+{
+"id": 356806,
+"title": "The Blue Book Magazine, February 1929",
+"date": "1929-02-00",
+"items": [
+{
+"title": "Edgar Rice Burroughs",
+"type": "ESSAY",
+"len": null,
+"page": "3",
+"authors": [
+"uncredited"
+],
+"real": []
+},
+{
+"title": "Tanar of Pellucidar",
+"type": "ESSAY",
+"len": null,
+"page": "5",
+"authors": [
+"The Editors"
+],
+"real": []
+},
+{
+"title": "Tarzan and the Lost Empire (Part 5 of 5)",
+"type": "SERIAL",
+"len": null,
+"page": "20",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Edwin Balmer"
+]
+},
+{
+"id": 389874,
+"title": "The Blue Book Magazine, March 1929",
+"date": "1929-03-00",
+"items": [
+{
+"title": "New Worlds for Old",
+"type": "ESSAY",
+"len": null,
+"page": "5",
+"authors": [
+"The Editors"
+],
+"real": []
+},
+{
+"title": "Tanar of Pellucidar (Part 1 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "7",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank Hoban"
+],
+"editors": [
+"Edwin Balmer"
+]
+},
+{
+"id": 389875,
+"title": "The Blue Book Magazine, April 1929",
+"date": "1929-04-00",
+"items": [
+{
+"title": "Tanar of Pellucidar (Part 2 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "76",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank Hoban"
+],
+"editors": [
+"Edwin Balmer"
+]
+},
+{
+"id": 389876,
+"title": "The Blue Book Magazine, May 1929",
+"date": "1929-05-00",
+"items": [
+{
+"title": "Tanar of Pellucidar (Part 3 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "34",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank Hoban"
+],
+"editors": [
+"Edwin Balmer"
+]
+},
+{
+"id": 389877,
+"title": "The Blue Book Magazine, June 1929",
+"date": "1929-06-00",
+"items": [
+{
+"title": "Tanar of Pellucidar (Part 4 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "20",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank Hoban"
+],
+"editors": [
+"Edwin Balmer"
+]
+},
+{
+"id": 389878,
+"title": "The Blue Book Magazine, July 1929",
+"date": "1929-07-00",
+"items": [
+{
+"title": "Tanar of Pellucidar (Part 5 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "68",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+},
+{
+"title": "Hercules in Hell",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "122",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank Hoban"
+],
+"editors": [
+"Edwin Balmer"
+]
+},
+{
+"id": 389879,
+"title": "The Blue Book Magazine, August 1929",
+"date": "1929-08-00",
+"items": [
+{
+"title": "Tanar of Pellucidar (Part 6 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "28",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+},
+{
+"title": "Hercules Cleans Up",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "114",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Paul Strayer"
+],
+"editors": [
+"Edwin Balmer"
+]
+},
+{
+"id": 383499,
+"title": "The Blue Book Magazine, September 1929",
+"date": "1929-09-00",
+"items": [
+{
+"title": "Tarzan at the Earth's Core (Part 1 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "7",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+},
+{
+"title": "Hercules, Bull-Wrangler",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "124",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank Hoban"
+],
+"editors": [
+"Edwin Balmer"
+]
+},
+{
+"id": 383500,
+"title": "The Blue Book Magazine, October 1929",
+"date": "1929-10-00",
+"items": [
+{
+"title": "Tarzan at the Earth's Core (Part 2 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+},
+{
+"title": "Hercules Gets Away with It",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank Hoban"
+],
+"editors": [
+"Edwin Balmer"
+]
+},
+{
+"id": 383501,
+"title": "The Blue Book Magazine, November 1929",
+"date": "1929-11-00",
+"items": [
+{
+"title": "Tarzan at the Earth's Core (Part 3 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "28",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+},
+{
+"title": "Hercules, the Horse Rustler",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "129",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank Hoban"
+],
+"editors": [
+"Edwin Balmer"
+]
+},
+{
+"id": 383502,
+"title": "The Blue Book Magazine, December 1929",
+"date": "1929-12-00",
+"items": [
+{
+"title": "Tarzan at the Earth's Core (Part 4 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "24",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+},
+{
+"title": "Herc Raids the Hesperides",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "124",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank Hoban"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 383503,
+"title": "The Blue Book Magazine, January 1930",
+"date": "1930-01-00",
+"items": [
+{
+"title": "Tarzan at the Earth's Core (Part 5 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "108",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank Hoban"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 383504,
+"title": "The Blue Book Magazine, February 1930",
+"date": "1930-02-00",
+"items": [
+{
+"title": "Tarzan at the Earth's Core (Part 6 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "28",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank Hoban"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 383498,
+"title": "The Blue Book Magazine, March 1930",
+"date": "1930-03-00",
+"items": [
+{
+"title": "Tarzan at the Earth's Core (Part 7 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank Hoban"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356807,
+"title": "The Blue Book Magazine, April 1930",
+"date": "1930-04-00",
+"items": [
+{
+"title": "A Fighting Man of Mars (Part 1 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+},
+{
+"title": "Back to Babylon",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "53",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356808,
+"title": "The Blue Book Magazine, May 1930",
+"date": "1930-05-00",
+"items": [
+{
+"title": "A Fighting Man of Mars (Part 2 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "14",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+},
+{
+"title": "Say It with Clubs",
+"type": "SHORTFICTION",
+"len": null,
+"page": "112",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356809,
+"title": "The Blue Book Magazine, June 1930",
+"date": "1930-06-00",
+"items": [
+{
+"title": "A Fighting Man of Mars (Part 3 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+},
+{
+"title": "The Pirate's Choice",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356810,
+"title": "The Blue Book Magazine, July 1930",
+"date": "1930-07-00",
+"items": [
+{
+"title": "A Fighting Man of Mars (Part 4 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "32",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+},
+{
+"title": "Roughing It in Rome",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "132",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356811,
+"title": "The Blue Book Magazine, August 1930",
+"date": "1930-08-00",
+"items": [
+{
+"title": "Wild Work with William the Conqueror",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "46",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+},
+{
+"title": "A Fighting Man of Mars (Part 5 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "62",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356812,
+"title": "The Blue Book Magazine, September 1930",
+"date": "1930-09-00",
+"items": [
+{
+"title": "A Fighting Man of Mars (Part 6 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "44",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+},
+{
+"title": "The Private Assassin",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "110",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 383580,
+"title": "The Blue Book Magazine, October 1930",
+"date": "1930-10-00",
+"items": [
+{
+"title": "Tarzan, Guard of the Jungle (Part 1 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "4",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+},
+{
+"title": "The Fifth of November",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "75",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 383581,
+"title": "The Blue Book Magazine, November 1930",
+"date": "1930-11-00",
+"items": [
+{
+"title": "The Misunderstanding with Louis XIV",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "46",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+},
+{
+"title": "Tarzan, Guard of the Jungle (Part 2 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "60",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 383582,
+"title": "The Blue Book Magazine, December 1930",
+"date": "1930-12-00",
+"items": [
+{
+"title": "Tarzan, Guard of the Jungle (Part 3 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "44",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 383583,
+"title": "The Blue Book Magazine, January 1931",
+"date": "1931-01-00",
+"items": [
+{
+"title": "Tarzan, Guard of the Jungle (Part 4 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "50",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 383584,
+"title": "The Blue Book Magazine, February 1931",
+"date": "1931-02-00",
+"items": [
+{
+"title": "Tarzan, Guard of the Jungle (Part 5 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "42",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 383585,
+"title": "The Blue Book Magazine, March 1931",
+"date": "1931-03-00",
+"items": [
+{
+"title": "Tarzan, Guard of the Jungle (Part 6 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "38",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 383579,
+"title": "The Blue Book Magazine, April 1931",
+"date": "1931-04-00",
+"items": [
+{
+"title": "Tarzan, Guard of the Jungle (Part 7 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "82",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 542776,
+"title": "The Blue Book Magazine, May 1931",
+"date": "1931-05-00",
+"items": [
+{
+"title": "The Land of Hidden Men (Part 1 of 5)",
+"type": "SERIAL",
+"len": null,
+"page": "",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 542777,
+"title": "The Blue Book Magazine, June 1931",
+"date": "1931-06-00",
+"items": [
+{
+"title": "The Land of Hidden Men (Part 2 of 5)",
+"type": "SERIAL",
+"len": null,
+"page": "70",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 542778,
+"title": "The Blue Book Magazine, July 1931",
+"date": "1931-07-00",
+"items": [
+{
+"title": "The Land of Hidden Men (Part 3 of 5)",
+"type": "SERIAL",
+"len": null,
+"page": "24",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 542779,
+"title": "The Blue Book Magazine, August 1931",
+"date": "1931-08-00",
+"items": [
+{
+"title": "The Land of Hidden Men (Part 4 of 5)",
+"type": "SERIAL",
+"len": null,
+"page": "",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 542780,
+"title": "The Blue Book Magazine, September 1931",
+"date": "1931-09-00",
+"items": [
+{
+"title": "The Outlawed Centaur",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "|1",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+},
+{
+"title": "The Land of Hidden Men (Part 5 of 5)",
+"type": "SERIAL",
+"len": null,
+"page": "|2",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 383600,
+"title": "The Blue Book Magazine, October 1931",
+"date": "1931-10-00",
+"items": [
+{
+"title": "The Triumph of Tarzan (Part 1 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "8",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 383599,
+"title": "The Blue Book Magazine, November 1931",
+"date": "1931-11-00",
+"items": [
+{
+"title": "The Phantom President (Part 1 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "8",
+"authors": [
+"George F. Worts"
+],
+"real": []
+},
+{
+"title": "The Triumph of Tarzan (Part 2 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "42",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+},
+{
+"title": "The Nose of Napoo",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "63",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 383598,
+"title": "The Blue Book Magazine, December 1931",
+"date": "1931-12-00",
+"items": [
+{
+"title": "The Phantom President (Part 2 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "26",
+"authors": [
+"George F. Worts"
+],
+"real": []
+},
+{
+"title": "The Triumph of Tarzan (Part 3 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "66",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 383597,
+"title": "The Blue Book Magazine, January 1932",
+"date": "1932-01-00",
+"items": [
+{
+"title": "Fintale the Merman",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "28",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+},
+{
+"title": "The Phantom President (Part 3 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "48",
+"authors": [
+"George F. Worts"
+],
+"real": []
+},
+{
+"title": "The Triumph of Tarzan (Part 4 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "72",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 383596,
+"title": "The Blue Book Magazine, February 1932",
+"date": "1932-02-00",
+"items": [
+{
+"title": "The Phantom President (Part 4 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "32",
+"authors": [
+"George F. Worts"
+],
+"real": []
+},
+{
+"title": "The Triumph of Tarzan (Part 5 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "82",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 383595,
+"title": "The Blue Book Magazine, March 1932",
+"date": "1932-03-00",
+"items": [
+{
+"title": "The Call of the Wildwater",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "23",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+},
+{
+"title": "The Phantom President (Part 5 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "42",
+"authors": [
+"George F. Worts"
+],
+"real": []
+},
+{
+"title": "The Triumph of Tarzan (Part 6 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "112",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648083,
+"title": "The Blue Book Magazine, April 1932",
+"date": "1932-04-00",
+"items": [
+{
+"title": "The Last of the Dinosaurs",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "42",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+},
+{
+"title": "The Phantom President (Part 6 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "54",
+"authors": [
+"George F. Worts"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Laurence Herndon"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 307617,
+"title": "The Blue Book Magazine, July 1932",
+"date": "1932-07-00",
+"items": [
+{
+"title": "The Wall of Fire",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6",
+"authors": [
+"Jack Kirkland"
+],
+"real": []
+},
+{
+"title": "The Moon Gods (Part 1 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "22",
+"authors": [
+"Edgar Jepson",
+"Sidney Gowing"
+],
+"real": []
+},
+{
+"title": "The Ship of Silence",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "40",
+"authors": [
+"Albert Richard Wetjen"
+],
+"real": []
+},
+{
+"title": "Tarzan for President",
+"type": "ESSAY",
+"len": null,
+"page": "fep",
+"authors": [
+"The Editor"
+],
+"real": [
+"Donald Kennicott"
+]
+}
+],
+"cover_artists": [
+"Joseph Chenoweth"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356904,
+"title": "The Blue Book Magazine, August 1932",
+"date": "1932-08-00",
+"items": [
+{
+"title": "Tarzan and the Leopard Men (Part 1 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "4",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+},
+{
+"title": "The Moon Gods (Part 2 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "86",
+"authors": [
+"Edgar Jepson",
+"Sidney Gowing"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Joseph Chenoweth"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356905,
+"title": "The Blue Book Magazine, September 1932",
+"date": "1932-09-00",
+"items": [
+{
+"title": "When Worlds Collide (Part 1 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"Edwin Balmer",
+"Philip Wylie"
+],
+"real": []
+},
+{
+"title": "Tarzan and the Leopard Men (Part 2 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "76",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Joseph Chenoweth"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356906,
+"title": "The Blue Book Magazine, October 1932",
+"date": "1932-10-00",
+"items": [
+{
+"title": "When Worlds Collide (Part 2 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "32",
+"authors": [
+"Edwin Balmer",
+"Philip Wylie"
+],
+"real": []
+},
+{
+"title": "Tarzan and the Leopard Men (Part 3 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "82",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Joseph Chenoweth"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356907,
+"title": "The Blue Book Magazine, November 1932",
+"date": "1932-11-00",
+"items": [
+{
+"title": "When Worlds Collide (Part 3 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "30",
+"authors": [
+"Edwin Balmer",
+"Philip Wylie"
+],
+"real": []
+},
+{
+"title": "Tarzan and the Leopard Men (Part 4 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "104",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Joseph Chenoweth"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356908,
+"title": "The Blue Book Magazine, December 1932",
+"date": "1932-12-00",
+"items": [
+{
+"title": "When Worlds Collide (Part 4 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "32",
+"authors": [
+"Edwin Balmer",
+"Philip Wylie"
+],
+"real": []
+},
+{
+"title": "Tarzan and the Leopard Men (Part 5 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "70",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Joseph Chenoweth"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356909,
+"title": "The Blue Book Magazine, January 1933",
+"date": "1933-01-00",
+"items": [
+{
+"title": "When Worlds Collide (Part 5 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "50",
+"authors": [
+"Edwin Balmer",
+"Philip Wylie"
+],
+"real": []
+},
+{
+"title": "Tarzan and the Leopard Men (Part 6 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "128",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Joseph Chenoweth"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356910,
+"title": "The Blue Book Magazine, February 1933",
+"date": "1933-02-00",
+"items": [
+{
+"title": "When Worlds Collide (Part 6 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "122",
+"authors": [
+"Edwin Balmer",
+"Philip Wylie"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Joseph Chenoweth"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 400298,
+"title": "The Blue Book Magazine, September 1933",
+"date": "1933-09-00",
+"items": [
+{
+"title": "The Black Archangel",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6",
+"authors": [
+"Michael Arlen"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Dean Cornwell"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 395681,
+"title": "The Blue Book Magazine, November 1933",
+"date": "1933-11-00",
+"items": [
+{
+"title": "After Worlds Collide (Part 1 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"Philip Wylie",
+"Edwin Balmer"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Joseph Chenoweth"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 395683,
+"title": "The Blue Book Magazine, December 1933",
+"date": "1933-12-00",
+"items": [
+{
+"title": "After Worlds Collide (Part 2 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "28",
+"authors": [
+"Edwin Balmer",
+"Philip Wylie"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Joseph Chenoweth"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 395684,
+"title": "The Blue Book Magazine, January 1934",
+"date": "1934-01-00",
+"items": [
+{
+"title": "After Worlds Collide (Part 3 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "50",
+"authors": [
+"Edwin Balmer",
+"Philip Wylie"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Joseph Chenoweth"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 395685,
+"title": "The Blue Book Magazine, February 1934",
+"date": "1934-02-00",
+"items": [
+{
+"title": "After Worlds Collide (Part 4 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "42",
+"authors": [
+"Edwin Balmer",
+"Philip Wylie"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Joseph Chenoweth"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 395686,
+"title": "The Blue Book Magazine, March 1934",
+"date": "1934-03-00",
+"items": [
+{
+"title": "After Worlds Collide (Part 5 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "36",
+"authors": [
+"Philip Wylie",
+"Edwin Balmer"
+],
+"real": []
+}
+],
+"cover_artists": [
+"H. J. Soulen"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 395687,
+"title": "The Blue Book Magazine, April 1934",
+"date": "1934-04-00",
+"items": [
+{
+"title": "After Worlds Collide (Part 6 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "70",
+"authors": [
+"Edwin Balmer",
+"Philip Wylie"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Joseph Chenoweth"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 313937,
+"title": "The Blue Book Magazine, June 1934",
+"date": "1934-06-00",
+"items": [
+{
+"title": "The Day of the Dragon",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "80",
+"authors": [
+"Guy Endore"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Henry Soulen"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 1056482,
+"title": "The Blue Book Magazine, August 1934",
+"date": "1934-08-00",
+"items": [
+{
+"title": "The Man Who Bombed the World (Part 1 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "4",
+"authors": [
+"S. Andrew Wood"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Henry J. Soulen"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 1056483,
+"title": "The Blue Book Magazine, September 1934",
+"date": "1934-09-00",
+"items": [
+{
+"title": "The Man Who Bombed the World (Part 2 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "24",
+"authors": [
+"S. Andrew Wood"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Joseph Chenoweth"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 1056484,
+"title": "The Blue Book Magazine, October 1934",
+"date": "1934-10-00",
+"items": [
+{
+"title": "The Man Who Bombed the World (Part 3 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "96",
+"authors": [
+"S. Andrew Wood"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Joseph Chenoweth"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356936,
+"title": "The Blue Book Magazine, November 1934",
+"date": "1934-11-00",
+"items": [
+{
+"title": "Swords of Mars (Part 1 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "4",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+},
+{
+"title": "The Man Who Bombed the World (Part 4 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "108",
+"authors": [
+"S. Andrew Wood"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Henry Soulen"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356937,
+"title": "The Blue Book Magazine, December 1934",
+"date": "1934-12-00",
+"items": [
+{
+"title": "Swords of Mars (Part 2 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "18",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Joseph Chenoweth"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356938,
+"title": "The Blue Book Magazine, January 1935",
+"date": "1935-01-00",
+"items": [
+{
+"title": "Swords of Mars (Part 3 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "26",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Ondrek Zaula"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356939,
+"title": "The Blue Book Magazine, February 1935",
+"date": "1935-02-00",
+"items": [
+{
+"title": "Swords of Mars (Part 4 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "68",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356940,
+"title": "The Blue Book Magazine, March 1935",
+"date": "1935-03-00",
+"items": [
+{
+"title": "Pell Street Blues",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "30",
+"authors": [
+"Achmed Abdullah"
+],
+"real": []
+},
+{
+"title": "Swords of Mars (Part 5 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "106",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Henry Soulen"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356941,
+"title": "The Blue Book Magazine, April 1935",
+"date": "1935-04-00",
+"items": [
+{
+"title": "Hawk of the Wilderness (Part 1 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"William L. Chester"
+],
+"real": []
+},
+{
+"title": "Swords of Mars (Part 6 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "104",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356942,
+"title": "The Blue Book Magazine, May 1935",
+"date": "1935-05-00",
+"items": [
+{
+"title": "Hawk of the Wilderness (Part 2 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "22",
+"authors": [
+"William L. Chester"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356943,
+"title": "The Blue Book Magazine, June 1935",
+"date": "1935-06-00",
+"items": [
+{
+"title": "Hawk of the Wilderness (Part 3 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "78",
+"authors": [
+"William L. Chester"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356944,
+"title": "The Blue Book Magazine, July 1935",
+"date": "1935-07-00",
+"items": [
+{
+"title": "The Bamboo Cannon",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "70",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+},
+{
+"title": "Hawk of the Wilderness (Part 4 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "92",
+"authors": [
+"William L. Chester"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356945,
+"title": "The Blue Book Magazine, August 1935",
+"date": "1935-08-00",
+"items": [
+{
+"title": "Hawk of the Wilderness (Part 5 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "92",
+"authors": [
+"William L. Chester"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356946,
+"title": "The Blue Book Magazine, September 1935",
+"date": "1935-09-00",
+"items": [
+{
+"title": "Hawk of the Wilderness (Part 6 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "94",
+"authors": [
+"William L. Chester"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356947,
+"title": "The Blue Book Magazine, October 1935",
+"date": "1935-10-00",
+"items": [
+{
+"title": "Tarzan and the Immortal Men (Part 1 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+},
+{
+"title": "Hawk of the Wilderness (Part 7 of 7)",
+"type": "SERIAL",
+"len": null,
+"page": "96",
+"authors": [
+"William L. Chester"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356948,
+"title": "The Blue Book Magazine, November 1935",
+"date": "1935-11-00",
+"items": [
+{
+"title": "The Man Who Lost His Head",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6",
+"authors": [
+"Thomas Burke"
+],
+"real": []
+},
+{
+"title": "Tarzan and the Immortal Men (Part 2 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "62",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356949,
+"title": "The Blue Book Magazine, December 1935",
+"date": "1935-12-00",
+"items": [
+{
+"title": "Tarzan and the Immortal Men (Part 3 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "80",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356950,
+"title": "The Blue Book Magazine, January 1936",
+"date": "1936-01-00",
+"items": [
+{
+"title": "Tarzan and the Immortal Men (Part 4 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "108",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356951,
+"title": "The Blue Book Magazine, February 1936",
+"date": "1936-02-00",
+"items": [
+{
+"title": "Tarzan and the Immortal Men (Part 5 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "68",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356952,
+"title": "The Blue Book Magazine, March 1936",
+"date": "1936-03-00",
+"items": [
+{
+"title": "Tarzan and the Immortal Men (Part 6 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "102",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648113,
+"title": "The Blue Book Magazine, February 1937",
+"date": "1937-02-00",
+"items": [
+{
+"title": "The Treasure of Vanished Men (Part 1 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "16",
+"authors": [
+"James Francis Dwyer"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356981,
+"title": "The Blue Book Magazine, March 1937",
+"date": "1937-03-00",
+"items": [
+{
+"title": "The Devil Came to Our Valley",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6",
+"authors": [
+"Fulton T. Grant"
+],
+"real": []
+},
+{
+"title": "The Treasure of Vanished Men (Part 2 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "48",
+"authors": [
+"James Francis Dwyer"
+],
+"real": []
+},
+{
+"title": "One Against a Wilderness (Part 1 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "116",
+"authors": [
+"William Chester"
+],
+"real": [
+"William L. Chester"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356982,
+"title": "The Blue Book Magazine, April 1937",
+"date": "1937-04-00",
+"items": [
+{
+"title": "One Against a Wilderness (Part 2 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "6",
+"authors": [
+"William Chester"
+],
+"real": [
+"William L. Chester"
+]
+},
+{
+"title": "The Treasure of Vanished Men (Part 3 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "54",
+"authors": [
+"James Francis Dwyer"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356983,
+"title": "The Blue Book Magazine, May 1937",
+"date": "1937-05-00",
+"items": [
+{
+"title": "One Against a Wilderness (Part 3 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "18",
+"authors": [
+"William Chester"
+],
+"real": [
+"William L. Chester"
+]
+},
+{
+"title": "The Treasure of Vanished Men (Part 4 of 4)",
+"type": "SERIAL",
+"len": null,
+"page": "104",
+"authors": [
+"James Francis Dwyer"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356984,
+"title": "The Blue Book Magazine, June 1937",
+"date": "1937-06-00",
+"items": [
+{
+"title": "One Against a Wilderness (Part 4 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "28",
+"authors": [
+"William Chester"
+],
+"real": [
+"William L. Chester"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356985,
+"title": "The Blue Book Magazine, July 1937",
+"date": "1937-07-00",
+"items": [
+{
+"title": "One Against a Wilderness (Part 5 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "114",
+"authors": [
+"William Chester"
+],
+"real": [
+"William L. Chester"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 356986,
+"title": "The Blue Book Magazine, August 1937",
+"date": "1937-08-00",
+"items": [
+{
+"title": "One Against a Wilderness (Part 6 of 6)",
+"type": "SERIAL",
+"len": null,
+"page": "91",
+"authors": [
+"William Chester"
+],
+"real": [
+"William L. Chester"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 1056502,
+"title": "The Blue Book Magazine, October 1937",
+"date": "1937-10-00",
+"items": [
+{
+"title": "Visitors from Venus",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "20",
+"authors": [
+"Anthony Rud"
+],
+"real": [
+"Anthony M. Rud"
+]
+},
+{
+"title": "Who's Who in Blue Book (The Blue Book Magazine, October 1937)",
+"type": "ESSAY",
+"len": null,
+"page": "fep",
+"authors": [
+"The Editor"
+],
+"real": [
+"Donald Kennicott"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 384031,
+"title": "The Blue Book Magazine, November 1937",
+"date": "1937-11-00",
+"items": [
+{
+"title": "Tarzan and the Elephant Men (Part 1 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "22",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 384030,
+"title": "The Blue Book Magazine, December 1937",
+"date": "1937-12-00",
+"items": [
+{
+"title": "Tarzan and the Elephant Men (Part 2 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "82",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 384029,
+"title": "The Blue Book Magazine, January 1938",
+"date": "1938-01-00",
+"items": [
+{
+"title": "Tarzan and the Elephant Men (Part 3 of 3)",
+"type": "SERIAL",
+"len": null,
+"page": "98",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648230,
+"title": "The Blue Book Magazine, November 1938",
+"date": "1938-11-00",
+"items": [
+{
+"title": "The Stagnant Death",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648234,
+"title": "The Blue Book Magazine, December 1938",
+"date": "1938-12-00",
+"items": [
+{
+"title": "The Scythian Lamb",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "34",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648244,
+"title": "The Blue Book Magazine, January 1939",
+"date": "1939-01-00",
+"items": [
+{
+"title": "Wrath of the Thunderbird",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648247,
+"title": "The Blue Book Magazine, February 1939",
+"date": "1939-02-00",
+"items": [
+{
+"title": "The Singing Sands of Prester John",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "64",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 400299,
+"title": "The Blue Book Magazine, March 1939",
+"date": "1939-03-00",
+"items": [
+{
+"title": "Black Cargo",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "32",
+"authors": [
+"H. Bedford-Jones",
+"Captain L. B. Williams"
+],
+"real": [
+"H. Bedford-Jones"
+]
+},
+{
+"title": "A Loan of Dynamite",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "71",
+"authors": [
+"Will Jenkins"
+],
+"real": [
+"Murray Leinster"
+]
+},
+{
+"title": "Amazon Women",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "78",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 400163,
+"title": "The Blue Book Magazine, April 1939",
+"date": "1939-04-00",
+"items": [
+{
+"title": "Five Miles to Youth",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "35",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+},
+{
+"title": "The Cave of the Invisible",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "82",
+"authors": [
+"James Francis Dwyer"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648254,
+"title": "The Blue Book Magazine, May 1939",
+"date": "1939-05-00",
+"items": [
+{
+"title": "The Man Who Blew Up a War",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "4",
+"authors": [
+"Will Jenkins"
+],
+"real": [
+"Murray Leinster"
+]
+},
+{
+"title": "The Tree That Was No Tree",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "62",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648257,
+"title": "The Blue Book Magazine, June 1939",
+"date": "1939-06-00",
+"items": [
+{
+"title": "The Lady and the Unicorn",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "38",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648258,
+"title": "The Blue Book Magazine, July 1939",
+"date": "1939-07-00",
+"items": [
+{
+"title": "Lady of the Evil Eye",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "16",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 296599,
+"title": "The Blue Book Magazine, August 1939",
+"date": "1939-08-00",
+"items": [
+{
+"title": "The Wolf Woman",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "14",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648354,
+"title": "The Blue Book Magazine, September 1939",
+"date": "1939-09-00",
+"items": [
+{
+"title": "The Heavenly Bird",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "30",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648355,
+"title": "The Blue Book Magazine, October 1939",
+"date": "1939-10-00",
+"items": [
+{
+"title": "Woman of the Sea",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "81",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648356,
+"title": "The Blue Book Magazine, November 1939",
+"date": "1939-11-00",
+"items": [
+{
+"title": "The Serpent-People",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "18",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 384033,
+"title": "The Blue Book Magazine, April 1940",
+"date": "1940-04-00",
+"items": [
+{
+"title": "Tarzan and the Champion",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "16",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 301781,
+"title": "The Blue Book Magazine, May 1940",
+"date": "1940-05-00",
+"items": [
+{
+"title": "Exiles of Time (Complete Novel)",
+"type": "SERIAL",
+"len": null,
+"page": "125",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 1056490,
+"title": "The Blue Book Magazine, June 1940",
+"date": "1940-06-00",
+"items": [
+{
+"title": "The Dance of Life",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "4",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 1056485,
+"title": "The Blue Book Magazine, July 1940",
+"date": "1940-07-00",
+"items": [
+{
+"title": "Outlawed!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "46",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 368931,
+"title": "The Blue Book Magazine, December 1940",
+"date": "1940-12-00",
+"items": [
+{
+"title": "From Out the Dark Water",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "4",
+"authors": [
+"Michael Gallister"
+],
+"real": [
+"H. Bedford-Jones"
+]
+},
+{
+"title": "Martian Caravan",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "38",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 1095629,
+"title": "The Blue Book Magazine, June 1941",
+"date": "1941-06-00",
+"items": [
+{
+"title": "The Abduction of Abner Greer",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "94",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 376270,
+"title": "The Blue Book Magazine, October 1941",
+"date": "1941-10-00",
+"items": [
+{
+"title": "The Bookshop",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "96",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 299592,
+"title": "The Blue Book Magazine, December 1941",
+"date": "1941-12-00",
+"items": [
+{
+"title": "The Remarkable Talent of Egbert Haw",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "24",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 190113,
+"title": "The Blue Book Magazine, January 1942",
+"date": "1942-01-00",
+"items": [
+{
+"title": "Beyond the Farthest Star",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "110",
+"authors": [
+"Edgar Rice Burroughs"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 1073329,
+"title": "The Blue Book Magazine, April 1942",
+"date": "1942-04-00",
+"items": [
+{
+"title": "The Escapes of Mr. Honey",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "2",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 1056487,
+"title": "The Blue Book Magazine, May 1942",
+"date": "1942-05-00",
+"items": [
+{
+"title": "Red Moon on the Flores Sea",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "64",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648393,
+"title": "The Blue Book Magazine, July 1942",
+"date": "1942-07-00",
+"items": [
+{
+"title": "The Bacular Clock",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "56",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 913791,
+"title": "The Blue Book Magazine, August 1942",
+"date": "1942-08-00",
+"items": [
+{
+"title": "A Parrot in Paradise",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "32",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 1009114,
+"title": "The Blue Book Magazine, September 1942",
+"date": "1942-09-00",
+"items": [
+{
+"title": "Two Swordsmen of High Tartary",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "18",
+"authors": [
+"Achmed Abdullah"
+],
+"real": []
+},
+{
+"title": "Friar Tuck Tells All",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "48",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 1009113,
+"title": "The Blue Book Magazine, October 1942",
+"date": "1942-10-00",
+"items": [
+{
+"title": "Mammoths Make Nice Pets",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "84",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 307202,
+"title": "The Blue Book Magazine, November 1942",
+"date": "1942-11-00",
+"items": [
+{
+"title": "Another World Begins",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "12",
+"authors": [
+"Nelson S. Bond"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 589375,
+"title": "The Blue Book Magazine, January 1943",
+"date": "1943-01-00",
+"items": [
+{
+"title": "Peace Hath Her Victories",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "10",
+"authors": [
+"Gordon Keyne"
+],
+"real": [
+"H. Bedford-Jones"
+]
+},
+{
+"title": "Their Own Dear Land",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "30",
+"authors": [
+"Achmed Abdullah"
+],
+"real": []
+},
+{
+"title": "Pat Pending's Periscoop",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "110",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648653,
+"title": "The Blue Book Magazine, February 1943",
+"date": "1943-02-00",
+"items": [
+{
+"title": "Mr. Honey Gets His Hun",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "70",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+},
+{
+"title": "The Battle for France",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "104",
+"authors": [
+"Gordon Keyne"
+],
+"real": [
+"H. Bedford-Jones"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648481,
+"title": "The Blue Book Magazine, March 1943",
+"date": "1943-03-00",
+"items": [
+{
+"title": "One's Got to Be Best",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "20",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+},
+{
+"title": "Sahara Dawn",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "54",
+"authors": [
+"Gordon Keyne"
+],
+"real": [
+"H. Bedford-Jones"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648478,
+"title": "The Blue Book Magazine, April 1943",
+"date": "1943-04-00",
+"items": [
+{
+"title": "Miracular and Importulant",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "64",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+},
+{
+"title": "The Smile of the Black Virgin",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "81",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+},
+{
+"title": "Cairo Midnight",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "86",
+"authors": [
+"Gordon Keyne"
+],
+"real": [
+"H. Bedford-Jones"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648655,
+"title": "The Blue Book Magazine, May 1943",
+"date": "1943-05-00",
+"items": [
+{
+"title": "Bagdad Madness",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "18",
+"authors": [
+"Gordon Keyne"
+],
+"real": [
+"H. Bedford-Jones"
+]
+},
+{
+"title": "Mr. Honey Takes a Flyer in Chivalry",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "120",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648657,
+"title": "The Blue Book Magazine, June 1943",
+"date": "1943-06-00",
+"items": [
+{
+"title": "The Ring of Iscariot",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "2",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+},
+{
+"title": "Tomorrow in Egypt",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "84",
+"authors": [
+"Gordon Keyne"
+],
+"real": [
+"H. Bedford-Jones"
+]
+},
+{
+"title": "The Errand of Death",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "93",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648658,
+"title": "The Blue Book Magazine, July 1943",
+"date": "1943-07-00",
+"items": [
+{
+"title": "The Affair of the Drifting Face",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "58",
+"authors": [
+"Gordon Keyne"
+],
+"real": [
+"H. Bedford-Jones"
+]
+},
+{
+"title": "Somewhere on the Home Front",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "98",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+},
+{
+"title": "The Murder at Recluse House",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "127",
+"authors": [
+"Philip Wylie"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648482,
+"title": "The Blue Book Magazine, August 1943",
+"date": "1943-08-00",
+"items": [
+{
+"title": "Nothing in the Rules",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "30",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+},
+{
+"title": "The Affair of the Two Thirteens",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "82",
+"authors": [
+"Gordon Keyne"
+],
+"real": [
+"H. Bedford-Jones"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648675,
+"title": "The Blue Book Magazine, September 1943",
+"date": "1943-09-00",
+"items": [
+{
+"title": "The Affair of the Unfinished Search",
+"type": "SHORTFICTION",
+"len": null,
+"page": "17",
+"authors": [
+"Gordon Keyne"
+],
+"real": [
+"H. Bedford-Jones"
+]
+},
+{
+"title": "Queen of My Heart",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "79",
+"authors": [
+"Max Rittenberg"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648676,
+"title": "The Blue Book Magazine, October 1943",
+"date": "1943-10-00",
+"items": [
+{
+"title": "The Affair of Beryllium Q.",
+"type": "SHORTFICTION",
+"len": null,
+"page": "90",
+"authors": [
+"Gordon Keyne"
+],
+"real": [
+"H. Bedford-Jones"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648586,
+"title": "The Blue Book Magazine, November 1943",
+"date": "1943-11-00",
+"items": [
+{
+"title": "Counterclockwise",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648480,
+"title": "The Blue Book Magazine, December 1943",
+"date": "1943-12-00",
+"items": [
+{
+"title": "The Masked Marvel",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "20",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+},
+{
+"title": "Naples Midnight",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "26",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+},
+{
+"title": "The Past Earns the Future",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "42",
+"authors": [
+"Gordon Keyne"
+],
+"real": [
+"H. Bedford-Jones"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648483,
+"title": "The Blue Book Magazine, January 1944",
+"date": "1944-01-00",
+"items": [
+{
+"title": "Pat Pending's Invisibelt",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "21",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+},
+{
+"title": "Princess of Egypt",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "40",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648587,
+"title": "The Blue Book Magazine, February 1944",
+"date": "1944-02-00",
+"items": [
+{
+"title": "The Architect of Samos",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "40",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+},
+{
+"title": "A Dead Man Tells",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "90",
+"authors": [
+"Gordon Keyne",
+"H. Bedford-Jones"
+],
+"real": [
+"H. Bedford-Jones"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648636,
+"title": "The Blue Book Magazine, March 1944",
+"date": "1944-03-00",
+"items": [
+{
+"title": "The Last Macedonian",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "54",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648637,
+"title": "The Blue Book Magazine, April 1944",
+"date": "1944-04-00",
+"items": [
+{
+"title": "Island in the Sky",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "72",
+"authors": [
+"Gordon Keyne"
+],
+"real": [
+"H. Bedford-Jones"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648638,
+"title": "The Blue Book Magazine, May 1944",
+"date": "1944-05-00",
+"items": [
+{
+"title": "Our Labrador Stamp",
+"type": "ESSAY",
+"len": null,
+"page": "58",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+},
+{
+"title": "Foxes Move Fast",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "82",
+"authors": [
+"Gordon Keyne"
+],
+"real": [
+"H. Bedford-Jones"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 378077,
+"title": "The Blue Book Magazine, June 1944",
+"date": "1944-06-00",
+"items": [
+{
+"title": "Just What Happened",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "2",
+"authors": [
+"Gelett Burgess"
+],
+"real": []
+},
+{
+"title": "Letter (The Blue Book Magazine, June 1944)",
+"type": "ESSAY",
+"len": null,
+"page": "9",
+"authors": [
+"Nelson S. Bond"
+],
+"real": []
+},
+{
+"title": "Old Man with a Staff",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "72",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648648,
+"title": "The Blue Book Magazine, July 1944",
+"date": "1944-07-00",
+"items": [
+{
+"title": "Aimed at Aquila",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648649,
+"title": "The Blue Book Magazine, August 1944",
+"date": "1944-08-00",
+"items": [
+{
+"title": "The Fabian Sword",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "12",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648650,
+"title": "The Blue Book Magazine, September 1944",
+"date": "1944-09-00",
+"items": [
+{
+"title": "Finding Mr. Smith",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "91",
+"authors": [
+"Gordon Keyne"
+],
+"real": [
+"H. Bedford-Jones"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648651,
+"title": "The Blue Book Magazine, October 1944",
+"date": "1944-10-00",
+"items": [
+{
+"title": "Where Freedom Beckoned",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "52",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648652,
+"title": "The Blue Book Magazine, December 1944",
+"date": "1944-12-00",
+"items": [
+{
+"title": "The Strange Fate of Colonel Clewes",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "58",
+"authors": [
+"Gordon Keyne"
+],
+"real": [
+"H. Bedford-Jones"
+]
+},
+{
+"title": "The Gods Do Not Forget",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "97",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648773,
+"title": "The Blue Book Magazine, March 1945",
+"date": "1945-03-00",
+"items": [
+{
+"title": "What More Can Fortune Do?",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "40",
+"authors": [
+"Gordon Keyne"
+],
+"real": [
+"H. Bedford-Jones"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 703281,
+"title": "The Blue Book Magazine, April 1945",
+"date": "1945-04-00",
+"items": [
+{
+"title": "The Five Lives of Robert Jordan",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 1080563,
+"title": "The Blue Book Magazine, May 1945",
+"date": "1945-05-00",
+"items": [
+{
+"title": "The Outlawed Centaur",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "97",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 392593,
+"title": "The Blue Book Magazine, June 1945",
+"date": "1945-06-00",
+"items": [
+{
+"title": "Pat Pending Returns",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "24",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+},
+{
+"title": "Cold Front Coming",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "38",
+"authors": [
+"Jack Williamson"
+],
+"real": []
+},
+{
+"title": "The Saga of Pecos Bill",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Edward O'Reilly"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648774,
+"title": "The Blue Book Magazine, July 1945",
+"date": "1945-07-00",
+"items": [
+{
+"title": "Carson's Folly",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "2",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+},
+{
+"title": "The Case of the Final Hoard",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "72",
+"authors": [
+"Gordon Keyne"
+],
+"real": [
+"H. Bedford-Jones"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648775,
+"title": "The Blue Book Magazine, August 1945",
+"date": "1945-08-00",
+"items": [
+{
+"title": "The One-Legged Dancer",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648797,
+"title": "The Blue Book Magazine, September 1945",
+"date": "1945-09-00",
+"items": [
+{
+"title": "Grotto of the Nymphs",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648798,
+"title": "The Blue Book Magazine, October 1945",
+"date": "1945-10-00",
+"items": [
+{
+"title": "The Paradise Crater",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "2",
+"authors": [
+"Philip Wylie"
+],
+"real": []
+},
+{
+"title": "Wing of the Lion",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "40",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648799,
+"title": "The Blue Book Magazine, November 1945",
+"date": "1945-11-00",
+"items": [
+{
+"title": "The Sorcerer's Daughter",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "2",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+},
+{
+"title": "Music's Got Charms!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "57",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 372941,
+"title": "The Blue Book Magazine, December 1945",
+"date": "1945-12-00",
+"items": [
+{
+"title": "The Mask of Medusa",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+},
+{
+"title": "Brittany Treasure",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648814,
+"title": "The Blue Book Magazine, January 1946",
+"date": "1946-01-00",
+"items": [
+{
+"title": "The Pledge of Honor",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "38",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648817,
+"title": "The Blue Book Magazine, February 1946",
+"date": "1946-02-00",
+"items": [
+{
+"title": "Viking Loot",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "76",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648818,
+"title": "The Blue Book Magazine, March 1946",
+"date": "1946-03-00",
+"items": [
+{
+"title": "The Nobleman and the Ugly Barmaid",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "76",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648581,
+"title": "The Blue Book Magazine, April 1946",
+"date": "1946-04-00",
+"items": [
+{
+"title": "Magnifular and Marvaceous",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "49",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+},
+{
+"title": "Death-Trapped Gold",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "82",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648582,
+"title": "The Blue Book Magazine, May 1946",
+"date": "1946-05-00",
+"items": [
+{
+"title": "The Greater Gizmo",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "49",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 299484,
+"title": "The Blue Book Magazine, June 1946",
+"date": "1946-06-00",
+"items": [
+{
+"title": "Conquerors' Isle",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "2",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+},
+{
+"title": "The Sphinx Emerald",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "22",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648826,
+"title": "The Blue Book Magazine, July 1946",
+"date": "1946-07-00",
+"items": [
+{
+"title": "My Nephew Norvell",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "2",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+},
+{
+"title": "Red Sky Over Thebe",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "56",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648827,
+"title": "The Blue Book Magazine, August 1946",
+"date": "1946-08-00",
+"items": [
+{
+"title": "The Gripes of Wraith!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "16",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+},
+{
+"title": "The Last Pharaoh",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "30",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648828,
+"title": "The Blue Book Magazine, September 1946",
+"date": "1946-09-00",
+"items": [
+{
+"title": "Master of the World",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "32",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648584,
+"title": "The Blue Book Magazine, October 1946",
+"date": "1946-10-00",
+"items": [
+{
+"title": "The Son of Julius Caesar",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "78",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+},
+{
+"title": "Pat PendingâDetectivator!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "93",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648842,
+"title": "The Blue Book Magazine, November 1946",
+"date": "1946-11-00",
+"items": [
+{
+"title": "The Eye of the Sun",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "30",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+},
+{
+"title": "The Enchanted Pencil",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "41",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648843,
+"title": "The Blue Book Magazine, December 1946",
+"date": "1946-12-00",
+"items": [
+{
+"title": "Assassination at Christmas",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "44",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648927,
+"title": "The Blue Book Magazine, January 1947",
+"date": "1947-01-00",
+"items": [
+{
+"title": "Knights Must Fall",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "2",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+},
+{
+"title": "The Justice of Amru",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "72",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648928,
+"title": "The Blue Book Magazine, February 1947",
+"date": "1947-02-00",
+"items": [
+{
+"title": "Swordsmen of Saladin",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "8",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648929,
+"title": "The Blue Book Magazine, March 1947",
+"date": "1947-03-00",
+"items": [
+{
+"title": "The Room of the Last Chance",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "2",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+},
+{
+"title": "Crisis in Hell",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "16",
+"authors": [
+"Gilbert Wright"
+],
+"real": []
+},
+{
+"title": "Leopards Are for England",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "64",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648930,
+"title": "The Blue Book Magazine, April 1947",
+"date": "1947-04-00",
+"items": [
+{
+"title": "The King's Jewel",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "32",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+},
+{
+"title": "Double Trouble for Pat Pending",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "47",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+},
+{
+"title": "The Secret of Lo Fat",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "70",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648931,
+"title": "The Blue Book Magazine, May 1947",
+"date": "1947-05-00",
+"items": [
+{
+"title": "A Task for Leonardo",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "|1",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+},
+{
+"title": "Honevitch, the Bear-Snarer",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "|3",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648932,
+"title": "The Blue Book Magazine, June 1947",
+"date": "1947-06-00",
+"items": [
+{
+"title": "The Reward of Nostradamus",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "54",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+},
+{
+"title": "Stowaway Aboard Noah's Ark",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "100",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648934,
+"title": "The Blue Book Magazine, July 1947",
+"date": "1947-07-00",
+"items": [
+{
+"title": "The Message on the Hearth",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "74",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+},
+{
+"title": "Richelieu Raids a Tomb",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "104",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648935,
+"title": "The Blue Book Magazine, August 1947",
+"date": "1947-08-00",
+"items": [
+{
+"title": "Return, O Captain!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "15",
+"authors": [
+"Bertram Atkey"
+],
+"real": []
+},
+{
+"title": "Jewels Have a Long Life",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "32",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648936,
+"title": "The Blue Book Magazine, September 1947",
+"date": "1947-09-00",
+"items": [
+{
+"title": "Lady in Chain Mail",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "90",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648937,
+"title": "The Blue Book Magazine, October 1947",
+"date": "1947-10-00",
+"items": [
+{
+"title": "Journey Beyond Light",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "2",
+"authors": [
+"Walter de Steiguer"
+],
+"real": []
+},
+{
+"title": "The Bride of the Sphinx",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "94",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648938,
+"title": "The Blue Book Magazine, November 1947",
+"date": "1947-11-00",
+"items": [
+{
+"title": "The Passing of the Sphinx Emerald",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "74",
+"authors": [
+"H. Bedford-Jones"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648982,
+"title": "The Blue Book Magazine, March 1948",
+"date": "1948-03-00",
+"items": [
+{
+"title": "A Matter of a Pinion",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "22",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 304801,
+"title": "The Blue Book Magazine, May 1948",
+"date": "1948-05-00",
+"items": [
+{
+"title": "Last Inning",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "18",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+},
+{
+"title": "Doughnut Jockey",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "54",
+"authors": [
+"Erik Fennel"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 1060540,
+"title": "The Blue Book Magazine, July 1948",
+"date": "1948-07-00",
+"items": [
+{
+"title": "Henry Takes Over",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "32",
+"authors": [
+"Wilbur S. Peacock"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Herbert Morton Stoops"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 400312,
+"title": "The Blue Book Magazine, September 1948",
+"date": "1948-09-00",
+"items": [
+{
+"title": "Nicky and the Tin Finger",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "26",
+"authors": [
+"John D. MacDonald"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Benton Clark"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 1056492,
+"title": "The Blue Book Magazine, October 1948",
+"date": "1948-10-00",
+"items": [
+{
+"title": "The Last Outpost",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "114",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+}
+],
+"cover_artists": [
+"Maurice Bower"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648988,
+"title": "The Blue Book Magazine, November 1948",
+"date": "1948-11-00",
+"items": [
+{
+"title": "Daze Without End",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "12",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+}
+],
+"cover_artists": [
+"Benton Clark"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 649004,
+"title": "Blue Book Magazine, March 1949",
+"date": "1949-03-00",
+"items": [
+{
+"title": "Petersen's Eye",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "72",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+},
+{
+"title": "Refuge for Tonight",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "132",
+"authors": [
+"Robert Moore Williams"
+],
+"real": []
+}
+],
+"cover_artists": [
+"John Fulton"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 703288,
+"title": "Blue Book Magazine, April 1949",
+"date": "1949-04-00",
+"items": [
+{
+"title": "The Song",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "2",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+}
+],
+"cover_artists": [
+"Benton Clark"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648990,
+"title": "Blue Book Magazine, May 1949",
+"date": "1949-05-00",
+"items": [
+{
+"title": "Strikes to Spare",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+}
+],
+"cover_artists": [
+"Maurice Bower"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 649008,
+"title": "Blue Book Magazine, July 1949",
+"date": "1949-07-00",
+"items": [
+{
+"title": "Star of Doom (Part 1 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "108",
+"authors": [
+"Lewis Sowden"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Benton Clark"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 376269,
+"title": "Blue Book Magazine, August 1949",
+"date": "1949-08-00",
+"items": [
+{
+"title": "Bird of Prey",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "10",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+},
+{
+"title": "Star of Doom (Part 2 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "114",
+"authors": [
+"Lewis Sowden"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Maurice Bower"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 298515,
+"title": "Blue Book Magazine, December 1949",
+"date": "1949-12-00",
+"items": [
+{
+"title": "Delilah and the Space-Rigger",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Robert Heinlein"
+],
+"real": [
+"Robert A. Heinlein"
+]
+}
+],
+"cover_artists": [
+"Cleveland Woodward"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 703291,
+"title": "Blue Book Magazine, January 1950",
+"date": "1950-01-00",
+"items": [
+{
+"title": "The Spinsters",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "40",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+}
+],
+"cover_artists": [
+"John Fulton"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 649036,
+"title": "Blue Book Magazine, August 1950",
+"date": "1950-08-00",
+"items": [
+{
+"title": "The Laughter of the Stars",
+"type": "SHORTFICTION",
+"len": "novella",
+"page": "122",
+"authors": [
+"Robert Spencer Carr"
+],
+"real": [
+"Robert S. Carr"
+]
+}
+],
+"cover_artists": [
+"Maurice Bower"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 301974,
+"title": "Blue Book Magazine, September 1950",
+"date": "1950-09-00",
+"items": [
+{
+"title": "And Lo, the Bird!",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "72",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+}
+],
+"cover_artists": [
+"Maurice Bower"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 1056499,
+"title": "Blue Book Magazine, November 1950",
+"date": "1950-11-00",
+"items": [
+{
+"title": "The Quest of the Saracen Beast",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "42",
+"authors": [
+"Theodore Goodridge Roberts"
+],
+"real": []
+}
+],
+"cover_artists": [
+"John Fulton"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 648991,
+"title": "Blue Book Magazine, February 1951",
+"date": "1951-02-00",
+"items": [
+{
+"title": "Beachhead on the Moon",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "6",
+"authors": [
+"Sidney Leland"
+],
+"real": [
+"John Eric Holmes"
+]
+},
+{
+"title": "Black Magic",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "53",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+}
+],
+"cover_artists": [
+"John Fulton"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 1056501,
+"title": "Blue Book Magazine, April 1951",
+"date": "1951-04-00",
+"items": [
+{
+"title": "This Is the Land",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "14",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+}
+],
+"cover_artists": [
+"Maurice Bower"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 589196,
+"title": "The Blue Book Magazine, May 1951",
+"date": "1951-05-00",
+"items": [
+{
+"title": "The Floating Island",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Philip Fisher"
+],
+"real": [
+"Philip M. Fisher"
+]
+},
+{
+"title": "The Silent Planet",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+}
+],
+"cover_artists": [
+"John Fulton"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 1056491,
+"title": "The Blue Book Magazine, August 1951",
+"date": "1951-08-00",
+"items": [
+{
+"title": "The Goose Girl",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "32",
+"authors": [
+"Theodore Goodridge Roberts"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Maurice Bower"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 273725,
+"title": "The Blue Book Magazine, September 1951",
+"date": "1951-09-00",
+"items": [
+{
+"title": "Planets in Combat (Part 1 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "100",
+"authors": [
+"Robert A. Heinlein"
+],
+"real": []
+}
+],
+"cover_artists": [
+"John Fulton"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 273726,
+"title": "Blue Book Magazine, October 1951",
+"date": "1951-10-00",
+"items": [
+{
+"title": "For to Achieve Your Adventure",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "2",
+"authors": [
+"Theodore Goodridge Roberts"
+],
+"real": []
+},
+{
+"title": "Planets in Combat (Part 2 of 2)",
+"type": "SERIAL",
+"len": null,
+"page": "114",
+"authors": [
+"Robert A. Heinlein"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Maurice Bower"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 1056500,
+"title": "Blue Book Magazine, November 1951",
+"date": "1951-11-00",
+"items": [
+{
+"title": "The World of William Gresham",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "26",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+}
+],
+"cover_artists": [
+"L. R. Gustavson"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 649037,
+"title": "Blue Book Magazine, January 1952",
+"date": "1952-01-00",
+"items": [
+{
+"title": "Second Genesis",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "2",
+"authors": [
+"Eric Frank Russell"
+],
+"real": []
+}
+],
+"cover_artists": [
+"John Fulton"
+],
+"editors": [
+"Donald Kennicott"
+]
+},
+{
+"id": 703292,
+"title": "Bluebook, May 1952",
+"date": "1952-05-00",
+"items": [
+{
+"title": "No Strings Attached",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "20",
+"authors": [
+"Alan Nelson"
+],
+"real": []
+},
+{
+"title": "The Dark Door",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "60",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+}
+],
+"cover_artists": [
+"John McDermott"
+],
+"editors": [
+"Maxwell Hamilton"
+]
+},
+{
+"id": 333329,
+"title": "Bluebook, August 1952",
+"date": "1952-08-00",
+"items": [
+{
+"title": "A Rosy Future for Roderick",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "46",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+}
+],
+"cover_artists": [
+"John Cullen Murphy"
+],
+"editors": [
+"Maxwell Hamilton"
+]
+},
+{
+"id": 1056486,
+"title": "Bluebook, September 1952",
+"date": "1952-09-00",
+"items": [
+{
+"title": "Pot Luck",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "88",
+"authors": [
+"Alan Nelson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"George Kanelous"
+],
+"editors": [
+"Maxwell Hamilton"
+]
+},
+{
+"id": 1056489,
+"title": "Bluebook, November 1952",
+"date": "1952-11-00",
+"items": [
+{
+"title": "The Coming of the Little People",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "6",
+"authors": [
+"Robert Spencer Carr"
+],
+"real": [
+"Robert S. Carr"
+]
+}
+],
+"cover_artists": [
+"Harrison Miller"
+],
+"editors": [
+"Maxwell Hamilton"
+]
+},
+{
+"id": 1056488,
+"title": "Bluebook, December 1952",
+"date": "1952-12-00",
+"items": [
+{
+"title": "The City Where No One Dies",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "",
+"authors": [
+"Alan Nelson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"John Cullen Murphy"
+],
+"editors": [
+"Maxwell Hamilton"
+]
+},
+{
+"id": 332954,
+"title": "Bluebook, March 1953",
+"date": "1953-03-00",
+"items": [
+{
+"title": "Hermit on Bikini",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "55",
+"authors": [
+"John Langdon"
+],
+"real": []
+}
+],
+"cover_artists": [
+"George Mayers"
+],
+"editors": [
+"Maxwell Hamilton"
+]
+},
+{
+"id": 649039,
+"title": "Bluebook, July 1953",
+"date": "1953-07-00",
+"items": [
+{
+"title": "The Man with the Golden Hand",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "11",
+"authors": [
+"Robert Arthur"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Robert Doares"
+],
+"editors": [
+"Maxwell Hamilton"
+]
+},
+{
+"id": 306180,
+"title": "Bluebook, November 1953",
+"date": "1953-11-00",
+"items": [
+{
+"title": "Fish Story",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "88",
+"authors": [
+"Leslie Charteris"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Don Eckelberry"
+],
+"editors": [
+"Maxwell Hamilton"
+]
+},
+{
+"id": 649040,
+"title": "Bluebook, March 1954",
+"date": "1954-03-00",
+"items": [
+{
+"title": "Button, Button",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "11",
+"authors": [
+"Nelson Bond"
+],
+"real": [
+"Nelson S. Bond"
+]
+}
+],
+"cover_artists": [
+"Glenn Grohe"
+],
+"editors": [
+"Maxwell Hamilton"
+]
+},
+{
+"id": 305259,
+"title": "Bluebook, May 1954",
+"date": "1954-05-00",
+"items": [
+{
+"title": "The Conqueror",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "30",
+"authors": [
+"Richard Matheson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"John Walter"
+],
+"editors": [
+"AndrÃ© Fontaine"
+]
+},
+{
+"id": 300121,
+"title": "Bluebook, January 1955",
+"date": "1955-01-00",
+"items": [
+{
+"title": "The Public Hating",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "24",
+"authors": [
+"Steve Allen"
+],
+"real": []
+},
+{
+"title": "The Past Master",
+"type": "SHORTFICTION",
+"len": "novelette",
+"page": "48",
+"authors": [
+"Robert Bloch"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Frank McCarthy"
+],
+"editors": [
+"AndrÃ© Fontaine"
+]
+},
+{
+"id": 400313,
+"title": "Bluebook, March 1956",
+"date": "1956-03-00",
+"items": [
+{
+"title": "Enough to Cure the Blues",
+"type": "SHORTFICTION",
+"len": "short story",
+"page": "32",
+"authors": [
+"John D. MacDonald"
+],
+"real": []
+},
+{
+"title": "The Power (complete novel)",
+"type": "SERIAL",
+"len": null,
+"page": "49",
+"authors": [
+"Frank M. Robinson"
+],
+"real": []
+}
+],
+"cover_artists": [
+"Fred Freeman"
+],
+"editors": [
+"AndrÃ© Fontaine"
+]
+}
+]
+}

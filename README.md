@@ -1,13 +1,14 @@
 # Banca
 
 *A newsstand for pulp magazines.* A personal Android tablet (and phone) app for browsing and reading classic pulp magazines scanned by the
-[Internet Archive](https://archive.org). About 4,700 issues: **Amazing Stories** (1926–1956, 309 issues), **The Magazine of Fantasy
+[Internet Archive](https://archive.org). About 7,900 issues in 69 titles: **Amazing Stories** (1926–1956, 309 issues), **Weird Tales**, **Astounding / Analog**, **Planet Stories**,
+**Startling** and **Thrilling Wonder Stories**, **Unknown**, **If**, **New Worlds**, **Adventure**, **Argosy**, **Blue Book**, **The Magazine of Fantasy
 & Science Fiction** (1949–2007), **Galaxy** (1950–1980), **Fantastic** (1952–1980) and **Rod Serling's The Twilight Zone
 Magazine** (1981–1989), **Asimov's Science Fiction** (1977–2014), the dime-novel weekly **Fame and Fortune
 Weekly** (1905–1928), plus 27 RPG magazines — the Brazilian **Dragão Brasil**, **Dragon Slayer** and **Revista Tormenta**, **Dragon**, **Dungeon**, **White Dwarf**, **Polyhedron**, **The Space Gamer**, **Different
 Worlds**, **Imagine**, **Ares**, the Traveller magazines (*JTAS*, *Challenge*, *Travellers' Digest*) and more — and 12 comics titles (about 820
 issues and volumes: Hellblazer, Turok, Conan, Miracleman, Asterix, The Complete Peanuts, Marvel Masterworks and more),
-all readable page by page. The pulp magazines' contents — about 25,000 stories, articles and poems — are searchable
+all readable page by page. The pulp magazines' contents — about 60,000 stories, articles and poems — are searchable
 by title, author, editor, cover artist and translator (Amazing Stories from its reference guide, the others from the
 [ISFDB](https://www.isfdb.org)).
 
@@ -21,7 +22,7 @@ Built for a Samsung Galaxy Tab A9+ (11", 1920×1200), with phone layouts for the
 
 - **Banca "Newsprint" design**: Paper and Night themes, bundled fonts (Big Shoulders Display + Source Serif 4), tablet
   masthead with Atlas / Pulp / RPG / Comics tabs and a phone bottom navigation. **The app opens on the Atlas**, with
-  the *Continue reading* shelf on top; the PULP tab is the magazine library.
+  a *Continue reading* button (it opens the shelf of issues in progress); the PULP tab is the magazine library.
 - **Library** (PULP tab): magazines by category (pulp & science fiction; RPG magazines and comics on their own tabs) with a
   cover mosaic (upcoming magazines marked *coming soon*), plus a *Continue reading* shelf
   with each issue's progress. Progress can be cleared per issue (× on the shelf, *Clear progress* on the issue page)
