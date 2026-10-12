@@ -109,7 +109,7 @@ Internet Archive ◄── IIIF page images + djvu.xml OCR ──── Capacito
 ## Tech stack
 
 Capacitor 8 (Android) · Vite · React 19 · TypeScript (strict) · `@capacitor-community/sqlite` (device) /
-`@sqlite.org/sqlite-wasm` (browser dev and tests) · Python 3.12 + PyMuPDF (catalog tools) · Vitest · pytest.
+`@sqlite.org/sqlite-wasm` (browser dev and tests) · Python 3.12 + PyMuPDF (catalog tools) · Vitest · pytest · ESLint.
 
 ## Getting started
 

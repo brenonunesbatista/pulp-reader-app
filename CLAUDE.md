@@ -17,7 +17,7 @@ Capacitor (Android) · Vite · React · TypeScript (strict) · SQLite (`@capacit
 ## Commands (keep this section up to date)
 - App dev in browser: `cd app && npm run dev` (needs the built catalog; SQLite runs via sqlite-wasm in the browser;
   Vite proxies `/ia-download` → archive.org/download, which has no CORS)
-- Typecheck / lint / tests: `cd app && npm run typecheck && npm run lint && npm test`
+- Typecheck / lint / tests: `cd app && npm run typecheck && npm run lint && npm test` (lint = ESLint, `app/eslint.config.js`)
 - Android build/run on device: `cd app && npm run build && npx cap sync android && npx cap run android`
   (if `cap run` finds no device: `cd app/android && gradlew assembleDebug` then `adb install -r app/build/outputs/apk/debug/app-debug.apk`)
 - Spike IA probes: `python tools/spike/ia_metadata.py <id>` (then `ia_pages.py`, `ia_ocr.py`, `ia_pagemap.py`, `ia_cors.py`); deps in `tools/spike/requirements.txt`

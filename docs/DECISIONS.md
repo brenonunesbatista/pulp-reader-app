@@ -474,3 +474,10 @@ Banca" on *Marooned off Vesta*, which has no scan; the spec adds the "in the cat
   `_scandata.xml`. On 2026-10-12 the Archive answered 500 for that item's files for hours (its storage node), so the
   OCR of that issue could not be checked end to end.
 - Catalog: 95 magazines, 9,281 issues, 21.5 MB.
+
+## 2026-10-12 — Lint: ESLint instead of oxlint
+- Windows (Smart App Control / Application Control) blocks oxlint's native binary (`oxlint.win32-x64-msvc.node`) and
+  oxlint publishes no WebAssembly build, so `npm run lint` now runs ESLint 10 (pure JavaScript): `@eslint/js` and
+  `typescript-eslint` recommended rules, `react-hooks` (rules of hooks as error, exhaustive deps as warning — the
+  existing `eslint-disable` comments already named these rules) and `react-refresh/only-export-components`
+  (`app/eslint.config.js`). First run: 100 files, 0 problems; a deliberate conditional `useState` is reported.
