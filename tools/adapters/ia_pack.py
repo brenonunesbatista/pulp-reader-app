@@ -43,7 +43,8 @@ def numbered(cfg: dict, books: list[dict]) -> dict[int, str]:
     for b in books:
         m = pat.fullmatch(b["stem"])
         if m:
-            n = int(m[1])
+            # `number_join`: volume and number groups make one number (Heroes v1 01 → 101)
+            n = int(m[1]) * 100 + int(m[2]) if cfg.get("number_join") else int(m[1])
             if n not in out or b["pages"] > pages[out[n]]:
                 out[n] = b["stem"]
     return out
@@ -61,22 +62,8 @@ def years_only(cfg: dict, nums: dict[int, str]) -> dict[int, list]:
             known[n] = (int(m["year"]), "name")
     for n, y in cfg.get("year_anchors", []):
         known.setdefault(n, (y, "anchor"))
-    ks = sorted(known)
-    out: dict[int, list] = {}
-    for n in nums:
-        if n in known:
-            out[n] = [known[n][0], 0, known[n][1]]
-            continue
-        lo = max((k for k in ks if k < n), default=None)
-        hi = min((k for k in ks if k > n), default=None)
-        if lo is None and hi is None:
-            continue
-        if lo is None or hi is None:
-            out[n] = [known[lo if hi is None else hi][0], 0, "interpolated"]
-        else:
-            ylo, yhi = known[lo][0], known[hi][0]
-            out[n] = [round(ylo + (yhi - ylo) * (n - lo) / (hi - lo)), 0, "interpolated"]
-    return out
+    from catalog.years import interpolate_years
+    return {n: [y, 0, how] for n, (y, how) in interpolate_years(list(nums), known).items()}
 
 
 def apply_schedule(cfg: dict, issues: dict[int, list]) -> dict[int, list]:
@@ -111,7 +98,7 @@ def special_title(name: str, stem: str) -> str:
 
 def clean_title(stem: str) -> str:
     """'Asterix_Conquers_America' → 'Asterix Conquers America'; scan-group tags in parentheses are dropped"""
-    s = re.sub(r"\s*\((?:[^)]*(?:Digital|Empire|DCP|c2c|HD)[^)]*)\)", "", stem.replace("_", " "))
+    s = re.sub(r"\s*\((?:[^)]*(?:Digital|Empire|DCP|c2c|HD)[^)]*)\)|\[ocr\]", "", stem.replace("_", " "))
     s = re.sub(r"\s+", " ", s).strip()
     if s == s.lower():  # "37 asterix and the chariot race"
         small = {"a", "an", "and", "the", "of", "in", "on", "to", "at", "for"}

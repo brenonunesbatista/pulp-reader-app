@@ -37,13 +37,15 @@ class Scan:
     flags: list[str] = field(default_factory=list)
 
 
-def fetch(collection: str) -> list[dict]:
-    """All items of a collection (identifier order), compacted for the snapshot file."""
+def fetch(collection: str | None = None, query: str | None = None) -> list[dict]:
+    """All items of a collection — or of a search `query` (magazines without a collection of their own) — in
+    identifier order, compacted for the snapshot file."""
     from catalog.ia import get  # network only when refreshing
+    q = query or f"collection:{collection}"
     rows: list[dict] = []
     page = 1
     while True:
-        url = ("https://archive.org/advancedsearch.php?q=" + quote(f"collection:{collection}") +
+        url = ("https://archive.org/advancedsearch.php?q=" + quote(q) +
                "".join(f"&fl[]={f}" for f in FIELDS) + f"&sort[]=identifier+asc&rows=1000&page={page}&output=json")
         r = get(url).json()["response"]
         rows += r["docs"]
@@ -141,7 +143,7 @@ def parse(cfg: dict, snapshot: Path) -> tuple[Catalog, dict[str, list[str]], lis
         if exclude and (exclude.search(s.identifier) or exclude.search(s.title)):
             skipped.append((s.identifier, "not an issue of the magazine (excluded by pattern)"))
             continue
-        if s.year is None or s.month is None:
+        if (s.year is None or s.month is None) and not (number_key and cfg.get("year_only")):
             skipped.append((s.identifier, "no issue date in identifier, title or metadata"))
             continue
         if not s.readable:
@@ -187,19 +189,42 @@ def parse(cfg: dict, snapshot: Path) -> tuple[Catalog, dict[str, list[str]], lis
                 alternates[best.identifier] = [s.identifier for s in group[1:]]
             if best.flags:
                 problems.append(ParseIssue("chosen-scan-flagged", 0, best.identifier, ", ".join(best.flags)))
-    cat = Catalog(magazine_name=cfg["name"], magazine_slug=cfg["slug"], source=f"archive.org collection {cfg['collection']}",
-                  issues=issues, problems=problems)
+    cat = Catalog(magazine_name=cfg["name"], magazine_slug=cfg["slug"], source=_source(cfg), issues=issues, problems=problems)
     return cat, alternates, skipped
 
 
+def _source(cfg: dict) -> str:
+    return f"archive.org collection {cfg['collection']}" if cfg.get("collection") else f"archive.org search {cfg['query']}"
+
+
+def snapshot_name(cfg: dict) -> str:
+    return cfg["collection"] if cfg.get("collection") else f"q-{cfg['slug']}"
+
+
 def _by_number(cfg: dict, slots: dict, skipped: list, problems: list):
-    """weekly papers: one issue per number; stable id = block × 10M + number × 10 (the date can repeat weekly)"""
+    """one issue per number (weekly papers; small magazines numbered but not dated); stable id = block × 10M +
+    number × 10. `year_only`: month 0 and the year from the scan, else from `year_anchors` (catalog/years.py)."""
+    from catalog.years import interpolate_years
     issues: list[Issue] = []
     alternates: dict[str, list[str]] = {}
+    years: dict[int, tuple[int, str]] = {}
+    if cfg.get("year_only"):
+        known = {n: (g[0].year, "metadata") for (n, _), g in slots.items() if g[0].year}
+        for n, y in cfg.get("year_anchors", []):
+            known[n] = (y, "anchor")  # anchors win: scan metadata years are often upload years
+        years = interpolate_years([n for n, _ in slots], known)
     for (n, _), group in sorted(slots.items()):
         group.sort(key=lambda s: (-s.score, s.identifier))
         best = group[0]
-        issue = Issue(year=best.year, month=best.month, title=f"{cfg['name']} #{n}, {MONTH_NAMES[best.month - 1]} {best.year}",
+        if cfg.get("year_only"):
+            if n not in years:
+                skipped.append((best.identifier, "no year"))
+                continue
+            y, mo, when = years[n][0], 0, str(years[n][0])
+        else:
+            y, mo, when = best.year, best.month, f"{MONTH_NAMES[best.month - 1]} {best.year}"
+        title = (cfg.get("title") or "{name} #{n}").format(name=cfg["name"], n=n)
+        issue = Issue(year=y, month=mo, title=title if cfg.get("year_only") else f"{title}, {when}",
                       slug=f"{cfg['slug']}-{n:04d}", source_page=0, ia_identifier=best.identifier, number=n)
         issue.id = cfg["block"] * 10_000_000 + n * 10
         issues.append(issue)
@@ -208,6 +233,5 @@ def _by_number(cfg: dict, slots: dict, skipped: list, problems: list):
         if best.flags:
             problems.append(ParseIssue("chosen-scan-flagged", 0, best.identifier, ", ".join(best.flags)))
     issues.sort(key=lambda i: (i.year, i.month, i.number))
-    cat = Catalog(magazine_name=cfg["name"], magazine_slug=cfg["slug"], source=f"archive.org collection {cfg['collection']}",
-                  issues=issues, problems=problems)
+    cat = Catalog(magazine_name=cfg["name"], magazine_slug=cfg["slug"], source=_source(cfg), issues=issues, problems=problems)
     return cat, alternates, skipped

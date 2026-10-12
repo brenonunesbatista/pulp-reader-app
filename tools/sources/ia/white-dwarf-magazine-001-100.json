@@ -1,0 +1,602 @@
+[
+{
+"stem": "White Dwarf 001",
+"pages": 24,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 002",
+"pages": 24,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 003",
+"pages": 24,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 004",
+"pages": 24,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 005",
+"pages": 24,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 006",
+"pages": 24,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 007",
+"pages": 28,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 008",
+"pages": 28,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 009",
+"pages": 28,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 010",
+"pages": 28,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 011",
+"pages": 28,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 012",
+"pages": 32,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 013",
+"pages": 32,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 014",
+"pages": 32,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 015",
+"pages": 32,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 016",
+"pages": 32,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 017",
+"pages": 32,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 018",
+"pages": 32,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 019",
+"pages": 36,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 020",
+"pages": 36,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 021",
+"pages": 36,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 022",
+"pages": 36,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 023",
+"pages": 36,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 024",
+"pages": 40,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 025",
+"pages": 36,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 026",
+"pages": 36,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 027",
+"pages": 36,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 028",
+"pages": 40,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 029",
+"pages": 40,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 030",
+"pages": 40,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 031",
+"pages": 40,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 032",
+"pages": 40,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 033",
+"pages": 40,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 034",
+"pages": 40,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 035",
+"pages": 40,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 036",
+"pages": 44,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 037",
+"pages": 40,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 038",
+"pages": 40,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 039",
+"pages": 44,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 040",
+"pages": 44,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 041",
+"pages": 44,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 042",
+"pages": 44,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 043",
+"pages": 44,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 044",
+"pages": 44,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 045",
+"pages": 48,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 046",
+"pages": 48,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 047",
+"pages": 48,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 048",
+"pages": 52,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 049",
+"pages": 48,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 050",
+"pages": 48,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 051",
+"pages": 48,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 052",
+"pages": 56,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 053",
+"pages": 56,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 054",
+"pages": 56,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 055",
+"pages": 56,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 056",
+"pages": 56,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 057",
+"pages": 56,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 058",
+"pages": 56,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 059",
+"pages": 56,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 060",
+"pages": 56,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 061",
+"pages": 56,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 062",
+"pages": 56,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 063",
+"pages": 56,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 064",
+"pages": 56,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 065",
+"pages": 56,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 066",
+"pages": 56,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 067",
+"pages": 56,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 068",
+"pages": 66,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 069",
+"pages": 60,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 070",
+"pages": 60,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 071",
+"pages": 68,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 072",
+"pages": 68,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 073",
+"pages": 68,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 074",
+"pages": 68,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 075",
+"pages": 68,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 076",
+"pages": 68,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 077",
+"pages": 68,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 078",
+"pages": 68,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 079",
+"pages": 68,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 080",
+"pages": 68,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 081",
+"pages": 68,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 082",
+"pages": 76,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 083",
+"pages": 68,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 084",
+"pages": 68,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 085",
+"pages": 72,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 086",
+"pages": 68,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 087",
+"pages": 68,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 088",
+"pages": 68,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 089",
+"pages": 68,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 090",
+"pages": 88,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 091",
+"pages": 88,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 092",
+"pages": 88,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 093",
+"pages": 100,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 094",
+"pages": 88,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 095",
+"pages": 86,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 096",
+"pages": 88,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 097",
+"pages": 88,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 098",
+"pages": 88,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 099",
+"pages": 84,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "White Dwarf 100",
+"pages": 84,
+"ocr": true,
+"scandata": true
+}
+]

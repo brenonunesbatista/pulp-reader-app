@@ -1,0 +1,50 @@
+[
+{
+"stem": "Heroes v1 01",
+"pages": 48,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "Heroes v1 02",
+"pages": 48,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "Heroes v1 03",
+"pages": 50,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "Heroes v1 05",
+"pages": 49,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "Heroes v1 06",
+"pages": 48,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "Heroes v2 01",
+"pages": 48,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "Heroes v2 02",
+"pages": 48,
+"ocr": true,
+"scandata": true
+},
+{
+"stem": "Index",
+"pages": 4,
+"ocr": true,
+"scandata": true
+}
+]

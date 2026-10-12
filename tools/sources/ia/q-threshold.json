@@ -1,0 +1,83 @@
+[
+{
+"identifier": "Threshold10",
+"title": "Threshold 10",
+"date": "2016-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Threshold11",
+"title": "Threshold 11",
+"date": "2016-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "Threshold12",
+"title": "Threshold 12",
+"date": "2016-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "threshold-04",
+"title": "Threshold #4",
+"date": "2014-01-01",
+"imagecount": 220,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "threshold-05",
+"title": "Threshold #5",
+"date": "2014-01-01",
+"imagecount": 0,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "threshold-06",
+"title": "Threshold #6",
+"date": "2014-12-01",
+"imagecount": 214,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "threshold-07",
+"title": "Threshold #7",
+"date": "2015-04-01",
+"imagecount": 250,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "threshold-08",
+"title": "Threshold #8",
+"date": "2015-07-01",
+"imagecount": 218,
+"jp2": true,
+"ocr": true,
+"restricted": false
+},
+{
+"identifier": "threshold-09",
+"title": "Threshold #9",
+"date": "2015-09-01",
+"imagecount": 201,
+"jp2": true,
+"ocr": true,
+"restricted": false
+}
+]

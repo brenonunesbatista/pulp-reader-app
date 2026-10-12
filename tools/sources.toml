@@ -296,3 +296,231 @@ adapter = "ia_collection"
 collection = "fameandfortuneweekly"
 # a dime-novel weekly (Frank Tousey, 1905–1929): one issue per number, several per month
 number_key = 'no\._?(\d+)'
+
+# ---- Phase 10b: English-language RPG magazines (blocks 30+; year only: issue numbers are reliable, months are not) -----
+[[magazine]]
+slug = "white-dwarf"
+block = 30
+name = "White Dwarf"
+category = "rpg"
+adapter = "ia_pack"
+item = "white-dwarf-magazine-001-100"
+year_only = true
+issue_pattern = 'White Dwarf 0*(\d+)'
+# OCR: #1 Jun 1977, #100 Apr 1988; scan dates of single items: #23 1981, #40 1983, #61 Jan 1985
+year_anchors = [[1, 1977], [23, 1981], [40, 1983], [61, 1985], [100, 1988]]
+
+[[magazine]]
+slug = "polyhedron"
+block = 31
+name = "Polyhedron"
+category = "rpg"
+adapter = "ia_pack"
+item = "the-polyhedron"
+year_only = true
+issue_pattern = 'The_Polyhedron_Issue_0*(\d+)_(?:Vol_\d+_\d+_)?(?P<year>(?:19|20)\d\d)?.*'
+# RPGA newszine: #1 Summer 1981 … #171 Aug 2004; the year in the name where present
+year_anchors = [[1, 1981], [171, 2004]]
+special_pattern = 'GenCon_Special'
+special_years = { "The_Polyhedron_GenCon_Special_01_1999_Aug[ocr]" = 1999 }
+
+[[magazine]]
+slug = "space-gamer"
+block = 32
+name = "The Space Gamer"
+category = "rpg"
+adapter = "ia_collection"
+collection = "space-gamer"
+year_only = true
+number_key = 'space[_ -]gamer(?:[_ -]magazine)?(?:[_ -]issue)?[_ -]0*(\d+)'
+# Metagaming #1 1975, Steve Jackson Games from #27 (1980) to #76 (1985), then Diverse Talents to #88 (1989)
+year_anchors = [[1, 1975], [27, 1980], [76, 1985], [88, 1989]]
+
+[[magazine]]
+slug = "different-worlds"
+block = 33
+name = "Different Worlds"
+category = "rpg"
+adapter = "ia_pack"
+item = "different-worlds-magazine"
+year_only = true
+issue_pattern = 'Different Worlds #0*(\d+) (?P<year>\d{4}).*'
+
+[[magazine]]
+slug = "imagine"
+block = 34
+name = "Imagine"
+category = "rpg"
+adapter = "ia_pack"
+item = "imagine-magazine-02-keith-thomson-editor"
+year_only = true
+issue_pattern = 'Imagine Magazine 0*(\d+) .*'
+special_pattern = 'Special Edition'
+special_years = { "Imagine Magazine Special Edition I - Keith Thomson (editor)" = 1984 }
+# TSR UK, monthly: #1 Apr 1983 … #30 Sep 1985 (OCR)
+year_anchors = [[1, 1983], [30, 1985]]
+
+[[magazine]]
+slug = "ares"
+block = 35
+name = "Ares"
+category = "rpg"
+adapter = "ia_collection"
+collection = "ares_magazine"
+exclude = 'Special'
+year_only = true
+number_key = 'Ares(?:Magazine|_Issue_| Magazine | Issue )0*(\d+)'
+# SPI science-fiction and fantasy magazine: #1 1980 … #17 1984 (TSR)
+year_anchors = [[1, 1980], [17, 1984]]
+
+[[magazine]]
+slug = "journal-of-the-travellers-aid-society"
+block = 36
+name = "Journal of the Travellers' Aid Society"
+category = "rpg"
+adapter = "ia_collection"
+query = "collection:gamemagazines AND identifier:traveller-jtas*"
+year_only = true
+number_key = 'jtas-0*(\d+)'
+# GDW, quarterly: #1 1979 … #24 1985 (then renamed Challenge)
+year_anchors = [[1, 1979], [24, 1985]]
+
+[[magazine]]
+slug = "challenge"
+block = 37
+name = "Challenge (GDW)"
+category = "rpg"
+adapter = "ia_collection"
+query = "collection:gamemagazines AND (identifier:GDW_Challenge* OR identifier:Gdw-Challenge* OR identifier:gdw-challenge*)"
+year_only = true
+number_key = 'challenge[_ -]?0*(\d+)'
+# continues the Journal's numbering: #25 1986 … #77 1995
+year_anchors = [[25, 1986], [77, 1995]]
+
+[[magazine]]
+slug = "travellers-digest"
+block = 38
+name = "Travellers' Digest"
+category = "rpg"
+adapter = "ia_collection"
+query = "collection:gamemagazines AND identifier:travellers-digest*"
+year_only = true
+number_key = 'digest-0*(\d+)'
+# Digest Group Publications: #1 1985 … #21 1990
+year_anchors = [[1, 1985], [21, 1990]]
+
+[[magazine]]
+slug = "pegasus"
+block = 39
+name = "Pegasus"
+category = "rpg"
+adapter = "ia_collection"
+query = "collection:gamemagazines AND identifier:pegasus*"
+year_only = true
+number_key = 'pegasus(?:-magazine)?-0*(\d+)'
+# Judges Guild, bimonthly: #1 1981 … #12 1983 (scan metadata years disagree)
+year_anchors = [[1, 1981], [12, 1983]]
+
+[[magazine]]
+slug = "adventure-gaming"
+block = 40
+name = "Adventure Gaming"
+category = "rpg"
+adapter = "ia_pack"
+item = "adventure-gaming-magazine"
+year_only = true
+issue_pattern = 'Adventure Gaming Issue #0*(\d+)'
+year_anchors = [[1, 1981], [13, 1982]]
+
+[[magazine]]
+slug = "arcane"
+block = 41
+name = "Arcane"
+category = "rpg"
+adapter = "ia_pack"
+item = "arcane-magazine"
+year_only = true
+issue_pattern = 'Arcane 0*(\d+)'
+# Future Publishing (UK): #1 Dec 1995 … #20 Jun 1997 (OCR)
+year_anchors = [[1, 1995], [20, 1997]]
+
+[[magazine]]
+slug = "gateways"
+block = 42
+name = "Gateways"
+category = "rpg"
+adapter = "ia_pack"
+item = "gateways-magazine"
+year_only = true
+issue_pattern = 'Gateways Magazine 0*(\d+).*'
+year_anchors = [[1, 1986], [13, 1989], [14, 1989]]
+
+[[magazine]]
+slug = "heroes"
+block = 43
+name = "Heroes (Avalon Hill)"
+category = "rpg"
+adapter = "ia_pack"
+item = "HeroesV102"
+year_only = true
+# volume and number → one sortable number (v1 01 = 101)
+issue_pattern = 'Heroes v(?P<v>\d) (?P<no>\d\d)'
+number_join = true
+title = "{name} Vol. {v} No. {no}"
+year_anchors = [[101, 1984], [106, 1985], [201, 1986], [202, 1986]]
+
+[[magazine]]
+slug = "unspeakable-oath"
+block = 44
+name = "The Unspeakable Oath"
+category = "rpg"
+adapter = "ia_pack"
+item = "the-unspeakable-oath-magazine"
+year_only = true
+issue_pattern = 'The Unspeakable Oath #0*(\d+).*'
+# Pagan Publishing (Call of Cthulhu): #1 1990 … #16-17 2000 (OCR)
+year_anchors = [[1, 1990], [16, 2000]]
+
+[[magazine]]
+slug = "other-hands"
+block = 45
+name = "Other Hands"
+category = "rpg"
+adapter = "ia_pack"
+item = "other-hands"
+year_only = true
+issue_pattern = 'Other Hands Issue #0*(\d+)(?! ?_?\d* ?Supplement)(?!.*Supplement).*'
+# the Middle-earth role-playing journal: #1 1993 … #33-34 2001 (OCR); supplements are left out
+year_anchors = [[1, 1993], [33, 2001]]
+
+[[magazine]]
+slug = "protodimension"
+block = 46
+name = "Protodimension"
+category = "rpg"
+adapter = "ia_pack"
+item = "ProtodimensionMagazineArchive"
+year_only = true
+issue_pattern = 'Protodimension0*(\d+)'
+# Twilight: 2000 and Traveller fanzine: #3 2009 … #28 2016 (OCR)
+year_anchors = [[3, 2009], [28, 2016]]
+
+[[magazine]]
+slug = "explosive-runes"
+block = 47
+name = "Explosive Runes"
+category = "rpg"
+adapter = "ia_collection"
+query = "identifier:explosive_runes*"
+year_only = true
+number_key = 'explosive_runes-0*(\d+)'
+
+[[magazine]]
+slug = "threshold"
+block = 48
+name = "Threshold"
+category = "rpg"
+adapter = "ia_collection"
+query = "collection:gamemagazines AND (identifier:threshold* OR identifier:Threshold*)"
+year_only = true
+number_key = 'threshold-?0*(\d+)'

@@ -20,9 +20,9 @@ Ideas and sources to add later. Items move into a phase brief when they are sche
 the ISFDB (CC BY 4.0). Not covered: Dragon, Dungeon, comics (the ISFDB barely indexes them).
 
 ## Phase 10 — more sources (user choice 2026-10-12)
-- 🧪 10a pulp: Asimov's Science Fiction (+ Asimov's SF Adventure Magazine), Fame and Fortune Weekly — built 2026-10-12.
+- ✅ 10a pulp: Asimov's Science Fiction (+ Asimov's SF Adventure Magazine), Fame and Fortune Weekly — verified 2026-10-12.
   Bolsilibros (Spanish) not wanted for now.
-- 10b RPG (EN): White Dwarf, Polyhedron, The Space Gamer, Different Worlds, Imagine, Ares; Journal of the Travellers'
+- 🧪 10b RPG (EN), built 2026-10-12 (19 magazines, 661 issues): White Dwarf, Polyhedron, The Space Gamer, Different Worlds, Imagine, Ares; Journal of the Travellers'
   Aid Society, Challenge (GDW), Travellers' Digest; Pegasus, Adventure Gaming, Arcane, Gateways, Heroes, The Unspeakable
   Oath, Other Hands; OSR fanzines (Explosive Runes, Threshold, Protodimension). Survey: tools/spike/rpg_survey.py and the
   IA collections `gamemagazines`, `gamemagazinesmisc`, `magazine_packs`.

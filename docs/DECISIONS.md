@@ -389,3 +389,24 @@ Banca" on *Marooned off Vesta*, which has no scan; the spec adds the "in the cat
 - Catalog: 22 magazines, 3,814 issues, 24,857 items, 4,749 people. **story_fts without prefix index**: with 25k rows
   the '2 3 4' prefix indexes made the catalog 14.6 MB; without them 10.6 MB, and prefix queries take 0.5 ms (PC,
   5 queries averaged) instead of 0.3 ms.
+
+## 2026-10-12 — Phase 10b: English-language RPG magazines
+- 19 magazines, 661 issues, blocks 30–48 (RPG tab): White Dwarf #1–100 (pack), Polyhedron #1–171 + GenCon special
+  (pack), The Space Gamer #1–88, Different Worlds #1–47 (pack), Imagine #1–30 + special (pack), Ares #1–17, Journal of
+  the Travellers' Aid Society #1–24, Challenge #25–77 (42 readable), Travellers' Digest #1–21, Pegasus #1–12,
+  Adventure Gaming #1–13, Arcane #1–20, Gateways #1–14, Heroes (Avalon Hill) v1–v2, The Unspeakable Oath, Other Hands,
+  Protodimension, Explosive Runes, Threshold. Found with tools/spike/rpg_survey.py in the IA collections
+  `gamemagazines`, `gamemagazinesmisc` and `magazine_packs`; where two packs hold the same run, the one with more issues
+  and readable names was taken (White Dwarf 001-100 over the 93-issue "Ian Livingstone" pack; "the-polyhedron" over
+  "polyhedron-newszine": its names carry years).
+- **Search sources**: magazines without their own collection are listed by an advancedsearch `query` (snapshot
+  `tools/sources/ia/q-<slug>.json`); repeated scans of one issue become alternates as before.
+- **Dates: year only** (month 0) for all of them: issue numbers are reliable, months are not. Years from the file name
+  where present (Polyhedron, Different Worlds), else from `year_anchors` — first/last issue years read from the OCR of
+  the packs (Imagine 1983–85, Adventure Gaming 1981–82, Arcane 1995–97, Gateways 1986–89, Unspeakable Oath 1990–2000,
+  Other Hands 1993–2001, Protodimension 2009–16, White Dwarf 1977–88 plus scan dates of single issues) or the run's
+  known span — interpolated in between (catalog/years.py, shared with the comics). Anchors win over scan metadata
+  years, which are often upload years (Pegasus #1 "1984").
+- `number_key` + `year_only` for numbered collections; `number_join` for volume/number pairs (Heroes v1 01 → 101).
+- Left out: specials and supplements without a number (Ares specials, Arcane Encounters, Other Hands supplements),
+  Challenge scans without OCR (#31, #32, #44, #53–55). Catalog: 41 magazines, 4,509 issues, 10.8 MB.

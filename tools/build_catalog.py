@@ -82,10 +82,10 @@ def main(argv: list[str] | None = None) -> int:
             meta[f"source:{m['slug']}"] = f"{src.name} sha256 {sha}"
         elif m["adapter"] == "ia_collection":
             ia = importlib.import_module("adapters.ia_collection")
-            snap = ROOT / "sources" / "ia" / f"{m['collection']}.json"
+            snap = ROOT / "sources" / "ia" / f"{ia.snapshot_name(m)}.json"
             if args.refresh or not snap.exists():
                 snap.parent.mkdir(parents=True, exist_ok=True)
-                snap.write_text(json.dumps(ia.fetch(m["collection"]), indent=0, ensure_ascii=False) + "\n",
+                snap.write_text(json.dumps(ia.fetch(m.get("collection"), m.get("query")), indent=0, ensure_ascii=False) + "\n",
                                 encoding="utf-8", newline="\n")
             cat, alternates, skipped = ia.parse(m, snap)
             if m.get("isfdb") and (isfdb_dir / f"{m['slug']}.json").exists():

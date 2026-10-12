@@ -19,7 +19,7 @@ def render(collections: list[tuple[dict, Catalog, dict[str, list[str]], list[tup
     for m, cat, alts, skipped in collections:
         items = len(cat.issues) + sum(len(v) for v in alts.values()) + len(skipped)
         years = f"{cat.issues[0].year}–{cat.issues[-1].year}" if cat.issues else "—"
-        w(f"| {m['name']} | `{m.get('collection') or m.get('item')}` | {items} | {len(cat.issues)} | {years} | "
+        w(f"| {m['name']} | `{m.get('collection') or m.get('item') or 'search'}` | {items} | {len(cat.issues)} | {years} | "
           f"{sum(len(v) for v in alts.values())} | {len(skipped)} |")
     w("")
     for m, cat, alts, skipped in collections:
