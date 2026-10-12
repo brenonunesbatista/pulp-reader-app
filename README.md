@@ -1,13 +1,14 @@
 # Banca
 
 *A newsstand for pulp magazines.* A personal Android tablet (and phone) app for browsing and reading classic pulp magazines scanned by the
-[Internet Archive](https://archive.org). About 9,500 issues in 102 titles: **Amazing Stories** (1926–1956, 309 issues), **Weird Tales**, **Astounding / Analog**, **Planet Stories**,
+[Internet Archive](https://archive.org). About 10,300 issues in 108 titles: **Amazing Stories** (1926–1956, 309 issues), **Weird Tales**, **Astounding / Analog**, **Planet Stories**,
 **Startling** and **Thrilling Wonder Stories**, **Unknown**, **If**, **New Worlds**, **Adventure**, **Argosy**, **Blue Book**, **The Magazine of Fantasy
 & Science Fiction** (1949–2007), **Galaxy** (1950–1980), **Fantastic** (1952–1980) and **Rod Serling's The Twilight Zone
 Magazine** (1981–1989), **Asimov's Science Fiction** (1977–2014), the dime-novel weekly **Fame and Fortune
 Weekly** (1905–1928), plus 27 RPG magazines — the Brazilian **Dragão Brasil**, **Dragon Slayer** and **Revista Tormenta**, **Dragon**, **Dungeon**, **White Dwarf**, **Polyhedron**, **The Space Gamer**, **Different
-Worlds**, **Imagine**, **Ares**, the Traveller magazines (*JTAS*, *Challenge*, *Travellers' Digest*) and more — and 45 comics titles — Batman (from the Golden Age to *The Dark Knight Returns*, *Year One*
-and *The Long Halloween*), *Uncanny X-Men*, *V for Vendetta*, *Sin City*, *Spawn*, Daredevil, Golden Age Captain Marvel (*Whiz Comics*, *Captain Marvel Adventures*, *The Marvel Family*…),
+Worlds**, **Imagine**, **Ares**, the Traveller magazines (*JTAS*, *Challenge*, *Travellers' Digest*) and more — and 51 comics titles — a 585-book Spider-Man reading order, Batman (from the Golden Age to *The Dark Knight Returns*,
+*Year One*, *The Killing Joke* and *The Long Halloween*), *Invincible*, *Uncanny X-Men*, *V for Vendetta*, *Sin City*,
+*Spawn*, Daredevil, the British *Masters of the Universe* and *She-Ra*, *Watchmen* and *Elric* in Brazilian Portuguese, Golden Age Captain Marvel (*Whiz Comics*, *Captain Marvel Adventures*, *The Marvel Family*…),
 Ace's horror comics, Warren's *Creepy*, *Eerie* and *Vampirella*, *Famous Monsters of Filmland*, Hellblazer, Turok,
 Conan, Miracleman, Asterix, The Complete Peanuts, Marvel Masterworks and more —
 all readable page by page. The pulp magazines' contents — about 60,000 stories, articles and poems — are searchable
@@ -194,7 +195,8 @@ pytest                                                      # catalog tools, fro
    classic pulps (Weird Tales, Astounding, Adventure, Argosy, New Worlds…) and comics (Fawcett, Ace, Warren, Skywald).
 11. 🧪 **Updates**: Atlas content over the air and new APKs from the PC on the home network.
 12. 🧪 **Modern comics classics**: Batman, Daredevil, Uncanny X-Men, The Spectacular Spider-Man, V for Vendetta, Sin City
-   and Spawn (237 issues and books).
+   and Spawn (237 issues and books); then Invincible, a Spider-Man reading order (585 books), The Killing Joke, the UK
+   Masters of the Universe and She-Ra comics, and Watchmen and Elric in Brazilian Portuguese (825 more).
 
 ## Distribution
 

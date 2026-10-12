@@ -1287,7 +1287,7 @@ adapter = "ia_pack"
 # one card for the character: collections and storylines from eight items, in story order (year of first publication)
 items = ["batman-the-golden-age-v-01", "batman-year-one", "BatmanTheDarkKnightReturns03of041986", "batman-the-cult-1988",
   "batman-a-death-in-the-family", "batman-knightfall", "batmanthelonghalloween1998digitalzoneempire",
-  "batman-the-complete-hush-2005-dgtl-hd-zone-empire"]
+  "batman-the-complete-hush-2005-dgtl-hd-zone-empire", "TheKillingJoke_201804"]
 year_only = true
 books = [
   { stem = "Batman - The Golden Age v01", title = "The Golden Age Vol. 1", year = 1939 },
@@ -1306,6 +1306,7 @@ books = [
   { stem = "Batman - A Death in the Family - Book 2", title = "A Death in the Family, Book 2", year = 1988 },
   { stem = "Batman - A Death in the Family - Book 3", title = "A Death in the Family, Book 3", year = 1988 },
   { stem = "Batman - A Death in the Family - Book 4", title = "A Death in the Family, Book 4", year = 1988 },
+  { stem = "The Killing Joke", title = "The Killing Joke", year = 1988 },
   { stem = "Batman - Knightfall Part 01 - Broken Bat (2000) (Digital -) (TheHand-Empire)", title = "Knightfall Part 1: Broken Bat", year = 1993 },
   { stem = "Batman - Knightfall Part 02 - Who Rules The Night (2000) (Digital -) (TheHand-Empire)", title = "Knightfall Part 2: Who Rules the Night", year = 1993 },
   { stem = "Batman - Knightfall Part 03 - KnightsEnd (2000) (Digital -) (TheHand-Empire)", title = "Knightfall Part 3: KnightsEnd", year = 1994 },
@@ -1328,4 +1329,95 @@ books = [
   { stem = "Daredevil- The Man Without Fear 03 (of 5) (1993) (Digital) (Zone-Empire)", title = "The Man Without Fear #3", year = 1993 },
   { stem = "Daredevil- The Man Without Fear 04 (of 5) (1994) (Digital) (Zone-Empire)", title = "The Man Without Fear #4", year = 1994 },
   { stem = "Daredevil- The Man Without Fear 05 (of 5) (1994) (Digital) (Zone-Empire)", title = "The Man Without Fear #5", year = 1994 },
+]
+
+# ---- Phase 14 (user list 2026-10-12): Invincible, a Spider-Man reading order, the UK He-Man and She-Ra comics, and two
+# Brazilian Portuguese editions (Watchmen; Elric, a fan translation of the Glénat album).
+[[magazine]]
+slug = "invincible"
+block = 123
+name = "Invincible"
+category = "comics"
+adapter = "ia_pack"
+item = "invincible-all"
+year_only = true
+issue_pattern = 'Invincible 0*(\d+) \((?P<year>\d{4})\).*'
+
+[[magazine]]
+slug = "spider-man-reading-order"
+block = 124
+name = "Spider-Man: Reading Order"
+category = "comics"
+adapter = "ia_pack"
+item = "the-amazing-spider-man-comic-series"
+year_only = true
+# 585 books in the collection's reading order ("01 - Mighty Marvel Masterworks …", "142.5 - Amazing Spider-Man 378
+# (1993)"); the years in the names are those of the editions, so each book gets an estimated story year from the single
+# issues along the order (flashback series and annuals placed by story, not by date, are left out of the estimate)
+reading_order = true
+issue_pattern = '(\d+(?:\.\d+)?) ?-? ?(?P<t>.+?)(?: \((?:19|20)\d\d\).*)?'
+title = "{t}"
+title_sub = [['^websm ', 'Web of Spider-Man '], ['^Spectacular Spider-Man V1 ', 'Spectacular Spider-Man ']]
+story_year_pattern = '(?<![vV])(?<!Vol\. )\b#?\d{1,3}\b(?: \(of \d+\))? \((?P<year>(?:19|20)\d\d)\)'
+story_year_exclude = 'Untold Tales|Annual|Presents|Giant-Size|Special|Origin|Year One|Blue|Gray|Tangled|Masterworks|Epic|Complete|Book \d|Shadow of|Amazing Fantasy 01[5-9]'
+# curated: #1 (1962), the Masterworks v07 at #41 (1967) and v18 at #61 (1976)
+year_anchors = [[1, 1962], [41, 1967], [61, 1976]]
+
+[[magazine]]
+slug = "masters-of-the-universe-uk"
+block = 125
+name = "Masters of the Universe (UK)"
+category = "comics"
+adapter = "ia_pack"
+item = "He-manAndShe-raUkCollection"
+year_only = true
+issue_pattern = 'MastersOfTheUniverse(\d{3})(?P<year>\d{4}).*'
+ignore = '^She-?ra'
+books = [
+  { stem = "MastersOfTheUniverse038FreeGift-MastersOfTheUniversePuzzleBook1987londonEditionsukhe-man.org", title = "Puzzle Book (free with #38)", year = 1987 },
+  { stem = "MastersOfTheUniverseSpecial0011987londonEditionsukhe-man.org", title = "Special #1", year = 1987 },
+  { stem = "MastersOfTheUniverseAdventureMagazine0011987londonEditions", title = "Adventure Magazine #1", year = 1987 },
+  { stem = "MastersOfTheUniverseAdventureMagazine0041987londonEditionshe-man.org", title = "Adventure Magazine #4", year = 1987 },
+  { stem = "MastersOfTheUniverseAdventureMagazine00819880londonEditionshe-man.org", title = "Adventure Magazine #8", year = 1988 },
+  { stem = "MastersOfTheUniverseAdventureMagazine012FreeMini-comic1989londonEditionshe-man.org", title = "Adventure Magazine #12 (mini-comic)", year = 1989 },
+]
+
+[[magazine]]
+slug = "she-ra-uk"
+block = 126
+name = "She-Ra: Princess of Power (UK)"
+category = "comics"
+adapter = "ia_pack"
+item = "He-manAndShe-raUkCollection"
+year_only = true
+issue_pattern = 'She-?ra(?:PrincessOfPower)?(\d{3})(?P<year>\d{4}).*'
+title = "She-Ra #{n}"
+ignore = '^MastersOfTheUniverse'
+
+[[magazine]]
+slug = "watchmen-br"
+block = 127
+name = "Watchmen (edição brasileira)"
+category = "comics"
+adapter = "ia_pack"
+item = "Watchmen_201906"
+year_only = true
+# Brazilian Portuguese edition in four volumes; years of the original series (1986–87)
+issue_pattern = 'Watchmen 0*(\d+) - Alan Moore'
+title = "Watchmen, volume {n}"
+year_anchors = [[1, 1986], [4, 1987]]
+
+[[magazine]]
+slug = "elric-br"
+block = 128
+name = "Elric (edição brasileira)"
+category = "comics"
+adapter = "ia_pack"
+item = "elric-baseado-na-obra-de-michael-moorcock"
+year_only = true
+# fan translation (Brazilian Portuguese) of Glénat's Elric albums by Blondel, Recht and Poli; years of the French albums
+books = [
+  { stem = "Elric - Livro I - O trono de Rubi (Baseado na obra de Michael Moorcock)", title = "Livro I: O Trono de Rubi", year = 2013 },
+  { stem = "Elric - Livro II - Stormbringer (Baseado na obra de Michael Moorcock)", title = "Livro II: Stormbringer", year = 2014 },
+  { stem = "Elric - Livro III - O lobo branco (Baseado na obra de Michael Moorcock)", title = "Livro III: O Lobo Branco", year = 2015 },
 ]

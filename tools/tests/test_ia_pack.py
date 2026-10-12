@@ -87,3 +87,23 @@ def test_several_items_folders_and_curated_books(tmp_path):
     assert cat.issues[3].id == ia_pack.special_id(119, "Saga/God Loves, Man Kills")
     assert [s for s, _ in skipped] == ["Poster"]
     assert "silver, phoenix" in cat.source
+
+
+def test_reading_order(tmp_path):
+    """Phase 14: positions (with halves and ties) → issue numbers; story years from single issues, non-decreasing"""
+    snap = tmp_path / "r.json"
+    snap.write_text(json.dumps([book(s) for s in [
+        "01 - Masterworks v01 (2021)", "02 - Shadow of the Goblin 001 (2025)", "03 - Amazing Spider-Man 100 (1971)",
+        "04 - Amazing Spider-Man 200 (1980)", "04 - Amazing Spider-Man 201 (1980)", "04.5 - Epic Collection (2019)",
+        "05 - Amazing Spider-Man 300 (1988)", "06 - websm 94"]]))
+    cfg = {"slug": "smro", "name": "Spider-Man: Reading Order", "item": "ro", "block": 124, "year_only": True,
+           "reading_order": True, "issue_pattern": r"(\d+(?:\.\d+)?) ?-? ?(?P<t>.+?)(?: \((?:19|20)\d\d\).*)?",
+           "title": "{t}", "title_sub": [["^websm ", "Web of Spider-Man "]],
+           "story_year_pattern": r"(?<![vV])\b#?\d{1,3}\b \((?P<year>(?:19|20)\d\d)\)", "year_anchors": [[1, 1962]]}
+    cat, skipped = ia_pack.parse(cfg, snap, tmp_path / "none.json")
+    got = [(i.number, i.year, i.title) for i in cat.issues]
+    assert [n for n, _, _ in got] == [10, 20, 30, 40, 41, 45, 50, 60]
+    assert got[1][2] == "Shadow of the Goblin 001" and got[-1][2] == "Web of Spider-Man 94"
+    years = [y for _, y, _ in got]
+    assert years == sorted(years) and years[0] == 1962 and years[6] == 1988
+    assert ia_pack.isotonic([1, 3, 2, 4]) == [1, 2.5, 2.5, 4]

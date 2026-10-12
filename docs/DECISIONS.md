@@ -527,3 +527,20 @@ Banca" on *Marooned off Vesta*, which has no scan; the spec adds the "in the cat
   when sizing the title.
 - The IA answered 500 for some of these items' files for minutes at a time during the survey (transient; the app
   retries).
+
+## 2026-10-12 — Phase 14: more comics; a reading order with estimated story years
+- Invincible (#0–144), The Killing Joke (into the Batman card), the UK Masters of the Universe (London Editions,
+  1986–89, specials curated) and She-Ra (two cards from one item, `ignore` keeps them apart), Watchmen and Elric in
+  Brazilian Portuguese (checked from their OCR: "você", "xícara"; Elric is a fan translation of the Glénat album). The
+  user had excluded other languages for RPG magazines; Brazilian Portuguese is accepted.
+- **Spider-Man: Reading Order** (`the-amazing-spider-man-comic-series`, 585 books): one card keeping the collection's
+  order (user choice). New `reading_order` mode in `ia_pack`: the position in the name ("142.5 - …") × 10 is the issue
+  number (stable ids; ties +1 in name order), titles drop the position and the edition year (`title_sub` fixes
+  "websm" → "Web of Spider-Man"). The years in the names are those of the editions (a 2021 Masterworks of 1962
+  stories), and the page groups issues by year, so each book gets an **estimated story year**: the years of single
+  issues along the order (`story_year_pattern`, skipping collections and flashback series such as Untold Tales),
+  plus curated anchors (#1 1962, Masterworks v07 1967, v18 1976); anchors more than 10 years off the median of their
+  9 neighbours are dropped, the rest made non-decreasing (isotonic regression, pool adjacent violators) and
+  interpolated. Result: 1962 → 2024 along the order. The description says the years are estimated.
+- Names with "…" and "’" work in IIIF; "#" and "&" use the BookReader page URLs, as for Dungeon.
+- Rebuild: 0 existing issues changed, 825 added; catalog 108 magazines, 10,343 issues.

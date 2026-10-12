@@ -9,6 +9,12 @@ sub-book (app/src/reader/engine/ia.ts). Inputs, both committed:
 A magazine may take its sub-books from several items (`items = [...]`, Phase 13: Uncanny X-Men, Batman), and sub-books
 may sit in folders ("Batman - Knightfall/Batman - Knightfall Part 01 …"): patterns and titles use the base name.
 `[[magazine.books]]` entries (`stem` = base name, `title`, `year`) curate the title and year of unnumbered books.
+
+`reading_order = true` (Phase 14: the Amazing Spider-Man reading order): group 1 of `issue_pattern` is a position in a
+reading order ("142.5 - Amazing Spider-Man 378 (1993)"); the issue number is that position × 10 (ties: +1 in name
+order), and each book gets an estimated story year: the years of the single issues matched by `story_year_pattern`
+(not `story_year_exclude`, e.g. flashback series) and `year_anchors` (by position), made non-decreasing along the
+order (isotonic regression), then interpolated.
 """
 from __future__ import annotations
 
@@ -53,6 +59,14 @@ def numbered(cfg: dict, books: list[dict]) -> dict[int, str]:
     scans of one number: the one with more pages"""
     pat = re.compile(cfg["issue_pattern"]) if cfg.get("issue_pattern") else None
     out: dict[int, str] = {}
+    if cfg.get("reading_order"):
+        found = [(float(m[1]), base(b["stem"]), key(b)) for b in books if (m := pat.fullmatch(base(b["stem"])))]
+        for pos, _, k in sorted(found):
+            n = round(pos * 10)
+            while n in out:
+                n += 1
+            out[n] = k
+        return out
     pages = {key(b): b["pages"] for b in books}
     for b in books:
         m = pat.fullmatch(base(b["stem"])) if pat else None
@@ -76,8 +90,39 @@ def years_only(cfg: dict, nums: dict[int, str]) -> dict[int, list]:
             known[n] = (int(m["year"]), "name")
     for n, y in cfg.get("year_anchors", []):
         known.setdefault(n, (y, "anchor"))
+    if cfg.get("reading_order"):
+        known = story_years(cfg, nums)
     from catalog.years import interpolate_years
     return {n: [y, 0, how] for n, (y, how) in interpolate_years(list(nums), known).items()}
+
+
+def isotonic(values: list[float]) -> list[float]:
+    """the non-decreasing sequence closest to `values` (least squares; pool adjacent violators)"""
+    blocks: list[list[float]] = []  # [mean, count]
+    for v in values:
+        blocks.append([v, 1])
+        while len(blocks) > 1 and blocks[-2][0] > blocks[-1][0]:
+            (m1, c1), (m2, c2) = blocks.pop(-2), blocks.pop()
+            blocks.append([(m1 * c1 + m2 * c2) / (c1 + c2), c1 + c2])
+    return [m for m, c in blocks for _ in range(int(c))]
+
+
+def story_years(cfg: dict, nums: dict[int, str]) -> dict[int, tuple[int, str]]:
+    """reading order: known story years by issue number (see the module docstring)"""
+    pat = re.compile(cfg["story_year_pattern"])
+    skip = re.compile(cfg["story_year_exclude"]) if cfg.get("story_year_exclude") else None
+    raw: dict[int, int] = {}
+    for n, k in nums.items():
+        name = base(k)
+        if (m := pat.search(name)) and not (skip and skip.search(name)):
+            raw[n] = int(m["year"])
+    curated = {round(pos * 10): y for pos, y in cfg.get("year_anchors", [])}
+    raw |= curated
+    ns = sorted(raw)
+    # a stray anchor (a recent book placed early by story) would drag a whole stretch: drop years more than 10 off the
+    # median of their 9 neighbours, then make the rest non-decreasing
+    keep = [n for i, n in enumerate(ns) if n in curated or abs(raw[n] - sorted(raw[m] for m in ns[max(0, i - 4):i + 5])[len(ns[max(0, i - 4):i + 5]) // 2]) <= 10]
+    return {n: (round(y), "estimated") for n, y in zip(keep, isotonic([raw[n] for n in keep]))}
 
 
 def apply_schedule(cfg: dict, issues: dict[int, list]) -> dict[int, list]:
@@ -166,6 +211,8 @@ def parse(cfg: dict, snapshot: Path | dict[str, Path], dates_file: Path) -> tupl
             problems.append(ParseIssue("interpolated-date", 0, f"#{n}", f"{MONTH_NAMES[mo - 1]} {y}" if mo else str(y)))
         groups = {k: v for k, v in pat.fullmatch(stem).groupdict().items() if v}
         title = cfg.get("titles", {}).get(str(n)) or template.format(name=cfg["name"], n=n, **groups)
+        for old, new in cfg.get("title_sub", []):  # e.g. "websm 94" → "Web of Spider-Man 94"
+            title = re.sub(old, new, title)
         if cfg.get("year_only"):
             title = clean_title(title)
         issue = Issue(year=y, month=mo, title=title, slug=f"{cfg['slug']}-{n:03d}", source_page=0,

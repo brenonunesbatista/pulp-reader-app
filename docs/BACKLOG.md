@@ -44,6 +44,13 @@ the ISFDB (CC BY 4.0). Not covered: Dragon, Dungeon, comics (the ISFDB barely in
   Omnibus vol. 1–2 (`hellboy-omnibus-vol-02-paragens-exoticas`) — not chosen for now. Dime novels not chosen.
 - Not wanted: Casus Belli (FR), Sinkadus (SE), Magia i Miecz (PL), Diplomacy/chess/go zines.
 
+## Phase 14 — more comics (user list 2026-10-12)
+- 🧪 825 issues and books, blocks 123–128 + Batman: Invincible #0–144; Spider-Man: Reading Order (585 books in the
+  collection's order, story years estimated); The Killing Joke (in Batman); Masters of the Universe (UK, London Editions,
+  72 issues + Adventure Magazine, special, puzzle book) and She-Ra (UK, 9) as two cards; Watchmen (4 volumes) and Elric
+  (3 books, fan translation) in Brazilian Portuguese (user: include PT-BR). 6 description drafts (108 in all).
+- Note: the first pages of a book in the huge Spider-Man item (7,611 files) took 15–21 s from IIIF; later pages are fast.
+
 ## Phase 13 — modern comics classics (user list 2026-10-12)
 - 🧪 7 titles, 237 issues/books, blocks 116–122: V for Vendetta (10), Spawn #1–99 (11 volumes), Sin City (7 + The Art
   of Sin City), Uncanny X-Men (#1–66, #125–137, #141–142), The Spectacular Spider-Man #1–100, Batman (Golden Age v1–6,
