@@ -57,6 +57,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--allow-dirty", action="store_true", help="publish even with uncommitted changes under content/")
     ap.add_argument("--draft-about", action="store_true", help="also publish draft magazine descriptions")
     a = ap.parse_args(argv)
+    sys.stdout.reconfigure(encoding="utf-8")  # arrows in the messages, Windows console
     dirty = git("status", "--porcelain", "--", "content").strip()
     if dirty and not a.allow_dirty:
         print("Uncommitted changes under content/ — commit them first (the version is their commit time):\n" + dirty)

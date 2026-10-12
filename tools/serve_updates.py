@@ -89,6 +89,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--port", type=int, default=8765)
     ap.add_argument("--apk", type=Path, default=DEFAULT_DIR, help="folder with the APK and output-metadata.json")
     a = ap.parse_args(argv)
+    sys.stdout.reconfigure(encoding="utf-8")  # arrows in the messages, Windows console
     info = apk_info(a.apk)
     print(f"Serving {a.apk}" + (f" — versionCode {info[0]['versionCode']} ({info[0]['versionName']})" if info else
                                 " — no APK there yet (build one; it is picked up without restarting)"))
