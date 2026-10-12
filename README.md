@@ -1,10 +1,10 @@
 # Banca
 
 *A newsstand for pulp magazines.* A personal Android tablet (and phone) app for browsing and reading classic pulp magazines scanned by the
-[Internet Archive](https://archive.org). About 4,500 issues: **Amazing Stories** (1926–1956, 309 issues), **The Magazine of Fantasy
+[Internet Archive](https://archive.org). About 4,700 issues: **Amazing Stories** (1926–1956, 309 issues), **The Magazine of Fantasy
 & Science Fiction** (1949–2007), **Galaxy** (1950–1980), **Fantastic** (1952–1980) and **Rod Serling's The Twilight Zone
 Magazine** (1981–1989), **Asimov's Science Fiction** (1977–2014), the dime-novel weekly **Fame and Fortune
-Weekly** (1905–1928), plus 21 RPG magazines — **Dragon**, **Dungeon**, **White Dwarf**, **Polyhedron**, **The Space Gamer**, **Different
+Weekly** (1905–1928), plus 27 RPG magazines — the Brazilian **Dragão Brasil**, **Dragon Slayer** and **Revista Tormenta**, **Dragon**, **Dungeon**, **White Dwarf**, **Polyhedron**, **The Space Gamer**, **Different
 Worlds**, **Imagine**, **Ares**, the Traveller magazines (*JTAS*, *Challenge*, *Travellers' Digest*) and more — and 12 comics titles (about 820
 issues and volumes: Hellblazer, Turok, Conan, Miracleman, Asterix, The Complete Peanuts, Marvel Masterworks and more),
 all readable page by page. The pulp magazines' contents — about 25,000 stories, articles and poems — are searchable

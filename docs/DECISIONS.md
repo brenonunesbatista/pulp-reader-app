@@ -410,3 +410,14 @@ Banca" on *Marooned off Vesta*, which has no scan; the spec adds the "in the cat
 - `number_key` + `year_only` for numbered collections; `number_join` for volume/number pairs (Heroes v1 01 → 101).
 - Left out: specials and supplements without a number (Ares specials, Arcane Encounters, Other Hands supplements),
   Challenge scans without OCR (#31, #32, #44, #53–55). Catalog: 41 magazines, 4,509 issues, 10.8 MB.
+
+## 2026-10-12 — Phase 10c: Brazilian RPG magazines
+- 6 entries, 214 issues, blocks 50–55: Dragão Brasil #1–123 and its 17 Especiais (one pack holding issues, specials,
+  2-page inserts and books: the inserts lose to the full issue of the same number, books and manuals are left out),
+  Dragon Slayer #1–40, Revista Tormenta #0–17, Lua dos Dragões #1–6, Só Aventuras #1–10. "Revista Troll" from the
+  survey is Spanish (Club Auryn / Diseños Orbitales, 1986–1990): left out (no other languages wanted).
+- Years: Dragão Brasil and Dragon Slayer from scan names of single items (#1 Sep 1994, #19 Jun 1996, #1 Jul 2005,
+  #12 Jun 2006) and OCR (#60 2000, #100 2004, #123 2005, Dragon Slayer #40 Aug 2010). **Approximate** (the OCR has no
+  dates): Revista Tormenta 2001–2003 (Editora Talismã, D&D 3rd edition era), Lua dos Dragões 1998–1999 and Só Aventuras
+  1997–1999 (both Trama Editorial, like Dragão Brasil), Dragão Brasil Especial 1996–2000. Corrections welcome.
+- Catalog: 47 magazines, 4,723 issues, 10.9 MB.

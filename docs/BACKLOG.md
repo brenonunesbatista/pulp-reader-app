@@ -22,11 +22,12 @@ the ISFDB (CC BY 4.0). Not covered: Dragon, Dungeon, comics (the ISFDB barely in
 ## Phase 10 — more sources (user choice 2026-10-12)
 - ✅ 10a pulp: Asimov's Science Fiction (+ Asimov's SF Adventure Magazine), Fame and Fortune Weekly — verified 2026-10-12.
   Bolsilibros (Spanish) not wanted for now.
-- 🧪 10b RPG (EN), built 2026-10-12 (19 magazines, 661 issues): White Dwarf, Polyhedron, The Space Gamer, Different Worlds, Imagine, Ares; Journal of the Travellers'
+- ✅ 10b RPG (EN), 2026-10-12 (19 magazines, 661 issues): White Dwarf, Polyhedron, The Space Gamer, Different Worlds, Imagine, Ares; Journal of the Travellers'
   Aid Society, Challenge (GDW), Travellers' Digest; Pegasus, Adventure Gaming, Arcane, Gateways, Heroes, The Unspeakable
   Oath, Other Hands; OSR fanzines (Explosive Runes, Threshold, Protodimension). Survey: tools/spike/rpg_survey.py and the
   IA collections `gamemagazines`, `gamemagazinesmisc`, `magazine_packs`.
-- 10c RPG (BR): Dragão Brasil, Dragon Slayer, Revista Tormenta, Lua dos Dragões, Só Aventuras, Revista Troll.
+- 🧪 10c RPG (BR), built 2026-10-12: Dragão Brasil (+ Especiais), Dragon Slayer, Revista Tormenta, Lua dos Dragões, Só
+  Aventuras. Revista Troll turned out to be Spanish (Club Auryn, 1986–1990): left out.
 - Not wanted: Casus Belli (FR), Sinkadus (SE), Magia i Miecz (PL), Diplomacy/chess/go zines.
 
 ## Atlas (Explore / Hall) — design notes

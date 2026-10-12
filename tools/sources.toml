@@ -524,3 +524,78 @@ adapter = "ia_collection"
 query = "collection:gamemagazines AND (identifier:threshold* OR identifier:Threshold*)"
 year_only = true
 number_key = 'threshold-?0*(\d+)'
+
+# ---- Phase 10c: Brazilian RPG magazines (blocks 50+; year only). Revista Troll (in the survey) is Spanish: left out.
+[[magazine]]
+slug = "dragao-brasil"
+block = 50
+name = "Dragão Brasil"
+category = "rpg"
+adapter = "ia_pack"
+item = "colecao-dragao-brasil"
+year_only = true
+# issues 1–123; the pack also holds 2-page inserts ("encarte"), specials (own entry), books and manuals (left out)
+issue_pattern = '[Dd]rag[ãa]o [Bb]rasil\s+0*([1-9]\d*)(?!.*encarte).*'
+# #1 Sep 1994, #19 Jun 1996, #22 Sep 1996 (scan names of single items); OCR: #60 2000, #100 2004, #123 2005
+year_anchors = [[1, 1994], [19, 1996], [22, 1996], [60, 2000], [100, 2004], [123, 2005]]
+
+[[magazine]]
+slug = "dragao-brasil-especial"
+block = 51
+name = "Dragão Brasil Especial"
+category = "rpg"
+adapter = "ia_pack"
+item = "colecao-dragao-brasil"
+year_only = true
+issue_pattern = '[Dd]rag[ãa]o [Bb]rasil [Ee]special 0*(\d+).*'
+ignore = '.'
+# approximate: the specials ran with the Trama-era magazine (OCR of #17: 1999–2000)
+year_anchors = [[1, 1996], [17, 2000]]
+
+[[magazine]]
+slug = "dragon-slayer"
+block = 52
+name = "Dragon Slayer"
+category = "rpg"
+adapter = "ia_pack"
+item = "colecaodragonslayer"
+year_only = true
+issue_pattern = '[Dd]ragon [Ss]layer 0*(\d+)'
+# #1 Jul 2005, #12 Jun 2006 (scan names of single items), #40 Aug 2010 (OCR)
+year_anchors = [[1, 2005], [12, 2006], [40, 2010]]
+
+[[magazine]]
+slug = "revista-tormenta"
+block = 53
+name = "Revista Tormenta"
+category = "rpg"
+adapter = "ia_pack"
+item = "revista-tormenta"
+year_only = true
+issue_pattern = 'Revista Tormenta (?:Edição nº )?0*(\d+)'
+# approximate: Editora Talismã, D&D 3rd edition era (the OCR names AD&D/D&D 3ª edição and 3D&T 3ª edição)
+year_anchors = [[0, 2001], [17, 2003]]
+
+[[magazine]]
+slug = "lua-dos-dragoes"
+block = 54
+name = "Lua dos Dragões"
+category = "rpg"
+adapter = "ia_pack"
+item = "lua-dos-dragoes"
+year_only = true
+issue_pattern = 'Lua dos Dragoes 0*(\d+)-.*'
+# approximate: Trama Editorial (same publisher as Dragão Brasil), late 1990s
+year_anchors = [[1, 1998], [6, 1999]]
+
+[[magazine]]
+slug = "so-aventuras"
+block = 55
+name = "Só Aventuras"
+category = "rpg"
+adapter = "ia_pack"
+item = "so-aventuras"
+year_only = true
+issue_pattern = 'Só Aventuras 0*(\d+)'
+# approximate: solo adventures, "the first special edition of Dragão Brasil" (Trama), late 1990s
+year_anchors = [[1, 1997], [10, 1999]]
