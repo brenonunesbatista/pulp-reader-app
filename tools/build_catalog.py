@@ -54,6 +54,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--refresh", action="store_true", help="re-read IA collection listings")
     ap.add_argument("--isfdb", type=Path, help="ISFDB backup zip: re-extract issue contents into tools/sources/isfdb/")
     ap.add_argument("--date-packs", action="store_true", help="re-read the cover dates of pack issues (OCR, ~100 requests)")
+    ap.add_argument("--draft-about", action="store_true", help="also ship draft magazine descriptions (preview)")
     ap.add_argument("--report", type=Path, default=Path("docs/catalog-report.md"))
     ap.add_argument("--sources-report", type=Path, default=Path("docs/catalog-sources.md"))
     args = ap.parse_args(argv)
@@ -114,6 +115,11 @@ def main(argv: list[str] | None = None) -> int:
                                            f"{hashlib.sha256(snap.read_bytes() + (dates.read_bytes() if dates.exists() else b"")).hexdigest()}")
         else:
             raise SystemExit(f"unknown adapter {m['adapter']!r} for {m['slug']}")
+    import magazines
+    about = {slug: magazines.about_json(meta, body) for slug, (meta, body) in magazines.load().items()
+             if meta.get("status") == "reviewed" or args.draft_about}
+    for p in parts:
+        p.about = about.get(p.cat.magazine_slug)
     names = [p.cat.magazine_name for p in parts]
     meta["source"] = names[0] if len(names) == 1 else f"{len(names)} magazines: " + ", ".join(names)
 

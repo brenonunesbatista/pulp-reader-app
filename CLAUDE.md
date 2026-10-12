@@ -9,6 +9,7 @@ Capacitor (Android) · Vite · React · TypeScript (strict) · SQLite (`@capacit
 - `app/` — the Capacitor/React app
 - `tools/` — Python catalog builders (one adapter per magazine), with tests
 - `data/source/` — input reference files (e.g. the Amazing Stories PDF). **Never commit these** (they are marked "not for distribution"); keep in `.gitignore`.
+- `content/magazines/` — one description per magazine (TOML front matter + short text citing [n] sources)
 - `content/atlas/` — Atlas entities and paths (TOML front matter + Markdown, one file each; `status = "draft" | "reviewed"`)
 - `docs/` — `DECISIONS.md` (append a dated entry for every non-trivial technical decision), `archive-findings.md`
 - `SPEC.md`, `PHASE*_PROMPT.md`
@@ -28,6 +29,9 @@ Capacitor (Android) · Vite · React · TypeScript (strict) · SQLite (`@capacit
   `--isfdb data/source/<ISFDB backup>.zip` re-extracts pulp contents into `tools/sources/isfdb/*.json` (committed;
   the backup is downloaded by hand from the ISFDB wiki, needs a login; 4 streaming passes, ~2 min); `--only slug,slug`;
   writes `catalog.db` + `covers/*.webp`, both git-ignored, `docs/catalog-report.md` and `docs/catalog-sources.md`)
+- Magazine descriptions: `python tools/magazines.py check` (format, sources, citations) and
+  `python tools/magazines.py review --out <file.html>`; only `status = "reviewed"` ones ship (`build_catalog.py
+  --draft-about` previews drafts)
 - Atlas review page: `python tools/atlas/review_page.py --out <file.html>` (one HTML page, path + all entities, OK/Change marks)
 - Atlas media suggestions: `python tools/atlas/suggest_media.py --out media.json` (free Commons images + IMDb/Spotify ids from Wikidata, batched; review before adding)
 - Atlas build: `python tools/atlas/build_atlas.py` → `app/public/atlas/atlas.db` (reviewed entities only; also run automatically by the app's `predev`/`prebuild` via `app/scripts/copy-databases.mjs`)

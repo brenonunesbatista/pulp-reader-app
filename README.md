@@ -26,7 +26,8 @@ Built for a Samsung Galaxy Tab A9+ (11", 1920×1200), with phone layouts for the
   cover mosaic (upcoming magazines marked *coming soon*), plus a *Continue reading* shelf
   with each issue's progress. Progress can be cleared per issue (× on the shelf, *Clear progress* on the issue page)
   or all at once (Settings → Reading); highlights, bookmarks and downloads are kept.
-- **Magazine**: cover grid of every issue, with filters by decade and year and a *readable only* toggle.
+- **Magazine**: an *About* band (history, purpose and era, with facts and sources — `content/magazines/`), then a
+  cover grid of every issue, with filters by decade and year and a *readable only* toggle.
 - **Issue**: large cover, credits, and the table of contents. Tap a story to open the reader at its page. Tap a name
   to see everything that person wrote, edited or illustrated.
 - **Search**: SQLite FTS5 over issues, stories and people. It matches word prefixes, ignores accents and case, finds

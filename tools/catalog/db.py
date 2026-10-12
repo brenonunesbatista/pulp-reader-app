@@ -27,6 +27,7 @@ class Part:
     block: int | None = None  # stable issue ids (sources.toml); None = sequential (Amazing Stories, ids 1–309)
     spreads: str = "auto"  # reader default for landscape spreads (sources.toml `spreads`)
     contents_credit: str | None = None  # source of the contents, credited on issue pages
+    about: str | None = None  # magazine description (JSON, tools/magazines.py)
 
 
 def issue_id(block: int, year: int, month: int, n: int) -> int:
@@ -41,14 +42,14 @@ def write(parts: list[Part], categories: list[dict], db_path: Path, cover_paths:
         db_path.unlink()
     con = sqlite3.connect(db_path)
     con.executescript(SCHEMA)
-    con.executemany("INSERT INTO catalog_meta VALUES (?, ?)", [("schema_version", "4"), *sorted(meta.items())])
+    con.executemany("INSERT INTO catalog_meta VALUES (?, ?)", [("schema_version", "5"), *sorted(meta.items())])
     cat_id = {c["slug"]: i for i, c in enumerate(categories, 1)}
     con.executemany("INSERT INTO category VALUES (?, ?, ?, ?)", [(i, c["slug"], c["name"], i) for c, i in
                                                                  zip(categories, cat_id.values())])
     for mid, part in enumerate(parts, 1):
-        con.execute("INSERT INTO magazine VALUES (?, ?, ?, ?, ?, ?, ?, ?)", (
+        con.execute("INSERT INTO magazine VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)", (
             mid, part.cat.magazine_name, part.cat.magazine_slug, part.cat.source, cat_id[part.category], mid, part.spreads,
-            part.contents_credit))
+            part.contents_credit, part.about))
 
     # people first, so ids are stable (sorted by display name)
     reg = name_registry(*(p.cat for p in parts))

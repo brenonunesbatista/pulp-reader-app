@@ -26,8 +26,19 @@ the ISFDB (CC BY 4.0). Not covered: Dragon, Dungeon, comics (the ISFDB barely in
   Aid Society, Challenge (GDW), Travellers' Digest; Pegasus, Adventure Gaming, Arcane, Gateways, Heroes, The Unspeakable
   Oath, Other Hands; OSR fanzines (Explosive Runes, Threshold, Protodimension). Survey: tools/spike/rpg_survey.py and the
   IA collections `gamemagazines`, `gamemagazinesmisc`, `magazine_packs`.
-- 🧪 10c RPG (BR), built 2026-10-12: Dragão Brasil (+ Especiais), Dragon Slayer, Revista Tormenta, Lua dos Dragões, Só
+- ✅ 10c RPG (BR), 2026-10-12: Dragão Brasil (+ Especiais), Dragon Slayer, Revista Tormenta, Lua dos Dragões, Só
   Aventuras. Revista Troll turned out to be Spanish (Club Auryn, 1986–1990): left out.
+## Phase 11 — magazine descriptions and more sources (user request 2026-10-12)
+- 🧪 11a descriptions: 47 drafts in content/magazines, review page, About band — built 2026-10-12.
+- 11b pulp: classic SF & fantasy (Weird Tales, Astounding, Startling, Planet, Thrilling Wonder, Fantastic Adventures,
+  Famous Fantastic Mysteries, Unknown, IF, Science Wonder Stories, Science Fiction Stories, SF Quarterly), adventure &
+  mystery (Adventure, Argosy, Blue Book, Popular, Ellery Queen, Thrilling Detective), British (New Worlds, Authentic SF,
+  Science Fantasy, Interzone). ISFDB contents where it indexes them. Survey: tools/spike/out/survey11*.json.
+- 11c comics: Golden Age (Fawcett / Captain Marvel, Captain Marvel Adventures, Ace Comics, Super Mystery, Web of
+  Mystery, Four Favorites, Bulletman, Crime Must Pay) and horror magazines (Creepy, Eerie, Vampirella, Skywald,
+  Famous Monsters of Filmland).
+- Hellboy: English editions are lending-only on the IA (the reader cannot open them); readable: the Portuguese Hellboy
+  Omnibus vol. 1–2 (`hellboy-omnibus-vol-02-paragens-exoticas`) — not chosen for now. Dime novels not chosen.
 - Not wanted: Casus Belli (FR), Sinkadus (SE), Magia i Miecz (PL), Diplomacy/chess/go zines.
 
 ## Atlas (Explore / Hall) — design notes

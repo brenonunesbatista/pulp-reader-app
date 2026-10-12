@@ -421,3 +421,16 @@ Banca" on *Marooned off Vesta*, which has no scan; the spec adds the "in the cat
   dates): Revista Tormenta 2001–2003 (Editora Talismã, D&D 3rd edition era), Lua dos Dragões 1998–1999 and Só Aventuras
   1997–1999 (both Trama Editorial, like Dragão Brasil), Dragão Brasil Especial 1996–2000. Corrections welcome.
 - Catalog: 47 magazines, 4,723 issues, 10.9 MB.
+
+## 2026-10-12 — Phase 11a: magazine descriptions
+- One file per magazine in `content/magazines/<slug>.md`: TOML front matter (status draft/reviewed, years of the whole
+  run, country, language, publishers, editors, optional Atlas entity, numbered sources) and a short English text that
+  cites them as [n]. Written by Claude from general knowledge, conservatively, with Wikipedia / SF Encyclopedia /
+  Internet Archive pages as sources (all 52 URLs checked to resolve); obscure magazines get short texts instead of
+  padding (25–220 words). Approximate dates are labelled "approx.". The user reviews them (review page) before they
+  ship — same rule as the Atlas.
+- `tools/magazines.py` validates (slug in sources.toml, citations, https sources, Atlas links) and renders the review
+  page; build_catalog stores reviewed descriptions as JSON in `magazine.about` (catalog schema v5); `--draft-about`
+  ships drafts for a preview build.
+- App: an *About* band on the magazine page (facts line, text with italics and citation marks, "In the Atlas" when
+  linked, collapsible sources opening in the browser).

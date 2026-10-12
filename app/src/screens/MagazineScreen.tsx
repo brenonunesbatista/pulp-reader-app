@@ -1,5 +1,6 @@
 import { Fragment, useMemo, useState } from 'react'
-import { getMagazine, listIssues, magazineEditors } from '../data/catalogRepo'
+import { getMagazine, getMagazineAbout, listIssues, magazineEditors } from '../data/catalogRepo'
+import { MagazineAbout } from './MagazineAbout'
 import type { IssueSummary } from '../data/models'
 import { useDb } from '../db/useDb'
 import { useDownloadList } from '../downloads/context'
@@ -19,6 +20,7 @@ export function MagazineScreen({ id }: { id: number }) {
   const nav = useNav()
   const data = useAsync(async () => ({
     mag: await getMagazine(catalog, id), issues: await listIssues(catalog, id), editors: await magazineEditors(catalog, id),
+    about: await getMagazineAbout(catalog, id),
   }), [catalog, id])
   const [decade, setDecade] = useState<number | 'all'>('all')
   const [year, setYear] = useState<number | null>(null)
@@ -50,6 +52,7 @@ export function MagazineScreen({ id }: { id: number }) {
       {data.status === 'error' && <ErrorBox error={data.error} />}
       {data.status === 'ok' && mag && (
         <>
+          {data.data.about && <MagazineAbout about={data.data.about} />}
           <div className="filter-band">
             <div className="muted small num">
               {mag.firstYear}–{mag.lastYear} · {mag.issueCount} issues · {mag.readable} readable

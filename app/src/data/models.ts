@@ -6,6 +6,18 @@ export interface Category {
   name: string
 }
 
+/** magazine description shown on its page (content/magazines/<slug>.md, built into catalog.db) */
+export interface MagazineAbout {
+  years: string
+  country: string
+  language: string
+  publishers: string[]
+  editors: string[]
+  atlas: string | null
+  text: string
+  sources: { n: number; title: string; url: string }[]
+}
+
 export interface Magazine {
   id: number
   name: string
